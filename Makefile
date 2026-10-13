@@ -123,6 +123,11 @@ calibrate: ## Refit the confidence calibrators on the calibration split and comm
 eval-record: ## Re-record every cassette from a real model (ANTHROPIC_API_KEY; costs money), then refit
 	uv run python -m manifest_evals run --mode record; uv run python -m manifest_evals calibrate
 
+.PHONY: images
+images: ## Build the api and worker images for this machine's platform (release.yml pushes amd64+arm64)
+	docker build -f services/api/Dockerfile -t manifest-api:dev .
+	docker build -f services/worker/Dockerfile -t manifest-worker:dev .
+
 .PHONY: lint
 lint: ## Ruff lint + format check + import contracts
 	uv run ruff check .

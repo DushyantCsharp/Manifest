@@ -1,0 +1,203 @@
+# Evals. Every PR (and every push to main) replays the committed cassettes through the
+# harness: offline, free, gated by evals/thresholds.yaml. Live evals call the real models
+# (about $4 a run at Sonnet 5.5 prices): nightly on main, by hand, and on a PR when someone
+# adds the `run-evals` label (re-add it to run again). Each run uploads its report as an
+# artifact; on a PR the deltas against main's last report become one comment per mode, updated
+# in place. Fork PRs get the deltas in the job summary only: their token can't comment, and
+# live runs never get the API keys.
+name: eval
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 3 * * *"  # nightly live evals, 03:23 UTC
+  workflow_dispatch:  # a live run of the chosen branch
+
+permissions: {}
+
+env:
+  UV_VERSION: "0.11.14"
+  PYTHON_VERSION: "3.12"
+  FORCE_COLOR: "1"
+
+jobs:
+  replay:
+    name: replay evals
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'pull_request' && github.event.action != 'labeled')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      actions: read  # main's last report, for the deltas
+    concurrency:
+      group: eval-replay-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: ${{ env.PYTHON_VERSION }}
+          enable-cache: true
+      - run: uv sync --locked
+      - name: Replay the corpus and the HS labels; gate on thresholds and calibrator drift
+        run: uv run python -m manifest_evals run
+      - name: Upload the report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: eval-replay
+          path: evals/reports/latest/
+          if-no-files-found: error
+          retention-days: ${{ github.event_name == 'push' && 90 || 14 }}
+      - name: Compare with main's last report
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          label=$(.github/scripts/eval-baseline.sh eval-replay push baseline)
+          uv run python -m manifest_evals.compare evals/reports/latest --base baseline \
+            --base-label "${label:-main}" --title "Replay evals" --marker replay \
+            --output comment.md
+          cat comment.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the comment for the commenting job
+        if: ${{ !cancelled() && github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: eval-replay-comment
+          path: comment.md
+          if-no-files-found: ignore
+          retention-days: 1
+
+  live:
+    name: live evals
+    if: >-
+      github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && github.event.action == 'labeled' &&
+       github.event.label.name == 'run-evals' &&
+       github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    permissions:
+      contents: read
+      actions: read  # main's last nightly report, for the deltas
+    concurrency:
+      group: eval-live-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+    # Hybrid HS retrieval needs the nomenclature and its embeddings in Postgres.
+    services:
+      postgres:
+        image: pgvector/pgvector:0.8.7-pg16@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a
+        env:
+          POSTGRES_USER: manifest
+          POSTGRES_PASSWORD: manifest
+          POSTGRES_DB: manifest
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U manifest -d manifest"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      MANIFEST_DB_URL: postgresql+asyncpg://manifest:manifest@localhost:5432/manifest
+    steps:
+      - name: The model keys are configured
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+        run: |
+          if [[ -z "$ANTHROPIC_API_KEY" || -z "$VOYAGE_API_KEY" ]]; then
+            echo "::error::live evals need the ANTHROPIC_API_KEY and VOYAGE_API_KEY secrets"
+            exit 1
+          fi
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: ${{ env.PYTHON_VERSION }}
+          enable-cache: true
+      - run: uv sync --locked
+      - run: uv run alembic -c libs/db/alembic.ini upgrade head
+      - name: Embed the HS 2022 subheadings (voyage-3.5)
+        env:
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+        run: uv run python -m manifest_hs.index
+      - name: Read every pack and walk every HS label with the real models; gate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+        run: uv run python -m manifest_evals run --mode live
+      - name: Upload the report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: eval-live
+          path: evals/reports/latest/
+          if-no-files-found: error
+          retention-days: ${{ github.event_name == 'schedule' && 90 || 14 }}
+      - name: Compare with main's last nightly report
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          label=$(.github/scripts/eval-baseline.sh eval-live schedule baseline)
+          uv run python -m manifest_evals.compare evals/reports/latest --base baseline \
+            --base-label "${label:-main}" --title "Live evals" --marker live \
+            --output comment.md
+          cat comment.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the comment for the commenting job
+        if: ${{ !cancelled() && github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: eval-live-comment
+          path: comment.md
+          if-no-files-found: ignore
+          retention-days: 1
+
+  comment:
+    name: comment on the PR
+    needs: [replay, live]
+    if: >-
+      !cancelled() && github.event_name == 'pull_request' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      (needs.replay.result != 'skipped' || needs.live.result != 'skipped')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      pull-requests: write  # create or update this PR's eval comments
+    concurrency:
+      group: eval-comment-${{ github.event.pull_request.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c  # v8.0.1
+        with:
+          pattern: eval-*-comment
+          path: comments
+      - name: Create or update this PR's eval comments
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          for mode in replay live; do
+            file="comments/eval-$mode-comment/comment.md"
+            [[ -f "$file" ]] || continue
+            marker="<!-- manifest-eval:$mode -->"
+            ids=$(gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$PR/comments" --jq \
+              ".[] | select(.user.login == \"github-actions[bot]\")
+                   | select(.body | startswith(\"$marker\")) | .id")
+            existing=${ids%%$'\n'*}
+            if [[ -n "$existing" ]]; then
+              gh api --method PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$existing" \
+                --field "body=@$file" > /dev/null
+            else
+              gh api --method POST "repos/$GITHUB_REPOSITORY/issues/$PR/comments" \
+                --field "body=@$file" > /dev/null
+            fi
+          done

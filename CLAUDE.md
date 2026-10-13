@@ -28,6 +28,8 @@ keeps confidence measurable by `evals/`.
 | `tools/codegen` | — | Pinned client generators, locked outside the workspace |
 | `scripts/contracts.py` | — | Export contracts, regenerate clients, drift check (`make contracts[-check]`) |
 | `infra` | — | docker compose for the local stack |
+| `services/*/Dockerfile` | — | Release images (`manifest-api`, `manifest-worker`); context is the repo root, `.dockerignore` is an allowlist |
+| `.github/workflows` | — | `ci.yml` (checks), `eval.yml` (replay + live evals, PR comments), `release.yml` (images on `v*` tags) |
 
 ## Rules
 
@@ -143,6 +145,30 @@ keeps confidence measurable by `evals/`.
 - Reference data ships as vendored, checksummed files (HS 2022: see
   `libs/db/src/manifest_db/migrations/data/hs2022/SOURCE.md`), never fetched at migrate time.
 
+### CI, evals in CI, releases (`.github/workflows`)
+- Every action is pinned to a commit SHA (`# vX.Y.Z` beside it) and every image to a digest;
+  pick releases at least two weeks old. Workflows start from `permissions: {}` and each job
+  asks only for what it uses; secrets go to the step that needs them, never the job.
+- `ci.yml` runs `make lint`, `make typecheck`, `make test`, the integration suite with Alembic
+  up → check → down → up, `make contracts-check` and a 25-example schemathesis smoke, all via the
+  Makefile. Docs-only changes skip them; **`ci-ok` is the check to require**. Integration in CI
+  uses service containers: `conftest.py` takes `MANIFEST_TEST_*` addresses instead of starting
+  testcontainers. Keep the images in `conftest.py`, `infra/compose.yaml` and the workflows in step.
+- `eval.yml` replays the cassettes on every PR and push to main (free, gated). Live evals call
+  the real models (~$4 a run; secrets `ANTHROPIC_API_KEY`, `VOYAGE_API_KEY`): nightly, by
+  `workflow_dispatch`, and when a maintainer adds the `run-evals` label to a same-repo PR
+  (re-add to rerun). Reports are artifacts (`eval-replay` from pushes to main, `eval-live` from
+  nightlies, 90 days); a PR gets one comment per mode with deltas against main's last report
+  (`python -m manifest_evals.compare`), updated in place.
+- `release.yml` on a `v*` tag builds both images for amd64, smoke-tests them (API `/healthz`, a
+  real OCR in the worker), and gates on Trivy: a fixable CRITICAL CVE fails the release (unfixed
+  ones are listed in the summary). Only when both pass does it push amd64 + arm64 to
+  `ghcr.io/<owner>/manifest-{api,worker}` with an SBOM and `provenance: mode=max`.
+- Images: `uv sync --frozen --no-dev --no-editable --package manifest-<service>` in the builder,
+  python slim at runtime, uid 10001, venv owned by root; tesseract only in the worker. An image
+  has exactly what its package declares: a module the workspace happens to install (through
+  `evals` or dev tools) is missing in production, so declare every runtime import.
+
 ## Commands
 
 ```
@@ -167,6 +193,7 @@ make eval              replay the corpus and HS labels, report to evals/reports/
                        evals/thresholds.yaml and on calibrator drift (part of make check)
 make calibrate         refit the calibrators and commit new versions when they change
 make eval-record       re-record every cassette from a real model (keys; costs money), refit
+make images            build the api and worker images for this machine (as release.yml does)
 make lint / fmt        ruff + import contracts
 make typecheck         mypy --strict on libs/
 make contracts         export contracts/ from the app + regenerate all typed clients
@@ -183,7 +210,7 @@ make check             lint + typecheck + test + test-contract + contracts-check
 - **Integration** uses testcontainers from the root `conftest.py` (`postgres_url`, `redis_url`,
   `broker`, `object_store`): session-scoped, lazy, same images as `infra/compose.yaml`. Never
   depend on `make up` in a test. Each test makes its own database (`scratch_database`), Redis
-  namespace or RabbitMQ vhost.
+  namespace or RabbitMQ vhost, so CI can share one server per fixture (`MANIFEST_TEST_*`).
 - **Property tests** (hypothesis) for anything with an algebra: normalisers, alignment, confidence.
   `HYPOTHESIS_PROFILE=ci` runs more examples, derandomised.
 - **LLM calls in tests are replayed**, never made: `manifest_llm.cassette.CassetteProvider` keys

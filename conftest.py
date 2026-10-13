@@ -2,6 +2,11 @@
 
 Containers are session-scoped and lazy (started only when a test asks for one), use the same
 images as infra/compose.yaml, and need only Docker, not `make up`. Unit tests use none.
+
+CI runs the same images as service containers instead (.github/workflows/ci.yml) and points
+each fixture at one through ``MANIFEST_TEST_*`` (see ``EXTERNAL``). Tests still isolate
+themselves (their own database, Redis namespace, vhost and object keys), so sharing a server
+is safe. Never point these at a server whose data matters.
 """
 
 import os
@@ -23,6 +28,25 @@ REDIS_IMAGE = "redis:8.8"
 MINIO_IMAGE = "pgsty/minio:RELEASE.2026-08-04T00-00-00Z"
 BUCKET = "manifest-documents"
 
+# A running server per fixture, instead of a container: all of a fixture's variables, or none.
+EXTERNAL = {
+    "postgres_url": ["MANIFEST_TEST_POSTGRES_URL"],  # postgresql+asyncpg://manifest:manifest@…
+    "redis_url": ["MANIFEST_TEST_REDIS_URL"],  # redis://host:port/0
+    "broker": ["MANIFEST_TEST_AMQP_URL", "MANIFEST_TEST_RABBITMQ_API"],  # user manifest/manifest
+    "object_store": ["MANIFEST_TEST_S3_ENDPOINT"],  # MinIO, user manifest/manifest-secret
+}
+
+
+def external(fixture: str) -> list[str] | None:
+    """The configured servers' addresses for ``fixture``; None to start a container."""
+    names = EXTERNAL[fixture]
+    values = [os.environ.get(name, "") for name in names]
+    if not any(values):
+        return None
+    if not all(values):
+        raise pytest.UsageError(f"{fixture} needs all of {', '.join(names)} or none")
+    return values
+
 
 @dataclass(frozen=True)
 class Broker:
@@ -40,6 +64,9 @@ class ObjectStore:
 
 @pytest.fixture(scope="session")
 def postgres_url() -> Iterator[str]:
+    if configured := external("postgres_url"):
+        yield configured[0]
+        return
     from testcontainers.community.postgres import PostgresContainer
 
     container = PostgresContainer(
@@ -51,6 +78,9 @@ def postgres_url() -> Iterator[str]:
 
 @pytest.fixture(scope="session")
 def redis_url() -> Iterator[str]:
+    if configured := external("redis_url"):
+        yield configured[0]
+        return
     from testcontainers.community.redis import RedisContainer
 
     with RedisContainer(REDIS_IMAGE) as container:
@@ -60,6 +90,10 @@ def redis_url() -> Iterator[str]:
 
 @pytest.fixture(scope="session")
 def broker() -> Iterator[Broker]:
+    if configured := external("broker"):
+        amqp_url, management = configured
+        yield Broker(amqp_url.rstrip("/") + "/", management.rstrip("/"))
+        return
     from testcontainers.community.rabbitmq import RabbitMqContainer
 
     container = RabbitMqContainer(RABBITMQ_IMAGE, username="manifest", password="manifest")
@@ -72,6 +106,16 @@ def broker() -> Iterator[Broker]:
 
 @pytest.fixture(scope="session")
 def object_store() -> Iterator[ObjectStore]:
+    if configured := external("object_store"):
+        from minio import Minio
+
+        endpoint = configured[0].rstrip("/")
+        scheme, _, host = endpoint.partition("://")
+        client = Minio(host, "manifest", "manifest-secret", secure=scheme == "https")
+        if not client.bucket_exists(BUCKET):
+            client.make_bucket(BUCKET)
+        yield ObjectStore(endpoint, "manifest", "manifest-secret", BUCKET)
+        return
     from testcontainers.community.minio import MinioContainer
 
     container = MinioContainer(MINIO_IMAGE, access_key="manifest", secret_key="manifest-secret")

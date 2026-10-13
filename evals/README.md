@@ -59,6 +59,12 @@ reports to `evals/reports/latest/` (`report.md`, `report.json`, three charts):
 It fails when a metric breaks its gate in `thresholds.yaml`, or when a committed calibrator
 (`libs/domain/src/manifest_domain/calibrators/`) differs from a refit: run `make calibrate`.
 
+In CI (`.github/workflows/eval.yml`) every PR replays the harness; the nightly run, a manual
+dispatch, or the `run-evals` label on a PR runs it live (`--mode live`: answers go to a temporary
+folder, the committed cassettes stay as they are). Reports are kept as artifacts, and
+`python -m manifest_evals.compare HEAD_DIR --base BASE_DIR` turns two reports into the PR
+comment: every gated metric with main's value, this run's and the change, then what else moved.
+
 ## Where the answers come from
 
 **The committed cassettes hold a real model's answers** (recorded 2026-10-13 with

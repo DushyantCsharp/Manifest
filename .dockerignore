@@ -1,0 +1,15 @@
+# Build context for services/*/Dockerfile: an allowlist, so secrets (.env), the eval corpus,
+# caches and tests never reach a build. uv needs every workspace member's pyproject.toml to
+# read the workspace, but only the libs and services are installed.
+**
+!pyproject.toml
+!uv.lock
+!libs/*/pyproject.toml
+!libs/*/src/
+!services/*/pyproject.toml
+!services/*/src/
+!evals/pyproject.toml
+!clients/python/pyproject.toml
+!clients/graphql/pyproject.toml
+**/__pycache__
+**/*.pyc
