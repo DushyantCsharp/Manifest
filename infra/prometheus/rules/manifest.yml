@@ -1,0 +1,43 @@
+# Alerts on Manifest's own metrics (manifest_telemetry.metrics). Unit tests: ../tests/,
+# run with `make infra-check`. Queue gauges are taken as the max by queue, never the sum: every
+# monitor instance reports the same broker-wide depth, and after a restart the old instance's
+# series lingers (staleness, collector expiry) beside the new one's, which a sum would double.
+groups:
+  - name: manifest
+    rules:
+      - alert: DeadLetterQueueGrowing
+        # More messages parked than 10 minutes ago: a stage is giving up on work (retries
+        # exhausted, rejected, poison). Redriving shrinks the queue and doesn't fire.
+        expr: max by (queue) (dlq_depth) - max by (queue) (dlq_depth offset 10m) > 0
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.queue }} grew by {{ $value }} in 10 minutes"
+          description: >-
+            Messages are being parked in {{ $labels.queue }}. Each carries why in its
+            x-manifest-* headers: `make dlq ARGS="list"`, then `show ID`. Fix the cause, then
+            `make dlq ARGS="redrive --id ID"`.
+
+      - alert: ReviewQueueStale
+        # The oldest open review task has waited more than four hours.
+        expr: max(review_queue_age_seconds) > 4 * 3600
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "A review task has waited {{ $value | humanizeDuration }}"
+          description: >-
+            The oldest open review task is over 4 hours old. Shipments routed to review are
+            blocked until someone looks at them.
+
+      - alert: MonitorDown
+        # Both alerts above read gauges only the monitor reports; without it they can't fire.
+        expr: absent(review_queue_age_seconds) or absent(dlq_depth)
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "No queue or review-queue samples for 5 minutes"
+          description: >-
+            `python -m manifest_worker.monitor` isn't reporting (stopped, or can't export to
+            the collector), so DeadLetterQueueGrowing and ReviewQueueStale can't fire.

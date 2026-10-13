@@ -129,6 +129,7 @@ services:
       - --web.enable-remote-write-receiver
     volumes:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./prometheus/rules:/etc/prometheus/rules:ro
       - prometheus-data:/prometheus
     ports:
       - "127.0.0.1:${PROMETHEUS_PORT:-9090}:9090"
@@ -147,12 +148,82 @@ services:
       GF_AUTH_DISABLE_LOGIN_FORM: "true"
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/etc/grafana/dashboards:ro
       - grafana-data:/var/lib/grafana
     ports:
       - "127.0.0.1:${GRAFANA_PORT:-3000}:3000"
     depends_on:
       - prometheus
       - tempo
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------- the app (profile "app")
+  # The release images (services/*/Dockerfile), wired to the services above:
+  #   docker compose -f infra/compose.yaml --profile app up -d --build
+  # `make up` doesn't start them; `make api` / `make worker` run on the host instead. No model
+  # keys are passed in: set ANTHROPIC_API_KEY / VOYAGE_API_KEY in your shell to call models.
+  api:
+    profiles: ["app"]
+    build:
+      context: ..
+      dockerfile: services/api/Dockerfile
+    image: manifest-api:local
+    environment: &app-environment
+      MANIFEST_DB_URL: postgresql+asyncpg://manifest:manifest@postgres:5432/manifest
+      MANIFEST_BROKER_URL: amqp://manifest:manifest@rabbitmq:5672//
+      MANIFEST_RESULT_BACKEND_URL: redis://redis:6379/1
+      MANIFEST_REDIS_URL: redis://redis:6379/0
+      MANIFEST_S3_ENDPOINT_URL: http://minio:9000
+      # Presigned upload URLs are for clients on the host.
+      MANIFEST_S3_PUBLIC_ENDPOINT_URL: http://localhost:${MINIO_PORT:-9000}
+      MANIFEST_RABBITMQ_API_URL: http://rabbitmq:15672/api
+      MANIFEST_ENVIRONMENT: ${MANIFEST_ENVIRONMENT:-local}
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://otel-collector:4318
+      OTEL_RESOURCE_ATTRIBUTES: ${OTEL_RESOURCE_ATTRIBUTES:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      VOYAGE_API_KEY: ${VOYAGE_API_KEY:-}
+    command: ["uvicorn", "manifest_api.main:app", "--host", "0.0.0.0", "--port", "8010", "--workers", "${API_WORKERS:-2}"]
+    ports:
+      - "127.0.0.1:${API_PORT:-8010}:8010"
+    depends_on: &app-dependencies
+      postgres:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    restart: unless-stopped
+
+  worker:
+    profiles: ["app"]
+    build:
+      context: ..
+      dockerfile: services/worker/Dockerfile
+    image: manifest-worker:local
+    environment: *app-environment
+    command:
+      - celery
+      - -A
+      - manifest_worker.app:celery_app
+      - worker
+      - --loglevel=INFO
+      - --without-gossip
+      - --without-mingle
+      - --concurrency=${WORKER_CONCURRENCY:-8}
+    depends_on: *app-dependencies
+    restart: unless-stopped
+
+  # Exactly one: it samples queue depths and the review queue for everyone.
+  monitor:
+    profiles: ["app"]
+    image: manifest-worker:local
+    environment: *app-environment
+    command: ["python", "-m", "manifest_worker.monitor"]
+    depends_on:
+      worker:
+        condition: service_started
     restart: unless-stopped
 
 volumes:

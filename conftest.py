@@ -16,11 +16,27 @@ from dataclasses import dataclass
 import pytest
 from hypothesis import settings
 
+from manifest_telemetry.testing import capture
+
 # Hypothesis: no per-example deadline (Decimal brute-force oracles are slow on a cold start).
 # CI sets HYPOTHESIS_PROFILE=ci for more examples, derandomised so a failure reproduces.
 settings.register_profile("dev", deadline=None)
 settings.register_profile("ci", deadline=None, max_examples=500, derandomize=True)
 settings.load_profile(os.environ.get("HYPOTHESIS_PROFILE", "dev"))
+
+
+def pytest_configure(config: pytest.Config) -> None:
+    # Telemetry stays in memory in tests. Installed first, so nothing a test starts (a worker's
+    # worker_init, the API's lifespan) can configure OTLP export: providers are set once per
+    # process, and later configure() calls keep these.
+    capture()
+
+
+@pytest.fixture(autouse=True)
+def _forget_spans() -> None:
+    """Each test sees only its own spans (and the session doesn't hoard them)."""
+    capture().clear_spans()
+
 
 POSTGRES_IMAGE = "pgvector/pgvector:0.8.7-pg16"
 RABBITMQ_IMAGE = "rabbitmq:4.3.6-management"

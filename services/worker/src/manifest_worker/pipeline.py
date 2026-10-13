@@ -15,6 +15,7 @@ from typing import Any, NoReturn
 from celery import Task
 from celery.exceptions import Retry
 
+from manifest_telemetry import stage
 from manifest_worker.app import settings
 from manifest_worker.errors import TRANSIENT, TransientError
 from manifest_worker.topology import dead_letter_queue
@@ -33,6 +34,11 @@ class PipelineTask(Task):  # type: ignore[misc]
     retry_jitter = True
     acks_late = True
     reject_on_worker_lost = True
+
+    def __call__(self, *args: Any, **kwargs: Any) -> Any:
+        # Model calls made by this task are counted (tokens, cost) under its stage.
+        with stage(self.stage):
+            return super().__call__(*args, **kwargs)
 
     def on_failure(
         self, exc: BaseException, task_id: str, args: Any, kwargs: Any, einfo: Any

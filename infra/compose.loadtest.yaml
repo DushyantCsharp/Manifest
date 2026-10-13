@@ -1,0 +1,26 @@
+# Load-test overrides for the app profile (scripts/loadtest.py applies them):
+#   docker compose -f infra/compose.yaml -f infra/compose.loadtest.yaml --profile app up -d
+#
+# The worker replays the eval corpus' real model recordings instead of calling a model, each
+# taking as long as the recorded call did, so latency and token counts (hence cost) are the
+# model's while nothing is called or paid for. HS classification is off: the corpus holds no
+# recorded walks for these line items, and a replay can only answer what was recorded. Rate
+# limits are an account's real ones (the defaults are deliberately small), so the bucket
+# admits what the provider would.
+services:
+  worker:
+    environment:
+      MANIFEST_LLM_CASSETTES: /cassettes
+      MANIFEST_LLM_CASSETTE_MODE: replay
+      MANIFEST_LLM_REPLAY_LATENCY: "true"
+      MANIFEST_HS_ENABLED: "false"
+      MANIFEST_LLM_REQUESTS_PER_MINUTE: ${LOADTEST_RPM:-1000}
+      MANIFEST_LLM_TOKENS_PER_MINUTE: ${LOADTEST_TPM:-2000000}
+      ANTHROPIC_API_KEY: ""
+      VOYAGE_API_KEY: ""
+    volumes:
+      - ${LOADTEST_CASSETTES:?run scripts/loadtest.py, which prepares them}:/cassettes:ro
+  api:
+    environment:
+      ANTHROPIC_API_KEY: ""
+      VOYAGE_API_KEY: ""

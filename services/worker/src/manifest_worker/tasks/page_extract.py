@@ -14,6 +14,7 @@ Results are upserted per (document, page, schema version): a rerun overwrites, n
 """
 
 import logging
+import time
 from dataclasses import dataclass
 from typing import Any
 from uuid import UUID
@@ -25,6 +26,7 @@ from sqlalchemy.orm import Session
 from manifest_db.models import Document, Page, PageExtraction
 from manifest_domain.lifecycle import DocumentKind, PageStatus
 from manifest_llm.errors import RateLimitedError
+from manifest_telemetry import metrics
 from manifest_worker.app import celery_app
 from manifest_worker.errors import (
     CONTENT_ERRORS,
@@ -48,6 +50,16 @@ class PageRef:
     document_id: UUID
     page_no: int
     schema_version: int
+    started: float = 0.0  # time.monotonic() when this attempt began
+
+
+def _settled(
+    ref: PageRef, status: str, failure: str = "", kind: DocumentKind | None = None
+) -> None:
+    """Count a page whose extraction is final (not a retry or deferral) and time the attempt."""
+    labels = {"status": status, "failure": failure, "kind": str(kind or "unknown")}
+    metrics.pages_processed.add(1, labels)
+    metrics.page_latency.record(time.monotonic() - ref.started, {"status": status})
 
 
 def _set_page(session: Session, ref: PageRef, **values: Any) -> None:
@@ -136,6 +148,7 @@ def _fail(
         )
     if to_dlq:
         park(task, exc, failure=failure)
+    _settled(ref, "failed", failure)
     logger.warning("page %s of %s failed (%s): %s", ref.page_no, ref.document_id, failure, message)
     return {"page_no": ref.page_no, "status": "failed", "failure": failure}
 
@@ -161,7 +174,7 @@ def _succeed(rt: Runtime, ref: PageRef, extracted: ExtractedPage, attempt: int) 
 @celery_app.task(bind=True, base=PipelineTask, name="manifest.page_extract", stage="page_extract")
 def page_extract(self: PipelineTask, document_id: str, page_no: int, schema_version: int) -> Any:
     rt = runtime()
-    ref = PageRef(UUID(document_id), page_no, schema_version)
+    ref = PageRef(UUID(document_id), page_no, schema_version, time.monotonic())
     attempt = self.request.retries + 1
     fail: dict[str, Any] = {"task": self, "rt": rt, "ref": ref, "attempt": attempt}
 
@@ -193,6 +206,7 @@ def page_extract(self: PipelineTask, document_id: str, page_no: int, schema_vers
         return _fail(**fail, exc=exc, failure="error", review=False, to_dlq=True)
 
     _succeed(rt, ref, extracted, attempt)
+    _settled(ref, "extracted", kind=kind)
     if not self.request.chord:  # run on its own (e.g. redriven): refresh the document now
         reconcile.delay([], document_id, schema_version)
     return {"page_no": page_no, "status": "extracted"}

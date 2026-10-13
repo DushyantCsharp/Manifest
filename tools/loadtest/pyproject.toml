@@ -1,0 +1,13 @@
+# Load-test client, locked separately from the workspace (own uv.lock and .venv): Locust
+# brings gevent and Flask, which nothing else needs. It only talks HTTP to a running API and
+# to storage, so it shares no code with the app. Run it through scripts/loadtest.py.
+[project]
+name = "manifest-loadtest"
+version = "0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "locust==2.46.6",
+]
+
+[tool.uv]
+package = false

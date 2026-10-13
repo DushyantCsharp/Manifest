@@ -17,8 +17,8 @@ keeps confidence measurable by `evals/`.
 | `libs/db` | `manifest_db` | SQLAlchemy 2.0 async models (`models.py`), Alembic migrations, vendored HS 2022 data |
 | `libs/llm` | `manifest_llm` | LLM and embedding providers (Anthropic, Voyage), Redis token bucket, structured output, cassettes, prices |
 | `libs/hs` | `manifest_hs` | HS 2022 tree, hybrid retrieval (pgvector + full-text, fused), the chapter → heading → subheading walk, index build |
-| `libs/telemetry` | `manifest_telemetry` | OpenTelemetry tracing/metrics, structured logging |
-| `services/api` | `manifest_api` | FastAPI: REST under `/v1`, Strawberry GraphQL at `/graphql` |
+| `libs/telemetry` | `manifest_telemetry` | OpenTelemetry: providers and OTLP export (`configure`), library instrumentation, `gen_ai` spans, every metric's definition (`metrics`), the pipeline stage in context |
+| `services/api` | `manifest_api` | FastAPI: REST under `/v1`, Strawberry GraphQL at `/graphql`; production adapters in `adapters/` |
 | `services/worker` | `manifest_worker` | Celery app; one module per pipeline stage in `tasks/`; data backfills in `backfills/` |
 | `evals` | `manifest_evals` | Frozen corpus (`golden/`), labels (`labels/`, incl. `hs.jsonl`), cassettes, splits, `thresholds.yaml`, harness (`run.py`), synthetic generator (`synth/`) |
 | `contracts/` | — | **Generated, committed:** `openapi.json` (OpenAPI 3.1) and `schema.graphql` |
@@ -27,7 +27,8 @@ keeps confidence measurable by `evals/`.
 | `web/review` | — | Reviewer UI; for now only **generated** REST types in `src/generated/` |
 | `tools/codegen` | — | Pinned client generators, locked outside the workspace |
 | `scripts/contracts.py` | — | Export contracts, regenerate clients, drift check (`make contracts[-check]`) |
-| `infra` | — | docker compose for the local stack |
+| `infra` | — | docker compose for the local stack (profile `app`: the api, worker and monitor images); Grafana dashboards (`grafana/dashboards`), Prometheus alert rules and their tests (`prometheus/rules`, `prometheus/tests`) |
+| `tools/loadtest`, `scripts/loadtest.py` | — | Locust load test (own lock), targets (`targets.yaml`) and reports (`reports/`) |
 | `services/*/Dockerfile` | — | Release images (`manifest-api`, `manifest-worker`); context is the repo root, `.dockerignore` is an allowlist |
 | `.github/workflows` | — | `ci.yml` (checks), `eval.yml` (replay + live evals, PR comments), `release.yml` (images on `v*` tags) |
 
@@ -75,8 +76,15 @@ keeps confidence measurable by `evals/`.
 - Every POST takes a required `Idempotency-Key` and runs through `run_idempotent`.
 - Lists use keyset cursors from `manifest_api.pagination` over the queries in
   `manifest_db.keyset`; never offset pagination.
-- Handlers and resolvers call only the Protocols in `manifest_api.ports`. A port with no
-  adapter answers 501; tests inject in-memory fakes (`services/api/tests/conftest.py`).
+- Handlers and resolvers call only the Protocols in `manifest_api.ports`. Production adapters
+  live in `manifest_api.adapters` (Postgres via asyncpg, presigned S3 multipart uploads, Redis
+  idempotency keys, pending-pages admission, the broker) and are built by
+  `create_app(wired=True)`, which `uvicorn manifest_api.main:app` serves. The review port has
+  no adapter yet; an unwired port answers 501. Tests inject in-memory fakes
+  (`services/api/tests/conftest.py`) or the real adapters on testcontainers.
+- The API hands work to the worker only by publishing `manifest.classify` (exchange `manifest`,
+  routing key `classify`) through Celery's protocol, after the document is committed as
+  `queued`; it declares nothing (the worker owns the topology). A worker test checks the names.
 - GraphQL mutations return expected failures as `userErrors`, not GraphQL errors.
 
 ### Pipeline (`services/worker`)
@@ -117,6 +125,35 @@ keeps confidence measurable by `evals/`.
 - RabbitMQ 4 refuses Celery's transient control queues: remote control is off, and workers
   run `--without-gossip --without-mingle`. Inspect queues in the management UI, dead letters
   with `make dlq`.
+- Prefork needs `fork`: on macOS billiard spawns its children, which can't run tasks, so run
+  the worker in its container there (`make app`) or with `--pool threads`.
+- `MANIFEST_HS_ENABLED=false` skips the HS walk (lines route to review as HS_UNCERTAIN);
+  `MANIFEST_LLM_REPLAY_LATENCY=true` makes cassette replays take their recorded time. Both
+  exist for load tests.
+
+### Telemetry (`libs/telemetry`)
+- One `configure(service)` per process, before anything creates an engine or client: the API
+  in its lifespan, each worker child at `worker_process_init` (never the prefork parent: its
+  children would share one `service.instance.id`), the monitor in `main`. OTLP over HTTP to
+  `OTEL_EXPORTER_OTLP_ENDPOINT`; `OTEL_SDK_DISABLED=true` turns it all off.
+- `instrument()` traces SQLAlchemy, Celery, botocore, redis and httpx; `instrument_fastapi`
+  the API. SQLAlchemy is patched at `sqlalchemy.create_engine`, so engines are made through the
+  module attribute (`manifest_db.session`); the instrumentation predates SQLAlchemy 2.1 and is
+  enabled with `skip_dep_check` (the trace test proves it works).
+- Trace context rides Celery's message headers, so one trace runs from the finalize request
+  through classify, every page_extract of the chord, each model call and reconcile
+  (`services/worker/tests/test_tracing.py` asserts it). Publish through Celery, never raw kombu.
+- Every model call is a `gen_ai.*` span in `LlmGateway` (operation, provider, model, tokens,
+  finish reason; error type on failure). Prompts and answers are personal data: captured only
+  with `OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT=true`.
+- Every metric is defined in `manifest_telemetry.metrics` (the dashboards and alerts read those
+  names); add new ones there. Tokens and cost carry the pipeline stage, which `PipelineTask`
+  sets for each task. Cost is list price (`manifest_llm.pricing`), a float only in the metric.
+- System state (queue and DLQ depth, review queue age, auto-approve ratio) comes from exactly one
+  `make monitor` process; queries take `max by (queue)`, never the sum.
+- Alerts are Prometheus rules (`infra/prometheus/rules`) with promtool unit tests
+  (`make infra-check`, in CI): DLQ growth over 10 minutes, a review task older than 4 hours,
+  and the monitor going quiet (without it neither of the others can fire).
 
 ### Confidence and calibration
 - Confidences combine only through `manifest_domain.confidence` (corroborate, contradict,
@@ -180,7 +217,9 @@ make dlq ARGS="..."    dead letters: list | show ID | diff A B | redrive --id ID
 make backfill-origin   re-extract v1 documents lacking line-item origin (unblocks migration 0005)
 make backfill-v3       re-extract documents not yet on schema v3 (unblocks migration 0008)
 make hs-index          embed the HS subheadings for vector retrieval (VOYAGE_API_KEY; resumable)
-make api / worker      run locally (API on :8010)
+make api / worker      run locally (API on :8010; the worker needs Linux for prefork)
+make monitor          queue/DLQ depth, review queue age, auto-approve ratio (run exactly one)
+make app              the api, worker and monitor images against the local stack
 make test              unit tests + 85% coverage gate on libs/ (no infra, no Docker)
 make test-integration  @pytest.mark.integration: real services via testcontainers (Docker)
 make test-contract     schemathesis fuzzes the REST API against contracts/openapi.json
@@ -195,6 +234,9 @@ make calibrate         refit the calibrators and commit new versions when they c
 make eval-record       re-record every cassette from a real model (keys; costs money), refit
 make images            build the api and worker images for this machine (as release.yml does)
 make lint / fmt        ruff + import contracts
+make infra-check       promtool: check and unit-test the alert rules (Docker)
+make loadtest         Locust against the app images, replaying recorded model answers at
+                       their recorded latency; report vs tools/loadtest/targets.yaml
 make typecheck         mypy --strict on libs/
 make contracts         export contracts/ from the app + regenerate all typed clients
 make contracts-check   fail if contracts/ or clients drifted (CI); `uv run python
@@ -211,6 +253,9 @@ make check             lint + typecheck + test + test-contract + contracts-check
   `broker`, `object_store`): session-scoped, lazy, same images as `infra/compose.yaml`. Never
   depend on `make up` in a test. Each test makes its own database (`scratch_database`), Redis
   namespace or RabbitMQ vhost, so CI can share one server per fixture (`MANIFEST_TEST_*`).
+- **Telemetry in tests**: `manifest_telemetry.testing.capture()` installs in-memory span and
+  metric collection for the test process (once); metrics are cumulative, so tests filter on
+  attributes they make unique (a model name, a window) or compare before and after.
 - **Property tests** (hypothesis) for anything with an algebra: normalisers, alignment, confidence.
   `HYPOTHESIS_PROFILE=ci` runs more examples, derandomised.
 - **LLM calls in tests are replayed**, never made: `manifest_llm.cassette.CassetteProvider` keys

@@ -1,0 +1,13 @@
+apiVersion: 1
+
+# The dashboards in infra/grafana/dashboards (mounted at /etc/grafana/dashboards), in a
+# "Manifest" folder. Edits in the UI can't be saved over them: export the JSON instead.
+providers:
+  - name: manifest
+    folder: Manifest
+    type: file
+    allowUiUpdates: false
+    disableDeletion: true
+    updateIntervalSeconds: 30
+    options:
+      path: /etc/grafana/dashboards

@@ -135,10 +135,19 @@ class AnthropicProvider:
         except anthropic.APIError as exc:
             raise classify(exc) from exc
         if message.stop_reason in ("refusal", "max_tokens"):
-            raise OutputValidationError(f"{request.model} stopped with {message.stop_reason}")
+            raise OutputValidationError(
+                f"{request.model} stopped with {message.stop_reason}",
+                finish_reason=message.stop_reason,
+            )
         text = "".join(block.text for block in message.content if block.type == "text")
         try:
             data = json.loads(text, parse_float=Decimal)  # never a float
         except json.JSONDecodeError as exc:
             raise OutputValidationError(f"{request.model} answered invalid JSON: {exc}") from exc
-        return JsonResponse(data, message.usage.input_tokens, message.usage.output_tokens)
+        return JsonResponse(
+            data,
+            message.usage.input_tokens,
+            message.usage.output_tokens,
+            finish_reason=message.stop_reason,
+            response_model=message.model,
+        )

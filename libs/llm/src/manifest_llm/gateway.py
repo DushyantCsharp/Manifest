@@ -5,6 +5,10 @@ briefly in-process, or raising ``RateLimitedError`` so the caller re-queues), ca
 provider, settles the bucket with real token usage and validates the answer against a Pydantic
 model. ``LlmGateway.embed`` does the same for embedding models. Provider-level retries are the
 caller's job (Celery), so providers never retry.
+
+Every call is observable here, because every call passes through: a ``gen_ai.*`` span
+(``manifest_telemetry.genai``), tokens and list-price cost by model and pipeline stage, and
+how long the rate limiter held it (``manifest_telemetry.metrics``).
 """
 
 import json
@@ -17,7 +21,10 @@ from pydantic import BaseModel, ValidationError
 
 from manifest_llm.embeddings import EmbeddingProvider, EmbedRequest, InputType
 from manifest_llm.errors import OutputValidationError, RateLimitedError
+from manifest_llm.pricing import cost
 from manifest_llm.ratelimit import Limits
+from manifest_telemetry import current_stage, genai
+from manifest_telemetry import metrics as telemetry
 
 Effort = Literal["low", "medium", "high", "xhigh", "max"]
 
@@ -38,6 +45,8 @@ class JsonResponse:
     input_tokens: int
     output_tokens: int
     latency_ms: int | None = None  # set by replays: how long the recorded call took
+    finish_reason: str | None = None  # why the model stopped (end_turn, ...), when known
+    response_model: str | None = None  # the exact model that answered, when reported
 
 
 class RateLimiter(Protocol):
@@ -124,12 +133,20 @@ class LlmGateway:
     def admit(self, provider: str, model: str, tokens: int) -> None:
         """Take budget for one call, sleeping only for short waits; else ``RateLimitedError``."""
         limits = self.limits_for(provider, model)
+        held = {"provider": provider, "model": model}
         wait = self._bucket.try_acquire(provider, model, limits, tokens)
-        if wait and wait <= self._max_inline_wait:
+        if not wait:
+            telemetry.rate_limiter_wait.record(0, {**held, "outcome": "admitted"})
+            return
+        if wait <= self._max_inline_wait:
             self._sleep(wait)
+            slept = wait
             wait = self._bucket.try_acquire(provider, model, limits, tokens)
-        if wait:
-            raise RateLimitedError(wait)
+            if not wait:
+                telemetry.rate_limiter_wait.record(slept, {**held, "outcome": "waited"})
+                return
+        telemetry.rate_limiter_wait.record(wait, {**held, "outcome": "deferred"})
+        raise RateLimitedError(wait)
 
     def structured[T: BaseModel](
         self,
@@ -146,16 +163,30 @@ class LlmGateway:
         request = JsonRequest(model, system, prompt, schema, max_tokens, effort)
         estimate = estimate_tokens(request)
         self.admit(provider, model, estimate)
-        started = time.monotonic()
-        response = self._providers[provider].complete_json(request)
-        latency_ms = _latency(started, response.latency_ms)
-        used = response.input_tokens + response.output_tokens
-        self._bucket.settle(provider, model, self.limits_for(provider, model), used - estimate)
-        try:
-            parsed = output.model_validate(response.data)
-        except ValidationError as exc:
-            message = f"{provider}/{model} answer failed validation: {exc}"
-            raise OutputValidationError(message) from exc
+        with genai.call("chat", provider, model, max_tokens=max_tokens, output_type="json") as span:
+            started = time.monotonic()
+            try:
+                response = self._providers[provider].complete_json(request)
+            except OutputValidationError as exc:
+                if exc.finish_reason is not None:
+                    span.answered(input_tokens=0, finish_reason=exc.finish_reason)
+                raise
+            latency_ms = _latency(started, response.latency_ms)
+            used = response.input_tokens + response.output_tokens
+            self._bucket.settle(provider, model, self.limits_for(provider, model), used - estimate)
+            span.answered(
+                input_tokens=response.input_tokens,
+                output_tokens=response.output_tokens,
+                finish_reason=response.finish_reason,
+                response_model=response.response_model,
+            )
+            span.content(system=system, prompt=prompt, output=response.data)
+            _usage(provider, model, response.input_tokens, response.output_tokens)
+            try:
+                parsed = output.model_validate(response.data)
+            except ValidationError as exc:
+                message = f"{provider}/{model} answer failed validation: {exc}"
+                raise OutputValidationError(message) from exc
         return Structured(
             parsed, provider, model, response.input_tokens, response.output_tokens, latency_ms
         )
@@ -173,9 +204,13 @@ class LlmGateway:
         request = EmbedRequest(model, tuple(texts), input_type, dimensions)
         estimate = estimate_embedding_tokens(request)
         self.admit(provider, model, estimate)
-        started = time.monotonic()
-        response = self._embedders[provider].embed(request)
-        latency_ms = _latency(started, None)
+        with genai.call("embeddings", provider, model) as span:
+            started = time.monotonic()
+            response = self._embedders[provider].embed(request)
+            latency_ms = _latency(started, None)
+            span.answered(input_tokens=response.tokens)
+            span.content(system=None, prompt=list(texts))
+        _usage(provider, model, response.tokens, 0)
         limits = self.limits_for(provider, model)
         self._bucket.settle(provider, model, limits, response.tokens - estimate)
         if len(response.vectors) != len(texts) or any(
@@ -184,6 +219,18 @@ class LlmGateway:
             shape = f"{len(response.vectors)} vectors for {len(texts)} texts"
             raise OutputValidationError(f"{provider}/{model} returned {shape} or wrong dimensions")
         return Embedded(response.vectors, provider, model, response.tokens, latency_ms)
+
+
+def _usage(provider: str, model: str, input_tokens: int, output_tokens: int) -> None:
+    """Tokens and their list price, by model and the pipeline stage that asked."""
+    dimensions = {"provider": provider, "model": model, "stage": current_stage()}
+    telemetry.llm_tokens.add(input_tokens, {**dimensions, "type": "input"})
+    if output_tokens:
+        telemetry.llm_tokens.add(output_tokens, {**dimensions, "type": "output"})
+    spent = cost(model, input_tokens, output_tokens)
+    if spent is not None:
+        # A metric is a float; the Decimal price stays exact everywhere money is stored.
+        telemetry.cost_usd.add(float(spent), dimensions)
 
 
 def _latency(started: float, recorded: int | None) -> int:

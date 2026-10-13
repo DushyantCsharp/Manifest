@@ -70,7 +70,11 @@ def build_provider(config: WorkerSettings) -> Provider | None:
     if config.llm_cassettes is None:
         return live
     return CassetteProvider(
-        config.llm_cassettes, mode=config.llm_cassette_mode, inner=live, name="anthropic"
+        config.llm_cassettes,
+        mode=config.llm_cassette_mode,
+        inner=live,
+        name="anthropic",
+        replay_latency=config.llm_replay_latency,
     )
 
 
@@ -103,9 +107,10 @@ def build_extractor(config: WorkerSettings, gateway: LlmGateway | None = None) -
 def build_hs_classifier(
     config: WorkerSettings, sessions: sessionmaker[Session], gateway: LlmGateway | None = None
 ) -> HsClassifier | None:
-    """Retrieval over hs_codes plus the walk; None (skipped) without a model to walk with."""
+    """Retrieval over hs_codes plus the walk; None (skipped) without a model to walk with,
+    or when HS classification is turned off (``MANIFEST_HS_ENABLED=false``)."""
     provider = build_provider(config)
-    if provider is None:
+    if provider is None or not config.hs_enabled:
         return None
     gateway = gateway or build_gateway(config, provider)
     embedder = build_embedder(config)

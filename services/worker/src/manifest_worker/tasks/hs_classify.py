@@ -20,6 +20,7 @@ from sqlalchemy.dialects.postgresql import insert
 from manifest_db.models import Document, HsSuggestion, Shipment
 from manifest_domain.routing import decide
 from manifest_llm.errors import RateLimitedError
+from manifest_telemetry import metrics
 from manifest_worker import shipments
 from manifest_worker.app import celery_app
 from manifest_worker.errors import CONTENT_ERRORS
@@ -87,6 +88,8 @@ def hs_classify(self: PipelineTask, shipment_id: str, fingerprint: str) -> dict[
         )
         decision = decide(found)
         status = shipments.route(session, target, decision)
+    if status is not None:
+        metrics.shipments_routed.add(1, {"decision": str(status)})
     return {
         "shipment_id": shipment_id,
         "classified": classified,

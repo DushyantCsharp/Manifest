@@ -27,6 +27,10 @@ class PermanentProviderError(LlmError):
 class OutputValidationError(LlmError):
     """The model answered, but not in the requested structure. Never retried: goes to review."""
 
+    def __init__(self, message: str, *, finish_reason: str | None = None) -> None:
+        super().__init__(message)
+        self.finish_reason = finish_reason  # e.g. refusal or max_tokens, when that is why
+
 
 class RateLimitedError(LlmError):
     """Our shared budget for this provider and model is spent for now; wait ``retry_after`` s."""

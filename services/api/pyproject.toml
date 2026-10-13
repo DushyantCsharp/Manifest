@@ -10,6 +10,9 @@ dependencies = [
     "fastapi>=0.143.0",
     "strawberry-graphql[fastapi]>=0.333.0",
     "uvicorn[standard]>=0.54.0",
+    "celery>=5.6.3",
+    "boto3>=1.40",
+    "redis>=8.1.0",
 ]
 
 [build-system]

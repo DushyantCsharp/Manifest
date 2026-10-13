@@ -4,10 +4,11 @@ from pathlib import Path
 from typing import Literal
 
 from celery import Celery
-from celery.signals import worker_init
+from celery.signals import worker_init, worker_process_init, worker_process_shutdown
 from pydantic import Field, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+import manifest_telemetry
 from manifest_worker.topology import STAGES, WORK_QUEUES, declare
 
 
@@ -40,6 +41,16 @@ class WorkerSettings(BaseSettings):
     # Replay recorded model answers from this folder instead of (or while) calling the model.
     llm_cassettes: Path | None = None
     llm_cassette_mode: Literal["replay", "record", "new"] = "replay"
+    # Make each replay take as long as the recorded call did (load tests: real model latency
+    # without calling or paying for the model).
+    llm_replay_latency: bool = False
+    # Off: lines get no HS suggestion and route to review (HS_UNCERTAIN), without a model call.
+    hs_enabled: bool = True
+    # The monitor (python -m manifest_worker.monitor): queue depths come from the management
+    # API, with the broker URL's credentials and vhost; the auto-approve ratio covers shipments
+    # routed in the trailing window.
+    rabbitmq_api_url: str = "http://localhost:15672/api"
+    auto_approve_window_minutes: int = 60
     ocr_min_chars: int = 20
     # Committed calibrators (manifest_domain/calibrators/<name>-v<N>.json) to score with, e.g.
     # "extraction-v1"; empty: confidences stay raw scores and nothing auto-approves.
@@ -90,7 +101,23 @@ celery_app.conf.update(
 
 
 @worker_init.connect
-def _declare_topology(**_: object) -> None:
+def _declare_topology(sender: object = None, **_: object) -> None:
     # Work queues are declared by Celery; DLQs and the dead-letter exchange are ours.
     with celery_app.connection_for_write() as connection:
         declare(connection)
+    # Prefork children configure themselves after the fork (below); a solo or threads pool
+    # runs tasks in this process, so it is configured here.
+    if "prefork" not in str(getattr(sender, "pool_cls", "prefork")).lower():
+        _telemetry()
+
+
+@worker_process_init.connect
+def _telemetry(**_: object) -> None:
+    """Traces and metrics for this worker process; spans continue the publisher's trace."""
+    if manifest_telemetry.configure("manifest-worker"):
+        manifest_telemetry.instrument()
+
+
+@worker_process_shutdown.connect
+def _flush_telemetry(**_: object) -> None:
+    manifest_telemetry.shutdown()

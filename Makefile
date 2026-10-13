@@ -3,6 +3,7 @@ SHELL := /bin/bash
 
 COMPOSE := docker compose -f infra/compose.yaml $(if $(wildcard .env),--env-file .env,)
 API_PORT ?= 8010
+PROMETHEUS_IMAGE := prom/prometheus:v3.15.0
 
 # WeasyPrint (synthetic packs) dlopens Pango. uv's Python doesn't search Homebrew's lib dir and
 # macOS strips DYLD_* from system binaries such as make and bash, so set it per command.
@@ -76,8 +77,16 @@ api: ## Run the API with reload
 	uv run uvicorn manifest_api.main:app --reload --port $(API_PORT)
 
 .PHONY: worker
-worker: ## Run a Celery worker
+worker: ## Run a Celery worker (on macOS use the app profile's container: prefork needs fork)
 	uv run celery -A manifest_worker.app:celery_app worker --loglevel=INFO --without-gossip --without-mingle
+
+.PHONY: monitor
+monitor: ## Run the monitor: queue/DLQ depth, review queue age, auto-approve ratio (exactly one)
+	uv run python -m manifest_worker.monitor
+
+.PHONY: app
+app: ## Build and run the api, worker and monitor images against the local stack (port 8010)
+	$(COMPOSE) --profile app up -d --build --wait
 
 # ---------------------------------------------------------------- quality
 
@@ -127,6 +136,15 @@ eval-record: ## Re-record every cassette from a real model (ANTHROPIC_API_KEY; c
 images: ## Build the api and worker images for this machine's platform (release.yml pushes amd64+arm64)
 	docker build -f services/api/Dockerfile -t manifest-api:dev .
 	docker build -f services/worker/Dockerfile -t manifest-worker:dev .
+
+.PHONY: infra-check
+infra-check: ## promtool: check and unit-test the alert rules in infra/prometheus (Docker)
+	docker run --rm -v "$(CURDIR)/infra/prometheus:/p" -w /p/tests --entrypoint promtool $(PROMETHEUS_IMAGE) check rules /p/rules/manifest.yml
+	docker run --rm -v "$(CURDIR)/infra/prometheus:/p" -w /p/tests --entrypoint promtool $(PROMETHEUS_IMAGE) test rules manifest.test.yml
+
+.PHONY: loadtest
+loadtest: ## Locust against the app images, replaying recorded model answers; report vs tools/loadtest/targets.yaml
+	uv run python scripts/loadtest.py $(ARGS)
 
 .PHONY: lint
 lint: ## Ruff lint + format check + import contracts

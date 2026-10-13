@@ -67,10 +67,13 @@ class CassetteProvider:
         inner: Provider | None = None,
         name: str | None = None,
         recorded_with: str | None = None,
+        replay_latency: bool = False,
     ) -> None:
         """``name`` is the provider name requests are keyed and routed by (default: the
         wrapped provider's). ``recorded_with`` notes what really answered, when that isn't
         the named provider (a stand-in that answers from ground truth, say).
+        ``replay_latency`` makes a replay take as long as the recorded call did, so a load
+        test sees the model's real latency without calling (or paying for) it.
         """
         if mode != "replay" and inner is None:
             raise ValueError(f"mode {mode!r} needs a provider to record from")
@@ -79,6 +82,7 @@ class CassetteProvider:
             raise ValueError("name the provider being replayed")
         self.directory = directory
         self.mode = mode
+        self.replay_latency = replay_latency
         self.name = resolved
         self._inner = inner
         self._recorded_with = recorded_with or (inner.name if inner is not None else None)
@@ -99,12 +103,20 @@ class CassetteProvider:
             recording = json.loads(path.read_text(encoding="utf-8"), parse_float=Decimal)
             self._count("replayed", str(recording.get("recorded_with") or self.name))
             response = recording["response"]
-            return JsonResponse(
+            replayed = JsonResponse(
                 response["data"],
                 response["input_tokens"],
                 response["output_tokens"],
                 response.get("latency_ms"),
+                # Only answers the provider accepted are recorded, and those ended their turn
+                # (refusals and max_tokens raise), so older recordings that predate the field
+                # finished with end_turn.
+                finish_reason=response.get("finish_reason", "end_turn"),
+                response_model=response.get("response_model"),
             )
+            if self.replay_latency and replayed.latency_ms:
+                time.sleep(replayed.latency_ms / 1000)
+            return replayed
         if self.mode == "replay" or self._inner is None:
             raise CassetteMissError(self._miss(key, request))
         started = time.monotonic()
@@ -153,6 +165,10 @@ class CassetteProvider:
                 "latency_ms": response.latency_ms,
             },
         }
+        if response.finish_reason is not None:
+            recording["response"]["finish_reason"] = response.finish_reason
+        if response.response_model is not None:
+            recording["response"]["response_model"] = response.response_model
         if request.effort is not None:
             recording["request"]["effort"] = request.effort
         self.directory.mkdir(parents=True, exist_ok=True)

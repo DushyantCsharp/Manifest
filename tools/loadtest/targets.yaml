@@ -1,0 +1,26 @@
+# What the load test (scripts/loadtest.py) is measured against. Each metric has `min` or
+# `max`. Agreed 2026-10-13. They size the system for a forwarder handling
+# ~5,000 packs a day, peaking at 3x the average (10 packs = 30 pages a minute), with the
+# model's real latency (recorded calls replayed at their recorded speed).
+#
+# Every value is read at the step where the system was busiest, unless it says otherwise.
+
+# Public API, every endpoint (create, register, finalize, status), p95 over the whole run.
+api_p95_ms: {max: 250}
+# A pack of three single-page documents, from the first finalize to routed (review or
+# auto-approve), at the design load: the highest step that kept up with its arrivals, i.e.
+# whose page_extract backlog never exceeded the worker's processes (one round of work).
+pack_p50_seconds: {max: 30}
+pack_p95_seconds: {max: 60}
+# One page_extract attempt, model call included (p95, page_latency_seconds).
+page_p95_seconds: {max: 30}
+# Pages extracted per minute at the busiest step, one worker host.
+throughput_pages_per_minute: {min: 30}
+# API answers 5xx, failed pages, packs not routed within the timeout: none.
+api_error_rate: {max: 0}
+failed_pages: {max: 0}
+unrouted_packs: {max: 0}
+dlq_growth: {max: 0}
+# Model spend at list prices (cost_usd_total), extraction only: HS is off in the replay.
+cost_per_page_usd: {max: 0.03}
+cost_per_pack_usd: {max: 0.10}

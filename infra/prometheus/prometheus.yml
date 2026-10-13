@@ -2,6 +2,11 @@ global:
   scrape_interval: 15s
   evaluation_interval: 15s
 
+# Alerts (DLQ growth, stale review queue, monitor down). Grafana lists them under
+# Alerting > Alert rules (data source-managed). Tests: infra/prometheus/tests.
+rule_files:
+  - /etc/prometheus/rules/*.yml
+
 scrape_configs:
   # Application metrics: services push OTLP to the collector, which re-exposes them here.
   - job_name: otel-collector

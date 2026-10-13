@@ -1,0 +1,86 @@
+# promtool unit tests for ../rules/manifest.yml (`make infra-check`).
+rule_files:
+  - ../rules/manifest.yml
+
+evaluation_interval: 1m
+
+tests:
+  # DLQ growth, a redrive, a long-parked queue and a monitor restart.
+  - interval: 1m
+    input_series:
+      - series: 'dlq_depth{queue="page_extract.dlq", service_instance_id="a"}'
+        values: "0x15 2x20"            # 2 parked at minute 16
+      - series: 'dlq_depth{queue="classify.dlq", service_instance_id="a"}'
+        values: "3x35"                 # parked long ago, not growing
+      - series: 'dlq_depth{queue="hs_classify.dlq", service_instance_id="a"}'
+        values: "5x15 0x20"            # redriven at minute 16
+      - series: 'dlq_depth{queue="reconcile.dlq", service_instance_id="a"}'
+        values: "1x12"                 # the monitor restarts at minute 13...
+      - series: 'dlq_depth{queue="reconcile.dlq", service_instance_id="b"}'
+        values: "_x12 1x23"            # ...and reports the same depth
+      - series: "review_queue_age_seconds"
+        values: "0x35"
+    alert_rule_test:
+      - eval_time: 15m
+        alertname: DeadLetterQueueGrowing
+        exp_alerts: []
+      - eval_time: 20m
+        alertname: DeadLetterQueueGrowing
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+              queue: page_extract.dlq
+            exp_annotations:
+              summary: "page_extract.dlq grew by 2 in 10 minutes"
+              description: >-
+                Messages are being parked in page_extract.dlq. Each carries why in its
+                x-manifest-* headers: `make dlq ARGS="list"`, then `show ID`. Fix the cause, then
+                `make dlq ARGS="redrive --id ID"`.
+      - eval_time: 30m                 # still 2, but no longer growing
+        alertname: DeadLetterQueueGrowing
+        exp_alerts: []
+      - eval_time: 20m
+        alertname: MonitorDown
+        exp_alerts: []
+
+  # A review task older than four hours, for five minutes.
+  - interval: 1m
+    input_series:
+      - series: "review_queue_age_seconds"
+        values: "14000x4 15000x15"     # over 4 h (14400 s) from minute 5
+      - series: 'dlq_depth{queue="classify.dlq"}'
+        values: "0x20"
+    alert_rule_test:
+      - eval_time: 8m                  # over the line, but not yet for 5 minutes
+        alertname: ReviewQueueStale
+        exp_alerts: []
+      - eval_time: 11m
+        alertname: ReviewQueueStale
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+            exp_annotations:
+              summary: "A review task has waited 4h 10m 0s"
+              description: >-
+                The oldest open review task is over 4 hours old. Shipments routed to review are
+                blocked until someone looks at them.
+
+  # No monitor: nothing reports queue or review-queue gauges.
+  - interval: 1m
+    input_series:
+      - series: 'up{job="otel-collector"}'
+        values: "1x10"
+    alert_rule_test:
+      - eval_time: 4m
+        alertname: MonitorDown
+        exp_alerts: []
+      - eval_time: 6m
+        alertname: MonitorDown
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+            exp_annotations:
+              summary: "No queue or review-queue samples for 5 minutes"
+              description: >-
+                `python -m manifest_worker.monitor` isn't reporting (stopped, or can't export to
+                the collector), so DeadLetterQueueGrowing and ReviewQueueStale can't fire.

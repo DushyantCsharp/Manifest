@@ -119,6 +119,7 @@ class Recorded:
         self.kwargs: dict[str, Any] = {}
         self.message = SimpleNamespace(
             content=[SimpleNamespace(type="text", text=text)],
+            model="claude-x-20261001",
             stop_reason=stop_reason,
             usage=SimpleNamespace(input_tokens=11, output_tokens=5),
         )
@@ -144,7 +145,13 @@ def test_anthropic_provider_asks_for_structured_output_not_a_forced_tool() -> No
     provider = AnthropicProvider(client)  # type: ignore[arg-type]
     request = JsonRequest("claude-x", "s", "p", Answer.model_json_schema(), 50, effort="low")
     response = provider.complete_json(request)
-    assert response == JsonResponse({"total": Decimal("4.10")}, 11, 5)  # never a float
+    assert response == JsonResponse(  # never a float
+        {"total": Decimal("4.10")},
+        11,
+        5,
+        finish_reason="end_turn",
+        response_model="claude-x-20261001",
+    )
     assert "tool_choice" not in client.kwargs
     assert "tools" not in client.kwargs
     config = client.kwargs["output_config"]
@@ -205,8 +212,9 @@ def test_refusals_truncation_and_bad_json_are_invalid_output(
     text: str, stop_reason: str, error: str
 ) -> None:
     provider = AnthropicProvider(Recorded(text, stop_reason))  # type: ignore[arg-type]
-    with pytest.raises(OutputValidationError, match=error):
+    with pytest.raises(OutputValidationError, match=error) as raised:
         provider.complete_json(JsonRequest("claude-x", "s", "p", Answer.model_json_schema(), 50))
+    assert raised.value.finish_reason == (None if stop_reason == "end_turn" else stop_reason)
 
 
 def test_effort_reaches_the_provider() -> None:

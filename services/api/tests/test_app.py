@@ -1,4 +1,4 @@
-"""The app as `make api` runs it: no adapters wired yet."""
+"""An app without adapters: health, GraphQL, problem responses, and 501 for every port."""
 
 from collections.abc import AsyncIterator
 
