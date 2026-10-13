@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "55ec23b7a823cb3ba6165e6503cdff4661a04f20141e95967a74638bb1268cc5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Instant noodles, precooked, with seasoning sachet\nCountry of origin: KR\n\nChosen so far: 19 Preparations of cereals, flour, starch or milk; pastrycooks' products > 1902 Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared\n\nChoose the subheading that covers these goods. Options:\n- 190240: Food preparations; couscous\n- 190230: Food preparations; pasta (excluding stuffed), cooked or otherwise prepared\n- 190220: Food preparations; pasta, stuffed (with meat or other substances), whether or not cooked or otherwise prepared\n- 190211: Food preparations; pasta, containing eggs, uncooked, not stuffed or otherwise prepared\n- 190219: Food preparations; pasta, uncooked (excluding that containing eggs), not stuffed or otherwise prepared\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5de1e2762596b623735668863591cc0f0663f1dbc5253bacbf8952c88cf44921",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "190230",
+      "cited": [
+        "190230"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 449,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "04eed1a873133bdc45f55a59c0bd9de1e1b87d0d01f43e7d07ef14af3b9cd5e2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Porcelain dinner plate 27cm\nCountry of origin: CN\n\nChosen so far: 69 Ceramic products > 6911 Tableware, kitchenware, other household articles and toilet articles; of porcelain or china\n\nChoose the subheading that covers these goods. Options:\n- 691110: Tableware and kitchenware; of porcelain or china\n- 691190: Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "439ceccf2149cafcba31350557e7ba4aeec892699f3b25f22ffa8bea56ac3497",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "691110",
+      "cited": [
+        "691110"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 328,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

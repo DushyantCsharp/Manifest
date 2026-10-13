@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "24a60f212de801f9554b74e6228c35e6af54b8daab0da7bb62a8878a9c95cf72",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen concentrated orange juice\nCountry of origin: BR\n\nChosen so far: 20 Preparations of vegetables, fruit, nuts or other parts of plants > 2009 Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n\nChoose the subheading that covers these goods. Options:\n- 200911: Juice; orange, frozen, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n- 200912: Juice; orange, not frozen, of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200919: Juice; orange, not frozen, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200931: Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200939: Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200990: Juices; mixtures of fruits or vegetables (but not nut juice), unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3f6ea08743e5ae83aa31c78c645ffa4c35f09aea38788c13b7e5be53f667b241",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "200911",
+      "cited": [
+        "200911"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 607,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

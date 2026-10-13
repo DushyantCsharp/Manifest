@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "key": "1e0fa8bc47716d24b915542f792a70c7e32bbd4cfd0ef36aae1bd55d3acbec00",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nNingbo Tianyi Industrial Co., Ltd.\r\nNo. 13 Industrial Road\r\nNingbo\r\nChina\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-99446\r\nInvoice Date 06/15/2026\r\nPayment Terms 30% deposit, 70% against copy of B/L\r\nBILL TO / CONSIGNEE\r\nJohnson, Norton and Hernandez\r\n831 Joshua Glen\r\n77798 Los Angeles\r\nUnited States\r\nSHIPPING\r\nTerms of Sale: CPT Los Angeles (Incoterms 2020)\r\nPort of Loading: Shenzhen\r\nPort of Discharge: New York\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08\r\n2 Milk chocolate bars 100g Switzerland 46,983 pcs 0.9961 46,799.77\r\n3 Upholstered office chair, steel base China 328 pcs 54.66 17,928.48\r\n4 LED television 55in 4K China 81 pcs 252.81 20,477.61\r\nTotal USD 183,138.94\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Ningbo Tianyi Industrial Co., Ltd. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Johnson, Norton and Hernandez",
+        "value": "Johnson, Norton and Hernandez"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Currency: USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Terms of Sale: CPT Los Angeles (Incoterms 2020)",
+        "value": "CPT Los Angeles"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Invoice Date 06/15/2026",
+        "value": "06/15/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice No. INV-2026-99446",
+        "value": "INV-2026-99446"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "97,933.08"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "1,918"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "51.06"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Switzerland 46,983 pcs 0.9961 46,799.77",
+            "value": "46,799.77"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Switzerland 46,983 pcs 0.9961 46,799.77",
+            "value": "Switzerland"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Switzerland 46,983 pcs 0.9961 46,799.77",
+            "value": "Milk chocolate bars 100g"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Switzerland 46,983 pcs 0.9961 46,799.77",
+            "value": "46,983"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Switzerland 46,983 pcs 0.9961 46,799.77",
+            "value": "0.9961"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base China 328 pcs 54.66 17,928.48",
+            "value": "17,928.48"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base China 328 pcs 54.66 17,928.48",
+            "value": "Upholstered office chair, steel base"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base China 328 pcs 54.66 17,928.48",
+            "value": "328"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base China 328 pcs 54.66 17,928.48",
+            "value": "54.66"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K China 81 pcs 252.81 20,477.61",
+            "value": "20,477.61"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K China 81 pcs 252.81 20,477.61",
+            "value": "LED television 55in 4K"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K China 81 pcs 252.81 20,477.61",
+            "value": "81"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K China 81 pcs 252.81 20,477.61",
+            "value": "252.81"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms 30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Tianyi Industrial Co., Ltd.",
+        "value": "Ningbo Tianyi Industrial Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total USD 183,138.94",
+        "value": "183,138.94"
+      }
+    },
+    "input_tokens": 499,
+    "latency_ms": 0,
+    "output_tokens": 1106
+  }
+}

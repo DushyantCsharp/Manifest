@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "a29318f7b7772131c9141374bef2d5ff4ce548df8447ad4495965f36c3a4b0b0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nPrabhakar LLC\r\n87/47, Khalsa Ganj, 252500 Ludhiana, India\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUOQ3261445 \r\nCONSIGNEE\r\nVoisin S.A.\r\n8, boulevard Laurence Barthelemy, 97325 Lyon, France\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD TAGE / 643E\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nMundra\r\nPORT OF DISCHARGE\r\nLe Havre\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU1126795\r\nSEAL\r\n6737836\r\nVOISIN /\r\nFC-4994/26\r\n952\r\nCARTONS\r\nSAID TO CONTAIN: Men's crew-neck T-shirt, 100%\r\ncotton jersey; Black tea, CTC, bulk; Men's woven\r\ncotton shirt, long sleeve; Stainless steel\r\nsaucepan 20cm; Stainless cutlery set, 24 pieces;\r\nSmartphone 6.1in, 128GB; Terry cotton bath towel\r\n70x140\r\n24 673,76 kg\r\nSHIPPED ON BOARD\r\n2026-05-30\r\nPLACE AND DATE OF ISSUE\r\nMundra, 2026-05-30\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "HLCUOQ3261445",
+        "value": "HLCUOQ3261445"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Voisin S.A.",
+        "value": "Voisin S.A."
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD",
+        "value": "HAPAG-LLOYD"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "HLCU1126795",
+        "value": "HLCU1126795"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Le Havre",
+        "value": "Le Havre"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Mundra",
+        "value": "Mundra"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "6737836",
+        "value": "6737836"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Prabhakar LLC",
+        "value": "Prabhakar LLC"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "2026-05-30",
+        "value": "2026-05-30"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "24 673,76 kg",
+        "value": "24 673,76 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "952",
+        "value": "952"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD TAGE / 643E",
+        "value": "HAPAG-LLOYD TAGE"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD TAGE / 643E",
+        "value": "643E"
+      }
+    },
+    "input_tokens": 540,
+    "latency_ms": 0,
+    "output_tokens": 356
+  }
+}

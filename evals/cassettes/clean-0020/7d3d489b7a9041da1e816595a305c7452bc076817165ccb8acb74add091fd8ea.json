@@ -1,0 +1,261 @@
+{
+  "format": 1,
+  "key": "7d3d489b7a9041da1e816595a305c7452bc076817165ccb8acb74add091fd8ea",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nQingdao Hengda Trading Co., Ltd.\r\nNo. 269 Industrial Road, Qingdao, China\r\nPACKING LIST\r\nInvoice Ref. FC-5520/26\r\nDate 2026-04-25\r\nCONSIGNEE\r\nMestdagh CommV\r\nChristellebaan 9, 4257 Antwerpen, Belgium\r\nTERMS OF DELIVERY\r\nFCA Xiamen\r\nShenzhen to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg\r\n2 Laptop computer 14in, 16GB RAM CN 153 pcs 31 192,93 kg 209,02 kg\r\n3 City bicycle 28in, 7-speed CN 26 pcs 26 419,35 kg 457,82 kg\r\n4 AC induction motor 0.55kW 3-phase CN 85 pcs 43 578,85 kg 654,53 kg\r\n5 Passenger car tyre 205/55R16 CN 865 pcs 865 7 638,82 kg 9 087,29 kg\r\n6 Aluminium household foil 12 micron CN 5 960 kg 298 5 960,00 kg 6 663,28 kg\r\nTotal 1274 CARTONS 22 008,24 kg 24 631,33 kg\r\nShipping marks: MESTDAGH / FC-5520/26\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Mestdagh CommV",
+        "value": "Mestdagh CommV"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-04-25",
+        "value": "2026-04-25"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FCA Xiamen",
+        "value": "FCA Xiamen"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. FC-5520/26",
+        "value": "FC-5520/26"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 269 Industrial Road, Qingdao, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "Solar PV module 410W monocrystalline"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "7 559,39 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "7 218,29 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "341"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 269 Industrial Road, Qingdao, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 31 192,93 kg 209,02 kg",
+            "value": "Laptop computer 14in, 16GB RAM"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 31 192,93 kg 209,02 kg",
+            "value": "209,02 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 31 192,93 kg 209,02 kg",
+            "value": "192,93 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 31 192,93 kg 209,02 kg",
+            "value": "153"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 269 Industrial Road, Qingdao, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 City bicycle 28in, 7-speed CN 26 pcs 26 419,35 kg 457,82 kg",
+            "value": "City bicycle 28in, 7-speed"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 City bicycle 28in, 7-speed CN 26 pcs 26 419,35 kg 457,82 kg",
+            "value": "457,82 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 City bicycle 28in, 7-speed CN 26 pcs 26 419,35 kg 457,82 kg",
+            "value": "419,35 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "Invoice Ref. FC-5520/26",
+            "value": "26"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 269 Industrial Road, Qingdao, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 43 578,85 kg 654,53 kg",
+            "value": "AC induction motor 0.55kW 3-phase"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 43 578,85 kg 654,53 kg",
+            "value": "654,53 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 43 578,85 kg 654,53 kg",
+            "value": "578,85 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 43 578,85 kg 654,53 kg",
+            "value": "85"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 269 Industrial Road, Qingdao, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 865 7 638,82 kg 9 087,29 kg",
+            "value": "Passenger car tyre 205/55R16"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 865 7 638,82 kg 9 087,29 kg",
+            "value": "9 087,29 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 865 7 638,82 kg 9 087,29 kg",
+            "value": "7 638,82 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 865 7 638,82 kg 9 087,29 kg",
+            "value": "865"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 269 Industrial Road, Qingdao, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 298 5 960,00 kg 6 663,28 kg",
+            "value": "Aluminium household foil 12 micron"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 298 5 960,00 kg 6 663,28 kg",
+            "value": "6 663,28 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 298 5 960,00 kg 6 663,28 kg",
+            "value": "5 960,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 298 5 960,00 kg 6 663,28 kg",
+            "value": "5 960"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 11 7 218,29 kg 7 559,39 kg",
+            "value": "kg"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1274 CARTONS 22 008,24 kg 24 631,33 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Qingdao Hengda Trading Co., Ltd.",
+        "value": "Qingdao Hengda Trading Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1274 CARTONS 22 008,24 kg 24 631,33 kg",
+        "value": "24 631,33 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1274 CARTONS 22 008,24 kg 24 631,33 kg",
+        "value": "22 008,24 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1274 CARTONS 22 008,24 kg 24 631,33 kg",
+        "value": "1274"
+      }
+    },
+    "input_tokens": 443,
+    "latency_ms": 0,
+    "output_tokens": 1545
+  }
+}

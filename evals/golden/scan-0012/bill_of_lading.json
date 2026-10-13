@@ -1,0 +1,52 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0012",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.97",
+    "noise_sigma": 6,
+    "salt_pepper": "0.0005",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "MAEUAE9829940",
+    "seller": {
+      "name": "Salvi LLC",
+      "address": [
+        "81, Mane Circle",
+        "917747 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Janssens VOF",
+      "address": [
+        "Rudilei 3",
+        "5485 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "notify_party": null,
+    "carrier": "MAERSK",
+    "vessel": "MAERSK TRITON",
+    "voyage": "322S",
+    "port_of_loading": "Chennai",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-05-05",
+    "container_number": "MAEU9329709",
+    "seal_number": "7906175",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 786,
+    "total_gross_weight_kg": "25372.26",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Stainless steel sheet 304, cold-rolled 2mm; Smartphone 6.1in, 128GB; Men's woven cotton shirt, long sleeve; Long grain white rice, milled; Men's crew-neck T-shirt, 100% cotton jersey"
+  },
+  "line_items": []
+}

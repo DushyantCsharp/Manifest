@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "acb1ebc3caf03a7b5d9cabb939c5c3c715249dc217f62b5cab87e47c6d6666f0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Monocrystalline solar PV module 410W, framed panel\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 852411: Flat panel display modules, whether or not incorporating touch-sensitive screens; of liquid crystals, without drivers or control circuits\n    contains 852491: Flat panel display modules, whether or not incorporating touch-sensitive screens; of liquid crystals, with drivers or control circuits\n    contains 852412: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), without drivers or control circuits\n    contains 852492: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), with drivers or control circuits\n    contains 854143: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells assembled in modules or made up into panels\n    contains 854142: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells not assembled in modules or made up into panels\n    contains 852419: Flat panel display modules, whether or not incorporating touch-sensitive screens; of other than liquid crystals or organic light-emitting diodes (OLED), without drivers or control circuits\n    contains 852499: Flat panel display modules, whether or not incorporating touch-sensitive screens; of other than liquid crystals or organic light-emitting diodes (OLED), with drivers or control circuits\n    contains 854149: Electrical apparatus; photosensitive semiconductor devices, diodes other than light emitting diodes and photovoltaic cells whether or not assembled in modules or made up into panels\n    contains 854160: Crystals; mounted piezo-electric\n    contains 854151: Electrical apparatus; photosensitive semiconductor devices, semiconductor-based transducers\n    contains 854110: Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)\n    contains 854141: Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)\n- 70: Glass and glassware\n    contains 700992: Glass mirrors; framed, excluding rear-view mirrors for vehicles\n    contains 700600: Glass of heading no. 7003, 7004 or 7005; bent, edge-worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials\n- 96: Miscellaneous manufactured articles\n    contains 961000: Slates and boards; with writing or drawing surfaces, whether or not framed\n- 91: Clocks and watches and parts thereof\n    contains 910812: Watch movements; complete and assembled, electrically operated, by means of solar cells, with opto-electronic display\n    contains 910819: Watch movements; complete and assembled, electrically operated, by means of solar cells, without mechanical display or device including such or opto-electronic display\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841912: Heaters; solar water heaters, non-electric\n    contains 841919: Heaters; instantaneous or storage water heaters, non-electric, (other than instantaneous gas or solar water heaters)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "40679d3d77dae15da0eada653b49592e9301600cd99e6185fc9d5f7b04edf8cc",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1071,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

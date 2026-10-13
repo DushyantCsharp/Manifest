@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "44aa3e80948e4d8c340999a769ab795ba132878b0acd5361e025c0b8fb7c4226",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's trousers, woven cotton denim\nCountry of origin: BD\n\nChoose the chapter that covers these goods. Options:\n- 52: Cotton\n    contains 520942: Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, weighing more than 200g/m2, denim\n    contains 521142: Fabrics, woven; containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200g/m2, of yarns of different colours, denim\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610462: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton, knitted or crocheted\n    contains 610422: Ensembles; women's or girls', of cotton, knitted or crocheted\n    contains 610432: Jackets; women's or girls', of cotton, knitted or crocheted\n    contains 610442: Dresses; women's or girls', of cotton, knitted or crocheted\n    contains 610452: Skirts and divided skirts; women's or girls', of cotton, knitted or crocheted\n    contains 610469: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610429: Ensembles; women's or girls', of textile materials (other than cotton or synthetic fibres), knitted or crocheted\n    contains 610439: Jackets; women's or girls', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610459: Skirts and divided skirts; women's or girls', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610449: Dresses; women's or girls', of textile materials (other than wool or fine animal hair, cotton, synthetic or artificial fibres), knitted or crocheted\n    contains 610463: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres, knitted or crocheted\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620462: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton (not knitted or crocheted)\n    contains 620412: Suits; women's or girls', of cotton (not knitted or crocheted)\n    contains 620422: Ensembles; women's or girls', of cotton (not knitted or crocheted)\n    contains 620442: Dresses; women's or girls', of cotton (not knitted or crocheted)\n    contains 620452: Skirts and divided skirts; women's or girls', of cotton (not knitted or crocheted)\n    contains 620432: Jackets and blazers; women's or girls', of cotton (not knitted or crocheted)\n    contains 620469: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of textile materials (other than wool, fine animal hair, cotton or synthetic fibres), (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c95b9bdcd8de83034716ecdf7ec42885b756204e4573ba785bde35b0826549ec",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "62",
+      "cited": [
+        "62"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 940,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

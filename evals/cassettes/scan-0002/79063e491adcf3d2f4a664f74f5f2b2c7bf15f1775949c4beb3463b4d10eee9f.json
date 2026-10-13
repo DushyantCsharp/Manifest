@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "key": "79063e491adcf3d2f4a664f74f5f2b2c7bf15f1775949c4beb3463b4d10eee9f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nPACKING LIST\n_ Sener Sti. ' Invoice Ref. RE-26-1583\n\n75555 Efe Park, 05262. Istanbul, Turkey. ae ; iz Date . 02.07.2026\n| CONSIGNEE : | | TERMS.OF DELIVERY:\n\nHebert Baron S.A. _ | FCA Istanbul\n| rue de Breton, 55478 Lille, France : - | Izmir to Marseille\n\n# Description Origin. Quantity Pkgs Net weight Gross weight\n1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg\n2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg\n3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg\nTotal . 1225 CARTONS 9.759,10 kg 11.438,46 kg\n\nShipping marks: HEBERT / RE-26-1583\n\n- Page | of 4.\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Hebert Baron S.A. _ | FCA Istanbul",
+        "value": "Hebert Baron S.A."
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "75555 Efe Park, 05262. Istanbul, Turkey. ae ; iz Date . 02.07.2026",
+        "value": "02.07.2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Hebert Baron S.A. _ | FCA Istanbul",
+        "value": "FCA Istanbul"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "_ Sener Sti. ' Invoice Ref. RE-26-1583",
+        "value": "RE-26-1583"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "value": "MY"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "value": "Nitrile examination gloves, box of 100"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "value": "5.460,59 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "value": "4.415,58 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "value": "9.180"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "value": "sets"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "75555 Efe Park, 05262. Istanbul, Turkey. ae ; iz Date . 02.07.2026",
+            "value": "Turkey"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "value": "Aluminium household foil 12 micron"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "value": "3.366,60 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "value": "3.100,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "value": "3.100"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "value": "AC induction motor 0.55kW 3-phase"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "value": "2.611,27 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "value": "2.243,52 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "value": "304"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.72",
+        "evidence": "_ Sener Sti. ' Invoice Ref. RE-26-1583",
+        "value": "Sener Sti."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "value": "11.438,46 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "value": "9.759,10 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "value": "1225"
+      }
+    },
+    "input_tokens": 397,
+    "latency_ms": 0,
+    "output_tokens": 1009
+  }
+}

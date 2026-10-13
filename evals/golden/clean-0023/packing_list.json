@@ -1,0 +1,120 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0023",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202609-3206",
+    "date": "2026-06-28",
+    "seller": {
+      "name": "Gazipur Karim Import & Export Co., Ltd.",
+      "address": [
+        "No. 250 Industrial Road",
+        "Gazipur",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "Robbins, Clark and Barnett",
+      "address": [
+        "0442 Lawrence Common",
+        "42643 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "package_type": "CARTONS",
+    "total_packages": 1179,
+    "total_net_weight_kg": "21670.55",
+    "total_gross_weight_kg": "23484.41"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "CN",
+      "quantity": "1190",
+      "unit": "pcs",
+      "packages": 30,
+      "net_weight_kg": "272.51",
+      "gross_weight_kg": "295.21"
+    },
+    {
+      "line_no": 2,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "2360",
+      "unit": "pcs",
+      "packages": 118,
+      "net_weight_kg": "1673.24",
+      "gross_weight_kg": "1916.31"
+    },
+    {
+      "line_no": 3,
+      "description": "Rubber flip-flops, thong plugged into the sole",
+      "country_of_origin": "VN",
+      "quantity": "11732",
+      "unit": "pairs",
+      "packages": 196,
+      "net_weight_kg": "2651.43",
+      "gross_weight_kg": "2837.15"
+    },
+    {
+      "line_no": 4,
+      "description": "Porcelain dinner plate 27cm",
+      "country_of_origin": "PT",
+      "quantity": "6713",
+      "unit": "pcs",
+      "packages": 280,
+      "net_weight_kg": "4141.92",
+      "gross_weight_kg": "4382.96"
+    },
+    {
+      "line_no": 5,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "MX",
+      "quantity": "285",
+      "unit": "pcs",
+      "packages": 285,
+      "net_weight_kg": "4494.17",
+      "gross_weight_kg": "4939.42"
+    },
+    {
+      "line_no": 6,
+      "description": "Black tea, CTC, bulk",
+      "country_of_origin": "KE",
+      "quantity": "7000",
+      "unit": "kg",
+      "packages": 140,
+      "net_weight_kg": "7000.00",
+      "gross_weight_kg": "7565.60"
+    },
+    {
+      "line_no": 7,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IN",
+      "quantity": "750",
+      "unit": "pcs",
+      "packages": 75,
+      "net_weight_kg": "552.00",
+      "gross_weight_kg": "598.11"
+    },
+    {
+      "line_no": 8,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "KH",
+      "quantity": "55",
+      "unit": "pcs",
+      "packages": 55,
+      "net_weight_kg": "885.28",
+      "gross_weight_kg": "949.65"
+    }
+  ]
+}

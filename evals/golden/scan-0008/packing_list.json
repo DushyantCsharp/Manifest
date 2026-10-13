@@ -1,0 +1,136 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0008",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.92",
+    "noise_sigma": 8,
+    "salt_pepper": "0.0019",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202683-2035",
+    "date": "2026-09-07",
+    "seller": {
+      "name": "Xiamen Ruifeng Import & Export Co., Ltd.",
+      "address": [
+        "No. 386 Industrial Road",
+        "Xiamen",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Winter PLC",
+      "address": [
+        "Studio 9, Miles Fort",
+        "HA1 8HD Durban",
+        "South Africa"
+      ],
+      "country": "ZA"
+    },
+    "incoterm": "FOB",
+    "incoterm_place": "Shanghai",
+    "package_type": "CARTONS",
+    "total_packages": 1386,
+    "total_net_weight_kg": "18121.34",
+    "total_gross_weight_kg": "20269.03"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Deep groove ball bearing 6205-2RS",
+      "country_of_origin": "CN",
+      "quantity": "15500",
+      "unit": "pcs",
+      "packages": 155,
+      "net_weight_kg": "1999.50",
+      "gross_weight_kg": "2345.66"
+    },
+    {
+      "line_no": 2,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "CN",
+      "quantity": "159",
+      "unit": "pcs",
+      "packages": 159,
+      "net_weight_kg": "2685.67",
+      "gross_weight_kg": "2975.21"
+    },
+    {
+      "line_no": 3,
+      "description": "Upholstered office chair, steel base",
+      "country_of_origin": "CN",
+      "quantity": "286",
+      "unit": "pcs",
+      "packages": 286,
+      "net_weight_kg": "4720.72",
+      "gross_weight_kg": "5019.64"
+    },
+    {
+      "line_no": 4,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "CN",
+      "quantity": "3372",
+      "unit": "pcs",
+      "packages": 281,
+      "net_weight_kg": "3931.75",
+      "gross_weight_kg": "4500.97"
+    },
+    {
+      "line_no": 5,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "CN",
+      "quantity": "4800",
+      "unit": "pcs",
+      "packages": 48,
+      "net_weight_kg": "144.00",
+      "gross_weight_kg": "167.47"
+    },
+    {
+      "line_no": 6,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "CN",
+      "quantity": "1272",
+      "unit": "pcs",
+      "packages": 128,
+      "net_weight_kg": "1310.16",
+      "gross_weight_kg": "1447.92"
+    },
+    {
+      "line_no": 7,
+      "description": "LED bulb E27 9W warm white",
+      "country_of_origin": "CN",
+      "quantity": "23000",
+      "unit": "pcs",
+      "packages": 115,
+      "net_weight_kg": "966.00",
+      "gross_weight_kg": "1175.90"
+    },
+    {
+      "line_no": 8,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "3419",
+      "unit": "pcs",
+      "packages": 171,
+      "net_weight_kg": "2024.05",
+      "gross_weight_kg": "2258.25"
+    },
+    {
+      "line_no": 9,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "CN",
+      "quantity": "1689",
+      "unit": "pcs",
+      "packages": 43,
+      "net_weight_kg": "339.49",
+      "gross_weight_kg": "378.01"
+    }
+  ]
+}

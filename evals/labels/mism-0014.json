@@ -1,0 +1,146 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0014",
+  "seed": 583036952,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/0956",
+    "invoice_date": "2026-05-04",
+    "seller": {
+      "name": "Sezgin Manço San.",
+      "address": [
+        "8703 Soylu Circles",
+        "54932 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Rogers-Clark",
+      "address": [
+        "409 Heather Heights",
+        "DA7 4UX Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "CFR",
+    "incoterm_place": "Southampton",
+    "payment_terms": "T/T in advance",
+    "total_amount": "397512.92",
+    "bl_number": "EGLVNX4732008",
+    "notify_party": {
+      "name": "Kelly Ltd",
+      "address": [
+        "24 Harrison Locks",
+        "W9U 6TH Manchester",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN SERENITY",
+    "voyage": "770N",
+    "port_of_loading": "Ambarli",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-05-11",
+    "container_number": "EGLU8477500",
+    "seal_number": "3000008",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 2051,
+    "total_gross_weight_kg": "21283.41",
+    "goods_description": "SAID TO CONTAIN: Red wine, 0.75L bottle; Laptop computer 14in, 16GB RAM; Stainless steel saucepan 20cm; Electric kettle 1.7L stainless; Analog quartz wristwatch, steel case",
+    "total_net_weight_kg": "18252.33",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Red wine, 0.75L bottle",
+        "country_of_origin": "CL",
+        "quantity": "8982",
+        "unit": "pcs",
+        "unit_price": "3.25",
+        "amount": "29191.50",
+        "hs_code": "220421",
+        "packages": 1497,
+        "net_weight_kg": "11353.25",
+        "gross_weight_kg": "13615.13"
+      },
+      {
+        "line_no": 2,
+        "description": "Laptop computer 14in, 16GB RAM",
+        "country_of_origin": "VN",
+        "quantity": "375",
+        "unit": "pcs",
+        "unit_price": "726.18",
+        "amount": "272317.50",
+        "hs_code": "847130",
+        "packages": 75,
+        "net_weight_kg": "674.63",
+        "gross_weight_kg": "832.70"
+      },
+      {
+        "line_no": 3,
+        "description": "Stainless steel saucepan 20cm",
+        "country_of_origin": "IN",
+        "quantity": "2880",
+        "unit": "pcs",
+        "unit_price": "13.51",
+        "amount": "38908.80",
+        "hs_code": "732393",
+        "packages": 240,
+        "net_weight_kg": "3352.32",
+        "gross_weight_kg": "3726.91"
+      },
+      {
+        "line_no": 4,
+        "description": "Electric kettle 1.7L stainless",
+        "country_of_origin": "CN",
+        "quantity": "2632",
+        "unit": "pcs",
+        "unit_price": "8.41",
+        "amount": "22135.12",
+        "hs_code": "851679",
+        "packages": 220,
+        "net_weight_kg": "2795.18",
+        "gross_weight_kg": "2999.15"
+      },
+      {
+        "line_no": 5,
+        "description": "Analog quartz wristwatch, steel case",
+        "country_of_origin": "CN",
+        "quantity": "950",
+        "unit": "pcs",
+        "unit_price": "36.80",
+        "amount": "34960.00",
+        "hs_code": "910211",
+        "packages": 19,
+        "net_weight_kg": "76.95",
+        "gross_weight_kg": "109.52"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "missing_line",
+      "kind": "line_items_mismatch",
+      "field": "line_items",
+      "line_no": 3,
+      "description": "Stainless steel saucepan 20cm",
+      "values": {
+        "commercial_invoice": "Stainless steel saucepan 20cm",
+        "packing_list": null
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

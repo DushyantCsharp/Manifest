@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "783ee9d49abfbe916f8e332fa6a1d743134f5fa6b358bc782a6383b73bef5c02",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Polyester staple fibres, not carded\nCountry of origin: CN\n\nChosen so far: 55 Man-made staple fibres > 5503 Synthetic staple fibres, not carded, combed or otherwise processed for spinning\n\nChoose the subheading that covers these goods. Options:\n- 550320: Fibres; synthetic staple fibres, of polyesters, not carded, combed or otherwise processed for spinning\n- 550311: Fibres; synthetic staple fibres, of aramids, not carded, combed or otherwise processed for spinning\n- 550340: Fibres; synthetic staple fibres, of polypropylene, not carded, combed or otherwise processed for spinning\n- 550330: Fibres; synthetic staple fibres, acrylic or modacrylic, not carded, combed or otherwise processed for spinning\n- 550390: Fibres; synthetic staple fibres, of synthetic materials n.e.c. in heading no. 5503, not carded, combed or otherwise processed for spinning\n- 550319: Fibres; synthetic staple fibres, of nylon or other polyamides other than aramids, not carded, combed or otherwise processed for spinning\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "9a923f272a64a5b2697bf04b29b665839fb5521424acbb88502fa4e090ccd0e6",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "550320",
+      "cited": [
+        "550320"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 480,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

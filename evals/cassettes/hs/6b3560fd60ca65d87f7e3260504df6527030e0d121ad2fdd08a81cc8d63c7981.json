@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "6b3560fd60ca65d87f7e3260504df6527030e0d121ad2fdd08a81cc8d63c7981",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen French fries, prepared potatoes\nCountry of origin: BE\n\nChosen so far: 20 Preparations of vegetables, fruit, nuts or other parts of plants > 2004 Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006\n\nChoose the subheading that covers these goods. Options:\n- 200410: Vegetable preparations; potatoes, prepared or preserved otherwise than by vinegar or acetic acid, frozen\n- 200490: Vegetable preparations; vegetables and mixtures of vegetables (excluding potatoes), prepared or preserved otherwise than by vinegar or acetic acid, frozen\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8eb63976c7a05b3a48c6d1330b710a77b682c07d46dd76475f6d01523135c172",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "200410",
+      "cited": [
+        "200410"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 388,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

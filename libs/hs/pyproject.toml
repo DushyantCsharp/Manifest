@@ -1,0 +1,17 @@
+[project]
+name = "manifest-hs"
+version = "0.1.0"
+description = "HS 2022 nomenclature index and hybrid retrieval."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "manifest-domain",
+    "manifest-db",
+    "manifest-llm",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+manifest-llm = { workspace = true }

@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "key": "eda063e704cd8fdc7730e5b2817f872d451c4e3b3fa045d325c686764580b713",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nGazipur Karim Import & Export Co., Ltd.\r\nNo. 250 Industrial Road, Gazipur, Bangladesh\r\nPACKING LIST\r\nInvoice Ref. EX202609-3206\r\nDate 28-JUN-2026\r\nCONSIGNEE\r\nRobbins, Clark and Barnett\r\n0442 Lawrence Common, 42643 Savannah, United\r\nStates\r\nTERMS OF DELIVERY\r\nCPT Los Angeles\r\nChattogram to New York\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg\r\n2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg\r\n3 Rubber flip-flops, thong plugged into the\r\nsole\r\nVN 11,732 pairs 196 2,651.43 kg 2,837.15 kg\r\n4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg\r\n5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg\r\n6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg\r\n7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg\r\n8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg\r\nTotal 1179 CARTONS 21,670.55 kg 23,484.41 kg\r\nShipping marks: ROBBINS, / EX202609-3206\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Robbins, Clark and Barnett",
+        "value": "Robbins, Clark and Barnett"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 28-JUN-2026",
+        "value": "28-JUN-2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Los Angeles",
+        "value": "CPT Los Angeles"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. EX202609-3206",
+        "value": "EX202609-3206"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "Smartphone 6.1in, 128GB"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "295.21 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "272.51 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "1,190"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "value": "Hair dryer 2200W ionic"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "value": "1,916.31 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "value": "1,673.24 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "value": "2,360"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "value": "VN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "Rubber flip-flops, thong plugged into the sole",
+            "value": "Rubber flip-flops, thong plugged into the sole"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "value": "2,837.15 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "value": "2,651.43 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "value": "11,732"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "value": "pairs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "value": "PT"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "value": "Porcelain dinner plate 27cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "value": "4,382.96 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "value": "4,141.92 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "value": "6,713"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "value": "MX"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "value": "LED television 55in 4K"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "value": "4,939.42 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "value": "4,494.17 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "value": "285"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "value": "KE"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "value": "Black tea, CTC, bulk"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "value": "7,565.60 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "value": "7,000.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "value": "7,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "value": "IN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "value": "598.11 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "value": "552.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "value": "750"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "value": "KH"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "value": "City bicycle 28in, 7-speed"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "value": "949.65 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "value": "885.28 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "value": "55"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Gazipur Karim Import & Export Co., Ltd.",
+        "value": "Gazipur Karim Import & Export Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "value": "23,484.41 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "value": "21,670.55 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "value": "1179"
+      }
+    },
+    "input_tokens": 489,
+    "latency_ms": 0,
+    "output_tokens": 1946
+  }
+}

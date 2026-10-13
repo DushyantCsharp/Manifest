@@ -1,0 +1,120 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0003",
+  "seed": 1800163304,
+  "layout": "exporter",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "EX202694-3613",
+    "invoice_date": "2026-02-20",
+    "seller": {
+      "name": "UD Utami Tbk",
+      "address": [
+        "Gang Merdeka No. 1",
+        "38707 Semarang",
+        "Indonesia"
+      ],
+      "country": "ID"
+    },
+    "buyer": {
+      "name": "Ward, Taylor and Morton",
+      "address": [
+        "1414 Lowe Burg",
+        "67239 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "FCA",
+    "incoterm_place": "Semarang",
+    "payment_terms": "Cash against documents",
+    "total_amount": "154406.34",
+    "bl_number": "MAEURN8101212",
+    "notify_party": {
+      "name": "Frazier-Nguyen",
+      "address": [
+        "7439 Tyrone Lock Suite 412",
+        "24258 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "MAERSK",
+    "vessel": "MAERSK VALENCIA",
+    "voyage": "107N",
+    "port_of_loading": "Tanjung Perak",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-02-28",
+    "container_number": "MAEU6142226",
+    "seal_number": "2680679",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1127,
+    "total_gross_weight_kg": "20809.16",
+    "goods_description": "SAID TO CONTAIN: Cashew kernels W320; Running shoes, rubber sole, textile upper; Corrugated shipping carton, 3-ply",
+    "total_net_weight_kg": "19556.00",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Cashew kernels W320",
+        "country_of_origin": "VN",
+        "quantity": "11431",
+        "unit": "kg",
+        "unit_price": "7.57",
+        "amount": "86532.67",
+        "hs_code": "080132",
+        "packages": 497,
+        "net_weight_kg": "11431.00",
+        "gross_weight_kg": "12168.05"
+      },
+      {
+        "line_no": 2,
+        "description": "Running shoes, rubber sole, textile upper",
+        "country_of_origin": "ID",
+        "quantity": "2268",
+        "unit": "pairs",
+        "unit_price": "25.38",
+        "amount": "57561.84",
+        "hs_code": "640411",
+        "packages": 189,
+        "net_weight_kg": "1476.47",
+        "gross_weight_kg": "1700.31"
+      },
+      {
+        "line_no": 3,
+        "description": "Corrugated shipping carton, 3-ply",
+        "country_of_origin": "VN",
+        "quantity": "22015",
+        "unit": "pcs",
+        "unit_price": "0.4684",
+        "amount": "10311.83",
+        "hs_code": "481910",
+        "packages": 441,
+        "net_weight_kg": "6648.53",
+        "gross_weight_kg": "6940.80"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "line_quantity",
+      "kind": "value_mismatch",
+      "field": "line_items.quantity",
+      "line_no": 2,
+      "description": "Running shoes, rubber sole, textile upper",
+      "values": {
+        "commercial_invoice": "2268",
+        "packing_list": "1973"
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

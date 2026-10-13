@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "46220c4e4862d3cb18a62d142cb2f06915e35d1d94b97fb266c45842f78dbd9f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nChakraborty, Sidhu and Sarma\r\n83/94, Sethi Chowk, 756939 Ludhiana, India\r\nPACKING LIST\r\nInvoice Ref. INV-2026-47166\r\nDate 03/28/2026\r\nCONSIGNEE\r\nSavage, Huffman and Waters\r\n10024 Alex Mall, 01510 Los Angeles, United States\r\nTERMS OF DELIVERY\r\nFCA Tiruppur\r\nNhava Sheva to Savannah\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg\r\nTotal 110 CARTONS 1,749.00 kg 1,856.70 kg\r\nShipping marks: SAVAGE, / INV-2026-47166\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Savage, Huffman and Waters",
+        "value": "Savage, Huffman and Waters"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 03/28/2026",
+        "value": "03/28/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FCA Tiruppur",
+        "value": "FCA Tiruppur"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. INV-2026-47166",
+        "value": "INV-2026-47166"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "value": "Hair dryer 2200W ionic"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "value": "1,856.70 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "value": "1,749.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "value": "2,200"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 110 CARTONS 1,749.00 kg 1,856.70 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Chakraborty, Sidhu and Sarma",
+        "value": "Chakraborty, Sidhu and Sarma"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+        "value": "1,856.70 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+        "value": "1,749.00 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+        "value": "110"
+      }
+    },
+    "input_tokens": 360,
+    "latency_ms": 0,
+    "output_tokens": 491
+  }
+}

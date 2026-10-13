@@ -1,0 +1,108 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0002",
+  "seed": 266991097,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-6547",
+    "invoice_date": "2026-01-24",
+    "seller": {
+      "name": "Khare Inc",
+      "address": [
+        "78, Kota Zila",
+        "881224 Tiruppur",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Karge Mälzer GmbH & Co. KG",
+      "address": [
+        "Heinzstraße 7/8",
+        "00962 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "currency": "EUR",
+    "incoterm": "DAP",
+    "incoterm_place": "Frankfurt am Main",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "73536.93",
+    "bl_number": "CMDUMN2957417",
+    "notify_party": {
+      "name": "Carsten Stiftung & Co. KGaA",
+      "address": [
+        "Mia-Klemt-Platz 2/3",
+        "85847 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "carrier": "CMA CGM",
+    "vessel": "CMA CALYPSO",
+    "voyage": "850S",
+    "port_of_loading": "Chennai",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-02-04",
+    "container_number": "CMDU1780805",
+    "seal_number": "7807542",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 409,
+    "total_gross_weight_kg": "10097.52",
+    "goods_description": "SAID TO CONTAIN: Men's crew-neck T-shirt, 100% cotton jersey; Black tea, CTC, bulk; Stainless cutlery set, 24 pieces",
+    "total_net_weight_kg": "9225.18",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+        "country_of_origin": "IN",
+        "quantity": "7700",
+        "unit": "pcs",
+        "unit_price": "3.27",
+        "amount": "25179.00",
+        "hs_code": "610910",
+        "packages": 154,
+        "net_weight_kg": "1678.60",
+        "gross_weight_kg": "1942.00"
+      },
+      {
+        "line_no": 2,
+        "description": "Black tea, CTC, bulk",
+        "country_of_origin": "IN",
+        "quantity": "4700",
+        "unit": "kg",
+        "unit_price": "3.50",
+        "amount": "16450.00",
+        "hs_code": "090240",
+        "packages": 94,
+        "net_weight_kg": "4700.00",
+        "gross_weight_kg": "5046.86"
+      },
+      {
+        "line_no": 3,
+        "description": "Stainless cutlery set, 24 pieces",
+        "country_of_origin": "IN",
+        "quantity": "1601",
+        "unit": "sets",
+        "unit_price": "19.93",
+        "amount": "31907.93",
+        "hs_code": "821520",
+        "packages": 161,
+        "net_weight_kg": "2846.58",
+        "gross_weight_kg": "3108.66"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

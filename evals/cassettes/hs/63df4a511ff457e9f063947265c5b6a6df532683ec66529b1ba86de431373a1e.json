@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "63df4a511ff457e9f063947265c5b6a6df532683ec66529b1ba86de431373a1e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh avocados\nCountry of origin: MX\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons > 0804 Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried\n\nChoose the subheading that covers these goods. Options:\n- 080440: Fruit, edible; avocados, fresh or dried\n- 080410: Fruit, edible; dates, fresh or dried\n- 080420: Fruit, edible; figs, fresh or dried\n- 080430: Fruit, edible; pineapples, fresh or dried\n- 080450: Fruit, edible; guavas, mangoes and mangosteens, fresh or dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b81e0be6170d19b026b62ee15015b75838ae85ec2af555ffa6ec74b8f829826e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "080440",
+      "cited": [
+        "080440"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 361,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "1f3ab361f24afd8e3e92f62ed49329a5c47c2e1fb9026872004e342c00242789",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cheddar cheese blocks\nCountry of origin: IE\n\nChosen so far: 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included > 0406 Cheese and curd\n\nChoose the subheading that covers these goods. Options:\n- 040630: Dairy produce; cheese, processed (not grated or powdered)\n- 040620: Dairy produce; cheese of all kinds, grated or powdered\n- 040610: Dairy produce; fresh cheese (including whey cheese), not fermented, and curd\n- 040690: Dairy produce; cheese (not grated, powdered or processed), n.e.c. in heading no. 0406\n- 040640: Dairy produce; cheese, blue-veined and other cheese containing veins produced by Penicillium roqueforti (not grated, powdered or processed)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3f16653d3d3bbd5dbdef69dc23a43348e1dd05e0703313cbd012614076092049",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "040690",
+      "cited": [
+        "040690"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 410,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "07647b01601865eae8adc319af0ed50c45c8f781351ccfa44af03d9157f56fc3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nK Khanna LLC I N VO I C E\r\nINVOICE\r\nNumber: 2026/0296\r\nDate: July 15, 2026\r\nTerms: L/C at sight \r\nSOLD TO\r\nBailey, Martin and Hardy\r\nFlat 6, Hayward Port, TW7R 2BY\r\nBirmingham, United Kingdom \r\nDELIVERY\r\nCPT Leeds (Incoterms 2020)\r\nvia Chennai to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00\r\n02 Stainless steel saucepan 20cm India 2,229 pcs 6.97 15,536.13\r\n03 Stainless cutlery set, 24 pieces India 2,360 sets 11.02 26,007.20\r\nAmount due 91,948.33\r\nAll amounts are in pounds sterling (GBP). Please quote invoice 2026/0296 with your payment. \r\n56/973, Mittal Zila | 603532 Mumbai | India\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Bailey, Martin and Hardy",
+        "value": "Bailey, Martin and Hardy"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "All amounts are in pounds sterling (GBP). Please quote invoice 2026/0296 with your payment.",
+        "value": "GBP"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Leeds (Incoterms 2020)",
+        "value": "CPT Leeds"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date: July 15, 2026",
+        "value": "July 15, 2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Number: 2026/0296",
+        "value": "2026/0296"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "50,405.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "1,700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "29.65"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "02 Stainless steel saucepan 20cm India 2,229 pcs 6.97 15,536.13",
+            "value": "15,536.13"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "02 Stainless steel saucepan 20cm India 2,229 pcs 6.97 15,536.13",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "02 Stainless steel saucepan 20cm India 2,229 pcs 6.97 15,536.13",
+            "value": "2,229"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "02 Stainless steel saucepan 20cm India 2,229 pcs 6.97 15,536.13",
+            "value": "6.97"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless cutlery set, 24 pieces India 2,360 sets 11.02 26,007.20",
+            "value": "26,007.20"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless cutlery set, 24 pieces India 2,360 sets 11.02 26,007.20",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless cutlery set, 24 pieces India 2,360 sets 11.02 26,007.20",
+            "value": "2,360"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless cutlery set, 24 pieces India 2,360 sets 11.02 26,007.20",
+            "value": "sets"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless cutlery set, 24 pieces India 2,360 sets 11.02 26,007.20",
+            "value": "11.02"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Terms: L/C at sight",
+        "value": "L/C at sight"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "K Khanna LLC I N VO I C E",
+        "value": "Khanna LLC"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Amount due 91,948.33",
+        "value": "91,948.33"
+      }
+    },
+    "input_tokens": 409,
+    "latency_ms": 0,
+    "output_tokens": 921
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "80b5e40954ee08afb3ce12834a03a75d4252ab6a9ebf3e250d2b48e9927d3b9d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nChonburi Sukjai Industrial Co., Ltd.\r\nNo. 114 Industrial Road, Chonburi, Thailand\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYDC4185685 \r\nCONSIGNEE\r\nCohen-Johnson\r\nUnit 12 46 Moore Lees, 2665 Sydney, Australia\r\nNOTIFY PARTY\r\nHernandez-Coleman\r\n73 May Wynd, 2074 Melbourne, Australia\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE AURORA / 520W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nBangkok\r\nPORT OF DISCHARGE\r\nSydney\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU6963299\r\nSEAL 8282568\r\nCOHEN-JOHNSON /\r\nEX202621-3018\r\n1098\r\nCARTONS\r\nSAID TO CONTAIN: Canned skipjack tuna\r\nin oil, 185g; Passenger car tyre\r\n205/55R16\r\n11,236.93 kg\r\nSHIPPED ON BOARD\r\n07-JUL-2026\r\nPLACE AND DATE OF ISSUE\r\nBangkok, 07-JUL-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYDC4185685",
+        "value": "ONEYDC4185685"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Cohen-Johnson",
+        "value": "Cohen-Johnson"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU6963299",
+        "value": "ONEU6963299"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Hernandez-Coleman",
+        "value": "Hernandez-Coleman"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Unit 12 46 Moore Lees, 2665 Sydney, Australia",
+        "value": "Sydney"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Bangkok",
+        "value": "Bangkok"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 8282568",
+        "value": "8282568"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Chonburi Sukjai Industrial Co., Ltd.",
+        "value": "Chonburi Sukjai Industrial Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "07-JUL-2026",
+        "value": "07-JUL-2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "11,236.93 kg",
+        "value": "11,236.93 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1098",
+        "value": "1098"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE AURORA / 520W",
+        "value": "ONE AURORA"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "ONE AURORA / 520W",
+        "value": "520W"
+      }
+    },
+    "input_tokens": 510,
+    "latency_ms": 0,
+    "output_tokens": 380
+  }
+}

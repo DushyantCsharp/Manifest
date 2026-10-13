@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "d4b8c5d6b3f7853b94d028c85d03240af02068ebfc1c2192cad1308ef5f8912d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nK Korpal and Sons I N VO I C E\r\nINVOICE\r\nNumber: 2026/6840\r\nDate: September 10, 2026\r\nTerms: T/T 30 days after B/L date \r\nSOLD TO\r\nStokes, Woods and Austin\r\nFlat 38, Adams Fort, CM3 1TZ Leeds,\r\nUnited Kingdom \r\nDELIVERY\r\nDDP Manchester (Incoterms 2020)\r\nvia Mundra to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50\r\nAmount due 42,451.50\r\nAll amounts are in US dollars (USD). Please quote invoice 2026/6840 with your payment. \r\n06, Gola Zila | 914197 Ludhiana | India\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Stokes, Woods and Austin",
+        "value": "Stokes, Woods and Austin"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "All amounts are in US dollars (USD). Please quote invoice 2026/6840 with your payment.",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "DDP Manchester (Incoterms 2020)",
+        "value": "DDP Manchester"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date: September 10, 2026",
+        "value": "September 10, 2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Number: 2026/6840",
+        "value": "2026/6840"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50",
+            "value": "42,451.50"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50",
+            "value": "Combed cotton yarn Ne 30/1"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50",
+            "value": "13,650"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50",
+            "value": "3.11"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Terms: T/T 30 days after B/L date",
+        "value": "T/T 30 days after B/L date"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "K Korpal and Sons I N VO I C E",
+        "value": "Korpal and Sons"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50",
+        "value": "42,451.50"
+      }
+    },
+    "input_tokens": 376,
+    "latency_ms": 0,
+    "output_tokens": 465
+  }
+}

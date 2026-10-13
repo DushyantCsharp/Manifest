@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "(P) Pires Viana e Filhos INVOICE\n\nFavela de da Rosa, 36 | 11956-824 Santos | Brazil\n\nINVOICE\n\nNumber: 2026/4866\nDate: September 3, 2026\nTerms:T/T in advance\n\nSOLD TO DELIVERY\nMiller-Burke CIP Los Angeles (Incoterms 2020)\n299 Benjamin Oval Suite 202, 39555 via Paranagua to Los Angeles\n\nSavannah, United States\n\nItem Description Made in Quantity Unit price Line total\n0! Ad copy paper 80gsm, ream Brazil 8,710 pes 1.76 15,329.60\n02 Roasted coffee beans, whole Brazil 1,240 kg 10.13 12,561.20\n\nAmount due 27,890.80\n\nAll amounts are in pounds sterling (GBP). Please quote invoice 2026/4866 with your. payment\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "PACKING LIST\n\nPires Viana e Filhos Invoice Ref. 2026/4866\nFavela de da Rosa, 36, 11956-824 Santos, Brazil. . Date September 3, 2026\n| CONSIGNEE TERMS OF DELIVERY\n_ Miller-Burke | | CIP Los Angeles\n\n299 Benjamin Oval Suite 202, 39555 Savannah, United | | Paranagua to Los Angeles\n\nStates\n\n# Description Origin Quantity Pkgs Net weight Gross weight\n1 A4 copy Paper 80gsm, ream BR 8,710 pcs 1742 47,852.0 Ib 51,369.1 Ib\n2 Roasted coffee beans, whole BR 1,240 kg 124 2,733.7 Ib 2,985.2 Ib\nTotal 1866 CARTONS 50,585.8 Ib 54,354.3 Ib\n\nShipping marks: MILLER-BURKE-/ 2026/4866\n\nPage | of |\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER -\nPires Viana e Filhos\n\n119562824 Santos, Brazil ©\n\nONE\n\nMiller-Burke :\n| 299 Benjamin Oval Suite\nStates ‘ : ;\n\n202, 39555 Savannah, United\n\nFavela de da Rosa, 36; BILL OF LADING oi\n5 ONEYFW6533019\nCONSIGNEE \"i NOTIFY PARTY\n\nSAME AS CONSIGNEE\n\nOCEAN VESSEL / VOYAGE NO. _\nONE TAGE / 4535S ..\n\nFREIGHT |\n_FREIGHT ‘PREPAID.\n\nPORT OF LOADING\n\nPORT OF DISCHARGE\n\n| SEAL 3198566\n\n‘Paranagua - Las Angeles\n\nCONTAINER /SEAL | MARKS & NOS. NO.OF | TDESCRIPTION OF GOODS - GROSS WEIGHT ©\n\nNO. et Boyt emer, PACKAGES ; Ge Shirt\n\nONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b\n2026/4866 ‘| CARTONS . | ream; Roasted coffee beans; whole.\n\nSHIPPED ON BOARD\n‘september’ 6, 2026.\n\nPLACE AND DATE OF ISSUE\n\nParanagua, September 6, 2026\n\nNUMBER OF ORIGINALBALS -\nTHREE (3)\n\nRECEIVED’by the Carrier in apparent good order and condition unless\nOr gacage, eject 1 warms and coats ofthe carers and DH O09 Signed as Carrier: ONE.\n\notherwise stated, the total number of contai\n\nners or packages shown above for cariage from ine\n\nport of loading to the port\n\nPage.1 of 1”\n"
+    }
+  ]
+}

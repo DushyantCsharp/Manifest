@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "8d8a83e8081775db22de1f23d957ddd5a1b4a16e445001065894752ef2e2056a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\n‘SHIPPER\n\nEVERGREEN\n\nSener Sti. : :\n75555 Efe Park, 05262 Istanbul, Turkey BILL OF LADING\nBALNO. ©\nEGLVFY6488353\nCONSIGNEE ‘ -| NOTIFY PARTY\nHebert Baron 3.A. Barbier\n\nrue de Breton, 55478 Lille, France 892, rue Carpentier, 84335 Paris, France\nOCEAN VESSEL / VOYAGE NO. FREIGHT\n\nEVERGREEN CALYPSO / 368E FREIGHT COLLECT\n\nPORT OF LOADING PORT OF DISCHARGE\n\nIzmir Marseille\n\nCONTAINER / SEAL MARKS & NOS. NO. OF DESCRIPTION OF GOODS ' GROSS WEIGHT\nNO. | PACKAGES : Sores\nEGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg\nSEAL | RE-26-1583 CARTONS box. of 100; Aluminium household foil 12 micron;\n\n1764144 AC induction motor 0.55kW 3-phase\n\n| SHIPPED ON BOARD . PLACE AND DATE OF ISSUE ~ NUMBER OF ORIGINAL B/LS\n\n14.07.2026 :\n\nIzmir, 14.07.2026 - | THREE (3)\n\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the ‘port of loading to the port\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN\n\nPage i of |\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVFY6488353",
+        "value": "EGLVFY6488353"
+      },
+      "buyer_name": {
+        "confidence": "0.85",
+        "evidence": "Hebert Baron 3.A. Barbier",
+        "value": "Hebert Baron 3.A."
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg",
+        "value": "EGLU0805958"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN CALYPSO / 368E FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Hebert Baron 3.A. Barbier",
+        "value": "Barbier"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "SEAL | RE-26-1583 CARTONS box. of 100; Aluminium household foil 12 micron;",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Izmir Marseille",
+        "value": "Marseille"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Izmir Marseille",
+        "value": "Izmir"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "1764144 AC induction motor 0.55kW 3-phase",
+        "value": "1764144"
+      },
+      "seller_name": {
+        "confidence": "0.72",
+        "evidence": "Sener Sti. : :",
+        "value": "Sener Sti."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "14.07.2026 :",
+        "value": "14.07.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "EGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg",
+        "value": "11.438,46 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "EGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg",
+        "value": "1225"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN CALYPSO / 368E FREIGHT COLLECT",
+        "value": "EVERGREEN CALYPSO"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN CALYPSO / 368E FREIGHT COLLECT",
+        "value": "368E"
+      }
+    },
+    "input_tokens": 514,
+    "latency_ms": 0,
+    "output_tokens": 471
+  }
+}

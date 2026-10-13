@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "c7eb88a9e2f45d9afa78781172458da9138ec120364bbff80bc2fc27ae7adfb2",
+  "retriever": "offline-lexical",
+  "query": "Manual toothbrushes, plastic handle origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "960321",
+      "description": "Brushes; toothbrushes",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "420222",
+      "description": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "420221",
+      "description": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of leather or of composition leather",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "420229",
+      "description": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "441700",
+      "description": "Wood; tools, tool bodies, tool handles, broom or brush bodies and handles, boot and shoe lasts and trees, of wood",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "821195",
+      "description": "Knives; with handles of base metal",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "820420",
+      "description": "Tools, hand; interchangeable spanner sockets, with or without handles",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "960310",
+      "description": "Brooms and brushes; consisting of twigs or other vegetable materials bound together, with or without handles",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "440410",
+      "description": "Wood; coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "440420",
+      "description": "Wood; non-coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "320190",
+      "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "350300",
+      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "040900",
+      "description": "Honey; natural",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "820412",
+      "description": "Tools, hand; hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches), adjustable",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

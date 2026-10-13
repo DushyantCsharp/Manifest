@@ -1,0 +1,84 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0004",
+  "document": "commercial_invoice",
+  "layout": "letterhead",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/8750",
+    "invoice_date": "2026-09-21",
+    "seller": {
+      "name": "Fátima Quintanilla Ferreras S.L.",
+      "address": [
+        "Calle Albert Ribes 8",
+        "33664 Manta",
+        "Ecuador"
+      ],
+      "country": "EC"
+    },
+    "buyer": {
+      "name": "Brown-Rose",
+      "address": [
+        "132 Wood Bypass",
+        "68462 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Guayaquil",
+    "payment_terms": "L/C at sight",
+    "total_amount": "97989.56"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Centrifugal water pump 1.1kW",
+      "country_of_origin": "IT",
+      "quantity": "120",
+      "unit": "pcs",
+      "unit_price": "57.90",
+      "amount": "6948.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Split air conditioner 12000 BTU",
+      "country_of_origin": "CN",
+      "quantity": "102",
+      "unit": "pcs",
+      "unit_price": "357.18",
+      "amount": "36432.36"
+    },
+    {
+      "line_no": 3,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "TR",
+      "quantity": "800",
+      "unit": "pcs",
+      "unit_price": "2.82",
+      "amount": "2256.00"
+    },
+    {
+      "line_no": 4,
+      "description": "Green Arabica coffee beans, grade 1",
+      "country_of_origin": "ET",
+      "quantity": "8940",
+      "unit": "kg",
+      "unit_price": "5.34",
+      "amount": "47739.60"
+    },
+    {
+      "line_no": 5,
+      "description": "Inflatable beach ball 40cm",
+      "country_of_origin": "CN",
+      "quantity": "15800",
+      "unit": "pcs",
+      "unit_price": "0.2920",
+      "amount": "4613.60"
+    }
+  ]
+}

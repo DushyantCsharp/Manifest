@@ -1,0 +1,165 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0005",
+  "seed": 359327877,
+  "layout": "compact",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "FC-5883/26",
+    "invoice_date": "2026-09-19",
+    "seller": {
+      "name": "Qingdao Haixing Import & Export Co., Ltd.",
+      "address": [
+        "No. 252 Export Processing Zone",
+        "Qingdao",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Bousquet",
+      "address": [
+        "27, rue de Le Roux",
+        "84775 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "EXW",
+    "incoterm_place": "Guangzhou",
+    "payment_terms": "T/T in advance",
+    "total_amount": "135820.80",
+    "bl_number": "ONEYFE6112892",
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE ZEPHYR",
+    "voyage": "476N",
+    "port_of_loading": "Qingdao",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-10-01",
+    "container_number": "ONEU9284964",
+    "seal_number": "5525718",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1923,
+    "total_gross_weight_kg": "23044.67",
+    "goods_description": "SAID TO CONTAIN: Electric kettle 1.7L stainless; Upholstered office chair, steel base; AC induction motor 0.55kW 3-phase; Running shoes, rubber sole, textile upper; Passenger car tyre 205/55R16; Plush toy bear 30cm; Plastic storage box 30L with lid; Lithium-ion battery pack 48V 20Ah",
+    "total_net_weight_kg": "19935.95",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Electric kettle 1.7L stainless",
+        "country_of_origin": "CN",
+        "quantity": "2021",
+        "unit": "pcs",
+        "unit_price": "7.94",
+        "amount": "16046.74",
+        "hs_code": "851679",
+        "packages": 169,
+        "net_weight_kg": "2437.33",
+        "gross_weight_kg": "2854.29"
+      },
+      {
+        "line_no": 2,
+        "description": "Upholstered office chair, steel base",
+        "country_of_origin": "CN",
+        "quantity": "374",
+        "unit": "pcs",
+        "unit_price": "76.25",
+        "amount": "28517.50",
+        "hs_code": "940171",
+        "packages": 374,
+        "net_weight_kg": "4752.04",
+        "gross_weight_kg": "5196.35"
+      },
+      {
+        "line_no": 3,
+        "description": "AC induction motor 0.55kW 3-phase",
+        "country_of_origin": "CN",
+        "quantity": "30",
+        "unit": "pcs",
+        "unit_price": "50.09",
+        "amount": "1502.70",
+        "hs_code": "850151",
+        "packages": 15,
+        "net_weight_kg": "227.94",
+        "gross_weight_kg": "258.98"
+      },
+      {
+        "line_no": 4,
+        "description": "Running shoes, rubber sole, textile upper",
+        "country_of_origin": "CN",
+        "quantity": "600",
+        "unit": "pairs",
+        "unit_price": "24.05",
+        "amount": "14430.00",
+        "hs_code": "640411",
+        "packages": 50,
+        "net_weight_kg": "394.80",
+        "gross_weight_kg": "428.54"
+      },
+      {
+        "line_no": 5,
+        "description": "Passenger car tyre 205/55R16",
+        "country_of_origin": "CN",
+        "quantity": "899",
+        "unit": "pcs",
+        "unit_price": "59.58",
+        "amount": "53562.42",
+        "hs_code": "401110",
+        "packages": 899,
+        "net_weight_kg": "8089.20",
+        "gross_weight_kg": "9727.96"
+      },
+      {
+        "line_no": 6,
+        "description": "Plush toy bear 30cm",
+        "country_of_origin": "CN",
+        "quantity": "912",
+        "unit": "pcs",
+        "unit_price": "3.12",
+        "amount": "2845.44",
+        "hs_code": "950300",
+        "packages": 19,
+        "net_weight_kg": "268.13",
+        "gross_weight_kg": "288.03"
+      },
+      {
+        "line_no": 7,
+        "description": "Plastic storage box 30L with lid",
+        "country_of_origin": "CN",
+        "quantity": "3900",
+        "unit": "pcs",
+        "unit_price": "2.98",
+        "amount": "11622.00",
+        "hs_code": "392490",
+        "packages": 390,
+        "net_weight_kg": "3591.90",
+        "gross_weight_kg": "4103.41"
+      },
+      {
+        "line_no": 8,
+        "description": "Lithium-ion battery pack 48V 20Ah",
+        "country_of_origin": "CN",
+        "quantity": "28",
+        "unit": "pcs",
+        "unit_price": "260.50",
+        "amount": "7294.00",
+        "hs_code": "850760",
+        "packages": 7,
+        "net_weight_kg": "174.61",
+        "gross_weight_kg": "187.11"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

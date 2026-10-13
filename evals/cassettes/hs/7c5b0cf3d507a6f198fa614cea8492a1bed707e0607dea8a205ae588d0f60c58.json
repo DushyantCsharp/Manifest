@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "7c5b0cf3d507a6f198fa614cea8492a1bed707e0607dea8a205ae588d0f60c58",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Corrugated cardboard shipping cartons, 3-ply\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481910: Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard\n    contains 481920: Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard\n    contains 480810: Paper and paperboard; corrugated, whether or not perforated, in rolls or sheets, other than paper of heading 4803\n- 44: Wood and articles of wood; wood charcoal\n    contains 441239: Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with both outer plies of coniferous wood\n    contains 441299: Plywood; n.e.c. in heading 4412, with both outer plies of coniferous wood\n    contains 441291: Plywood; n.e.c. in heading 4412, with at least one outer ply of tropical wood\n    contains 441249: Laminated veneered lumber (LVL); with both outer plies of coniferous wood\n    contains 441259: Blockboard, laminboard and battenboard; with both outer plies of coniferous wood\n    contains 441292: Plywood; n.e.c. in heading 4412, with at least one outer ply of non-coniferous wood\n    contains 441242: Laminated veneered lumber (LVL); with at least one outer ply of non-coniferous wood\n    contains 441241: Plywood, veneered panels and similar laminated wood; laminated veneered lumber (LVL); with at least one outer ply of tropical wood\n    contains 441252: Blockboard, laminboard and battenboard; with at least one outer ply of non-coniferous wood, (not containing particle board)\n    contains 441231: Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of tropical wood\n- 47: Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard\n    contains 470710: Paper or paperboard; waste and scrap, of unbleached kraft paper or paperboard or corrugated paper or paperboard\n- 68: Stone, plaster, cement, asbestos, mica or similar materials; articles thereof\n    contains 681181: Cellulose fibre-cement; articles or the like; corrugated sheets, not containing asbestos\n    contains 681182: Cellulose fibre-cement; articles or the like, sheets, panels, tiles and similar articles (other than corrugated sheets), not containing asbestos\n    contains 681189: Cellulose fibre-cement; articles or the like, other than corrugated sheets and other sheets, panels, tiles and similar articles, not containing asbestos\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 844130: Machines; for making cartons, boxes, cases, tubes, drums or similar containers (other than by moulding), of paper pulp, paper or paperboard\n- 72: Iron and steel\n    contains 721041: Iron or non-alloy steel; flat-rolled, width 600mm or more, corrugated, plated or coated with zinc (not electrolytically)\n    contains 721049: Iron or non-alloy steel; flat-rolled, width 600mm or more, (not corrugated), plated or coated with zinc (not electrolytically)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "443c5dee1340d9b2d0f0ac23b6c24a05eb7825386e6f1b0c2f2591f51f08217c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "48",
+      "cited": [
+        "48"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1008,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

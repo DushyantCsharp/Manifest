@@ -1,0 +1,170 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0007",
+  "seed": 2642930548,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-2659",
+    "invoice_date": "2026-03-24",
+    "seller": {
+      "name": "Luria-Tropea SPA",
+      "address": [
+        "Stretto Bocelli, 49 Appartamento 8",
+        "23819 Milano",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Couturier",
+      "address": [
+        "72, chemin Adélaïde Laine",
+        "80490 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "FCA",
+    "incoterm_place": "Prato",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "310693.50",
+    "bl_number": "ONEYFV5467944",
+    "notify_party": {
+      "name": "Chauvin SA",
+      "address": [
+        "5, chemin de Delmas",
+        "48370 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE PEGASUS",
+    "voyage": "297S",
+    "port_of_loading": "Genova",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-04-02",
+    "container_number": "ONEU7684961",
+    "seal_number": "2291653",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 2192,
+    "total_gross_weight_kg": "23644.25",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Centrifugal water pump 1.1kW; Polarized sunglasses; Extra virgin olive oil, 1L bottle; Red wine, 0.75L bottle; Roasted coffee beans, whole",
+    "total_net_weight_kg": "20544.74",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Leather handbag with shoulder strap",
+        "country_of_origin": "IT",
+        "quantity": "1830",
+        "unit": "pcs",
+        "unit_price": "78.02",
+        "amount": "142776.60",
+        "hs_code": "420221",
+        "packages": 183,
+        "net_weight_kg": "1740.33",
+        "gross_weight_kg": "2056.67"
+      },
+      {
+        "line_no": 2,
+        "description": "Centrifugal water pump 1.1kW",
+        "country_of_origin": "IT",
+        "quantity": "289",
+        "unit": "pcs",
+        "unit_price": "70.77",
+        "amount": "20452.53",
+        "hs_code": "841370",
+        "packages": 289,
+        "net_weight_kg": "3819.14",
+        "gross_weight_kg": "4397.77"
+      },
+      {
+        "line_no": 3,
+        "description": "Polarized sunglasses",
+        "country_of_origin": "IT",
+        "quantity": "10000",
+        "unit": "pcs",
+        "unit_price": "2.36",
+        "amount": "23600.00",
+        "hs_code": "900410",
+        "packages": 100,
+        "net_weight_kg": "400.00",
+        "gross_weight_kg": "483.00"
+      },
+      {
+        "line_no": 4,
+        "description": "Extra virgin olive oil, 1L bottle",
+        "country_of_origin": "IT",
+        "quantity": "5292",
+        "unit": "pcs",
+        "unit_price": "9.05",
+        "amount": "47892.60",
+        "hs_code": "150920",
+        "packages": 441,
+        "net_weight_kg": "4868.64",
+        "gross_weight_kg": "5156.91"
+      },
+      {
+        "line_no": 5,
+        "description": "Red wine, 0.75L bottle",
+        "country_of_origin": "IT",
+        "quantity": "5497",
+        "unit": "pcs",
+        "unit_price": "7.41",
+        "amount": "40732.77",
+        "hs_code": "220421",
+        "packages": 917,
+        "net_weight_kg": "7096.63",
+        "gross_weight_kg": "8728.16"
+      },
+      {
+        "line_no": 6,
+        "description": "Roasted coffee beans, whole",
+        "country_of_origin": "IT",
+        "quantity": "2620",
+        "unit": "kg",
+        "unit_price": "13.45",
+        "amount": "35239.00",
+        "hs_code": "090121",
+        "packages": 262,
+        "net_weight_kg": "2620.00",
+        "gross_weight_kg": "2821.74"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "consignee",
+      "kind": "value_mismatch",
+      "field": "buyer.name",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "commercial_invoice": "Couturier",
+        "bill_of_lading": "Lemaire"
+      }
+    },
+    {
+      "mutation": "package_count",
+      "kind": "value_mismatch",
+      "field": "total_packages",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "packing_list": 2192,
+        "bill_of_lading": 2191
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

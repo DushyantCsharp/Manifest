@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "c316c4f6433ce6fa78babb840be41e70b7e2bb00bc6e23f409cc93463344c473",
+  "retriever": "offline-lexical",
+  "query": "Refined copper cathodes origin CL",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "740311",
+      "description": "Copper; refined, unwrought, cathodes and sections of cathodes",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "741110",
+      "description": "Copper; tubes and pipes, of refined copper",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "740313",
+      "description": "Copper; refined, unwrought, billets",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "740710",
+      "description": "Copper; bars, rods and profiles, of refined copper",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "740312",
+      "description": "Copper; refined, unwrought, wire-bars",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "740319",
+      "description": "Copper; refined, unwrought, n.e.c. in item no. 7403.1",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "740911",
+      "description": "Copper; strip, of a thickness exceeding 0.15mm, of refined copper, in coils",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "741210",
+      "description": "Copper; tube or pipe fittings (e.g. couplings, elbows, sleeves) of refined copper",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "740919",
+      "description": "Copper; plates and sheets, of a thickness exceeding 0.15mm, of refined copper, not in coils",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "740811",
+      "description": "Copper; wire, of refined copper, of which the maximum cross-sectional dimension exceeds 6mm",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "740819",
+      "description": "Copper; wire, of refined copper, of which the maximum cross-sectional dimension is 6mm or less",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "741011",
+      "description": "Copper; foil, not backed, of a thickness not exceeding 0.15mm, of refined copper",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "740321",
+      "description": "Copper; copper-zinc base alloys (brass) unwrought",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "740322",
+      "description": "Copper; copper-tin base alloys (bronze) unwrought",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "740329",
+      "description": "Copper; copper alloys n.e.c. in heading no. 7403 (other than master alloys of heading no. 7405)",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "741021",
+      "description": "Copper; foil, backed with paper, paperboard, plastics or similar backing material, of a thickness (excluding any backing) not exceeding 0.15mm, of refined copper",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "700100",
+      "description": "Glass; cullet and other waste and scrap of glass, excluding glass from cathode ray tubes or other activated glass of heading 85.49, glass in the mass",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "701120",
+      "description": "Glass envelopes (including bulbs and tubes); open, and glass parts thereof, without fittings, for cathode-ray tubes",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "260300",
+      "description": "Copper ores and concentrates",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "740400",
+      "description": "Copper; waste and scrap",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0012",
+  "document": "commercial_invoice",
+  "layout": "eu",
+  "number_style": "de",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-2.8",
+    "noise_sigma": 14,
+    "salt_pepper": "0.0005",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-3139",
+    "invoice_date": "2026-04-30",
+    "seller": {
+      "name": "Salvi LLC",
+      "address": [
+        "81, Mane Circle",
+        "917747 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Janssens VOF",
+      "address": [
+        "Rudilei 3",
+        "5485 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "FCA",
+    "incoterm_place": "Mumbai",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "835133.52"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IN",
+      "quantity": "650",
+      "unit": "pcs",
+      "unit_price": "65.58",
+      "amount": "42627.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "IN",
+      "quantity": "10000",
+      "unit": "kg",
+      "unit_price": "3.03",
+      "amount": "30300.00"
+    },
+    {
+      "line_no": 3,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "IN",
+      "quantity": "1280",
+      "unit": "pcs",
+      "unit_price": "532.08",
+      "amount": "681062.40"
+    },
+    {
+      "line_no": 4,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "IN",
+      "quantity": "7800",
+      "unit": "pcs",
+      "unit_price": "8.58",
+      "amount": "66924.00"
+    },
+    {
+      "line_no": 5,
+      "description": "Long grain white rice, milled",
+      "country_of_origin": "IN",
+      "quantity": "10050",
+      "unit": "kg",
+      "unit_price": "0.5995",
+      "amount": "6024.98"
+    },
+    {
+      "line_no": 6,
+      "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+      "country_of_origin": "IN",
+      "quantity": "4057",
+      "unit": "pcs",
+      "unit_price": "2.02",
+      "amount": "8195.14"
+    }
+  ]
+}

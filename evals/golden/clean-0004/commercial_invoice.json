@@ -1,0 +1,66 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0004",
+  "document": "commercial_invoice",
+  "layout": "letterhead",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/0296",
+    "invoice_date": "2026-07-15",
+    "seller": {
+      "name": "Khanna LLC",
+      "address": [
+        "56/973, Mittal Zila",
+        "603532 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Bailey, Martin and Hardy",
+      "address": [
+        "Flat 6, Hayward Port",
+        "TW7R 2BY Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "GBP",
+    "incoterm": "CPT",
+    "incoterm_place": "Leeds",
+    "payment_terms": "L/C at sight",
+    "total_amount": "91948.33"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IN",
+      "quantity": "1700",
+      "unit": "pcs",
+      "unit_price": "29.65",
+      "amount": "50405.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "2229",
+      "unit": "pcs",
+      "unit_price": "6.97",
+      "amount": "15536.13"
+    },
+    {
+      "line_no": 3,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "2360",
+      "unit": "sets",
+      "unit_price": "11.02",
+      "amount": "26007.20"
+    }
+  ]
+}

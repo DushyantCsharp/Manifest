@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "key": "31d676fb2c4866f783079765dce2665e3fb3081c97d48f4f45caef462b9a867e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nS\r\nSezgin Manço San. I N VO I C E\r\nINVOICE\r\nNumber: 2026/0956\r\nDate: May 4, 2026\r\nTerms: T/T in advance \r\nSOLD TO\r\nRogers-Clark\r\n409 Heather Heights, DA7 4UX\r\nBirmingham, United Kingdom \r\nDELIVERY\r\nCFR Southampton (Incoterms 2020)\r\nvia Ambarli to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50\r\n02 Laptop computer 14in, 16GB RAM Vietnam 375 pcs 726.18 272,317.50\r\n03 Stainless steel saucepan 20cm India 2,880 pcs 13.51 38,908.80\r\n04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12\r\n05 Analog quartz wristwatch, steel case China 950 pcs 36.80 34,960.00\r\nAmount due 397,512.92\r\nAll amounts are in US dollars (USD). Please quote invoice 2026/0956 with your payment. \r\n8703 Soylu Circles | 54932 Istanbul | Turkey\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Rogers-Clark",
+        "value": "Rogers-Clark"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "All amounts are in US dollars (USD). Please quote invoice 2026/0956 with your payment.",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CFR Southampton (Incoterms 2020)",
+        "value": "CFR Southampton"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date: May 4, 2026",
+        "value": "May 4, 2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Number: 2026/0956",
+        "value": "2026/0956"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "29,191.50"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "Chile"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "Red wine, 0.75L bottle"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "8,982"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "3.25"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "02 Laptop computer 14in, 16GB RAM Vietnam 375 pcs 726.18 272,317.50",
+            "value": "272,317.50"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "02 Laptop computer 14in, 16GB RAM Vietnam 375 pcs 726.18 272,317.50",
+            "value": "Vietnam"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "02 Laptop computer 14in, 16GB RAM Vietnam 375 pcs 726.18 272,317.50",
+            "value": "Laptop computer 14in, 16GB RAM"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "02 Laptop computer 14in, 16GB RAM Vietnam 375 pcs 726.18 272,317.50",
+            "value": "375"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "02 Laptop computer 14in, 16GB RAM Vietnam 375 pcs 726.18 272,317.50",
+            "value": "726.18"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless steel saucepan 20cm India 2,880 pcs 13.51 38,908.80",
+            "value": "38,908.80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless steel saucepan 20cm India 2,880 pcs 13.51 38,908.80",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless steel saucepan 20cm India 2,880 pcs 13.51 38,908.80",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless steel saucepan 20cm India 2,880 pcs 13.51 38,908.80",
+            "value": "2,880"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "03 Stainless steel saucepan 20cm India 2,880 pcs 13.51 38,908.80",
+            "value": "13.51"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12",
+            "value": "22,135.12"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12",
+            "value": "Electric kettle 1.7L stainless"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12",
+            "value": "2,632"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12",
+            "value": "8.41"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "05 Analog quartz wristwatch, steel case China 950 pcs 36.80 34,960.00",
+            "value": "34,960.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "05 Analog quartz wristwatch, steel case China 950 pcs 36.80 34,960.00",
+            "value": "Analog quartz wristwatch, steel case"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "05 Analog quartz wristwatch, steel case China 950 pcs 36.80 34,960.00",
+            "value": "950"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "05 Analog quartz wristwatch, steel case China 950 pcs 36.80 34,960.00",
+            "value": "36.80"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Terms: T/T in advance",
+        "value": "T/T in advance"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Sezgin Manço San. I N VO I C E",
+        "value": "Sezgin Manço San."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Amount due 397,512.92",
+        "value": "397,512.92"
+      }
+    },
+    "input_tokens": 439,
+    "latency_ms": 0,
+    "output_tokens": 1344
+  }
+}

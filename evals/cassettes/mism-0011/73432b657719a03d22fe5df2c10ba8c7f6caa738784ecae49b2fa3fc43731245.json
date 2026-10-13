@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "73432b657719a03d22fe5df2c10ba8c7f6caa738784ecae49b2fa3fc43731245",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nTainan Chunghwa Electronics Co., Ltd.\r\nNo. 218 Industrial Road, Tainan, Taiwan\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUZD8239607 \r\nCONSIGNEE\r\nWhite-Bowen\r\n8229 Tom Ferry Suite 084, N3B 6B8 Vancouver, Canada\r\nNOTIFY PARTY\r\nTanner-Lewis\r\n22480 Lisa Station Suite 644, A2A 9C4\r\nMontréal, Canada\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC TRITON / 401E\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nKaohsiung\r\nPORT OF DISCHARGE\r\nVancouver\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU2337035\r\nSEAL\r\n7738955\r\nWHITE-BOWEN /\r\nINV-2026-90214\r\n465\r\nCARTONS\r\nSAID TO CONTAIN: Solar PV module 410W\r\nmonocrystalline; Stainless steel saucepan\r\n20cm; Combed cotton yarn Ne 30/1\r\n12,722.27 kg\r\nSHIPPED ON BOARD\r\n03/01/2026\r\nPLACE AND DATE OF ISSUE\r\nKaohsiung, 03/01/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "MEDUZD8239607",
+        "value": "MEDUZD8239607"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "White-Bowen",
+        "value": "White-Bowen"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MSC",
+        "value": "MSC"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "MEDU2337035",
+        "value": "MEDU2337035"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Tanner-Lewis",
+        "value": "Tanner-Lewis"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "8229 Tom Ferry Suite 084, N3B 6B8 Vancouver, Canada",
+        "value": "Vancouver"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Kaohsiung",
+        "value": "Kaohsiung"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "7738955",
+        "value": "7738955"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Tainan Chunghwa Electronics Co., Ltd.",
+        "value": "Tainan Chunghwa Electronics Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "03/01/2026",
+        "value": "03/01/2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "12,722.27 kg",
+        "value": "12,722.27 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "465",
+        "value": "465"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "MSC TRITON / 401E",
+        "value": "MSC TRITON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "MSC TRITON / 401E",
+        "value": "401E"
+      }
+    },
+    "input_tokens": 523,
+    "latency_ms": 0,
+    "output_tokens": 378
+  }
+}

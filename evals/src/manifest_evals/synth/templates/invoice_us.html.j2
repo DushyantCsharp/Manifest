@@ -1,0 +1,89 @@
+{# Layout 1 "us": classic sans-serif invoice, US number and date formats, origin as a name. #}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  body { font-family: Helvetica, Arial, "DejaVu Sans", sans-serif; }
+  .top { display: flex; justify-content: space-between; border-bottom: 3px solid #1f3a5f; padding-bottom: 8px; }
+  .seller { font-size: 13pt; font-weight: bold; color: #1f3a5f; }
+  .title h1 { font-size: 20pt; letter-spacing: 1px; color: #1f3a5f; text-align: right; }
+  .meta { width: auto; margin-left: auto; margin-top: 6px; }
+  .meta th { padding: 1px 10px 1px 0; color: #555; font-weight: normal; }
+  .meta td { font-weight: bold; }
+  .parties { display: flex; gap: 10px; margin: 14px 0; }
+  .box { flex: 1; border: 1px solid #c9d3e0; padding: 6px 8px; }
+  .box h3 { font-size: 8pt; text-transform: uppercase; color: #1f3a5f; margin-bottom: 3px; }
+  .items th { background: #1f3a5f; color: #fff; padding: 5px; font-size: 8.5pt; }
+  .items td { padding: 5px; border-bottom: 1px solid #d9dee6; }
+  .totals { width: 45%; margin: 10px 0 0 auto; }
+  .totals th, .totals td { padding: 6px; border-top: 2px solid #1f3a5f; font-size: 11pt; }
+  .footer { margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="top">
+  <div>
+    <div class="seller">{{ doc.seller.name }}</div>
+    {% for line in doc.seller.address %}<div>{{ line }}</div>{% endfor %}
+  </div>
+  <div class="title">
+    <h1>COMMERCIAL INVOICE</h1>
+    <table class="meta">
+      <tr><th>Invoice No.</th><td>{{ doc.invoice_number }}</td></tr>
+      <tr><th>Invoice Date</th><td>{{ layout.date(doc.invoice_date) }}</td></tr>
+      <tr><th>Payment Terms</th><td>{{ doc.payment_terms }}</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="parties">
+  <div class="box">
+    <h3>Bill To / Consignee</h3>
+    <strong>{{ doc.buyer.name }}</strong>
+    {% for line in doc.buyer.address %}<div>{{ line }}</div>{% endfor %}
+  </div>
+  <div class="box">
+    <h3>Shipping</h3>
+    <div>Terms of Sale: {{ doc.incoterm }} {{ doc.incoterm_place }} (Incoterms 2020)</div>
+    <div>Port of Loading: {{ doc.port_of_loading }}</div>
+    <div>Port of Discharge: {{ doc.port_of_discharge }}</div>
+    <div>Currency: {{ doc.currency }}</div>
+  </div>
+</div>
+
+<table class="items">
+  <thead>
+    <tr>
+      <th>#</th><th>Description</th><th>Country of Origin</th>
+      <th class="num">Qty</th><th>Unit</th>
+      <th class="num">Unit Price</th><th class="num">Amount ({{ doc.currency }})</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for line in doc.lines %}
+    <tr>
+      <td>{{ line.line_no }}</td>
+      <td>{{ line.description }}</td>
+      <td>{{ country(line.country_of_origin) or "" }}</td>
+      <td class="num">{{ layout.quantity(line.quantity) }}</td>
+      <td>{{ line.unit }}</td>
+      <td class="num">{{ layout.price(line.unit_price) }}</td>
+      <td class="num">{{ layout.money(line.amount) }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<table class="totals">
+  <tr><th>Total {{ doc.currency }}</th><td class="num">{{ layout.money(doc.total_amount) }}</td></tr>
+</table>
+
+<div class="footer small muted">
+  We hereby certify that this invoice shows the actual price of the goods described, that all
+  particulars are true and correct, and that the goods are of the origin stated.
+  <br><br>Authorized signature: ______________________ for {{ doc.seller.name }}
+</div>
+</body>
+</html>

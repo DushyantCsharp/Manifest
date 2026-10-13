@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "7e5f56c79eb5762269fd8a0c70ce160abe3420fa82e81198e10578ab63bd0336",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nFátima Quintanilla Ferreras S.L.\r\nCalle Albert Ribes 8, 33664 Manta, Ecuador\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVKS3977823 \r\nCONSIGNEE\r\nBrown-Rose\r\n132 Wood Bypass, 68462 Newark, United States\r\nNOTIFY PARTY\r\nRodriguez, Carson and Willis\r\n29749 Kevin Point, 50467 Savannah, United\r\nStates\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN CALYPSO / 910N\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nGuayaquil\r\nPORT OF DISCHARGE\r\nNew York\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU8810919\r\nSEAL\r\n2083407\r\nBROWN-ROSE /\r\n2026/8750\r\n470\r\nCARTONS\r\nSAID TO CONTAIN: Centrifugal water pump 1.1kW;\r\nSplit air conditioner 12000 BTU; Terry cotton bath\r\ntowel 70x140; Green Arabica coffee beans, grade 1;\r\nInflatable beach ball 40cm\r\n37,556.4 lb\r\nSHIPPED ON BOARD\r\nSeptember 24, 2026\r\nPLACE AND DATE OF ISSUE\r\nGuayaquil, September 24, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVKS3977823",
+        "value": "EGLVKS3977823"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Brown-Rose",
+        "value": "Brown-Rose"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU8810919",
+        "value": "EGLU8810919"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Rodriguez, Carson and Willis",
+        "value": "Rodriguez, Carson and Willis"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "New York",
+        "value": "New York"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Guayaquil",
+        "value": "Guayaquil"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "2083407",
+        "value": "2083407"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Fátima Quintanilla Ferreras S.L.",
+        "value": "Fátima Quintanilla Ferreras S.L."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "September 24, 2026",
+        "value": "September 24, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "37,556.4 lb",
+        "value": "37,556.4 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "470",
+        "value": "470"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN CALYPSO / 910N",
+        "value": "EVERGREEN CALYPSO"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN CALYPSO / 910N",
+        "value": "910N"
+      }
+    },
+    "input_tokens": 545,
+    "latency_ms": 0,
+    "output_tokens": 386
+  }
+}

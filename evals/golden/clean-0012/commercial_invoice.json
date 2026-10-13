@@ -1,0 +1,66 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0012",
+  "document": "commercial_invoice",
+  "layout": "eu",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-5581",
+    "invoice_date": "2026-07-12",
+    "seller": {
+      "name": "Issac, Jaggi and Chacko",
+      "address": [
+        "H.No. 111, Oza Path",
+        "529203 Chennai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Junck",
+      "address": [
+        "Hans-Gerhard-Schleich-Allee 28/31",
+        "89157 Frankfurt am Main",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "currency": "EUR",
+    "incoterm": "FOB",
+    "incoterm_place": "Chennai",
+    "payment_terms": "Cash against documents",
+    "total_amount": "115154.48"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+      "country_of_origin": "IN",
+      "quantity": "14400",
+      "unit": "pcs",
+      "unit_price": "2.47",
+      "amount": "35568.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "CN",
+      "quantity": "284",
+      "unit": "pcs",
+      "unit_price": "133.72",
+      "amount": "37976.48"
+    },
+    {
+      "line_no": 3,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "IN",
+      "quantity": "19000",
+      "unit": "kg",
+      "unit_price": "2.19",
+      "amount": "41610.00"
+    }
+  ]
+}

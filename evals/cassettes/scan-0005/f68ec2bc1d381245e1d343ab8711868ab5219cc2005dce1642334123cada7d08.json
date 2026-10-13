@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "f68ec2bc1d381245e1d343ab8711868ab5219cc2005dce1642334123cada7d08",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\n\nLtd.\n\nONE\n\nQingdao’ Haixing Import & Export Co-, {\n\nNo. 252 Export Processing Zone, Qingdao, China BILL OF LADING\nB/LNO. ~-\nONEYFE6112892\n\nCONSIGNEE NOTIFY PARTY\n\nBousquet tl SAME AS CONSIGNEE.\n\n27, rue de Le Roux, 84775 Lille, France © ae\n\nOCEAN VESSEL / VOYAGE NO.\nONE ZEPHYR / A76N\n\nFREIGHT ae\nFREIGHT COLLECT\n\nPORT OF LOADING\nQingdao\n\nPORT OF DISCHARGE\nLe Havre\n\nCONTAINER / SEAL |MARKS &NOS. —| NO. OF DESCRIPTION OF GOODS GROSS WEIGHT\nONEU9284964 BOUSQUET-/ — 1923 SAID TO CONTAIN: Electric kettle 1.7L stainless; 23 044,67 kg\n‘| SEAL FC-5883/26 | CARTONS Upholstered office chair, steel base; AC induction\n5525718 motor 0.55kW 3-phase; Running shoes, rubber sole,\ntextile upper; Passenger car tyre 205/55R16; Plush\ntoy bear 30cm; Plastic storage box 30L with lid;\nLithium-ion battery pack 48v .20Ah\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\n| 2026-10-01 ‘Qingdao, 2026-10-01\n\nTHREE. (3)\n\nRECEIVED by the Carrier in apparent good order and\nof discharge, subject to the terms and conditions of the\n\na coereas eed eros er pecgon eno shove er caragn tame Ha IASG S17\ncarrier's standard bill of lading Signed as Carrier. ONE : :\n\nPage. | of |\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYFE6112892",
+        "value": "ONEYFE6112892"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Bousquet tl SAME AS CONSIGNEE.",
+        "value": "Bousquet"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU9284964 BOUSQUET-/ — 1923 SAID TO CONTAIN: Electric kettle 1.7L stainless; 23 044,67 kg",
+        "value": "ONEU9284964"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "‘| SEAL FC-5883/26 | CARTONS Upholstered office chair, steel base; AC induction",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Le Havre",
+        "value": "Le Havre"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Qingdao’ Haixing Import & Export Co-, {",
+        "value": "Qingdao"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "5525718 motor 0.55kW 3-phase; Running shoes, rubber sole,",
+        "value": "5525718"
+      },
+      "seller_name": {
+        "confidence": "0.81",
+        "evidence": "Qingdao’ Haixing Import & Export Co-, {",
+        "value": "Qingdao’ Haixing Import & Export Co-, {"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "| 2026-10-01 ‘Qingdao, 2026-10-01",
+        "value": "2026-10-01"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "ONEU9284964 BOUSQUET-/ — 1923 SAID TO CONTAIN: Electric kettle 1.7L stainless; 23 044,67 kg",
+        "value": "23 044,67 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "ONEU9284964 BOUSQUET-/ — 1923 SAID TO CONTAIN: Electric kettle 1.7L stainless; 23 044,67 kg",
+        "value": "1923"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE ZEPHYR / A76N",
+        "value": "ONE ZEPHYR"
+      },
+      "voyage": {
+        "confidence": "0.68",
+        "evidence": "ONE ZEPHYR / A76N",
+        "value": "A76N"
+      }
+    },
+    "input_tokens": 529,
+    "latency_ms": 0,
+    "output_tokens": 481
+  }
+}

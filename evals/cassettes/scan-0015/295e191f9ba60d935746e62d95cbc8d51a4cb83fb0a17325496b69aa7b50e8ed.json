@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "key": "295e191f9ba60d935746e62d95cbc8d51a4cb83fb0a17325496b69aa7b50e8ed",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:12+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nPACKING LIST\n\nCeci, Mantegazza e Donati s.r.1. Invoice Ref. FC-3036/26\nVia Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26\n| CONSIGNEE TERMS OF DELIVERY\n\nSegebahn Hein AG & Co. KGaA : | | DDP Hamburg\n| Emin-Krause-Allee 574, 74731 Frankfurt am Main, | | La Spezia to Hamburg\n\nGermany\n\n# Description Origin Quantity Pkgs Net weight Gross weight\n1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg\n2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg\nTotal\n\n396 CARTONS 4276,74 kg 4935,14 kg\nShipping marks: SEGEBAHN / FC-3036/26\n\nPage | of 1\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Segebahn Hein AG & Co. KGaA : | | DDP Hamburg",
+        "value": "Segebahn Hein AG & Co. KGaA"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Via Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26",
+        "value": "2026-02-26"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Segebahn Hein AG & Co. KGaA : | | DDP Hamburg",
+        "value": "DDP Hamburg"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Ceci, Mantegazza e Donati s.r.1. Invoice Ref. FC-3036/26",
+        "value": "FC-3036/26"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Via Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26",
+            "value": "Italy"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "value": "2 164,06 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.86",
+            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "value": "1792,74 kg"
+          },
+          "quantity": {
+            "confidence": "0.80",
+            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "value": "1709"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Via Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26",
+            "value": "Italy"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "value": "Extra virgin olive oil, 1L bottle"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.86",
+            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "value": "2771,08 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "value": "2 484,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.80",
+            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "value": "2700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.87",
+        "evidence": "Ceci, Mantegazza e Donati s.r.1. Invoice Ref. FC-3036/26",
+        "value": "Ceci, Mantegazza e Donati s.r.1."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.86",
+        "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
+        "value": "4935,14 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.86",
+        "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
+        "value": "4276,74 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
+        "value": "396"
+      }
+    },
+    "input_tokens": 385,
+    "latency_ms": 0,
+    "output_tokens": 753
+  }
+}

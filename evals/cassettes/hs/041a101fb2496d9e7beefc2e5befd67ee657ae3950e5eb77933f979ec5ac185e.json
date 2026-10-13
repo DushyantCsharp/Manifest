@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "041a101fb2496d9e7beefc2e5befd67ee657ae3950e5eb77933f979ec5ac185e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Corrugated cardboard shipping cartons, 3-ply\nCountry of origin: VN\n\nChosen so far: 48 Paper and paperboard; articles of paper pulp, of paper or paperboard > 4819 Cartons, boxes, cases, bags and the like, of paper, paperboard, cellulose wadding or fibres; box files, letter trays and the like, of paper or paperboard, of a kind used in offices, shops or the like\n\nChoose the subheading that covers these goods. Options:\n- 481910: Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard\n- 481920: Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f193dd8666a74846362c54602ea469235c08f9010dbec0eb3bf7b7e48575c802",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "481910",
+      "cited": [
+        "481910"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 383,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

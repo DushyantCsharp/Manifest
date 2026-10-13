@@ -1,0 +1,66 @@
+{# Layout 5 "compact": dense French/English invoice, 1 234,56 amounts, ISO dates, small type. #}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  @page { margin: 10mm; }
+  body { font-family: "Helvetica Neue", Arial, "DejaVu Sans Condensed", sans-serif; font-size: 7.5pt; line-height: 1.2; }
+  .head { display: flex; gap: 8px; }
+  .head > div { flex: 1; border: 0.6pt solid #555; padding: 4px; }
+  h1 { font-size: 11pt; text-align: right; }
+  .kv td { padding: 1px 3px; }
+  .kv td:first-child { color: #555; width: 42%; }
+  .items { margin-top: 6px; }
+  .items th { background: #333; color: #fff; padding: 3px; font-size: 7pt; }
+  .items td { padding: 2px 3px; border-bottom: 0.4pt solid #bbb; }
+  .total { margin-top: 4px; text-align: right; font-size: 9pt; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="head">
+  <div>
+    <strong>Vendeur / Seller</strong><br>{{ doc.seller.name }}<br>{{ doc.seller.address | join(", ") }}
+  </div>
+  <div>
+    <strong>Acheteur / Buyer</strong><br>{{ doc.buyer.name }}<br>{{ doc.buyer.address | join(", ") }}
+  </div>
+  <div>
+    <h1>FACTURE COMMERCIALE<br>COMMERCIAL INVOICE</h1>
+    <table class="kv">
+      <tr><td>N° / No.</td><td>{{ doc.invoice_number }}</td></tr>
+      <tr><td>Date</td><td>{{ layout.date(doc.invoice_date) }}</td></tr>
+      <tr><td>Devise / Currency</td><td>{{ doc.currency }}</td></tr>
+      <tr><td>Incoterm 2020</td><td>{{ doc.incoterm }} {{ doc.incoterm_place }}</td></tr>
+      <tr><td>Paiement / Payment</td><td>{{ doc.payment_terms }}</td></tr>
+      <tr><td>Chargement / Loading</td><td>{{ doc.port_of_loading }}</td></tr>
+      <tr><td>Destination</td><td>{{ doc.port_of_discharge }}</td></tr>
+    </table>
+  </div>
+</div>
+
+<table class="items">
+  <thead>
+    <tr>
+      <th>Lig.</th><th>Désignation / Description</th><th>Orig.</th><th class="num">Qté</th><th>U.</th>
+      <th class="num">P.U. {{ doc.currency }}</th><th class="num">Montant {{ doc.currency }}</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for line in doc.lines %}
+    <tr>
+      <td>{{ line.line_no }}</td>
+      <td>{{ line.description }}</td>
+      <td>{{ line.country_of_origin or "" }}</td>
+      <td class="num">{{ layout.quantity(line.quantity) }}</td>
+      <td>{{ line.unit }}</td>
+      <td class="num">{{ layout.price(line.unit_price) }}</td>
+      <td class="num">{{ layout.money(line.amount) }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+<div class="total">Total {{ doc.currency }} : {{ layout.money(doc.total_amount) }}</div>
+</body>
+</html>

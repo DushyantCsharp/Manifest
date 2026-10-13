@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "key": "26d571ced8f6edb31ee1b8dcc472600621fc20de817b513c89336635ddbbae96",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nC O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nGazipur Karim Import & Export Co., Ltd.\r\nNo. 250 Industrial Road, Gazipur, Bangladesh\r\nINVOICE NO. & DATE\r\nEX202609-3206\r\n28-JUN-2026\r\nCONSIGNEE\r\nRobbins, Clark and Barnett\r\n0442 Lawrence Common, 42643 Savannah, United States\r\nTERMS OF DELIVERY AND PAYMENT\r\nCPT Los Angeles\r\nT/T in advance\r\nNOTIFY PARTY\r\nSims-French, 2445 Steele Mission Apt. 157, 31277 Savannah, United\r\nStates\r\nVESSEL / VOYAGE\r\nONE AURORA V.375E\r\nPORT OF LOADING\r\nCHATTOGRAM\r\nPORT OF DISCHARGE\r\nNEW YORK\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nROBBINS, /\r\nEX202609-3206\r\nSMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40\r\nHAIR DRYER 2200W IONIC 8516.31 CHINA 2,360 PCS 10.93 25,794.80\r\nRUBBER FLIP-FLOPS,\r\nTHONG PLUGGED INTO THE\r\nSOLE\r\n6402.20 VIETNAM 11,732 PAIRS 2.03 23,815.96\r\nPORCELAIN DINNER PLATE\r\n27CM\r\n6911.10 PORTUGAL 6,713 PCS 2.55 17,118.15\r\nLED TELEVISION 55IN 4K 8528.72 MEXICO 285 PCS 429.37 122,370.45\r\nBLACK TEA, CTC, BULK 0902.40 KENYA 7,000 KG 4.67 32,690.00\r\nLEATHER HANDBAG WITH\r\nSHOULDER STRAP\r\n4202.21 INDIA 750 PCS 52.93 39,697.50\r\nCITY BICYCLE 28IN, 7-SPEED 8712.00 CAMBODIA 55 PCS 94.26 5,184.30\r\nTOTAL CPT LOS ANGELES USD 1,008,826.56\r\nSAY TOTAL US DOLLARS ONE MILLION EIGHT THOUSAND EIGHT HUNDRED TWENTY-SIX AND CENTS FIFTY-SIX ONLY\r\nFor and on behalf of Gazipur Karim Import & Export\r\nCo., Ltd.\r\nAuthorized Signature\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Robbins, Clark and Barnett",
+        "value": "Robbins, Clark and Barnett"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Los Angeles",
+        "value": "CPT Los Angeles"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "28-JUN-2026",
+        "value": "28-JUN-2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "EX202609-3206",
+        "value": "EX202609-3206"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "742,155.40"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "CHINA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "SMARTPHONE 6.1IN, 128GB"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "1,190"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "623.66"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "HAIR DRYER 2200W IONIC 8516.31 CHINA 2,360 PCS 10.93 25,794.80",
+            "value": "25,794.80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "CHINA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "HAIR DRYER 2200W IONIC 8516.31 CHINA 2,360 PCS 10.93 25,794.80",
+            "value": "HAIR DRYER 2200W IONIC"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "HAIR DRYER 2200W IONIC 8516.31 CHINA 2,360 PCS 10.93 25,794.80",
+            "value": "2,360"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "HAIR DRYER 2200W IONIC 8516.31 CHINA 2,360 PCS 10.93 25,794.80",
+            "value": "10.93"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6402.20 VIETNAM 11,732 PAIRS 2.03 23,815.96",
+            "value": "23,815.96"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "6402.20 VIETNAM 11,732 PAIRS 2.03 23,815.96",
+            "value": "VIETNAM"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE",
+            "value": "RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6402.20 VIETNAM 11,732 PAIRS 2.03 23,815.96",
+            "value": "11,732"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6402.20 VIETNAM 11,732 PAIRS 2.03 23,815.96",
+            "value": "PAIRS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6402.20 VIETNAM 11,732 PAIRS 2.03 23,815.96",
+            "value": "2.03"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6911.10 PORTUGAL 6,713 PCS 2.55 17,118.15",
+            "value": "17,118.15"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "6911.10 PORTUGAL 6,713 PCS 2.55 17,118.15",
+            "value": "PORTUGAL"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "PORCELAIN DINNER PLATE 27CM",
+            "value": "PORCELAIN DINNER PLATE 27CM"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6911.10 PORTUGAL 6,713 PCS 2.55 17,118.15",
+            "value": "6,713"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6911.10 PORTUGAL 6,713 PCS 2.55 17,118.15",
+            "value": "2.55"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 MEXICO 285 PCS 429.37 122,370.45",
+            "value": "122,370.45"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 MEXICO 285 PCS 429.37 122,370.45",
+            "value": "MEXICO"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 MEXICO 285 PCS 429.37 122,370.45",
+            "value": "LED TELEVISION 55IN 4K"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 MEXICO 285 PCS 429.37 122,370.45",
+            "value": "285"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 MEXICO 285 PCS 429.37 122,370.45",
+            "value": "429.37"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "BLACK TEA, CTC, BULK 0902.40 KENYA 7,000 KG 4.67 32,690.00",
+            "value": "32,690.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "BLACK TEA, CTC, BULK 0902.40 KENYA 7,000 KG 4.67 32,690.00",
+            "value": "KENYA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "BLACK TEA, CTC, BULK 0902.40 KENYA 7,000 KG 4.67 32,690.00",
+            "value": "BLACK TEA, CTC, BULK"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "BLACK TEA, CTC, BULK 0902.40 KENYA 7,000 KG 4.67 32,690.00",
+            "value": "7,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "BLACK TEA, CTC, BULK 0902.40 KENYA 7,000 KG 4.67 32,690.00",
+            "value": "KG"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "BLACK TEA, CTC, BULK 0902.40 KENYA 7,000 KG 4.67 32,690.00",
+            "value": "4.67"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4202.21 INDIA 750 PCS 52.93 39,697.50",
+            "value": "39,697.50"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "4202.21 INDIA 750 PCS 52.93 39,697.50",
+            "value": "INDIA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "LEATHER HANDBAG WITH SHOULDER STRAP",
+            "value": "LEATHER HANDBAG WITH SHOULDER STRAP"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4202.21 INDIA 750 PCS 52.93 39,697.50",
+            "value": "750"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4202.21 INDIA 750 PCS 52.93 39,697.50",
+            "value": "52.93"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CAMBODIA 55 PCS 94.26 5,184.30",
+            "value": "5,184.30"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CAMBODIA 55 PCS 94.26 5,184.30",
+            "value": "CAMBODIA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CAMBODIA 55 PCS 94.26 5,184.30",
+            "value": "CITY BICYCLE 28IN, 7-SPEED"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CAMBODIA 55 PCS 94.26 5,184.30",
+            "value": "55"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 CHINA 1,190 PCS 623.66 742,155.40",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CAMBODIA 55 PCS 94.26 5,184.30",
+            "value": "94.26"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "T/T in advance",
+        "value": "T/T in advance"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Gazipur Karim Import & Export Co., Ltd.",
+        "value": "Gazipur Karim Import & Export Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "TOTAL CPT LOS ANGELES USD 1,008,826.56",
+        "value": "1,008,826.56"
+      }
+    },
+    "input_tokens": 598,
+    "latency_ms": 0,
+    "output_tokens": 1926
+  }
+}

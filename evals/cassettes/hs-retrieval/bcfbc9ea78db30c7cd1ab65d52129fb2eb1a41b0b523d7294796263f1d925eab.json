@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "bcfbc9ea78db30c7cd1ab65d52129fb2eb1a41b0b523d7294796263f1d925eab",
+  "retriever": "offline-lexical",
+  "query": "Wireless Bluetooth earbuds with charging case origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "851713",
+      "description": "Telephone sets; smartphones for cellular or other wireless networks",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "851714",
+      "description": "Telephone sets; other than smartphones, for cellular or other wireless networks",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "911190",
+      "description": "Watch cases and parts thereof",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "911180",
+      "description": "Watch cases; n.e.c. in heading no. 9111",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "911110",
+      "description": "Watch cases; of precious metal or of metal clad with precious metal",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "851769",
+      "description": "Communication apparatus (excluding telephone sets or base stations); machines for the transmission or reception of voice, images or other data (including wired/wireless networks), n.e.c. in item no. 8517.6",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "911220",
+      "description": "Clock cases and similar cases for other goods of chapter 91; other than watch cases",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "911120",
+      "description": "Watch cases; of base metal, whether or not gold-plated or silver-plated",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "911290",
+      "description": "Clock cases and similar cases for other goods of chapter 91; other than watch cases, parts thereof",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "961700",
+      "description": "Vacuum flasks and other vacuum vessels, complete with cases; parts thereof other than glass inners",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "392310",
+      "description": "Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "441510",
+      "description": "Wood; cases, boxes, crates, drums, similar packings and cable-drums",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "481910",
+      "description": "Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "910191",
+      "description": "Pocket-watches and other watches, including stop-watches; (excluding wrist-watches), with case of precious metal or of metal clad with precious metal, electrically operated",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "910119",
+      "description": "Wrist-watches; electrically operated, with or without a stop-watch, with case of precious metal or metal clad with precious metal, without mechanical display",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "080651d81331df4fd59453ce7357eb2128994c2cb5a947ae4b30760ddd1f8600",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nBangkok Sukjai Trading Co., Ltd.\r\nNo. 298 Avenue 3, Bangkok, Thailand\r\nPACKING LIST\r\nInvoice Ref. INV-2026-30691\r\nDate 02/13/2026\r\nCONSIGNEE\r\nDouglas-Adams\r\n34620 Joseph Lodge, L5V1M3 Toronto, Canada\r\nTERMS OF DELIVERY\r\nCIP Toronto\r\nBangkok to Montreal\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg\r\nTotal 321 CARTONS 4,414.39 kg 4,851.38 kg\r\nShipping marks: DOUGLAS-ADAMS / INV-2026-30691\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Douglas-Adams",
+        "value": "Douglas-Adams"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 02/13/2026",
+        "value": "02/13/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CIP Toronto",
+        "value": "CIP Toronto"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. INV-2026-30691",
+        "value": "INV-2026-30691"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 298 Avenue 3, Bangkok, Thailand",
+            "value": "Thailand"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "value": "Porcelain dinner plate 27cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "value": "4,851.38 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "value": "4,414.39 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "value": "7,704"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 321 CARTONS 4,414.39 kg 4,851.38 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Bangkok Sukjai Trading Co., Ltd.",
+        "value": "Bangkok Sukjai Trading Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+        "value": "4,851.38 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+        "value": "4,414.39 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+        "value": "321"
+      }
+    },
+    "input_tokens": 356,
+    "latency_ms": 0,
+    "output_tokens": 491
+  }
+}

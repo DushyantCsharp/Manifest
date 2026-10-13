@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy\r\nCouturier\r\n72, chemin Adélaïde Laine\r\n80490 Paris\r\nFrance\r\nRechnungsnummer / Invoice no. RE-26-2659\r\nRechnungsdatum / Date 24.03.2026\r\nLieferbedingung / Incoterms®\r\n2020\r\nFCA Prato\r\nZahlungsbedingung / Payment T/T 30 days after B/L\r\ndate\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60\r\n2 Centrifugal water pump 1.1kW IT 289 pcs 70,77 20.452,53\r\n3 Polarized sunglasses IT 10.000 pcs 2,36 23.600,00\r\n4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 9,05 47.892,60\r\n5 Red wine, 0.75L bottle IT 5.497 pcs 7,41 40.732,77\r\n6 Roasted coffee beans, whole IT 2.620 kg 13,45 35.239,00\r\nGesamtbetrag / Total 310.693,50 EUR\r\nVersand / Shipment: Genova → Le Havre. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Luria-Tropea SPA\r\nStretto Bocelli, 49 Appartamento 8, 23819 Milano, Italy\r\nPACKING LIST\r\nInvoice Ref. RE-26-2659\r\nDate 24.03.2026\r\nCONSIGNEE\r\nCouturier\r\n72, chemin Adélaïde Laine, 80490 Paris, France\r\nTERMS OF DELIVERY\r\nFCA Prato\r\nGenova to Le Havre\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg\r\n2 Centrifugal water pump 1.1kW IT 289 pcs 289 3.819,14 kg 4.397,77 kg\r\n3 Polarized sunglasses IT 10.000 pcs 100 400,00 kg 483,00 kg\r\n4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 441 4.868,64 kg 5.156,91 kg\r\n5 Red wine, 0.75L bottle IT 5.497 pcs 917 7.096,63 kg 8.728,16 kg\r\n6 Roasted coffee beans, whole IT 2.620 kg 262 2.620,00 kg 2.821,74 kg\r\nTotal 2192 CARTONS 20.544,74 kg 23.644,25 kg\r\nShipping marks: COUTURIER / RE-26-2659\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nLuria-Tropea SPA\r\nStretto Bocelli, 49 Appartamento 8, 23819 Milano,\r\nItaly\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYFV5467944 \r\nCONSIGNEE\r\nLemaire\r\n72, chemin Adélaïde Laine, 80490 Paris, France\r\nNOTIFY PARTY\r\nChauvin SA\r\n5, chemin de Delmas, 48370 Lyon, France\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE PEGASUS / 297S\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nGenova\r\nPORT OF DISCHARGE\r\nLe Havre\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU7684961\r\nSEAL\r\n2291653\r\nCOUTURIER /\r\nRE-26-2659\r\n2191\r\nCARTONS\r\nSAID TO CONTAIN: Leather handbag with shoulder\r\nstrap; Centrifugal water pump 1.1kW; Polarized\r\nsunglasses; Extra virgin olive oil, 1L bottle;\r\nRed wine, 0.75L bottle; Roasted coffee beans,\r\nwhole\r\n23.644,25 kg\r\nSHIPPED ON BOARD\r\n02.04.2026\r\nPLACE AND DATE OF ISSUE\r\nGenova, 02.04.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0007",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYFV5467944",
+    "seller": {
+      "name": "Luria-Tropea SPA",
+      "address": [
+        "Stretto Bocelli, 49 Appartamento 8",
+        "23819 Milano",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Lemaire",
+      "address": [
+        "72, chemin Adélaïde Laine",
+        "80490 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": {
+      "name": "Chauvin SA",
+      "address": [
+        "5, chemin de Delmas",
+        "48370 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE PEGASUS",
+    "voyage": "297S",
+    "port_of_loading": "Genova",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-04-02",
+    "container_number": "ONEU7684961",
+    "seal_number": "2291653",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 2191,
+    "total_gross_weight_kg": "23644.25",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Centrifugal water pump 1.1kW; Polarized sunglasses; Extra virgin olive oil, 1L bottle; Red wine, 0.75L bottle; Roasted coffee beans, whole"
+  },
+  "line_items": []
+}

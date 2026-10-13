@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "cc37986a1449602587507a0363a504fb4650352fd814973c6dbfddb412b04cfd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Black peppercorns, neither crushed nor ground\nCountry of origin: VN\n\nChosen so far: 09 Coffee, tea, mate and spices\n\nChoose the heading that covers these goods. Options:\n- 0905: Vanilla\n    contains 090510: Spices; vanilla, neither crushed nor ground\n    contains 090520: Spices; vanilla, crushed or ground\n- 0908: Nutmeg, mace and cardamoms\n    contains 090811: Spices; nutmeg, neither crushed nor ground\n    contains 090821: Spices; mace, neither crushed nor ground\n    contains 090831: Spices; cardamoms, neither crushed nor ground\n    contains 090812: Spices; nutmeg, crushed or ground\n    contains 090822: Spices; mace, crushed or ground\n    contains 090832: Spices; cardamoms, crushed or ground\n- 0907: Cloves (whole fruit, cloves and stems)\n    contains 090710: Spices; cloves (whole fruit, cloves and stems), neither crushed nor ground\n- 0910: Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices\n    contains 091011: Spices; ginger, neither crushed nor ground\n- 0904: Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta\n    contains 090411: Spices; pepper (of the genus piper), neither crushed nor ground\n    contains 090421: Spices; fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground\n- 0906: Cinnamon and cinnamon-tree flowers\n    contains 090611: Spices; cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground\n    contains 090619: Spices; cinnamon and cinnamon-tree flowers, other than cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground\n- 0909: Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper\n    contains 090921: Spices; coriander seeds, neither crushed nor ground\n    contains 090931: Spices; cumin seeds, neither crushed nor ground\n    contains 090961: Spices; seeds of anise, badian, caraway or fennel; juniper berries, neither crushed nor ground\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8c1e1ad7d87833626fe35477a5413ff20b38333710d150d4c9ab9af27eb5f547",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0904",
+      "cited": [
+        "0904"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 708,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

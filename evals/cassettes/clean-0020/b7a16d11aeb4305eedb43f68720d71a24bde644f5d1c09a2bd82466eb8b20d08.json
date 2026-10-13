@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "b7a16d11aeb4305eedb43f68720d71a24bde644f5d1c09a2bd82466eb8b20d08",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nQingdao Hengda Trading Co., Ltd.\r\nNo. 269 Industrial Road, Qingdao, China\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUQY4152443 \r\nCONSIGNEE\r\nMestdagh CommV\r\nChristellebaan 9, 4257 Antwerpen, Belgium\r\nNOTIFY PARTY\r\nDe Wilde, Vanderlinden en Claeys NV\r\nDanieldreef 08, 3706 Antwerpen, Belgium\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD KENSINGTON / 792E\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nShenzhen\r\nPORT OF DISCHARGE\r\nAntwerp\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU2553019\r\nSEAL\r\n3102939\r\nMESTDAGH /\r\nFC-5520/26\r\n1274\r\nCARTONS\r\nSAID TO CONTAIN: Solar PV module 410W\r\nmonocrystalline; Laptop computer 14in, 16GB RAM;\r\nCity bicycle 28in, 7-speed; AC induction motor\r\n0.55kW 3-phase; Passenger car tyre 205/55R16;\r\nAluminium household foil 12 micron\r\n24 631,33 kg\r\nSHIPPED ON BOARD\r\n2026-04-30\r\nPLACE AND DATE OF ISSUE\r\nShenzhen, 2026-04-30\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "HLCUQY4152443",
+        "value": "HLCUQY4152443"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Mestdagh CommV",
+        "value": "Mestdagh CommV"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD",
+        "value": "HAPAG-LLOYD"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "HLCU2553019",
+        "value": "HLCU2553019"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "De Wilde, Vanderlinden en Claeys NV",
+        "value": "De Wilde, Vanderlinden en Claeys NV"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Antwerp",
+        "value": "Antwerp"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Shenzhen",
+        "value": "Shenzhen"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "3102939",
+        "value": "3102939"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Qingdao Hengda Trading Co., Ltd.",
+        "value": "Qingdao Hengda Trading Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "2026-04-30",
+        "value": "2026-04-30"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "24 631,33 kg",
+        "value": "24 631,33 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1274",
+        "value": "1274"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD KENSINGTON / 792E",
+        "value": "HAPAG-LLOYD KENSINGTON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD KENSINGTON / 792E",
+        "value": "792E"
+      }
+    },
+    "input_tokens": 552,
+    "latency_ms": 0,
+    "output_tokens": 390
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "68d1fba358bd585799d476c4741271e981d45cd8a65c98c9dc439a2ed61a173a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Refined copper cathodes\nCountry of origin: CL\n\nChosen so far: 74 Copper and articles thereof > 7403 Copper; refined and copper alloys, unwrought\n\nChoose the subheading that covers these goods. Options:\n- 740311: Copper; refined, unwrought, cathodes and sections of cathodes\n- 740313: Copper; refined, unwrought, billets\n- 740312: Copper; refined, unwrought, wire-bars\n- 740319: Copper; refined, unwrought, n.e.c. in item no. 7403.1\n- 740321: Copper; copper-zinc base alloys (brass) unwrought\n- 740322: Copper; copper-tin base alloys (bronze) unwrought\n- 740329: Copper; copper alloys n.e.c. in heading no. 7403 (other than master alloys of heading no. 7405)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "efeb284158ba6216790c2fc6603837252743793bf76247ebee5b6a4432d9e0d1",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "740311",
+      "cited": [
+        "740311"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 394,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

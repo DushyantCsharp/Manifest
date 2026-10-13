@@ -1,0 +1,99 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0010",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "0.5",
+    "noise_sigma": 10,
+    "salt_pepper": "0.0007",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-3728/26",
+    "invoice_date": "2026-06-26",
+    "seller": {
+      "name": "Ertaş Arsoy Şti.",
+      "address": [
+        "4306 Esna Springs Suite 854",
+        "02128 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Bonte BV",
+      "address": [
+        "Arlettelaan 827",
+        "1789 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "FOB",
+    "incoterm_place": "Izmir",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "209706.52"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Black tea, CTC, bulk",
+      "country_of_origin": "IN",
+      "quantity": "3000",
+      "unit": "kg",
+      "unit_price": "3.48",
+      "amount": "10440.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Analog quartz wristwatch, steel case",
+      "country_of_origin": "JP",
+      "quantity": "4700",
+      "unit": "pcs",
+      "unit_price": "20.65",
+      "amount": "97055.00"
+    },
+    {
+      "line_no": 3,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "IT",
+      "quantity": "282",
+      "unit": "pcs",
+      "unit_price": "62.83",
+      "amount": "17718.06"
+    },
+    {
+      "line_no": 4,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "TW",
+      "quantity": "269",
+      "unit": "pcs",
+      "unit_price": "101.68",
+      "amount": "27351.92"
+    },
+    {
+      "line_no": 5,
+      "description": "Aluminium household foil 12 micron",
+      "country_of_origin": "TR",
+      "quantity": "3840",
+      "unit": "kg",
+      "unit_price": "3.60",
+      "amount": "13824.00"
+    },
+    {
+      "line_no": 6,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "MY",
+      "quantity": "434",
+      "unit": "pcs",
+      "unit_price": "99.81",
+      "amount": "43317.54"
+    }
+  ]
+}

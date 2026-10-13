@@ -1,0 +1,173 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0023",
+  "seed": 1273544747,
+  "layout": "exporter",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "EX202609-3206",
+    "invoice_date": "2026-06-28",
+    "seller": {
+      "name": "Gazipur Karim Import & Export Co., Ltd.",
+      "address": [
+        "No. 250 Industrial Road",
+        "Gazipur",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "Robbins, Clark and Barnett",
+      "address": [
+        "0442 Lawrence Common",
+        "42643 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "T/T in advance",
+    "total_amount": "1008826.56",
+    "bl_number": "ONEYZN3545323",
+    "notify_party": {
+      "name": "Sims-French",
+      "address": [
+        "2445 Steele Mission Apt. 157",
+        "31277 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE AURORA",
+    "voyage": "375E",
+    "port_of_loading": "Chattogram",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-07-04",
+    "container_number": "ONEU2168221",
+    "seal_number": "1856877",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1179,
+    "total_gross_weight_kg": "23484.41",
+    "goods_description": "SAID TO CONTAIN: Smartphone 6.1in, 128GB; Hair dryer 2200W ionic; Rubber flip-flops, thong plugged into the sole; Porcelain dinner plate 27cm; LED television 55in 4K; Black tea, CTC, bulk; Leather handbag with shoulder strap; City bicycle 28in, 7-speed",
+    "total_net_weight_kg": "21670.55",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Smartphone 6.1in, 128GB",
+        "country_of_origin": "CN",
+        "quantity": "1190",
+        "unit": "pcs",
+        "unit_price": "623.66",
+        "amount": "742155.40",
+        "hs_code": "851713",
+        "packages": 30,
+        "net_weight_kg": "272.51",
+        "gross_weight_kg": "295.21"
+      },
+      {
+        "line_no": 2,
+        "description": "Hair dryer 2200W ionic",
+        "country_of_origin": "CN",
+        "quantity": "2360",
+        "unit": "pcs",
+        "unit_price": "10.93",
+        "amount": "25794.80",
+        "hs_code": "851631",
+        "packages": 118,
+        "net_weight_kg": "1673.24",
+        "gross_weight_kg": "1916.31"
+      },
+      {
+        "line_no": 3,
+        "description": "Rubber flip-flops, thong plugged into the sole",
+        "country_of_origin": "VN",
+        "quantity": "11732",
+        "unit": "pairs",
+        "unit_price": "2.03",
+        "amount": "23815.96",
+        "hs_code": "640220",
+        "packages": 196,
+        "net_weight_kg": "2651.43",
+        "gross_weight_kg": "2837.15"
+      },
+      {
+        "line_no": 4,
+        "description": "Porcelain dinner plate 27cm",
+        "country_of_origin": "PT",
+        "quantity": "6713",
+        "unit": "pcs",
+        "unit_price": "2.55",
+        "amount": "17118.15",
+        "hs_code": "691110",
+        "packages": 280,
+        "net_weight_kg": "4141.92",
+        "gross_weight_kg": "4382.96"
+      },
+      {
+        "line_no": 5,
+        "description": "LED television 55in 4K",
+        "country_of_origin": "MX",
+        "quantity": "285",
+        "unit": "pcs",
+        "unit_price": "429.37",
+        "amount": "122370.45",
+        "hs_code": "852872",
+        "packages": 285,
+        "net_weight_kg": "4494.17",
+        "gross_weight_kg": "4939.42"
+      },
+      {
+        "line_no": 6,
+        "description": "Black tea, CTC, bulk",
+        "country_of_origin": "KE",
+        "quantity": "7000",
+        "unit": "kg",
+        "unit_price": "4.67",
+        "amount": "32690.00",
+        "hs_code": "090240",
+        "packages": 140,
+        "net_weight_kg": "7000.00",
+        "gross_weight_kg": "7565.60"
+      },
+      {
+        "line_no": 7,
+        "description": "Leather handbag with shoulder strap",
+        "country_of_origin": "IN",
+        "quantity": "750",
+        "unit": "pcs",
+        "unit_price": "52.93",
+        "amount": "39697.50",
+        "hs_code": "420221",
+        "packages": 75,
+        "net_weight_kg": "552.00",
+        "gross_weight_kg": "598.11"
+      },
+      {
+        "line_no": 8,
+        "description": "City bicycle 28in, 7-speed",
+        "country_of_origin": "KH",
+        "quantity": "55",
+        "unit": "pcs",
+        "unit_price": "94.26",
+        "amount": "5184.30",
+        "hs_code": "871200",
+        "packages": 55,
+        "net_weight_kg": "885.28",
+        "gross_weight_kg": "949.65"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

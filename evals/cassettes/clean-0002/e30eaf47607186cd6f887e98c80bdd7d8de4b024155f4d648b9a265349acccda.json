@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "key": "e30eaf47607186cd6f887e98c80bdd7d8de4b024155f4d648b9a265349acccda",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nKhare Inc\r\n78, Kota Zila, 881224 Tiruppur, India\r\nPACKING LIST\r\nInvoice Ref. RE-26-6547\r\nDate 24.01.2026\r\nCONSIGNEE\r\nKarge Mälzer GmbH & Co. KG\r\nHeinzstraße 7/8, 00962 Düsseldorf, Germany\r\nTERMS OF DELIVERY\r\nDAP Frankfurt am Main\r\nChennai to Hamburg\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 154 1.678,60 kg 1.942,00 kg\r\n2 Black tea, CTC, bulk IN 4.700 kg 94 4.700,00 kg 5.046,86 kg\r\n3 Stainless cutlery set, 24 pieces IN 1.601 sets 161 2.846,58 kg 3.108,66 kg\r\nTotal 409 CARTONS 9.225,18 kg 10.097,52 kg\r\nShipping marks: KARGE / RE-26-6547\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Karge Mälzer GmbH & Co. KG",
+        "value": "Karge Mälzer GmbH & Co. KG"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 24.01.2026",
+        "value": "24.01.2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "DAP Frankfurt am Main",
+        "value": "DAP Frankfurt am Main"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. RE-26-6547",
+        "value": "RE-26-6547"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "78, Kota Zila, 881224 Tiruppur, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 154 1.678,60 kg 1.942,00 kg",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 154 1.678,60 kg 1.942,00 kg",
+            "value": "1.942,00 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 154 1.678,60 kg 1.942,00 kg",
+            "value": "1.678,60 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 154 1.678,60 kg 1.942,00 kg",
+            "value": "7.700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 154 1.678,60 kg 1.942,00 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "78, Kota Zila, 881224 Tiruppur, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 94 4.700,00 kg 5.046,86 kg",
+            "value": "Black tea, CTC, bulk"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 94 4.700,00 kg 5.046,86 kg",
+            "value": "5.046,86 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 94 4.700,00 kg 5.046,86 kg",
+            "value": "4.700,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 94 4.700,00 kg 5.046,86 kg",
+            "value": "4.700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 154 1.678,60 kg 1.942,00 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "78, Kota Zila, 881224 Tiruppur, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 161 2.846,58 kg 3.108,66 kg",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 161 2.846,58 kg 3.108,66 kg",
+            "value": "3.108,66 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 161 2.846,58 kg 3.108,66 kg",
+            "value": "2.846,58 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 161 2.846,58 kg 3.108,66 kg",
+            "value": "1.601"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 161 2.846,58 kg 3.108,66 kg",
+            "value": "sets"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 409 CARTONS 9.225,18 kg 10.097,52 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Khare Inc",
+        "value": "Khare Inc"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 409 CARTONS 9.225,18 kg 10.097,52 kg",
+        "value": "10.097,52 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 409 CARTONS 9.225,18 kg 10.097,52 kg",
+        "value": "9.225,18 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 409 CARTONS 9.225,18 kg 10.097,52 kg",
+        "value": "409"
+      }
+    },
+    "input_tokens": 391,
+    "latency_ms": 0,
+    "output_tokens": 927
+  }
+}

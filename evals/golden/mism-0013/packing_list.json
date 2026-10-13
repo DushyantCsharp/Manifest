@@ -1,0 +1,80 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0013",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX022670-4033",
+    "date": "2026-07-03",
+    "seller": {
+      "name": "Ningbo Ruifeng Manufacturing Co., Ltd.",
+      "address": [
+        "No. 205 Industrial Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Koninklijke d' Heripon",
+      "address": [
+        "Yassinring 32",
+        "9927DN Tilburg",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Shenzhen",
+    "package_type": "CARTONS",
+    "total_packages": 1180,
+    "total_net_weight_kg": "22640.02",
+    "total_gross_weight_kg": "24752.09"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Rubber flip-flops, thong plugged into the sole",
+      "country_of_origin": "CN",
+      "quantity": "16500",
+      "unit": "pairs",
+      "packages": 275,
+      "net_weight_kg": "3514.50",
+      "gross_weight_kg": "4118.02"
+    },
+    {
+      "line_no": 2,
+      "description": "Corrugated shipping carton, 3-ply",
+      "country_of_origin": "CN",
+      "quantity": "31707",
+      "unit": "pcs",
+      "packages": 542,
+      "net_weight_kg": "13116.40",
+      "gross_weight_kg": "14049.72"
+    },
+    {
+      "line_no": 3,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "CN",
+      "quantity": "144",
+      "unit": "pcs",
+      "packages": 144,
+      "net_weight_kg": "2314.37",
+      "gross_weight_kg": "2554.03"
+    },
+    {
+      "line_no": 4,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "CN",
+      "quantity": "219",
+      "unit": "pcs",
+      "packages": 219,
+      "net_weight_kg": "3694.75",
+      "gross_weight_kg": "4030.32"
+    }
+  ]
+}

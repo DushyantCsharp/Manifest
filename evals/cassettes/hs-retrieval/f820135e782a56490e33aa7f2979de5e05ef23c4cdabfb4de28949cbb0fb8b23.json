@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "f820135e782a56490e33aa7f2979de5e05ef23c4cdabfb4de28949cbb0fb8b23",
+  "retriever": "offline-lexical",
+  "query": "Centrifugal water pump 1.1kW, single stage, electric origin IT",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "841370",
+      "description": "Pumps; centrifugal, n.e.c. in heading no. 8413, for liquids",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "842121",
+      "description": "Machinery; for filtering or purifying water",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "842122",
+      "description": "Machinery; for filtering or purifying beverages other than water",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "890790",
+      "description": "Floating structures; tanks, coffer-dams, landing stages, buoys and beacons",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "850140",
+      "description": "Electric motors; AC motors, single-phase",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "841861",
+      "description": "Heat pumps; other than air conditioning machines of heading no. 8415",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "841821",
+      "description": "Refrigerators; for household use, compression-type, electric or other",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "890710",
+      "description": "Rafts; inflatable",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "841829",
+      "description": "Refrigerators; household, electric or not, other than compression-type",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "841912",
+      "description": "Heaters; solar water heaters, non-electric",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "841810",
+      "description": "Refrigerators and freezers; combined refrigerator-freezers, fitted with separate external doors, electric or other",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "851610",
+      "description": "Heaters; electric, instantaneous or storage water and immersion heaters",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "841919",
+      "description": "Heaters; instantaneous or storage water heaters, non-electric, (other than instantaneous gas or solar water heaters)",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "842191",
+      "description": "Centrifuges; parts thereof, including parts for centrifugal dryers",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "040819",
+      "description": "Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "841869",
+      "description": "Refrigerating or freezing equipment; n.e.c. in heading no. 8418",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "200989",
+      "description": "Juice; of any single fruit, nut or vegetable n.e.c. in heading no. 2009, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "841899",
+      "description": "Refrigerating or freezing equipment; parts thereof, other than furniture",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "851821",
+      "description": "Loudspeakers; single, mounted in their enclosures",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "040899",
+      "description": "Eggs; birds' eggs (not in shell, excluding yolks only), fresh, cooked by steaming or boiling in water, moulded, frozen, otherwise preserved, whether or not containing added sugar or other sweetening matter",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

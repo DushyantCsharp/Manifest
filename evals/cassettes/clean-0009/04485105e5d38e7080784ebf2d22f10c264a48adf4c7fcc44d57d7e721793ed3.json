@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "04485105e5d38e7080784ebf2d22f10c264a48adf4c7fcc44d57d7e721793ed3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nG Guangzhou Tianyi Trading Co., Ltd. I N VO I C E\r\nINVOICE\r\nNumber: 2026/2135\r\nDate: March 9, 2026\r\nTerms: T/T in advance \r\nSOLD TO\r\nScott and Sons\r\n78 Lawrence Village, M0 3AB Leeds,\r\nUnited Kingdom \r\nDELIVERY\r\nFOB Qingdao (Incoterms 2020)\r\nvia Qingdao to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00\r\nAmount due 19,293.00\r\nAll amounts are in US dollars (USD). Please quote invoice 2026/2135 with your payment. \r\nNo. 220 Avenue 3 | Guangzhou | China\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Scott and Sons",
+        "value": "Scott and Sons"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "All amounts are in US dollars (USD). Please quote invoice 2026/2135 with your payment.",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FOB Qingdao (Incoterms 2020)",
+        "value": "FOB Qingdao"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date: March 9, 2026",
+        "value": "March 9, 2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Number: 2026/2135",
+        "value": "2026/2135"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "value": "19,293.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "value": "Spain"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "value": "Red wine, 0.75L bottle"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "value": "3,270"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "value": "5.90"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Terms: T/T in advance",
+        "value": "T/T in advance"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "G Guangzhou Tianyi Trading Co., Ltd. I N VO I C E",
+        "value": "Guangzhou Tianyi Trading Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+        "value": "19,293.00"
+      }
+    },
+    "input_tokens": 372,
+    "latency_ms": 0,
+    "output_tokens": 451
+  }
+}

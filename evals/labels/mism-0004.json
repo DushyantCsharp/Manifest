@@ -1,0 +1,146 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0004",
+  "seed": 189723285,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/8750",
+    "invoice_date": "2026-09-21",
+    "seller": {
+      "name": "Fátima Quintanilla Ferreras S.L.",
+      "address": [
+        "Calle Albert Ribes 8",
+        "33664 Manta",
+        "Ecuador"
+      ],
+      "country": "EC"
+    },
+    "buyer": {
+      "name": "Brown-Rose",
+      "address": [
+        "132 Wood Bypass",
+        "68462 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Guayaquil",
+    "payment_terms": "L/C at sight",
+    "total_amount": "97989.56",
+    "bl_number": "EGLVKS3977823",
+    "notify_party": {
+      "name": "Rodriguez, Carson and Willis",
+      "address": [
+        "29749 Kevin Point",
+        "50467 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN CALYPSO",
+    "voyage": "910N",
+    "port_of_loading": "Guayaquil",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-09-24",
+    "container_number": "EGLU8810919",
+    "seal_number": "2083407",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 470,
+    "total_gross_weight_kg": "17035.30",
+    "goods_description": "SAID TO CONTAIN: Centrifugal water pump 1.1kW; Split air conditioner 12000 BTU; Terry cotton bath towel 70x140; Green Arabica coffee beans, grade 1; Inflatable beach ball 40cm",
+    "total_net_weight_kg": "15836.18",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Centrifugal water pump 1.1kW",
+        "country_of_origin": "IT",
+        "quantity": "120",
+        "unit": "pcs",
+        "unit_price": "57.90",
+        "amount": "6948.00",
+        "hs_code": "841370",
+        "packages": 120,
+        "net_weight_kg": "1369.68",
+        "gross_weight_kg": "1594.87"
+      },
+      {
+        "line_no": 2,
+        "description": "Split air conditioner 12000 BTU",
+        "country_of_origin": "CN",
+        "quantity": "102",
+        "unit": "pcs",
+        "unit_price": "357.18",
+        "amount": "36432.36",
+        "hs_code": "841510",
+        "packages": 102,
+        "net_weight_kg": "3916.90",
+        "gross_weight_kg": "4260.48"
+      },
+      {
+        "line_no": 3,
+        "description": "Terry cotton bath towel 70x140",
+        "country_of_origin": "TR",
+        "quantity": "800",
+        "unit": "pcs",
+        "unit_price": "2.82",
+        "amount": "2256.00",
+        "hs_code": "630260",
+        "packages": 20,
+        "net_weight_kg": "408.80",
+        "gross_weight_kg": "446.96"
+      },
+      {
+        "line_no": 4,
+        "description": "Green Arabica coffee beans, grade 1",
+        "country_of_origin": "ET",
+        "quantity": "8940",
+        "unit": "kg",
+        "unit_price": "5.34",
+        "amount": "47739.60",
+        "hs_code": "090111",
+        "packages": 149,
+        "net_weight_kg": "8940.00",
+        "gross_weight_kg": "9443.62"
+      },
+      {
+        "line_no": 5,
+        "description": "Inflatable beach ball 40cm",
+        "country_of_origin": "CN",
+        "quantity": "15800",
+        "unit": "pcs",
+        "unit_price": "0.2920",
+        "amount": "4613.60",
+        "hs_code": "950662",
+        "packages": 79,
+        "net_weight_kg": "1200.80",
+        "gross_weight_kg": "1289.37"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "missing_line",
+      "kind": "line_items_mismatch",
+      "field": "line_items",
+      "line_no": 3,
+      "description": "Terry cotton bath towel 70x140",
+      "values": {
+        "commercial_invoice": "Terry cotton bath towel 70x140",
+        "packing_list": null
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

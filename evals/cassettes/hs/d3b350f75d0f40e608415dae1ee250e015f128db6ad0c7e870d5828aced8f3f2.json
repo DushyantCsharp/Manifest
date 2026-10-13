@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d3b350f75d0f40e608415dae1ee250e015f128db6ad0c7e870d5828aced8f3f2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Microwave oven 20L, 700W, countertop\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8516 Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n\nChoose the subheading that covers these goods. Options:\n- 851650: Ovens; microwave, of a kind used for domestic purposes\n- 851660: Ovens, cookers, cooking plates, boiling rings, grillers and roasters; of a kind used for domestic purposes (excluding microwaves)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1998e295d4105ce8edb6cbc9098e5c1bd09b9b43a491b137336b3c4f44197e35",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "851650",
+      "cited": [
+        "851650"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 411,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

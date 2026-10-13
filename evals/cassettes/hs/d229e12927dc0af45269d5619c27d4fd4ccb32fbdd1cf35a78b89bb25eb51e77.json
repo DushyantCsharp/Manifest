@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d229e12927dc0af45269d5619c27d4fd4ccb32fbdd1cf35a78b89bb25eb51e77",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Long grain white rice, milled and polished\nCountry of origin: TH\n\nChoose the chapter that covers these goods. Options:\n- 10: Cereals\n    contains 100630: Cereals; rice, semi-milled or wholly milled, whether or not polished or glazed\n    contains 100640: Cereals; rice, broken\n    contains 100620: Cereals; husked (brown) rice\n    contains 100610: Cereals; rice in the husk (paddy or rough)\n- 11: Products of the milling industry; malt, starches, inulin, wheat gluten\n    contains 110429: Cereal grains; worked, other than rolled or flaked (e.g. Hulled, pearled, sliced or kibbled) of cereals, excluding oats and maize, and rice of heading no.1006\n    contains 110412: Cereal grains; rolled or flaked, of oats\n    contains 110419: Cereal grains; rolled or flaked, other than oats\n    contains 110422: Cereal grains; worked (e.g. hulled, pearled, sliced or kibbled) of oats\n    contains 110423: Cereal grains; worked (e.g. hulled, pearled, sliced or kibbled) of maize (corn)\n    contains 110430: Cereal; germ of cereals, whole, rolled, flaked or ground\n- 60: Fabrics; knitted or crocheted\n    contains 600110: Fabrics; long pile fabrics, knitted or crocheted\n    contains 600191: Fabrics; pile fabrics (excluding long pile and loop pile), of cotton, knitted or crocheted\n    contains 600192: Fabrics; pile fabrics (excluding long pile and loop pile), of man-made fibres, knitted or crocheted\n    contains 600199: Fabrics; pile fabrics (excluding long pile and loop pile), of textile materials (other than cotton or man-made fibres), knitted or crocheted\n- 72: Iron and steel\n    contains 721710: Iron or non-alloy steel; wire, (not plated or coated), whether or not polished\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 081030: Fruit, edible; black, white or red currants and gooseberries, fresh\n- 17: Sugars and sugar confectionery\n    contains 170490: Sugar confectionery; (excluding chewing gum, including white chocolate), not containing cocoa\n- 70: Glass and glassware\n    contains 700510: Glass; float glass and surface ground or polished glass, in sheets, non-wired, having an absorbent reflecting or non-reflecting layer\n    contains 700530: Glass; float glass and surface ground or polished glass, in sheets, wired glass, whether or not having an absorbent or reflecting layer\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 252321: Cement; portland, white, whether or not artificially coloured\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "734dbfdcd2a5144e11f2a03a2f1598edd3860adae62fc5b7bdd1d21240b9471d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "10",
+      "cited": [
+        "10"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 847,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

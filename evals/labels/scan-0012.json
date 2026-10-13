@@ -1,0 +1,139 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0012",
+  "seed": 4027230490,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-3139",
+    "invoice_date": "2026-04-30",
+    "seller": {
+      "name": "Salvi LLC",
+      "address": [
+        "81, Mane Circle",
+        "917747 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Janssens VOF",
+      "address": [
+        "Rudilei 3",
+        "5485 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "FCA",
+    "incoterm_place": "Mumbai",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "835133.52",
+    "bl_number": "MAEUAE9829940",
+    "notify_party": null,
+    "carrier": "MAERSK",
+    "vessel": "MAERSK TRITON",
+    "voyage": "322S",
+    "port_of_loading": "Chennai",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-05-05",
+    "container_number": "MAEU9329709",
+    "seal_number": "7906175",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 786,
+    "total_gross_weight_kg": "25372.26",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Stainless steel sheet 304, cold-rolled 2mm; Smartphone 6.1in, 128GB; Men's woven cotton shirt, long sleeve; Long grain white rice, milled; Men's crew-neck T-shirt, 100% cotton jersey",
+    "total_net_weight_kg": "24060.37",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Leather handbag with shoulder strap",
+        "country_of_origin": "IN",
+        "quantity": "650",
+        "unit": "pcs",
+        "unit_price": "65.58",
+        "amount": "42627.00",
+        "hs_code": "420221",
+        "packages": 65,
+        "net_weight_kg": "631.80",
+        "gross_weight_kg": "693.49"
+      },
+      {
+        "line_no": 2,
+        "description": "Stainless steel sheet 304, cold-rolled 2mm",
+        "country_of_origin": "IN",
+        "quantity": "10000",
+        "unit": "kg",
+        "unit_price": "3.03",
+        "amount": "30300.00",
+        "hs_code": "721933",
+        "packages": 10,
+        "net_weight_kg": "10000.00",
+        "gross_weight_kg": "10368.40"
+      },
+      {
+        "line_no": 3,
+        "description": "Smartphone 6.1in, 128GB",
+        "country_of_origin": "IN",
+        "quantity": "1280",
+        "unit": "pcs",
+        "unit_price": "532.08",
+        "amount": "681062.40",
+        "hs_code": "851713",
+        "packages": 32,
+        "net_weight_kg": "250.88",
+        "gross_weight_kg": "304.31"
+      },
+      {
+        "line_no": 4,
+        "description": "Men's woven cotton shirt, long sleeve",
+        "country_of_origin": "IN",
+        "quantity": "7800",
+        "unit": "pcs",
+        "unit_price": "8.58",
+        "amount": "66924.00",
+        "hs_code": "620520",
+        "packages": 195,
+        "net_weight_kg": "2324.40",
+        "gross_weight_kg": "2466.20"
+      },
+      {
+        "line_no": 5,
+        "description": "Long grain white rice, milled",
+        "country_of_origin": "IN",
+        "quantity": "10050",
+        "unit": "kg",
+        "unit_price": "0.5995",
+        "amount": "6024.98",
+        "hs_code": "100630",
+        "packages": 402,
+        "net_weight_kg": "10050.00",
+        "gross_weight_kg": "10576.62"
+      },
+      {
+        "line_no": 6,
+        "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+        "country_of_origin": "IN",
+        "quantity": "4057",
+        "unit": "pcs",
+        "unit_price": "2.02",
+        "amount": "8195.14",
+        "hs_code": "610910",
+        "packages": 82,
+        "net_weight_kg": "803.29",
+        "gross_weight_kg": "963.24"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

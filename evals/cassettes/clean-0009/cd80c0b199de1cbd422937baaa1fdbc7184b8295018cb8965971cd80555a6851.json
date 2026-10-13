@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "cd80c0b199de1cbd422937baaa1fdbc7184b8295018cb8965971cd80555a6851",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nGuangzhou Tianyi Trading Co., Ltd.\r\nNo. 220 Avenue 3, Guangzhou, China \r\nPACKING LIST\r\nInvoice Ref. 2026/2135\r\nDate March 9, 2026\r\nCONSIGNEE\r\nScott and Sons\r\n78 Lawrence Village, M0 3AB Leeds, United Kingdom\r\nTERMS OF DELIVERY\r\nFOB Qingdao\r\nQingdao to Southampton\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb\r\nTotal 545 CARTONS 9,343.0 lb 9,918.3 lb\r\nShipping marks: SCOTT / 2026/2135\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Scott and Sons",
+        "value": "Scott and Sons"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date March 9, 2026",
+        "value": "March 9, 2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FOB Qingdao",
+        "value": "FOB Qingdao"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. 2026/2135",
+        "value": "2026/2135"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+            "value": "ES"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+            "value": "Red wine, 0.75L bottle"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+            "value": "9,918.3 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+            "value": "9,343.0 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+            "value": "3,270"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 545 CARTONS 9,343.0 lb 9,918.3 lb",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Guangzhou Tianyi Trading Co., Ltd.",
+        "value": "Guangzhou Tianyi Trading Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+        "value": "9,918.3 lb"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+        "value": "9,343.0 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb",
+        "value": "545"
+      }
+    },
+    "input_tokens": 353,
+    "latency_ms": 0,
+    "output_tokens": 480
+  }
+}

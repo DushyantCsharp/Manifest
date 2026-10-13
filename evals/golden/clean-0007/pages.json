@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Trapanese-Giolitti s.r.l. · Canale Gianfranco, 97 Piano 9 · 59021 Bologna · Italy\r\nVerdonck-Vinck BV\r\nDieterweg 26\r\n6903 Antwerpen\r\nBelgium\r\nRechnungsnummer / Invoice\r\nno.\r\nRE-26-1297\r\nRechnungsdatum / Date 06.05.2026\r\nLieferbedingung / Incoterms®\r\n2020\r\nCPT Gent\r\nZahlungsbedingung / Payment 30% deposit, 70% against\r\ncopy of B/L\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60\r\n2 City bicycle 28in, 7-speed KH 69 pcs 218,18 15.054,42\r\n3 Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00\r\n4 Upholstered office chair, steel base CN 81 pcs 28,14 2.279,34\r\n5 Women's cotton denim trousers PK 5.250 pcs 11,13 58.432,50\r\nGesamtbetrag / Total 115.108,86 EUR\r\nVersand / Shipment: La Spezia → Antwerp. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Trapanese-Giolitti s.r.l.\r\nCanale Gianfranco, 97 Piano 9, 59021 Bologna, Italy\r\nPACKING LIST\r\nInvoice Ref. RE-26-1297\r\nDate 06.05.2026\r\nCONSIGNEE\r\nVerdonck-Vinck BV\r\nDieterweg 26, 6903 Antwerpen, Belgium\r\nTERMS OF DELIVERY\r\nCPT Gent\r\nLa Spezia to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg\r\n2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg\r\n3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg\r\n4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg\r\n5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg\r\nTotal 1045 CARTONS 17.388,16 kg 18.840,45 kg\r\nShipping marks: VERDONCK-VINCK / RE-26-1297\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nTrapanese-Giolitti s.r.l.\r\nCanale Gianfranco, 97 Piano 9, 59021 Bologna, Italy\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUHX1393202 \r\nCONSIGNEE\r\nVerdonck-Vinck BV\r\nDieterweg 26, 6903 Antwerpen, Belgium\r\nNOTIFY PARTY\r\nVerbeke CommV\r\nMarie-Jeannelei 20, 6994 Antwerpen, Belgium\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD HARMONY / 180S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nLa Spezia\r\nPORT OF DISCHARGE\r\nAntwerp\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU8084325\r\nSEAL\r\n5438587\r\nVERDONCK￾VINCK /\r\nRE-26-1297\r\n1045\r\nCARTONS\r\nSAID TO CONTAIN: Porcelain dinner plate 27cm;\r\nCity bicycle 28in, 7-speed; Aluminium household\r\nfoil 12 micron; Upholstered office chair, steel\r\nbase; Women's cotton denim trousers\r\n18.840,45 kg\r\nSHIPPED ON BOARD\r\n12.05.2026\r\nPLACE AND DATE OF ISSUE\r\nLa Spezia, 12.05.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1"
+    }
+  ]
+}

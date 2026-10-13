@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "7cb0af0ae8571857d9d1aa5149514ef5bfa83819e6c0d8d4ed4846ccad85efe5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Toilet soap bars\nCountry of origin: ID\n\nChoose the chapter that covers these goods. Options:\n- 34: Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster\n    contains 340119: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use\n    contains 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n    contains 340120: Soap; in forms n.e.c. in item no. 3401.11\n    contains 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n- 74: Copper and articles thereof\n    contains 740710: Copper; bars, rods and profiles, of refined copper\n    contains 740312: Copper; refined, unwrought, wire-bars\n- 79: Zinc and articles thereof\n    contains 790400: Zinc; bars, rods, profiles and wire\n- 80: Tin; articles thereof\n    contains 800300: Tin; bars, rods, profiles and wire\n- 75: Nickel and articles thereof\n    contains 750512: Nickel; bars, rods and profiles, of nickel alloys\n    contains 750511: Nickel; bars, rods and profiles, not alloyed\n- 76: Aluminium and articles thereof\n    contains 760410: Aluminium; (not alloyed), bars, rods and profiles\n    contains 760429: Aluminium; alloys, bars, rods and profiles, other than hollow\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n- 72: Iron and steel\n    contains 722230: Steel, stainless; bars and rods, n.e.c. in heading no. 7222\n    contains 722840: Steel, alloy; bars and rods, forged\n    contains 722880: Steel, alloy or non-alloy; hollow drill bars and rods\n    contains 721590: Iron or non-alloy steel; bars and rods, n.e.c. in chapter 72, n.e.c. in heading no. 7215\n    contains 722220: Steel, stainless; bars and rods, cold-formed or cold-finished\n- 33: Essential oils and resinoids; perfumery, cosmetic or toilet preparations\n    contains 330300: Perfumes and toilet waters\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "36bcfa17f9a8bb51763220e0a5d1768730c19d24657aabf4cb27e95282d826a0",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "34",
+      "cited": [
+        "34"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 901,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0009",
+  "seed": 4212303058,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/2135",
+    "invoice_date": "2026-03-09",
+    "seller": {
+      "name": "Guangzhou Tianyi Trading Co., Ltd.",
+      "address": [
+        "No. 220 Avenue 3",
+        "Guangzhou",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Scott and Sons",
+      "address": [
+        "78 Lawrence Village",
+        "M0 3AB Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Qingdao",
+    "payment_terms": "T/T in advance",
+    "total_amount": "19293.00",
+    "bl_number": "HLCUAC7525004",
+    "notify_party": null,
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD VALENCIA",
+    "voyage": "741W",
+    "port_of_loading": "Qingdao",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-03-17",
+    "container_number": "HLCU2348441",
+    "seal_number": "2551983",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 545,
+    "total_gross_weight_kg": "4498.88",
+    "goods_description": "SAID TO CONTAIN: Red wine, 0.75L bottle",
+    "total_net_weight_kg": "4237.92",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Red wine, 0.75L bottle",
+        "country_of_origin": "ES",
+        "quantity": "3270",
+        "unit": "pcs",
+        "unit_price": "5.90",
+        "amount": "19293.00",
+        "hs_code": "220421",
+        "packages": 545,
+        "net_weight_kg": "4237.92",
+        "gross_weight_kg": "4498.88"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "cee64770de196b712018f542e63648354dc3cacb6b6bcf367d0e2ccd62ff4336",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Solid oak bed frame, queen size\nCountry of origin: VN\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings > 9401 Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof\n\nChoose the subheading that covers these goods. Options:\n- 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n- 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n- 940169: Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n- 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "463b2be43d482ece478e8b00d0b4f43018be050723c678e5cc38c47874be006b",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "940161",
+      "cited": [
+        "940161"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 462,
+    "latency_ms": 0,
+    "output_tokens": 31
+  }
+}

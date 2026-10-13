@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "8619158e425df011d0cc285a5194feee5725649af980af9ec8d1fc83cd840a8e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen concentrated orange juice\nCountry of origin: BR\n\nChoose the chapter that covers these goods. Options:\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200911: Juice; orange, frozen, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n    contains 200912: Juice; orange, not frozen, of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n    contains 200919: Juice; orange, not frozen, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n    contains 200931: Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n    contains 200939: Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n    contains 200990: Juices; mixtures of fruits or vegetables (but not nut juice), unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040410: Dairy produce; whey, whether or not concentrated or containing added sugar or other sweetening matter\n    contains 040110: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, not exceeding 1%\n    contains 040120: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%\n    contains 040150: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 10%\n    contains 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040140: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 6% but not exceeding 10%\n    contains 040210: Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)\n    contains 040221: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040320: Dairy produce; yoghurt, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa\n    contains 040390: Dairy produce; buttermilk, curdled milk or cream, kephir, fermented or acidified milk or cream, whether or not concentrated or containing added sweetening, flavouring, fruit, nuts or cocoa (excluding yoghurt)\n    contains 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040229: Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n- 40: Rubber and articles thereof\n    contains 400220: Rubber; synthetic, butadiene rubber (BR), in primary forms or in plates, sheets or strip\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 080510: Fruit, edible; oranges, fresh or dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "407871081ebae8a077512dfbd3f7f19440dd1e438ae8906475f0647ad20da166",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "20",
+      "cited": [
+        "20"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1211,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

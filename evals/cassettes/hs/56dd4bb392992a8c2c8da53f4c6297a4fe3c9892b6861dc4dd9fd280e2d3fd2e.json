@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "56dd4bb392992a8c2c8da53f4c6297a4fe3c9892b6861dc4dd9fd280e2d3fd2e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green Arabica coffee beans, not roasted, not decaffeinated\nCountry of origin: BR\n\nChosen so far: 09 Coffee, tea, mate and spices\n\nChoose the heading that covers these goods. Options:\n- 0901: Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090122: Coffee; roasted, decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n- 0902: Tea\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "da2edeed10c341eaaadce0e8b08d1603e0f1c1876afc97c10ed0c64bb454940a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0901",
+      "cited": [
+        "0901"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 442,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "00367ffd74eb96ba7f089de2ed7c8c63831a832400627cc173d8c52141f8fa38",
+  "retriever": "offline-lexical",
+  "query": "Office swivel chair with gas-lift height adjustment, upholstered, metal base origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "940131",
+      "description": "Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "940139",
+      "description": "Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "842860",
+      "description": "Teleferics, chair-lifts, ski-draglines, traction mechanisms for funiculars",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "830520",
+      "description": "Stationery; staples in strips, (e.g. for offices, upholstery, packaging), of base metal",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "830590",
+      "description": "Stationery; letter clips, letter corners, paper clips, indexing tags and similar office articles, including parts, of base metal",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "830400",
+      "description": "Office equipment; filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading no. 9403",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "830510",
+      "description": "Stationery; fittings for loose-leaf binders or files, of base metal",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "940171",
+      "description": "Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "940179",
+      "description": "Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "940310",
+      "description": "Furniture; metal, for office use",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "940320",
+      "description": "Furniture; metal, other than for office use",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "481930",
+      "description": "Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "481940",
+      "description": "Paper and paperboard; sacks and bags, including cones, of paper, paperboard, cellulose wadding or fibres, having a base width less than 40cm",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "721631",
+      "description": "Iron or non-alloy steel; U sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "721632",
+      "description": "Iron or non-alloy steel; I sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "721633",
+      "description": "Iron or non-alloy steel; H sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "721640",
+      "description": "Iron or non-alloy steel; L or T sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "711320",
+      "description": "Jewellery; of base metal clad with precious metal, and parts thereof",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "721610",
+      "description": "Iron or non-alloy steel; U, I or H sections, hot-rolled, hot-drawn or extruded, of a height of less than 80mm",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "721621",
+      "description": "Iron or non-alloy steel; L sections, hot-rolled, hot-drawn or extruded, of a height of less than 80mm",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

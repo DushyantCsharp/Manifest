@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0006",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "CMDUOJ1999438",
+    "seller": {
+      "name": "Busan Samjin Electronics Co., Ltd.",
+      "address": [
+        "No. 15 Ring Road",
+        "Busan",
+        "South Korea"
+      ],
+      "country": "KR"
+    },
+    "buyer": {
+      "name": "Morgan Group",
+      "address": [
+        "3200 David Estates",
+        "85861 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": {
+      "name": "Johnson Inc",
+      "address": [
+        "2341 Thomas Manors Suite 858",
+        "22700 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "CMA CGM",
+    "vessel": "CMA AURORA",
+    "voyage": "841E",
+    "port_of_loading": "Busan",
+    "port_of_discharge": "Los Angeles",
+    "shipped_on_board": "2026-01-17",
+    "container_number": "CMDU8142382",
+    "seal_number": "6381126",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 300,
+    "total_gross_weight_kg": "18474.35",
+    "goods_description": "SAID TO CONTAIN: Stainless steel sheet 304, cold-rolled 2mm; LDPE film-grade granules; Lithium-ion battery pack 48V 20Ah"
+  },
+  "line_items": []
+}

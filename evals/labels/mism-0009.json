@@ -1,0 +1,136 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0009",
+  "seed": 2925240390,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/4803",
+    "invoice_date": "2026-04-29",
+    "seller": {
+      "name": "Narváez & Asociados S.A.",
+      "address": [
+        "C. de Héctor Coll 90",
+        "16963 Guayaquil",
+        "Ecuador"
+      ],
+      "country": "EC"
+    },
+    "buyer": {
+      "name": "Larson-Robertson",
+      "address": [
+        "00300 Tiffany Crescent",
+        "19048 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "GBP",
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "171289.48",
+    "bl_number": "ONEYLB5183699",
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE VALENCIA",
+    "voyage": "507W",
+    "port_of_loading": "Guayaquil",
+    "port_of_discharge": "Los Angeles",
+    "shipped_on_board": "2026-05-02",
+    "container_number": "ONEU4434064",
+    "seal_number": "3761647",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1155,
+    "total_gross_weight_kg": "21041.52",
+    "goods_description": "SAID TO CONTAIN: Cashew kernels W320; Men's woven cotton shirt, long sleeve; Running shoes, rubber sole, textile upper; Stainless cutlery set, 24 pieces",
+    "total_net_weight_kg": "19386.67",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Cashew kernels W320",
+        "country_of_origin": "CI",
+        "quantity": "8901",
+        "unit": "kg",
+        "unit_price": "6.15",
+        "amount": "54741.15",
+        "hs_code": "080132",
+        "packages": 387,
+        "net_weight_kg": "8901.00",
+        "gross_weight_kg": "9686.61"
+      },
+      {
+        "line_no": 2,
+        "description": "Men's woven cotton shirt, long sleeve",
+        "country_of_origin": "IN",
+        "quantity": "7720",
+        "unit": "pcs",
+        "unit_price": "5.56",
+        "amount": "42923.20",
+        "hs_code": "620520",
+        "packages": 193,
+        "net_weight_kg": "2593.92",
+        "gross_weight_kg": "2761.55"
+      },
+      {
+        "line_no": 3,
+        "description": "Running shoes, rubber sole, textile upper",
+        "country_of_origin": "VN",
+        "quantity": "3396",
+        "unit": "pairs",
+        "unit_price": "15.68",
+        "amount": "53249.28",
+        "hs_code": "640411",
+        "packages": 283,
+        "net_weight_kg": "2475.68",
+        "gross_weight_kg": "2671.99"
+      },
+      {
+        "line_no": 4,
+        "description": "Stainless cutlery set, 24 pieces",
+        "country_of_origin": "IN",
+        "quantity": "2915",
+        "unit": "sets",
+        "unit_price": "6.99",
+        "amount": "20375.85",
+        "hs_code": "821520",
+        "packages": 292,
+        "net_weight_kg": "5416.07",
+        "gross_weight_kg": "5921.37"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "origin",
+      "kind": "value_mismatch",
+      "field": "line_items.country_of_origin",
+      "line_no": 1,
+      "description": "Cashew kernels W320",
+      "values": {
+        "commercial_invoice": "CI",
+        "packing_list": "PH"
+      }
+    },
+    {
+      "mutation": "incoterm",
+      "kind": "value_mismatch",
+      "field": "incoterm",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "commercial_invoice": "CPT",
+        "packing_list": "DAP"
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

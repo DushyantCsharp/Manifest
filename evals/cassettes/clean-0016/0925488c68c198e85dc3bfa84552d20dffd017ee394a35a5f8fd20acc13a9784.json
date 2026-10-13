@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "0925488c68c198e85dc3bfa84552d20dffd017ee394a35a5f8fd20acc13a9784",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nNingbo Tianyi Industrial Co., Ltd.\r\nNo. 13 Industrial Road, Ningbo, China\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUPS4423485 \r\nCONSIGNEE\r\nJohnson, Norton and Hernandez\r\n831 Joshua Glen, 77798 Los Angeles, United States\r\nNOTIFY PARTY\r\nPerkins Inc\r\n4466 Thomas River, 81676 Los Angeles,\r\nUnited States\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC TAGE / 160W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nShenzhen\r\nPORT OF DISCHARGE\r\nNew York\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU2580683\r\nSEAL\r\n3098887\r\nJOHNSON, /\r\nINV-2026-99446\r\n1385\r\nCARTONS\r\nSAID TO CONTAIN: Leather handbag with\r\nshoulder strap; Milk chocolate bars 100g;\r\nUpholstered office chair, steel base; LED\r\ntelevision 55in 4K\r\n14,852.39 kg\r\nSHIPPED ON BOARD\r\n06/18/2026\r\nPLACE AND DATE OF ISSUE\r\nShenzhen, 06/18/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "MEDUPS4423485",
+        "value": "MEDUPS4423485"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Johnson, Norton and Hernandez",
+        "value": "Johnson, Norton and Hernandez"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MSC",
+        "value": "MSC"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "MEDU2580683",
+        "value": "MEDU2580683"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Perkins Inc",
+        "value": "Perkins Inc"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "New York",
+        "value": "New York"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Shenzhen",
+        "value": "Shenzhen"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "3098887",
+        "value": "3098887"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Tianyi Industrial Co., Ltd.",
+        "value": "Ningbo Tianyi Industrial Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "06/18/2026",
+        "value": "06/18/2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "14,852.39 kg",
+        "value": "14,852.39 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1385",
+        "value": "1385"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "MSC TAGE / 160W",
+        "value": "MSC TAGE"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "MSC TAGE / 160W",
+        "value": "160W"
+      }
+    },
+    "input_tokens": 530,
+    "latency_ms": 0,
+    "output_tokens": 372
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0018",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVLL9935232",
+    "seller": {
+      "name": "Kaul-Kala",
+      "address": [
+        "18, Parikh Road",
+        "002880 Tiruppur",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Nguyen-Robinson",
+      "address": [
+        "119 Donaldson Estate",
+        "1764 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "notify_party": {
+      "name": "Hurst PLC",
+      "address": [
+        "Level 7 272 Simmons Quay",
+        "5959 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN TRITON",
+    "voyage": "658W",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Sydney",
+    "shipped_on_board": "2026-08-02",
+    "container_number": "EGLU7697599",
+    "seal_number": "8808338",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 189,
+    "total_gross_weight_kg": "16093.37",
+    "goods_description": "SAID TO CONTAIN: Stainless steel sheet 304, cold-rolled 2mm; Stainless steel saucepan 20cm; Smartphone 6.1in, 128GB"
+  },
+  "line_items": []
+}

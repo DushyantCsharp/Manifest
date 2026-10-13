@@ -1,0 +1,66 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0002",
+  "document": "commercial_invoice",
+  "layout": "eu",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-8158",
+    "invoice_date": "2026-04-26",
+    "seller": {
+      "name": "Toyota Otomotiv",
+      "address": [
+        "1009 Korutürk Ways",
+        "26238 Bursa",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Dehmel",
+      "address": [
+        "Zimmerweg 75/88",
+        "37966 Hamburg",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "currency": "EUR",
+    "incoterm": "CPT",
+    "incoterm_place": "Düsseldorf",
+    "payment_terms": "T/T in advance",
+    "total_amount": "71400.50"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "TR",
+      "quantity": "8240",
+      "unit": "pcs",
+      "unit_price": "5.02",
+      "amount": "41364.80"
+    },
+    {
+      "line_no": 2,
+      "description": "Aluminium household foil 12 micron",
+      "country_of_origin": "TR",
+      "quantity": "7460",
+      "unit": "kg",
+      "unit_price": "2.91",
+      "amount": "21708.60"
+    },
+    {
+      "line_no": 3,
+      "description": "Women's cotton denim trousers",
+      "country_of_origin": "TR",
+      "quantity": "1230",
+      "unit": "pcs",
+      "unit_price": "6.77",
+      "amount": "8327.10"
+    }
+  ]
+}

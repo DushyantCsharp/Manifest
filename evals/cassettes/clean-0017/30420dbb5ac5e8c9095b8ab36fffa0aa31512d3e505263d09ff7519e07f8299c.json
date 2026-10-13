@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "30420dbb5ac5e8c9095b8ab36fffa0aa31512d3e505263d09ff7519e07f8299c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nChattogram Bengal Textile Co., Ltd.\r\nNo. 247 Ring Road, Chattogram, Bangladesh\r\nCOSCO\r\nBILL OF LADING\r\nB/L NO.\r\nCOSUWU8751024 \r\nCONSIGNEE\r\nDe Neve, Van de Velde en Claes NV\r\nJenslei 79, 9082 Gent, Belgium\r\nNOTIFY PARTY\r\nBogaert-De Backer BV\r\nMargarethahof 4, 9565 Gent, Belgium\r\nOCEAN VESSEL / VOYAGE NO.\r\nCOSCO SERENITY / 193S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nChattogram\r\nPORT OF DISCHARGE\r\nAntwerp\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCOSU6179764\r\nSEAL 7904883\r\nDE /\r\nRE-26-0240\r\n187\r\nCARTONS\r\nSAID TO CONTAIN: Men's woven cotton shirt,\r\nlong sleeve\r\n2.769,16 kg\r\nSHIPPED ON BOARD\r\n10.06.2026\r\nPLACE AND DATE OF ISSUE\r\nChattogram, 10.06.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: COSCO. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "COSUWU8751024",
+        "value": "COSUWU8751024"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "De Neve, Van de Velde en Claes NV",
+        "value": "De Neve, Van de Velde en Claes NV"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "COSCO",
+        "value": "COSCO"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "COSU6179764",
+        "value": "COSU6179764"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Bogaert-De Backer BV",
+        "value": "Bogaert-De Backer BV"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Antwerp",
+        "value": "Antwerp"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Chattogram Bengal Textile Co., Ltd.",
+        "value": "Chattogram"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 7904883",
+        "value": "7904883"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Chattogram Bengal Textile Co., Ltd.",
+        "value": "Chattogram Bengal Textile Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "10.06.2026",
+        "value": "10.06.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "2.769,16 kg",
+        "value": "2.769,16 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "187",
+        "value": "187"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "COSCO SERENITY / 193S",
+        "value": "COSCO SERENITY"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "COSCO SERENITY / 193S",
+        "value": "193S"
+      }
+    },
+    "input_tokens": 503,
+    "latency_ms": 0,
+    "output_tokens": 392
+  }
+}

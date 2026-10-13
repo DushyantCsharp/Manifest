@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "8e31a332094f3b1eb84d93b30ab14e4e28f63f8e72f3d6354e0e1c13f6567d75",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\n\nKaohsiung Lienhwa Textile Co., Ltd.\n\n_|CMACGM\n\nNo. 71 Industrial Road, Kaohsiung, Taiwan me BILL OF LADING\ncas et ee\nCMDUU04 980769\nCONSIGNEE NOTIFY PARTY\nPrice LLC Roth-Rich° .\n\nVancouver, Canada\n\n| 3094 Bruce Plains Suite 532, N8E9V7 Vancouver, Canada | 490.Miller Lakes Suite 556; X6A 4M2\n\n.OCEAN VESSEL / VOYAGE NO.\nCMA KENSINGTON / 311W\n\nFREIGHT .-\nFREIGHT COLLECT\n\nPORT OF LOADING\nKaohsiung,\n\nPORT OF DISCHARGE\nVancouver\n\n} 02/22/2026 Kaohsiung, 02/22/2026 | ~ THREE (3)\n\nCONTAINER / SEAL | MARKS & NOS.. NO. OF © DESCRIPTION OF GOODS GROSS WEIGHT\nCMDU6521134 | PRICE / = )26TO= SAID-TO CONTAIN: Polarized sunglasses; Milk | 25,483.08 kg\n| SEAL INV-2026-81295 | CARTONS” chocolate bars 1009; LED bulb E27 9W warm: ae\n9005552 ; ae white; Porcelain dinner plate 27cm; Lithium-\noe ion battery pack 48V 20Ah; LDPE film-grade -\ngranules; Long grain white rice, milled,\nSHIPPED ON BOARD - : PLACE.AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\n\n‘ RECENED by he Garter n apparent good order end condition utless otherwise siated, the totat number of comcers\ncarrier's standard bill of lading Signed as Carrier CMA, CGM\n\nof discharge, subject to the terms and conditions of the\n\npackages shown above for carriage from the port of loading to the port\n\nPage | of }\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.80",
+        "evidence": "CMDUU04 980769",
+        "value": "CMDUU04 980769"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Price LLC Roth-Rich° .",
+        "value": "Price LLC"
+      },
+      "carrier": {
+        "confidence": "0.84",
+        "evidence": "carrier's standard bill of lading Signed as Carrier CMA, CGM",
+        "value": "CMA, CGM"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "CMDU6521134 | PRICE / = )26TO= SAID-TO CONTAIN: Polarized sunglasses; Milk | 25,483.08 kg",
+        "value": "CMDU6521134"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Price LLC Roth-Rich° .",
+        "value": "Roth-Rich"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "| SEAL INV-2026-81295 | CARTONS” chocolate bars 1009; LED bulb E27 9W warm: ae",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Vancouver, Canada",
+        "value": "Vancouver"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Kaohsiung Lienhwa Textile Co., Ltd.",
+        "value": "Kaohsiung"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "9005552 ; ae white; Porcelain dinner plate 27cm; Lithium-",
+        "value": "9005552"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Kaohsiung Lienhwa Textile Co., Ltd.",
+        "value": "Kaohsiung Lienhwa Textile Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "} 02/22/2026 Kaohsiung, 02/22/2026 | ~ THREE (3)",
+        "value": "02/22/2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "CMDU6521134 | PRICE / = )26TO= SAID-TO CONTAIN: Polarized sunglasses; Milk | 25,483.08 kg",
+        "value": "25,483.08 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "CMA KENSINGTON / 311W",
+        "value": "CMA KENSINGTON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "CMA KENSINGTON / 311W",
+        "value": "311W"
+      }
+    },
+    "input_tokens": 551,
+    "latency_ms": 0,
+    "output_tokens": 479
+  }
+}

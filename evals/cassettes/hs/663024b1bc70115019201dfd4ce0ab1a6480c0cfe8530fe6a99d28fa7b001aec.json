@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "663024b1bc70115019201dfd4ce0ab1a6480c0cfe8530fe6a99d28fa7b001aec",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lead-acid starter battery 12V 60Ah\nCountry of origin: KR\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8549: Electrical and electronic waste and scrap\n    contains 854912: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, containing lead, cadmium or mercury, other than lead-acid accumulators\n    contains 854914: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, unsorted and not containing lead, cadmium or mercury\n    contains 854913: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, sorted by chemical type and not containing lead, cadmium or mercury\n    contains 854911: Waste and scrap of lead-acid accumulators; spent lead-acid accumulators\n- 8507: Electric accumulators, including separators therefor; whether or not rectangular (including square)\n    contains 850720: Electric accumulators; lead-acid, (other than for starting piston engines), including separators, whether or not rectangular (including square)\n    contains 850710: Electric accumulators; lead-acid, of a kind used for starting piston engines, including separators, whether or not rectangular (including square)\n    contains 850780: Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)\n- 8511: Ignition or starting equipment; used for spark-ignition or compression-ignition internal combustion engines; generators and cut outs used in conjunction with such engines\n    contains 851140: Ignition or starting equipment; starter motors and dual purpose starter-generators, of a kind used for spark or compression-ignition internal combustion engines\n- 8506: Cells and batteries; primary\n    contains 850650: Cells and batteries; primary, lithium\n    contains 850690: Cells and batteries; primary, parts thereof\n    contains 850610: Cells and batteries; primary, manganese dioxide\n    contains 850630: Cells and batteries; primary, mercuric oxide\n    contains 850640: Cells and batteries; primary, silver oxide\n    contains 850660: Cells and batteries; primary, air-zinc\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "9a375ed6017a7e31d0a7123b4bba2d9c2bd546b414cd706db16d6838274b7289",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8507",
+      "cited": [
+        "8507"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 829,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

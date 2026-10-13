@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "b30072bf75a9cc1b683cd3eb7dc3854a8ced7a751ad2b6d4c8f8004950b270a6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nKhare Inc · 78, Kota Zila · 881224 Tiruppur · India\r\nKarge Mälzer GmbH & Co. KG\r\nHeinzstraße 7/8\r\n00962 Düsseldorf\r\nGermany\r\nRechnungsnummer / Invoice no. RE-26-6547\r\nRechnungsdatum / Date 24.01.2026\r\nLieferbedingung / Incoterms®\r\n2020\r\nDAP Frankfurt am Main\r\nZahlungsbedingung / Payment T/T 30 days after B/L\r\ndate\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00\r\n2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00\r\n3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93\r\nGesamtbetrag / Total 73.536,93 EUR\r\nVersand / Shipment: Chennai → Hamburg. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Karge Mälzer GmbH & Co. KG",
+        "value": "Karge Mälzer GmbH & Co. KG"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Währung / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "DAP Frankfurt am Main",
+        "value": "DAP Frankfurt am Main"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Rechnungsdatum / Date 24.01.2026",
+        "value": "24.01.2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Rechnungsnummer / Invoice no. RE-26-6547",
+        "value": "RE-26-6547"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "value": "25.179,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "value": "7.700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "value": "3,27"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "value": "16.450,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "value": "Black tea, CTC, bulk"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "value": "4.700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "value": "3,50"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "value": "31.907,93"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "value": "1.601"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "value": "sets"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "value": "19,93"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "T/T 30 days after B/L date",
+        "value": "T/T 30 days after B/L date"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
+        "value": "Khare Inc"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Gesamtbetrag / Total 73.536,93 EUR",
+        "value": "73.536,93"
+      }
+    },
+    "input_tokens": 446,
+    "latency_ms": 0,
+    "output_tokens": 913
+  }
+}

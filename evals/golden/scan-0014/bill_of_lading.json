@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0014",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-1.16",
+    "noise_sigma": 14,
+    "salt_pepper": "0.0013",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "MAEUGN1862212",
+    "seller": {
+      "name": "Jaramillo-Ayala",
+      "address": [
+        "Cl. 78 # 4J-7",
+        "854381 Armenia",
+        "Colombia"
+      ],
+      "country": "CO"
+    },
+    "buyer": {
+      "name": "Hendrix, Harrell and Franco",
+      "address": [
+        "064 Antonio Mills Apt. 751",
+        "28063 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": {
+      "name": "Reynolds, Tate and Clark",
+      "address": [
+        "6524 Stephanie Crossing Apt. 091",
+        "85677 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "MAERSK",
+    "vessel": "MAERSK PEGASUS",
+    "voyage": "331S",
+    "port_of_loading": "Cartagena",
+    "port_of_discharge": "Savannah",
+    "shipped_on_board": "2026-02-06",
+    "container_number": "MAEU8836397",
+    "seal_number": "6381033",
+    "freight_terms": "PREPAID",
+    "package_type": "BAGS",
+    "total_packages": 291,
+    "total_gross_weight_kg": "18277.73",
+    "goods_description": "SAID TO CONTAIN: Green Arabica coffee beans, grade 1"
+  },
+  "line_items": []
+}

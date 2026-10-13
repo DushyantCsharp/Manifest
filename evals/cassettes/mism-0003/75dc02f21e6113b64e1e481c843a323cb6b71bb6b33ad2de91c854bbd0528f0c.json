@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "75dc02f21e6113b64e1e481c843a323cb6b71bb6b33ad2de91c854bbd0528f0c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nC O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nUD Utami Tbk\r\nGang Merdeka No. 1, 38707 Semarang, Indonesia\r\nINVOICE NO. & DATE\r\nEX202694-3613\r\n20-FEB-2026\r\nCONSIGNEE\r\nWard, Taylor and Morton\r\n1414 Lowe Burg, 67239 Newark, United States\r\nTERMS OF DELIVERY AND PAYMENT\r\nFCA Semarang\r\nCash against documents\r\nNOTIFY PARTY\r\nFrazier-Nguyen, 7439 Tyrone Lock Suite 412, 24258 Savannah, United\r\nStates\r\nVESSEL / VOYAGE\r\nMAERSK VALENCIA V.107N\r\nPORT OF LOADING\r\nTANJUNG PERAK\r\nPORT OF DISCHARGE\r\nNEW YORK\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nWARD, /\r\nEX202694-3613\r\nCASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67\r\nRUNNING SHOES, RUBBER\r\nSOLE, TEXTILE UPPER\r\n6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84\r\nCORRUGATED SHIPPING\r\nCARTON, 3-PLY\r\n4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83\r\nTOTAL FCA SEMARANG USD 154,406.34\r\nSAY TOTAL US DOLLARS ONE HUNDRED FIFTY-FOUR THOUSAND FOUR HUNDRED SIX AND CENTS THIRTY-FOUR ONLY\r\nFor and on behalf of UD Utami Tbk\r\nAuthorized Signature\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Ward, Taylor and Morton",
+        "value": "Ward, Taylor and Morton"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FCA Semarang",
+        "value": "FCA Semarang"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "20-FEB-2026",
+        "value": "20-FEB-2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "EX202694-3613",
+        "value": "EX202694-3613"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "value": "86,532.67"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "value": "VIETNAM"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "value": "CASHEW KERNELS W320"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "value": "11,431"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "value": "KG"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "value": "7.57"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "value": "57,561.84"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Gang Merdeka No. 1, 38707 Semarang, Indonesia",
+            "value": "Indonesia"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "RUNNING SHOES, RUBBER SOLE, TEXTILE UPPER",
+            "value": "RUNNING SHOES, RUBBER SOLE, TEXTILE UPPER"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "value": "2,268"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "value": "PAIRS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "value": "25.38"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "value": "10,311.83"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "value": "VIETNAM"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "CORRUGATED SHIPPING CARTON, 3-PLY",
+            "value": "CORRUGATED SHIPPING CARTON, 3-PLY"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "value": "22,015"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "value": "0.4684"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Cash against documents",
+        "value": "Cash against documents"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "UD Utami Tbk",
+        "value": "UD Utami Tbk"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "TOTAL FCA SEMARANG USD 154,406.34",
+        "value": "154,406.34"
+      }
+    },
+    "input_tokens": 500,
+    "latency_ms": 0,
+    "output_tokens": 827
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0008",
+  "seed": 2530821868,
+  "layout": "exporter",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "EX202621-3018",
+    "invoice_date": "2026-07-02",
+    "seller": {
+      "name": "Chonburi Sukjai Industrial Co., Ltd.",
+      "address": [
+        "No. 114 Industrial Road",
+        "Chonburi",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Cohen-Johnson",
+      "address": [
+        "Unit 12 46 Moore Lees",
+        "2665 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "currency": "USD",
+    "incoterm": "CIF",
+    "incoterm_place": "Sydney",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "49513.20",
+    "bl_number": "ONEYDC4185685",
+    "notify_party": {
+      "name": "Hernandez-Coleman",
+      "address": [
+        "73 May Wynd",
+        "2074 Melbourne",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE AURORA",
+    "voyage": "520W",
+    "port_of_loading": "Bangkok",
+    "port_of_discharge": "Sydney",
+    "shipped_on_board": "2026-07-07",
+    "container_number": "ONEU6963299",
+    "seal_number": "8282568",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1098,
+    "total_gross_weight_kg": "11236.93",
+    "goods_description": "SAID TO CONTAIN: Canned skipjack tuna in oil, 185g; Passenger car tyre 205/55R16",
+    "total_net_weight_kg": "9593.60",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Canned skipjack tuna in oil, 185g",
+        "country_of_origin": "TH",
+        "quantity": "10848",
+        "unit": "pcs",
+        "unit_price": "1.07",
+        "amount": "11607.36",
+        "hs_code": "160414",
+        "packages": 226,
+        "net_weight_kg": "2212.99",
+        "gross_weight_kg": "2481.75"
+      },
+      {
+        "line_no": 2,
+        "description": "Passenger car tyre 205/55R16",
+        "country_of_origin": "TH",
+        "quantity": "872",
+        "unit": "pcs",
+        "unit_price": "43.47",
+        "amount": "37905.84",
+        "hs_code": "401110",
+        "packages": 872,
+        "net_weight_kg": "7380.61",
+        "gross_weight_kg": "8755.18"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "incoterm",
+      "kind": "value_mismatch",
+      "field": "incoterm",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "commercial_invoice": "CIF",
+        "packing_list": "FCA"
+      }
+    },
+    {
+      "mutation": "line_quantity",
+      "kind": "value_mismatch",
+      "field": "line_items.quantity",
+      "line_no": 2,
+      "description": "Passenger car tyre 205/55R16",
+      "values": {
+        "commercial_invoice": "872",
+        "packing_list": "1020"
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

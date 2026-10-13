@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Vendeur / Seller Acheteur / Buyer FACTURE COMMERCIALE\nCeci, Mantegazza e Donati s:r.l. Segebahn Hein AG & Co. KGaA\nVia Oreste, 67 Apartamento 9, 20135 ibeinon Emin-Krause-Allee 574, 74731 Frankfurt am Main, COMMERCIAL INVOICE\nItaly Germany N° /.No. FC-3036/26\n\nDate 2026-02-26\n\nDevise / Currency USD\n\nIncoterm 2020 DDP Hamburg\n\nPaiement / UC at sight\n\nPayment\n\nChargement / La Spezia\n\nLoading\n\nDestination Hamburg\n\nLig. Désignation / Description Orig. Qté U. PU. USD Montant USD\nLeather handbag with shoulder \"strap IT 1709 pcs 72,66 124 175,94\n\n2 Extra virgin olive oil, 1L bottle IT 2700 pes 10,41 28 107,00\nTotal USD : 152282,94\n\nPage | of |\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "PACKING LIST\n\nCeci, Mantegazza e Donati s.r.1. Invoice Ref. FC-3036/26\nVia Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26\n| CONSIGNEE TERMS OF DELIVERY\n\nSegebahn Hein AG & Co. KGaA : | | DDP Hamburg\n| Emin-Krause-Allee 574, 74731 Frankfurt am Main, | | La Spezia to Hamburg\n\nGermany\n\n# Description Origin Quantity Pkgs Net weight Gross weight\n1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg\n2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg\nTotal\n\n396 CARTONS 4276,74 kg 4935,14 kg\nShipping marks: SEGEBAHN / FC-3036/26\n\nPage | of 1\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "“SHIPPER\n\nCeci, ‘Mantegazza e Donati s.r.1. ;\n20135 Bologna, Italy\n\nCOSCO\n\nFC-3036/26\n\nshoulder ‘strap; Extra virgin olive oil, 1L\nbottle : -\n\nVia Oreste, 67 Appartamento :9, BILL OF LADING\nB/L NO.\n; COSUQG1244862\n| CONSIGNEE - NOTIFY PARTY\nSegébahn Hein AG & Co. KGaA : P Kuhl AG & Co. KG i\n‘Emin- Krause-Allee 574, 74731 Frankfurt am Main, Heidi-Wohlgemut-Allee 19/16, .22773\nGermany . ‘ Diisseldorf, Germany $c\n| OCEAN VESSEL / VOYAGE NO. | FREIGHT ;\nCOSCO KENSINGTON / 107N FREIGHT PREPAID\n-PORT OF LOADING PORT OF DISCHARGE\nLa Spezia Hamburg .\nCONTAINER / SEAL | MARKS & NOS. NO. OF - | DESCRIPTION OF GOODS GROSS WEIGHT\nCOSU2178883 | SEGEBAHN./ 396 =: | SAID TO CONTAIN; Léather handbag with 4 935,14 kg\n‘SEAL 3378026 CARTONS\n\nSHIPPED ON BOARD\n2026-02-28\n\nPLACE AND DATE OF ISSUE\nLa Spezia, 2026-02-28\n\n| NUMBER OF ORIGINAL'B/LS\nTHREE (3) -\n\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total numberof ontaners or packages shown abow fe cariage fom the por of bang 1 the por\n’ of discharge, er eee ee ee Signed as Carrier: COSCO ‘ .\n\nPage | of 1\n\n"
+    }
+  ]
+}

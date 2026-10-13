@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "key": "851d5ec7198df1dcbf3ccb7eaef99f4cda87fc97942b3b937458fff243791a66",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nKhanna LLC\r\n56/973, Mittal Zila, 603532 Mumbai, India\r\nPACKING LIST\r\nInvoice Ref. 2026/0296\r\nDate July 15, 2026\r\nCONSIGNEE\r\nBailey, Martin and Hardy\r\nFlat 6, Hayward Port, TW7R 2BY Birmingham, United\r\nKingdom\r\nTERMS OF DELIVERY\r\nCPT Leeds\r\nChennai to Southampton\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb\r\n2 Stainless steel saucepan 20cm IN 2,229 pcs 186 5,076.3 lb 5,826.7 lb\r\n3 Stainless cutlery set, 24 pieces IN 2,360 sets 236 8,553.6 lb 9,147.3 lb\r\nTotal 592 CARTONS 17,257.8 lb 19,182.3 lb\r\nShipping marks: BAILEY, / 2026/0296\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Bailey, Martin and Hardy",
+        "value": "Bailey, Martin and Hardy"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date July 15, 2026",
+        "value": "July 15, 2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Leeds",
+        "value": "CPT Leeds"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. 2026/0296",
+        "value": "2026/0296"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "56/973, Mittal Zila, 603532 Mumbai, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb",
+            "value": "4,208.3 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb",
+            "value": "3,627.9 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb",
+            "value": "1,700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "56/973, Mittal Zila, 603532 Mumbai, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless steel saucepan 20cm IN 2,229 pcs 186 5,076.3 lb 5,826.7 lb",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless steel saucepan 20cm IN 2,229 pcs 186 5,076.3 lb 5,826.7 lb",
+            "value": "5,826.7 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless steel saucepan 20cm IN 2,229 pcs 186 5,076.3 lb 5,826.7 lb",
+            "value": "5,076.3 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless steel saucepan 20cm IN 2,229 pcs 186 5,076.3 lb 5,826.7 lb",
+            "value": "2,229"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "56/973, Mittal Zila, 603532 Mumbai, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 2,360 sets 236 8,553.6 lb 9,147.3 lb",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 2,360 sets 236 8,553.6 lb 9,147.3 lb",
+            "value": "9,147.3 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 2,360 sets 236 8,553.6 lb 9,147.3 lb",
+            "value": "8,553.6 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 2,360 sets 236 8,553.6 lb 9,147.3 lb",
+            "value": "2,360"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless cutlery set, 24 pieces IN 2,360 sets 236 8,553.6 lb 9,147.3 lb",
+            "value": "sets"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 592 CARTONS 17,257.8 lb 19,182.3 lb",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Khanna LLC",
+        "value": "Khanna LLC"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 592 CARTONS 17,257.8 lb 19,182.3 lb",
+        "value": "19,182.3 lb"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 592 CARTONS 17,257.8 lb 19,182.3 lb",
+        "value": "17,257.8 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 592 CARTONS 17,257.8 lb 19,182.3 lb",
+        "value": "592"
+      }
+    },
+    "input_tokens": 394,
+    "latency_ms": 0,
+    "output_tokens": 911
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0015",
+  "seed": 3328507847,
+  "layout": "compact",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "FC-3926/26",
+    "invoice_date": "2026-09-19",
+    "seller": {
+      "name": "Luna Losada Valverde S.A.",
+      "address": [
+        "Urbanización Efraín Mayoral 87 Piso 0 ",
+        "35972 Jaén",
+        "Spain"
+      ],
+      "country": "ES"
+    },
+    "buyer": {
+      "name": "Gielen-Wouters NV",
+      "address": [
+        "Julialei 856",
+        "8637 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "USD",
+    "incoterm": "EXW",
+    "incoterm_place": "Barcelona",
+    "payment_terms": "Cash against documents",
+    "total_amount": "381516.62",
+    "bl_number": "EGLVNH2302732",
+    "notify_party": {
+      "name": "Jacobs CV",
+      "address": [
+        "Carinestraat 287",
+        "8348 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN TAGE",
+    "voyage": "505S",
+    "port_of_loading": "Valencia",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-09-28",
+    "container_number": "EGLU2572006",
+    "seal_number": "5833992",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1826,
+    "total_gross_weight_kg": "20725.48",
+    "goods_description": "SAID TO CONTAIN: Stainless steel saucepan 20cm; Frozen vannamei shrimp, peeled; Laptop computer 14in, 16GB RAM; Plastic storage box 30L with lid",
+    "total_net_weight_kg": "18429.87",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Stainless steel saucepan 20cm",
+        "country_of_origin": "IN",
+        "quantity": "432",
+        "unit": "pcs",
+        "unit_price": "10.23",
+        "amount": "4419.36",
+        "hs_code": "732393",
+        "packages": 36,
+        "net_weight_kg": "523.15",
+        "gross_weight_kg": "575.91"
+      },
+      {
+        "line_no": 2,
+        "description": "Frozen vannamei shrimp, peeled",
+        "country_of_origin": "EC",
+        "quantity": "15540",
+        "unit": "kg",
+        "unit_price": "8.03",
+        "amount": "124786.20",
+        "hs_code": "030617",
+        "packages": 1554,
+        "net_weight_kg": "15540.00",
+        "gross_weight_kg": "17373.72"
+      },
+      {
+        "line_no": 3,
+        "description": "Laptop computer 14in, 16GB RAM",
+        "country_of_origin": "VN",
+        "quantity": "284",
+        "unit": "pcs",
+        "unit_price": "874.49",
+        "amount": "248355.16",
+        "hs_code": "847130",
+        "packages": 57,
+        "net_weight_kg": "501.54",
+        "gross_weight_kg": "549.80"
+      },
+      {
+        "line_no": 4,
+        "description": "Plastic storage box 30L with lid",
+        "country_of_origin": "VN",
+        "quantity": "1790",
+        "unit": "pcs",
+        "unit_price": "2.21",
+        "amount": "3955.90",
+        "hs_code": "392490",
+        "packages": 179,
+        "net_weight_kg": "1865.18",
+        "gross_weight_kg": "2226.05"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "invoice_total",
+      "kind": "totals_mismatch",
+      "field": "total_amount",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "commercial_invoice": "397158.80"
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

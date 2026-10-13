@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "9fd0210dfd57e41d19bb2e7e3a88b5261f9b8c895c78b61bbf75578a17c8063b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Wooden chess set with board\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 44: Wood and articles of wood; wood charcoal\n    contains 441410: Wooden frames; for paintings, photographs, mirrors or similar objects; of tropical wood\n    contains 441490: Wooden frames; for paintings, photographs, mirrors or similar objects; not of tropical wood\n    contains 441911: Tableware and kitchenware, of wood; of bamboo, bread boards, chopping boards and similar boards\n    contains 441520: Wood; pallets, box pallets and other load boards; pallet collars\n    contains 442090: Wood; marquetry and inlaid wood, caskets and cases for jewellery or cutlery and similar articles of wood, wooden articles of furniture not falling in chapter 94\n    contains 441011: Particle board of wood, whether or not agglomerated with resins or other organic binding substances\n    contains 441012: Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances\n    contains 442120: Wood; coffins\n    contains 441252: Blockboard, laminboard and battenboard; with at least one outer ply of non-coniferous wood, (not containing particle board)\n    contains 441019: Wafer board and similar board of wood n.e.c. in item no. 4410.1, whether or not agglomerated with resins or other organic binding substances\n    contains 442110: Wood; clothes hangers\n    contains 441090: Particle board, oriented strand board (OSB) and similar board of ligneous materials other than wood, whether or not agglomerated with resins or other organic binding substances\n- 96: Miscellaneous manufactured articles\n    contains 961000: Slates and boards; with writing or drawing surfaces, whether or not framed\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940330: Furniture; wooden, for office use\n    contains 940340: Furniture; wooden, for kitchen use\n    contains 940350: Furniture; wooden, for bedroom use\n    contains 940360: Furniture; wooden, other than for office, kitchen or bedroom use\n- 95: Toys, games and sports requisites; parts and accessories thereof\n    contains 950629: Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards\n- 68: Stone, plaster, cement, asbestos, mica or similar materials; articles thereof\n    contains 680911: Plaster, or plaster compositions; boards, sheets, panels, tiles and similar articles, faced or reinforced with paper or paperboard only, not ornamented\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 847930: Machinery and mechanical appliances; presses for the manufacture of particle or fibre building board of wood or other ligneous materials and other machinery for treating wood or cork\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "75250dbba51fa5fee1313d1e22447702b006d2d9e2d680929b27ba5803b63f4d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "95",
+      "cited": [
+        "95"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 965,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

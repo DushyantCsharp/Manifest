@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "b3b40b38ad0fff149466b45ab3d2d34705a5cafc80a50a651ee21243bbc809ed",
+  "retriever": "offline-lexical",
+  "query": "Rechargeable electric toothbrush with self-contained motor origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "846722",
+      "description": "Tools; for working in the hand, with self-contained electric motor; saws",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "850860",
+      "description": "Vacuum cleaners, other than with a self-contained electric motor",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "851010",
+      "description": "Shavers; with self-contained electric motor",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "851020",
+      "description": "Hair clippers; with a self-contained electric motor",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "851030",
+      "description": "Hair-removing appliances; with self-contained electric motor",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "846781",
+      "description": "Tools; for working in the hand, chain saws with self-contained non-electric motor",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "850819",
+      "description": "Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "846721",
+      "description": "Tools; for working in the hand, with self-contained electric motor; drills of all kinds",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "846729",
+      "description": "Tools; for working in the hand, with self-contained electric motor; other than saws and drills",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "846791",
+      "description": "Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "851090",
+      "description": "Shavers and hair clippers; parts of those with self-contained electric motor",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "846789",
+      "description": "Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "850980",
+      "description": "Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "850811",
+      "description": "Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "850940",
+      "description": "Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "841451",
+      "description": "Fans; table, floor, wall, window, ceiling or roof fans, with a self-contained electric motor of an output not exceeding 125W",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "846792",
+      "description": "Tools; for working in the hand, parts of pneumatic tools",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "846719",
+      "description": "Tools; for working in the hand, pneumatic, other than rotary type",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "846799",
+      "description": "Tools; for working in the hand, parts thereof for other than chain saws and pneumatic tools",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "846711",
+      "description": "Tools; for working in the hand, pneumatic, rotary type (including combined rotary-percussion)",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

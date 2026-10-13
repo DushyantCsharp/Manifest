@@ -1,0 +1,20 @@
+[project]
+name = "manifest-worker"
+version = "0.1.0"
+description = "Celery worker running the document pipeline, one task module per stage."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "manifest-domain",
+    "manifest-db",
+    "manifest-llm",
+    "manifest-hs",
+    "manifest-telemetry",
+    "celery>=5.6.3",
+    "pydantic-settings>=2.15.0",
+    "boto3>=1.40",
+    "pypdfium2>=5.14.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12"]
+build-backend = "uv_build"

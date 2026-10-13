@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "6f44038e72c1cc0aac4553dc0bb8795e305c44a52e24b60b7fb72108866fe696",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cordless electric drill 18V with self-contained motor\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8467 Tools; for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor\n\nChoose the subheading that covers these goods. Options:\n- 846721: Tools; for working in the hand, with self-contained electric motor; drills of all kinds\n- 846729: Tools; for working in the hand, with self-contained electric motor; other than saws and drills\n- 846722: Tools; for working in the hand, with self-contained electric motor; saws\n- 846781: Tools; for working in the hand, chain saws with self-contained non-electric motor\n- 846791: Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor\n- 846789: Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)\n- 846792: Tools; for working in the hand, parts of pneumatic tools\n- 846719: Tools; for working in the hand, pneumatic, other than rotary type\n- 846799: Tools; for working in the hand, parts thereof for other than chain saws and pneumatic tools\n- 846711: Tools; for working in the hand, pneumatic, rotary type (including combined rotary-percussion)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8753c61225cc3205b229155d8e155fb9ba8705e4a2b52c74d566f89eb341da56",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "846721",
+      "cited": [
+        "846721"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 557,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0009",
+  "document": "commercial_invoice",
+  "layout": "letterhead",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/4803",
+    "invoice_date": "2026-04-29",
+    "seller": {
+      "name": "Narváez & Asociados S.A.",
+      "address": [
+        "C. de Héctor Coll 90",
+        "16963 Guayaquil",
+        "Ecuador"
+      ],
+      "country": "EC"
+    },
+    "buyer": {
+      "name": "Larson-Robertson",
+      "address": [
+        "00300 Tiffany Crescent",
+        "19048 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "GBP",
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "171289.48"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Cashew kernels W320",
+      "country_of_origin": "CI",
+      "quantity": "8901",
+      "unit": "kg",
+      "unit_price": "6.15",
+      "amount": "54741.15"
+    },
+    {
+      "line_no": 2,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "IN",
+      "quantity": "7720",
+      "unit": "pcs",
+      "unit_price": "5.56",
+      "amount": "42923.20"
+    },
+    {
+      "line_no": 3,
+      "description": "Running shoes, rubber sole, textile upper",
+      "country_of_origin": "VN",
+      "quantity": "3396",
+      "unit": "pairs",
+      "unit_price": "15.68",
+      "amount": "53249.28"
+    },
+    {
+      "line_no": 4,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "2915",
+      "unit": "sets",
+      "unit_price": "6.99",
+      "amount": "20375.85"
+    }
+  ]
+}

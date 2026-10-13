@@ -1,0 +1,66 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0006",
+  "document": "commercial_invoice",
+  "layout": "us",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-07328",
+    "invoice_date": "2026-01-09",
+    "seller": {
+      "name": "Busan Samjin Electronics Co., Ltd.",
+      "address": [
+        "No. 15 Ring Road",
+        "Busan",
+        "South Korea"
+      ],
+      "country": "KR"
+    },
+    "buyer": {
+      "name": "Morgan Group",
+      "address": [
+        "3200 David Estates",
+        "85861 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "EXW",
+    "incoterm_place": "Incheon",
+    "payment_terms": "L/C at sight",
+    "total_amount": "107836.82"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "KR",
+      "quantity": "10000",
+      "unit": "kg",
+      "unit_price": "2.52",
+      "amount": "25200.00"
+    },
+    {
+      "line_no": 2,
+      "description": "LDPE film-grade granules",
+      "country_of_origin": "KR",
+      "quantity": "5475",
+      "unit": "kg",
+      "unit_price": "1.51",
+      "amount": "8267.25"
+    },
+    {
+      "line_no": 3,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "KR",
+      "quantity": "283",
+      "unit": "pcs",
+      "unit_price": "262.79",
+      "amount": "74369.57"
+    }
+  ]
+}

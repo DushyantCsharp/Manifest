@@ -1,0 +1,152 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0015",
+  "seed": 2330809288,
+  "layout": "compact",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "FC-1008/26",
+    "invoice_date": "2026-03-09",
+    "seller": {
+      "name": "Ningbo Ruifeng Trading Co., Ltd.",
+      "address": [
+        "No. 334 Harbour Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Guillet",
+      "address": [
+        "3, rue de Perrin",
+        "48669 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Qingdao",
+    "payment_terms": "T/T in advance",
+    "total_amount": "243177.40",
+    "bl_number": "EGLVWB3421832",
+    "notify_party": null,
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN ORION",
+    "voyage": "935N",
+    "port_of_loading": "Qingdao",
+    "port_of_discharge": "Marseille",
+    "shipped_on_board": "2026-03-13",
+    "container_number": "EGLU9166755",
+    "seal_number": "5410094",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1359,
+    "total_gross_weight_kg": "24939.37",
+    "goods_description": "SAID TO CONTAIN: Running shoes, rubber sole, textile upper; Corrugated shipping carton, 3-ply; Solar PV module 410W monocrystalline; Centrifugal water pump 1.1kW; Rubber flip-flops, thong plugged into the sole; Lithium-ion battery pack 48V 20Ah; Polarized sunglasses",
+    "total_net_weight_kg": "23127.43",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Running shoes, rubber sole, textile upper",
+        "country_of_origin": "CN",
+        "quantity": "4860",
+        "unit": "pairs",
+        "unit_price": "23.29",
+        "amount": "113189.40",
+        "hs_code": "640411",
+        "packages": 405,
+        "net_weight_kg": "3868.56",
+        "gross_weight_kg": "4384.30"
+      },
+      {
+        "line_no": 2,
+        "description": "Corrugated shipping carton, 3-ply",
+        "country_of_origin": "CN",
+        "quantity": "18250",
+        "unit": "pcs",
+        "unit_price": "1.07",
+        "amount": "19527.50",
+        "hs_code": "481910",
+        "packages": 365,
+        "net_weight_kg": "10183.50",
+        "gross_weight_kg": "10741.07"
+      },
+      {
+        "line_no": 3,
+        "description": "Solar PV module 410W monocrystalline",
+        "country_of_origin": "CN",
+        "quantity": "82",
+        "unit": "pcs",
+        "unit_price": "62.17",
+        "amount": "5097.94",
+        "hs_code": "854143",
+        "packages": 3,
+        "net_weight_kg": "1810.40",
+        "gross_weight_kg": "1871.42"
+      },
+      {
+        "line_no": 4,
+        "description": "Centrifugal water pump 1.1kW",
+        "country_of_origin": "CN",
+        "quantity": "300",
+        "unit": "pcs",
+        "unit_price": "137.35",
+        "amount": "41205.00",
+        "hs_code": "841370",
+        "packages": 300,
+        "net_weight_kg": "3624.60",
+        "gross_weight_kg": "3973.20"
+      },
+      {
+        "line_no": 5,
+        "description": "Rubber flip-flops, thong plugged into the sole",
+        "country_of_origin": "CN",
+        "quantity": "8880",
+        "unit": "pairs",
+        "unit_price": "1.31",
+        "amount": "11632.80",
+        "hs_code": "640220",
+        "packages": 148,
+        "net_weight_kg": "1598.40",
+        "gross_weight_kg": "1731.90"
+      },
+      {
+        "line_no": 6,
+        "description": "Lithium-ion battery pack 48V 20Ah",
+        "country_of_origin": "CN",
+        "quantity": "281",
+        "unit": "pcs",
+        "unit_price": "113.96",
+        "amount": "32022.76",
+        "hs_code": "850760",
+        "packages": 71,
+        "net_weight_kg": "1733.77",
+        "gross_weight_kg": "1844.07"
+      },
+      {
+        "line_no": 7,
+        "description": "Polarized sunglasses",
+        "country_of_origin": "CN",
+        "quantity": "6700",
+        "unit": "pcs",
+        "unit_price": "3.06",
+        "amount": "20502.00",
+        "hs_code": "900410",
+        "packages": 67,
+        "net_weight_kg": "308.20",
+        "gross_weight_kg": "393.41"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

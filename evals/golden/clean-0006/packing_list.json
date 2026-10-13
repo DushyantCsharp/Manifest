@@ -1,0 +1,50 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0006",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-30691",
+    "date": "2026-02-13",
+    "seller": {
+      "name": "Bangkok Sukjai Trading Co., Ltd.",
+      "address": [
+        "No. 298 Avenue 3",
+        "Bangkok",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Douglas-Adams",
+      "address": [
+        "34620 Joseph Lodge",
+        "L5V1M3 Toronto",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "incoterm": "CIP",
+    "incoterm_place": "Toronto",
+    "package_type": "CARTONS",
+    "total_packages": 321,
+    "total_net_weight_kg": "4414.39",
+    "total_gross_weight_kg": "4851.38"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Porcelain dinner plate 27cm",
+      "country_of_origin": "TH",
+      "quantity": "7704",
+      "unit": "pcs",
+      "packages": 321,
+      "net_weight_kg": "4414.39",
+      "gross_weight_kg": "4851.38"
+    }
+  ]
+}

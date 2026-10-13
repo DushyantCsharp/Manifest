@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "5cfdc447733c6594d75c1fcbd1bd58e22056b2c9633d34393b11f713dcd27200",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nSilva\r\nJardim Albuquerque, 73, 14555-337 Santos, Brazil\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVRQ8820880 \r\nCONSIGNEE\r\nJones, Hutchinson and Marshall\r\nFlat 18, Middleton Junction, LA4M 2YQ Leeds, United\r\nKingdom\r\nNOTIFY PARTY\r\nStone, Austin and Jones\r\nStudio 5, Benjamin Union, BA3Y 2XJ\r\nBirmingham, United Kingdom\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN TAGE / 814S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nParanaguá\r\nPORT OF DISCHARGE\r\nFelixstowe\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU0551895\r\nSEAL 6906693\r\nJONES, /\r\n2026/1389\r\n1188\r\nCARTONS\r\nSAID TO CONTAIN: Green Arabica coffee beans,\r\ngrade 1; A4 copy paper 80gsm, ream\r\n50,677.8 lb\r\nSHIPPED ON BOARD\r\nApril 4, 2026\r\nPLACE AND DATE OF ISSUE\r\nParanaguá, April 4, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVRQ8820880",
+        "value": "EGLVRQ8820880"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Jones, Hutchinson and Marshall",
+        "value": "Jones, Hutchinson and Marshall"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU0551895",
+        "value": "EGLU0551895"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Stone, Austin and Jones",
+        "value": "Stone, Austin and Jones"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Felixstowe",
+        "value": "Felixstowe"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Paranaguá",
+        "value": "Paranaguá"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 6906693",
+        "value": "6906693"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Silva",
+        "value": "Silva"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "April 4, 2026",
+        "value": "April 4, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "50,677.8 lb",
+        "value": "50,677.8 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1188",
+        "value": "1188"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN TAGE / 814S",
+        "value": "EVERGREEN TAGE"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN TAGE / 814S",
+        "value": "814S"
+      }
+    },
+    "input_tokens": 523,
+    "latency_ms": 0,
+    "output_tokens": 378
+  }
+}

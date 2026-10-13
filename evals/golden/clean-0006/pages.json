@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Bangkok Sukjai Trading Co., Ltd.\r\nNo. 298 Avenue 3\r\nBangkok\r\nThailand\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-30691\r\nInvoice Date 02/13/2026\r\nPayment Terms 30% deposit, 70% against copy of B/L\r\nBILL TO / CONSIGNEE\r\nDouglas-Adams\r\n34620 Joseph Lodge\r\nL5V1M3 Toronto\r\nCanada\r\nSHIPPING\r\nTerms of Sale: CIP Toronto (Incoterms 2020)\r\nPort of Loading: Bangkok\r\nPort of Discharge: Montreal\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80\r\nTotal USD 28,504.80\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Bangkok Sukjai Trading Co., Ltd. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Bangkok Sukjai Trading Co., Ltd.\r\nNo. 298 Avenue 3, Bangkok, Thailand\r\nPACKING LIST\r\nInvoice Ref. INV-2026-30691\r\nDate 02/13/2026\r\nCONSIGNEE\r\nDouglas-Adams\r\n34620 Joseph Lodge, L5V1M3 Toronto, Canada\r\nTERMS OF DELIVERY\r\nCIP Toronto\r\nBangkok to Montreal\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg\r\nTotal 321 CARTONS 4,414.39 kg 4,851.38 kg\r\nShipping marks: DOUGLAS-ADAMS / INV-2026-30691\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nBangkok Sukjai Trading Co., Ltd.\r\nNo. 298 Avenue 3, Bangkok, Thailand\r\nCOSCO\r\nBILL OF LADING\r\nB/L NO.\r\nCOSUYH3473800 \r\nCONSIGNEE\r\nDouglas-Adams\r\n34620 Joseph Lodge, L5V1M3 Toronto, Canada\r\nNOTIFY PARTY\r\nJackson-Cross\r\n22033 Renee Glens, G5T 8E6 Toronto, Canada\r\nOCEAN VESSEL / VOYAGE NO.\r\nCOSCO ZEPHYR / 849S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nBangkok\r\nPORT OF DISCHARGE\r\nMontreal\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCOSU1437486\r\nSEAL 7287462\r\nDOUGLAS-ADAMS /\r\nINV-2026-30691\r\n321\r\nCARTONS\r\nSAID TO CONTAIN: Porcelain dinner\r\nplate 27cm\r\n4,851.38 kg\r\nSHIPPED ON BOARD\r\n02/19/2026\r\nPLACE AND DATE OF ISSUE\r\nBangkok, 02/19/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: COSCO. \r\nPage 1 of 1"
+    }
+  ]
+}

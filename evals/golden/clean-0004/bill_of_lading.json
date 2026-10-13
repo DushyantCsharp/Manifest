@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0004",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "MEDUMA9303387",
+    "seller": {
+      "name": "Khanna LLC",
+      "address": [
+        "56/973, Mittal Zila",
+        "603532 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Bailey, Martin and Hardy",
+      "address": [
+        "Flat 6, Hayward Port",
+        "TW7R 2BY Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "notify_party": {
+      "name": "Dennis LLC",
+      "address": [
+        "Flat 43, Ross Club",
+        "BL1H 5BY Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "carrier": "MSC",
+    "vessel": "MSC ZEPHYR",
+    "voyage": "708W",
+    "port_of_loading": "Chennai",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-07-17",
+    "container_number": "MEDU0757126",
+    "seal_number": "5902472",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 592,
+    "total_gross_weight_kg": "8700.94",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Stainless steel saucepan 20cm; Stainless cutlery set, 24 pieces"
+  },
+  "line_items": []
+}

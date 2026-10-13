@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "53b891d5472b8542a2c204ab086df8740d81d0fe6630584821011eeecc4e1334",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cordless stick vacuum cleaner, 0.6L dust container, 150W motor\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8508: Vacuum cleaners\n    contains 850811: Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L\n    contains 850860: Vacuum cleaners, other than with a self-contained electric motor\n    contains 850819: Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1\n    contains 850870: Parts of vacuum cleaners\n- 8509: Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08.\n    contains 850980: Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509\n    contains 850990: Electro-mechanical domestic appliances; parts for the appliances of heading no. 8509\n    contains 850940: Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor\n- 8517: Telephone sets, including smartphones and other telephones for cellular/wireless networks; other apparatus for the transmission or reception of voice, images or other data (including wired/wireless networks), excluding items of 8443, 8525, 8527, or 8528\n    contains 851711: Line telephone sets with cordless handsets\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b49571158210ed1526fb42c9ee12c7175b211d508087524fbd8e395946cee55f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8508",
+      "cited": [
+        "8508"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 644,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

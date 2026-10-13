@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "aa0d34ec1d5f4d2d69a040ea5237c59fb4a57e8692af3304002d6520ee575036",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Plastic storage box 30L with lid, polypropylene, household\nCountry of origin: CN\n\nChosen so far: 39 Plastics and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 3923: Plastic articles for the conveyance or packing of goods; stoppers, lids, caps and other closures of plastics\n    contains 392350: Plastics; stoppers, lids, caps and other closures, for the conveyance or packing of goods\n    contains 392390: Plastics; articles for the conveyance or packing of goods n.e.c. in heading no. 3923\n    contains 392310: Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n    contains 392340: Plastics; spools, cops, bobbins and similar supports, for the conveyance or packing of goods\n    contains 392329: Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers\n    contains 392321: Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods\n- 3924: Tableware, kitchenware, other household articles and hygienic or toilet articles, of plastics\n    contains 392490: Plastics; household articles and hygienic or toilet articles\n    contains 392410: Plastics; tableware and kitchenware\n- 3902: Polymers of propylene or of other olefins, in primary forms\n    contains 390210: Propylene, other olefin polymers; polypropylene in primary forms\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7127f07e92e4e1f230cb9d4b334567e3cb83eea695ae620f5b35bcffbf5e1c35",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3924",
+      "cited": [
+        "3924"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 608,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

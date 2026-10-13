@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "2e50b9e0346b744baa9675791a231d6eff903bfb8e6b88be3571aefa1bc50956",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nChatt\n\nLarysz Sp.j.\nal. Plater 76\n63-797 Lodé\nPoland\n\nogram Padma Manufacturing Co., Ltd. - No. 280 Ring Road - C\n\nHandelsrechnung - Commercial Invoice\n\nPos. Artikelbezeichnung / Description\n\n“hattogram - Bangladesh\n\nRechnungsnummer / Invoice no.\n\nRechnungsdatum / Date .\nLieferbedingung / Incoterms®\n2020\n\n- Zahlungsbedingung / Payment ©\n\nWahrung / Currency\n\nRE-26-0140 —\n\n08.07.2026\nCFR Gdarisk\n\nCash against\ndocuments\n\n. EUR\n\nUrsprung Menge ‘Einheit Einzelpreis EUR Gesamt EUR\n\nye Men's crew-neck T-shirt, 100% cotton jersey BD\n\n2 Cotton knitted pullover se BD\n\n3 Men's woven cotton shirt, long sleave BD\n\nVersand / Shipment:\n\nChattogram — Gdansk. Ursprungsland gemaS Spalte .Ursp\n\n17.800 pcs —\n2.544 Pes\n1.360 pes\n\n14,68\n\n5:73\n\n3,07. 54-646,00\n_ 37-345,92\n\n7.792,80\n\nGesamtbetrag / Total 99.784,72 EUR\ni\n\nrung” (ISO 3166). Wir bestatigen die Richtigkeit der Angaben.\n\n. Page | of 1\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Larysz Sp.j.",
+        "value": "Larysz Sp.j."
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": ". EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.77",
+        "evidence": "CFR Gdarisk",
+        "value": "CFR Gdarisk"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "08.07.2026",
+        "value": "08.07.2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "RE-26-0140 —",
+        "value": "RE-26-0140"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.80",
+            "evidence": "3,07. 54-646,00",
+            "value": "54-646,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "“hattogram - Bangladesh",
+            "value": "Bangladesh"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "ye Men's crew-neck T-shirt, 100% cotton jersey BD",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "17.800 pcs —",
+            "value": "17.800"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "17.800 pcs —",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3,07. 54-646,00",
+            "value": "3,07"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.80",
+            "evidence": "_ 37-345,92",
+            "value": "37-345,92"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "“hattogram - Bangladesh",
+            "value": "Bangladesh"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Cotton knitted pullover se BD",
+            "value": "Cotton knitted pullover"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2.544 Pes",
+            "value": "2.544"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "17.800 pcs —",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "14,68",
+            "value": "14,68"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7.792,80",
+            "value": "7.792,80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "“hattogram - Bangladesh",
+            "value": "Bangladesh"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.88",
+            "evidence": "3 Men's woven cotton shirt, long sleave BD",
+            "value": "Men's woven cotton shirt, long sleave"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1.360 pes",
+            "value": "1.360"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "17.800 pcs —",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.68",
+            "evidence": "5:73",
+            "value": "5:73"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Cash against documents",
+        "value": "Cash against documents"
+      },
+      "seller_name": {
+        "confidence": "0.84",
+        "evidence": "ogram Padma Manufacturing Co., Ltd. - No. 280 Ring Road - C",
+        "value": "ogram Padma Manufacturing Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Gesamtbetrag / Total 99.784,72 EUR",
+        "value": "99.784,72"
+      }
+    },
+    "input_tokens": 457,
+    "latency_ms": 0,
+    "output_tokens": 696
+  }
+}

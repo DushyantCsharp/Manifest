@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "2219190b616ff91b5a859ed9e9a9f01e4e054fa6af6d7d762d9f54aa2c3e628f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Plastic storage box 30L with lid, polypropylene, household\nCountry of origin: CN\n\nChosen so far: 39 Plastics and articles thereof > 3924 Tableware, kitchenware, other household articles and hygienic or toilet articles, of plastics\n\nChoose the subheading that covers these goods. Options:\n- 392490: Plastics; household articles and hygienic or toilet articles\n- 392410: Plastics; tableware and kitchenware\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "25dd828d2b830c34a1be7030f21d6395ba41f47a21ee3ab43dab3e68d039ad35",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "392490",
+      "cited": [
+        "392490"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 331,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

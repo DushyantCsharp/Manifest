@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "e6756b6bba51d1d2e2fec1bdf3d1865707956a20235fa4f30fef9e1f9c6625c5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Nitrile examination gloves, powder free, medical\nCountry of origin: MY\n\nChoose the chapter that covers these goods. Options:\n- 30: Pharmaceutical products\n    contains 300670: Pharmaceutical goods; Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments\n    contains 300630: Pharmaceutical goods; opacifying preparations for x-ray examinations, diagnostic reagents designed to be administered to the patient\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 901819: Medical, surgical instruments and appliances; electro-diagnostic apparatus (including apparatus for functional exploratory examination or for checking physiological parameters), n.e.c. in item no. 9018.1\n    contains 900630: Cameras, photographic (excluding cinematographic); specially designed for underwater use, aerial survey, medical or surgical examination of internal organs; comparison cameras for forensic or criminological use\n    contains 902290: Apparatus based on use of x-rays and similar; parts and accessories (x-ray generators, tubes, high tension generators, control panels and desks, screens, examination or treatment tables, chairs and like\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940290: Furniture; for medical, surgical, veterinary use (e.g. operating tables, examination tables, hospital beds with mechanical fittings) and parts thereof\n- 40: Rubber and articles thereof\n    contains 401512: Rubber; vulcanised (other than hard rubber), gloves, of a kind used for medical, surgical, dental or veterinary purposes\n- 29: Organic chemicals\n    contains 292610: Nitrile-function compounds; acrylonitrile\n    contains 292620: Nitrile-function compounds; 1-cyanoguanidine (dicyandiamide)\n    contains 292640: Nitrile-function compounds; alpha-phenylacetoacetonitrile\n    contains 292690: Nitrile-function compounds; n.e.c. heading no. 2926\n    contains 292630: Nitrile-function compounds; fenproporex (INN) and its salts; methadone (INN) intermediate (4-cyano-2-dimethylamino-4,4-diphenylbutane)\n- 72: Iron and steel\n    contains 721510: Iron or non-alloy steel; bars and rods, of free-cutting steel, cold-formed or cold-finished, n.e.c. in chapter 72\n    contains 721320: Iron or non-alloy steel; bars and rods, hot-rolled, in irregularly wound coils, of free-cutting steel\n    contains 721550: Iron or non-alloy steel; bars and rods, n.e.c. in chapter 72, cold-formed or cold-finished, (not free-cutting)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040229: Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040210: Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)\n    contains 040221: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "cba14cae8f857dc054ee5597f8028dcf823b7b8c27ef14193aaa33d829ab6cdf",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "40",
+      "cited": [
+        "40"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1203,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

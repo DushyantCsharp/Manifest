@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "key": "b795aaf89ea330448a3de1a72dafb2b722277cda0307151fd4f2be53eff8c057",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nVendeur / Seller\r\nLuna Losada Valverde S.A.\r\nUrbanización Efraín Mayoral 87 Piso 0 , 35972\r\nJaén, Spain \r\nAcheteur / Buyer\r\nGielen-Wouters NV\r\nJulialei 856, 8637 Gent, Belgium \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-3926/26\r\nDate 2026-09-19\r\nDevise / Currency USD\r\nIncoterm 2020 EXW Barcelona\r\nPaiement /\r\nPayment\r\nCash against documents\r\nChargement /\r\nLoading\r\nValencia\r\nDestination Antwerp\r\nLig. Désignation / Description Orig. Qté U. P.U. USD Montant USD\r\n1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36\r\n2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20\r\n3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16\r\n4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90\r\nTotal USD : 397 158,80\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Gielen-Wouters NV",
+        "value": "Gielen-Wouters NV"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Devise / Currency USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Incoterm 2020 EXW Barcelona",
+        "value": "EXW Barcelona"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-09-19",
+        "value": "2026-09-19"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "N° / No. FC-3926/26",
+        "value": "FC-3926/26"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "4 419,36"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "IN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "432"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "10,23"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "value": "124 786,20"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "value": "EC"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "value": "Frozen vannamei shrimp, peeled"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "value": "15 540"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "value": "8,03"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "value": "248 355,16"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "value": "VN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "value": "Laptop computer 14in, 16GB RAM"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "value": "284"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "value": "874,49"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
+            "value": "3 955,90"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "value": "VN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
+            "value": "Plastic storage box 30L with lid"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
+            "value": "1 790"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
+            "value": "2,21"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Cash against documents",
+        "value": "Cash against documents"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Luna Losada Valverde S.A.",
+        "value": "Luna Losada Valverde S.A."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total USD : 397 158,80",
+        "value": "397 158,80"
+      }
+    },
+    "input_tokens": 424,
+    "latency_ms": 0,
+    "output_tokens": 1086
+  }
+}

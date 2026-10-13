@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "key": "52686b26a50b2fd4244eed7b7f0898b5e11ace79048fc3d4938dd2333d49292c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nN Narváez & Asociados S.A. I N VO I C E\r\nINVOICE\r\nNumber: 2026/4803\r\nDate: April 29, 2026\r\nTerms: 30% deposit, 70% against copy\r\nof B/L \r\nSOLD TO\r\nLarson-Robertson\r\n00300 Tiffany Crescent, 19048\r\nSavannah, United States \r\nDELIVERY\r\nCPT Los Angeles (Incoterms 2020)\r\nvia Guayaquil to Los Angeles \r\nItem Description Made in Quantity Unit price Line total\r\n01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15\r\n02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20\r\n03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28\r\n04 Stainless cutlery set, 24 pieces India 2,915 sets 6.99 20,375.85\r\nAmount due 171,289.48\r\nAll amounts are in pounds sterling (GBP). Please quote invoice 2026/4803 with your payment. \r\nC. de Héctor Coll 90 | 16963 Guayaquil | Ecuador\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Larson-Robertson",
+        "value": "Larson-Robertson"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "All amounts are in pounds sterling (GBP). Please quote invoice 2026/4803 with your payment.",
+        "value": "GBP"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Los Angeles (Incoterms 2020)",
+        "value": "CPT Los Angeles"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date: April 29, 2026",
+        "value": "April 29, 2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Number: 2026/4803",
+        "value": "2026/4803"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15",
+            "value": "54,741.15"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15",
+            "value": "Côte d'Ivoire"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15",
+            "value": "Cashew kernels W320"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15",
+            "value": "8,901"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15",
+            "value": "6.15"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20",
+            "value": "42,923.20"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20",
+            "value": "Men's woven cotton shirt, long sleeve"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20",
+            "value": "7,720"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20",
+            "value": "5.56"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28",
+            "value": "53,249.28"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28",
+            "value": "Vietnam"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28",
+            "value": "Running shoes, rubber sole, textile upper"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28",
+            "value": "3,396"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28",
+            "value": "pairs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28",
+            "value": "15.68"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "04 Stainless cutlery set, 24 pieces India 2,915 sets 6.99 20,375.85",
+            "value": "20,375.85"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "04 Stainless cutlery set, 24 pieces India 2,915 sets 6.99 20,375.85",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "04 Stainless cutlery set, 24 pieces India 2,915 sets 6.99 20,375.85",
+            "value": "2,915"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "04 Stainless cutlery set, 24 pieces India 2,915 sets 6.99 20,375.85",
+            "value": "sets"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "04 Stainless cutlery set, 24 pieces India 2,915 sets 6.99 20,375.85",
+            "value": "6.99"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "N Narváez & Asociados S.A. I N VO I C E",
+        "value": "Narváez & Asociados S.A."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Amount due 171,289.48",
+        "value": "171,289.48"
+      }
+    },
+    "input_tokens": 440,
+    "latency_ms": 0,
+    "output_tokens": 1195
+  }
+}

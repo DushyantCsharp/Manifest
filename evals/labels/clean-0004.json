@@ -1,0 +1,108 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0004",
+  "seed": 2573597305,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/0296",
+    "invoice_date": "2026-07-15",
+    "seller": {
+      "name": "Khanna LLC",
+      "address": [
+        "56/973, Mittal Zila",
+        "603532 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Bailey, Martin and Hardy",
+      "address": [
+        "Flat 6, Hayward Port",
+        "TW7R 2BY Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "GBP",
+    "incoterm": "CPT",
+    "incoterm_place": "Leeds",
+    "payment_terms": "L/C at sight",
+    "total_amount": "91948.33",
+    "bl_number": "MEDUMA9303387",
+    "notify_party": {
+      "name": "Dennis LLC",
+      "address": [
+        "Flat 43, Ross Club",
+        "BL1H 5BY Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "carrier": "MSC",
+    "vessel": "MSC ZEPHYR",
+    "voyage": "708W",
+    "port_of_loading": "Chennai",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-07-17",
+    "container_number": "MEDU0757126",
+    "seal_number": "5902472",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 592,
+    "total_gross_weight_kg": "8700.94",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Stainless steel saucepan 20cm; Stainless cutlery set, 24 pieces",
+    "total_net_weight_kg": "7828.00",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Leather handbag with shoulder strap",
+        "country_of_origin": "IN",
+        "quantity": "1700",
+        "unit": "pcs",
+        "unit_price": "29.65",
+        "amount": "50405.00",
+        "hs_code": "420221",
+        "packages": 170,
+        "net_weight_kg": "1645.60",
+        "gross_weight_kg": "1908.86"
+      },
+      {
+        "line_no": 2,
+        "description": "Stainless steel saucepan 20cm",
+        "country_of_origin": "IN",
+        "quantity": "2229",
+        "unit": "pcs",
+        "unit_price": "6.97",
+        "amount": "15536.13",
+        "hs_code": "732393",
+        "packages": 186,
+        "net_weight_kg": "2302.56",
+        "gross_weight_kg": "2642.93"
+      },
+      {
+        "line_no": 3,
+        "description": "Stainless cutlery set, 24 pieces",
+        "country_of_origin": "IN",
+        "quantity": "2360",
+        "unit": "sets",
+        "unit_price": "11.02",
+        "amount": "26007.20",
+        "hs_code": "821520",
+        "packages": 236,
+        "net_weight_kg": "3879.84",
+        "gross_weight_kg": "4149.15"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0006",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-03728",
+    "date": "2026-01-09",
+    "seller": {
+      "name": "Busan Samjin Electronics Co., Ltd.",
+      "address": [
+        "No. 15 Ring Road",
+        "Busan",
+        "South Korea"
+      ],
+      "country": "KR"
+    },
+    "buyer": {
+      "name": "Morgan Group",
+      "address": [
+        "3200 David Estates",
+        "85861 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "EXW",
+    "incoterm_place": "Incheon",
+    "package_type": "CARTONS",
+    "total_packages": 300,
+    "total_net_weight_kg": "17369.69",
+    "total_gross_weight_kg": "18474.35"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "KR",
+      "quantity": "10000",
+      "unit": "kg",
+      "packages": 10,
+      "net_weight_kg": "10000.00",
+      "gross_weight_kg": "10409.80"
+    },
+    {
+      "line_no": 2,
+      "description": "LDPE film-grade granules",
+      "country_of_origin": "KR",
+      "quantity": "5475",
+      "unit": "kg",
+      "packages": 219,
+      "net_weight_kg": "5475.00",
+      "gross_weight_kg": "6009.36"
+    },
+    {
+      "line_no": 3,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "KR",
+      "quantity": "283",
+      "unit": "pcs",
+      "packages": 71,
+      "net_weight_kg": "1894.69",
+      "gross_weight_kg": "2055.19"
+    }
+  ]
+}

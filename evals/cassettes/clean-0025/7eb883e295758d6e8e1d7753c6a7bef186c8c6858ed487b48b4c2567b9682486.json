@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "7eb883e295758d6e8e1d7753c6a7bef186c8c6858ed487b48b4c2567b9682486",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nBoldù s.r.l.\r\nRotonda Benussi, 591 Appartamento 4, 26865 Bologna,\r\nItaly\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYBC7484741 \r\nCONSIGNEE\r\nJanssens-Desmet NV\r\nThomassteeg 6, 7645 Gent, Belgium\r\nNOTIFY PARTY\r\nCasier-Pieters CommV\r\nAnnysteeg 3, 8931 Gent, Belgium\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE KENSINGTON / 676S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nGenova\r\nPORT OF DISCHARGE\r\nAntwerp\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU5262993\r\nSEAL 2466818\r\nJANSSENS-DESMET /\r\nFC-4865/26\r\n669\r\nCARTONS\r\nSAID TO CONTAIN: Roasted coffee beans,\r\nwhole; AC induction motor 0.55kW 3-phase\r\n8 583,99 kg\r\nSHIPPED ON BOARD\r\n2026-04-08\r\nPLACE AND DATE OF ISSUE\r\nGenova, 2026-04-08\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYBC7484741",
+        "value": "ONEYBC7484741"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Janssens-Desmet NV",
+        "value": "Janssens-Desmet NV"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU5262993",
+        "value": "ONEU5262993"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Casier-Pieters CommV",
+        "value": "Casier-Pieters CommV"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Antwerp",
+        "value": "Antwerp"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Genova",
+        "value": "Genova"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 2466818",
+        "value": "2466818"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Boldù s.r.l.",
+        "value": "Boldù s.r.l."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "2026-04-08",
+        "value": "2026-04-08"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "8 583,99 kg",
+        "value": "8 583,99 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "669",
+        "value": "669"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE KENSINGTON / 676S",
+        "value": "ONE KENSINGTON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "ONE KENSINGTON / 676S",
+        "value": "676S"
+      }
+    },
+    "input_tokens": 504,
+    "latency_ms": 0,
+    "output_tokens": 366
+  }
+}

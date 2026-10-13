@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "59a92837c60b7a28ddff1940ce586daaa4b79f933749f936591002d088457a74",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Raw cane sugar in bulk\nCountry of origin: BR\n\nChosen so far: 17 Sugars and sugar confectionery > 1701 Cane or beet sugar and chemically pure sucrose, in solid form\n\nChoose the subheading that covers these goods. Options:\n- 170113: Sugars; cane sugar, raw, in solid form, as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n- 170114: Sugars; cane sugar, raw, in solid form, other than as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n- 170112: Sugars; beet sugar, raw, in solid form, not containing added flavouring or colouring matter\n- 170191: Sugars; sucrose, chemically pure, in solid form, containing added flavouring or colouring matter\n- 170199: Sugars; sucrose, chemically pure, in solid form, not containing added flavouring or colouring matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0254216fe51508adb0778a36b57adda71cc172802fdee8d65fabe78546ffed64",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "170114",
+      "cited": [
+        "170114"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 444,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

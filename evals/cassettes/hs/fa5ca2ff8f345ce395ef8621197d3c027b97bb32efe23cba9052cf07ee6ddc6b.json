@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "fa5ca2ff8f345ce395ef8621197d3c027b97bb32efe23cba9052cf07ee6ddc6b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Bath towel 70x140, terry cotton\nCountry of origin: PK\n\nChosen so far: 63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags > 6302 Bed linen, table linen, toilet linen and kitchen linen\n\nChoose the subheading that covers these goods. Options:\n- 630260: Kitchen and toilet linen; of terry towelling or similar terry fabrics, of cotton\n- 630291: Toilet and kitchen linen; of cotton, excluding terry towelling or similar terry fabrics\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8b7d36d1c83620b062a43c2d45876f31f7b172c02f89c562ae039a82bc46dba3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "630260",
+      "cited": [
+        "630260"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 345,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

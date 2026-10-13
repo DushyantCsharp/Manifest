@@ -1,0 +1,87 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0024",
+  "seed": 2116219206,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/1152",
+    "invoice_date": "2026-08-19",
+    "seller": {
+      "name": "Gonzáles Group",
+      "address": [
+        "Dg. 132L # 4-3 Este",
+        "911184 Bogotá",
+        "Colombia"
+      ],
+      "country": "CO"
+    },
+    "buyer": {
+      "name": "Williams, Barber and Howe",
+      "address": [
+        "Studio 50k, Long Crescent",
+        "SK3P 1QL Manchester",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "CIF",
+    "incoterm_place": "Felixstowe",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "25644.19",
+    "bl_number": "CMDULP1879298",
+    "notify_party": null,
+    "carrier": "CMA CGM",
+    "vessel": "CMA TRITON",
+    "voyage": "918N",
+    "port_of_loading": "Cartagena",
+    "port_of_discharge": "Felixstowe",
+    "shipped_on_board": "2026-08-22",
+    "container_number": "CMDU3845778",
+    "seal_number": "3945412",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 315,
+    "total_gross_weight_kg": "3607.77",
+    "goods_description": "SAID TO CONTAIN: Hair dryer 2200W ionic; Passenger car tyre 205/55R16",
+    "total_net_weight_kg": "3116.78",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Hair dryer 2200W ionic",
+        "country_of_origin": "CN",
+        "quantity": "1640",
+        "unit": "pcs",
+        "unit_price": "7.79",
+        "amount": "12775.60",
+        "hs_code": "851631",
+        "packages": 82,
+        "net_weight_kg": "1006.96",
+        "gross_weight_kg": "1167.86"
+      },
+      {
+        "line_no": 2,
+        "description": "Passenger car tyre 205/55R16",
+        "country_of_origin": "DE",
+        "quantity": "233",
+        "unit": "pcs",
+        "unit_price": "55.23",
+        "amount": "12868.59",
+        "hs_code": "401110",
+        "packages": 233,
+        "net_weight_kg": "2109.82",
+        "gross_weight_kg": "2439.91"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

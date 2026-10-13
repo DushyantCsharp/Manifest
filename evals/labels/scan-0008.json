@@ -1,0 +1,186 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0008",
+  "seed": 2884199917,
+  "layout": "exporter",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "EX202683-2035",
+    "invoice_date": "2026-09-07",
+    "seller": {
+      "name": "Xiamen Ruifeng Import & Export Co., Ltd.",
+      "address": [
+        "No. 386 Industrial Road",
+        "Xiamen",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Winter PLC",
+      "address": [
+        "Studio 9, Miles Fort",
+        "HA1 8HD Durban",
+        "South Africa"
+      ],
+      "country": "ZA"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Shanghai",
+    "payment_terms": "T/T in advance",
+    "total_amount": "1302509.20",
+    "bl_number": "HLCUVL7972964",
+    "notify_party": {
+      "name": "Fowler, Gregory and Begum",
+      "address": [
+        "Flat 4, Frances Falls",
+        "M40 6ZA Johannesburg",
+        "South Africa"
+      ],
+      "country": "ZA"
+    },
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD TRITON",
+    "voyage": "590E",
+    "port_of_loading": "Shanghai",
+    "port_of_discharge": "Cape Town",
+    "shipped_on_board": "2026-09-18",
+    "container_number": "HLCU6052036",
+    "seal_number": "7433542",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1386,
+    "total_gross_weight_kg": "20269.03",
+    "goods_description": "SAID TO CONTAIN: Deep groove ball bearing 6205-2RS; City bicycle 28in, 7-speed; Upholstered office chair, steel base; Stainless steel saucepan 20cm; Polarized sunglasses; Leather handbag with shoulder strap; LED bulb E27 9W warm white; Hair dryer 2200W ionic; Smartphone 6.1in, 128GB",
+    "total_net_weight_kg": "18121.34",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Deep groove ball bearing 6205-2RS",
+        "country_of_origin": "CN",
+        "quantity": "15500",
+        "unit": "pcs",
+        "unit_price": "3.42",
+        "amount": "53010.00",
+        "hs_code": "848210",
+        "packages": 155,
+        "net_weight_kg": "1999.50",
+        "gross_weight_kg": "2345.66"
+      },
+      {
+        "line_no": 2,
+        "description": "City bicycle 28in, 7-speed",
+        "country_of_origin": "CN",
+        "quantity": "159",
+        "unit": "pcs",
+        "unit_price": "156.45",
+        "amount": "24875.55",
+        "hs_code": "871200",
+        "packages": 159,
+        "net_weight_kg": "2685.67",
+        "gross_weight_kg": "2975.21"
+      },
+      {
+        "line_no": 3,
+        "description": "Upholstered office chair, steel base",
+        "country_of_origin": "CN",
+        "quantity": "286",
+        "unit": "pcs",
+        "unit_price": "28.59",
+        "amount": "8176.74",
+        "hs_code": "940171",
+        "packages": 286,
+        "net_weight_kg": "4720.72",
+        "gross_weight_kg": "5019.64"
+      },
+      {
+        "line_no": 4,
+        "description": "Stainless steel saucepan 20cm",
+        "country_of_origin": "CN",
+        "quantity": "3372",
+        "unit": "pcs",
+        "unit_price": "11.49",
+        "amount": "38744.28",
+        "hs_code": "732393",
+        "packages": 281,
+        "net_weight_kg": "3931.75",
+        "gross_weight_kg": "4500.97"
+      },
+      {
+        "line_no": 5,
+        "description": "Polarized sunglasses",
+        "country_of_origin": "CN",
+        "quantity": "4800",
+        "unit": "pcs",
+        "unit_price": "7.40",
+        "amount": "35520.00",
+        "hs_code": "900410",
+        "packages": 48,
+        "net_weight_kg": "144.00",
+        "gross_weight_kg": "167.47"
+      },
+      {
+        "line_no": 6,
+        "description": "Leather handbag with shoulder strap",
+        "country_of_origin": "CN",
+        "quantity": "1272",
+        "unit": "pcs",
+        "unit_price": "61.28",
+        "amount": "77948.16",
+        "hs_code": "420221",
+        "packages": 128,
+        "net_weight_kg": "1310.16",
+        "gross_weight_kg": "1447.92"
+      },
+      {
+        "line_no": 7,
+        "description": "LED bulb E27 9W warm white",
+        "country_of_origin": "CN",
+        "quantity": "23000",
+        "unit": "pcs",
+        "unit_price": "1.80",
+        "amount": "41400.00",
+        "hs_code": "853952",
+        "packages": 115,
+        "net_weight_kg": "966.00",
+        "gross_weight_kg": "1175.90"
+      },
+      {
+        "line_no": 8,
+        "description": "Hair dryer 2200W ionic",
+        "country_of_origin": "CN",
+        "quantity": "3419",
+        "unit": "pcs",
+        "unit_price": "19.19",
+        "amount": "65610.61",
+        "hs_code": "851631",
+        "packages": 171,
+        "net_weight_kg": "2024.05",
+        "gross_weight_kg": "2258.25"
+      },
+      {
+        "line_no": 9,
+        "description": "Smartphone 6.1in, 128GB",
+        "country_of_origin": "CN",
+        "quantity": "1689",
+        "unit": "pcs",
+        "unit_price": "566.74",
+        "amount": "957223.86",
+        "hs_code": "851713",
+        "packages": 43,
+        "net_weight_kg": "339.49",
+        "gross_weight_kg": "378.01"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

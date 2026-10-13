@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "key": "81cbef8ce35933e722fe04c3a90f3449f7de70d91851d15ee2d12ce28b47876f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nPACKING LIST\n\nInvoice Ref. INV-2026-17807\n\nBalay-Dass :\n57/142, Parekh Chowk, 736831 Mumbai, India SSE re Date 05/17/2026\n| CONSIGNEE bay Soi ‘ ; | TERMS OF DELIVERY\n_ Reed Group | | FCA Ludhiana\n| 72183 Mark Manors Suite. 748, X3N 9G6 Toronto, .. | | Mundra to Vancouver\n| Canada See eS\nHt Description : Origin — Quantity _ Pkgs Net weight Gross weight\n1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg\n2 Frozen vannamei shrimp, peeled’ IN _ 12,200 kg 1220 - 12,200.00 kg 14,078.80 kg\n3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg\n4 LDPE film-grade granules SA ~ ..5,600 kg ; 224 5,600.00 kg . 6,014.40 kg\nTotal 1601 CARTONS 21,634.68 kg 24,212.04 kg\n\nShipping marks: REED / INV-2026-17807\n\nPage 1 of 1\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "_ Reed Group | | FCA Ludhiana",
+        "value": "Reed Group"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "57/142, Parekh Chowk, 736831 Mumbai, India SSE re Date 05/17/2026",
+        "value": "05/17/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "_ Reed Group | | FCA Ludhiana",
+        "value": "FCA Ludhiana"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. INV-2026-17807",
+        "value": "INV-2026-17807"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg",
+            "value": "MY"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg",
+            "value": "Solar PV module 410W monocrystalline"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg",
+            "value": "1,634.97 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.82",
+            "evidence": "1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg",
+            "value": "1,516.06.kg"
+          },
+          "quantity": {
+            "confidence": "0.60",
+            "evidence": "1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg",
+            "value": "3"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "57/142, Parekh Chowk, 736831 Mumbai, India SSE re Date 05/17/2026",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled’ IN _ 12,200 kg 1220 - 12,200.00 kg 14,078.80 kg",
+            "value": "Frozen vannamei shrimp, peeled"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled’ IN _ 12,200 kg 1220 - 12,200.00 kg 14,078.80 kg",
+            "value": "14,078.80 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled’ IN _ 12,200 kg 1220 - 12,200.00 kg 14,078.80 kg",
+            "value": "12,200.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled’ IN _ 12,200 kg 1220 - 12,200.00 kg 14,078.80 kg",
+            "value": "12,200"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.55",
+            "evidence": "_ Reed Group | | FCA Ludhiana",
+            "value": "Ludhiana"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg",
+            "value": "AC induction motor 0.55kW 3-phase"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg",
+            "value": "2,483.87 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg",
+            "value": "2,318.62 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg",
+            "value": "308"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules SA ~ ..5,600 kg ; 224 5,600.00 kg . 6,014.40 kg",
+            "value": "SA"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules SA ~ ..5,600 kg ; 224 5,600.00 kg . 6,014.40 kg",
+            "value": "LDPE film-grade granules"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules SA ~ ..5,600 kg ; 224 5,600.00 kg . 6,014.40 kg",
+            "value": "6,014.40 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules SA ~ ..5,600 kg ; 224 5,600.00 kg . 6,014.40 kg",
+            "value": "5,600.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules SA ~ ..5,600 kg ; 224 5,600.00 kg . 6,014.40 kg",
+            "value": "5,600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg",
+            "value": "kg"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1601 CARTONS 21,634.68 kg 24,212.04 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Balay-Dass :",
+        "value": "Balay-Dass"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1601 CARTONS 21,634.68 kg 24,212.04 kg",
+        "value": "24,212.04 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1601 CARTONS 21,634.68 kg 24,212.04 kg",
+        "value": "21,634.68 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1601 CARTONS 21,634.68 kg 24,212.04 kg",
+        "value": "1601"
+      }
+    },
+    "input_tokens": 426,
+    "latency_ms": 0,
+    "output_tokens": 1216
+  }
+}

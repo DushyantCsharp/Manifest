@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "a2c53ff321dcf25cebd1005768f4a190b5a8bf48d88548dd2e54c1c9b8422c2c",
+  "retriever": "offline-lexical",
+  "query": "Bed sheet, woven cotton, not printed origin IN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "630221",
+      "description": "Bed linen; of cotton, printed, not knitted or crocheted",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "630231",
+      "description": "Bed linen; of cotton (not printed, knitted or crocheted)",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "630229",
+      "description": "Bed linen; of textile materials (other than cotton or man-made fibres), printed, not knitted or crocheted",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "630239",
+      "description": "Bed linen; of textile materials other than cotton or man-made fibres (not printed, knitted or crocheted)",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "521215",
+      "description": "Fabrics, woven; of cotton, printed, weighing not more than 200g/m2, n.e.c. in chapter 52",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "520851",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing not more than 100g/m2",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "521225",
+      "description": "Fabrics, woven; of cotton, printed, weighing more than 200g/m2, n.e.c. in chapter 52",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "520859",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5208.5, weighing not more than 200g/m2",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "520852",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 100g/m2 but not more than 200g/m2",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "520951",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 200g/m2",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "630222",
+      "description": "Bed linen; of man-made fibres, printed, not knitted or crocheted",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "630232",
+      "description": "Bed linen; of man-made fibres (not printed, knitted or crocheted)",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "520959",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5209.5, weighing more than 200g/m2",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "520952",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, 3-thread or 4-thread twill, including cross twill, weighing more than 200g/m2",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "551644",
+      "description": "Fabrics, woven; printed, containing less than 85% by weight of artificial staple fibres, mixed mainly or solely with cotton",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "521051",
+      "description": "Fabrics, woven; containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing 200g/m2 or less, printed, plain weave",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "551341",
+      "description": "Fabrics, woven; plain weave, printed, of polyester staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, not exceeding 170g/m2",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "551349",
+      "description": "Fabrics, woven; printed, containing less than 85% by weight of synthetic staple fibres (other than polyester, plain weave), mixed mainly or solely with cotton, not exceeding 170g/m2",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "521059",
+      "description": "Fabrics, woven; containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing 200g/m2 or less, printed, of weaves n.e.c. in item no. 5210.5",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "551449",
+      "description": "Fabrics, woven; printed, containing less than 85% by weight of synthetic staple fibres (other than polyesters), mixed mainly or solely with cotton, exceeding 170g/m2",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

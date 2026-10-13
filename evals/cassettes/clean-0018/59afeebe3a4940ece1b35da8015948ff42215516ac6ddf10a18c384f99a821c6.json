@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "59afeebe3a4940ece1b35da8015948ff42215516ac6ddf10a18c384f99a821c6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nKaul-Kala\r\n18, Parikh Road, 002880 Tiruppur, India\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVLL9935232 \r\nCONSIGNEE\r\nNguyen-Robinson\r\n119 Donaldson Estate, 1764 Sydney, Australia\r\nNOTIFY PARTY\r\nHurst PLC\r\nLevel 7 272 Simmons Quay, 5959 Sydney,\r\nAustralia\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN TRITON / 658W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nMundra\r\nPORT OF DISCHARGE\r\nSydney\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU7697599\r\nSEAL\r\n8808338\r\nNGUYEN-ROBINSON /\r\nEX202629-3132\r\n189\r\nCARTONS\r\nSAID TO CONTAIN: Stainless steel sheet\r\n304, cold-rolled 2mm; Stainless steel\r\nsaucepan 20cm; Smartphone 6.1in, 128GB\r\n16,093.37 kg\r\nSHIPPED ON BOARD\r\n02-AUG-2026\r\nPLACE AND DATE OF ISSUE\r\nMundra, 02-AUG-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVLL9935232",
+        "value": "EGLVLL9935232"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Nguyen-Robinson",
+        "value": "Nguyen-Robinson"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU7697599",
+        "value": "EGLU7697599"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Hurst PLC",
+        "value": "Hurst PLC"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "119 Donaldson Estate, 1764 Sydney, Australia",
+        "value": "Sydney"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Mundra",
+        "value": "Mundra"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "8808338",
+        "value": "8808338"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Kaul-Kala",
+        "value": "Kaul-Kala"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "02-AUG-2026",
+        "value": "02-AUG-2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "16,093.37 kg",
+        "value": "16,093.37 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "189",
+        "value": "189"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN TRITON / 658W",
+        "value": "EVERGREEN TRITON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN TRITON / 658W",
+        "value": "658W"
+      }
+    },
+    "input_tokens": 517,
+    "latency_ms": 0,
+    "output_tokens": 368
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0017",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-0240",
+    "date": "2026-06-07",
+    "seller": {
+      "name": "Chattogram Bengal Textile Co., Ltd.",
+      "address": [
+        "No. 247 Ring Road",
+        "Chattogram",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "De Neve, Van de Velde en Claes NV",
+      "address": [
+        "Jenslei 79",
+        "9082 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "incoterm": "CPT",
+    "incoterm_place": "Gent",
+    "package_type": "CARTONS",
+    "total_packages": 187,
+    "total_net_weight_kg": "2362.28",
+    "total_gross_weight_kg": "2769.16"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "BD",
+      "quantity": "7452",
+      "unit": "pcs",
+      "packages": 187,
+      "net_weight_kg": "2362.28",
+      "gross_weight_kg": "2769.16"
+    }
+  ]
+}

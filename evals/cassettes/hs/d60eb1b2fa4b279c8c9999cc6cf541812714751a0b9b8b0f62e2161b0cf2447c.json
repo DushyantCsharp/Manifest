@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d60eb1b2fa4b279c8c9999cc6cf541812714751a0b9b8b0f62e2161b0cf2447c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Smartphone 6.1in, 128GB, dual SIM, unlocked\nCountry of origin: VN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8511: Ignition or starting equipment; used for spark-ignition or compression-ignition internal combustion engines; generators and cut outs used in conjunction with such engines\n    contains 851140: Ignition or starting equipment; starter motors and dual purpose starter-generators, of a kind used for spark or compression-ignition internal combustion engines\n- 8517: Telephone sets, including smartphones and other telephones for cellular/wireless networks; other apparatus for the transmission or reception of voice, images or other data (including wired/wireless networks), excluding items of 8443, 8525, 8527, or 8528\n    contains 851713: Telephone sets; smartphones for cellular or other wireless networks\n    contains 851714: Telephone sets; other than smartphones, for cellular or other wireless networks\n    contains 851761: Base stations\n    contains 851718: Telephone sets n.e.c. in item no. 8517.1\n    contains 851711: Line telephone sets with cordless handsets\n    contains 851779: Communication apparatus; parts, other than aerials and aerial reflectors of all kinds\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b1d06d6cd7b775c40880e8013cb063002875bd7e9a21964198c81bd812445ef4",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8517",
+      "cited": [
+        "8517"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 580,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

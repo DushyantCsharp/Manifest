@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "f2be5e630def3cd7c92f24fc23492e28416a8612994b6d711ee0204067cc5070",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nChattogram Bengal Textile Co., Ltd.\r\nNo. 247 Ring Road, Chattogram, Bangladesh\r\nPACKING LIST\r\nInvoice Ref. RE-26-0240\r\nDate 07.06.2026\r\nCONSIGNEE\r\nDe Neve, Van de Velde en Claes NV\r\nJenslei 79, 9082 Gent, Belgium\r\nTERMS OF DELIVERY\r\nCPT Gent\r\nChattogram to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg\r\nTotal 187 CARTONS 2.362,28 kg 2.769,16 kg\r\nShipping marks: DE / RE-26-0240\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "De Neve, Van de Velde en Claes NV",
+        "value": "De Neve, Van de Velde en Claes NV"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 07.06.2026",
+        "value": "07.06.2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Gent",
+        "value": "CPT Gent"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. RE-26-0240",
+        "value": "RE-26-0240"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 247 Ring Road, Chattogram, Bangladesh",
+            "value": "Bangladesh"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "value": "Men's woven cotton shirt, long sleeve"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "value": "2.769,16 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "value": "2.362,28 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "value": "7.452"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 187 CARTONS 2.362,28 kg 2.769,16 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Chattogram Bengal Textile Co., Ltd.",
+        "value": "Chattogram Bengal Textile Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+        "value": "2.769,16 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+        "value": "2.362,28 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+        "value": "187"
+      }
+    },
+    "input_tokens": 357,
+    "latency_ms": 0,
+    "output_tokens": 523
+  }
+}

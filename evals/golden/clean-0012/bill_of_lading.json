@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0012",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "MAEUKA5841204",
+    "seller": {
+      "name": "Issac, Jaggi and Chacko",
+      "address": [
+        "H.No. 111, Oza Path",
+        "529203 Chennai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Junck",
+      "address": [
+        "Hans-Gerhard-Schleich-Allee 28/31",
+        "89157 Frankfurt am Main",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "notify_party": null,
+    "carrier": "MAERSK",
+    "vessel": "MAERSK ZEPHYR",
+    "voyage": "265W",
+    "port_of_loading": "Chennai",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-07-15",
+    "container_number": "MAEU1848035",
+    "seal_number": "8618627",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 378,
+    "total_gross_weight_kg": "25303.71",
+    "goods_description": "SAID TO CONTAIN: Men's crew-neck T-shirt, 100% cotton jersey; Lithium-ion battery pack 48V 20Ah; Stainless steel sheet 304, cold-rolled 2mm"
+  },
+  "line_items": []
+}

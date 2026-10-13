@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0014",
+  "document": "commercial_invoice",
+  "layout": "letterhead",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.95",
+    "noise_sigma": 11,
+    "salt_pepper": "0.0012",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/7435",
+    "invoice_date": "2026-02-03",
+    "seller": {
+      "name": "Jaramillo-Ayala",
+      "address": [
+        "Cl. 78 # 4J-7",
+        "854381 Armenia",
+        "Colombia"
+      ],
+      "country": "CO"
+    },
+    "buyer": {
+      "name": "Hendrix, Harrell and Franco",
+      "address": [
+        "064 Antonio Mills Apt. 751",
+        "28063 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "CPT",
+    "incoterm_place": "Savannah",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "100918.80"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Green Arabica coffee beans, grade 1",
+      "country_of_origin": "CO",
+      "quantity": "17460",
+      "unit": "kg",
+      "unit_price": "5.78",
+      "amount": "100918.80"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "C O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nUD Utami Tbk\r\nGang Merdeka No. 1, 38707 Semarang, Indonesia\r\nINVOICE NO. & DATE\r\nEX202694-3613\r\n20-FEB-2026\r\nCONSIGNEE\r\nWard, Taylor and Morton\r\n1414 Lowe Burg, 67239 Newark, United States\r\nTERMS OF DELIVERY AND PAYMENT\r\nFCA Semarang\r\nCash against documents\r\nNOTIFY PARTY\r\nFrazier-Nguyen, 7439 Tyrone Lock Suite 412, 24258 Savannah, United\r\nStates\r\nVESSEL / VOYAGE\r\nMAERSK VALENCIA V.107N\r\nPORT OF LOADING\r\nTANJUNG PERAK\r\nPORT OF DISCHARGE\r\nNEW YORK\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nWARD, /\r\nEX202694-3613\r\nCASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67\r\nRUNNING SHOES, RUBBER\r\nSOLE, TEXTILE UPPER\r\n6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84\r\nCORRUGATED SHIPPING\r\nCARTON, 3-PLY\r\n4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83\r\nTOTAL FCA SEMARANG USD 154,406.34\r\nSAY TOTAL US DOLLARS ONE HUNDRED FIFTY-FOUR THOUSAND FOUR HUNDRED SIX AND CENTS THIRTY-FOUR ONLY\r\nFor and on behalf of UD Utami Tbk\r\nAuthorized Signature\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "UD Utami Tbk\r\nGang Merdeka No. 1, 38707 Semarang, Indonesia\r\nPACKING LIST\r\nInvoice Ref. EX202694-3613\r\nDate 20-FEB-2026\r\nCONSIGNEE\r\nWard, Taylor and Morton\r\n1414 Lowe Burg, 67239 Newark, United States\r\nTERMS OF DELIVERY\r\nFCA Semarang\r\nTanjung Perak to New York\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Cashew kernels W320 VN 11,431 kg 497 11,431.00 kg 12,168.05 kg\r\n2 Running shoes, rubber sole, textile upper ID 1,973 pairs 189 1,476.47 kg 1,700.31 kg\r\n3 Corrugated shipping carton, 3-ply VN 22,015 pcs 441 6,648.53 kg 6,940.80 kg\r\nTotal 1127 CARTONS 19,556.00 kg 20,809.16 kg\r\nShipping marks: WARD, / EX202694-3613\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nUD Utami Tbk\r\nGang Merdeka No. 1, 38707 Semarang, Indonesia\r\nMAERSK\r\nBILL OF LADING\r\nB/L NO.\r\nMAEURN8101212 \r\nCONSIGNEE\r\nWard, Taylor and Morton\r\n1414 Lowe Burg, 67239 Newark, United States\r\nNOTIFY PARTY\r\nFrazier-Nguyen\r\n7439 Tyrone Lock Suite 412, 24258 Savannah,\r\nUnited States\r\nOCEAN VESSEL / VOYAGE NO.\r\nMAERSK VALENCIA / 107N\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nTanjung Perak\r\nPORT OF DISCHARGE\r\nNew York\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMAEU6142226\r\nSEAL\r\n2680679\r\nWARD, /\r\nEX202694-3613\r\n1127\r\nCARTONS\r\nSAID TO CONTAIN: Cashew kernels W320;\r\nRunning shoes, rubber sole, textile upper;\r\nCorrugated shipping carton, 3-ply\r\n20,809.16 kg\r\nSHIPPED ON BOARD\r\n28-FEB-2026\r\nPLACE AND DATE OF ISSUE\r\nTanjung Perak, 28-FEB-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MAERSK. \r\nPage 1 of 1"
+    }
+  ]
+}

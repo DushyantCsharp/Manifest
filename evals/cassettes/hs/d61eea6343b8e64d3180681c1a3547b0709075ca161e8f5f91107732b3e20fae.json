@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d61eea6343b8e64d3180681c1a3547b0709075ca161e8f5f91107732b3e20fae",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Deep groove ball bearing 6205-2RS, sealed\nCountry of origin: JP\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8482: Ball or roller bearings\n    contains 848291: Bearings; parts, balls, needles and rollers\n    contains 848210: Ball bearings\n    contains 848299: Bearings; parts, (other than balls, needles and rollers)\n    contains 848280: Bearings; n.e.c. in heading no. 8482, including combined ball/roller\n    contains 848230: Bearings; spherical roller bearings\n    contains 848220: Bearings; tapered roller bearings, including cone and tapered roller assemblies\n    contains 848240: Bearings; needle roller bearings, including cage and needle roller assemblies\n    contains 848250: Bearings; cylindrical roller bearings, including cage and roller assemblies n.e.c. in heading no. 8482\n- 8483: Transmission shafts (including cam and crank) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers; flywheels and pulleys; clutches and shaft couplings\n    contains 848320: Bearing housings, incorporating ball or roller bearings\n    contains 848330: Bearing housings, not incorporating ball or roller bearings and plain shaft bearings\n    contains 848310: Transmission shafts (including cam shafts and crank shafts) and cranks\n    contains 848350: Pulleys and flywheels, including pulley blocks\n    contains 848340: Gears and gearing; (not toothed wheels, chain sprockets and other transmission elements presented separately); ball or roller screws; gear boxes and other speed changers, including torque converters\n    contains 848360: Clutches and shaft couplings (including universal joints)\n    contains 848390: Transmission components; toothed wheels, chain sprockets and other transmission elements presented separately; parts\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "bb0ab4d2501fec4c5faa25f8289f9b20cf80dae02710fe365b720061184d2bde",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8482",
+      "cited": [
+        "8482"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 709,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

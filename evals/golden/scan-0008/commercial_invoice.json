@@ -1,0 +1,135 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0008",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-1.65",
+    "noise_sigma": 9,
+    "salt_pepper": "0.0006",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202683-2035",
+    "invoice_date": "2026-09-07",
+    "seller": {
+      "name": "Xiamen Ruifeng Import & Export Co., Ltd.",
+      "address": [
+        "No. 386 Industrial Road",
+        "Xiamen",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Winter PLC",
+      "address": [
+        "Studio 9, Miles Fort",
+        "HA1 8HD Durban",
+        "South Africa"
+      ],
+      "country": "ZA"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Shanghai",
+    "payment_terms": "T/T in advance",
+    "total_amount": "1302509.20"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Deep groove ball bearing 6205-2RS",
+      "country_of_origin": "CN",
+      "quantity": "15500",
+      "unit": "pcs",
+      "unit_price": "3.42",
+      "amount": "53010.00",
+      "hs_code": "848210"
+    },
+    {
+      "line_no": 2,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "CN",
+      "quantity": "159",
+      "unit": "pcs",
+      "unit_price": "156.45",
+      "amount": "24875.55",
+      "hs_code": "871200"
+    },
+    {
+      "line_no": 3,
+      "description": "Upholstered office chair, steel base",
+      "country_of_origin": "CN",
+      "quantity": "286",
+      "unit": "pcs",
+      "unit_price": "28.59",
+      "amount": "8176.74",
+      "hs_code": "940171"
+    },
+    {
+      "line_no": 4,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "CN",
+      "quantity": "3372",
+      "unit": "pcs",
+      "unit_price": "11.49",
+      "amount": "38744.28",
+      "hs_code": "732393"
+    },
+    {
+      "line_no": 5,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "CN",
+      "quantity": "4800",
+      "unit": "pcs",
+      "unit_price": "7.40",
+      "amount": "35520.00",
+      "hs_code": "900410"
+    },
+    {
+      "line_no": 6,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "CN",
+      "quantity": "1272",
+      "unit": "pcs",
+      "unit_price": "61.28",
+      "amount": "77948.16",
+      "hs_code": "420221"
+    },
+    {
+      "line_no": 7,
+      "description": "LED bulb E27 9W warm white",
+      "country_of_origin": "CN",
+      "quantity": "23000",
+      "unit": "pcs",
+      "unit_price": "1.80",
+      "amount": "41400.00",
+      "hs_code": "853952"
+    },
+    {
+      "line_no": 8,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "3419",
+      "unit": "pcs",
+      "unit_price": "19.19",
+      "amount": "65610.61",
+      "hs_code": "851631"
+    },
+    {
+      "line_no": 9,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "CN",
+      "quantity": "1689",
+      "unit": "pcs",
+      "unit_price": "566.74",
+      "amount": "957223.86",
+      "hs_code": "851713"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0025",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYBC7484741",
+    "seller": {
+      "name": "Boldù s.r.l.",
+      "address": [
+        "Rotonda Benussi, 591 Appartamento 4",
+        "26865 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Janssens-Desmet NV",
+      "address": [
+        "Thomassteeg 6",
+        "7645 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "notify_party": {
+      "name": "Casier-Pieters CommV",
+      "address": [
+        "Annysteeg 3",
+        "8931 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE KENSINGTON",
+    "voyage": "676S",
+    "port_of_loading": "Genova",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-04-08",
+    "container_number": "ONEU5262993",
+    "seal_number": "2466818",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 669,
+    "total_gross_weight_kg": "8583.99",
+    "goods_description": "SAID TO CONTAIN: Roasted coffee beans, whole; AC induction motor 0.55kW 3-phase"
+  },
+  "line_items": []
+}

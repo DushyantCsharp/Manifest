@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "97d41f60f76c70a7a88c66814013142637ef871baa76d951645d7aebc22064c4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nC O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nKaul-Kala\r\n18, Parikh Road, 002880 Tiruppur, India\r\nINVOICE NO. & DATE\r\nEX202629-3132\r\n31-JUL-2026\r\nCONSIGNEE\r\nNguyen-Robinson\r\n119 Donaldson Estate, 1764 Sydney, Australia\r\nTERMS OF DELIVERY AND PAYMENT\r\nDDP Sydney\r\nCash against documents\r\nNOTIFY PARTY\r\nHurst PLC, Level 7 272 Simmons Quay, 5959 Sydney, Australia\r\nVESSEL / VOYAGE\r\nEVERGREEN TRITON V.658W\r\nPORT OF LOADING\r\nMUNDRA\r\nPORT OF DISCHARGE\r\nSYDNEY\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nNGUYEN-ROBINSON /\r\nEX202629-3132\r\nSTAINLESS STEEL SHEET 304,\r\nCOLD-ROLLED 2MM\r\n7219.33 INDIA 12,000 KG 2.98 35,760.00\r\nSTAINLESS STEEL SAUCEPAN\r\n20CM\r\n7323.93 INDIA 2,083 PCS 8.92 18,580.36\r\nSMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60\r\nTOTAL DDP SYDNEY USD 88,903.96\r\nSAY TOTAL US DOLLARS EIGHTY-EIGHT THOUSAND NINE HUNDRED THREE AND CENTS NINETY-SIX ONLY\r\nFor and on behalf of Kaul-Kala\r\nAuthorized Signature\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Nguyen-Robinson",
+        "value": "Nguyen-Robinson"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "DDP Sydney",
+        "value": "DDP Sydney"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "31-JUL-2026",
+        "value": "31-JUL-2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "EX202629-3132",
+        "value": "EX202629-3132"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "value": "35,760.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM",
+            "value": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "value": "12,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "value": "KG"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "value": "2.98"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "value": "18,580.36"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "STAINLESS STEEL SAUCEPAN 20CM",
+            "value": "STAINLESS STEEL SAUCEPAN 20CM"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "value": "2,083"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "value": "8.92"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "value": "34,563.60"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "value": "SMARTPHONE 6.1IN, 128GB"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "value": "120"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "value": "288.03"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Cash against documents",
+        "value": "Cash against documents"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Kaul-Kala",
+        "value": "Kaul-Kala"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "TOTAL DDP SYDNEY USD 88,903.96",
+        "value": "88,903.96"
+      }
+    },
+    "input_tokens": 485,
+    "latency_ms": 0,
+    "output_tokens": 788
+  }
+}

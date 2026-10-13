@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Samut Prakan Sukjai Trading Co., Ltd.\r\nNo. 358 Industrial Road\r\nSamut Prakan\r\nThailand\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-04038\r\nInvoice Date 09/13/2026\r\nPayment Terms 30% deposit, 70% against copy of B/L\r\nBILL TO / CONSIGNEE\r\nFlores, Wheeler and Smith\r\n3389 Jennifer Valley Apt. 764\r\n83583 Savannah\r\nUnited States\r\nSHIPPING\r\nTerms of Sale: CIF Los Angeles (Incoterms 2020)\r\nPort of Loading: Bangkok\r\nPort of Discharge: Los Angeles\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Passenger car tyre 205/55R16 Thailand 1,117 pcs 50.00 55,850.00\r\nTotal USD 55,850.00\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Samut Prakan Sukjai Trading Co., Ltd. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Samut Prakan Sukjai Trading Co., Ltd.\r\nNo. 358 Industrial Road, Samut Prakan, Thailand\r\nPACKING LIST\r\nInvoice Ref. INV-2026-04038\r\nDate 09/13/2026\r\nCONSIGNEE\r\nFlores, Wheeler and Smith\r\n3389 Jennifer Valley Apt. 764, 83583 Savannah, United\r\nStates\r\nTERMS OF DELIVERY\r\nCIF Los Angeles\r\nBangkok to Los Angeles\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg\r\nTotal 1117 CARTONS 9,621.84 kg 10,453.85 kg\r\nShipping marks: FLORES, / INV-2026-04038\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nSamut Prakan Sukjai Trading Co., Ltd.\r\nNo. 358 Industrial Road, Samut Prakan, Thailand\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDUFO3249687 \r\nCONSIGNEE\r\nFlores, Wheeler and Smith\r\n3389 Jennifer Valley Apt. 764, 83583 Savannah, United\r\nStates\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA CALYPSO / 948S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nBangkok\r\nPORT OF DISCHARGE\r\nLos Angeles\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU5092478\r\nSEAL 9623312\r\nFLORES, /\r\nINV-2026-04038\r\n1117\r\nCARTONS\r\nSAID TO CONTAIN: Passenger car tyre\r\n205/55R16\r\n10,453.85 kg\r\nSHIPPED ON BOARD\r\n09/20/2026\r\nPLACE AND DATE OF ISSUE\r\nBangkok, 09/20/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "b9ca6b74ef803250ce889b5b295375b7bd9f976445ba7677d04b2aefd1129b54",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nBùi Tập Đoàn\r\nSố 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong,\r\nVietnam\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUVG7865925 \r\nCONSIGNEE\r\nVan Leeuwen Buizen\r\nDuukpad 05, 2303 CE Utrecht, Netherlands\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD ZEPHYR / 468S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nHai Phong\r\nPORT OF DISCHARGE\r\nRotterdam\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU3473350\r\nSEAL\r\n4920681\r\nVAN /\r\nRE-26-5405\r\n614\r\nCARTONS\r\nSAID TO CONTAIN: Plastic storage box 30L with\r\nlid; Men's woven cotton shirt, long sleeve; Solar\r\nPV module 410W monocrystalline; Green Arabica\r\ncoffee beans, grade 1\r\n17.491,19 kg\r\nSHIPPED ON BOARD\r\n31.07.2026\r\nPLACE AND DATE OF ISSUE\r\nHai Phong, 31.07.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "HLCUVG7865925",
+        "value": "HLCUVG7865925"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Van Leeuwen Buizen",
+        "value": "Van Leeuwen Buizen"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD",
+        "value": "HAPAG-LLOYD"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "HLCU3473350",
+        "value": "HLCU3473350"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Rotterdam",
+        "value": "Rotterdam"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Số 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong,",
+        "value": "Hai Phong"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "4920681",
+        "value": "4920681"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Bùi Tập Đoàn",
+        "value": "Bùi Tập Đoàn"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "31.07.2026",
+        "value": "31.07.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "17.491,19 kg",
+        "value": "17.491,19 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "614",
+        "value": "614"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD ZEPHYR / 468S",
+        "value": "HAPAG-LLOYD ZEPHYR"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD ZEPHYR / 468S",
+        "value": "468S"
+      }
+    },
+    "input_tokens": 523,
+    "latency_ms": 0,
+    "output_tokens": 389
+  }
+}

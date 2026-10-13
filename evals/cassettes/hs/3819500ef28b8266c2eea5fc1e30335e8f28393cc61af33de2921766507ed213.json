@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "3819500ef28b8266c2eea5fc1e30335e8f28393cc61af33de2921766507ed213",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Extra virgin olive oil in 1L bottles\nCountry of origin: ES\n\nChoose the chapter that covers these goods. Options:\n- 15: Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes\n    contains 150920: Vegetable oils; olive oil and its fractions, extra virgin olive oil, whether or not refined, but not chemically modified\n    contains 150930: Vegetable oils; olive oil and its fractions, virgin olive oil, whether or not refined, but not chemically modified\n    contains 150940: Vegetable oils; olive oil and its fractions, virgin olive oils n.e.c. in heading 1509, whether or not refined, but not chemically modified\n    contains 150990: Vegetable oils; olive oil and its fractions, other than virgin, whether or not refined, but not chemically modified\n    contains 151010: Vegetable oils; crude olive pomace oil and their fractions, obtained solely from olives, whether or not refined, but not chemically modified\n    contains 151090: Vegetable oils; oils and their fractions n.e.c. in heading 1510, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509\n- 07: Vegetables and certain roots and tubers; edible\n    contains 070992: Vegetables; olives, fresh or chilled\n    contains 071120: Vegetables; olives, provisionally preserved but unsuitable in that state for immediate consumption\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040590: Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)\n    contains 040520: Dairy produce; dairy spreads\n    contains 040510: Dairy produce; derived from milk, butter\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200570: Vegetable preparations; olives, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n- 39: Plastics and articles thereof\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 842220: Machinery; for cleaning or drying bottles or other containers\n    contains 842230: Machinery; for filling, closing, sealing, capsuling or labelling bottles, cans, bags or other containers, machinery for aerating beverages\n- 70: Glass and glassware\n    contains 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0d6085742da32e0985d62e22ca1a0ada9eac6ab17736e3c87c78dd50eb4cb6a6",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "15",
+      "cited": [
+        "15"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1040,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

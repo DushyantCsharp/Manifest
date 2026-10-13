@@ -1,0 +1,152 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0005",
+  "seed": 2696021525,
+  "layout": "compact",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "FC-4994/26",
+    "invoice_date": "2026-05-26",
+    "seller": {
+      "name": "Prabhakar LLC",
+      "address": [
+        "87/47, Khalsa Ganj",
+        "252500 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Voisin S.A.",
+      "address": [
+        "8, boulevard Laurence Barthelemy",
+        "97325 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "FCA",
+    "incoterm_place": "Tiruppur",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "207041.19",
+    "bl_number": "HLCUOQ3261445",
+    "notify_party": null,
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD TAGE",
+    "voyage": "643E",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-05-30",
+    "container_number": "HLCU1126795",
+    "seal_number": "6737836",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 952,
+    "total_gross_weight_kg": "24673.76",
+    "goods_description": "SAID TO CONTAIN: Men's crew-neck T-shirt, 100% cotton jersey; Black tea, CTC, bulk; Men's woven cotton shirt, long sleeve; Stainless steel saucepan 20cm; Stainless cutlery set, 24 pieces; Smartphone 6.1in, 128GB; Terry cotton bath towel 70x140",
+    "total_net_weight_kg": "22491.25",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+        "country_of_origin": "IN",
+        "quantity": "14600",
+        "unit": "pcs",
+        "unit_price": "1.84",
+        "amount": "26864.00",
+        "hs_code": "610910",
+        "packages": 292,
+        "net_weight_kg": "2379.80",
+        "gross_weight_kg": "2809.49"
+      },
+      {
+        "line_no": 2,
+        "description": "Black tea, CTC, bulk",
+        "country_of_origin": "IN",
+        "quantity": "14600",
+        "unit": "kg",
+        "unit_price": "3.74",
+        "amount": "54604.00",
+        "hs_code": "090240",
+        "packages": 292,
+        "net_weight_kg": "14600.00",
+        "gross_weight_kg": "15782.60"
+      },
+      {
+        "line_no": 3,
+        "description": "Men's woven cotton shirt, long sleeve",
+        "country_of_origin": "IN",
+        "quantity": "5504",
+        "unit": "pcs",
+        "unit_price": "4.85",
+        "amount": "26694.40",
+        "hs_code": "620520",
+        "packages": 138,
+        "net_weight_kg": "1535.62",
+        "gross_weight_kg": "1641.56"
+      },
+      {
+        "line_no": 4,
+        "description": "Stainless steel saucepan 20cm",
+        "country_of_origin": "IN",
+        "quantity": "888",
+        "unit": "pcs",
+        "unit_price": "12.82",
+        "amount": "11384.16",
+        "hs_code": "732393",
+        "packages": 74,
+        "net_weight_kg": "1133.98",
+        "gross_weight_kg": "1296.79"
+      },
+      {
+        "line_no": 5,
+        "description": "Stainless cutlery set, 24 pieces",
+        "country_of_origin": "IN",
+        "quantity": "715",
+        "unit": "sets",
+        "unit_price": "11.33",
+        "amount": "8100.95",
+        "hs_code": "821520",
+        "packages": 72,
+        "net_weight_kg": "1013.87",
+        "gross_weight_kg": "1131.05"
+      },
+      {
+        "line_no": 6,
+        "description": "Smartphone 6.1in, 128GB",
+        "country_of_origin": "IN",
+        "quantity": "200",
+        "unit": "pcs",
+        "unit_price": "316.53",
+        "amount": "63306.00",
+        "hs_code": "851713",
+        "packages": 5,
+        "net_weight_kg": "43.60",
+        "gross_weight_kg": "51.33"
+      },
+      {
+        "line_no": 7,
+        "description": "Terry cotton bath towel 70x140",
+        "country_of_origin": "IN",
+        "quantity": "3136",
+        "unit": "pcs",
+        "unit_price": "5.13",
+        "amount": "16087.68",
+        "hs_code": "630260",
+        "packages": 79,
+        "net_weight_kg": "1784.38",
+        "gross_weight_kg": "1960.94"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

@@ -1,0 +1,108 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0018",
+  "seed": 2652478733,
+  "layout": "exporter",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "EX202629-3132",
+    "invoice_date": "2026-07-31",
+    "seller": {
+      "name": "Kaul-Kala",
+      "address": [
+        "18, Parikh Road",
+        "002880 Tiruppur",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Nguyen-Robinson",
+      "address": [
+        "119 Donaldson Estate",
+        "1764 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Sydney",
+    "payment_terms": "Cash against documents",
+    "total_amount": "88903.96",
+    "bl_number": "EGLVLL9935232",
+    "notify_party": {
+      "name": "Hurst PLC",
+      "address": [
+        "Level 7 272 Simmons Quay",
+        "5959 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN TRITON",
+    "voyage": "658W",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Sydney",
+    "shipped_on_board": "2026-08-02",
+    "container_number": "EGLU7697599",
+    "seal_number": "8808338",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 189,
+    "total_gross_weight_kg": "16093.37",
+    "goods_description": "SAID TO CONTAIN: Stainless steel sheet 304, cold-rolled 2mm; Stainless steel saucepan 20cm; Smartphone 6.1in, 128GB",
+    "total_net_weight_kg": "14854.12",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Stainless steel sheet 304, cold-rolled 2mm",
+        "country_of_origin": "IN",
+        "quantity": "12000",
+        "unit": "kg",
+        "unit_price": "2.98",
+        "amount": "35760.00",
+        "hs_code": "721933",
+        "packages": 12,
+        "net_weight_kg": "12000.00",
+        "gross_weight_kg": "12952.80"
+      },
+      {
+        "line_no": 2,
+        "description": "Stainless steel saucepan 20cm",
+        "country_of_origin": "IN",
+        "quantity": "2083",
+        "unit": "pcs",
+        "unit_price": "8.92",
+        "amount": "18580.36",
+        "hs_code": "732393",
+        "packages": 174,
+        "net_weight_kg": "2832.88",
+        "gross_weight_kg": "3114.08"
+      },
+      {
+        "line_no": 3,
+        "description": "Smartphone 6.1in, 128GB",
+        "country_of_origin": "IN",
+        "quantity": "120",
+        "unit": "pcs",
+        "unit_price": "288.03",
+        "amount": "34563.60",
+        "hs_code": "851713",
+        "packages": 3,
+        "net_weight_kg": "21.24",
+        "gross_weight_kg": "26.49"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

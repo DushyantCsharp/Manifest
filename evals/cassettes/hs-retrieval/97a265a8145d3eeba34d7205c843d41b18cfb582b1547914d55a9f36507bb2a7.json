@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "97a265a8145d3eeba34d7205c843d41b18cfb582b1547914d55a9f36507bb2a7",
+  "retriever": "offline-lexical",
+  "query": "Stainless steel sheet 304, cold-rolled, 2mm thick, 1250mm wide origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "722020",
+      "description": "Steel, stainless; flat-rolled, width less than 600mm, cold-rolled",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "721931",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled or cold-reduced, of a thickness of 4.75mm or more",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "721935",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "730441",
+      "description": "Steel, stainless; cold-drawn or cold-rolled (cold-reduced), tubes and pipes of circular cross-section",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "721932",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more but less than 4.75mm",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "721934",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "730449",
+      "description": "Steel, stainless; (excluding cold-drawn or cold-rolled), tubes pipes and hollow profiles of circular cross-section",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "721933",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "730459",
+      "description": "Steel, alloy (not stainless steel); (excluding cold-drawn or cold-rolled), tubes, pipes and hollow profiles of circular cross-section",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "730451",
+      "description": "Steel, alloy (not stainless steel); seamless, cold-drawn or cold-rolled (cold-reduced), tubes, pipes and hollow profiles of circular cross-section",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "722220",
+      "description": "Steel, stainless; bars and rods, cold-formed or cold-finished",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "721119",
+      "description": "Iron or non-alloy steel; flat-rolled, hot-rolled, of a width less than 600mm, less than 4.75mm thick, excluding those of item no. 7211.13",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "721114",
+      "description": "Iron or non-alloy steel; flat-rolled, hot-rolled, of a width less than 600mm, 4.75mm thick or more, excluding those of item no. 7211.13",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "722550",
+      "description": "Steel, alloy; flat-rolled, width 600mm or more, cold-rolled",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "722100",
+      "description": "Steel, stainless; bars and rods, hot-rolled, in irregularly wound coils",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "721990",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, n.e.c. in heading no. 7219",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "722090",
+      "description": "Steel, stainless; flat-rolled, width less than 600mm, n.e.c. in heading no 7220",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "721113",
+      "description": "Iron or non-alloy steel; flat-rolled, hot-rolled, rolled on four faces or in a closed box pass, of a width more than 150mm but less than 600mm, 4mm thick or more, not in coils, without patterns in relief",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "722012",
+      "description": "Steel, stainless; flat-rolled, width less than 600mm, hot-rolled, of a thickness of less than 4.75mm",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "722211",
+      "description": "Steel, stainless; bars and rods, hot-rolled, hot-drawn or extruded, of circular cross-section",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

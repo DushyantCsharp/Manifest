@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0013",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVYG3308072",
+    "seller": {
+      "name": "Busan Daesung Import & Export Co., Ltd.",
+      "address": [
+        "No. 227 Avenue 3",
+        "Busan",
+        "South Korea"
+      ],
+      "country": "KR"
+    },
+    "buyer": {
+      "name": "Williamson PLC",
+      "address": [
+        "2226 Ryan Views",
+        "86254 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": null,
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN KENSINGTON",
+    "voyage": "574E",
+    "port_of_loading": "Busan",
+    "port_of_discharge": "Savannah",
+    "shipped_on_board": "2026-06-16",
+    "container_number": "EGLU7101117",
+    "seal_number": "1162134",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1731,
+    "total_gross_weight_kg": "24687.99",
+    "goods_description": "SAID TO CONTAIN: Women's cotton denim trousers; Red wine, 0.75L bottle; Leather handbag with shoulder strap; Corrugated shipping carton, 3-ply; Stainless cutlery set, 24 pieces; Frozen vannamei shrimp, peeled; Polarized sunglasses"
+  },
+  "line_items": []
+}

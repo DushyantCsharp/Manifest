@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "c4ad8c6536a8f29a84a11620b943be3a119585128478eb680b0d4ab193c5d7f6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nBusan Samjin Electronics Co., Ltd.\r\nNo. 15 Ring Road, Busan, South Korea\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDUOJ1999438 \r\nCONSIGNEE\r\nMorgan Group\r\n3200 David Estates, 85861 Newark, United States\r\nNOTIFY PARTY\r\nJohnson Inc\r\n2341 Thomas Manors Suite 858, 22700\r\nSavannah, United States\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA AURORA / 841E\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nBusan\r\nPORT OF DISCHARGE\r\nLos Angeles\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU8142382\r\nSEAL\r\n6381126\r\nMORGAN /\r\nINV-2026-07328\r\n300\r\nCARTONS\r\nSAID TO CONTAIN: Stainless steel sheet 304,\r\ncold-rolled 2mm; LDPE film-grade granules;\r\nLithium-ion battery pack 48V 20Ah\r\n18,474.35 kg\r\nSHIPPED ON BOARD\r\n01/17/2026\r\nPLACE AND DATE OF ISSUE\r\nBusan, 01/17/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "CMDUOJ1999438",
+        "value": "CMDUOJ1999438"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Morgan Group",
+        "value": "Morgan Group"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "CMA CGM",
+        "value": "CMA CGM"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "CMDU8142382",
+        "value": "CMDU8142382"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Johnson Inc",
+        "value": "Johnson Inc"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Los Angeles",
+        "value": "Los Angeles"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Busan Samjin Electronics Co., Ltd.",
+        "value": "Busan"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "6381126",
+        "value": "6381126"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Busan Samjin Electronics Co., Ltd.",
+        "value": "Busan Samjin Electronics Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "01/17/2026",
+        "value": "01/17/2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "18,474.35 kg",
+        "value": "18,474.35 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "300",
+        "value": "300"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "CMA AURORA / 841E",
+        "value": "CMA AURORA"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "CMA AURORA / 841E",
+        "value": "841E"
+      }
+    },
+    "input_tokens": 523,
+    "latency_ms": 0,
+    "output_tokens": 374
+  }
+}

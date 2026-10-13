@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d8a03cf6330e45d27b60c336be355aa83646ef2da1143ebf10df2a0eb8e3af99",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Single malt Scotch whisky 70cl\nCountry of origin: GB\n\nChosen so far: 22 Beverages, spirits and vinegar\n\nChoose the heading that covers these goods. Options:\n- 2208: Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages\n    contains 220830: Whiskies\n- 2203: Beer made from malt\n    contains 220300: Beer; made from malt\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "39adf4329b633c22e7c856c2311a51f3721716b22371715979bbe9c93b7d6d08",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "2208",
+      "cited": [
+        "2208"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 330,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

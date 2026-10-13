@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "key": "7b2159e788f054663c23203f6cf7eb72514f6ba7529370ec2143c575bd42547a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nPACKING LIST —\n\nQingdao Haixing Import & Export Co., Ltd. ; Invoice Ref. FC-5883/26\n\nNo. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19\n CONSIGNEE : | TERMS OF DELIVERY\n| Bousquet | | EXW Guangzhou\n\n| 27, rue de Le Roux, 84775 Lille, France | Qingdao to Le Havre\n\na Description “Origin Quantity . Pkgs Net weight Gross weight\n\noi iniain & win\n\n1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg\n‘Upholstered office chair, steel base CN f 374 pcs 374. 4 752,04 kg 5 196,35 kg\nAC induction motor 0.55kW 3-phase CN 30 pcs 15 227,94 kg 258,98 kg\nRunning shoes, rubber sole, textile upper CN 600 pairs 50 | 394,80 kg 428,54 kg\nPassenger car tyre 205/55R16 , CN 899 pcs 899 8 089,20 kg 9727,96 kg\nPlush toy bear 30cm CN 912 pcs 19 268,13 kg 288,03 kg\nPlastic storage box 30L with lid ; CN 3900 pcs 390 3591,90 kg 4 103,41 kg\nLithium-ion battery pack 48V 20Ah CN : 28 pcs 7 174,61 kg 187,11 kg\n\nTotal 1923 CARTONS 19935,95kg 23044,67 kg\n\nShipping marks: BOUSQUET / FC-5883/26\n\nPage | of !\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "| Bousquet | | EXW Guangzhou",
+        "value": "Bousquet"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+        "value": "2026-09-19"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "| Bousquet | | EXW Guangzhou",
+        "value": "EXW Guangzhou"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Qingdao Haixing Import & Export Co., Ltd. ; Invoice Ref. FC-5883/26",
+        "value": "FC-5883/26"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "Electric kettle 1.7L stainless"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "2 854,29 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "2 437,33 kg"
+          },
+          "quantity": {
+            "confidence": "0.80",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "2021"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "‘Upholstered office chair, steel base CN f 374 pcs 374. 4 752,04 kg 5 196,35 kg",
+            "value": "Upholstered office chair, steel base"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "‘Upholstered office chair, steel base CN f 374 pcs 374. 4 752,04 kg 5 196,35 kg",
+            "value": "5 196,35 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "‘Upholstered office chair, steel base CN f 374 pcs 374. 4 752,04 kg 5 196,35 kg",
+            "value": "4 752,04 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "‘Upholstered office chair, steel base CN f 374 pcs 374. 4 752,04 kg 5 196,35 kg",
+            "value": "374"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "AC induction motor 0.55kW 3-phase CN 30 pcs 15 227,94 kg 258,98 kg",
+            "value": "AC induction motor 0.55kW 3-phase"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "AC induction motor 0.55kW 3-phase CN 30 pcs 15 227,94 kg 258,98 kg",
+            "value": "258,98 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "AC induction motor 0.55kW 3-phase CN 30 pcs 15 227,94 kg 258,98 kg",
+            "value": "227,94 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "AC induction motor 0.55kW 3-phase CN 30 pcs 15 227,94 kg 258,98 kg",
+            "value": "30"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "Running shoes, rubber sole, textile upper CN 600 pairs 50 | 394,80 kg 428,54 kg",
+            "value": "Running shoes, rubber sole, textile upper"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Running shoes, rubber sole, textile upper CN 600 pairs 50 | 394,80 kg 428,54 kg",
+            "value": "428,54 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Running shoes, rubber sole, textile upper CN 600 pairs 50 | 394,80 kg 428,54 kg",
+            "value": "394,80 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "Running shoes, rubber sole, textile upper CN 600 pairs 50 | 394,80 kg 428,54 kg",
+            "value": "600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "Running shoes, rubber sole, textile upper CN 600 pairs 50 | 394,80 kg 428,54 kg",
+            "value": "pairs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "Passenger car tyre 205/55R16 , CN 899 pcs 899 8 089,20 kg 9727,96 kg",
+            "value": "Passenger car tyre 205/55R16"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.86",
+            "evidence": "Passenger car tyre 205/55R16 , CN 899 pcs 899 8 089,20 kg 9727,96 kg",
+            "value": "9727,96 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Passenger car tyre 205/55R16 , CN 899 pcs 899 8 089,20 kg 9727,96 kg",
+            "value": "8 089,20 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "Passenger car tyre 205/55R16 , CN 899 pcs 899 8 089,20 kg 9727,96 kg",
+            "value": "899"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "Plush toy bear 30cm CN 912 pcs 19 268,13 kg 288,03 kg",
+            "value": "Plush toy bear 30cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Plush toy bear 30cm CN 912 pcs 19 268,13 kg 288,03 kg",
+            "value": "288,03 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Plush toy bear 30cm CN 912 pcs 19 268,13 kg 288,03 kg",
+            "value": "268,13 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "Plush toy bear 30cm CN 912 pcs 19 268,13 kg 288,03 kg",
+            "value": "912"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "Plastic storage box 30L with lid ; CN 3900 pcs 390 3591,90 kg 4 103,41 kg",
+            "value": "Plastic storage box 30L with lid"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Plastic storage box 30L with lid ; CN 3900 pcs 390 3591,90 kg 4 103,41 kg",
+            "value": "4 103,41 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.86",
+            "evidence": "Plastic storage box 30L with lid ; CN 3900 pcs 390 3591,90 kg 4 103,41 kg",
+            "value": "3591,90 kg"
+          },
+          "quantity": {
+            "confidence": "0.80",
+            "evidence": "Plastic storage box 30L with lid ; CN 3900 pcs 390 3591,90 kg 4 103,41 kg",
+            "value": "3900"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "Lithium-ion battery pack 48V 20Ah CN : 28 pcs 7 174,61 kg 187,11 kg",
+            "value": "Lithium-ion battery pack 48V 20Ah"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Lithium-ion battery pack 48V 20Ah CN : 28 pcs 7 174,61 kg 187,11 kg",
+            "value": "187,11 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "Lithium-ion battery pack 48V 20Ah CN : 28 pcs 7 174,61 kg 187,11 kg",
+            "value": "174,61 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "Lithium-ion battery pack 48V 20Ah CN : 28 pcs 7 174,61 kg 187,11 kg",
+            "value": "28"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1923 CARTONS 19935,95kg 23044,67 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Qingdao Haixing Import & Export Co., Ltd. ; Invoice Ref. FC-5883/26",
+        "value": "Qingdao Haixing Import & Export Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.86",
+        "evidence": "Total 1923 CARTONS 19935,95kg 23044,67 kg",
+        "value": "23044,67 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.62",
+        "evidence": "Plastic storage box 30L with lid ; CN 3900 pcs 390 3591,90 kg 4 103,41 kg",
+        "value": "390 3591,90 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1923 CARTONS 19935,95kg 23044,67 kg",
+        "value": "1923"
+      }
+    },
+    "input_tokens": 488,
+    "latency_ms": 0,
+    "output_tokens": 2100
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "375007b5be6820d7ff02ac17639012db82b9e7fe89af72873309748c8222ecf4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nPACKING LIST\n\nInvoice Ref. 2026/1011\n\n' Akcay San. ca lhrats\n06411 Sama Mills Suite 971, 71574 Izmir, Turkey Sans Date August 28, 2026:\n| CONSIGNEE ? _°. | | TERMS OF DELIVERY\n| Long PLC | | DAP Leeds\n\n| 37 David Shore, IV2A 4QrF Birmingham, United: Kingdom | Izmir to Southampton\n\n' # = Description Origin Quantity Pkgs Net weight Gross weight ©\n1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib\nTotal , 340 BAGS 37,478.6 Ib 39,330.0 Ib\n\nShipping marks: LONG / 2026/1011\n\n. .Page | of |\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "| Long PLC | | DAP Leeds",
+        "value": "Long PLC"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "06411 Sama Mills Suite 971, 71574 Izmir, Turkey Sans Date August 28, 2026:",
+        "value": "August 28, 2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "| Long PLC | | DAP Leeds",
+        "value": "DAP Leeds"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. 2026/1011",
+        "value": "2026/1011"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "value": "LK"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "value": "Black tea, CTC, bulk"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.82",
+            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "value": "39,330.0 Ib"
+          },
+          "net_weight_kg": {
+            "confidence": "0.82",
+            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "value": "37,478.6 Ib"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "value": "17,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "value": "kg"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total , 340 BAGS 37,478.6 Ib 39,330.0 Ib",
+        "value": "BAGS"
+      },
+      "seller_name": {
+        "confidence": "0.81",
+        "evidence": "' Akcay San. ca lhrats",
+        "value": "Akcay San."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.82",
+        "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+        "value": "39,330.0 Ib"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.82",
+        "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+        "value": "37,478.6 Ib"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+        "value": "340"
+      }
+    },
+    "input_tokens": 360,
+    "latency_ms": 0,
+    "output_tokens": 512
+  }
+}

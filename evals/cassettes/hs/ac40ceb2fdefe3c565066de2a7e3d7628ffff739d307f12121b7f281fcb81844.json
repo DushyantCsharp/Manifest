@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "ac40ceb2fdefe3c565066de2a7e3d7628ffff739d307f12121b7f281fcb81844",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Unwrought aluminium ingots, not alloyed\nCountry of origin: AE\n\nChoose the chapter that covers these goods. Options:\n- 76: Aluminium and articles thereof\n    contains 760110: Aluminium; unwrought, (not alloyed)\n    contains 760810: Aluminium; tubes and pipes, not alloyed\n    contains 760410: Aluminium; (not alloyed), bars, rods and profiles\n    contains 760511: Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm\n    contains 760519: Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less\n    contains 760691: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)\n    contains 760611: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)\n    contains 760120: Aluminium; unwrought, alloys\n- 75: Nickel and articles thereof\n    contains 750210: Nickel; unwrought, not alloyed\n    contains 750521: Nickel; wire, not alloyed\n    contains 750511: Nickel; bars, rods and profiles, not alloyed\n    contains 750610: Nickel; plates, sheets, strip and foil, not alloyed\n    contains 750711: Nickel; tubes and pipes, not alloyed\n- 80: Tin; articles thereof\n    contains 800110: Tin; unwrought, not alloyed\n- 79: Zinc and articles thereof\n    contains 790111: Zinc; unwrought, (not alloyed), containing by weight 99.99% or more of zinc\n    contains 790112: Zinc; unwrought, (not alloyed), containing by weight less than 99.99% of zinc\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 72: Iron and steel\n    contains 720450: Ferrous products; remelting scrap ingots\n    contains 721810: Steel, stainless; ingots and other primary forms\n    contains 722410: Steel, alloy; ingots and other primary forms\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e5df684fb0bda43a056edad720de2a467831849a33ab1776b847f92deb0189aa",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "76",
+      "cited": [
+        "76"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 717,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

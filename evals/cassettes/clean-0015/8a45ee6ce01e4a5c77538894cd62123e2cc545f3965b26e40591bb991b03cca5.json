@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "key": "8a45ee6ce01e4a5c77538894cd62123e2cc545f3965b26e40591bb991b03cca5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nNingbo Ruifeng Trading Co., Ltd.\r\nNo. 334 Harbour Road, Ningbo, China\r\nPACKING LIST\r\nInvoice Ref. FC-1008/26\r\nDate 2026-03-09\r\nCONSIGNEE\r\nGuillet\r\n3, rue de Perrin, 48669 Lyon, France\r\nTERMS OF DELIVERY\r\nFOB Qingdao\r\nQingdao to Marseille\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Running shoes, rubber sole, textile upper CN 4 860 pairs 405 3 868,56 kg 4 384,30 kg\r\n2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg\r\n3 Solar PV module 410W monocrystalline CN 82 pcs 3 1 810,40 kg 1 871,42 kg\r\n4 Centrifugal water pump 1.1kW CN 300 pcs 300 3 624,60 kg 3 973,20 kg\r\n5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 148 1 598,40 kg 1 731,90 kg\r\n6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 71 1 733,77 kg 1 844,07 kg\r\n7 Polarized sunglasses CN 6 700 pcs 67 308,20 kg 393,41 kg\r\nTotal 1359 CARTONS 23 127,43 kg 24 939,37 kg\r\nShipping marks: GUILLET / FC-1008/26\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Guillet",
+        "value": "Guillet"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-03-09",
+        "value": "2026-03-09"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FOB Qingdao",
+        "value": "FOB Qingdao"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. FC-1008/26",
+        "value": "FC-1008/26"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 405 3 868,56 kg 4 384,30 kg",
+            "value": "Running shoes, rubber sole, textile upper"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 405 3 868,56 kg 4 384,30 kg",
+            "value": "4 384,30 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 405 3 868,56 kg 4 384,30 kg",
+            "value": "3 868,56 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 405 3 868,56 kg 4 384,30 kg",
+            "value": "4 860"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 405 3 868,56 kg 4 384,30 kg",
+            "value": "pairs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "Corrugated shipping carton, 3-ply"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "10 741,07 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "10 183,50 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "18 250"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 3 1 810,40 kg 1 871,42 kg",
+            "value": "Solar PV module 410W monocrystalline"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 3 1 810,40 kg 1 871,42 kg",
+            "value": "1 871,42 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 3 1 810,40 kg 1 871,42 kg",
+            "value": "1 810,40 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 3 1 810,40 kg 1 871,42 kg",
+            "value": "82"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 300 3 624,60 kg 3 973,20 kg",
+            "value": "Centrifugal water pump 1.1kW"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 300 3 624,60 kg 3 973,20 kg",
+            "value": "3 973,20 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 300 3 624,60 kg 3 973,20 kg",
+            "value": "3 624,60 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 300 3 624,60 kg 3 973,20 kg",
+            "value": "300"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 148 1 598,40 kg 1 731,90 kg",
+            "value": "Rubber flip-flops, thong plugged into the sole"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 148 1 598,40 kg 1 731,90 kg",
+            "value": "1 731,90 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 148 1 598,40 kg 1 731,90 kg",
+            "value": "1 598,40 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 148 1 598,40 kg 1 731,90 kg",
+            "value": "8 880"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 405 3 868,56 kg 4 384,30 kg",
+            "value": "pairs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 71 1 733,77 kg 1 844,07 kg",
+            "value": "Lithium-ion battery pack 48V 20Ah"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 71 1 733,77 kg 1 844,07 kg",
+            "value": "1 844,07 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 71 1 733,77 kg 1 844,07 kg",
+            "value": "1 733,77 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 71 1 733,77 kg 1 844,07 kg",
+            "value": "281"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 67 308,20 kg 393,41 kg",
+            "value": "Polarized sunglasses"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 67 308,20 kg 393,41 kg",
+            "value": "393,41 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 67 308,20 kg 393,41 kg",
+            "value": "308,20 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 67 308,20 kg 393,41 kg",
+            "value": "6 700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 365 10 183,50 kg 10 741,07 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1359 CARTONS 23 127,43 kg 24 939,37 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Ruifeng Trading Co., Ltd.",
+        "value": "Ningbo Ruifeng Trading Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1359 CARTONS 23 127,43 kg 24 939,37 kg",
+        "value": "24 939,37 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1359 CARTONS 23 127,43 kg 24 939,37 kg",
+        "value": "23 127,43 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1359 CARTONS 23 127,43 kg 24 939,37 kg",
+        "value": "1359"
+      }
+    },
+    "input_tokens": 468,
+    "latency_ms": 0,
+    "output_tokens": 1826
+  }
+}

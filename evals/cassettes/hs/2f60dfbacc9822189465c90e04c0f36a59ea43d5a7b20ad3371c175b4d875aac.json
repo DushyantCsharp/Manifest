@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "2f60dfbacc9822189465c90e04c0f36a59ea43d5a7b20ad3371c175b4d875aac",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Paracetamol 500mg tablets in retail packs\nCountry of origin: IN\n\nChosen so far: 37 Photographic or cinematographic goods > 3701 Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed, whether or not in packs\n\nChoose the subheading that covers these goods. Options:\n- 370120: Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs\n- 370110: Photographic plates and film; for x-ray, in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles\n- 370130: Photographic plates and film; in the flat, sensitised, unexposed, with any side exceeding 225mm, of any materials other than paper, paperboard or textiles\n- 370199: Photographic plates and film; (for other than colour photography), in the flat, sensitised, unexposed, with no side exceeding 255mm, of any material other than paper, paperboard or textiles\n- 370191: Photographic plates and film; for colour photography (polychrome), in the flat, sensitised, unexposed, with no side exceeding 255mm, of any material other than paper, paperboard or textiles\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "55a1e37858c4326234be6acc4557d0a042b05d39ecab56d7714ed55b7cd76566",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "370120",
+      "cited": [
+        "370120"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 534,
+    "latency_ms": 0,
+    "output_tokens": 31
+  }
+}

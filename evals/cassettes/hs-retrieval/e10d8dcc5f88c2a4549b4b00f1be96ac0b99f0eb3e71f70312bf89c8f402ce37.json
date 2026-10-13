@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "e10d8dcc5f88c2a4549b4b00f1be96ac0b99f0eb3e71f70312bf89c8f402ce37",
+  "retriever": "offline-lexical",
+  "query": "Frozen Atlantic salmon fillets origin NO",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "030313",
+      "description": "Fish; frozen, Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "030481",
+      "description": "Fish fillets; frozen, salmon, Pacific (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou, Oncorhynchus rhodurus), Atlantic (Salmo salar), and Danube (Hucho hucho)",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "030441",
+      "description": "Fish fillets; fresh or chilled, salmon, Pacific (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus), Atlantic (Salmo salar), Danube (Hucho hucho)",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "030214",
+      "description": "Fish; fresh or chilled, Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "030541",
+      "description": "Fish; smoked, whether or not cooked before or during smoking, salmon, Pacific (Oncorhynchus nerka, gorbuscha, keta, tschawytscha, kisutch, masou, rhodurus), Atlantic (Salmo salar) and Danube (Hucho hucho), includes fillets, but excludes edible fish offal",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "030311",
+      "description": "Fish; frozen, Pacific salmon, sockeye salmon (red salmon) (Oncorhynchus nerka), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "030345",
+      "description": "Fish; frozen, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "030312",
+      "description": "Fish; frozen, Pacific salmon (Oncorhynchus gorbuscha/keta/tschawytscha/ kisutch/masou/rhodurus) other than sockeye salmon (Oncorhynchus nerka), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "030235",
+      "description": "Fish; fresh or chilled, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "030213",
+      "description": "Fish; fresh or chilled, Pacific salmon (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou, Oncorhynchus rhodurus), not fillets, meat of 0304, and edible fish offal of 0302.9",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "030499",
+      "description": "Fish meat, excluding fillets, whether or not minced; frozen, n.e.c. in item no. 0304.9",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "030359",
+      "description": "Fish; frozen, n.e.c. in item no. 0303.5, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "030319",
+      "description": "Fish; frozen, salmonidae, n.e.c. in item no. 0303.1, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "030339",
+      "description": "Fish; frozen, flat fish, n.e.c. in item no. 0303.3, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "030349",
+      "description": "Fish; frozen, tuna, n.e.c. in item no. 0303.4, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "030459",
+      "description": "Fish meat; excluding fillets, whether or not minced; fresh or chilled, of fish n.e.c. in item no. 0304.5",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "030489",
+      "description": "Fish fillets; frozen, of fish n.e.c. in heading 0304.8",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "030461",
+      "description": "Fish fillets; frozen, tilapias (Oreochromis spp.)",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "030472",
+      "description": "Fish fillets; frozen, haddock (Melanogrammus aeglefinus)",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "030473",
+      "description": "Fish fillets; frozen, coalfish (Pollachius virens)",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0020",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "HLCUQY4152443",
+    "seller": {
+      "name": "Qingdao Hengda Trading Co., Ltd.",
+      "address": [
+        "No. 269 Industrial Road",
+        "Qingdao",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Mestdagh CommV",
+      "address": [
+        "Christellebaan 9",
+        "4257 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "notify_party": {
+      "name": "De Wilde, Vanderlinden en Claeys NV",
+      "address": [
+        "Danieldreef 08",
+        "3706 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD KENSINGTON",
+    "voyage": "792E",
+    "port_of_loading": "Shenzhen",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-04-30",
+    "container_number": "HLCU2553019",
+    "seal_number": "3102939",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1274,
+    "total_gross_weight_kg": "24631.33",
+    "goods_description": "SAID TO CONTAIN: Solar PV module 410W monocrystalline; Laptop computer 14in, 16GB RAM; City bicycle 28in, 7-speed; AC induction motor 0.55kW 3-phase; Passenger car tyre 205/55R16; Aluminium household foil 12 micron"
+  },
+  "line_items": []
+}

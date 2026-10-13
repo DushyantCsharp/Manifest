@@ -1,0 +1,12 @@
+[project]
+name = "manifest-domain"
+version = "0.1.0"
+description = "Domain core: Pydantic v2 models, versioned extraction schemas, normalisers."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pydantic>=2.14.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12"]
+build-backend = "uv_build"

@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0009",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYLB5183699",
+    "seller": {
+      "name": "Narváez & Asociados S.A.",
+      "address": [
+        "C. de Héctor Coll 90",
+        "16963 Guayaquil",
+        "Ecuador"
+      ],
+      "country": "EC"
+    },
+    "buyer": {
+      "name": "Larson-Robertson",
+      "address": [
+        "00300 Tiffany Crescent",
+        "19048 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE VALENCIA",
+    "voyage": "507W",
+    "port_of_loading": "Guayaquil",
+    "port_of_discharge": "Los Angeles",
+    "shipped_on_board": "2026-05-02",
+    "container_number": "ONEU4434064",
+    "seal_number": "3761647",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1155,
+    "total_gross_weight_kg": "21041.52",
+    "goods_description": "SAID TO CONTAIN: Cashew kernels W320; Men's woven cotton shirt, long sleeve; Running shoes, rubber sole, textile upper; Stainless cutlery set, 24 pieces"
+  },
+  "line_items": []
+}

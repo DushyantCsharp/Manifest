@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "C O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nLahore Sapphire Industrial Co., Ltd.\r\nNo. 384 Avenue 3, Lahore, Pakistan\r\nINVOICE NO. & DATE\r\nEX202630-7680\r\n27-MAR-2026\r\nCONSIGNEE\r\nBarrera, Butler and Duffy\r\n715 Janice Greens Suite 816, 43608 Newark, United States\r\nTERMS OF DELIVERY AND PAYMENT\r\nDDP Savannah\r\n30% deposit, 70% against copy of B/L\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nVESSEL / VOYAGE\r\nEVERGREEN CALYPSO V.703E\r\nPORT OF LOADING\r\nKARACHI\r\nPORT OF DISCHARGE\r\nSAVANNAH\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nBARRERA, /\r\nEX202630-7680\r\nTERRY COTTON BATH TOWEL\r\n70X140\r\n6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80\r\nLONG GRAIN WHITE RICE,\r\nMILLED\r\n1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46\r\nTOTAL DDP SAVANNAH USD 13,612.26\r\nSAY TOTAL US DOLLARS THIRTEEN THOUSAND SIX HUNDRED TWELVE AND CENTS TWENTY-SIX ONLY\r\nFor and on behalf of Lahore Sapphire Industrial Co.,\r\nLtd.\r\nAuthorized Signature\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Lahore Sapphire Industrial Co., Ltd.\r\nNo. 384 Avenue 3, Lahore, Pakistan \r\nPACKING LIST\r\nInvoice Ref. EX202630-7680\r\nDate 27-MAR-2026\r\nCONSIGNEE\r\nBarrera, Butler and Duffy\r\n715 Janice Greens Suite 816, 43608 Newark, United\r\nStates\r\nTERMS OF DELIVERY\r\nDDP Savannah\r\nKarachi to Savannah\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Terry cotton bath towel 70x140 PK 1,770 pcs 45 952.26 kg 1,060.53 kg\r\n2 Long grain white rice, milled PK 12,125 kg 485 12,125.00 kg 13,667.30 kg\r\nTotal 530 CARTONS 13,077.26 kg 14,727.83 kg\r\nShipping marks: BARRERA, / EX202630-7680\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nLahore Sapphire Industrial Co., Ltd.\r\nNo. 384 Avenue 3, Lahore, Pakistan\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVSG8570685 \r\nCONSIGNEE\r\nBarrera, Butler and Duffy\r\n715 Janice Greens Suite 816, 43608 Newark, United\r\nStates\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN CALYPSO / 703E\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nKarachi\r\nPORT OF DISCHARGE\r\nSavannah\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU9318816\r\nSEAL 6683495\r\nBARRERA, /\r\nEX202630-7680\r\n530\r\nCARTONS\r\nSAID TO CONTAIN: Terry cotton bath towel\r\n70x140; Long grain white rice, milled\r\n14,727.83 kg\r\nSHIPPED ON BOARD\r\n07-APR-2026\r\nPLACE AND DATE OF ISSUE\r\nKarachi, 07-APR-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1"
+    }
+  ]
+}

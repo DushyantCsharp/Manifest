@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "14b31c580c24373daa9c5a543e9a84f451f7117e12c3aee31ee6aca1ca2035ca",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Roasted coffee beans, not decaffeinated\nCountry of origin: IT\n\nChoose the chapter that covers these goods. Options:\n- 09: Coffee, tea, mate and spices\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090122: Coffee; roasted, decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n- 18: Cocoa and cocoa preparations\n    contains 180100: Cocoa beans; whole or broken, raw or roasted\n- 21: Miscellaneous edible preparations\n    contains 210130: Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof\n    contains 210112: Preparations with a basis of extracts, essences or concentrates or with a basis of coffee\n    contains 210111: Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee\n    contains 210120: Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate\n- 11: Products of the milling industry; malt, starches, inulin, wheat gluten\n    contains 110710: Malt; not roasted\n    contains 110720: Malt; roasted\n- 13: Lac; gums, resins and other vegetable saps and extracts\n    contains 130232: Mucilages and thickeners; whether or not modified, derived from locust beans, locust bean seeds or guar seeds\n- 26: Ores, slag and ash\n    contains 261310: Molybdenum ores and concentrates; roasted\n    contains 260120: Iron pyrites; roasted\n    contains 261390: Molybdenum ores and concentrates; other than roasted\n- 12: Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder\n    contains 120110: Soya beans; seed, whether or not broken\n    contains 120190: Soya beans; other than seed, whether or not broken\n    contains 120230: Ground-nuts; seed, not roasted or otherwise cooked, whether or not shelled or broken\n    contains 120241: Ground-nuts; other than seed, not roasted or otherwise cooked, in shell\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d5b6353154e5584da602b194c2720c86ae245a9df23fefd61cb948d0ccf81533",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "09",
+      "cited": [
+        "09"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 780,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

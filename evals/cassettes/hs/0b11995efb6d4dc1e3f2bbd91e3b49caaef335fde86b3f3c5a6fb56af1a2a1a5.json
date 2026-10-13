@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "0b11995efb6d4dc1e3f2bbd91e3b49caaef335fde86b3f3c5a6fb56af1a2a1a5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: PVC resin, suspension grade, not mixed\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 870880: Vehicle parts; suspension systems and parts thereof (including shock-absorbers)\n- 47: Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard\n    contains 470200: Wood pulp; chemical wood pulp, dissolving grades\n    contains 470411: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of coniferous wood\n    contains 470311: Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of coniferous wood\n    contains 470419: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of non-coniferous wood\n    contains 470421: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of coniferous wood\n    contains 470319: Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of non-coniferous wood\n    contains 470321: Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of coniferous wood\n    contains 470429: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood\n    contains 470329: Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 44: Wood and articles of wood; wood charcoal\n    contains 441011: Particle board of wood, whether or not agglomerated with resins or other organic binding substances\n    contains 441012: Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances\n    contains 441192: Fibreboard (other than MDF) of a density exceeding 0.8g/cm3, of wood or other ligneous materials, bonded or not with resins or other organic substances\n    contains 441194: Fibreboard (other than MDF) of a density not exceeding 0.5g/cm3, of wood or other ligneous materials, bonded or not with resins or other organic substances\n    contains 441019: Wafer board and similar board of wood n.e.c. in item no. 4410.1, whether or not agglomerated with resins or other organic binding substances\n    contains 441090: Particle board, oriented strand board (OSB) and similar board of ligneous materials other than wood, whether or not agglomerated with resins or other organic binding substances\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 39: Plastics and articles thereof\n    contains 390940: Phenolic resins; in primary forms\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "17f976160af5da122cd58bb10fb089ac46ee0f21314aeed874a4beee8334e83a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "39",
+      "cited": [
+        "39"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1130,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

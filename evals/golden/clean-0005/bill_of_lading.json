@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0005",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "HLCUOQ3261445",
+    "seller": {
+      "name": "Prabhakar LLC",
+      "address": [
+        "87/47, Khalsa Ganj",
+        "252500 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Voisin S.A.",
+      "address": [
+        "8, boulevard Laurence Barthelemy",
+        "97325 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": null,
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD TAGE",
+    "voyage": "643E",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-05-30",
+    "container_number": "HLCU1126795",
+    "seal_number": "6737836",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 952,
+    "total_gross_weight_kg": "24673.76",
+    "goods_description": "SAID TO CONTAIN: Men's crew-neck T-shirt, 100% cotton jersey; Black tea, CTC, bulk; Men's woven cotton shirt, long sleeve; Stainless steel saucepan 20cm; Stainless cutlery set, 24 pieces; Smartphone 6.1in, 128GB; Terry cotton bath towel 70x140"
+  },
+  "line_items": []
+}

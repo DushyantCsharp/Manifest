@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "faf124bb1ac4533257cffa5dd10eca4a213c1b7c5db6e4c0afe573c168a30aab",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Backpack with outer surface of polyester fabric\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 42: Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)\n    contains 420291: Cases and containers; n.e.c. in heading 4202, with outer surface of leather or of composition leather\n    contains 420292: Cases and containers; n.e.c. in heading 4202, with outer surface of sheeting of plastics or of textile materials\n    contains 420231: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather\n    contains 420211: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of leather or of composition leather\n    contains 420232: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of sheeting of plastics or of textile materials\n    contains 420212: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of plastics or of textile materials\n    contains 420221: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of leather or of composition leather\n    contains 420222: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials\n- 59: Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use\n    contains 590220: Textile fabrics; tyrecord of high tenacity yarn of polyester\n- 55: Man-made staple fibres\n    contains 551511: Fabrics, woven; of polyester staple fibres n.e.c. in chapter 55, mixed mainly or solely with viscose rayon staple fibres\n    contains 551512: Fabrics, woven; of polyester staple fibres n.e.c. in chapter 55, mixed mainly or solely with man-made filaments\n    contains 551211: Fabrics, woven; of synthetic staple fibres, containing 85% or more by weight of polyester staple fibres, unbleached or bleached\n    contains 551519: Fabrics, woven; of polyester staple fibres n.e.c. in chapter 55, mixed mainly or solely with fibres n.e.c. in item no. 5515.1\n    contains 551219: Fabrics, woven; of synthetic staple fibres, containing 85% or more by weight of polyester staple fibres, other than unbleached or bleached\n    contains 551513: Fabrics, woven; of polyester staple fibres n.e.c. in chapter 55, mixed mainly or solely with wool or fine animal hair\n- 54: Man-made filaments; strip and the like of man-made textile materials\n    contains 540710: Fabrics, woven; from high tenacity yarn, of nylon, other polyamides or of polyesters\n    contains 540752: Fabrics, woven; containing 85% or more by weight of textured polyester filaments, dyed\n    contains 540754: Fabrics, woven; containing 85% or more by weight of textured polyester filaments, printed\n    contains 540761: Fabrics, woven; containing 85% or more by weight of non-textured polyester filaments\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "9740de46d884dbb530e3dc3439ad97f579719ce4d31b44ce7785e1f8ca1682c6",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "42",
+      "cited": [
+        "42"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1112,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

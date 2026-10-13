@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "10cad6a64b42fa6c647d0b6d6cad1480576d2cf45d48b821d0d6736899ab2ff8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: A4 copy paper 80gsm, reams of 500 sheets\nCountry of origin: ID\n\nChosen so far: 48 Paper and paperboard; articles of paper pulp, of paper or paperboard > 4809 Carbon paper, self copy paper, and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets\n\nChoose the subheading that covers these goods. Options:\n- 480920: Paper; self-copy paper, whether or not printed, in rolls or sheets\n- 480990: Paper; carbon paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8f4e32ecb214f8ea51911cfde6a9277cbcbf61743495c633b5787d38b838f90d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "480920",
+      "cited": [
+        "480920"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 399,
+    "latency_ms": 0,
+    "output_tokens": 31
+  }
+}

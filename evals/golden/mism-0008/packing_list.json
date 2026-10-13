@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0008",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202621-3018",
+    "date": "2026-07-02",
+    "seller": {
+      "name": "Chonburi Sukjai Industrial Co., Ltd.",
+      "address": [
+        "No. 114 Industrial Road",
+        "Chonburi",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Cohen-Johnson",
+      "address": [
+        "Unit 12 46 Moore Lees",
+        "2665 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Sydney",
+    "package_type": "CARTONS",
+    "total_packages": 1098,
+    "total_net_weight_kg": "9593.60",
+    "total_gross_weight_kg": "11236.93"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Canned skipjack tuna in oil, 185g",
+      "country_of_origin": "TH",
+      "quantity": "10848",
+      "unit": "pcs",
+      "packages": 226,
+      "net_weight_kg": "2212.99",
+      "gross_weight_kg": "2481.75"
+    },
+    {
+      "line_no": 2,
+      "description": "Passenger car tyre 205/55R16",
+      "country_of_origin": "TH",
+      "quantity": "1020",
+      "unit": "pcs",
+      "packages": 872,
+      "net_weight_kg": "7380.61",
+      "gross_weight_kg": "8755.18"
+    }
+  ]
+}

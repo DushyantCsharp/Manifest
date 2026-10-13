@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "1615699fab8f7fb44518d8975ac67d010f620e072b19fc04d1e213e42b969ff6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER i . ;\nXiamen’ Ruifeng Import & Export Co., Ltd.\n\n| HAPAG-LLOYD\n\nWinter PLC\n\nNo, 386 Industrial Road, Xiamen, China’ BILL OF LADING\nBNO. - Ls\nHLCUVL7972964\n‘CONSIGNEE © NOTIFY PARTY’\n\n. reat Soren : Fowler, Gregory and Begum.\nStudio 9, Miles Fort, HAl SHD. Durban, South Africa\n\nFlat 4, Frances Falls, M40: 6ZA\nJohannesburg, South Africa —\n\n“OCEAN VESSEL / VOYAGE NO.\n| HAPAG-LLOYD TRITON / 590E\n\nFREIGHT\n\nFREIGHT COLLECT\n\n| Shanghai, 18-SEP-2026\n\nPORT OF LOADING PORT OF DISCHARGE\nShanghai Cape Town\nCONTAINER / SEAL | MARKS & NOS. . | NO. OF DESCRIPTION OF GOODS. _ GROSS WEIGHT.\nNO. — ; PACKAGES : : j .\nHLCU6052036 | WINTER /. . 1386 . |SAID°T0, CONTAIN: ‘Deep groove ball bearing 20,269.03 kg\nSEAL _-. EX202683-2035 | CARTONS 6205-2RS; City bicycle 28in, 7-speed; ‘ tee :\n7433542 a Upholstered office chair, steel base; Stainless\n: steel saucepan 20cm;..Polarized sunglasses;\n| Leather handbag with shoulder strap; LED bulb\n\nE27 9W warm white; Hair dryer 2200W ionic;\n\nSmartphone 6.lin, 128GB\nSHIPPED ON BOARD ~ PLACE AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\n18-SEP-2026\n\nTHREE (3)\n\nSECENED by he GanlarFepparent good order and condton unis Uherwise stated, the tla number of containers of packages Shown above for cariage rom the por of leading 19 Re A\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier HAPAG-LLOYD. oS .\n\nPage 1 of |\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "HLCUVL7972964",
+        "value": "HLCUVL7972964"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Winter PLC",
+        "value": "Winter PLC"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "| HAPAG-LLOYD",
+        "value": "HAPAG-LLOYD"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "HLCU6052036 | WINTER /. . 1386 . |SAID°T0, CONTAIN: ‘Deep groove ball bearing 20,269.03 kg",
+        "value": "HLCU6052036"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": ". reat Soren : Fowler, Gregory and Begum.",
+        "value": "Fowler, Gregory and Begum"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "SEAL _-. EX202683-2035 | CARTONS 6205-2RS; City bicycle 28in, 7-speed; ‘ tee :",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Shanghai Cape Town",
+        "value": "Cape Town"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "| Shanghai, 18-SEP-2026",
+        "value": "Shanghai"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "7433542 a Upholstered office chair, steel base; Stainless",
+        "value": "7433542"
+      },
+      "seller_name": {
+        "confidence": "0.89",
+        "evidence": "Xiamen’ Ruifeng Import & Export Co., Ltd.",
+        "value": "Xiamen’ Ruifeng Import & Export Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "| Shanghai, 18-SEP-2026",
+        "value": "18-SEP-2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "HLCU6052036 | WINTER /. . 1386 . |SAID°T0, CONTAIN: ‘Deep groove ball bearing 20,269.03 kg",
+        "value": "20,269.03 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "HLCU6052036 | WINTER /. . 1386 . |SAID°T0, CONTAIN: ‘Deep groove ball bearing 20,269.03 kg",
+        "value": "1386"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "| HAPAG-LLOYD TRITON / 590E",
+        "value": "HAPAG-LLOYD TRITON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "| HAPAG-LLOYD TRITON / 590E",
+        "value": "590E"
+      }
+    },
+    "input_tokens": 586,
+    "latency_ms": 0,
+    "output_tokens": 503
+  }
+}

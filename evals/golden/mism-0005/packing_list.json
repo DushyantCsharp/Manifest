@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0005",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-0013/26",
+    "date": "2026-07-29",
+    "seller": {
+      "name": "Penang Gemilang Electronics Co., Ltd.",
+      "address": [
+        "No. 171 Harbour Road",
+        "Penang",
+        "Malaysia"
+      ],
+      "country": "MY"
+    },
+    "buyer": {
+      "name": "Klapp GmbH & Co. KG",
+      "address": [
+        "Rolf-Peter-Trupp-Platz 34-44",
+        "55722 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "incoterm": "FOB",
+    "incoterm_place": "Port Klang",
+    "package_type": "CARTONS",
+    "total_packages": 851,
+    "total_net_weight_kg": "16665.57",
+    "total_gross_weight_kg": "17553.74"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "LED bulb E27 9W warm white",
+      "country_of_origin": "CN",
+      "quantity": "11385",
+      "unit": "pcs",
+      "packages": 57,
+      "net_weight_kg": "785.57",
+      "gross_weight_kg": "919.44"
+    },
+    {
+      "line_no": 2,
+      "description": "Aluminium household foil 12 micron",
+      "country_of_origin": "IT",
+      "quantity": "15880",
+      "unit": "kg",
+      "packages": 794,
+      "net_weight_kg": "15880.00",
+      "gross_weight_kg": "16634.30"
+    }
+  ]
+}

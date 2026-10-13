@@ -1,0 +1,81 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0001",
+  "document": "commercial_invoice",
+  "layout": "us",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-1.33",
+    "noise_sigma": 8,
+    "salt_pepper": "0.0024",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-17807",
+    "invoice_date": "2026-05-17",
+    "seller": {
+      "name": "Balay-Dass",
+      "address": [
+        "57/142, Parekh Chowk",
+        "736831 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Reed Group",
+      "address": [
+        "72183 Mark Manors Suite 748",
+        "X3N 9G6 Toronto",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "currency": "CAD",
+    "incoterm": "FCA",
+    "incoterm_place": "Ludhiana",
+    "payment_terms": "L/C at sight",
+    "total_amount": "203081.92"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "MY",
+      "quantity": "73",
+      "unit": "pcs",
+      "unit_price": "144.64",
+      "amount": "10558.72"
+    },
+    {
+      "line_no": 2,
+      "description": "Frozen vannamei shrimp, peeled",
+      "country_of_origin": "IN",
+      "quantity": "12200",
+      "unit": "kg",
+      "unit_price": "13.34",
+      "amount": "162748.00"
+    },
+    {
+      "line_no": 3,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "CN",
+      "quantity": "308",
+      "unit": "pcs",
+      "unit_price": "65.40",
+      "amount": "20143.20"
+    },
+    {
+      "line_no": 4,
+      "description": "LDPE film-grade granules",
+      "country_of_origin": "SA",
+      "quantity": "5600",
+      "unit": "kg",
+      "unit_price": "1.72",
+      "amount": "9632.00"
+    }
+  ]
+}

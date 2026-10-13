@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "08af2a1d6106a1be7a4e4749c05eecf0600188c358086fb03e7e026c0d9bdc4f",
+  "retriever": "offline-lexical",
+  "query": "Long grain white rice, milled and polished origin TH",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "100630",
+      "description": "Cereals; rice, semi-milled or wholly milled, whether or not polished or glazed",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "110429",
+      "description": "Cereal grains; worked, other than rolled or flaked (e.g. Hulled, pearled, sliced or kibbled) of cereals, excluding oats and maize, and rice of heading no.1006",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "110412",
+      "description": "Cereal grains; rolled or flaked, of oats",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "110419",
+      "description": "Cereal grains; rolled or flaked, other than oats",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "110422",
+      "description": "Cereal grains; worked (e.g. hulled, pearled, sliced or kibbled) of oats",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "110423",
+      "description": "Cereal grains; worked (e.g. hulled, pearled, sliced or kibbled) of maize (corn)",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "600110",
+      "description": "Fabrics; long pile fabrics, knitted or crocheted",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "600191",
+      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of cotton, knitted or crocheted",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "721710",
+      "description": "Iron or non-alloy steel; wire, (not plated or coated), whether or not polished",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "110430",
+      "description": "Cereal; germ of cereals, whole, rolled, flaked or ground",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "100640",
+      "description": "Cereals; rice, broken",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "600192",
+      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of man-made fibres, knitted or crocheted",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "081030",
+      "description": "Fruit, edible; black, white or red currants and gooseberries, fresh",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "100620",
+      "description": "Cereals; husked (brown) rice",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "170490",
+      "description": "Sugar confectionery; (excluding chewing gum, including white chocolate), not containing cocoa",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "100610",
+      "description": "Cereals; rice in the husk (paddy or rough)",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "600199",
+      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of textile materials (other than cotton or man-made fibres), knitted or crocheted",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "700510",
+      "description": "Glass; float glass and surface ground or polished glass, in sheets, non-wired, having an absorbent reflecting or non-reflecting layer",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "700530",
+      "description": "Glass; float glass and surface ground or polished glass, in sheets, wired glass, whether or not having an absorbent or reflecting layer",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "252321",
+      "description": "Cement; portland, white, whether or not artificially coloured",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

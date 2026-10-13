@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0010",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "HLCUVG3017718",
+    "seller": {
+      "name": "Gasperi-Finetti SPA",
+      "address": [
+        "Strada Giovine, 24",
+        "64011 Prato",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Fernandez",
+      "address": [
+        "77, rue Collet",
+        "35329 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": {
+      "name": "Maurice S.A.S.",
+      "address": [
+        "chemin Cécile Chauvet",
+        "81609 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD TAGE",
+    "voyage": "296W",
+    "port_of_loading": "La Spezia",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-02-20",
+    "container_number": "HLCU2448055",
+    "seal_number": "1885491",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 2539,
+    "total_gross_weight_kg": "23688.91",
+    "goods_description": "SAID TO CONTAIN: Roasted coffee beans, whole; Polarized sunglasses; Red wine, 0.75L bottle"
+  },
+  "line_items": []
+}

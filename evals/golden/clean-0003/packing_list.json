@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0003",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202658-1822",
+    "date": "2026-09-21",
+    "seller": {
+      "name": "Bangkok Siam Trading Co., Ltd.",
+      "address": [
+        "No. 42 Avenue 3",
+        "Bangkok",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Bolkesteijn Groep",
+      "address": [
+        "Abeldreef 2",
+        "4065 NA Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "incoterm": "CIP",
+    "incoterm_place": "Utrecht",
+    "package_type": "CARTONS",
+    "total_packages": 994,
+    "total_net_weight_kg": "21753.12",
+    "total_gross_weight_kg": "23672.84"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "CN",
+      "quantity": "17000",
+      "unit": "kg",
+      "packages": 17,
+      "net_weight_kg": "17000.00",
+      "gross_weight_kg": "18153.79"
+    },
+    {
+      "line_no": 2,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "9400",
+      "unit": "pcs",
+      "packages": 94,
+      "net_weight_kg": "366.60",
+      "gross_weight_kg": "533.06"
+    },
+    {
+      "line_no": 3,
+      "description": "Nitrile examination gloves, box of 100",
+      "country_of_origin": "TH",
+      "quantity": "8826",
+      "unit": "sets",
+      "packages": 883,
+      "net_weight_kg": "4386.52",
+      "gross_weight_kg": "4985.99"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "1c00d6895c28dfc3742b5344f05c750ef00a14881f1894d014c4517baf8dc180",
+  "retriever": "offline-lexical",
+  "query": "Single malt Scotch whisky 70cl origin GB",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "220830",
+      "description": "Whiskies",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "220300",
+      "description": "Beer; made from malt",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "110720",
+      "description": "Malt; roasted",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "110710",
+      "description": "Malt; not roasted",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "110820",
+      "description": "Inulin",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "190190",
+      "description": "Food preparations; of flour, meal, starch, malt extract or milk products, for uses n.e.c. in heading no. 1901",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "110811",
+      "description": "Starch; wheat",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "530610",
+      "description": "Yarn; of flax, single",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "110813",
+      "description": "Starch; potato",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "320190",
+      "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "110100",
+      "description": "Wheat or meslin flour",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "110320",
+      "description": "Cereal pellets",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "110812",
+      "description": "Starch; maize (corn) starch",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "110814",
+      "description": "Starch; manioc (cassava)",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

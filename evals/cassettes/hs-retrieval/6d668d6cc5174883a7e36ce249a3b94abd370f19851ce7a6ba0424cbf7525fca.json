@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "6d668d6cc5174883a7e36ce249a3b94abd370f19851ce7a6ba0424cbf7525fca",
+  "retriever": "offline-lexical",
+  "query": "PVC resin, suspension grade, not mixed origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "870880",
+      "description": "Vehicle parts; suspension systems and parts thereof (including shock-absorbers)",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "470200",
+      "description": "Wood pulp; chemical wood pulp, dissolving grades",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "470411",
+      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of coniferous wood",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "470311",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of coniferous wood",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "470419",
+      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of non-coniferous wood",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "470421",
+      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of coniferous wood",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "470319",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of non-coniferous wood",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "470321",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of coniferous wood",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "470429",
+      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "470329",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "441011",
+      "description": "Particle board of wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "441012",
+      "description": "Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "441192",
+      "description": "Fibreboard (other than MDF) of a density exceeding 0.8g/cm3, of wood or other ligneous materials, bonded or not with resins or other organic substances",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "441194",
+      "description": "Fibreboard (other than MDF) of a density not exceeding 0.5g/cm3, of wood or other ligneous materials, bonded or not with resins or other organic substances",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "350300",
+      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "441019",
+      "description": "Wafer board and similar board of wood n.e.c. in item no. 4410.1, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "390940",
+      "description": "Phenolic resins; in primary forms",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "441090",
+      "description": "Particle board, oriented strand board (OSB) and similar board of ligneous materials other than wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

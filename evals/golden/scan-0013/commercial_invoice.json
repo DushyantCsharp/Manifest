@@ -1,0 +1,115 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0013",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-2.98",
+    "noise_sigma": 7,
+    "salt_pepper": "0.0011",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202675-4069",
+    "invoice_date": "2026-07-14",
+    "seller": {
+      "name": "Lahore Crescent Industrial Co., Ltd.",
+      "address": [
+        "No. 353 Ring Road",
+        "Lahore",
+        "Pakistan"
+      ],
+      "country": "PK"
+    },
+    "buyer": {
+      "name": "Weeks-Gonzalez",
+      "address": [
+        "29/5 Robert Grove",
+        "3849 Brisbane",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Karachi",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "229254.82"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Split air conditioner 12000 BTU",
+      "country_of_origin": "TH",
+      "quantity": "158",
+      "unit": "pcs",
+      "unit_price": "161.97",
+      "amount": "25591.26",
+      "hs_code": "841510"
+    },
+    {
+      "line_no": 2,
+      "description": "Cotton knitted pullover",
+      "country_of_origin": "BD",
+      "quantity": "1121",
+      "unit": "pcs",
+      "unit_price": "11.12",
+      "amount": "12465.52",
+      "hs_code": "611020"
+    },
+    {
+      "line_no": 3,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "MX",
+      "quantity": "236",
+      "unit": "pcs",
+      "unit_price": "396.67",
+      "amount": "93614.12",
+      "hs_code": "852872"
+    },
+    {
+      "line_no": 4,
+      "description": "Nitrile examination gloves, box of 100",
+      "country_of_origin": "TH",
+      "quantity": "9250",
+      "unit": "sets",
+      "unit_price": "4.04",
+      "amount": "37370.00",
+      "hs_code": "401512"
+    },
+    {
+      "line_no": 5,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "1008",
+      "unit": "pcs",
+      "unit_price": "10.46",
+      "amount": "10543.68",
+      "hs_code": "851679"
+    },
+    {
+      "line_no": 6,
+      "description": "Analog quartz wristwatch, steel case",
+      "country_of_origin": "JP",
+      "quantity": "818",
+      "unit": "pcs",
+      "unit_price": "9.98",
+      "amount": "8163.64",
+      "hs_code": "910211"
+    },
+    {
+      "line_no": 7,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "KR",
+      "quantity": "148",
+      "unit": "pcs",
+      "unit_price": "280.45",
+      "amount": "41506.60",
+      "hs_code": "850760"
+    }
+  ]
+}

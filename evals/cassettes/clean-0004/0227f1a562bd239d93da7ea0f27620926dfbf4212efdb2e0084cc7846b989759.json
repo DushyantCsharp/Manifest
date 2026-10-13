@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "0227f1a562bd239d93da7ea0f27620926dfbf4212efdb2e0084cc7846b989759",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nKhanna LLC\r\n56/973, Mittal Zila, 603532 Mumbai, India\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUMA9303387 \r\nCONSIGNEE\r\nBailey, Martin and Hardy\r\nFlat 6, Hayward Port, TW7R 2BY Birmingham, United\r\nKingdom\r\nNOTIFY PARTY\r\nDennis LLC\r\nFlat 43, Ross Club, BL1H 5BY Leeds, United\r\nKingdom\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC ZEPHYR / 708W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nChennai\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU0757126\r\nSEAL 5902472\r\nBAILEY, /\r\n2026/0296\r\n592\r\nCARTONS\r\nSAID TO CONTAIN: Leather handbag with shoulder\r\nstrap; Stainless steel saucepan 20cm; Stainless\r\ncutlery set, 24 pieces\r\n19,182.3 lb\r\nSHIPPED ON BOARD\r\nJuly 17, 2026\r\nPLACE AND DATE OF ISSUE\r\nChennai, July 17, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "MEDUMA9303387",
+        "value": "MEDUMA9303387"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Bailey, Martin and Hardy",
+        "value": "Bailey, Martin and Hardy"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MSC",
+        "value": "MSC"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "MEDU0757126",
+        "value": "MEDU0757126"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Dennis LLC",
+        "value": "Dennis LLC"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Southampton",
+        "value": "Southampton"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Chennai",
+        "value": "Chennai"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 5902472",
+        "value": "5902472"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Khanna LLC",
+        "value": "Khanna LLC"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "July 17, 2026",
+        "value": "July 17, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "19,182.3 lb",
+        "value": "19,182.3 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "592",
+        "value": "592"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "MSC ZEPHYR / 708W",
+        "value": "MSC ZEPHYR"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "MSC ZEPHYR / 708W",
+        "value": "708W"
+      }
+    },
+    "input_tokens": 519,
+    "latency_ms": 0,
+    "output_tokens": 362
+  }
+}

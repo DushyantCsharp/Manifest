@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0007",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-2.74",
+    "noise_sigma": 11,
+    "salt_pepper": "0.0019",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYEJ5137402",
+    "seller": {
+      "name": "Chattogram Padma Manufacturing Co., Ltd.",
+      "address": [
+        "No. 280 Ring Road",
+        "Chattogram",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "Larysz Sp.j.",
+      "address": [
+        "al. Plater 76",
+        "63-797 Łódź",
+        "Poland"
+      ],
+      "country": "PL"
+    },
+    "notify_party": {
+      "name": "Fundacja Bodziony",
+      "address": [
+        "pl. Jana 09",
+        "54-110 Poznań",
+        "Poland"
+      ],
+      "country": "PL"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE HARMONY",
+    "voyage": "104S",
+    "port_of_loading": "Chattogram",
+    "port_of_discharge": "Gdańsk",
+    "shipped_on_board": "2026-07-17",
+    "container_number": "ONEU6469265",
+    "seal_number": "2312776",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 496,
+    "total_gross_weight_kg": "6025.13",
+    "goods_description": "SAID TO CONTAIN: Men's crew-neck T-shirt, 100% cotton jersey; Cotton knitted pullover; Men's woven cotton shirt, long sleeve"
+  },
+  "line_items": []
+}

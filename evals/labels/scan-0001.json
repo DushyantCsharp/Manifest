@@ -1,0 +1,113 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0001",
+  "seed": 2740566862,
+  "layout": "us",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "INV-2026-17807",
+    "invoice_date": "2026-05-17",
+    "seller": {
+      "name": "Balay-Dass",
+      "address": [
+        "57/142, Parekh Chowk",
+        "736831 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Reed Group",
+      "address": [
+        "72183 Mark Manors Suite 748",
+        "X3N 9G6 Toronto",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "currency": "CAD",
+    "incoterm": "FCA",
+    "incoterm_place": "Ludhiana",
+    "payment_terms": "L/C at sight",
+    "total_amount": "203081.92",
+    "bl_number": "ONEYLA6131517",
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE MERIDIAN",
+    "voyage": "443W",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-05-25",
+    "container_number": "ONEU1362844",
+    "seal_number": "3513552",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1601,
+    "total_gross_weight_kg": "24212.04",
+    "goods_description": "SAID TO CONTAIN: Solar PV module 410W monocrystalline; Frozen vannamei shrimp, peeled; AC induction motor 0.55kW 3-phase; LDPE film-grade granules",
+    "total_net_weight_kg": "21634.68",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Solar PV module 410W monocrystalline",
+        "country_of_origin": "MY",
+        "quantity": "73",
+        "unit": "pcs",
+        "unit_price": "144.64",
+        "amount": "10558.72",
+        "hs_code": "854143",
+        "packages": 3,
+        "net_weight_kg": "1516.06",
+        "gross_weight_kg": "1634.97"
+      },
+      {
+        "line_no": 2,
+        "description": "Frozen vannamei shrimp, peeled",
+        "country_of_origin": "IN",
+        "quantity": "12200",
+        "unit": "kg",
+        "unit_price": "13.34",
+        "amount": "162748.00",
+        "hs_code": "030617",
+        "packages": 1220,
+        "net_weight_kg": "12200.00",
+        "gross_weight_kg": "14078.80"
+      },
+      {
+        "line_no": 3,
+        "description": "AC induction motor 0.55kW 3-phase",
+        "country_of_origin": "CN",
+        "quantity": "308",
+        "unit": "pcs",
+        "unit_price": "65.40",
+        "amount": "20143.20",
+        "hs_code": "850151",
+        "packages": 154,
+        "net_weight_kg": "2318.62",
+        "gross_weight_kg": "2483.87"
+      },
+      {
+        "line_no": 4,
+        "description": "LDPE film-grade granules",
+        "country_of_origin": "SA",
+        "quantity": "5600",
+        "unit": "kg",
+        "unit_price": "1.72",
+        "amount": "9632.00",
+        "hs_code": "390110",
+        "packages": 224,
+        "net_weight_kg": "5600.00",
+        "gross_weight_kg": "6014.40"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

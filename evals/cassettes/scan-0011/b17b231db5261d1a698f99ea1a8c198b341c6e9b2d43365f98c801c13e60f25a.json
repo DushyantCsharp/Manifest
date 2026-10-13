@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "b17b231db5261d1a698f99ea1a8c198b341c6e9b2d43365f98c801c13e60f25a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER °.° ay, one\nTaichung Yungshin Textile Co., Ltd.\n\nMAERSK\n\nMassey. Inc\n4324 Brittany Lodge\n\n, M9Y 9S7 Vancouver, Canada .\n\n[No. 250 Industrial. Road, Taichung, ‘Taiwan: . BILL OF LADING\n3 MAEUXG8596004 -\nCONSIGNEE NOTIFY PARTY\n\nWilliams, Turner and Foster\n\n‘| 7196-John Route ‘Suite 853, G9P 9L4\n\nVancouver, Canada ..°\n\nOCEAN VESSEL / VOYAGE ‘NO.\nMAERSK ‘TAGE / 684N\n\n| FREIGHT ©\n\nFREIGHT - PREPAID\n\n| PORT OF LOADING\n\nPORT OF DISCHARGE\n\n04/17/2026 an Keelung, ‘04/17/2026\n\n4 Keelung 7 Vancouver:\n| CONTAINER /SEAL |MARKS&NOS. ‘[No.oF . _ | DESCRIPTION OF GooDs GROSS WEIGHT\n|No. -  Ipackaces “|. °°) .” ae\n‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg\na SEAL 2723343. | INV-2026-91736 | CARTONS . | Split air conditioner 12000. BTU\nSHIPPED ON BOARD. 3 ‘ PLACE AND DATE OF ISSUE : NUMBER OF ORIGINAL BILS\nTHREE (3)\n\nRECEIVED by. the Carrier in apparent good onder and condition unless otherwise stated, the total number of containers or packages shown above for carr\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MAERSK. .\n\nage from the port of loading to the port\n\n* Page | of 1\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "3 MAEUXG8596004 -",
+        "value": "MAEUXG8596004"
+      },
+      "buyer_name": {
+        "confidence": "0.86",
+        "evidence": "Massey. Inc",
+        "value": "Massey. Inc"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MAERSK",
+        "value": "MAERSK"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg",
+        "value": "MAEU3279004"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT - PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Williams, Turner and Foster",
+        "value": "Williams, Turner and Foster"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "a SEAL 2723343. | INV-2026-91736 | CARTONS . | Split air conditioner 12000. BTU",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": ", M9Y 9S7 Vancouver, Canada .",
+        "value": "Vancouver"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "04/17/2026 an Keelung, ‘04/17/2026",
+        "value": "Keelung"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "a SEAL 2723343. | INV-2026-91736 | CARTONS . | Split air conditioner 12000. BTU",
+        "value": "2723343"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Taichung Yungshin Textile Co., Ltd.",
+        "value": "Taichung Yungshin Textile Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "04/17/2026 an Keelung, ‘04/17/2026",
+        "value": "04/17/2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg",
+        "value": "17,156.71 kg"
+      },
+      "total_packages": {
+        "confidence": "0.60",
+        "evidence": "‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg",
+        "value": "4531."
+      },
+      "vessel": {
+        "confidence": "0.86",
+        "evidence": "MAERSK ‘TAGE / 684N",
+        "value": "MAERSK ‘TAGE"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "MAERSK ‘TAGE / 684N",
+        "value": "684N"
+      }
+    },
+    "input_tokens": 532,
+    "latency_ms": 0,
+    "output_tokens": 507
+  }
+}

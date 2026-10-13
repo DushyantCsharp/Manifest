@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "96a3b3f2424def08be14844613cf931bb222af196aedb7095edcdea08fed930d",
+  "retriever": "offline-lexical",
+  "query": "Ballpoint pens with plastic body origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "960899",
+      "description": "Pens and pencils; duplicating stylos, pen-holders, pencil-holders, and similar holders, parts of the articles of heading 9608, including caps and clips",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "960850",
+      "description": "Pen and pencil sets; of articles from two or more of the foregoing sub-headings",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "960810",
+      "description": "Pens; ball point",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "960830",
+      "description": "Pens; fountain, stylograph and other pens",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "960820",
+      "description": "Pens; felt tipped and other porous-tipped pens and markers",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "960891",
+      "description": "Pens; nibs and nib points",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "960860",
+      "description": "Pens; ball-point, refills comprising the ball point and ink-reservoir",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "830400",
+      "description": "Office equipment; filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading no. 9403",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "870821",
+      "description": "Vehicles; parts of bodies, safety seat belts",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "441700",
+      "description": "Wood; tools, tool bodies, tool handles, broom or brush bodies and handles, boot and shoe lasts and trees, of wood",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "870710",
+      "description": "Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8703",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "870829",
+      "description": "Vehicles; parts and accessories, of bodies, other than safety seat belts",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "240491",
+      "description": "Products n.e.c. in heading 2404, intended for the intake of nicotine into the human body, for oral application",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "240492",
+      "description": "Products n.e.c. in heading 2404, intended for the intake of nicotine into the human body, for transdermal application",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "870790",
+      "description": "Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8701, 8702, 8704 or 8705",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

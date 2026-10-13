@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "b33ed3e9b6a0465dfd9d8a005f7fff56dcde29bd9e3bbacdc60ae44ba2e0a0e7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nNarváez & Asociados S.A.\r\nC. de Héctor Coll 90, 16963 Guayaquil, Ecuador\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYLB5183699 \r\nCONSIGNEE\r\nLarson-Robertson\r\n00300 Tiffany Crescent, 19048 Savannah, United States\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE VALENCIA / 507W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nGuayaquil\r\nPORT OF DISCHARGE\r\nLos Angeles\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU4434064\r\nSEAL\r\n3761647\r\nLARSON￾ROBERTSON /\r\n2026/4803\r\n1155\r\nCARTONS\r\nSAID TO CONTAIN: Cashew kernels W320; Men's\r\nwoven cotton shirt, long sleeve; Running\r\nshoes, rubber sole, textile upper; Stainless\r\ncutlery set, 24 pieces\r\n46,388.6 lb\r\nSHIPPED ON BOARD\r\nMay 2, 2026\r\nPLACE AND DATE OF ISSUE\r\nGuayaquil, May 2, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYLB5183699",
+        "value": "ONEYLB5183699"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Larson-Robertson",
+        "value": "Larson-Robertson"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU4434064",
+        "value": "ONEU4434064"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Los Angeles",
+        "value": "Los Angeles"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "C. de Héctor Coll 90, 16963 Guayaquil, Ecuador",
+        "value": "Guayaquil"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "3761647",
+        "value": "3761647"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Narváez & Asociados S.A.",
+        "value": "Narváez & Asociados S.A."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "May 2, 2026",
+        "value": "May 2, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "46,388.6 lb",
+        "value": "46,388.6 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1155",
+        "value": "1155"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE VALENCIA / 507W",
+        "value": "ONE VALENCIA"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "ONE VALENCIA / 507W",
+        "value": "507W"
+      }
+    },
+    "input_tokens": 522,
+    "latency_ms": 0,
+    "output_tokens": 373
+  }
+}

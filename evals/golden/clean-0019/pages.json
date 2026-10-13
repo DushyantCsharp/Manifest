@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "K Korpal and Sons I N VO I C E\r\nINVOICE\r\nNumber: 2026/6840\r\nDate: September 10, 2026\r\nTerms: T/T 30 days after B/L date \r\nSOLD TO\r\nStokes, Woods and Austin\r\nFlat 38, Adams Fort, CM3 1TZ Leeds,\r\nUnited Kingdom \r\nDELIVERY\r\nDDP Manchester (Incoterms 2020)\r\nvia Mundra to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Combed cotton yarn Ne 30/1 India 13,650 kg 3.11 42,451.50\r\nAmount due 42,451.50\r\nAll amounts are in US dollars (USD). Please quote invoice 2026/6840 with your payment. \r\n06, Gola Zila | 914197 Ludhiana | India\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Korpal and Sons\r\n06, Gola Zila, 914197 Ludhiana, India\r\nPACKING LIST\r\nInvoice Ref. 2026/6840\r\nDate September 10, 2026\r\nCONSIGNEE\r\nStokes, Woods and Austin\r\nFlat 38, Adams Fort, CM3 1TZ Leeds, United Kingdom\r\nTERMS OF DELIVERY\r\nDDP Manchester\r\nMundra to Southampton\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb\r\nTotal 273 BAGS 30,093.1 lb 33,036.2 lb\r\nShipping marks: STOKES, / 2026/6840\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nKorpal and Sons\r\n06, Gola Zila, 914197 Ludhiana, India\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYBV5709577 \r\nCONSIGNEE\r\nStokes, Woods and Austin\r\nFlat 38, Adams Fort, CM3 1TZ Leeds, United Kingdom\r\nNOTIFY PARTY\r\nSmith-King\r\nStudio 03d, Terence Plain, S0S 3BU Leeds,\r\nUnited Kingdom\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE TAGE / 351S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nMundra\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU0138357\r\nSEAL 5140503\r\nSTOKES, /\r\n2026/6840\r\n273 BAGS SAID TO CONTAIN: Combed cotton yarn Ne\r\n30/1\r\n33,036.2 lb\r\nSHIPPED ON BOARD\r\nSeptember 21, 2026\r\nPLACE AND DATE OF ISSUE\r\nMundra, September 21, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1"
+    }
+  ]
+}

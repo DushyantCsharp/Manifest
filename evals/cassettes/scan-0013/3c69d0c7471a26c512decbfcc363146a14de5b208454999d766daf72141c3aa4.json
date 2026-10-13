@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "3c69d0c7471a26c512decbfcc363146a14de5b208454999d766daf72141c3aa4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\n\nNo. 353 Ring Road,- Lahore,\n\nLahore Crescent Industrial Co., itd.\n\nPakistan\n\nCOscO\nBILL OF LADING\n\nBLNO. ©\nCOSUII3833836\n\nCONSIGNEE -\nWeeks-Gonzalez\n29/5: Robert Grove, .3849 Br\n\nisbane, Australia\n\nNOTIFY PARTY °\nSAME AS CONSIGNEE.\n\nOCEAN VESSEL / VOYAGE NO.\nCOSCO AURORA / 2685\n\nFREIGHT\nFREIGHT COLLECT\n\nPORT OF LOADING\n\n17-JUL-2026\n\nKarachi; 17-guL-2026. - ,\n\nTHREE (3)\n\n| PORT OF DISCHARGE\n\nKarachi Melbourne\nNO. : . PACKAGES pu ore feat bess\nC0sU3313057 | weEKs- 1504 SAID TO CONTAIN: Split: air conditioner 12000 | 19,128.49 kg\nSEAL GONZALEZ :/ CARTONS | BTU; Cotton knitted pullover; LED. television . .\n8882129 EX202675-4069 S55in 4k; Nitrile ‘examination gloves, box of ‘\nae : 100; Electric kettle 1.7L stainless; Analog\n\nquartz wristwatch) steel case; Lithium-ion\n\nbattery pack 48V 20ah\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE \"NUMBER OF ORIGINAL B/LS\n\n‘Page | of |\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.76",
+        "evidence": "COSUII3833836",
+        "value": "COSUII3833836"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Weeks-Gonzalez",
+        "value": "Weeks-Gonzalez"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "COSCO AURORA / 2685",
+        "value": "COSCO"
+      },
+      "container_number": {
+        "confidence": "0.74",
+        "evidence": "C0sU3313057 | weEKs- 1504 SAID TO CONTAIN: Split: air conditioner 12000 | 19,128.49 kg",
+        "value": "C0sU3313057"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "SEAL GONZALEZ :/ CARTONS | BTU; Cotton knitted pullover; LED. television . .",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Karachi Melbourne",
+        "value": "Melbourne"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Karachi; 17-guL-2026. - ,",
+        "value": "Karachi"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "8882129 EX202675-4069 S55in 4k; Nitrile ‘examination gloves, box of ‘",
+        "value": "8882129"
+      },
+      "seller_name": {
+        "confidence": "0.87",
+        "evidence": "Lahore Crescent Industrial Co., itd.",
+        "value": "Lahore Crescent Industrial Co., itd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "17-JUL-2026",
+        "value": "17-JUL-2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "C0sU3313057 | weEKs- 1504 SAID TO CONTAIN: Split: air conditioner 12000 | 19,128.49 kg",
+        "value": "19,128.49 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "C0sU3313057 | weEKs- 1504 SAID TO CONTAIN: Split: air conditioner 12000 | 19,128.49 kg",
+        "value": "1504"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "COSCO AURORA / 2685",
+        "value": "COSCO AURORA"
+      },
+      "voyage": {
+        "confidence": "0.68",
+        "evidence": "COSCO AURORA / 2685",
+        "value": "2685"
+      }
+    },
+    "input_tokens": 456,
+    "latency_ms": 0,
+    "output_tokens": 468
+  }
+}

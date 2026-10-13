@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "3a0ca33d3dcafc51c3de21fd028d3630c38842a7f548578b54a2e614ac71f8cd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Ballpoint pens with plastic body\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 96: Miscellaneous manufactured articles\n    contains 960899: Pens and pencils; duplicating stylos, pen-holders, pencil-holders, and similar holders, parts of the articles of heading 9608, including caps and clips\n    contains 960850: Pen and pencil sets; of articles from two or more of the foregoing sub-headings\n    contains 960810: Pens; ball point\n    contains 960830: Pens; fountain, stylograph and other pens\n    contains 960820: Pens; felt tipped and other porous-tipped pens and markers\n    contains 960891: Pens; nibs and nib points\n    contains 960860: Pens; ball-point, refills comprising the ball point and ink-reservoir\n- 83: Metal; miscellaneous products of base metal\n    contains 830400: Office equipment; filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading no. 9403\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 870821: Vehicles; parts of bodies, safety seat belts\n    contains 870710: Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8703\n    contains 870829: Vehicles; parts and accessories, of bodies, other than safety seat belts\n    contains 870790: Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8701, 8702, 8704 or 8705\n- 44: Wood and articles of wood; wood charcoal\n    contains 441700: Wood; tools, tool bodies, tool handles, broom or brush bodies and handles, boot and shoe lasts and trees, of wood\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 24: Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body\n    contains 240491: Products n.e.c. in heading 2404, intended for the intake of nicotine into the human body, for oral application\n    contains 240492: Products n.e.c. in heading 2404, intended for the intake of nicotine into the human body, for transdermal application\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d350a53a6935ae0a0c05889ccc2ae63f48a806c04e4c7244c310b0297b431438",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "96",
+      "cited": [
+        "96"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 985,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

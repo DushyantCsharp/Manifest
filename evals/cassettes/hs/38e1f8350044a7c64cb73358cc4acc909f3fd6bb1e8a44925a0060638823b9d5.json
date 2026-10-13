@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "38e1f8350044a7c64cb73358cc4acc909f3fd6bb1e8a44925a0060638823b9d5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Office swivel chair with gas-lift height adjustment, upholstered, metal base\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940310: Furniture; metal, for office use\n    contains 940320: Furniture; metal, other than for office use\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 842860: Teleferics, chair-lifts, ski-draglines, traction mechanisms for funiculars\n- 83: Metal; miscellaneous products of base metal\n    contains 830520: Stationery; staples in strips, (e.g. for offices, upholstery, packaging), of base metal\n    contains 830590: Stationery; letter clips, letter corners, paper clips, indexing tags and similar office articles, including parts, of base metal\n    contains 830400: Office equipment; filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading no. 9403\n    contains 830510: Stationery; fittings for loose-leaf binders or files, of base metal\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481930: Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more\n    contains 481940: Paper and paperboard; sacks and bags, including cones, of paper, paperboard, cellulose wadding or fibres, having a base width less than 40cm\n- 72: Iron and steel\n    contains 721631: Iron or non-alloy steel; U sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more\n    contains 721632: Iron or non-alloy steel; I sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more\n    contains 721633: Iron or non-alloy steel; H sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more\n    contains 721640: Iron or non-alloy steel; L or T sections, hot-rolled, hot-drawn or extruded, of a height of 80mm or more\n    contains 721610: Iron or non-alloy steel; U, I or H sections, hot-rolled, hot-drawn or extruded, of a height of less than 80mm\n    contains 721621: Iron or non-alloy steel; L sections, hot-rolled, hot-drawn or extruded, of a height of less than 80mm\n- 71: Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin\n    contains 711320: Jewellery; of base metal clad with precious metal, and parts thereof\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "545c757f17f1c5287f63c23792f7179ffa643671774f5ce273b8ea1e2e099294",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "94",
+      "cited": [
+        "94"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1047,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

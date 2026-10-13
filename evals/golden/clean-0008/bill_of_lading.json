@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0008",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVSG8570685",
+    "seller": {
+      "name": "Lahore Sapphire Industrial Co., Ltd.",
+      "address": [
+        "No. 384 Avenue 3",
+        "Lahore",
+        "Pakistan"
+      ],
+      "country": "PK"
+    },
+    "buyer": {
+      "name": "Barrera, Butler and Duffy",
+      "address": [
+        "715 Janice Greens Suite 816",
+        "43608 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": null,
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN CALYPSO",
+    "voyage": "703E",
+    "port_of_loading": "Karachi",
+    "port_of_discharge": "Savannah",
+    "shipped_on_board": "2026-04-07",
+    "container_number": "EGLU9318816",
+    "seal_number": "6683495",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 530,
+    "total_gross_weight_kg": "14727.83",
+    "goods_description": "SAID TO CONTAIN: Terry cotton bath towel 70x140; Long grain white rice, milled"
+  },
+  "line_items": []
+}

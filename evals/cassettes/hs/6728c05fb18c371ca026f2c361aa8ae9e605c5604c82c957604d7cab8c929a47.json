@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "6728c05fb18c371ca026f2c361aa8ae9e605c5604c82c957604d7cab8c929a47",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: City bicycle 28in, 7-speed, no motor\nCountry of origin: TW\n\nChosen so far: 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n\nChoose the heading that covers these goods. Options:\n- 8712: Bicycles and other cycles; including delivery tricycles, not motorised\n    contains 871200: Bicycles and other cycles; including delivery tricycles, not motorised\n- 8706: Chassis; fitted with engines, for the motor vehicles of heading no. 8701 to 8705\n    contains 870600: Chassis; fitted with engines, for the motor vehicles of heading no. 8701 to 8705\n- 8707: Bodies; (including cabs) for the motor vehicles of heading no. 8701 to 8705\n    contains 870710: Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8703\n    contains 870790: Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8701, 8702, 8704 or 8705\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c3193fcc89bfa5967a8ca22199ef44ec60c10fa9cafe27efd845fd2b6a82208e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8712",
+      "cited": [
+        "8712"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 450,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

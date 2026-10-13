@@ -1,0 +1,48 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0021",
+  "document": "commercial_invoice",
+  "layout": "us",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-47166",
+    "invoice_date": "2026-03-28",
+    "seller": {
+      "name": "Chakraborty, Sidhu and Sarma",
+      "address": [
+        "83/94, Sethi Chowk",
+        "756939 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Savage, Huffman and Waters",
+      "address": [
+        "10024 Alex Mall",
+        "01510 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "FCA",
+    "incoterm_place": "Tiruppur",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "45320.00"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "2200",
+      "unit": "pcs",
+      "unit_price": "20.60",
+      "amount": "45320.00"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0023",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYZN3545323",
+    "seller": {
+      "name": "Gazipur Karim Import & Export Co., Ltd.",
+      "address": [
+        "No. 250 Industrial Road",
+        "Gazipur",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "Robbins, Clark and Barnett",
+      "address": [
+        "0442 Lawrence Common",
+        "42643 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": {
+      "name": "Sims-French",
+      "address": [
+        "2445 Steele Mission Apt. 157",
+        "31277 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE AURORA",
+    "voyage": "375E",
+    "port_of_loading": "Chattogram",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-07-04",
+    "container_number": "ONEU2168221",
+    "seal_number": "1856877",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1179,
+    "total_gross_weight_kg": "23484.41",
+    "goods_description": "SAID TO CONTAIN: Smartphone 6.1in, 128GB; Hair dryer 2200W ionic; Rubber flip-flops, thong plugged into the sole; Porcelain dinner plate 27cm; LED television 55in 4K; Black tea, CTC, bulk; Leather handbag with shoulder strap; City bicycle 28in, 7-speed"
+  },
+  "line_items": []
+}

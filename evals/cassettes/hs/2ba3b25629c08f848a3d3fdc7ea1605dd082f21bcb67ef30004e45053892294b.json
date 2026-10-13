@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "2ba3b25629c08f848a3d3fdc7ea1605dd082f21bcb67ef30004e45053892294b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lipstick\nCountry of origin: FR\n\nChoose the chapter that covers these goods. Options:\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 040900: Honey; natural\n    contains 041010: Animal products; insects\n    contains 040520: Dairy produce; dairy spreads\n    contains 040790: Birds' eggs, in shell; preserved or cooked\n    contains 040510: Dairy produce; derived from milk, butter\n    contains 040630: Dairy produce; cheese, processed (not grated or powdered)\n    contains 040620: Dairy produce; cheese of all kinds, grated or powdered\n    contains 040610: Dairy produce; fresh cheese (including whey cheese), not fermented, and curd\n    contains 040590: Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)\n    contains 040690: Dairy produce; cheese (not grated, powdered or processed), n.e.c. in heading no. 0406\n    contains 040410: Dairy produce; whey, whether or not concentrated or containing added sugar or other sweetening matter\n    contains 040721: Birds' eggs, in shell; fresh, not for incubation, of fowls of the species Gallus domesticus (domestic hens)\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6e8a4ad24112077dc07322e84f018dba9545199fa5458b7bfb837fbda85bb7cf",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "04",
+      "cited": [
+        "04"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 870,
+    "latency_ms": 0,
+    "output_tokens": 29
+  }
+}

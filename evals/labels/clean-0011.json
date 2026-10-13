@@ -1,0 +1,74 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0011",
+  "seed": 2424319201,
+  "layout": "us",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "INV-2026-20381",
+    "invoice_date": "2026-02-11",
+    "seller": {
+      "name": "Nguyễn Công ty Hợp danh",
+      "address": [
+        "95/152 Khóm 57 Đường Phạm Thế Hiển",
+        "20944 Hai Phong",
+        "Vietnam"
+      ],
+      "country": "VN"
+    },
+    "buyer": {
+      "name": "Griffith-Watson",
+      "address": [
+        "283 Kayla Common",
+        "P8K 8N6 Toronto",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "currency": "USD",
+    "incoterm": "CIF",
+    "incoterm_place": "Vancouver",
+    "payment_terms": "T/T in advance",
+    "total_amount": "7301.70",
+    "bl_number": "EGLVKQ5457645",
+    "notify_party": null,
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN HARMONY",
+    "voyage": "832E",
+    "port_of_loading": "Ho Chi Minh City",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-02-20",
+    "container_number": "EGLU9503218",
+    "seal_number": "3126329",
+    "freight_terms": "PREPAID",
+    "package_type": "BAGS",
+    "total_packages": 610,
+    "total_gross_weight_kg": "16601.15",
+    "goods_description": "SAID TO CONTAIN: Long grain white rice, milled",
+    "total_net_weight_kg": "15250.00",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Long grain white rice, milled",
+        "country_of_origin": "VN",
+        "quantity": "15250",
+        "unit": "kg",
+        "unit_price": "0.4788",
+        "amount": "7301.70",
+        "hs_code": "100630",
+        "packages": 610,
+        "net_weight_kg": "15250.00",
+        "gross_weight_kg": "16601.15"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

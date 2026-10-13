@@ -1,0 +1,100 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0007",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-2659",
+    "date": "2026-03-24",
+    "seller": {
+      "name": "Luria-Tropea SPA",
+      "address": [
+        "Stretto Bocelli, 49 Appartamento 8",
+        "23819 Milano",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Couturier",
+      "address": [
+        "72, chemin Adélaïde Laine",
+        "80490 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Prato",
+    "package_type": "CARTONS",
+    "total_packages": 2192,
+    "total_net_weight_kg": "20544.74",
+    "total_gross_weight_kg": "23644.25"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IT",
+      "quantity": "1830",
+      "unit": "pcs",
+      "packages": 183,
+      "net_weight_kg": "1740.33",
+      "gross_weight_kg": "2056.67"
+    },
+    {
+      "line_no": 2,
+      "description": "Centrifugal water pump 1.1kW",
+      "country_of_origin": "IT",
+      "quantity": "289",
+      "unit": "pcs",
+      "packages": 289,
+      "net_weight_kg": "3819.14",
+      "gross_weight_kg": "4397.77"
+    },
+    {
+      "line_no": 3,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "10000",
+      "unit": "pcs",
+      "packages": 100,
+      "net_weight_kg": "400.00",
+      "gross_weight_kg": "483.00"
+    },
+    {
+      "line_no": 4,
+      "description": "Extra virgin olive oil, 1L bottle",
+      "country_of_origin": "IT",
+      "quantity": "5292",
+      "unit": "pcs",
+      "packages": 441,
+      "net_weight_kg": "4868.64",
+      "gross_weight_kg": "5156.91"
+    },
+    {
+      "line_no": 5,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "IT",
+      "quantity": "5497",
+      "unit": "pcs",
+      "packages": 917,
+      "net_weight_kg": "7096.63",
+      "gross_weight_kg": "8728.16"
+    },
+    {
+      "line_no": 6,
+      "description": "Roasted coffee beans, whole",
+      "country_of_origin": "IT",
+      "quantity": "2620",
+      "unit": "kg",
+      "packages": 262,
+      "net_weight_kg": "2620.00",
+      "gross_weight_kg": "2821.74"
+    }
+  ]
+}

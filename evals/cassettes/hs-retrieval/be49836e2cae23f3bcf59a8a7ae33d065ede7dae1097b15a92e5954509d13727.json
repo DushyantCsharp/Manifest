@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "be49836e2cae23f3bcf59a8a7ae33d065ede7dae1097b15a92e5954509d13727",
+  "retriever": "offline-lexical",
+  "query": "LED desk lamp, electric, for LED sources only origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "940521",
+      "description": "Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for use solely with light-emitting diode (LED) light sources",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "940529",
+      "description": "Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for other than use solely with light-emitting diode (LED) light sources",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "853952",
+      "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "853951",
+      "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) modules",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "940542",
+      "description": "Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "940541",
+      "description": "Luminaires and light fittings; electric, photovoltaic, designed for use solely with light-emitting diode (LED) light sources",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "940549",
+      "description": "Luminaires and light fittings; electric, designed for other than use solely with light-emitting diode (LED) light sources",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "940531",
+      "description": "Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for use solely with light-emitting diode (LED) light sources",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "853941",
+      "description": "Lamps; arc-lamps",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "940539",
+      "description": "Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for other than use solely with light-emitting diode (LED) light sources",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "853910",
+      "description": "Lamps; sealed beam units",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "853990",
+      "description": "Lamps; parts of the lamps of heading no. 8539",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "940519",
+      "description": "Chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use other than with light-emitting diode (LED) light sources",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "940511",
+      "description": "Luminaires and light fittings; chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use solely with light-emitting diode (LED) light sources",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "853949",
+      "description": "Lamps; ultra-violet or infra-red lamps, (excluding arc-lamps)",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "853921",
+      "description": "Lamps; filament, (excluding ultra-violet or infra-red), tungsten halogen",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "853931",
+      "description": "Lamps; discharge, (excluding ultra-violet), fluorescent, hot cathode",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "853939",
+      "description": "Lamps; discharge, (excluding ultra-violet, excluding fluorescent, hot cathode)",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "853929",
+      "description": "Lamps; filament, (excluding ultra-violet or infra-red), n.e.c. in item no. 8539.2",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "853932",
+      "description": "Lamps; discharge, (excluding ultra-violet), mercury or sodium vapour lamps, metal halide lamps",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

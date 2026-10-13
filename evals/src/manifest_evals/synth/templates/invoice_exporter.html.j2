@@ -1,0 +1,73 @@
+{# Layout 3 "exporter": boxed grid form with HS code and origin columns and the total in words. #}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  body { font-family: Arial, Helvetica, "DejaVu Sans", sans-serif; font-size: 8.5pt; }
+  h1 { text-align: center; font-size: 14pt; letter-spacing: 3px; border: 1.2pt solid #000; padding: 5px; }
+  .grid td { border: 0.8pt solid #000; padding: 4px 5px; }
+  .grid .label { display: block; font-size: 7pt; font-weight: bold; text-transform: uppercase; }
+  .items { margin-top: -0.8pt; }
+  .items th { border: 0.8pt solid #000; padding: 4px; font-size: 7.5pt; text-transform: uppercase; background: #eee; }
+  .items td { border-left: 0.8pt solid #000; border-right: 0.8pt solid #000; padding: 4px; }
+  .items tfoot td { border: 0.8pt solid #000; font-weight: bold; }
+  .words { border: 0.8pt solid #000; border-top: none; padding: 5px; font-weight: bold; }
+  .sign { margin-top: 18mm; width: 70mm; margin-left: auto; text-align: center; border-top: 0.8pt solid #000; padding-top: 3px; }
+</style>
+</head>
+<body>
+<h1>COMMERCIAL INVOICE</h1>
+<table class="grid">
+  <tr>
+    <td style="width: 55%"><span class="label">Shipper / Exporter</span>
+      <strong>{{ doc.seller.name }}</strong><br>{{ doc.seller.address | join(", ") }}</td>
+    <td><span class="label">Invoice No. &amp; Date</span>{{ doc.invoice_number }}<br>{{ layout.date(doc.invoice_date) }}</td>
+  </tr>
+  <tr>
+    <td><span class="label">Consignee</span>
+      <strong>{{ doc.buyer.name }}</strong><br>{{ doc.buyer.address | join(", ") }}</td>
+    <td><span class="label">Terms of Delivery and Payment</span>
+      {{ doc.incoterm }} {{ doc.incoterm_place }}<br>{{ doc.payment_terms }}</td>
+  </tr>
+  <tr>
+    <td><span class="label">Notify Party</span>
+      {% if doc.notify_party %}{{ doc.notify_party.name }}, {{ doc.notify_party.address | join(", ") }}{% else %}SAME AS CONSIGNEE{% endif %}</td>
+    <td><span class="label">Vessel / Voyage</span>{{ doc.vessel }} V.{{ doc.voyage }}</td>
+  </tr>
+  <tr>
+    <td><span class="label">Port of Loading</span>{{ doc.port_of_loading | upper }}</td>
+    <td><span class="label">Port of Discharge</span>{{ doc.port_of_discharge | upper }}</td>
+  </tr>
+</table>
+
+<table class="items">
+  <thead>
+    <tr>
+      <th>Marks &amp; Nos.</th><th>Description of Goods</th><th>H.S. Code</th><th>Origin</th>
+      <th class="num">Quantity</th><th class="num">Unit Price ({{ doc.currency }})</th><th class="num">Amount ({{ doc.currency }})</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for line in doc.lines %}
+    <tr>
+      <td>{% if loop.first %}{{ doc.marks }}{% endif %}</td>
+      <td>{{ line.description | upper }}</td>
+      <td class="nowrap">{{ line.hs_code[:4] }}.{{ line.hs_code[4:] }}</td>
+      <td>{{ (country(line.country_of_origin) or "") | upper }}</td>
+      <td class="num">{{ layout.quantity(line.quantity) }} {{ line.unit | upper }}</td>
+      <td class="num">{{ layout.price(line.unit_price) }}</td>
+      <td class="num">{{ layout.money(line.amount) }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr><td colspan="6" class="num">TOTAL {{ doc.incoterm }} {{ doc.incoterm_place | upper }}</td><td class="num">{{ doc.currency }} {{ layout.money(doc.total_amount) }}</td></tr>
+  </tfoot>
+</table>
+<div class="words">{{ words(doc.total_amount, doc.currency) }}</div>
+
+<div class="sign">For and on behalf of {{ doc.seller.name }}<br>Authorized Signature</div>
+</body>
+</html>

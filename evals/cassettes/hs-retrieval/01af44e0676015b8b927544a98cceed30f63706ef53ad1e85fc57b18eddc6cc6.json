@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "01af44e0676015b8b927544a98cceed30f63706ef53ad1e85fc57b18eddc6cc6",
+  "retriever": "offline-lexical",
+  "query": "Corrugated cardboard shipping cartons, 3-ply origin VN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "481910",
+      "description": "Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "481920",
+      "description": "Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "441239",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with both outer plies of coniferous wood",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "470710",
+      "description": "Paper or paperboard; waste and scrap, of unbleached kraft paper or paperboard or corrugated paper or paperboard",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "441299",
+      "description": "Plywood; n.e.c. in heading 4412, with both outer plies of coniferous wood",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "441291",
+      "description": "Plywood; n.e.c. in heading 4412, with at least one outer ply of tropical wood",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "441249",
+      "description": "Laminated veneered lumber (LVL); with both outer plies of coniferous wood",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "441259",
+      "description": "Blockboard, laminboard and battenboard; with both outer plies of coniferous wood",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "441292",
+      "description": "Plywood; n.e.c. in heading 4412, with at least one outer ply of non-coniferous wood",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "681181",
+      "description": "Cellulose fibre-cement; articles or the like; corrugated sheets, not containing asbestos",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "441242",
+      "description": "Laminated veneered lumber (LVL); with at least one outer ply of non-coniferous wood",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "844130",
+      "description": "Machines; for making cartons, boxes, cases, tubes, drums or similar containers (other than by moulding), of paper pulp, paper or paperboard",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "441241",
+      "description": "Plywood, veneered panels and similar laminated wood; laminated veneered lumber (LVL); with at least one outer ply of tropical wood",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "480810",
+      "description": "Paper and paperboard; corrugated, whether or not perforated, in rolls or sheets, other than paper of heading 4803",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "721041",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, corrugated, plated or coated with zinc (not electrolytically)",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "721049",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, (not corrugated), plated or coated with zinc (not electrolytically)",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "681182",
+      "description": "Cellulose fibre-cement; articles or the like, sheets, panels, tiles and similar articles (other than corrugated sheets), not containing asbestos",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "681189",
+      "description": "Cellulose fibre-cement; articles or the like, other than corrugated sheets and other sheets, panels, tiles and similar articles, not containing asbestos",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "441252",
+      "description": "Blockboard, laminboard and battenboard; with at least one outer ply of non-coniferous wood, (not containing particle board)",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "441231",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of tropical wood",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

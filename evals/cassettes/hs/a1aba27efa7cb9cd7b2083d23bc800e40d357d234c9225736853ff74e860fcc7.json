@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "a1aba27efa7cb9cd7b2083d23bc800e40d357d234c9225736853ff74e860fcc7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Desktop computer system unit with processor, memory and storage, no monitor\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854231: Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits\n    contains 854232: Electronic integrated circuits; memories\n    contains 851621: Heating apparatus; electric storage heating radiators\n    contains 851610: Heaters; electric, instantaneous or storage water and immersion heaters\n    contains 852849: Monitors; cathode-ray tube, n.e.c. in subheading 8528.42, whether or not colour\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 847150: Units of automatic data processing machines; processing units other than those of item no. 8471.41 or 8471.49, whether or not containing in the same housing one or two of the following types of unit: storage units, input units or output units\n    contains 847170: Units of automatic data processing machines; storage units\n    contains 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n    contains 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n    contains 841950: Heat exchange units; not used for domestic purposes\n    contains 841933: Dryers; lyophilisation apparatus, freeze drying units and spray dryers, not used for domestic purposes\n    contains 841850: Furniture incorporating refrigerating or freezing equipment; for storage and display, n.e.c. in item no. 8418.1, 8418.2, 8418.3 or 8418.4 (chests, cabinets, display counters, show-cases and the like)\n    contains 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n    contains 840490: Boilers; parts of auxiliary plant, for use with boilers of heading no. 8402 and 8403 and parts of condensers for steam or other vapour power units\n    contains 847180: Units of automatic data processing machines; n.e.c. in item no. 8471.50, 8471.60 or 8471.70\n    contains 840420: Boilers; condensers, for steam or other vapour power units\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 870895: Vehicle parts; safety airbags with inflater system; parts thereof\n    contains 870880: Vehicle parts; suspension systems and parts thereof (including shock-absorbers)\n- 29: Organic chemicals\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "511a33b8424ee1c4d622d5e9d4355fc05f902ad5d387c18b04276672a3d17983",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1056,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

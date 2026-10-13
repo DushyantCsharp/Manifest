@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "731a90c5a81c420213d5fc2c9ba45c1fb55f512a1396e515b772505b56439fd0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Three-phase AC induction motor 0.55kW, 1400 rpm\nCountry of origin: DE\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8501: Electric motors and generators (excluding generating sets)\n    contains 850140: Electric motors; AC motors, single-phase\n    contains 850153: Electric motors; AC motors, multi-phase, of an output exceeding 75kW\n    contains 850151: Electric motors; AC motors, multi-phase, of an output not exceeding 750W\n    contains 850152: Electric motors; AC motors, multi-phase, of an output exceeding 750W but not exceeding 75kW\n    contains 850120: Electric motors; universal AC/DC of an output exceeding 37.5W\n    contains 850180: Electric generators; (excluding generating sets), photovoltaic AC generators (alternators)\n    contains 850164: Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 750kVA\n    contains 850161: Generators; AC generators, (alternators), other than photovoltaic generators, of an output not exceeding 75kVA\n    contains 850162: Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 75kVA but not exceeding 375kVA\n    contains 850163: Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 375kVA but not exceeding 750kVA\n- 8514: Industrial or laboratory electric furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory equipment for the heat treatment of materials by induction or dielectric loss\n    contains 851420: Furnaces and ovens; electric, for industrial or laboratory use, functioning by induction or dielectric loss\n    contains 851440: Heating equipment; for the heat treatment of materials by induction or dielectric loss, industrial or laboratory, other than furnaces and ovens\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7a4bd21603c78a2230debda7a40f4294f9d037c0c8d6d7aef791e1511851e5a1",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8501",
+      "cited": [
+        "8501"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 746,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "968644bddc70482269e2fd8e1563fae0ccc6b35ec7fe9ebb4dc71c530bd078b6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's dress, knitted, 100% polyester\nCountry of origin: CN\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted > 6104 Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (not swimwear), women's or girls', knitted or crocheted\n\nChoose the subheading that covers these goods. Options:\n- 610422: Ensembles; women's or girls', of cotton, knitted or crocheted\n- 610432: Jackets; women's or girls', of cotton, knitted or crocheted\n- 610442: Dresses; women's or girls', of cotton, knitted or crocheted\n- 610452: Skirts and divided skirts; women's or girls', of cotton, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1577af1619f384dc011d5b12f15e7752a54d9f917d32d68872f1c87825d70159",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "610422",
+      "cited": [
+        "610422"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 397,
+    "latency_ms": 0,
+    "output_tokens": 31
+  }
+}

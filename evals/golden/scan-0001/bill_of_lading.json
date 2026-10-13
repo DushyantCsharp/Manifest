@@ -1,0 +1,52 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0001",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-0.28",
+    "noise_sigma": 7,
+    "salt_pepper": "0.0026",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYLA6131517",
+    "seller": {
+      "name": "Balay-Dass",
+      "address": [
+        "57/142, Parekh Chowk",
+        "736831 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Reed Group",
+      "address": [
+        "72183 Mark Manors Suite 748",
+        "X3N 9G6 Toronto",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE MERIDIAN",
+    "voyage": "443W",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-05-25",
+    "container_number": "ONEU1362844",
+    "seal_number": "3513552",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1601,
+    "total_gross_weight_kg": "24212.04",
+    "goods_description": "SAID TO CONTAIN: Solar PV module 410W monocrystalline; Frozen vannamei shrimp, peeled; AC induction motor 0.55kW 3-phase; LDPE film-grade granules"
+  },
+  "line_items": []
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0016",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "MEDUPS4423485",
+    "seller": {
+      "name": "Ningbo Tianyi Industrial Co., Ltd.",
+      "address": [
+        "No. 13 Industrial Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Johnson, Norton and Hernandez",
+      "address": [
+        "831 Joshua Glen",
+        "77798 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": {
+      "name": "Perkins Inc",
+      "address": [
+        "4466 Thomas River",
+        "81676 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "MSC",
+    "vessel": "MSC TAGE",
+    "voyage": "160W",
+    "port_of_loading": "Shenzhen",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-06-18",
+    "container_number": "MEDU2580683",
+    "seal_number": "3098887",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1385,
+    "total_gross_weight_kg": "14852.39",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Milk chocolate bars 100g; Upholstered office chair, steel base; LED television 55in 4K"
+  },
+  "line_items": []
+}

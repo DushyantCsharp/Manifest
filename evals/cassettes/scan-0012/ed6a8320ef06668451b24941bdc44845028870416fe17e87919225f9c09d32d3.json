@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "key": "ed6a8320ef06668451b24941bdc44845028870416fe17e87919225f9c09d32d3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nSalvi LLC - 81, Mane Circle - 917747 Mumbai - India -\n\nJanssens VOF ‘ Rechnungsnummer / Invoice RE-26-3139\n\nRudilei 3 pitts no. : mie\n\n5485 Gent : Rechnungsdatum / Date 30.04.2026\n\nBelgium See Lieferbedingung / Incoterms® FCA Mumbai\n\n: 2020\nZahlungsbedingung / Payment 30% deposit, 70% against\ncopy of B/L\nWahrung / Currency EUR\n\nHandelsrechnung * Commercial Invoice\n\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\n\n1 Leather handbag with shoulder strap IN = 650 pes 65,58 © 42.627,00\nb SE, Stainless steel sheet 304, cold-rolled 2mm IN 10.000 kg 3,03 30.300,00\n3 Smartphone 6.1in, 128GB IN - 1.280 pes 532,08 681.062,40\n4 Men's woven cotton shirt, long sleeve IN. 7.800 pes 8,58 — 66.924,00\n5 Long grain white rice, milled IN 10.050 kg 0,5995 6.024,98\n6 Men's crew-neck T-shirt, 100% cotton jersey IN 4.057 pcs |\n\n2,02 . 8.195,14\n\nGesamtbetrag / Total 835.133,52 EUR\neaten cases\n\nVersand / Shipment: Chennai — Antwerp. Ursprungsland gemap Spalte ,Ursprung* (ISO 3166). Wir bestitigen die Richtigkeit der Angaben,\n\nPage | of I\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Janssens VOF ‘ Rechnungsnummer / Invoice RE-26-3139",
+        "value": "Janssens VOF"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Wahrung / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Belgium See Lieferbedingung / Incoterms® FCA Mumbai",
+        "value": "FCA Mumbai"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "5485 Gent : Rechnungsdatum / Date 30.04.2026",
+        "value": "30.04.2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Janssens VOF ‘ Rechnungsnummer / Invoice RE-26-3139",
+        "value": "RE-26-3139"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN = 650 pes 65,58 © 42.627,00",
+            "value": "42.627,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Salvi LLC - 81, Mane Circle - 917747 Mumbai - India -",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN = 650 pes 65,58 © 42.627,00",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN = 650 pes 65,58 © 42.627,00",
+            "value": "650"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey IN 4.057 pcs |",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN = 650 pes 65,58 © 42.627,00",
+            "value": "65,58"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "b SE, Stainless steel sheet 304, cold-rolled 2mm IN 10.000 kg 3,03 30.300,00",
+            "value": "30.300,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Salvi LLC - 81, Mane Circle - 917747 Mumbai - India -",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "b SE, Stainless steel sheet 304, cold-rolled 2mm IN 10.000 kg 3,03 30.300,00",
+            "value": "Stainless steel sheet 304, cold-rolled 2mm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "b SE, Stainless steel sheet 304, cold-rolled 2mm IN 10.000 kg 3,03 30.300,00",
+            "value": "10.000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "b SE, Stainless steel sheet 304, cold-rolled 2mm IN 10.000 kg 3,03 30.300,00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "b SE, Stainless steel sheet 304, cold-rolled 2mm IN 10.000 kg 3,03 30.300,00",
+            "value": "3,03"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Smartphone 6.1in, 128GB IN - 1.280 pes 532,08 681.062,40",
+            "value": "681.062,40"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Salvi LLC - 81, Mane Circle - 917747 Mumbai - India -",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Smartphone 6.1in, 128GB IN - 1.280 pes 532,08 681.062,40",
+            "value": "Smartphone 6.1in, 128GB"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Smartphone 6.1in, 128GB IN - 1.280 pes 532,08 681.062,40",
+            "value": "1.280"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey IN 4.057 pcs |",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Smartphone 6.1in, 128GB IN - 1.280 pes 532,08 681.062,40",
+            "value": "532,08"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN. 7.800 pes 8,58 — 66.924,00",
+            "value": "66.924,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Salvi LLC - 81, Mane Circle - 917747 Mumbai - India -",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN. 7.800 pes 8,58 — 66.924,00",
+            "value": "Men's woven cotton shirt, long sleeve"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN. 7.800 pes 8,58 — 66.924,00",
+            "value": "7.800"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey IN 4.057 pcs |",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN. 7.800 pes 8,58 — 66.924,00",
+            "value": "8,58"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled IN 10.050 kg 0,5995 6.024,98",
+            "value": "6.024,98"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Salvi LLC - 81, Mane Circle - 917747 Mumbai - India -",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled IN 10.050 kg 0,5995 6.024,98",
+            "value": "Long grain white rice, milled"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled IN 10.050 kg 0,5995 6.024,98",
+            "value": "10.050"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "b SE, Stainless steel sheet 304, cold-rolled 2mm IN 10.000 kg 3,03 30.300,00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled IN 10.050 kg 0,5995 6.024,98",
+            "value": "0,5995"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2,02 . 8.195,14",
+            "value": "8.195,14"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Salvi LLC - 81, Mane Circle - 917747 Mumbai - India -",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey IN 4.057 pcs |",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey IN 4.057 pcs |",
+            "value": "4.057"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey IN 4.057 pcs |",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2,02 . 8.195,14",
+            "value": "2,02"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Salvi LLC - 81, Mane Circle - 917747 Mumbai - India -",
+        "value": "Salvi LLC"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Gesamtbetrag / Total 835.133,52 EUR",
+        "value": "835.133,52"
+      }
+    },
+    "input_tokens": 502,
+    "latency_ms": 0,
+    "output_tokens": 1600
+  }
+}

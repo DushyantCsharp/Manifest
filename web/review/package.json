@@ -1,0 +1,13 @@
+{
+  "name": "manifest-review",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Reviewer UI for Manifest. The Next.js app is not scaffolded yet; for now this package generates REST types from contracts/openapi.json.",
+  "scripts": {
+    "gen:rest": "openapi-typescript ../../contracts/openapi.json --output src/generated/rest.d.ts"
+  },
+  "devDependencies": {
+    "openapi-typescript": "7.13.0",
+    "typescript": "5.9.3"
+  }
+}

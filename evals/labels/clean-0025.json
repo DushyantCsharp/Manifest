@@ -1,0 +1,95 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0025",
+  "seed": 2851290643,
+  "layout": "compact",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "FC-4865/26",
+    "invoice_date": "2026-04-04",
+    "seller": {
+      "name": "Boldù s.r.l.",
+      "address": [
+        "Rotonda Benussi, 591 Appartamento 4",
+        "26865 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Janssens-Desmet NV",
+      "address": [
+        "Thomassteeg 6",
+        "7645 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "DDP",
+    "incoterm_place": "Gent",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "110576.32",
+    "bl_number": "ONEYBC7484741",
+    "notify_party": {
+      "name": "Casier-Pieters CommV",
+      "address": [
+        "Annysteeg 3",
+        "8931 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE KENSINGTON",
+    "voyage": "676S",
+    "port_of_loading": "Genova",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-04-08",
+    "container_number": "ONEU5262993",
+    "seal_number": "2466818",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 669,
+    "total_gross_weight_kg": "8583.99",
+    "goods_description": "SAID TO CONTAIN: Roasted coffee beans, whole; AC induction motor 0.55kW 3-phase",
+    "total_net_weight_kg": "7602.91",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Roasted coffee beans, whole",
+        "country_of_origin": "IT",
+        "quantity": "5150",
+        "unit": "kg",
+        "unit_price": "16.46",
+        "amount": "84769.00",
+        "hs_code": "090121",
+        "packages": 515,
+        "net_weight_kg": "5150.00",
+        "gross_weight_kg": "5989.45"
+      },
+      {
+        "line_no": 2,
+        "description": "AC induction motor 0.55kW 3-phase",
+        "country_of_origin": "IT",
+        "quantity": "308",
+        "unit": "pcs",
+        "unit_price": "83.79",
+        "amount": "25807.32",
+        "hs_code": "850151",
+        "packages": 154,
+        "net_weight_kg": "2452.91",
+        "gross_weight_kg": "2594.54"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

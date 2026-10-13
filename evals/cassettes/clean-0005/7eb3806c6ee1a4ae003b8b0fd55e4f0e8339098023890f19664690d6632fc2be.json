@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "key": "7eb3806c6ee1a4ae003b8b0fd55e4f0e8339098023890f19664690d6632fc2be",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nVendeur / Seller\r\nPrabhakar LLC\r\n87/47, Khalsa Ganj, 252500 Ludhiana, India \r\nAcheteur / Buyer\r\nVoisin S.A.\r\n8, boulevard Laurence Barthelemy, 97325 Lyon,\r\nFrance \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-4994/26\r\nDate 2026-05-26\r\nDevise / Currency EUR\r\nIncoterm 2020 FCA Tiruppur\r\nPaiement /\r\nPayment\r\nT/T 30 days after B/L date\r\nChargement /\r\nLoading\r\nMundra\r\nDestination Le Havre\r\nLig. Désignation / Description Orig. Qté U. P.U. EUR Montant EUR\r\n1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00\r\n2 Black tea, CTC, bulk IN 14 600 kg 3,74 54 604,00\r\n3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 4,85 26 694,40\r\n4 Stainless steel saucepan 20cm IN 888 pcs 12,82 11 384,16\r\n5 Stainless cutlery set, 24 pieces IN 715 sets 11,33 8 100,95\r\n6 Smartphone 6.1in, 128GB IN 200 pcs 316,53 63 306,00\r\n7 Terry cotton bath towel 70x140 IN 3 136 pcs 5,13 16 087,68\r\nTotal EUR : 207 041,19\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Voisin S.A.",
+        "value": "Voisin S.A."
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Devise / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Incoterm 2020 FCA Tiruppur",
+        "value": "FCA Tiruppur"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-05-26",
+        "value": "2026-05-26"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "N° / No. FC-4994/26",
+        "value": "FC-4994/26"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "26 864,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "14 600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "1,84"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 14 600 kg 3,74 54 604,00",
+            "value": "54 604,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 14 600 kg 3,74 54 604,00",
+            "value": "Black tea, CTC, bulk"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "14 600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 14 600 kg 3,74 54 604,00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 14 600 kg 3,74 54 604,00",
+            "value": "3,74"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 4,85 26 694,40",
+            "value": "26 694,40"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 4,85 26 694,40",
+            "value": "Men's woven cotton shirt, long sleeve"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 4,85 26 694,40",
+            "value": "5 504"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 4,85 26 694,40",
+            "value": "4,85"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 12,82 11 384,16",
+            "value": "11 384,16"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 12,82 11 384,16",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 12,82 11 384,16",
+            "value": "888"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 12,82 11 384,16",
+            "value": "12,82"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 11,33 8 100,95",
+            "value": "8 100,95"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 11,33 8 100,95",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 11,33 8 100,95",
+            "value": "715"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 11,33 8 100,95",
+            "value": "sets"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 11,33 8 100,95",
+            "value": "11,33"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 316,53 63 306,00",
+            "value": "63 306,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 316,53 63 306,00",
+            "value": "Smartphone 6.1in, 128GB"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 316,53 63 306,00",
+            "value": "200"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 316,53 63 306,00",
+            "value": "316,53"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 5,13 16 087,68",
+            "value": "16 087,68"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 5,13 16 087,68",
+            "value": "Terry cotton bath towel 70x140"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 5,13 16 087,68",
+            "value": "3 136"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 1,84 26 864,00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 5,13 16 087,68",
+            "value": "5,13"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "T/T 30 days after B/L date",
+        "value": "T/T 30 days after B/L date"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Prabhakar LLC",
+        "value": "Prabhakar LLC"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total EUR : 207 041,19",
+        "value": "207 041,19"
+      }
+    },
+    "input_tokens": 469,
+    "latency_ms": 0,
+    "output_tokens": 1738
+  }
+}

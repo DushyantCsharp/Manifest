@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "key": "cd962731730c40ce58b3c6f211fe1972abba2dca9d8bcd58459859d0743ac98d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nVendeur / Seller\r\nBoldù s.r.l.\r\nRotonda Benussi, 591 Appartamento 4, 26865\r\nBologna, Italy \r\nAcheteur / Buyer\r\nJanssens-Desmet NV\r\nThomassteeg 6, 7645 Gent, Belgium \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-4865/26\r\nDate 2026-04-04\r\nDevise / Currency EUR\r\nIncoterm 2020 DDP Gent\r\nPaiement /\r\nPayment\r\nT/T 30 days after B/L date\r\nChargement /\r\nLoading\r\nGenova\r\nDestination Antwerp\r\nLig. Désignation / Description Orig. Qté U. P.U. EUR Montant EUR\r\n1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00\r\n2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32\r\nTotal EUR : 110 576,32\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Janssens-Desmet NV",
+        "value": "Janssens-Desmet NV"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Devise / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Incoterm 2020 DDP Gent",
+        "value": "DDP Gent"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-04-04",
+        "value": "2026-04-04"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "N° / No. FC-4865/26",
+        "value": "FC-4865/26"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "value": "84 769,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Bologna, Italy",
+            "value": "Italy"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "value": "Roasted coffee beans, whole"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "value": "5 150"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "value": "16,46"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "value": "25 807,32"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Bologna, Italy",
+            "value": "Italy"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "value": "AC induction motor 0.55kW 3-phase"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "value": "308"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "value": "83,79"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "T/T 30 days after B/L date",
+        "value": "T/T 30 days after B/L date"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Boldù s.r.l.",
+        "value": "Boldù s.r.l."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total EUR : 110 576,32",
+        "value": "110 576,32"
+      }
+    },
+    "input_tokens": 390,
+    "latency_ms": 0,
+    "output_tokens": 622
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Balay-Dass COMMERCIAL INVOICE\n\n57/142, Parekh Chowk\n736831 Mumbai\n\nInvoice-No. INV-2026-17807\nIndia Invoice Date 05/17/2026\nPayment Terms. L/C at sight\nBILL TO / CONSIGNEE : SHIPPING\nReed Group ' Terms of Sale: FCA Ludhiana (Incoterms 2020)\n72183 Mark Manors Suite’ 748 _ Port of Loading: Mundra\nX3N_9G6 Toronto Port of Discharge: Vancouver\nCanada Currency: CAD\n\nDescription Country of Origin Qty Unit Unit Price Amount (CAD)\n\n1. Solar PV module 410W monocrystalline Malaysia 73 pes 144.64 10,558.72\n2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00\n3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20\n4 LDPE film-grade granules Saudi Arabia 5,600 kg 1.72 9,632.00\n\nTotal CAD 203,081.92\n\nWe hereby certify that this. invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\nof the origin stated.\n\nAuthorized signature: —_—____________ for Balay-Dass\n\nPage'l of |\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "PACKING LIST\n\nInvoice Ref. INV-2026-17807\n\nBalay-Dass :\n57/142, Parekh Chowk, 736831 Mumbai, India SSE re Date 05/17/2026\n| CONSIGNEE bay Soi ‘ ; | TERMS OF DELIVERY\n_ Reed Group | | FCA Ludhiana\n| 72183 Mark Manors Suite. 748, X3N 9G6 Toronto, .. | | Mundra to Vancouver\n| Canada See eS\nHt Description : Origin — Quantity _ Pkgs Net weight Gross weight\n1 Solar PV module 410W monocrystalline MY TS: VOSS = 3. ° 1,516.06.kg 1,634.97 kg\n2 Frozen vannamei shrimp, peeled’ IN _ 12,200 kg 1220 - 12,200.00 kg 14,078.80 kg\n3 AC induction motor 0.55kW 3-phase CH 2 308 pcs . 154 2,318.62 kg . 2,483.87 kg\n4 LDPE film-grade granules SA ~ ..5,600 kg ; 224 5,600.00 kg . 6,014.40 kg\nTotal 1601 CARTONS 21,634.68 kg 24,212.04 kg\n\nShipping marks: REED / INV-2026-17807\n\nPage 1 of 1\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER ~\nBalay-Dass\n\n72183 Mark Manors Suite 748\n\n57/142, Parekh Chowk, 736831 Mumbai, India i . BILL OF LADING\nse clays apne prea BLNO.\nONEYLA6131517\nCONSIGNEE NOTIFY PARTY _\nReed Group\n\nee x SAME AS CONSIGNEE-\n, X3N 9G6 Toronto, Canada . |’\n\nOCEAN VESSEL / VOYAGE NO... -\nONE MERIDIAN / 443W ..\n\nFREIGHT ae\nFREIGHT COLLECT\n\nPORT OF LOADING\n\n05/25/2026\n\nMundra, 05/25/2026 ; THREE (3):\n\n| PORT OF DISCHARGE\n\n-| Mundra | Vancouver\n\n‘ AINER / SEAL | MARKS & NOS. NO. OF DESCRIPTION OF GOODS GROSS WEIGHT\n‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg\n\nSEAL . INV-2026-17807 ° | CARTONS | monocrystalline; Frozen vannaméei’ shrimp,’ .\n| 3513552 ’ feos ‘peeled; AC induction motor 0:55kW 3-phase; _\n\n: LDPE film-grade granules\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE ae SN ; : ‘NUMBER OF ORIGINAL B/LS\n\nRECEIVED by the Carrier in apparent good order and\n\ncondition unless otherwise stated. the total b of conti ‘or ges shown above for carriage from the port of loading to the port :\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE P : :\n\n’ \"Page | of |\n\n"
+    }
+  ]
+}

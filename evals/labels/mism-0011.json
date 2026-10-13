@@ -1,0 +1,131 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0011",
+  "seed": 1399259227,
+  "layout": "us",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "INV-2026-90214",
+    "invoice_date": "2026-02-27",
+    "seller": {
+      "name": "Tainan Chunghwa Electronics Co., Ltd.",
+      "address": [
+        "No. 218 Industrial Road",
+        "Tainan",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "White-Bowen",
+      "address": [
+        "8229 Tom Ferry Suite 084",
+        "N3B 6B8 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "currency": "CAD",
+    "incoterm": "DDP",
+    "incoterm_place": "Vancouver",
+    "payment_terms": "T/T in advance",
+    "total_amount": "73047.60",
+    "bl_number": "MEDUZD8239607",
+    "notify_party": {
+      "name": "Tanner-Lewis",
+      "address": [
+        "22480 Lisa Station Suite 644",
+        "A2A 9C4 Montréal",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "carrier": "MSC",
+    "vessel": "MSC TRITON",
+    "voyage": "401E",
+    "port_of_loading": "Kaohsiung",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-03-01",
+    "container_number": "MEDU2337035",
+    "seal_number": "7738955",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 465,
+    "total_gross_weight_kg": "13621.27",
+    "goods_description": "SAID TO CONTAIN: Solar PV module 410W monocrystalline; Stainless steel saucepan 20cm; Combed cotton yarn Ne 30/1",
+    "total_net_weight_kg": "12581.61",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Solar PV module 410W monocrystalline",
+        "country_of_origin": "MY",
+        "quantity": "48",
+        "unit": "pcs",
+        "unit_price": "146.30",
+        "amount": "7022.40",
+        "hs_code": "854143",
+        "packages": 2,
+        "net_weight_kg": "987.26",
+        "gross_weight_kg": "1020.56"
+      },
+      {
+        "line_no": 2,
+        "description": "Stainless steel saucepan 20cm",
+        "country_of_origin": "CN",
+        "quantity": "3648",
+        "unit": "pcs",
+        "unit_price": "7.90",
+        "amount": "28819.20",
+        "hs_code": "732393",
+        "packages": 304,
+        "net_weight_kg": "3644.35",
+        "gross_weight_kg": "4098.98"
+      },
+      {
+        "line_no": 3,
+        "description": "Combed cotton yarn Ne 30/1",
+        "country_of_origin": "VN",
+        "quantity": "7950",
+        "unit": "kg",
+        "unit_price": "4.68",
+        "amount": "37206.00",
+        "hs_code": "520523",
+        "packages": 159,
+        "net_weight_kg": "7950.00",
+        "gross_weight_kg": "8501.73"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "gross_weight",
+      "kind": "value_mismatch",
+      "field": "total_gross_weight_kg",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "packing_list": "13621.27",
+        "bill_of_lading": "12722.27"
+      }
+    },
+    {
+      "mutation": "origin",
+      "kind": "value_mismatch",
+      "field": "line_items.country_of_origin",
+      "line_no": 3,
+      "description": "Combed cotton yarn Ne 30/1",
+      "values": {
+        "commercial_invoice": "VN",
+        "packing_list": "BE"
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

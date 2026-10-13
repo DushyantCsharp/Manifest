@@ -1,0 +1,80 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0014",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/0956",
+    "date": "2026-05-04",
+    "seller": {
+      "name": "Sezgin Manço San.",
+      "address": [
+        "8703 Soylu Circles",
+        "54932 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Rogers-Clark",
+      "address": [
+        "409 Heather Heights",
+        "DA7 4UX Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "incoterm": "CFR",
+    "incoterm_place": "Southampton",
+    "package_type": "CARTONS",
+    "total_packages": 2051,
+    "total_net_weight_kg": "18252.33",
+    "total_gross_weight_kg": "21283.42"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "CL",
+      "quantity": "8982",
+      "unit": "pcs",
+      "packages": 1497,
+      "net_weight_kg": "11353.24",
+      "gross_weight_kg": "13615.12"
+    },
+    {
+      "line_no": 2,
+      "description": "Laptop computer 14in, 16GB RAM",
+      "country_of_origin": "VN",
+      "quantity": "375",
+      "unit": "pcs",
+      "packages": 75,
+      "net_weight_kg": "674.63",
+      "gross_weight_kg": "832.70"
+    },
+    {
+      "line_no": 3,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "2632",
+      "unit": "pcs",
+      "packages": 220,
+      "net_weight_kg": "2795.17",
+      "gross_weight_kg": "2999.15"
+    },
+    {
+      "line_no": 4,
+      "description": "Analog quartz wristwatch, steel case",
+      "country_of_origin": "CN",
+      "quantity": "950",
+      "unit": "pcs",
+      "packages": 19,
+      "net_weight_kg": "76.93",
+      "gross_weight_kg": "109.54"
+    }
+  ]
+}

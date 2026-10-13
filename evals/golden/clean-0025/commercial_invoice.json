@@ -1,0 +1,57 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0025",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-4865/26",
+    "invoice_date": "2026-04-04",
+    "seller": {
+      "name": "Boldù s.r.l.",
+      "address": [
+        "Rotonda Benussi, 591 Appartamento 4",
+        "26865 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Janssens-Desmet NV",
+      "address": [
+        "Thomassteeg 6",
+        "7645 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "DDP",
+    "incoterm_place": "Gent",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "110576.32"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Roasted coffee beans, whole",
+      "country_of_origin": "IT",
+      "quantity": "5150",
+      "unit": "kg",
+      "unit_price": "16.46",
+      "amount": "84769.00"
+    },
+    {
+      "line_no": 2,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "IT",
+      "quantity": "308",
+      "unit": "pcs",
+      "unit_price": "83.79",
+      "amount": "25807.32"
+    }
+  ]
+}

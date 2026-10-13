@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "5c52e1bd8b030e7600b4bc2cd22be565f004f7fdea5c6be0c447cb815ba36cae",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Folding umbrella with telescopic shaft\nCountry of origin: CN\n\nChosen so far: 66 Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof > 6601 Umbrellas; sun umbrellas (including walking stick umbrellas, garden umbrellas and similar umbrellas)\n\nChoose the subheading that covers these goods. Options:\n- 660191: Umbrellas and sun umbrellas; having a telescopic shaft, (excluding garden or similar umbrellas)\n- 660110: Umbrellas and sun umbrellas; garden or similar umbrellas\n- 660199: Umbrellas and sun umbrellas; n.e.c. in heading no. 6601 (including walking stick umbrellas)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3d02d73ebb8dc1f150e0640fbc5aa9ea317fae11ecdb4e7f1eba96c5de406c14",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "660191",
+      "cited": [
+        "660191"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 383,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

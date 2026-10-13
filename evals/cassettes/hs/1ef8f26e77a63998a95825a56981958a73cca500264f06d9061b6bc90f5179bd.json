@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "1ef8f26e77a63998a95825a56981958a73cca500264f06d9061b6bc90f5179bd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Electric guitar\nCountry of origin: ID\n\nChosen so far: 92 Musical instruments; parts and accessories of such articles > 9207 Musical instruments; the sound of which is produced or must be amplified, electrically (e.g. organs, guitars, accordions)\n\nChoose the subheading that covers these goods. Options:\n- 920790: Musical instruments; (other than keyboard), the sound of which is produced or must be amplified electrically\n- 920710: Musical instruments; keyboard, (other than accordions), the sound of which is produced or must be amplified electrically\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e6282cd654f1f7f307f40c2c98d98d159f230f7b22196812461bc85b108e3de2",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "920790",
+      "cited": [
+        "920790"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 368,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

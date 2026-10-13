@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "2d03002cd178943739ddca9920a731d3ba48d0ca4f7e20ca3413b7860906fd59",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Desktop computer system unit with processor, memory and storage, no monitor\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8471 Automatic data processing machines and units thereof, magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n\nChoose the subheading that covers these goods. Options:\n- 847150: Units of automatic data processing machines; processing units other than those of item no. 8471.41 or 8471.49, whether or not containing in the same housing one or two of the following types of unit: storage units, input units or output units\n- 847170: Units of automatic data processing machines; storage units\n- 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n- 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n- 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n- 847180: Units of automatic data processing machines; n.e.c. in item no. 8471.50, 8471.60 or 8471.70\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6ae50024aa8c1dd18a1652cf8c02878ed7133776f9ced332e839b972847183ff",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "847150",
+      "cited": [
+        "847150"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 568,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

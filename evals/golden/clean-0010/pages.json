@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Vendeur / Seller\r\nNapolitano, Cuomo e Foa SPA\r\nStrada Mariano, 2, 89047 Prato, Italy \r\nAcheteur / Buyer\r\nBaudry et Fils\r\n64, rue de Delaunay, 97235 Paris, France \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-1980/26\r\nDate 2026-05-04\r\nDevise / Currency EUR\r\nIncoterm 2020 CFR Marseille\r\nPaiement /\r\nPayment\r\n30% deposit, 70% against\r\ncopy of B/L\r\nChargement /\r\nLoading\r\nGenova\r\nDestination Marseille\r\nLig. Désignation / Description Orig. Qté U. P.U. EUR Montant EUR\r\n1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39\r\n2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63\r\n3 Red wine, 0.75L bottle IT 2 914 pcs 11,47 33 423,58\r\n4 Cotton knitted pullover CN 5 424 pcs 11,57 62 755,68\r\n5 Centrifugal water pump 1.1kW IT 95 pcs 118,25 11 233,75\r\n6 Inflatable beach ball 40cm CN 11 400 pcs 0,3511 4 002,54\r\n7 Hair dryer 2200W ionic CN 2 480 pcs 8,37 20 757,60\r\n8 Terry cotton bath towel 70x140 IN 8 280 pcs 3,90 32 292,00\r\n9 LED bulb E27 9W warm white CN 6 400 pcs 1,48 9 472,00\r\n10 Stainless cutlery set, 24 pieces CN 2 770 sets 18,56 51 411,20\r\nTotal EUR : 236 799,37\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Napolitano, Cuomo e Foa SPA\r\nStrada Mariano, 2, 89047 Prato, Italy\r\nPACKING LIST\r\nInvoice Ref. FC-1980/26\r\nDate 2026-05-04\r\nCONSIGNEE\r\nBaudry et Fils\r\n64, rue de Delaunay, 97235 Paris, France\r\nTERMS OF DELIVERY\r\nCFR Marseille\r\nGenova to Marseille\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg\r\n2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg\r\n3 Red wine, 0.75L bottle IT 2 914 pcs 486 3 651,24 kg 4 301,55 kg\r\n4 Cotton knitted pullover CN 5 424 pcs 226 2 739,12 kg 3 045,23 kg\r\n5 Centrifugal water pump 1.1kW IT 95 pcs 95 1 210,30 kg 1 411,25 kg\r\n6 Inflatable beach ball 40cm CN 11 400 pcs 57 763,80 kg 825,01 kg\r\n7 Hair dryer 2200W ionic CN 2 480 pcs 124 1 676,48 kg 1 907,32 kg\r\n8 Terry cotton bath towel 70x140 IN 8 280 pcs 207 3 949,56 kg 4 260,10 kg\r\n9 LED bulb E27 9W warm white CN 6 400 pcs 32 275,20 kg 322,24 kg\r\n10 Stainless cutlery set, 24 pieces CN 2 770 sets 277 4 628,67 kg 5 249,07 kg\r\nTotal 1588 CARTONS 19 834,46 kg 22 354,98 kg\r\nShipping marks: BAUDRY / FC-1980/26\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nNapolitano, Cuomo e Foa SPA\r\nStrada Mariano, 2, 89047 Prato, Italy\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVGQ9135344 \r\nCONSIGNEE\r\nBaudry et Fils\r\n64, rue de Delaunay, 97235 Paris, France\r\nNOTIFY PARTY\r\nPineau S.A.\r\n5, chemin Alex Marty, 63358 Paris, France\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN TRITON / 819S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nGenova\r\nPORT OF DISCHARGE\r\nMarseille\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU8820326\r\nSEAL\r\n2680810\r\nBAUDRY /\r\nFC-1980/26\r\n1588\r\nCARTONS\r\nSAID TO CONTAIN: Polarized sunglasses; Electric\r\nkettle 1.7L stainless; Red wine, 0.75L bottle;\r\nCotton knitted pullover; Centrifugal water pump\r\n1.1kW; Inflatable beach ball 40cm; Hair dryer\r\n2200W ionic; Terry cotton bath towel 70x140; LED\r\nbulb E27 9W warm white; Stainless cutlery set, 24\r\npieces\r\n22 354,98 kg\r\nSHIPPED ON BOARD\r\n2026-05-12\r\nPLACE AND DATE OF ISSUE\r\nGenova, 2026-05-12\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1"
+    }
+  ]
+}

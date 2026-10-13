@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0001",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "CMDUFO3249687",
+    "seller": {
+      "name": "Samut Prakan Sukjai Trading Co., Ltd.",
+      "address": [
+        "No. 358 Industrial Road",
+        "Samut Prakan",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Flores, Wheeler and Smith",
+      "address": [
+        "3389 Jennifer Valley Apt. 764",
+        "83583 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": null,
+    "carrier": "CMA CGM",
+    "vessel": "CMA CALYPSO",
+    "voyage": "948S",
+    "port_of_loading": "Bangkok",
+    "port_of_discharge": "Los Angeles",
+    "shipped_on_board": "2026-09-20",
+    "container_number": "CMDU5092478",
+    "seal_number": "9623312",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1117,
+    "total_gross_weight_kg": "10453.85",
+    "goods_description": "SAID TO CONTAIN: Passenger car tyre 205/55R16"
+  },
+  "line_items": []
+}

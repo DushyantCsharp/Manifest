@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "C O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nBusan Daesung Import & Export Co., Ltd.\r\nNo. 227 Avenue 3, Busan, South Korea\r\nINVOICE NO. & DATE\r\nEX202665-8629\r\n11-JUN-2026\r\nCONSIGNEE\r\nWilliamson PLC\r\n2226 Ryan Views, 86254 Newark, United States\r\nTERMS OF DELIVERY AND PAYMENT\r\nCPT Los Angeles\r\nCash against documents\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nVESSEL / VOYAGE\r\nEVERGREEN KENSINGTON V.574E\r\nPORT OF LOADING\r\nBUSAN\r\nPORT OF DISCHARGE\r\nSAVANNAH\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nWILLIAMSON /\r\nEX202665-8629\r\nWOMEN'S COTTON DENIM\r\nTROUSERS\r\n6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79\r\nRED WINE, 0.75L BOTTLE 2204.21 FRANCE 3,072 PCS 8.80 27,033.60\r\nLEATHER HANDBAG WITH\r\nSHOULDER STRAP\r\n4202.21 CHINA 1,930 PCS 22.34 43,116.20\r\nCORRUGATED SHIPPING\r\nCARTON, 3-PLY\r\n4819.10 CHINA 18,050 PCS 0.5592 10,093.56\r\nSTAINLESS CUTLERY SET,\r\n24 PIECES\r\n8215.20 INDIA 2,640 SETS 14.40 38,016.00\r\nFROZEN VANNAMEI\r\nSHRIMP, PEELED\r\n0306.17 INDIA 2,140 KG 11.38 24,353.20\r\nPOLARIZED SUNGLASSES 9004.10 ITALY 8,600 PCS 2.26 19,436.00\r\nTOTAL CPT LOS ANGELES USD 203,432.35\r\nSAY TOTAL US DOLLARS TWO HUNDRED THREE THOUSAND FOUR HUNDRED THIRTY-TWO AND CENTS THIRTY-FIVE\r\nONLY\r\nFor and on behalf of Busan Daesung Import &\r\nExport Co., Ltd.\r\nAuthorized Signature\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Busan Daesung Import & Export Co., Ltd.\r\nNo. 227 Avenue 3, Busan, South Korea \r\nPACKING LIST\r\nInvoice Ref. EX202665-8629\r\nDate 11-JUN-2026\r\nCONSIGNEE\r\nWilliamson PLC\r\n2226 Ryan Views, 86254 Newark, United States\r\nTERMS OF DELIVERY\r\nCPT Los Angeles\r\nBusan to Savannah\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Women's cotton denim trousers BD 3,001 pcs 101 1,581.53 kg 1,818.96 kg\r\n2 Red wine, 0.75L bottle FR 3,072 pcs 512 3,947.52 kg 4,748.12 kg\r\n3 Leather handbag with shoulder strap CN 1,930 pcs 193 1,947.37 kg 2,073.58 kg\r\n4 Corrugated shipping carton, 3-ply CN 18,050 pcs 361 8,194.70 kg 9,014.78 kg\r\n5 Stainless cutlery set, 24 pieces IN 2,640 sets 264 3,780.48 kg 4,133.31 kg\r\n6 Frozen vannamei shrimp, peeled IN 2,140 kg 214 2,140.00 kg 2,495.24 kg\r\n7 Polarized sunglasses IT 8,600 pcs 86 335.40 kg 404.00 kg\r\nTotal 1731 CARTONS 21,927.00 kg 24,687.99 kg\r\nShipping marks: WILLIAMSON / EX202665-8629\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nBusan Daesung Import & Export Co., Ltd.\r\nNo. 227 Avenue 3, Busan, South Korea\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVYG3308072 \r\nCONSIGNEE\r\nWilliamson PLC\r\n2226 Ryan Views, 86254 Newark, United States\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN KENSINGTON / 574E\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nBusan\r\nPORT OF DISCHARGE\r\nSavannah\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU7101117\r\nSEAL\r\n1162134\r\nWILLIAMSON /\r\nEX202665-8629\r\n1731\r\nCARTONS\r\nSAID TO CONTAIN: Women's cotton denim\r\ntrousers; Red wine, 0.75L bottle; Leather\r\nhandbag with shoulder strap; Corrugated\r\nshipping carton, 3-ply; Stainless cutlery set,\r\n24 pieces; Frozen vannamei shrimp, peeled;\r\nPolarized sunglasses\r\n24,687.99 kg\r\nSHIPPED ON BOARD\r\n16-JUN-2026\r\nPLACE AND DATE OF ISSUE\r\nBusan, 16-JUN-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1"
+    }
+  ]
+}

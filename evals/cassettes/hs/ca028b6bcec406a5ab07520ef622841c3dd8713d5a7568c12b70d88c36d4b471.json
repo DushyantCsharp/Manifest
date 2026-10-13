@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "ca028b6bcec406a5ab07520ef622841c3dd8713d5a7568c12b70d88c36d4b471",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: New pneumatic radial tyre 205/55R16 for passenger cars\nCountry of origin: TH\n\nChosen so far: 40 Rubber and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 4011: New pneumatic tyres, of rubber\n    contains 401110: Rubber; new pneumatic tyres, of a kind used on motor cars (including station wagons and racing cars)\n    contains 401130: Rubber; new pneumatic tyres, of a kind used on aircraft\n    contains 401140: Rubber; new pneumatic tyres, of a kind used on motorcycles\n    contains 401150: Rubber; new pneumatic tyres, of a kind used on bicycles\n    contains 401120: Rubber; new pneumatic tyres, of a kind used on buses or lorries\n    contains 401190: Rubber; new pneumatic tyres, of a kind used on light commercial vehicles\n    contains 401170: Rubber; new pneumatic tyres, of a kind used on agricultural or forestry vehicles and machines\n    contains 401180: Rubber; new pneumatic tyres, of a kind used on construction, mining or industrial handling vehicles and machines\n- 4012: Retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps, of rubber\n    contains 401211: Retreaded tyres; of a kind used on motor cars (including station wagons and racing cars)\n    contains 401219: Retreaded tyres; other than of a kind used on motor cars (including station wagons and racing cars), buses and lorries and aircraft\n    contains 401220: Rubber; used pneumatic tyres\n    contains 401290: Rubber; tyres n.e.c. in heading no. 4012\n    contains 401213: Retreaded tyres; of a kind used on aircraft\n    contains 401212: Retreaded tyres; of a kind used on motor buses or lorries\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "69148ddedda8a6e04a423a45c1e1cbfc9a98d534f96b11f4225f1faaac889849",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "4011",
+      "cited": [
+        "4011"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 638,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

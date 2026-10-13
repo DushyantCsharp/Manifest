@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "key": "0cbc97560b37c6ac7b56c27837fb8a9f6013e364cfadfd89b123de62744c46f2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nBangkok Siam Trading Co., Ltd.\r\nNo. 42 Avenue 3, Bangkok, Thailand\r\nPACKING LIST\r\nInvoice Ref. EX202658-1822\r\nDate 21-SEP-2026\r\nCONSIGNEE\r\nBolkesteijn Groep\r\nAbeldreef 2, 4065 NA Utrecht, Netherlands\r\nTERMS OF DELIVERY\r\nCIP Utrecht\r\nLaem Chabang to Rotterdam\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg\r\n2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg\r\n3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg\r\nTotal 994 CARTONS 21,753.12 kg 23,672.84 kg\r\nShipping marks: BOLKESTEIJN / EX202658-1822\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Bolkesteijn Groep",
+        "value": "Bolkesteijn Groep"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 21-SEP-2026",
+        "value": "21-SEP-2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CIP Utrecht",
+        "value": "CIP Utrecht"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. EX202658-1822",
+        "value": "EX202658-1822"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "value": "Stainless steel sheet 304, cold-rolled 2mm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "value": "18,153.79 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "value": "17,000.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "value": "17,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "value": "IT"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "value": "Polarized sunglasses"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "value": "533.06 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "value": "366.60 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "value": "9,400"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 42 Avenue 3, Bangkok, Thailand",
+            "value": "Thailand"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "value": "Nitrile examination gloves, box of 100"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "value": "4,985.99 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "value": "4,386.52 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "value": "8,826"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "value": "sets"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Bangkok Siam Trading Co., Ltd.",
+        "value": "Bangkok Siam Trading Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "value": "23,672.84 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "value": "21,753.12 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "value": "994"
+      }
+    },
+    "input_tokens": 397,
+    "latency_ms": 0,
+    "output_tokens": 943
+  }
+}

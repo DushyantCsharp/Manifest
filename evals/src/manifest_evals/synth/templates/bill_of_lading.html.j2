@@ -1,0 +1,73 @@
+{# Bill of lading, shared by every pack: a carrier's boxed form. #}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  body { font-family: "Courier New", Courier, "DejaVu Sans Mono", monospace; font-size: 8.5pt; }
+  .frame td { border: 0.8pt solid #000; padding: 4px 5px; height: 15mm; }
+  .label { display: block; font-family: Arial, "DejaVu Sans", sans-serif; font-size: 6.5pt; text-transform: uppercase; color: #333; }
+  .carrier { font-family: Arial, "DejaVu Sans", sans-serif; font-size: 16pt; font-weight: bold; }
+  .doc { font-family: Arial, "DejaVu Sans", sans-serif; font-size: 10pt; font-weight: bold; }
+  .cargo { margin-top: -0.8pt; }
+  .cargo th { border: 0.8pt solid #000; font-family: Arial, "DejaVu Sans", sans-serif; font-size: 6.5pt; padding: 3px; text-transform: uppercase; }
+  .cargo td { border: 0.8pt solid #000; padding: 5px; height: 55mm; }
+  .terms { font-family: Arial, "DejaVu Sans", sans-serif; font-size: 6pt; color: #444; margin-top: 4px; }
+</style>
+</head>
+<body>
+<table class="frame">
+  <tr>
+    <td style="width: 55%"><span class="label">Shipper</span>{{ doc.seller.name }}<br>{{ doc.seller.address | join(", ") }}</td>
+    <td>
+      <div class="carrier">{{ doc.carrier }}</div>
+      <div class="doc">BILL OF LADING</div>
+      <span class="label">B/L No.</span>{{ doc.bl_number }}
+    </td>
+  </tr>
+  <tr>
+    <td><span class="label">Consignee</span>{{ doc.buyer.name }}<br>{{ doc.buyer.address | join(", ") }}</td>
+    <td><span class="label">Notify Party</span>
+      {% if doc.notify_party %}{{ doc.notify_party.name }}<br>{{ doc.notify_party.address | join(", ") }}{% else %}SAME AS CONSIGNEE{% endif %}</td>
+  </tr>
+  <tr>
+    <td><span class="label">Ocean Vessel / Voyage No.</span>{{ doc.vessel }} / {{ doc.voyage }}</td>
+    <td><span class="label">Freight</span>FREIGHT {{ doc.freight_terms }}</td>
+  </tr>
+  <tr>
+    <td><span class="label">Port of Loading</span>{{ doc.port_of_loading }}</td>
+    <td><span class="label">Port of Discharge</span>{{ doc.port_of_discharge }}</td>
+  </tr>
+</table>
+
+<table class="cargo">
+  <thead>
+    <tr><th>Container / Seal No.</th><th>Marks &amp; Nos.</th><th>No. of Packages</th><th>Description of Goods</th><th>Gross Weight</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ doc.container_number }}<br>SEAL {{ doc.seal_number }}</td>
+      <td>{{ doc.marks }}</td>
+      <td>{{ doc.total_packages }} {{ doc.package_type }}</td>
+      <td>{{ goods }}</td>
+      <td class="nowrap">{{ layout.weight(doc.total_gross_weight_kg) }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="frame">
+  <tr>
+    <td><span class="label">Shipped on Board</span>{{ layout.date(doc.shipped_on_board) }}</td>
+    <td><span class="label">Place and Date of Issue</span>{{ doc.port_of_loading }}, {{ layout.date(doc.shipped_on_board) }}</td>
+    <td><span class="label">Number of Original B/Ls</span>THREE (3)</td>
+  </tr>
+</table>
+<div class="terms">
+  RECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total
+  number of containers or packages shown above for carriage from the port of loading to the port
+  of discharge, subject to the terms and conditions of the carrier's standard bill of lading.
+  Signed as Carrier: {{ doc.carrier }}.
+</div>
+</body>
+</html>

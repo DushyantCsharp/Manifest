@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0002",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "CMDUMN2957417",
+    "seller": {
+      "name": "Khare Inc",
+      "address": [
+        "78, Kota Zila",
+        "881224 Tiruppur",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Karge Mälzer GmbH & Co. KG",
+      "address": [
+        "Heinzstraße 7/8",
+        "00962 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "notify_party": {
+      "name": "Carsten Stiftung & Co. KGaA",
+      "address": [
+        "Mia-Klemt-Platz 2/3",
+        "85847 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "carrier": "CMA CGM",
+    "vessel": "CMA CALYPSO",
+    "voyage": "850S",
+    "port_of_loading": "Chennai",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-02-04",
+    "container_number": "CMDU1780805",
+    "seal_number": "7807542",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 409,
+    "total_gross_weight_kg": "10097.52",
+    "goods_description": "SAID TO CONTAIN: Men's crew-neck T-shirt, 100% cotton jersey; Black tea, CTC, bulk; Stainless cutlery set, 24 pieces"
+  },
+  "line_items": []
+}

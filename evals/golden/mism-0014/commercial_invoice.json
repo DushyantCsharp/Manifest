@@ -1,0 +1,84 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0014",
+  "document": "commercial_invoice",
+  "layout": "letterhead",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/0956",
+    "invoice_date": "2026-05-04",
+    "seller": {
+      "name": "Sezgin Manço San.",
+      "address": [
+        "8703 Soylu Circles",
+        "54932 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Rogers-Clark",
+      "address": [
+        "409 Heather Heights",
+        "DA7 4UX Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "CFR",
+    "incoterm_place": "Southampton",
+    "payment_terms": "T/T in advance",
+    "total_amount": "397512.92"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "CL",
+      "quantity": "8982",
+      "unit": "pcs",
+      "unit_price": "3.25",
+      "amount": "29191.50"
+    },
+    {
+      "line_no": 2,
+      "description": "Laptop computer 14in, 16GB RAM",
+      "country_of_origin": "VN",
+      "quantity": "375",
+      "unit": "pcs",
+      "unit_price": "726.18",
+      "amount": "272317.50"
+    },
+    {
+      "line_no": 3,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "2880",
+      "unit": "pcs",
+      "unit_price": "13.51",
+      "amount": "38908.80"
+    },
+    {
+      "line_no": 4,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "2632",
+      "unit": "pcs",
+      "unit_price": "8.41",
+      "amount": "22135.12"
+    },
+    {
+      "line_no": 5,
+      "description": "Analog quartz wristwatch, steel case",
+      "country_of_origin": "CN",
+      "quantity": "950",
+      "unit": "pcs",
+      "unit_price": "36.80",
+      "amount": "34960.00"
+    }
+  ]
+}

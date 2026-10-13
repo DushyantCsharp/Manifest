@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "c3ccdcceda29e8c55a027ef04d3f6438ef0663f3e911b0593dff5001d36f2f39",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Household aluminium foil 12 micron, rolls\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 76: Aluminium and articles thereof\n    contains 761510: Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like\n    contains 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n    contains 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n    contains 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n    contains 761520: Aluminium; sanitary ware and parts thereof\n    contains 761699: Aluminium; articles n.e.c. in heading 7616\n    contains 760120: Aluminium; unwrought, alloys\n    contains 760200: Aluminium; waste and scrap\n    contains 760110: Aluminium; unwrought, (not alloyed)\n    contains 760820: Aluminium; tubes and pipes, alloys\n    contains 760320: Aluminium; powders of lamellar structure, flakes\n- 39: Plastics and articles thereof\n    contains 391910: Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, in rolls of a width not exceeding 20cm\n    contains 391990: Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, other than in rolls of a width not exceeding 20cm\n    contains 392490: Plastics; household articles and hygienic or toilet articles\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 480300: Tissue, towel, napkin stock or similar; for household or sanitary use, cellulose, wadding webs of cellulose fibres, in rolls exceeding 36cm in width or rectangular sheets with one side more than 36cm in unfolded state\n- 26: Ores, slag and ash\n    contains 260600: Aluminium ores and concentrates\n- 79: Zinc and articles thereof\n    contains 790500: Zinc; plates, sheets, strip and foil\n- 69: Ceramic products\n    contains 691190: Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china\n    contains 691200: Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china\n- 75: Nickel and articles thereof\n    contains 750620: Nickel; plates, sheets, strip and foil, of nickel alloys\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "550de7384f2f56513705000dd14abc4e6e89b8ad1158a5b548bc780028b7d07a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "76",
+      "cited": [
+        "76"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 828,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

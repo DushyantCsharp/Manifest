@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "874219135bde242d4f5c79ea229729526e916945f5c54c93967a434c48f405c8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Electric bicycle with 250W pedal-assist motor\nCountry of origin: CN\n\nChosen so far: 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n\nChoose the heading that covers these goods. Options:\n- 8712: Bicycles and other cycles; including delivery tricycles, not motorised\n    contains 871200: Bicycles and other cycles; including delivery tricycles, not motorised\n- 8704: Vehicles; for the transport of goods\n    contains 870460: Vehicles; with only electric motor for propulsion\n- 8701: Tractors; (other than tractors of heading no 8709)\n    contains 870124: Tractors; road tractors for semi-trailers, with only electric motors for propulsion\n- 8703: Motor cars and other motor vehicles; principally designed for the transport of persons (other than those of heading no. 8702), including station wagons and racing cars\n    contains 870380: Vehicles; with only electric motor for propulsion\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e9a42cf9542402bf6930a6ce62ab8bc8f7b2e78ed6ea2ddbc4c19aa63af0480a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8712",
+      "cited": [
+        "8712"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 462,
+    "latency_ms": 0,
+    "output_tokens": 30
+  }
+}

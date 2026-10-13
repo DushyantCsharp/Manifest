@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "c046544ba4ea5a5ff001f09295692ed18f36509ba9227b60ef1063857f7bd2ca",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel saucepan 20cm with lid\nCountry of origin: IN\n\nChosen so far: 73 Iron or steel articles\n\nChoose the heading that covers these goods. Options:\n- 7324: Sanitary ware and parts thereof, of iron or steel\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n- 7307: Tube or pipe fittings (e.g. couplings, elbows, sleeves), of iron or steel\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n    contains 730723: Steel, stainless; tube or pipe fittings, butt welding fittings\n    contains 730729: Steel, stainless; tube or pipe fittings, n.e.c. in item no. 7307.2\n    contains 730791: Iron or steel; tube or pipe fittings, flanges, other than stainless steel\n    contains 730722: Steel, stainless; tube or pipe fittings, threaded elbows, bends and sleeves\n    contains 730793: Iron or steel; tube or pipe fittings, butt welding fittings, other than stainless steel\n- 7314: Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel\n    contains 731419: Iron or steel; woven cloth, other than of stainless steel\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "758712dd1dd461969649cf75dc42106ccac4ad4b6132d62b1e97e1d9eaa28e5c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7324",
+      "cited": [
+        "7324"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 513,
+    "latency_ms": 0,
+    "output_tokens": 30
+  }
+}

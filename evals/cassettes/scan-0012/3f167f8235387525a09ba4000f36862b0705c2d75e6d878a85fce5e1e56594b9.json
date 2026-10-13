@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "3f167f8235387525a09ba4000f36862b0705c2d75e6d878a85fce5e1e56594b9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER -\nSalvi LLC’\n81, Mane Circle,\n\n917747 Mumbai, India\n\nMAERSK |\n\nBILL OF LADING\nB/L NO. A\nMAEUAE9829940\n\nCONSIGNEE\nJanssens VOF\n\nRudilei 3, 5485 Gent, Belgium\n\nNOTIFY PARTY\nSAME AS CONSIGNEE\n\nOCEAN VESSEL / VOYAGE NO.\nMAERSK TRITON / 3225S\n\nFREIGHT\nFREIGHT COLLECT\n\nPORT OF LOADING\nChennai\n\nPORT OF DISCHARGE\nAntwerp\n\nCONTAINER / SEAL | MARKS & NOS. NO. OF DESCRIPTION OF GOODS \"| GROSS WEIGHT\nNO. PACKAGES ;\nMAEU9329709 | JANSSENS / 786 SAID TO CONTAIN: Leather handbag with shoulder 25.372,26 kg\nSEAL RE-26-3139 CARTONS | strap; Stainless steel sheet 304, cold-rolled\n7906175 2mm; Smartphone 6.lin, 128GB; Men's woven cotton\n\nshirt, long sleeve; Long grain white rice,\n\nmilled; Men's crew-neck T-shirt,: 100% cotton\n\njersey :\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\n05.05.2026 Chennai, 05.05.2026 THREE (3)\n\nRCOENTED by the Carrier in apparent good order and condition unless otherwise stated the tots! numosr fi Ee\n\nTe hacharge, eubject to the terms end conditions ofthe car's standard bil of lading. Signed ee Comer MAERSK\n\ners or packages shown above for carriage from the port of loading to the port\n\n\" Page lof 1\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "MAEUAE9829940",
+        "value": "MAEUAE9829940"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Janssens VOF",
+        "value": "Janssens VOF"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MAERSK |",
+        "value": "MAERSK"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "MAEU9329709 | JANSSENS / 786 SAID TO CONTAIN: Leather handbag with shoulder 25.372,26 kg",
+        "value": "MAEU9329709"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "SEAL RE-26-3139 CARTONS | strap; Stainless steel sheet 304, cold-rolled",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Antwerp",
+        "value": "Antwerp"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Chennai",
+        "value": "Chennai"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "7906175 2mm; Smartphone 6.lin, 128GB; Men's woven cotton",
+        "value": "7906175"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Salvi LLC’",
+        "value": "Salvi LLC"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "05.05.2026 Chennai, 05.05.2026 THREE (3)",
+        "value": "05.05.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "MAEU9329709 | JANSSENS / 786 SAID TO CONTAIN: Leather handbag with shoulder 25.372,26 kg",
+        "value": "25.372,26 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "MAEU9329709 | JANSSENS / 786 SAID TO CONTAIN: Leather handbag with shoulder 25.372,26 kg",
+        "value": "786"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "MAERSK TRITON / 3225S",
+        "value": "MAERSK TRITON"
+      },
+      "voyage": {
+        "confidence": "0.80",
+        "evidence": "MAERSK TRITON / 3225S",
+        "value": "3225S"
+      }
+    },
+    "input_tokens": 522,
+    "latency_ms": 0,
+    "output_tokens": 448
+  }
+}

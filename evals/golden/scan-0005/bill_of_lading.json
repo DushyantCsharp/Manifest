@@ -1,0 +1,52 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0005",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "2.21",
+    "noise_sigma": 6,
+    "salt_pepper": "0.0008",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYFE6112892",
+    "seller": {
+      "name": "Qingdao Haixing Import & Export Co., Ltd.",
+      "address": [
+        "No. 252 Export Processing Zone",
+        "Qingdao",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Bousquet",
+      "address": [
+        "27, rue de Le Roux",
+        "84775 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE ZEPHYR",
+    "voyage": "476N",
+    "port_of_loading": "Qingdao",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-10-01",
+    "container_number": "ONEU9284964",
+    "seal_number": "5525718",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1923,
+    "total_gross_weight_kg": "23044.67",
+    "goods_description": "SAID TO CONTAIN: Electric kettle 1.7L stainless; Upholstered office chair, steel base; AC induction motor 0.55kW 3-phase; Running shoes, rubber sole, textile upper; Passenger car tyre 205/55R16; Plush toy bear 30cm; Plastic storage box 30L with lid; Lithium-ion battery pack 48V 20Ah"
+  },
+  "line_items": []
+}

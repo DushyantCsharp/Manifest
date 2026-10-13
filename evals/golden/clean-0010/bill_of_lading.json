@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0010",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVGQ9135344",
+    "seller": {
+      "name": "Napolitano, Cuomo e Foa SPA",
+      "address": [
+        "Strada Mariano, 2",
+        "89047 Prato",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Baudry et Fils",
+      "address": [
+        "64, rue de Delaunay",
+        "97235 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": {
+      "name": "Pineau S.A.",
+      "address": [
+        "5, chemin Alex Marty",
+        "63358 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN TRITON",
+    "voyage": "819S",
+    "port_of_loading": "Genova",
+    "port_of_discharge": "Marseille",
+    "shipped_on_board": "2026-05-12",
+    "container_number": "EGLU8820326",
+    "seal_number": "2680810",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1588,
+    "total_gross_weight_kg": "22354.98",
+    "goods_description": "SAID TO CONTAIN: Polarized sunglasses; Electric kettle 1.7L stainless; Red wine, 0.75L bottle; Cotton knitted pullover; Centrifugal water pump 1.1kW; Inflatable beach ball 40cm; Hair dryer 2200W ionic; Terry cotton bath towel 70x140; LED bulb E27 9W warm white; Stainless cutlery set, 24 pieces"
+  },
+  "line_items": []
+}

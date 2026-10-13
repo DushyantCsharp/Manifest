@@ -1,0 +1,17 @@
+[project]
+name = "manifest-api"
+version = "0.1.0"
+description = "HTTP edge: REST under /v1, Strawberry GraphQL at /graphql."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "manifest-domain",
+    "manifest-db",
+    "manifest-telemetry",
+    "fastapi>=0.143.0",
+    "strawberry-graphql[fastapi]>=0.333.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12"]
+build-backend = "uv_build"

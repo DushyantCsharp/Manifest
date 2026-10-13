@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "key": "906cb7eb253304b5c2692ba0263a8eaaaac98873bd83dd2590374b984723fe6e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nSilva\r\nJardim Albuquerque, 73, 14555-337 Santos, Brazil\r\nPACKING LIST\r\nInvoice Ref. 2026/1389\r\nDate March 29, 2026\r\nCONSIGNEE\r\nJones, Hutchinson and Marshall\r\nFlat 18, Middleton Junction, LA4M 2YQ Leeds, United\r\nKingdom\r\nTERMS OF DELIVERY\r\nCPT Manchester\r\nParanaguá to Felixstowe\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb\r\n2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb\r\nTotal 1188 CARTONS 45,061.7 lb 50,677.8 lb\r\nShipping marks: JONES, / 2026/1389\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Jones, Hutchinson and Marshall",
+        "value": "Jones, Hutchinson and Marshall"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date March 29, 2026",
+        "value": "March 29, 2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Manchester",
+        "value": "CPT Manchester"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. 2026/1389",
+        "value": "2026/1389"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Jardim Albuquerque, 73, 14555-337 Santos, Brazil",
+            "value": "Brazil"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "value": "Green Arabica coffee beans, grade 1"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "value": "16,745.5 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "value": "15,476.5 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "value": "7,020"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Jardim Albuquerque, 73, 14555-337 Santos, Brazil",
+            "value": "Brazil"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "value": "A4 copy paper 80gsm, ream"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "value": "33,932.3 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "value": "29,585.2 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "value": "5,355"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Silva",
+        "value": "Silva"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "value": "50,677.8 lb"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "value": "45,061.7 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "value": "1188"
+      }
+    },
+    "input_tokens": 379,
+    "latency_ms": 0,
+    "output_tokens": 696
+  }
+}

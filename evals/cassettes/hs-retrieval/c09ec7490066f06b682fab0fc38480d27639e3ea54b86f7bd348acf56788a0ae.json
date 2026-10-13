@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "c09ec7490066f06b682fab0fc38480d27639e3ea54b86f7bd348acf56788a0ae",
+  "retriever": "offline-lexical",
+  "query": "Spark plugs for petrol engines origin JP",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "851110",
+      "description": "Ignition or starting equipment; spark plugs, of a kind used for spark or compression-ignition internal combustion engines",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "842123",
+      "description": "Machinery; filtering or purifying machinery, oil or petrol filters for internal combustion engines",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "840710",
+      "description": "Engines; for aircraft, spark-ignition reciprocating or rotary internal combustion piston engines",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "840999",
+      "description": "Engines; parts for internal combustion piston engines (excluding spark-ignition)",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "840721",
+      "description": "Engines; outboard motors for marine propulsion, spark-ignition reciprocating or rotary internal combustion piston engines",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "850220",
+      "description": "Electric generating sets; with spark-ignition internal combustion piston engines",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "840729",
+      "description": "Engines; for marine propulsion, (other than outboard motors), spark-ignition reciprocating or rotary internal combustion piston engines",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "840910",
+      "description": "Engines; parts of aircraft engines (spark-ignition reciprocating or rotary internal combustion piston engines)",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "840991",
+      "description": "Engines; parts, suitable for use solely or principally with spark-ignition internal combustion piston engines (for other than aircraft)",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "870452",
+      "description": "Vehicles; with both spark-ignition internal combustion piston engine and electric motors for propulsion, of a g.v.w. exceeding 5,000kg",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "870432",
+      "description": "Vehicles; with only spark-ignition internal combustion piston engine, for transport of goods, (of a g.v.w. exceeding 5 tonnes), n.e.c. in item no 8704.1",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "870451",
+      "description": "Vehicles; with both spark-ignition internal combustion piston engine and electric motors for propulsion, of a g.v.w. not exceeding 5,000kg",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "870123",
+      "description": "Tractors; road tractors for semi-trailers, with both spark-ignition internal combustion piston engine and electric motors for propulsion",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "870431",
+      "description": "Vehicles; with only spark-ignition internal combustion piston engine, for transport of goods, (of a g.v.w. not exceeding 5 tonnes), n.e.c. in item no 8704.1",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "851130",
+      "description": "Ignition or starting equipment; distributors and ignition coils of a kind used for spark-ignition or compression-ignition internal combustion engines",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "851180",
+      "description": "Ignition or starting equipment; n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "851190",
+      "description": "Ignition or starting equipment; parts of the equipment of heading no. 8511, for use in spark-ignition or compression-ignition internal combustion engines",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "851150",
+      "description": "Ignition or starting equipment; generators n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "850231",
+      "description": "Electric generating sets; wind-powered, (excluding those with spark-ignition or compression-ignition internal combustion piston engines)",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "850239",
+      "description": "Electric generating sets; (excluding those with spark-ignition or compression-ignition internal combustion piston engines), other than wind powered",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

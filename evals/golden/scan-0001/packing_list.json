@@ -1,0 +1,86 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0001",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.41",
+    "noise_sigma": 12,
+    "salt_pepper": "0.0025",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-17807",
+    "date": "2026-05-17",
+    "seller": {
+      "name": "Balay-Dass",
+      "address": [
+        "57/142, Parekh Chowk",
+        "736831 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Reed Group",
+      "address": [
+        "72183 Mark Manors Suite 748",
+        "X3N 9G6 Toronto",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Ludhiana",
+    "package_type": "CARTONS",
+    "total_packages": 1601,
+    "total_net_weight_kg": "21634.68",
+    "total_gross_weight_kg": "24212.04"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "MY",
+      "quantity": "73",
+      "unit": "pcs",
+      "packages": 3,
+      "net_weight_kg": "1516.06",
+      "gross_weight_kg": "1634.97"
+    },
+    {
+      "line_no": 2,
+      "description": "Frozen vannamei shrimp, peeled",
+      "country_of_origin": "IN",
+      "quantity": "12200",
+      "unit": "kg",
+      "packages": 1220,
+      "net_weight_kg": "12200.00",
+      "gross_weight_kg": "14078.80"
+    },
+    {
+      "line_no": 3,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "CN",
+      "quantity": "308",
+      "unit": "pcs",
+      "packages": 154,
+      "net_weight_kg": "2318.62",
+      "gross_weight_kg": "2483.87"
+    },
+    {
+      "line_no": 4,
+      "description": "LDPE film-grade granules",
+      "country_of_origin": "SA",
+      "quantity": "5600",
+      "unit": "kg",
+      "packages": 224,
+      "net_weight_kg": "5600.00",
+      "gross_weight_kg": "6014.40"
+    }
+  ]
+}

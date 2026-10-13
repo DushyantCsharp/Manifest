@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "183a294b88d1d13d1c401001f317d410400ff154ffc8c9f89f63bb562bff9eaa",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:12+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER are\nJaramillo-Ayala Eas\nCl. 78.#-.43-7, 854381 Armenia, Colombia\n\nMAERSK\n\nHendrix, Harrell and Franco\n\n‘States\n\n‘064 Antonio Mills Apt. 751, 28063 Los Angeles, United\n\nBILL OF LADING\n\n} B/LNO. ;\n\nMAEUGN1862212\nCONSIGNEE NOTIFY PARTY\n\nReynolds, Tate and Clark os\n6524 Stephanie Crossing Apt. 091, 85677.\nSavannah, United States\n\nOCEAN VESSEL / VOYAGE NO. :\nMAERSK PEGASUS / 3315S\n\nFREIGHT © ;\nFREIGHT PREPAID\n\nSEAL 6381033 2026/7435\n\nbeans,- grade 1 . :\n\nPORT OF LOADING - PORT OF DISCHARGE\n\nCartagena ‘Savannah\n\nCONTAINER / SEAL. | MARKS & NOS. NO. OF DESCRIPTION OF GOODS GROSS WEIGHT\nNO. : PACKAGES f . a : ‘ ; ;\nMAEU8836397_ HENDRIX, / : 291 BAGS SAID TO CONTAIN: Green Arabica coffee ty 40,295.5 lb\n\nFebruary 6,. 2026\n\nSHIPPED ON BOARD” - - . PLACE AND DATE OF ISSUE\nCartagena,. February 6, 2026\n\nNUMBER OF ORIGINAL B/LS\nTHREE (3)\n\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\n\nOf discharge, subject to the terms and conditions of the carrier's standard bill of lading Signed as Carrier: MAERSK\n\n* Page l of 1°\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "MAEUGN1862212",
+        "value": "MAEUGN1862212"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Hendrix, Harrell and Franco",
+        "value": "Hendrix, Harrell and Franco"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MAERSK",
+        "value": "MAERSK"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "MAEU8836397_ HENDRIX, / : 291 BAGS SAID TO CONTAIN: Green Arabica coffee ty 40,295.5 lb",
+        "value": "MAEU8836397"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Reynolds, Tate and Clark os",
+        "value": "Reynolds, Tate and Clark"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "MAEU8836397_ HENDRIX, / : 291 BAGS SAID TO CONTAIN: Green Arabica coffee ty 40,295.5 lb",
+        "value": "BAGS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Savannah, United States",
+        "value": "Savannah"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Cartagena ‘Savannah",
+        "value": "Cartagena"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 6381033 2026/7435",
+        "value": "6381033"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Jaramillo-Ayala Eas",
+        "value": "Jaramillo-Ayala"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "Cartagena,. February 6, 2026",
+        "value": "February 6, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "MAEU8836397_ HENDRIX, / : 291 BAGS SAID TO CONTAIN: Green Arabica coffee ty 40,295.5 lb",
+        "value": "40,295.5 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "MAEU8836397_ HENDRIX, / : 291 BAGS SAID TO CONTAIN: Green Arabica coffee ty 40,295.5 lb",
+        "value": "291"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "MAERSK PEGASUS / 3315S",
+        "value": "MAERSK PEGASUS"
+      },
+      "voyage": {
+        "confidence": "0.80",
+        "evidence": "MAERSK PEGASUS / 3315S",
+        "value": "3315S"
+      }
+    },
+    "input_tokens": 527,
+    "latency_ms": 0,
+    "output_tokens": 472
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0015",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-0.98",
+    "noise_sigma": 8,
+    "salt_pepper": "0.0024",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-3036/26",
+    "invoice_date": "2026-02-26",
+    "seller": {
+      "name": "Ceci, Mantegazza e Donati s.r.l.",
+      "address": [
+        "Via Oreste, 67 Appartamento 9",
+        "20135 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Segebahn Hein AG & Co. KGaA",
+      "address": [
+        "Emin-Krause-Allee 574",
+        "74731 Frankfurt am Main",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Hamburg",
+    "payment_terms": "L/C at sight",
+    "total_amount": "152282.94"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IT",
+      "quantity": "1709",
+      "unit": "pcs",
+      "unit_price": "72.66",
+      "amount": "124175.94"
+    },
+    {
+      "line_no": 2,
+      "description": "Extra virgin olive oil, 1L bottle",
+      "country_of_origin": "IT",
+      "quantity": "2700",
+      "unit": "pcs",
+      "unit_price": "10.41",
+      "amount": "28107.00"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "4f713ef1c1b0abc9f2bf5d76461280db10d7403416ed13909f3d1665de4ef29a",
+  "retriever": "offline-lexical",
+  "query": "Brass padlock with keys origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "830110",
+      "description": "Padlocks; (key, combination or electrically operated), of base metal",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "830160",
+      "description": "Locks; parts of padlocks, locks, clasps and frames with clasps incorporating locks, of base metal",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "830170",
+      "description": "Keys; presented separately, of base metal",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "830130",
+      "description": "Locks; of a kind used for furniture (key, combination or electrically operated), of base metal",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "830120",
+      "description": "Locks; of a kind used for motor vehicles (key, combination or electrically operated), of base metal",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "830150",
+      "description": "Clasps and frames with clasps; incorporating locks, of base metal",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "830140",
+      "description": "Locks; (other than those for motor vehicles or furniture), (key, combination or electrically operated), of base metal",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "740821",
+      "description": "Copper; wire, of copper-zinc base alloys (brass)",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "740321",
+      "description": "Copper; copper-zinc base alloys (brass) unwrought",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "741121",
+      "description": "Copper; tubes and pipes, of copper-zinc base alloys (brass)",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "740721",
+      "description": "Copper; bars, rods and profiles, of copper-zinc base alloys (brass)",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "740921",
+      "description": "Copper; strip, of a thickness exceeding 0.15mm, of copper-zinc base alloys (brass), in coils",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "740929",
+      "description": "Copper; plates and sheets, of a thickness exceeding 0.15mm, of copper-zinc base alloys (brass), not in coils",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "920510",
+      "description": "Musical instruments; brass-wind (e.g. trumpets), other than fairground organs and mechanical street organs",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "920590",
+      "description": "Musical instruments; wind, other than brass, (eg. clarinet, bagpipes, pipe organs), other than fairground organs and mechanical street organs",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

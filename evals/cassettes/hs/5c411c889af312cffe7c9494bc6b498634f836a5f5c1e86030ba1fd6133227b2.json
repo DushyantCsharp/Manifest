@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "5c411c889af312cffe7c9494bc6b498634f836a5f5c1e86030ba1fd6133227b2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lithium-ion battery pack 48V 20Ah for electric bicycles\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850780: Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850650: Cells and batteries; primary, lithium\n    contains 850680: Cells and batteries; primary, (other than manganese dioxide, mercuric oxide, silver oxide, lithium or air-zinc)\n    contains 854919: Waste and scrap; of primary cells, primary batteries and electric accumulators, n.e.c. in item no 8549.1\n    contains 854914: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, unsorted and not containing lead, cadmium or mercury\n    contains 854912: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, containing lead, cadmium or mercury, other than lead-acid accumulators\n    contains 854913: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, sorted by chemical type and not containing lead, cadmium or mercury\n    contains 854921: Electrical and electronic waste and scrap; of a kind used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switches, glass from cathode ray tubes or other activated glass, or electrical\n    contains 854931: Electrical and electronic waste and scrap; electrical and electronic assemblies and printed circuit boards, other than those used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switch\n    contains 851210: Lighting or visual signalling equipment; electrical, of a kind used on bicycles, excluding articles of heading no. 8539\n    contains 851390: Lamps; parts of portable, electric lamps of heading no. 8513, designed to function by their own source of energy\n- 40: Rubber and articles thereof\n    contains 401320: Rubber; inner tubes, of a kind used on bicycles\n    contains 401150: Rubber; new pneumatic tyres, of a kind used on bicycles\n- 39: Plastics and articles thereof\n    contains 391400: Ion-exchangers; based on polymers of heading no. 3901 to 3913, in primary forms\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 871200: Bicycles and other cycles; including delivery tricycles, not motorised\n- 37: Photographic or cinematographic goods\n    contains 370120: Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs\n- 29: Organic chemicals\n    contains 290433: Derivatives of hydrocarbons; lithium perfluorooctane sulphonate, whether or not halogenated\n- 28: Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes\n    contains 283691: Carbonates; lithium carbonate\n    contains 282520: Lithium oxide and hydroxide\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "38e1e40abe376890447fd426488b4352799345a3be329de9a3cae1231e4ae6ef",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1073,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "bd430f422c621cec2dd89af95a717a7c0e3bc47c495040ee4d4c0ae2de850248",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen French fries, prepared potatoes\nCountry of origin: BE\n\nChosen so far: 20 Preparations of vegetables, fruit, nuts or other parts of plants\n\nChoose the heading that covers these goods. Options:\n- 2004: Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006\n    contains 200410: Vegetable preparations; potatoes, prepared or preserved otherwise than by vinegar or acetic acid, frozen\n    contains 200490: Vegetable preparations; vegetables and mixtures of vegetables (excluding potatoes), prepared or preserved otherwise than by vinegar or acetic acid, frozen\n- 2005: Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006\n    contains 200520: Vegetable preparations; potatoes, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200560: Vegetable preparations; asparagus, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200570: Vegetable preparations; olives, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200510: Vegetable preparations; homogenised vegetables, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200551: Vegetable preparations; beans, shelled, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7cfb3ecaa4a3c23a94329282ac52264cbf91bd15998d6a38782592180c1a85b5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "2004",
+      "cited": [
+        "2004"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 599,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

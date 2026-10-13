@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "178cfc78b9b3a3350548e47c5cbe38f54691821998471e188bb2d0bec2e243d5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Pullover, knitted, 100% cotton\nCountry of origin: KH\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6110: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted\n    contains 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n    contains 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n    contains 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n    contains 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n    contains 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n    contains 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n- 6114: Garments; knitted or crocheted, n.e.c. in chapter 61\n    contains 611420: Garments; of cotton, knitted or crocheted, n.e.c. in chapter 61\n- 6105: Shirts; men's or boys', knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n- 6109: T-shirts, singlets and other vests; knitted or crocheted\n    contains 610910: T-shirts, singlets and other vests; of cotton, knitted or crocheted\n- 6111: Garments and clothing accessories, babies'; knitted or crocheted\n    contains 611120: Garments and clothing accessories; babies', of cotton, knitted or crocheted\n- 6112: Track suits, ski suits and swimwear; knitted or crocheted\n    contains 611211: Track suits; of cotton, knitted or crocheted\n- 6106: Blouses, shirts and shirt-blouses; women's or girls', knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c027855639310a8b639a2b91e486624013221d5a6cced0fa7f26dc74a9266402",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6110",
+      "cited": [
+        "6110"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 751,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

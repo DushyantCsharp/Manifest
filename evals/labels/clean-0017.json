@@ -1,0 +1,82 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0017",
+  "seed": 3349973198,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-0240",
+    "invoice_date": "2026-06-07",
+    "seller": {
+      "name": "Chattogram Bengal Textile Co., Ltd.",
+      "address": [
+        "No. 247 Ring Road",
+        "Chattogram",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "De Neve, Van de Velde en Claes NV",
+      "address": [
+        "Jenslei 79",
+        "9082 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "CPT",
+    "incoterm_place": "Gent",
+    "payment_terms": "L/C at sight",
+    "total_amount": "50599.08",
+    "bl_number": "COSUWU8751024",
+    "notify_party": {
+      "name": "Bogaert-De Backer BV",
+      "address": [
+        "Margarethahof 4",
+        "9565 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "COSCO",
+    "vessel": "COSCO SERENITY",
+    "voyage": "193S",
+    "port_of_loading": "Chattogram",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-06-10",
+    "container_number": "COSU6179764",
+    "seal_number": "7904883",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 187,
+    "total_gross_weight_kg": "2769.16",
+    "goods_description": "SAID TO CONTAIN: Men's woven cotton shirt, long sleeve",
+    "total_net_weight_kg": "2362.28",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Men's woven cotton shirt, long sleeve",
+        "country_of_origin": "BD",
+        "quantity": "7452",
+        "unit": "pcs",
+        "unit_price": "6.79",
+        "amount": "50599.08",
+        "hs_code": "620520",
+        "packages": 187,
+        "net_weight_kg": "2362.28",
+        "gross_weight_kg": "2769.16"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

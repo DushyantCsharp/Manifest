@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "key": "ab8d5458191db37628b1bac451fa977ece0e7fb93ea8bde3e62e811f0a3671cf",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nBalay-Dass COMMERCIAL INVOICE\n\n57/142, Parekh Chowk\n736831 Mumbai\n\nInvoice-No. INV-2026-17807\nIndia Invoice Date 05/17/2026\nPayment Terms. L/C at sight\nBILL TO / CONSIGNEE : SHIPPING\nReed Group ' Terms of Sale: FCA Ludhiana (Incoterms 2020)\n72183 Mark Manors Suite’ 748 _ Port of Loading: Mundra\nX3N_9G6 Toronto Port of Discharge: Vancouver\nCanada Currency: CAD\n\nDescription Country of Origin Qty Unit Unit Price Amount (CAD)\n\n1. Solar PV module 410W monocrystalline Malaysia 73 pes 144.64 10,558.72\n2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00\n3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20\n4 LDPE film-grade granules Saudi Arabia 5,600 kg 1.72 9,632.00\n\nTotal CAD 203,081.92\n\nWe hereby certify that this. invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\nof the origin stated.\n\nAuthorized signature: —_—____________ for Balay-Dass\n\nPage'l of |\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Reed Group ' Terms of Sale: FCA Ludhiana (Incoterms 2020)",
+        "value": "Reed Group"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Canada Currency: CAD",
+        "value": "CAD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Reed Group ' Terms of Sale: FCA Ludhiana (Incoterms 2020)",
+        "value": "FCA Ludhiana"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "India Invoice Date 05/17/2026",
+        "value": "05/17/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice-No. INV-2026-17807",
+        "value": "INV-2026-17807"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1. Solar PV module 410W monocrystalline Malaysia 73 pes 144.64 10,558.72",
+            "value": "10,558.72"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1. Solar PV module 410W monocrystalline Malaysia 73 pes 144.64 10,558.72",
+            "value": "Malaysia"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1. Solar PV module 410W monocrystalline Malaysia 73 pes 144.64 10,558.72",
+            "value": "Solar PV module 410W monocrystalline"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1. Solar PV module 410W monocrystalline Malaysia 73 pes 144.64 10,558.72",
+            "value": "73"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1. Solar PV module 410W monocrystalline Malaysia 73 pes 144.64 10,558.72",
+            "value": "144.64"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00",
+            "value": "162,748.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "India Invoice Date 05/17/2026",
+            "value": "India"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00",
+            "value": "Frozen vannamei shrimp, peeled"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00",
+            "value": "12,200"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00",
+            "value": "13.34"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20",
+            "value": "20,143.20"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20",
+            "value": "AC induction motor 0.55kW 3-phase"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20",
+            "value": "308"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 AC induction motor 0.55kW 3-phase China 308 pcs 65.40 20,143.20",
+            "value": "65.40"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules Saudi Arabia 5,600 kg 1.72 9,632.00",
+            "value": "9,632.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules Saudi Arabia 5,600 kg 1.72 9,632.00",
+            "value": "Saudi Arabia"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules Saudi Arabia 5,600 kg 1.72 9,632.00",
+            "value": "LDPE film-grade granules"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules Saudi Arabia 5,600 kg 1.72 9,632.00",
+            "value": "5,600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled India 12,200. kg 13.34 162,748.00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 LDPE film-grade granules Saudi Arabia 5,600 kg 1.72 9,632.00",
+            "value": "1.72"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms. L/C at sight",
+        "value": "L/C at sight"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Balay-Dass COMMERCIAL INVOICE",
+        "value": "Balay-Dass"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total CAD 203,081.92",
+        "value": "203,081.92"
+      }
+    },
+    "input_tokens": 475,
+    "latency_ms": 0,
+    "output_tokens": 1137
+  }
+}

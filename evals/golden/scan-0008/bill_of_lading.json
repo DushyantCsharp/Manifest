@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0008",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.23",
+    "noise_sigma": 8,
+    "salt_pepper": "0.002",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "HLCUVL7972964",
+    "seller": {
+      "name": "Xiamen Ruifeng Import & Export Co., Ltd.",
+      "address": [
+        "No. 386 Industrial Road",
+        "Xiamen",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Winter PLC",
+      "address": [
+        "Studio 9, Miles Fort",
+        "HA1 8HD Durban",
+        "South Africa"
+      ],
+      "country": "ZA"
+    },
+    "notify_party": {
+      "name": "Fowler, Gregory and Begum",
+      "address": [
+        "Flat 4, Frances Falls",
+        "M40 6ZA Johannesburg",
+        "South Africa"
+      ],
+      "country": "ZA"
+    },
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD TRITON",
+    "voyage": "590E",
+    "port_of_loading": "Shanghai",
+    "port_of_discharge": "Cape Town",
+    "shipped_on_board": "2026-09-18",
+    "container_number": "HLCU6052036",
+    "seal_number": "7433542",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1386,
+    "total_gross_weight_kg": "20269.03",
+    "goods_description": "SAID TO CONTAIN: Deep groove ball bearing 6205-2RS; City bicycle 28in, 7-speed; Upholstered office chair, steel base; Stainless steel saucepan 20cm; Polarized sunglasses; Leather handbag with shoulder strap; LED bulb E27 9W warm white; Hair dryer 2200W ionic; Smartphone 6.1in, 128GB"
+  },
+  "line_items": []
+}

@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0004",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/0296",
+    "date": "2026-07-15",
+    "seller": {
+      "name": "Khanna LLC",
+      "address": [
+        "56/973, Mittal Zila",
+        "603532 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Bailey, Martin and Hardy",
+      "address": [
+        "Flat 6, Hayward Port",
+        "TW7R 2BY Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "incoterm": "CPT",
+    "incoterm_place": "Leeds",
+    "package_type": "CARTONS",
+    "total_packages": 592,
+    "total_net_weight_kg": "7828.01",
+    "total_gross_weight_kg": "8700.94"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IN",
+      "quantity": "1700",
+      "unit": "pcs",
+      "packages": 170,
+      "net_weight_kg": "1645.59",
+      "gross_weight_kg": "1908.85"
+    },
+    {
+      "line_no": 2,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "2229",
+      "unit": "pcs",
+      "packages": 186,
+      "net_weight_kg": "2302.57",
+      "gross_weight_kg": "2642.95"
+    },
+    {
+      "line_no": 3,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "2360",
+      "unit": "sets",
+      "packages": 236,
+      "net_weight_kg": "3879.85",
+      "gross_weight_kg": "4149.15"
+    }
+  ]
+}

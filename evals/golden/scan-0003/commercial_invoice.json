@@ -1,0 +1,85 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0003",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-2.22",
+    "noise_sigma": 7,
+    "salt_pepper": "0.0023",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202620-1238",
+    "invoice_date": "2026-05-27",
+    "seller": {
+      "name": "PD Prastuti Tbk",
+      "address": [
+        "Jl. Rajawali Barat No. 9",
+        "87451 Semarang",
+        "Indonesia"
+      ],
+      "country": "ID"
+    },
+    "buyer": {
+      "name": "Peak-IT",
+      "address": [
+        "Bastiaanbaan 753",
+        "7737CR Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Rotterdam",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "57145.42"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Plastic storage box 30L with lid",
+      "country_of_origin": "CN",
+      "quantity": "5830",
+      "unit": "pcs",
+      "unit_price": "1.71",
+      "amount": "9969.30",
+      "hs_code": "392490"
+    },
+    {
+      "line_no": 2,
+      "description": "Porcelain dinner plate 27cm",
+      "country_of_origin": "CN",
+      "quantity": "2448",
+      "unit": "pcs",
+      "unit_price": "2.54",
+      "amount": "6217.92",
+      "hs_code": "691110"
+    },
+    {
+      "line_no": 3,
+      "description": "Roasted coffee beans, whole",
+      "country_of_origin": "DE",
+      "quantity": "2010",
+      "unit": "kg",
+      "unit_price": "15.32",
+      "amount": "30793.20",
+      "hs_code": "090121"
+    },
+    {
+      "line_no": 4,
+      "description": "LDPE film-grade granules",
+      "country_of_origin": "KR",
+      "quantity": "9500",
+      "unit": "kg",
+      "unit_price": "1.07",
+      "amount": "10165.00",
+      "hs_code": "390110"
+    }
+  ]
+}

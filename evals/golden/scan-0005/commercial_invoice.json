@@ -1,0 +1,117 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0005",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "0.59",
+    "noise_sigma": 6,
+    "salt_pepper": "0.0028",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-5883/26",
+    "invoice_date": "2026-09-19",
+    "seller": {
+      "name": "Qingdao Haixing Import & Export Co., Ltd.",
+      "address": [
+        "No. 252 Export Processing Zone",
+        "Qingdao",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Bousquet",
+      "address": [
+        "27, rue de Le Roux",
+        "84775 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "EXW",
+    "incoterm_place": "Guangzhou",
+    "payment_terms": "T/T in advance",
+    "total_amount": "135820.80"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "2021",
+      "unit": "pcs",
+      "unit_price": "7.94",
+      "amount": "16046.74"
+    },
+    {
+      "line_no": 2,
+      "description": "Upholstered office chair, steel base",
+      "country_of_origin": "CN",
+      "quantity": "374",
+      "unit": "pcs",
+      "unit_price": "76.25",
+      "amount": "28517.50"
+    },
+    {
+      "line_no": 3,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "CN",
+      "quantity": "30",
+      "unit": "pcs",
+      "unit_price": "50.09",
+      "amount": "1502.70"
+    },
+    {
+      "line_no": 4,
+      "description": "Running shoes, rubber sole, textile upper",
+      "country_of_origin": "CN",
+      "quantity": "600",
+      "unit": "pairs",
+      "unit_price": "24.05",
+      "amount": "14430.00"
+    },
+    {
+      "line_no": 5,
+      "description": "Passenger car tyre 205/55R16",
+      "country_of_origin": "CN",
+      "quantity": "899",
+      "unit": "pcs",
+      "unit_price": "59.58",
+      "amount": "53562.42"
+    },
+    {
+      "line_no": 6,
+      "description": "Plush toy bear 30cm",
+      "country_of_origin": "CN",
+      "quantity": "912",
+      "unit": "pcs",
+      "unit_price": "3.12",
+      "amount": "2845.44"
+    },
+    {
+      "line_no": 7,
+      "description": "Plastic storage box 30L with lid",
+      "country_of_origin": "CN",
+      "quantity": "3900",
+      "unit": "pcs",
+      "unit_price": "2.98",
+      "amount": "11622.00"
+    },
+    {
+      "line_no": 8,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "CN",
+      "quantity": "28",
+      "unit": "pcs",
+      "unit_price": "260.50",
+      "amount": "7294.00"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0004",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-2.75",
+    "noise_sigma": 7,
+    "salt_pepper": "0.0008",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/4866",
+    "date": "2026-09-03",
+    "seller": {
+      "name": "Pires Viana e Filhos",
+      "address": [
+        "Favela de da Rosa, 36",
+        "11956-824 Santos",
+        "Brazil"
+      ],
+      "country": "BR"
+    },
+    "buyer": {
+      "name": "Miller-Burke",
+      "address": [
+        "299 Benjamin Oval Suite 202",
+        "39555 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "CIP",
+    "incoterm_place": "Los Angeles",
+    "package_type": "CARTONS",
+    "total_packages": 1866,
+    "total_net_weight_kg": "22945.33",
+    "total_gross_weight_kg": "24654.70"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "A4 copy paper 80gsm, ream",
+      "country_of_origin": "BR",
+      "quantity": "8710",
+      "unit": "pcs",
+      "packages": 1742,
+      "net_weight_kg": "21705.30",
+      "gross_weight_kg": "23300.63"
+    },
+    {
+      "line_no": 2,
+      "description": "Roasted coffee beans, whole",
+      "country_of_origin": "BR",
+      "quantity": "1240",
+      "unit": "kg",
+      "packages": 124,
+      "net_weight_kg": "1239.99",
+      "gross_weight_kg": "1354.06"
+    }
+  ]
+}

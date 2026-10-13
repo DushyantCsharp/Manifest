@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0002",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-6547",
+    "date": "2026-01-24",
+    "seller": {
+      "name": "Khare Inc",
+      "address": [
+        "78, Kota Zila",
+        "881224 Tiruppur",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Karge Mälzer GmbH & Co. KG",
+      "address": [
+        "Heinzstraße 7/8",
+        "00962 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "incoterm": "DAP",
+    "incoterm_place": "Frankfurt am Main",
+    "package_type": "CARTONS",
+    "total_packages": 409,
+    "total_net_weight_kg": "9225.18",
+    "total_gross_weight_kg": "10097.52"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+      "country_of_origin": "IN",
+      "quantity": "7700",
+      "unit": "pcs",
+      "packages": 154,
+      "net_weight_kg": "1678.60",
+      "gross_weight_kg": "1942.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Black tea, CTC, bulk",
+      "country_of_origin": "IN",
+      "quantity": "4700",
+      "unit": "kg",
+      "packages": 94,
+      "net_weight_kg": "4700.00",
+      "gross_weight_kg": "5046.86"
+    },
+    {
+      "line_no": 3,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "1601",
+      "unit": "sets",
+      "packages": 161,
+      "net_weight_kg": "2846.58",
+      "gross_weight_kg": "3108.66"
+    }
+  ]
+}

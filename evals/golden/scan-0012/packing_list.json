@@ -1,0 +1,106 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0012",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-0.77",
+    "noise_sigma": 12,
+    "salt_pepper": "0.0026",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-3139",
+    "date": "2026-04-30",
+    "seller": {
+      "name": "Salvi LLC",
+      "address": [
+        "81, Mane Circle",
+        "917747 Mumbai",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Janssens VOF",
+      "address": [
+        "Rudilei 3",
+        "5485 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Mumbai",
+    "package_type": "CARTONS",
+    "total_packages": 786,
+    "total_net_weight_kg": "24060.37",
+    "total_gross_weight_kg": "25372.26"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IN",
+      "quantity": "650",
+      "unit": "pcs",
+      "packages": 65,
+      "net_weight_kg": "631.80",
+      "gross_weight_kg": "693.49"
+    },
+    {
+      "line_no": 2,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "IN",
+      "quantity": "10000",
+      "unit": "kg",
+      "packages": 10,
+      "net_weight_kg": "10000.00",
+      "gross_weight_kg": "10368.40"
+    },
+    {
+      "line_no": 3,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "IN",
+      "quantity": "1280",
+      "unit": "pcs",
+      "packages": 32,
+      "net_weight_kg": "250.88",
+      "gross_weight_kg": "304.31"
+    },
+    {
+      "line_no": 4,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "IN",
+      "quantity": "7800",
+      "unit": "pcs",
+      "packages": 195,
+      "net_weight_kg": "2324.40",
+      "gross_weight_kg": "2466.20"
+    },
+    {
+      "line_no": 5,
+      "description": "Long grain white rice, milled",
+      "country_of_origin": "IN",
+      "quantity": "10050",
+      "unit": "kg",
+      "packages": 402,
+      "net_weight_kg": "10050.00",
+      "gross_weight_kg": "10576.62"
+    },
+    {
+      "line_no": 6,
+      "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+      "country_of_origin": "IN",
+      "quantity": "4057",
+      "unit": "pcs",
+      "packages": 82,
+      "net_weight_kg": "803.29",
+      "gross_weight_kg": "963.24"
+    }
+  ]
+}

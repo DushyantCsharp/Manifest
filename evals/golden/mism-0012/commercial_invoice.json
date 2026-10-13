@@ -1,0 +1,75 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0012",
+  "document": "commercial_invoice",
+  "layout": "eu",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-5405",
+    "invoice_date": "2026-07-21",
+    "seller": {
+      "name": "Bùi Tập Đoàn",
+      "address": [
+        "Số 5/88 Ngõ 53 Nguyễn Tất Thành",
+        "43460 Hai Phong",
+        "Vietnam"
+      ],
+      "country": "VN"
+    },
+    "buyer": {
+      "name": "Van Leeuwen Buizen",
+      "address": [
+        "Duukpad 05",
+        "2303 CE Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "currency": "EUR",
+    "incoterm": "DDP",
+    "incoterm_place": "Rotterdam",
+    "payment_terms": "L/C at sight",
+    "total_amount": "90061.99"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Plastic storage box 30L with lid",
+      "country_of_origin": "VN",
+      "quantity": "2910",
+      "unit": "pcs",
+      "unit_price": "3.53",
+      "amount": "10272.30"
+    },
+    {
+      "line_no": 2,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "VN",
+      "quantity": "7000",
+      "unit": "pcs",
+      "unit_price": "6.05",
+      "amount": "42350.00"
+    },
+    {
+      "line_no": 3,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "VN",
+      "quantity": "143",
+      "unit": "pcs",
+      "unit_price": "83.83",
+      "amount": "11987.69"
+    },
+    {
+      "line_no": 4,
+      "description": "Green Arabica coffee beans, grade 1",
+      "country_of_origin": "VN",
+      "quantity": "8400",
+      "unit": "kg",
+      "unit_price": "3.03",
+      "amount": "25452.00"
+    }
+  ]
+}

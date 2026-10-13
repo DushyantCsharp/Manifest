@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "dc2b0f4e6082d4ff17c01eca94e0bb583309db45f7b94b9e003e9bfd0ae2da4b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Pullover, knitted, 100% cotton\nCountry of origin: KH\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n    contains 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n    contains 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n    contains 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n    contains 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n    contains 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n    contains 611420: Garments; of cotton, knitted or crocheted, n.e.c. in chapter 61\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n    contains 610910: T-shirts, singlets and other vests; of cotton, knitted or crocheted\n    contains 611120: Garments and clothing accessories; babies', of cotton, knitted or crocheted\n    contains 611211: Track suits; of cotton, knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 621320: Handkerchiefs; of cotton (not knitted or crocheted)\n    contains 620520: Shirts; men's or boys', of cotton (not knitted or crocheted)\n    contains 620920: Garments and clothing accessories; babies', of cotton (not knitted or crocheted)\n    contains 621390: Handkerchiefs; of textile materials other than cotton (not knitted or crocheted)\n- 60: Fabrics; knitted or crocheted\n    contains 600121: Fabrics; looped pile fabrics, of cotton, knitted or crocheted\n    contains 600191: Fabrics; pile fabrics (excluding long pile and loop pile), of cotton, knitted or crocheted\n    contains 600622: Fabrics; knitted or crocheted fabrics, other than those of headings 60.01 to 60.04, of cotton, dyed\n- 97: Works of art; collectors' pieces and antiques\n    contains 970210: Engravings, prints and lithographs; original of an age exceeding 100 years\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "11ffba29eca8e822d24af330b6001fd299a8fb86b16187b66a68ffab05aa3a5c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "61",
+      "cited": [
+        "61"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 855,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

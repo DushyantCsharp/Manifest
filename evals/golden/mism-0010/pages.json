@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Vendeur / Seller\r\nGasperi-Finetti SPA\r\nStrada Giovine, 24, 64011 Prato, Italy \r\nAcheteur / Buyer\r\nFernandez\r\n77, rue Collet, 35329 Lille, France \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-2883/26\r\nDate 2026-02-16\r\nDevise / Currency USD\r\nIncoterm 2020 DDP Paris\r\nPaiement /\r\nPayment\r\nL/C at sight\r\nChargement /\r\nLoading\r\nLa Spezia\r\nDestination Le Havre\r\nLig. Désignation / Description Orig. Qté U. P.U. USD Montant USD\r\n1 Roasted coffee beans, whole IT 4 980 kg 10,13 50 447,40\r\n2 Polarized sunglasses IT 6 200 pcs 8,94 55 428,00\r\n3 Red wine, 0.75L bottle IT 11 874 pcs 3,29 39 065,46\r\nTotal USD : 144 940,86\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Gasperi-Finetti SPA\r\nStrada Giovine, 24, 64011 Prato, Italy\r\nPACKING LIST\r\nInvoice Ref. FC-2883/26\r\nDate 2026-02-16\r\nCONSIGNEE\r\nFernandez\r\n77, rue Collet, 35329 Lille, France\r\nTERMS OF DELIVERY\r\nDDP Paris\r\nLa Spezia to Le Havre\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Roasted coffee beans, whole IT 4 980 kg 498 4 980,00 kg 5 463,06 kg\r\n2 Polarized sunglasses IT 6 200 pcs 62 210,80 kg 246,88 kg\r\n3 Red wine, 0.75L bottle 11 874 pcs 1979 15 424,33 kg 17 978,97 kg\r\nTotal 2539 CARTONS 20 615,13 kg 23 688,91 kg\r\nShipping marks: FERNANDEZ / FC-2883/26\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nGasperi-Finetti SPA\r\nStrada Giovine, 24, 64011 Prato, Italy\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUVG3017718 \r\nCONSIGNEE\r\nFernandez\r\n77, rue Collet, 35329 Lille, France\r\nNOTIFY PARTY\r\nMaurice S.A.S.\r\nchemin Cécile Chauvet, 81609 Lyon, France\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD TAGE / 296W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nLa Spezia\r\nPORT OF DISCHARGE\r\nLe Havre\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU2448055\r\nSEAL 1885491\r\nFERNANDEZ /\r\nFC-2883/26\r\n2539\r\nCARTONS\r\nSAID TO CONTAIN: Roasted coffee beans,\r\nwhole; Polarized sunglasses; Red wine, 0.75L\r\nbottle\r\n23 688,91 kg\r\nSHIPPED ON BOARD\r\n2026-02-20\r\nPLACE AND DATE OF ISSUE\r\nLa Spezia, 2026-02-20\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1"
+    }
+  ]
+}

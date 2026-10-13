@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Busan Samjin Electronics Co., Ltd.\r\nNo. 15 Ring Road\r\nBusan\r\nSouth Korea\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-07328\r\nInvoice Date 01/09/2026\r\nPayment Terms L/C at sight\r\nBILL TO / CONSIGNEE\r\nMorgan Group\r\n3200 David Estates\r\n85861 Newark\r\nUnited States\r\nSHIPPING\r\nTerms of Sale: EXW Incheon (Incoterms 2020)\r\nPort of Loading: Busan\r\nPort of Discharge: Los Angeles\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00\r\n2 LDPE film-grade granules South Korea 5,475 kg 1.51 8,267.25\r\n3 Lithium-ion battery pack 48V 20Ah South Korea 283 pcs 262.79 74,369.57\r\nTotal USD 107,836.82\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Busan Samjin Electronics Co., Ltd. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Busan Samjin Electronics Co., Ltd.\r\nNo. 15 Ring Road, Busan, South Korea\r\nPACKING LIST\r\nInvoice Ref. INV-2026-03728\r\nDate 01/09/2026\r\nCONSIGNEE\r\nMorgan Group\r\n3200 David Estates, 85861 Newark, United States\r\nTERMS OF DELIVERY\r\nEXW Incheon\r\nBusan to Los Angeles\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Stainless steel sheet 304, cold-rolled 2mm KR 10,000 kg 10 10,000.00 kg 10,409.80 kg\r\n2 LDPE film-grade granules KR 5,475 kg 219 5,475.00 kg 6,009.36 kg\r\n3 Lithium-ion battery pack 48V 20Ah KR 283 pcs 71 1,894.69 kg 2,055.19 kg\r\nTotal 300 CARTONS 17,369.69 kg 18,474.35 kg\r\nShipping marks: MORGAN / INV-2026-07328\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nBusan Samjin Electronics Co., Ltd.\r\nNo. 15 Ring Road, Busan, South Korea\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDUOJ1999438 \r\nCONSIGNEE\r\nMorgan Group\r\n3200 David Estates, 85861 Newark, United States\r\nNOTIFY PARTY\r\nJohnson Inc\r\n2341 Thomas Manors Suite 858, 22700\r\nSavannah, United States\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA AURORA / 841E\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nBusan\r\nPORT OF DISCHARGE\r\nLos Angeles\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU8142382\r\nSEAL\r\n6381126\r\nMORGAN /\r\nINV-2026-07328\r\n300\r\nCARTONS\r\nSAID TO CONTAIN: Stainless steel sheet 304,\r\ncold-rolled 2mm; LDPE film-grade granules;\r\nLithium-ion battery pack 48V 20Ah\r\n18,474.35 kg\r\nSHIPPED ON BOARD\r\n01/17/2026\r\nPLACE AND DATE OF ISSUE\r\nBusan, 01/17/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1"
+    }
+  ]
+}

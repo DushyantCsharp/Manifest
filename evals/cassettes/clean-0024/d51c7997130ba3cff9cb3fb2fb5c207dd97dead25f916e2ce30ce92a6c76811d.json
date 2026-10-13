@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "key": "d51c7997130ba3cff9cb3fb2fb5c207dd97dead25f916e2ce30ce92a6c76811d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nGonzáles Group\r\nDg. 132L # 4-3 Este, 911184 Bogotá, Colombia\r\nPACKING LIST\r\nInvoice Ref. 2026/1152\r\nDate August 19, 2026\r\nCONSIGNEE\r\nWilliams, Barber and Howe\r\nStudio 50k, Long Crescent, SK3P 1QL Manchester,\r\nUnited Kingdom\r\nTERMS OF DELIVERY\r\nCIF Felixstowe\r\nCartagena to Felixstowe\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb\r\n2 Passenger car tyre 205/55R16 DE 233 pcs 233 4,651.4 lb 5,379.1 lb\r\nTotal 315 CARTONS 6,871.3 lb 7,953.8 lb\r\nShipping marks: WILLIAMS, / 2026/1152\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Williams, Barber and Howe",
+        "value": "Williams, Barber and Howe"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date August 19, 2026",
+        "value": "August 19, 2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CIF Felixstowe",
+        "value": "CIF Felixstowe"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. 2026/1152",
+        "value": "2026/1152"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb",
+            "value": "Hair dryer 2200W ionic"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb",
+            "value": "2,574.7 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb",
+            "value": "2,220.0 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb",
+            "value": "1,640"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Passenger car tyre 205/55R16 DE 233 pcs 233 4,651.4 lb 5,379.1 lb",
+            "value": "DE"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Passenger car tyre 205/55R16 DE 233 pcs 233 4,651.4 lb 5,379.1 lb",
+            "value": "Passenger car tyre 205/55R16"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Passenger car tyre 205/55R16 DE 233 pcs 233 4,651.4 lb 5,379.1 lb",
+            "value": "5,379.1 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Passenger car tyre 205/55R16 DE 233 pcs 233 4,651.4 lb 5,379.1 lb",
+            "value": "4,651.4 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Passenger car tyre 205/55R16 DE 233 pcs 233 4,651.4 lb 5,379.1 lb",
+            "value": "233"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 315 CARTONS 6,871.3 lb 7,953.8 lb",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Gonzáles Group",
+        "value": "Gonzáles Group"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 315 CARTONS 6,871.3 lb 7,953.8 lb",
+        "value": "7,953.8 lb"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 315 CARTONS 6,871.3 lb 7,953.8 lb",
+        "value": "6,871.3 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 315 CARTONS 6,871.3 lb 7,953.8 lb",
+        "value": "315"
+      }
+    },
+    "input_tokens": 376,
+    "latency_ms": 0,
+    "output_tokens": 677
+  }
+}

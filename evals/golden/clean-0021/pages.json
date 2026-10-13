@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Chakraborty, Sidhu and Sarma\r\n83/94, Sethi Chowk\r\n756939 Ludhiana\r\nIndia\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-47166\r\nInvoice Date 03/28/2026\r\nPayment Terms 30% deposit, 70% against copy of B/L\r\nBILL TO / CONSIGNEE\r\nSavage, Huffman and Waters\r\n10024 Alex Mall\r\n01510 Los Angeles\r\nUnited States\r\nSHIPPING\r\nTerms of Sale: FCA Tiruppur (Incoterms 2020)\r\nPort of Loading: Nhava Sheva\r\nPort of Discharge: Savannah\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00\r\nTotal USD 45,320.00\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Chakraborty, Sidhu and Sarma \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Chakraborty, Sidhu and Sarma\r\n83/94, Sethi Chowk, 756939 Ludhiana, India\r\nPACKING LIST\r\nInvoice Ref. INV-2026-47166\r\nDate 03/28/2026\r\nCONSIGNEE\r\nSavage, Huffman and Waters\r\n10024 Alex Mall, 01510 Los Angeles, United States\r\nTERMS OF DELIVERY\r\nFCA Tiruppur\r\nNhava Sheva to Savannah\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg\r\nTotal 110 CARTONS 1,749.00 kg 1,856.70 kg\r\nShipping marks: SAVAGE, / INV-2026-47166\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nChakraborty, Sidhu and Sarma\r\n83/94, Sethi Chowk, 756939 Ludhiana, India\r\nCOSCO\r\nBILL OF LADING\r\nB/L NO.\r\nCOSUOU8350124 \r\nCONSIGNEE\r\nSavage, Huffman and Waters\r\n10024 Alex Mall, 01510 Los Angeles, United States\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCOSCO HARMONY / 148S\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nNhava Sheva\r\nPORT OF DISCHARGE\r\nSavannah\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCOSU9024241\r\nSEAL 1388950\r\nSAVAGE, /\r\nINV-2026-47166\r\n110\r\nCARTONS\r\nSAID TO CONTAIN: Hair dryer 2200W\r\nionic\r\n1,856.70 kg\r\nSHIPPED ON BOARD\r\n03/31/2026\r\nPLACE AND DATE OF ISSUE\r\nNhava Sheva, 03/31/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: COSCO. \r\nPage 1 of 1"
+    }
+  ]
+}

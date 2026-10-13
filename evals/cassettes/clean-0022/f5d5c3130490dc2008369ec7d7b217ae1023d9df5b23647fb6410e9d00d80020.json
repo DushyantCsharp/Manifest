@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "f5d5c3130490dc2008369ec7d7b217ae1023d9df5b23647fb6410e9d00d80020",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nGeisel Rust GmbH · Raik-Hornig-Weg 60/60 · 74988 Köln · Germany\r\nLaurent\r\n15, rue de Bigot\r\n27387 Lille\r\nFrance\r\nRechnungsnummer / Invoice no. RE-26-7198\r\nRechnungsdatum / Date 08.04.2026\r\nLieferbedingung / Incoterms®\r\n2020\r\nCPT Lille\r\nZahlungsbedingung / Payment Cash against\r\ndocuments\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Passenger car tyre 205/55R16 DE 615 pcs 58,70 36.100,50\r\n2 Stainless cutlery set, 24 pieces DE 640 sets 13,41 8.582,40\r\n3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 3,56 47.704,00\r\nGesamtbetrag / Total 92.386,90 EUR\r\nVersand / Shipment: Hamburg → Le Havre. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Laurent",
+        "value": "Laurent"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Währung / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Lille",
+        "value": "CPT Lille"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Rechnungsdatum / Date 08.04.2026",
+        "value": "08.04.2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Rechnungsnummer / Invoice no. RE-26-7198",
+        "value": "RE-26-7198"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 58,70 36.100,50",
+            "value": "36.100,50"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Geisel Rust GmbH · Raik-Hornig-Weg 60/60 · 74988 Köln · Germany",
+            "value": "Germany"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 58,70 36.100,50",
+            "value": "Passenger car tyre 205/55R16"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 58,70 36.100,50",
+            "value": "615"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 58,70 36.100,50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 58,70 36.100,50",
+            "value": "58,70"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 13,41 8.582,40",
+            "value": "8.582,40"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Geisel Rust GmbH · Raik-Hornig-Weg 60/60 · 74988 Köln · Germany",
+            "value": "Germany"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 13,41 8.582,40",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 13,41 8.582,40",
+            "value": "640"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 13,41 8.582,40",
+            "value": "sets"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 13,41 8.582,40",
+            "value": "13,41"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 3,56 47.704,00",
+            "value": "47.704,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Geisel Rust GmbH · Raik-Hornig-Weg 60/60 · 74988 Köln · Germany",
+            "value": "Germany"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 3,56 47.704,00",
+            "value": "Deep groove ball bearing 6205-2RS"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 3,56 47.704,00",
+            "value": "13.400"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 58,70 36.100,50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 3,56 47.704,00",
+            "value": "3,56"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Cash against documents",
+        "value": "Cash against documents"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Geisel Rust GmbH · Raik-Hornig-Weg 60/60 · 74988 Köln · Germany",
+        "value": "Geisel Rust GmbH"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Gesamtbetrag / Total 92.386,90 EUR",
+        "value": "92.386,90"
+      }
+    },
+    "input_tokens": 438,
+    "latency_ms": 0,
+    "output_tokens": 905
+  }
+}

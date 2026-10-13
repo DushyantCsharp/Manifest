@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "1710de69ca2f7ba36ef829fbf42914310dcf9b7a8bce9ba00e3a2af725108f3d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's crew-neck T-shirt, knitted cotton jersey, 100% cotton\nCountry of origin: BD\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6105: Shirts; men's or boys', knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n    contains 610590: Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610520: Shirts; men's or boys', of man-made fibres, knitted or crocheted\n- 6110: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted\n    contains 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n    contains 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n- 6106: Blouses, shirts and shirt-blouses; women's or girls', knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n    contains 610690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n- 6109: T-shirts, singlets and other vests; knitted or crocheted\n    contains 610910: T-shirts, singlets and other vests; of cotton, knitted or crocheted\n    contains 610990: T-shirts, singlets and other vests; of textile materials (other than cotton), knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "74b04978bc0815b4662ec332e0f2f66129c188fb20fa9e910e64726c6b35e9fd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6109",
+      "cited": [
+        "6109"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 624,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "3edc1ff3feac6c88c4579bcfdaa67c7a3d1d9c1f1eba822ea237e45035d28438",
+  "retriever": "offline-lexical",
+  "query": "Polyester staple fibres, not carded origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "550320",
+      "description": "Fibres; synthetic staple fibres, of polyesters, not carded, combed or otherwise processed for spinning",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "550620",
+      "description": "Fibres; synthetic staple fibres, of polyesters, carded, combed or otherwise processed for spinning",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "550311",
+      "description": "Fibres; synthetic staple fibres, of aramids, not carded, combed or otherwise processed for spinning",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "550340",
+      "description": "Fibres; synthetic staple fibres, of polypropylene, not carded, combed or otherwise processed for spinning",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "550410",
+      "description": "Fibres; artificial staple fibres, of viscose, not carded, combed or otherwise processed for spinning",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "550330",
+      "description": "Fibres; synthetic staple fibres, acrylic or modacrylic, not carded, combed or otherwise processed for spinning",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "550490",
+      "description": "Fibres; artificial staple fibres, other than of viscose, not carded, combed or otherwise processed for spinning",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "550390",
+      "description": "Fibres; synthetic staple fibres, of synthetic materials n.e.c. in heading no. 5503, not carded, combed or otherwise processed for spinning",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "550319",
+      "description": "Fibres; synthetic staple fibres, of nylon or other polyamides other than aramids, not carded, combed or otherwise processed for spinning",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "550700",
+      "description": "Fibres; artificial staple fibres, carded, combed or otherwise processed for spinning",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "550640",
+      "description": "Fibres; synthetic staple fibres, of polypropylene, carded, combed or otherwise processed for spinning",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "550610",
+      "description": "Fibres; synthetic staple fibres, of nylon or other polyamides, carded, combed or otherwise processed for spinning",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "550630",
+      "description": "Fibres; synthetic staple fibres, acrylic or modacrylic, carded, combed or otherwise processed for spinning",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "550690",
+      "description": "Fibres; synthetic staple fibres, n.e.c. in heading no. 5506, carded, combed or otherwise processed for spinning",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "550951",
+      "description": "Yarn; (not sewing thread), of polyester staple fibres, mixed mainly or solely with artificial staple fibres, not put up for retail sale",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "550953",
+      "description": "Yarn; (not sewing thread), of polyester staple fibres, mixed mainly or solely with cotton, not put up for retail sale",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "550120",
+      "description": "Fibres; synthetic filament tow, of polyesters",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "551511",
+      "description": "Fabrics, woven; of polyester staple fibres n.e.c. in chapter 55, mixed mainly or solely with viscose rayon staple fibres",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "551512",
+      "description": "Fabrics, woven; of polyester staple fibres n.e.c. in chapter 55, mixed mainly or solely with man-made filaments",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "550921",
+      "description": "Yarn; (not sewing thread), single, of synthetic staple fibres, containing 85% or more by weight of polyester, not put up for retail sale",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

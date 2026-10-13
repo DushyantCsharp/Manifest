@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "b6f5ce5a939b776a6add7cb25cc8e63544201fa75ecc07dfe0ed9844b125057d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nKorpal and Sons\r\n06, Gola Zila, 914197 Ludhiana, India\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYBV5709577 \r\nCONSIGNEE\r\nStokes, Woods and Austin\r\nFlat 38, Adams Fort, CM3 1TZ Leeds, United Kingdom\r\nNOTIFY PARTY\r\nSmith-King\r\nStudio 03d, Terence Plain, S0S 3BU Leeds,\r\nUnited Kingdom\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE TAGE / 351S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nMundra\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU0138357\r\nSEAL 5140503\r\nSTOKES, /\r\n2026/6840\r\n273 BAGS SAID TO CONTAIN: Combed cotton yarn Ne\r\n30/1\r\n33,036.2 lb\r\nSHIPPED ON BOARD\r\nSeptember 21, 2026\r\nPLACE AND DATE OF ISSUE\r\nMundra, September 21, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYBV5709577",
+        "value": "ONEYBV5709577"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Stokes, Woods and Austin",
+        "value": "Stokes, Woods and Austin"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU0138357",
+        "value": "ONEU0138357"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Smith-King",
+        "value": "Smith-King"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "273 BAGS SAID TO CONTAIN: Combed cotton yarn Ne",
+        "value": "BAGS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Southampton",
+        "value": "Southampton"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Mundra",
+        "value": "Mundra"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 5140503",
+        "value": "5140503"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Korpal and Sons",
+        "value": "Korpal and Sons"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "September 21, 2026",
+        "value": "September 21, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "33,036.2 lb",
+        "value": "33,036.2 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "273 BAGS SAID TO CONTAIN: Combed cotton yarn Ne",
+        "value": "273"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE TAGE / 351S",
+        "value": "ONE TAGE"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "ONE TAGE / 351S",
+        "value": "351S"
+      }
+    },
+    "input_tokens": 501,
+    "latency_ms": 0,
+    "output_tokens": 385
+  }
+}

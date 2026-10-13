@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "83bb45f0d02269ebfaf7748b58fc4bdff250844e9b5c276142ad694afa5428de",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nChakraborty, Sidhu and Sarma\r\n83/94, Sethi Chowk\r\n756939 Ludhiana\r\nIndia\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-47166\r\nInvoice Date 03/28/2026\r\nPayment Terms 30% deposit, 70% against copy of B/L\r\nBILL TO / CONSIGNEE\r\nSavage, Huffman and Waters\r\n10024 Alex Mall\r\n01510 Los Angeles\r\nUnited States\r\nSHIPPING\r\nTerms of Sale: FCA Tiruppur (Incoterms 2020)\r\nPort of Loading: Nhava Sheva\r\nPort of Discharge: Savannah\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00\r\nTotal USD 45,320.00\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Chakraborty, Sidhu and Sarma \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Savage, Huffman and Waters",
+        "value": "Savage, Huffman and Waters"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Currency: USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Terms of Sale: FCA Tiruppur (Incoterms 2020)",
+        "value": "FCA Tiruppur"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Invoice Date 03/28/2026",
+        "value": "03/28/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice No. INV-2026-47166",
+        "value": "INV-2026-47166"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "value": "45,320.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "value": "Hair dryer 2200W ionic"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "value": "2,200"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "value": "20.60"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms 30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Chakraborty, Sidhu and Sarma",
+        "value": "Chakraborty, Sidhu and Sarma"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+        "value": "45,320.00"
+      }
+    },
+    "input_tokens": 445,
+    "latency_ms": 0,
+    "output_tokens": 453
+  }
+}

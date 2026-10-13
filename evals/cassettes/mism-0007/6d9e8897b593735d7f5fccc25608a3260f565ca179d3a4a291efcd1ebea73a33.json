@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "6d9e8897b593735d7f5fccc25608a3260f565ca179d3a4a291efcd1ebea73a33",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nLuria-Tropea SPA\r\nStretto Bocelli, 49 Appartamento 8, 23819 Milano,\r\nItaly\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYFV5467944 \r\nCONSIGNEE\r\nLemaire\r\n72, chemin Adélaïde Laine, 80490 Paris, France\r\nNOTIFY PARTY\r\nChauvin SA\r\n5, chemin de Delmas, 48370 Lyon, France\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE PEGASUS / 297S\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nGenova\r\nPORT OF DISCHARGE\r\nLe Havre\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU7684961\r\nSEAL\r\n2291653\r\nCOUTURIER /\r\nRE-26-2659\r\n2191\r\nCARTONS\r\nSAID TO CONTAIN: Leather handbag with shoulder\r\nstrap; Centrifugal water pump 1.1kW; Polarized\r\nsunglasses; Extra virgin olive oil, 1L bottle;\r\nRed wine, 0.75L bottle; Roasted coffee beans,\r\nwhole\r\n23.644,25 kg\r\nSHIPPED ON BOARD\r\n02.04.2026\r\nPLACE AND DATE OF ISSUE\r\nGenova, 02.04.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYFV5467944",
+        "value": "ONEYFV5467944"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Lemaire",
+        "value": "Lemaire"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU7684961",
+        "value": "ONEU7684961"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Chauvin SA",
+        "value": "Chauvin SA"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Le Havre",
+        "value": "Le Havre"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Genova",
+        "value": "Genova"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "2291653",
+        "value": "2291653"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Luria-Tropea SPA",
+        "value": "Luria-Tropea SPA"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "02.04.2026",
+        "value": "02.04.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "23.644,25 kg",
+        "value": "23.644,25 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "2191",
+        "value": "2191"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE PEGASUS / 297S",
+        "value": "ONE PEGASUS"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "ONE PEGASUS / 297S",
+        "value": "297S"
+      }
+    },
+    "input_tokens": 533,
+    "latency_ms": 0,
+    "output_tokens": 353
+  }
+}

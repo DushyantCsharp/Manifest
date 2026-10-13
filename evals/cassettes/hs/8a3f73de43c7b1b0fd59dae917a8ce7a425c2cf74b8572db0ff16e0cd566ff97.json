@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "8a3f73de43c7b1b0fd59dae917a8ce7a425c2cf74b8572db0ff16e0cd566ff97",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Portable laptop computer, 15.6in display, 16GB RAM, 512GB SSD, 1.8 kg\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n    contains 842441: Mechanical appliances; agricultural or horticultural sprayers; portable sprayers\n    contains 842449: Mechanical appliances; agricultural or horticultural sprayers; other than portable sprayers\n    contains 848630: Machines and apparatus of a kind used solely or principally for the manufacture of flat panel displays\n- 41: Raw hides and skins (other than furskins) and leather\n    contains 410150: Hides and skins; raw, whole, of bovine or equine animals, of a weight per skin exceeding 16 kg\n- 96: Miscellaneous manufactured articles\n    contains 961800: Tailors' dummies and other lay figures; automata and other animated displays used for shop window dressing\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 851390: Lamps; parts of portable, electric lamps of heading no. 8513, designed to function by their own source of energy\n    contains 851310: Lamps; portable, electric, designed to function by their own source of energy (excluding lighting equipment of heading no. 8512)\n- 91: Clocks and watches and parts thereof\n    contains 910119: Wrist-watches; electrically operated, with or without a stop-watch, with case of precious metal or metal clad with precious metal, without mechanical display\n    contains 910812: Watch movements; complete and assembled, electrically operated, by means of solar cells, with opto-electronic display\n    contains 910111: Wrist-watches; electrically operated, with or without a stop-watch, with case of precious metal or of metal clad with precious metal, with mechanical display only\n    contains 910811: Watch movements; complete and assembled, electrically operated, with mechanical display only or with a device to which a mechanical display can be incorporated\n    contains 910211: Wrist-watches; electrically operated, with or without a stop-watch, (other than those of heading no. 9101) with mechanical display only\n    contains 910212: Wrist-watches; electrically operated, with or without a stop-watch, (other than those of heading no. 9101) with opto-electronic display only\n    contains 910219: Wrist-watches; electrically operated, with or without a stop-watch, (other than those of heading no. 9101) without mechanical or opto-electronic display\n    contains 910819: Watch movements; complete and assembled, electrically operated, by means of solar cells, without mechanical display or device including such or opto-electronic display\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 820590: Tools, hand; n.e.c. in heading 8205, including anvils, portable forges, hand or pedal-operated grinding wheels with frameworks, and sets of articles of two or more of the subheadings in heading 8205\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b49bfcef117ddca70a7d08afc0646f00744158f7e3ba74b2e8261a21f4167186",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1204,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

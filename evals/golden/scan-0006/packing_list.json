@@ -1,0 +1,116 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0006",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-0.67",
+    "noise_sigma": 13,
+    "salt_pepper": "0.0027",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-81295",
+    "date": "2026-02-12",
+    "seller": {
+      "name": "Kaohsiung Lienhwa Textile Co., Ltd.",
+      "address": [
+        "No. 71 Industrial Road",
+        "Kaohsiung",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "Price LLC",
+      "address": [
+        "8994 Bruce Plains Suite 532",
+        "N8E9V7 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "incoterm": "EXW",
+    "incoterm_place": "Tainan",
+    "package_type": "CARTONS",
+    "total_packages": 1670,
+    "total_net_weight_kg": "23282.46",
+    "total_gross_weight_kg": "25483.08"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "500",
+      "unit": "pcs",
+      "packages": 5,
+      "net_weight_kg": "25.00",
+      "gross_weight_kg": "30.63"
+    },
+    {
+      "line_no": 2,
+      "description": "Milk chocolate bars 100g",
+      "country_of_origin": "DE",
+      "quantity": "47520",
+      "unit": "pcs",
+      "packages": 792,
+      "net_weight_kg": "5037.12",
+      "gross_weight_kg": "5577.64"
+    },
+    {
+      "line_no": 3,
+      "description": "LED bulb E27 9W warm white",
+      "country_of_origin": "CN",
+      "quantity": "39800",
+      "unit": "pcs",
+      "packages": 199,
+      "net_weight_kg": "2069.60",
+      "gross_weight_kg": "2353.85"
+    },
+    {
+      "line_no": 4,
+      "description": "Porcelain dinner plate 27cm",
+      "country_of_origin": "TH",
+      "quantity": "1920",
+      "unit": "pcs",
+      "packages": 80,
+      "net_weight_kg": "1255.68",
+      "gross_weight_kg": "1343.49"
+    },
+    {
+      "line_no": 5,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "KR",
+      "quantity": "88",
+      "unit": "pcs",
+      "packages": 22,
+      "net_weight_kg": "595.06",
+      "gross_weight_kg": "652.61"
+    },
+    {
+      "line_no": 6,
+      "description": "LDPE film-grade granules",
+      "country_of_origin": "US",
+      "quantity": "5175",
+      "unit": "kg",
+      "packages": 207,
+      "net_weight_kg": "5175.00",
+      "gross_weight_kg": "5447.21"
+    },
+    {
+      "line_no": 7,
+      "description": "Long grain white rice, milled",
+      "country_of_origin": "PK",
+      "quantity": "9125",
+      "unit": "kg",
+      "packages": 365,
+      "net_weight_kg": "9125.00",
+      "gross_weight_kg": "10077.65"
+    }
+  ]
+}

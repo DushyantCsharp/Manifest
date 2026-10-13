@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "b456876ecd28a7d54666f7fe4db067c900c1c710b87a8d1d144d1789dc6b6a84",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Combination spanner set, chrome vanadium steel\nCountry of origin: TW\n\nChosen so far: 82 Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal > 8204 Tools, hand; hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches), interchangeable spanner sockets, with or without handles\n\nChoose the subheading that covers these goods. Options:\n- 820420: Tools, hand; interchangeable spanner sockets, with or without handles\n- 820412: Tools, hand; hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches), adjustable\n- 820411: Tools, hand; hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches), non-adjustable\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "caaccfc99a232940c99d92a022bc566ff7220747d0ae0290eed2ed532c17a415",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "820411",
+      "cited": [
+        "820411"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 422,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

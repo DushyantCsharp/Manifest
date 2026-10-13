@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "5ac8aa4fac3974d91ff91093e717f58d164cbe5024d20bb6205114d363886b9e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Spark plugs for petrol engines\nCountry of origin: JP\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 851110: Ignition or starting equipment; spark plugs, of a kind used for spark or compression-ignition internal combustion engines\n    contains 850220: Electric generating sets; with spark-ignition internal combustion piston engines\n    contains 851130: Ignition or starting equipment; distributors and ignition coils of a kind used for spark-ignition or compression-ignition internal combustion engines\n    contains 851180: Ignition or starting equipment; n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851190: Ignition or starting equipment; parts of the equipment of heading no. 8511, for use in spark-ignition or compression-ignition internal combustion engines\n    contains 851150: Ignition or starting equipment; generators n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n    contains 850231: Electric generating sets; wind-powered, (excluding those with spark-ignition or compression-ignition internal combustion piston engines)\n    contains 850239: Electric generating sets; (excluding those with spark-ignition or compression-ignition internal combustion piston engines), other than wind powered\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 842123: Machinery; filtering or purifying machinery, oil or petrol filters for internal combustion engines\n    contains 840710: Engines; for aircraft, spark-ignition reciprocating or rotary internal combustion piston engines\n    contains 840999: Engines; parts for internal combustion piston engines (excluding spark-ignition)\n    contains 840721: Engines; outboard motors for marine propulsion, spark-ignition reciprocating or rotary internal combustion piston engines\n    contains 840729: Engines; for marine propulsion, (other than outboard motors), spark-ignition reciprocating or rotary internal combustion piston engines\n    contains 840910: Engines; parts of aircraft engines (spark-ignition reciprocating or rotary internal combustion piston engines)\n    contains 840991: Engines; parts, suitable for use solely or principally with spark-ignition internal combustion piston engines (for other than aircraft)\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 870452: Vehicles; with both spark-ignition internal combustion piston engine and electric motors for propulsion, of a g.v.w. exceeding 5,000kg\n    contains 870432: Vehicles; with only spark-ignition internal combustion piston engine, for transport of goods, (of a g.v.w. exceeding 5 tonnes), n.e.c. in item no 8704.1\n    contains 870451: Vehicles; with both spark-ignition internal combustion piston engine and electric motors for propulsion, of a g.v.w. not exceeding 5,000kg\n    contains 870123: Tractors; road tractors for semi-trailers, with both spark-ignition internal combustion piston engine and electric motors for propulsion\n    contains 870431: Vehicles; with only spark-ignition internal combustion piston engine, for transport of goods, (of a g.v.w. not exceeding 5 tonnes), n.e.c. in item no 8704.1\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "966d1151bd55fa023d082288dc3138af405d1df669f38fd174ad954442eb402a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1098,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

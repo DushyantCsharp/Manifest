@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "3f97de3a778c68d98ecedfec6155d056b0478524ab6857ac1f798d986ef5f12f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green tea in 2g tea bags\nCountry of origin: CN\n\nChosen so far: 09 Coffee, tea, mate and spices > 0902 Tea\n\nChoose the subheading that covers these goods. Options:\n- 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n- 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n- 090240: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg\n- 090230: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8fd800c82d7a70a07df796266633f14e29f4333e1583b6499976ed7abf3023fa",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "090210",
+      "cited": [
+        "090210"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 371,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

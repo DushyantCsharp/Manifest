@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "ec4b29629f26ab437b53e6ee6f3e7f4bdfdc656ea0399d70a526d72c5e4d040d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: A4 copy paper 80gsm, reams of 500 sheets\nCountry of origin: ID\n\nChoose the chapter that covers these goods. Options:\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 480920: Paper; self-copy paper, whether or not printed, in rolls or sheets\n    contains 480990: Paper; carbon paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets\n    contains 481620: Paper; self-copy paper (other than those of heading no. 4809), whether or not put up in boxes\n    contains 481690: Paper; carbon paper and other copying or transfer papers (other than those of heading no. 4809), n.e.c. in item no. 4816.20\n    contains 480620: Paper; greaseproof papers, in rolls or sheets\n    contains 480630: Paper; tracing papers, in rolls or sheets\n    contains 480640: Paper; glassine and other glazed transparent or translucent papers, in rolls or sheets\n    contains 480610: Paper; vegetable parchment, in rolls or sheets\n    contains 480540: Paper and paperboard; filter paper and paperboard, uncoated, in rolls or sheets\n    contains 480550: Paper and paperboard; felt paper and paperboard, uncoated, in rolls or sheets\n    contains 480512: Paper and paperboard; uncoated, straw fluting paper, rolls or sheets\n    contains 480530: Paper and paperboard; sulphite wrapping paper, uncoated, in rolls or sheets\n    contains 480511: Paper and paperboard; uncoated, semi-chemical fluting paper, rolls or sheets\n    contains 480519: Paper and paperboard; uncoated, fluting paper other than semi-chemical or straw, rolls or sheets\n    contains 480591: Paper and paperboard; uncoated, weight 150g/m2 or less, in rolls or sheets, n.e.c. in heading no.4805\n    contains 480593: Paper and paperboard; uncoated, weight 225/m2 or more, in rolls or sheets, n.e.c. in heading no. 4805\n    contains 480524: Paper & paperboard; uncoated, testliner (recycled linerboard), weight 150g/m2, or less, in rolls or sheets\n    contains 480525: Paper & paperboard; uncoated, testliner (recycled linerboard), weight over 150g/m2, in rolls or sheets\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 81: Metals; n.e.c., cermets and articles thereof\n    contains 810931: Zirconium; waste and scrap, containing less than 1 part hafnium to 500 parts zirconium by weight\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c03ed46c2f59437f71c8fef5cecc4a91058c3485640c6522b9017a57a054dbe4",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "48",
+      "cited": [
+        "48"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 881,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

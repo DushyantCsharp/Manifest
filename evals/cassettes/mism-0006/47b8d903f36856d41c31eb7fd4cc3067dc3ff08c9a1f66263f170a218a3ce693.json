@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "47b8d903f36856d41c31eb7fd4cc3067dc3ff08c9a1f66263f170a218a3ce693",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nBusan Samjin Electronics Co., Ltd.\r\nNo. 15 Ring Road\r\nBusan\r\nSouth Korea\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-07328\r\nInvoice Date 01/09/2026\r\nPayment Terms L/C at sight\r\nBILL TO / CONSIGNEE\r\nMorgan Group\r\n3200 David Estates\r\n85861 Newark\r\nUnited States\r\nSHIPPING\r\nTerms of Sale: EXW Incheon (Incoterms 2020)\r\nPort of Loading: Busan\r\nPort of Discharge: Los Angeles\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00\r\n2 LDPE film-grade granules South Korea 5,475 kg 1.51 8,267.25\r\n3 Lithium-ion battery pack 48V 20Ah South Korea 283 pcs 262.79 74,369.57\r\nTotal USD 107,836.82\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Busan Samjin Electronics Co., Ltd. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Morgan Group",
+        "value": "Morgan Group"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Currency: USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Terms of Sale: EXW Incheon (Incoterms 2020)",
+        "value": "EXW Incheon"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Invoice Date 01/09/2026",
+        "value": "01/09/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice No. INV-2026-07328",
+        "value": "INV-2026-07328"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00",
+            "value": "25,200.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "South Korea",
+            "value": "South Korea"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00",
+            "value": "Stainless steel sheet 304, cold-rolled 2mm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00",
+            "value": "10,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00",
+            "value": "2.52"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 LDPE film-grade granules South Korea 5,475 kg 1.51 8,267.25",
+            "value": "8,267.25"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "South Korea",
+            "value": "South Korea"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 LDPE film-grade granules South Korea 5,475 kg 1.51 8,267.25",
+            "value": "LDPE film-grade granules"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 LDPE film-grade granules South Korea 5,475 kg 1.51 8,267.25",
+            "value": "5,475"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm South Korea 10,000 kg 2.52 25,200.00",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 LDPE film-grade granules South Korea 5,475 kg 1.51 8,267.25",
+            "value": "1.51"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Lithium-ion battery pack 48V 20Ah South Korea 283 pcs 262.79 74,369.57",
+            "value": "74,369.57"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "South Korea",
+            "value": "South Korea"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Lithium-ion battery pack 48V 20Ah South Korea 283 pcs 262.79 74,369.57",
+            "value": "Lithium-ion battery pack 48V 20Ah"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Lithium-ion battery pack 48V 20Ah South Korea 283 pcs 262.79 74,369.57",
+            "value": "283"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 Lithium-ion battery pack 48V 20Ah South Korea 283 pcs 262.79 74,369.57",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Lithium-ion battery pack 48V 20Ah South Korea 283 pcs 262.79 74,369.57",
+            "value": "262.79"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms L/C at sight",
+        "value": "L/C at sight"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Busan Samjin Electronics Co., Ltd.",
+        "value": "Busan Samjin Electronics Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total USD 107,836.82",
+        "value": "107,836.82"
+      }
+    },
+    "input_tokens": 476,
+    "latency_ms": 0,
+    "output_tokens": 893
+  }
+}

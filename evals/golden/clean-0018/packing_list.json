@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0018",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202629-3132",
+    "date": "2026-07-31",
+    "seller": {
+      "name": "Kaul-Kala",
+      "address": [
+        "18, Parikh Road",
+        "002880 Tiruppur",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Nguyen-Robinson",
+      "address": [
+        "119 Donaldson Estate",
+        "1764 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "incoterm": "DDP",
+    "incoterm_place": "Sydney",
+    "package_type": "CARTONS",
+    "total_packages": 189,
+    "total_net_weight_kg": "14854.12",
+    "total_gross_weight_kg": "16093.37"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "IN",
+      "quantity": "12000",
+      "unit": "kg",
+      "packages": 12,
+      "net_weight_kg": "12000.00",
+      "gross_weight_kg": "12952.80"
+    },
+    {
+      "line_no": 2,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "2083",
+      "unit": "pcs",
+      "packages": 174,
+      "net_weight_kg": "2832.88",
+      "gross_weight_kg": "3114.08"
+    },
+    {
+      "line_no": 3,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "IN",
+      "quantity": "120",
+      "unit": "pcs",
+      "packages": 3,
+      "net_weight_kg": "21.24",
+      "gross_weight_kg": "26.49"
+    }
+  ]
+}

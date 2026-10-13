@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Nguyễn Công ty Hợp danh\r\n95/152 Khóm 57 Đường Phạm Thế Hiển\r\n20944 Hai Phong\r\nVietnam\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-20381\r\nInvoice Date 02/11/2026\r\nPayment Terms T/T in advance\r\nBILL TO / CONSIGNEE\r\nGriffith-Watson\r\n283 Kayla Common\r\nP8K 8N6 Toronto\r\nCanada\r\nSHIPPING\r\nTerms of Sale: CIF Vancouver (Incoterms 2020)\r\nPort of Loading: Ho Chi Minh City\r\nPort of Discharge: Vancouver\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70\r\nTotal USD 7,301.70\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Nguyễn Công ty Hợp danh \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Nguyễn Công ty Hợp danh\r\n95/152 Khóm 57 Đường Phạm Thế Hiển, 20944 Hai Phong, Vietnam\r\nPACKING LIST\r\nInvoice Ref. INV-2026-20381\r\nDate 02/11/2026\r\nCONSIGNEE\r\nGriffith-Watson\r\n283 Kayla Common, P8K 8N6 Toronto, Canada\r\nTERMS OF DELIVERY\r\nCIF Vancouver\r\nHo Chi Minh City to Vancouver\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg\r\nTotal 610 BAGS 15,250.00 kg 16,601.15 kg\r\nShipping marks: GRIFFITH-WATSON / INV-2026-20381\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nNguyễn Công ty Hợp danh\r\n95/152 Khóm 57 Đường Phạm Thế Hiển, 20944 Hai Phong,\r\nVietnam\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVKQ5457645 \r\nCONSIGNEE\r\nGriffith-Watson\r\n283 Kayla Common, P8K 8N6 Toronto, Canada\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN HARMONY / 832E\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nHo Chi Minh City\r\nPORT OF DISCHARGE\r\nVancouver\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU9503218\r\nSEAL 3126329\r\nGRIFFITH-WATSON /\r\nINV-2026-20381\r\n610 BAGS SAID TO CONTAIN: Long grain\r\nwhite rice, milled\r\n16,601.15 kg\r\nSHIPPED ON BOARD\r\n02/20/2026\r\nPLACE AND DATE OF ISSUE\r\nHo Chi Minh City, 02/20/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1"
+    }
+  ]
+}

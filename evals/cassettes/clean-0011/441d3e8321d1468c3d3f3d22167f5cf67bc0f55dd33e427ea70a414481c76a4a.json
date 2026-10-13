@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "441d3e8321d1468c3d3f3d22167f5cf67bc0f55dd33e427ea70a414481c76a4a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nNguyễn Công ty Hợp danh\r\n95/152 Khóm 57 Đường Phạm Thế Hiển\r\n20944 Hai Phong\r\nVietnam\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-20381\r\nInvoice Date 02/11/2026\r\nPayment Terms T/T in advance\r\nBILL TO / CONSIGNEE\r\nGriffith-Watson\r\n283 Kayla Common\r\nP8K 8N6 Toronto\r\nCanada\r\nSHIPPING\r\nTerms of Sale: CIF Vancouver (Incoterms 2020)\r\nPort of Loading: Ho Chi Minh City\r\nPort of Discharge: Vancouver\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70\r\nTotal USD 7,301.70\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Nguyễn Công ty Hợp danh \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Griffith-Watson",
+        "value": "Griffith-Watson"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Currency: USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Terms of Sale: CIF Vancouver (Incoterms 2020)",
+        "value": "CIF Vancouver"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Invoice Date 02/11/2026",
+        "value": "02/11/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice No. INV-2026-20381",
+        "value": "INV-2026-20381"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "value": "7,301.70"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Vietnam",
+            "value": "Vietnam"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "value": "Long grain white rice, milled"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "value": "15,250"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "value": "0.4788"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms T/T in advance",
+        "value": "T/T in advance"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Nguyễn Công ty Hợp danh",
+        "value": "Nguyễn Công ty Hợp danh"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+        "value": "7,301.70"
+      }
+    },
+    "input_tokens": 440,
+    "latency_ms": 0,
+    "output_tokens": 445
+  }
+}

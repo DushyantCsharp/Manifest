@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "de8b7fc32175beb946d2235be71e1c8d0bc5a09a336f39f2f837e59284b45afe",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh Cavendish bananas\nCountry of origin: EC\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons > 0803 Bananas, including plantains; fresh or dried\n\nChoose the subheading that covers these goods. Options:\n- 080390: Fruit, edible; bananas, other than plantains, fresh or dried\n- 080310: Fruit, edible; plantains, fresh or dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "87999c14404bc3a42befaa826999fd61bcc4109dd3872ef2a82ad40498828df8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "080390",
+      "cited": [
+        "080390"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 317,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

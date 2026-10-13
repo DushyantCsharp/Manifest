@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "da4726c7517918065e88eb619c1cb3d9233c6259a49326b92bea44ff7b688eeb",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Black tea in bulk sacks of 50kg\nCountry of origin: KE\n\nChosen so far: 09 Coffee, tea, mate and spices > 0902 Tea\n\nChoose the subheading that covers these goods. Options:\n- 090240: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg\n- 090230: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e6b3ae287b86cf128a2f39f7acecb9ee17eecaf640d6f2f1d0c8f73227a8c3c9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "090240",
+      "cited": [
+        "090240"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 328,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

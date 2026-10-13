@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "d0b72ca0681d7a8eb64e630bee4d6c34347a38376bd9ca52ef350a6e8b85f51b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nNguyễn Công ty Hợp danh\r\n95/152 Khóm 57 Đường Phạm Thế Hiển, 20944 Hai Phong, Vietnam\r\nPACKING LIST\r\nInvoice Ref. INV-2026-20381\r\nDate 02/11/2026\r\nCONSIGNEE\r\nGriffith-Watson\r\n283 Kayla Common, P8K 8N6 Toronto, Canada\r\nTERMS OF DELIVERY\r\nCIF Vancouver\r\nHo Chi Minh City to Vancouver\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg\r\nTotal 610 BAGS 15,250.00 kg 16,601.15 kg\r\nShipping marks: GRIFFITH-WATSON / INV-2026-20381\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Griffith-Watson",
+        "value": "Griffith-Watson"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 02/11/2026",
+        "value": "02/11/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CIF Vancouver",
+        "value": "CIF Vancouver"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. INV-2026-20381",
+        "value": "INV-2026-20381"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "95/152 Khóm 57 Đường Phạm Thế Hiển, 20944 Hai Phong, Vietnam",
+            "value": "Vietnam"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "value": "Long grain white rice, milled"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "value": "16,601.15 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "value": "15,250.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "value": "15,250"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "value": "kg"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 610 BAGS 15,250.00 kg 16,601.15 kg",
+        "value": "BAGS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Nguyễn Công ty Hợp danh",
+        "value": "Nguyễn Công ty Hợp danh"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+        "value": "16,601.15 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+        "value": "15,250.00 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+        "value": "610"
+      }
+    },
+    "input_tokens": 364,
+    "latency_ms": 0,
+    "output_tokens": 519
+  }
+}

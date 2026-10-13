@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0024",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "CMDULP1879298",
+    "seller": {
+      "name": "Gonzáles Group",
+      "address": [
+        "Dg. 132L # 4-3 Este",
+        "911184 Bogotá",
+        "Colombia"
+      ],
+      "country": "CO"
+    },
+    "buyer": {
+      "name": "Williams, Barber and Howe",
+      "address": [
+        "Studio 50k, Long Crescent",
+        "SK3P 1QL Manchester",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "notify_party": null,
+    "carrier": "CMA CGM",
+    "vessel": "CMA TRITON",
+    "voyage": "918N",
+    "port_of_loading": "Cartagena",
+    "port_of_discharge": "Felixstowe",
+    "shipped_on_board": "2026-08-22",
+    "container_number": "CMDU3845778",
+    "seal_number": "3945412",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 315,
+    "total_gross_weight_kg": "3607.78",
+    "goods_description": "SAID TO CONTAIN: Hair dryer 2200W ionic; Passenger car tyre 205/55R16"
+  },
+  "line_items": []
+}

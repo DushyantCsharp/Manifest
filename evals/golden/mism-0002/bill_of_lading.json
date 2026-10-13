@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0002",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "COSUSE4376401",
+    "seller": {
+      "name": "Toyota Otomotiv",
+      "address": [
+        "1009 Korutürk Ways",
+        "26238 Bursa",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Gotthard GmbH & Co. OHG",
+      "address": [
+        "Zimmerweg 75/88",
+        "37966 Hamburg",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "notify_party": null,
+    "carrier": "COSCO",
+    "vessel": "COSCO ORION",
+    "voyage": "829W",
+    "port_of_loading": "Izmir",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-05-01",
+    "container_number": "COSU4044857",
+    "seal_number": "5443485",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 617,
+    "total_gross_weight_kg": "12951.57",
+    "goods_description": "SAID TO CONTAIN: Terry cotton bath towel 70x140; Aluminium household foil 12 micron; Women's cotton denim trousers"
+  },
+  "line_items": []
+}

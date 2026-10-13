@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Jaramillo-Ayala INVOICE\n\nCl. 78 # 4j-7 | 85438! Armenia | Colombia\n\nINVOICE SOLD TO DELIVERY\n\nNumber: 2026/7435 Hendrix, Harrell and Franco CPT Savannah (Incoterms 2020)\n\nDate: February 3, 2026 064 Antonio Mills Apt. 751, 28063 Los via Cartagena to Savannah\n\nTerms:T/T 30 days after B/L date Angeles, United States\nitem Description Made in Quantity Unit price Line total\n01 Green Arabica coffee beans, grade | Colombia 17,460 kg 5.78 100,918.80\n\nAmount due 100,918.80\n\nAll amounts are in US dollars (USD) Please quote invoice 2026/7435 with your payment\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "~ Jaramillo-Ayala\n\n~ Cl. 78 # 4)-7,.854381 Armenia, Colombia\n\nPACKING LIST\n\nInvoice.Ref. 2026/7435\n\n‘Date\n\nFebruary 3, 2026 ©\n\nCONSIGNEE |\n_ Hendrix, Harrell and Franco —\n\n| 064 Antonio Mills Apt. 751, 28063 Los Angeles, United\n\n| TERMS OF DELIVERY\n|_| CPT Savannah\n\n| Cartagena to Savannah\n\nStates | I]\n\n# Description Origin Quantity — Pkgs Net weight Gross weight\n1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib\nTotal 291 BAGS 38,492.7 ib 40,295.5 Ib\n\nShipping marks: HENDRIX, / 2026/7435\n\nPage L.of I\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER are\nJaramillo-Ayala Eas\nCl. 78.#-.43-7, 854381 Armenia, Colombia\n\nMAERSK\n\nHendrix, Harrell and Franco\n\n‘States\n\n‘064 Antonio Mills Apt. 751, 28063 Los Angeles, United\n\nBILL OF LADING\n\n} B/LNO. ;\n\nMAEUGN1862212\nCONSIGNEE NOTIFY PARTY\n\nReynolds, Tate and Clark os\n6524 Stephanie Crossing Apt. 091, 85677.\nSavannah, United States\n\nOCEAN VESSEL / VOYAGE NO. :\nMAERSK PEGASUS / 3315S\n\nFREIGHT © ;\nFREIGHT PREPAID\n\nSEAL 6381033 2026/7435\n\nbeans,- grade 1 . :\n\nPORT OF LOADING - PORT OF DISCHARGE\n\nCartagena ‘Savannah\n\nCONTAINER / SEAL. | MARKS & NOS. NO. OF DESCRIPTION OF GOODS GROSS WEIGHT\nNO. : PACKAGES f . a : ‘ ; ;\nMAEU8836397_ HENDRIX, / : 291 BAGS SAID TO CONTAIN: Green Arabica coffee ty 40,295.5 lb\n\nFebruary 6,. 2026\n\nSHIPPED ON BOARD” - - . PLACE AND DATE OF ISSUE\nCartagena,. February 6, 2026\n\nNUMBER OF ORIGINAL B/LS\nTHREE (3)\n\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\n\nOf discharge, subject to the terms and conditions of the carrier's standard bill of lading Signed as Carrier: MAERSK\n\n* Page l of 1°\n\n"
+    }
+  ]
+}

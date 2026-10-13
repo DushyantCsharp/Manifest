@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d065e4ffed8833e7371a2f5ba5dfffdd0db6a6877001c75919e07a4657ecf2e9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Inflatable PVC beach ball 40cm\nCountry of origin: CN\n\nChosen so far: 95 Toys, games and sports requisites; parts and accessories thereof > 9506 Gymnastics, athletics, other sports (including table tennis) or outdoor games equipment, n.e.c. in this chapter, swimming pools and paddling pools\n\nChoose the subheading that covers these goods. Options:\n- 950662: Balls; inflatable\n- 950669: Balls; (other than inflatable or for lawn-tennis, golf or table-tennis)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ae2ac85ee2a21af9bee2786112c2e016bfa37b9af471075582705d043ff52fbe",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "950662",
+      "cited": [
+        "950662"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 344,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

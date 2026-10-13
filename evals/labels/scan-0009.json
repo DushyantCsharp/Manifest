@@ -1,0 +1,74 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0009",
+  "seed": 3588938273,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/1011",
+    "invoice_date": "2026-08-28",
+    "seller": {
+      "name": "Akçay San.",
+      "address": [
+        "06411 Şama Mills Suite 971",
+        "71574 Izmir",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Long PLC",
+      "address": [
+        "37 David Shore",
+        "IV2A 4QF Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "DAP",
+    "incoterm_place": "Leeds",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "43180.00",
+    "bl_number": "MEDULR2350766",
+    "notify_party": null,
+    "carrier": "MSC",
+    "vessel": "MSC HARMONY",
+    "voyage": "473S",
+    "port_of_loading": "Izmir",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-09-03",
+    "container_number": "MEDU2896861",
+    "seal_number": "7462656",
+    "freight_terms": "PREPAID",
+    "package_type": "BAGS",
+    "total_packages": 340,
+    "total_gross_weight_kg": "17839.80",
+    "goods_description": "SAID TO CONTAIN: Black tea, CTC, bulk",
+    "total_net_weight_kg": "17000.00",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Black tea, CTC, bulk",
+        "country_of_origin": "LK",
+        "quantity": "17000",
+        "unit": "kg",
+        "unit_price": "2.54",
+        "amount": "43180.00",
+        "hs_code": "090240",
+        "packages": 340,
+        "net_weight_kg": "17000.00",
+        "gross_weight_kg": "17839.80"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

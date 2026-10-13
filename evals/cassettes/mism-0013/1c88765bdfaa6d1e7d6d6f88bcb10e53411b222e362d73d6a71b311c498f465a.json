@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "key": "1c88765bdfaa6d1e7d6d6f88bcb10e53411b222e362d73d6a71b311c498f465a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nC O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nNingbo Ruifeng Manufacturing Co., Ltd.\r\nNo. 205 Industrial Road, Ningbo, China\r\nINVOICE NO. & DATE\r\nEX202670-4033\r\n03-JUL-2026\r\nCONSIGNEE\r\nKoninklijke d' Heripon\r\nYassinring 32, 9927DN Tilburg, Netherlands\r\nTERMS OF DELIVERY AND PAYMENT\r\nFCA Shenzhen\r\nT/T in advance\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nVESSEL / VOYAGE\r\nEVERGREEN PEGASUS V.207E\r\nPORT OF LOADING\r\nQINGDAO\r\nPORT OF DISCHARGE\r\nROTTERDAM\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nKONINKLIJKE /\r\nEX202670-4033\r\nRUBBER FLIP-FLOPS, THONG\r\nPLUGGED INTO THE SOLE\r\n6402.20 CHINA 16,500 PAIRS 1.93 31,845.00\r\nCORRUGATED SHIPPING\r\nCARTON, 3-PLY\r\n4819.10 CHINA 27,100 PCS 0.5514 14,942.94\r\nCITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36\r\nLED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49\r\nTOTAL FCA SHENZHEN USD 114,236.79\r\nSAY TOTAL US DOLLARS ONE HUNDRED FOURTEEN THOUSAND TWO HUNDRED THIRTY-SIX AND CENTS SEVENTY-NINE\r\nONLY\r\nFor and on behalf of Ningbo Ruifeng Manufacturing\r\nCo., Ltd.\r\nAuthorized Signature\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Koninklijke d' Heripon",
+        "value": "Koninklijke d' Heripon"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FCA Shenzhen",
+        "value": "FCA Shenzhen"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "03-JUL-2026",
+        "value": "03-JUL-2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "EX202670-4033",
+        "value": "EX202670-4033"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
+            "value": "31,845.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 205 Industrial Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE",
+            "value": "RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
+            "value": "16,500"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
+            "value": "PAIRS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
+            "value": "1.93"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "value": "14,942.94"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 205 Industrial Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "CORRUGATED SHIPPING CARTON, 3-PLY",
+            "value": "CORRUGATED SHIPPING CARTON, 3-PLY"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "value": "27,100"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "value": "0.5514"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "value": "21,303.36"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 205 Industrial Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "value": "CITY BICYCLE 28IN, 7-SPEED"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "value": "144"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "value": "147.94"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "value": "46,145.49"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 205 Industrial Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "value": "LED TELEVISION 55IN 4K"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "value": "219"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "value": "210.71"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "T/T in advance",
+        "value": "T/T in advance"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Ruifeng Manufacturing Co., Ltd.",
+        "value": "Ningbo Ruifeng Manufacturing Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "TOTAL FCA SHENZHEN USD 114,236.79",
+        "value": "114,236.79"
+      }
+    },
+    "input_tokens": 513,
+    "latency_ms": 0,
+    "output_tokens": 1028
+  }
+}

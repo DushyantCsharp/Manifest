@@ -1,0 +1,108 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0007",
+  "seed": 170147571,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-0140",
+    "invoice_date": "2026-07-08",
+    "seller": {
+      "name": "Chattogram Padma Manufacturing Co., Ltd.",
+      "address": [
+        "No. 280 Ring Road",
+        "Chattogram",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "Larysz Sp.j.",
+      "address": [
+        "al. Plater 76",
+        "63-797 Łódź",
+        "Poland"
+      ],
+      "country": "PL"
+    },
+    "currency": "EUR",
+    "incoterm": "CFR",
+    "incoterm_place": "Gdańsk",
+    "payment_terms": "Cash against documents",
+    "total_amount": "99784.72",
+    "bl_number": "ONEYEJ5137402",
+    "notify_party": {
+      "name": "Fundacja Bodziony",
+      "address": [
+        "pl. Jana 09",
+        "54-110 Poznań",
+        "Poland"
+      ],
+      "country": "PL"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE HARMONY",
+    "voyage": "104S",
+    "port_of_loading": "Chattogram",
+    "port_of_discharge": "Gdańsk",
+    "shipped_on_board": "2026-07-17",
+    "container_number": "ONEU6469265",
+    "seal_number": "2312776",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 496,
+    "total_gross_weight_kg": "6025.13",
+    "goods_description": "SAID TO CONTAIN: Men's crew-neck T-shirt, 100% cotton jersey; Cotton knitted pullover; Men's woven cotton shirt, long sleeve",
+    "total_net_weight_kg": "5284.99",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+        "country_of_origin": "BD",
+        "quantity": "17800",
+        "unit": "pcs",
+        "unit_price": "3.07",
+        "amount": "54646.00",
+        "hs_code": "610910",
+        "packages": 356,
+        "net_weight_kg": "3417.60",
+        "gross_weight_kg": "3914.58"
+      },
+      {
+        "line_no": 2,
+        "description": "Cotton knitted pullover",
+        "country_of_origin": "BD",
+        "quantity": "2544",
+        "unit": "pcs",
+        "unit_price": "14.68",
+        "amount": "37345.92",
+        "hs_code": "611020",
+        "packages": 106,
+        "net_weight_kg": "1394.11",
+        "gross_weight_kg": "1586.95"
+      },
+      {
+        "line_no": 3,
+        "description": "Men's woven cotton shirt, long sleeve",
+        "country_of_origin": "BD",
+        "quantity": "1360",
+        "unit": "pcs",
+        "unit_price": "5.73",
+        "amount": "7792.80",
+        "hs_code": "620520",
+        "packages": 34,
+        "net_weight_kg": "473.28",
+        "gross_weight_kg": "523.60"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

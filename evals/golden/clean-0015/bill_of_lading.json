@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0015",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVWB3421832",
+    "seller": {
+      "name": "Ningbo Ruifeng Trading Co., Ltd.",
+      "address": [
+        "No. 334 Harbour Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Guillet",
+      "address": [
+        "3, rue de Perrin",
+        "48669 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": null,
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN ORION",
+    "voyage": "935N",
+    "port_of_loading": "Qingdao",
+    "port_of_discharge": "Marseille",
+    "shipped_on_board": "2026-03-13",
+    "container_number": "EGLU9166755",
+    "seal_number": "5410094",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1359,
+    "total_gross_weight_kg": "24939.37",
+    "goods_description": "SAID TO CONTAIN: Running shoes, rubber sole, textile upper; Corrugated shipping carton, 3-ply; Solar PV module 410W monocrystalline; Centrifugal water pump 1.1kW; Rubber flip-flops, thong plugged into the sole; Lithium-ion battery pack 48V 20Ah; Polarized sunglasses"
+  },
+  "line_items": []
+}

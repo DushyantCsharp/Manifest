@@ -1,0 +1,166 @@
+# Operations compiled into manifest_review_client by ariadne-codegen (make contracts).
+# Validated against contracts/schema.graphql at generation time.
+
+fragment FieldValueParts on FieldValue {
+  __typename
+  ... on TextValue {
+    text
+  }
+  ... on MoneyValue {
+    amount
+    currency
+  }
+  ... on QuantityValue {
+    amount
+    unit
+  }
+  ... on DateValue {
+    date
+  }
+}
+
+fragment BoundingBoxParts on BoundingBox {
+  left
+  top
+  right
+  bottom
+}
+
+fragment ExtractedFieldParts on ExtractedField {
+  id
+  key
+  confidence
+  sourcePage
+  status
+  value {
+    ...FieldValueParts
+  }
+  bbox {
+    ...BoundingBoxParts
+  }
+  correction {
+    reason
+    correctedAt
+    previousValue {
+      ...FieldValueParts
+    }
+  }
+}
+
+fragment ReviewTaskParts on ReviewTask {
+  id
+  shipmentId
+  status
+  priority
+  reasons
+  createdAt
+  extractions {
+    id
+    documentId
+    documentKind
+    schemaVersion
+    fields {
+      ...ExtractedFieldParts
+    }
+    lineItems {
+      lineNumber
+      fields {
+        ...ExtractedFieldParts
+      }
+      hsSuggestion {
+        code
+        description
+        confidence
+        rationale
+        retrievedCandidates {
+          code
+          description
+          score
+        }
+      }
+    }
+  }
+  discrepancies {
+    id
+    kind
+    severity
+    fieldKey
+    lineNumber
+    message
+    observations {
+      documentId
+      documentKind
+      sourcePage
+      value {
+        ...FieldValueParts
+      }
+      bbox {
+        ...BoundingBoxParts
+      }
+    }
+  }
+}
+
+fragment UserErrorParts on UserError {
+  code
+  message
+  field
+}
+
+query Health {
+  health
+}
+
+query ReviewTasks($filter: ReviewTaskFilter, $first: Int = 25, $after: String) {
+  reviewTasks(filter: $filter, first: $first, after: $after) {
+    edges {
+      cursor
+      node {
+        ...ReviewTaskParts
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}
+
+query ReviewTask($id: ID!) {
+  reviewTask(id: $id) {
+    ...ReviewTaskParts
+  }
+}
+
+mutation ApproveField($fieldId: ID!) {
+  approveField(fieldId: $fieldId) {
+    field {
+      ...ExtractedFieldParts
+    }
+    userErrors {
+      ...UserErrorParts
+    }
+  }
+}
+
+mutation CorrectField($fieldId: ID!, $value: FieldValueInput!, $reason: String!) {
+  correctField(fieldId: $fieldId, value: $value, reason: $reason) {
+    field {
+      ...ExtractedFieldParts
+    }
+    userErrors {
+      ...UserErrorParts
+    }
+  }
+}
+
+mutation ApproveTask($taskId: ID!) {
+  approveTask(taskId: $taskId) {
+    task {
+      ...ReviewTaskParts
+    }
+    userErrors {
+      ...UserErrorParts
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0014",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVNX4732008",
+    "seller": {
+      "name": "Sezgin Manço San.",
+      "address": [
+        "8703 Soylu Circles",
+        "54932 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Rogers-Clark",
+      "address": [
+        "409 Heather Heights",
+        "DA7 4UX Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "notify_party": {
+      "name": "Kelly Ltd",
+      "address": [
+        "24 Harrison Locks",
+        "W9U 6TH Manchester",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN SERENITY",
+    "voyage": "770N",
+    "port_of_loading": "Ambarli",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-05-11",
+    "container_number": "EGLU8477500",
+    "seal_number": "3000008",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 2051,
+    "total_gross_weight_kg": "21283.42",
+    "goods_description": "SAID TO CONTAIN: Red wine, 0.75L bottle; Laptop computer 14in, 16GB RAM; Stainless steel saucepan 20cm; Electric kettle 1.7L stainless; Analog quartz wristwatch, steel case"
+  },
+  "line_items": []
+}

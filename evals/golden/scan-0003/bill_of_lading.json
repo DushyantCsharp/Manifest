@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0003",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-0.03",
+    "noise_sigma": 14,
+    "salt_pepper": "0.0011",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYSL3197817",
+    "seller": {
+      "name": "PD Prastuti Tbk",
+      "address": [
+        "Jl. Rajawali Barat No. 9",
+        "87451 Semarang",
+        "Indonesia"
+      ],
+      "country": "ID"
+    },
+    "buyer": {
+      "name": "Peak-IT",
+      "address": [
+        "Bastiaanbaan 753",
+        "7737CR Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "notify_party": {
+      "name": "Movares Groep",
+      "address": [
+        "Lottelaan 652",
+        "4935GX Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE TRITON",
+    "voyage": "740W",
+    "port_of_loading": "Tanjung Perak",
+    "port_of_discharge": "Rotterdam",
+    "shipped_on_board": "2026-06-07",
+    "container_number": "ONEU6263401",
+    "seal_number": "1294982",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1266,
+    "total_gross_weight_kg": "22803.52",
+    "goods_description": "SAID TO CONTAIN: Plastic storage box 30L with lid; Porcelain dinner plate 27cm; Roasted coffee beans, whole; LDPE film-grade granules"
+  },
+  "line_items": []
+}

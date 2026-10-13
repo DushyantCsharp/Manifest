@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "key": "24e191102ea847ccffd88ca2560851970fd1c52d0a40ee1191899713ca9e2ad8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nKaohsiung Lienhwa Textile Co., Ltd. COMME RCIAL INVOICE\n\nNo. 71 Industrial Road\nKaohsiung Invoice No. INV-2026-81295\n\nTaiwan Invoice Date 02/12/2026\nPayment Terms L/C at sight\nBILL TO / CONSIGNEE SHIPPING\nPrice LLC Terms of Sale: EXW Tainan (Incoterms 2020)\n8994 Bruce Plains Suite 532 Port of Loading: Kaohsiung\nN8E9V7 Vancouver Port of Discharge: Vancouver\nCanada Currency: CAD\n\n# Description Country of Origin Qty Unit Unit Price Amount (CAD)\n\n1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00\n2 Milk chocolate bars 100g Germany 47,520 pcs 1.86 88,387.20\n3 LED bulb E27 9W warm white China 39,800 pcs 0.9031 35,943.38\n4 Porcelain dinner plate 27cm Thailand 1,920 pcs 4.34 8,332.80\n5 Lithium-ion battery pack 48V 20Ah South Korea 88 pcs 423.73 37,288.24\n6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25\n7 Long grain white rice, milled Pakistan 9,125 kg 0.8878 8,101.18\n\nTotal CAD 192,370.05\n\nWe hereby certify-that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\nof thé-origin stated.\n\nAuthorizéd signature: __ — for Kaohsiung Lienhwa Textile Co.. Ltd.\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Price LLC Terms of Sale: EXW Tainan (Incoterms 2020)",
+        "value": "Price LLC"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Canada Currency: CAD",
+        "value": "CAD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Price LLC Terms of Sale: EXW Tainan (Incoterms 2020)",
+        "value": "EXW Tainan"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Taiwan Invoice Date 02/12/2026",
+        "value": "02/12/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Kaohsiung Invoice No. INV-2026-81295",
+        "value": "INV-2026-81295"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "5,675.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "Italy"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "Polarized sunglasses"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "500"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "11.35"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Germany 47,520 pcs 1.86 88,387.20",
+            "value": "88,387.20"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Germany 47,520 pcs 1.86 88,387.20",
+            "value": "Germany"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Germany 47,520 pcs 1.86 88,387.20",
+            "value": "Milk chocolate bars 100g"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Germany 47,520 pcs 1.86 88,387.20",
+            "value": "47,520"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g Germany 47,520 pcs 1.86 88,387.20",
+            "value": "1.86"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 LED bulb E27 9W warm white China 39,800 pcs 0.9031 35,943.38",
+            "value": "35,943.38"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 LED bulb E27 9W warm white China 39,800 pcs 0.9031 35,943.38",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 LED bulb E27 9W warm white China 39,800 pcs 0.9031 35,943.38",
+            "value": "LED bulb E27 9W warm white"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 LED bulb E27 9W warm white China 39,800 pcs 0.9031 35,943.38",
+            "value": "39,800"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 LED bulb E27 9W warm white China 39,800 pcs 0.9031 35,943.38",
+            "value": "0.9031"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm Thailand 1,920 pcs 4.34 8,332.80",
+            "value": "8,332.80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm Thailand 1,920 pcs 4.34 8,332.80",
+            "value": "Thailand"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm Thailand 1,920 pcs 4.34 8,332.80",
+            "value": "Porcelain dinner plate 27cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm Thailand 1,920 pcs 4.34 8,332.80",
+            "value": "1,920"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 Porcelain dinner plate 27cm Thailand 1,920 pcs 4.34 8,332.80",
+            "value": "4.34"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "5 Lithium-ion battery pack 48V 20Ah South Korea 88 pcs 423.73 37,288.24",
+            "value": "37,288.24"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "5 Lithium-ion battery pack 48V 20Ah South Korea 88 pcs 423.73 37,288.24",
+            "value": "South Korea"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Lithium-ion battery pack 48V 20Ah South Korea 88 pcs 423.73 37,288.24",
+            "value": "Lithium-ion battery pack 48V 20Ah"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Lithium-ion battery pack 48V 20Ah South Korea 88 pcs 423.73 37,288.24",
+            "value": "88"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses Italy 500 pcs 11.35 5,675.00",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "5 Lithium-ion battery pack 48V 20Ah South Korea 88 pcs 423.73 37,288.24",
+            "value": "423.73"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25",
+            "value": "8,642.25"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25",
+            "value": "United States"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25",
+            "value": "LDPE film-grade granules"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25",
+            "value": "5,175"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25",
+            "value": "1.67"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7 Long grain white rice, milled Pakistan 9,125 kg 0.8878 8,101.18",
+            "value": "8,101.18"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "7 Long grain white rice, milled Pakistan 9,125 kg 0.8878 8,101.18",
+            "value": "Pakistan"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 Long grain white rice, milled Pakistan 9,125 kg 0.8878 8,101.18",
+            "value": "Long grain white rice, milled"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7 Long grain white rice, milled Pakistan 9,125 kg 0.8878 8,101.18",
+            "value": "9,125"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6 LDPE film-grade granules United States 5,175 - kg 1.67 8,642.25",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7 Long grain white rice, milled Pakistan 9,125 kg 0.8878 8,101.18",
+            "value": "0.8878"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms L/C at sight",
+        "value": "L/C at sight"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Kaohsiung Lienhwa Textile Co., Ltd. COMME RCIAL INVOICE",
+        "value": "Kaohsiung Lienhwa Textile Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total CAD 192,370.05",
+        "value": "192,370.05"
+      }
+    },
+    "input_tokens": 523,
+    "latency_ms": 0,
+    "output_tokens": 1789
+  }
+}

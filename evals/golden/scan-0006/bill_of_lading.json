@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0006",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.85",
+    "noise_sigma": 6,
+    "salt_pepper": "0.002",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "CMDUUO4980769",
+    "seller": {
+      "name": "Kaohsiung Lienhwa Textile Co., Ltd.",
+      "address": [
+        "No. 71 Industrial Road",
+        "Kaohsiung",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "Price LLC",
+      "address": [
+        "8994 Bruce Plains Suite 532",
+        "N8E9V7 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "notify_party": {
+      "name": "Roth-Rich",
+      "address": [
+        "490 Miller Lakes Suite 556",
+        "X6A 4M2 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "carrier": "CMA CGM",
+    "vessel": "CMA KENSINGTON",
+    "voyage": "311W",
+    "port_of_loading": "Kaohsiung",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-02-22",
+    "container_number": "CMDU6521134",
+    "seal_number": "9005552",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1670,
+    "total_gross_weight_kg": "25483.08",
+    "goods_description": "SAID TO CONTAIN: Polarized sunglasses; Milk chocolate bars 100g; LED bulb E27 9W warm white; Porcelain dinner plate 27cm; Lithium-ion battery pack 48V 20Ah; LDPE film-grade granules; Long grain white rice, milled"
+  },
+  "line_items": []
+}

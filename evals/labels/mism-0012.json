@@ -1,0 +1,125 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0012",
+  "seed": 439799999,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-5405",
+    "invoice_date": "2026-07-21",
+    "seller": {
+      "name": "Bùi Tập Đoàn",
+      "address": [
+        "Số 5/88 Ngõ 53 Nguyễn Tất Thành",
+        "43460 Hai Phong",
+        "Vietnam"
+      ],
+      "country": "VN"
+    },
+    "buyer": {
+      "name": "Van Leeuwen Buizen",
+      "address": [
+        "Duukpad 05",
+        "2303 CE Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "currency": "EUR",
+    "incoterm": "DDP",
+    "incoterm_place": "Rotterdam",
+    "payment_terms": "L/C at sight",
+    "total_amount": "90061.99",
+    "bl_number": "HLCUVG7865925",
+    "notify_party": null,
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD ZEPHYR",
+    "voyage": "468S",
+    "port_of_loading": "Hai Phong",
+    "port_of_discharge": "Rotterdam",
+    "shipped_on_board": "2026-07-31",
+    "container_number": "HLCU3473350",
+    "seal_number": "4920681",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 611,
+    "total_gross_weight_kg": "17491.19",
+    "goods_description": "SAID TO CONTAIN: Plastic storage box 30L with lid; Men's woven cotton shirt, long sleeve; Solar PV module 410W monocrystalline; Green Arabica coffee beans, grade 1",
+    "total_net_weight_kg": "16120.74",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Plastic storage box 30L with lid",
+        "country_of_origin": "VN",
+        "quantity": "2910",
+        "unit": "pcs",
+        "unit_price": "3.53",
+        "amount": "10272.30",
+        "hs_code": "392490",
+        "packages": 291,
+        "net_weight_kg": "2819.79",
+        "gross_weight_kg": "3347.00"
+      },
+      {
+        "line_no": 2,
+        "description": "Men's woven cotton shirt, long sleeve",
+        "country_of_origin": "VN",
+        "quantity": "7000",
+        "unit": "pcs",
+        "unit_price": "6.05",
+        "amount": "42350.00",
+        "hs_code": "620520",
+        "packages": 175,
+        "net_weight_kg": "1946.00",
+        "gross_weight_kg": "2282.84"
+      },
+      {
+        "line_no": 3,
+        "description": "Solar PV module 410W monocrystalline",
+        "country_of_origin": "VN",
+        "quantity": "143",
+        "unit": "pcs",
+        "unit_price": "83.83",
+        "amount": "11987.69",
+        "hs_code": "854143",
+        "packages": 5,
+        "net_weight_kg": "2954.95",
+        "gross_weight_kg": "3079.15"
+      },
+      {
+        "line_no": 4,
+        "description": "Green Arabica coffee beans, grade 1",
+        "country_of_origin": "VN",
+        "quantity": "8400",
+        "unit": "kg",
+        "unit_price": "3.03",
+        "amount": "25452.00",
+        "hs_code": "090111",
+        "packages": 140,
+        "net_weight_kg": "8400.00",
+        "gross_weight_kg": "8782.20"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "package_count",
+      "kind": "value_mismatch",
+      "field": "total_packages",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "packing_list": 611,
+        "bill_of_lading": 614
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

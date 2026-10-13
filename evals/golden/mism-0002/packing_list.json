@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0002",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-8158",
+    "date": "2026-04-26",
+    "seller": {
+      "name": "Toyota Otomotiv",
+      "address": [
+        "1009 Korutürk Ways",
+        "26238 Bursa",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Dehmel",
+      "address": [
+        "Zimmerweg 75/88",
+        "37966 Hamburg",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "incoterm": "CPT",
+    "incoterm_place": "Düsseldorf",
+    "package_type": "CARTONS",
+    "total_packages": 620,
+    "total_net_weight_kg": "11825.43",
+    "total_gross_weight_kg": "12951.57"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "TR",
+      "quantity": "8240",
+      "unit": "pcs",
+      "packages": 206,
+      "net_weight_kg": "3749.20",
+      "gross_weight_kg": "4197.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Aluminium household foil 12 micron",
+      "country_of_origin": "TR",
+      "quantity": "7460",
+      "unit": "kg",
+      "packages": 373,
+      "net_weight_kg": "7460.00",
+      "gross_weight_kg": "8064.26"
+    },
+    {
+      "line_no": 3,
+      "description": "Women's cotton denim trousers",
+      "country_of_origin": "TR",
+      "quantity": "1230",
+      "unit": "pcs",
+      "packages": 41,
+      "net_weight_kg": "616.23",
+      "gross_weight_kg": "690.31"
+    }
+  ]
+}

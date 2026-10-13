@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "71beb2653e5ac4a758cd2e9f9f827071f00c7b5cd6949a4dff60842500b7a694",
+  "retriever": "offline-lexical",
+  "query": "Extra virgin olive oil in 1L bottles origin ES",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "150920",
+      "description": "Vegetable oils; olive oil and its fractions, extra virgin olive oil, whether or not refined, but not chemically modified",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "150930",
+      "description": "Vegetable oils; olive oil and its fractions, virgin olive oil, whether or not refined, but not chemically modified",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "150940",
+      "description": "Vegetable oils; olive oil and its fractions, virgin olive oils n.e.c. in heading 1509, whether or not refined, but not chemically modified",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "150990",
+      "description": "Vegetable oils; olive oil and its fractions, other than virgin, whether or not refined, but not chemically modified",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "151010",
+      "description": "Vegetable oils; crude olive pomace oil and their fractions, obtained solely from olives, whether or not refined, but not chemically modified",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "151090",
+      "description": "Vegetable oils; oils and their fractions n.e.c. in heading 1510, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "070992",
+      "description": "Vegetables; olives, fresh or chilled",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "040590",
+      "description": "Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "071120",
+      "description": "Vegetables; olives, provisionally preserved but unsuitable in that state for immediate consumption",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "040520",
+      "description": "Dairy produce; dairy spreads",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "200570",
+      "description": "Vegetable preparations; olives, prepared or preserved otherwise than by vinegar or acetic acid, not frozen",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "040510",
+      "description": "Dairy produce; derived from milk, butter",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "392330",
+      "description": "Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "842220",
+      "description": "Machinery; for cleaning or drying bottles or other containers",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "701090",
+      "description": "Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "842230",
+      "description": "Machinery; for filling, closing, sealing, capsuling or labelling bottles, cans, bags or other containers, machinery for aerating beverages",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

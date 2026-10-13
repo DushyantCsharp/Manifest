@@ -1,0 +1,120 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0010",
+  "seed": 1835397772,
+  "layout": "compact",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "FC-2883/26",
+    "invoice_date": "2026-02-16",
+    "seller": {
+      "name": "Gasperi-Finetti SPA",
+      "address": [
+        "Strada Giovine, 24",
+        "64011 Prato",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Fernandez",
+      "address": [
+        "77, rue Collet",
+        "35329 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Paris",
+    "payment_terms": "L/C at sight",
+    "total_amount": "144940.86",
+    "bl_number": "HLCUVG3017718",
+    "notify_party": {
+      "name": "Maurice S.A.S.",
+      "address": [
+        "chemin Cécile Chauvet",
+        "81609 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD TAGE",
+    "voyage": "296W",
+    "port_of_loading": "La Spezia",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-02-20",
+    "container_number": "HLCU2448055",
+    "seal_number": "1885491",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 2539,
+    "total_gross_weight_kg": "23688.91",
+    "goods_description": "SAID TO CONTAIN: Roasted coffee beans, whole; Polarized sunglasses; Red wine, 0.75L bottle",
+    "total_net_weight_kg": "20615.13",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Roasted coffee beans, whole",
+        "country_of_origin": "IT",
+        "quantity": "4980",
+        "unit": "kg",
+        "unit_price": "10.13",
+        "amount": "50447.40",
+        "hs_code": "090121",
+        "packages": 498,
+        "net_weight_kg": "4980.00",
+        "gross_weight_kg": "5463.06"
+      },
+      {
+        "line_no": 2,
+        "description": "Polarized sunglasses",
+        "country_of_origin": "IT",
+        "quantity": "6200",
+        "unit": "pcs",
+        "unit_price": "8.94",
+        "amount": "55428.00",
+        "hs_code": "900410",
+        "packages": 62,
+        "net_weight_kg": "210.80",
+        "gross_weight_kg": "246.88"
+      },
+      {
+        "line_no": 3,
+        "description": "Red wine, 0.75L bottle",
+        "country_of_origin": "IT",
+        "quantity": "11874",
+        "unit": "pcs",
+        "unit_price": "3.29",
+        "amount": "39065.46",
+        "hs_code": "220421",
+        "packages": 1979,
+        "net_weight_kg": "15424.33",
+        "gross_weight_kg": "17978.97"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "missing_origin",
+      "kind": "missing_field",
+      "field": "line_items.country_of_origin",
+      "line_no": 3,
+      "description": "Red wine, 0.75L bottle",
+      "values": {
+        "commercial_invoice": "IT",
+        "packing_list": null
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

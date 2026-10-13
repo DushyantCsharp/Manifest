@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "key": "094cea322e2863088503cbad755bb858359f26fbb0d55abcbc3ec1c88a72d1e5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nPenang Gemilang Electronics Co., Ltd.\r\nNo. 171 Harbour Road, Penang, Malaysia \r\nPACKING LIST\r\nInvoice Ref. FC-0013/26\r\nDate 2026-07-29\r\nCONSIGNEE\r\nKlapp GmbH & Co. KG\r\nRolf-Peter-Trupp-Platz 34-44, 55722 Düsseldorf,\r\nGermany\r\nTERMS OF DELIVERY\r\nFOB Port Klang\r\nPort Klang to Hamburg\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg\r\n2 Aluminium household foil 12 micron IT 15 880 kg 794 15 880,00 kg 16 634,30 kg\r\nTotal 851 CARTONS 16 665,57 kg 17 553,74 kg\r\nShipping marks: KLAPP / FC-0013/26\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Klapp GmbH & Co. KG",
+        "value": "Klapp GmbH & Co. KG"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-07-29",
+        "value": "2026-07-29"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FOB Port Klang",
+        "value": "FOB Port Klang"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. FC-0013/26",
+        "value": "FC-0013/26"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg",
+            "value": "LED bulb E27 9W warm white"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg",
+            "value": "919,44 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg",
+            "value": "785,57 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg",
+            "value": "11 385"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron IT 15 880 kg 794 15 880,00 kg 16 634,30 kg",
+            "value": "IT"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron IT 15 880 kg 794 15 880,00 kg 16 634,30 kg",
+            "value": "Aluminium household foil 12 micron"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron IT 15 880 kg 794 15 880,00 kg 16 634,30 kg",
+            "value": "16 634,30 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron IT 15 880 kg 794 15 880,00 kg 16 634,30 kg",
+            "value": "15 880,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron IT 15 880 kg 794 15 880,00 kg 16 634,30 kg",
+            "value": "15 880"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 57 785,57 kg 919,44 kg",
+            "value": "kg"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 851 CARTONS 16 665,57 kg 17 553,74 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Penang Gemilang Electronics Co., Ltd.",
+        "value": "Penang Gemilang Electronics Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 851 CARTONS 16 665,57 kg 17 553,74 kg",
+        "value": "17 553,74 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 851 CARTONS 16 665,57 kg 17 553,74 kg",
+        "value": "16 665,57 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 851 CARTONS 16 665,57 kg 17 553,74 kg",
+        "value": "851"
+      }
+    },
+    "input_tokens": 380,
+    "latency_ms": 0,
+    "output_tokens": 710
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0013",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202665-8629",
+    "invoice_date": "2026-06-11",
+    "seller": {
+      "name": "Busan Daesung Import & Export Co., Ltd.",
+      "address": [
+        "No. 227 Avenue 3",
+        "Busan",
+        "South Korea"
+      ],
+      "country": "KR"
+    },
+    "buyer": {
+      "name": "Williamson PLC",
+      "address": [
+        "2226 Ryan Views",
+        "86254 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "Cash against documents",
+    "total_amount": "203432.35"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Women's cotton denim trousers",
+      "country_of_origin": "BD",
+      "quantity": "3001",
+      "unit": "pcs",
+      "unit_price": "13.79",
+      "amount": "41383.79",
+      "hs_code": "620462"
+    },
+    {
+      "line_no": 2,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "FR",
+      "quantity": "3072",
+      "unit": "pcs",
+      "unit_price": "8.80",
+      "amount": "27033.60",
+      "hs_code": "220421"
+    },
+    {
+      "line_no": 3,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "CN",
+      "quantity": "1930",
+      "unit": "pcs",
+      "unit_price": "22.34",
+      "amount": "43116.20",
+      "hs_code": "420221"
+    },
+    {
+      "line_no": 4,
+      "description": "Corrugated shipping carton, 3-ply",
+      "country_of_origin": "CN",
+      "quantity": "18050",
+      "unit": "pcs",
+      "unit_price": "0.5592",
+      "amount": "10093.56",
+      "hs_code": "481910"
+    },
+    {
+      "line_no": 5,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "2640",
+      "unit": "sets",
+      "unit_price": "14.40",
+      "amount": "38016.00",
+      "hs_code": "821520"
+    },
+    {
+      "line_no": 6,
+      "description": "Frozen vannamei shrimp, peeled",
+      "country_of_origin": "IN",
+      "quantity": "2140",
+      "unit": "kg",
+      "unit_price": "11.38",
+      "amount": "24353.20",
+      "hs_code": "030617"
+    },
+    {
+      "line_no": 7,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "8600",
+      "unit": "pcs",
+      "unit_price": "2.26",
+      "amount": "19436.00",
+      "hs_code": "900410"
+    }
+  ]
+}

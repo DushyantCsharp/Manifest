@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "f2982629ab2a516dd0d649aec0170f54c34814aaf14fbacbf8ee263a71d6a436",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Rubberwood dining table, 6 seats\nCountry of origin: MY\n\nChoose the chapter that covers these goods. Options:\n- 66: Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof\n    contains 660200: Walking-sticks, seat-sticks, whips, riding-crops and the like\n- 39: Plastics and articles thereof\n    contains 392220: Plastics; lavatory seats and covers\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 870821: Vehicles; parts of bodies, safety seat belts\n    contains 870829: Vehicles; parts and accessories, of bodies, other than safety seat belts\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940152: Seats; of bamboo\n    contains 940153: Seats; of rattan\n    contains 940110: Seats; of a kind used for aircraft\n    contains 940120: Seats; of a kind used for motor vehicles\n    contains 940141: Seats; convertible into beds of wood, other than garden seats or camping equipment\n    contains 940149: Seats; convertible into beds of other than wood, other than garden seats or camping equipment\n    contains 940159: Seats; of cane, osier or similar materials, other than bamboo or rattan\n    contains 940180: Seats; n.e.c. in heading no. 9401, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940199: Seats; parts, (of other than wood) for use in the assembly of motor vehicles as determined by the minister\n- 95: Toys, games and sports requisites; parts and accessories thereof\n    contains 950490: Games; articles for funfair, table or parlour games, including pintables, special tables for casino games, automatic bowling alley equipment, n.e.c. in heading 9504\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n- 63: Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n    contains 630240: Table linen; knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c60a078fe4835cc4da16ea28afa8040f0604c97d0a72fcba3ba16467913557a8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "94",
+      "cited": [
+        "94"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 942,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

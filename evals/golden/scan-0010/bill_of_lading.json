@@ -1,0 +1,52 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0010",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.4",
+    "noise_sigma": 11,
+    "salt_pepper": "0.0005",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "MEDUHT4058802",
+    "seller": {
+      "name": "Ertaş Arsoy Şti.",
+      "address": [
+        "4306 Esna Springs Suite 854",
+        "02128 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Bonte BV",
+      "address": [
+        "Arlettelaan 827",
+        "1789 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "notify_party": null,
+    "carrier": "MSC",
+    "vessel": "MSC CALYPSO",
+    "voyage": "972N",
+    "port_of_loading": "Izmir",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-07-01",
+    "container_number": "MEDU9893648",
+    "seal_number": "2044734",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 770,
+    "total_gross_weight_kg": "25962.41",
+    "goods_description": "SAID TO CONTAIN: Black tea, CTC, bulk; Analog quartz wristwatch, steel case; AC induction motor 0.55kW 3-phase; City bicycle 28in, 7-speed; Aluminium household foil 12 micron; Solar PV module 410W monocrystalline"
+  },
+  "line_items": []
+}

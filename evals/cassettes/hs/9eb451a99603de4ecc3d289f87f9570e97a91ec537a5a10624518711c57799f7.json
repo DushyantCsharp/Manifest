@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "9eb451a99603de4ecc3d289f87f9570e97a91ec537a5a10624518711c57799f7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Desktop computer system unit with processor, memory and storage, no monitor\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8471: Automatic data processing machines and units thereof, magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n    contains 847150: Units of automatic data processing machines; processing units other than those of item no. 8471.41 or 8471.49, whether or not containing in the same housing one or two of the following types of unit: storage units, input units or output units\n    contains 847170: Units of automatic data processing machines; storage units\n    contains 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n    contains 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n    contains 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n    contains 847180: Units of automatic data processing machines; n.e.c. in item no. 8471.50, 8471.60 or 8471.70\n- 8419: Machinery, plant (not domestic), or laboratory equipment; electrically heated or not, (excluding items in 85.14) for the treatment of materials by a process involving change of temperature; including instantaneous or non electric storage water heaters\n    contains 841950: Heat exchange units; not used for domestic purposes\n    contains 841933: Dryers; lyophilisation apparatus, freeze drying units and spray dryers, not used for domestic purposes\n- 8418: Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air conditioning machines of heading no. 8415\n    contains 841850: Furniture incorporating refrigerating or freezing equipment; for storage and display, n.e.c. in item no. 8418.1, 8418.2, 8418.3 or 8418.4 (chests, cabinets, display counters, show-cases and the like)\n- 8404: Auxiliary plant for use with boilers of heading no. 8402 or 8403; e.g. economisers, super-heaters, soot removers, gas recoverers), condensers for steam or other vapour power units\n    contains 840490: Boilers; parts of auxiliary plant, for use with boilers of heading no. 8402 and 8403 and parts of condensers for steam or other vapour power units\n    contains 840420: Boilers; condensers, for steam or other vapour power units\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "564b95dd5b74ea9cb18d7f09b1fd4076179edbe8ed1088708b31fe2da1af0385",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8471",
+      "cited": [
+        "8471"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 904,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0023",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202609-3206",
+    "invoice_date": "2026-06-28",
+    "seller": {
+      "name": "Gazipur Karim Import & Export Co., Ltd.",
+      "address": [
+        "No. 250 Industrial Road",
+        "Gazipur",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "Robbins, Clark and Barnett",
+      "address": [
+        "0442 Lawrence Common",
+        "42643 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "T/T in advance",
+    "total_amount": "1008826.56"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "CN",
+      "quantity": "1190",
+      "unit": "pcs",
+      "unit_price": "623.66",
+      "amount": "742155.40",
+      "hs_code": "851713"
+    },
+    {
+      "line_no": 2,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "2360",
+      "unit": "pcs",
+      "unit_price": "10.93",
+      "amount": "25794.80",
+      "hs_code": "851631"
+    },
+    {
+      "line_no": 3,
+      "description": "Rubber flip-flops, thong plugged into the sole",
+      "country_of_origin": "VN",
+      "quantity": "11732",
+      "unit": "pairs",
+      "unit_price": "2.03",
+      "amount": "23815.96",
+      "hs_code": "640220"
+    },
+    {
+      "line_no": 4,
+      "description": "Porcelain dinner plate 27cm",
+      "country_of_origin": "PT",
+      "quantity": "6713",
+      "unit": "pcs",
+      "unit_price": "2.55",
+      "amount": "17118.15",
+      "hs_code": "691110"
+    },
+    {
+      "line_no": 5,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "MX",
+      "quantity": "285",
+      "unit": "pcs",
+      "unit_price": "429.37",
+      "amount": "122370.45",
+      "hs_code": "852872"
+    },
+    {
+      "line_no": 6,
+      "description": "Black tea, CTC, bulk",
+      "country_of_origin": "KE",
+      "quantity": "7000",
+      "unit": "kg",
+      "unit_price": "4.67",
+      "amount": "32690.00",
+      "hs_code": "090240"
+    },
+    {
+      "line_no": 7,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "IN",
+      "quantity": "750",
+      "unit": "pcs",
+      "unit_price": "52.93",
+      "amount": "39697.50",
+      "hs_code": "420221"
+    },
+    {
+      "line_no": 8,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "KH",
+      "quantity": "55",
+      "unit": "pcs",
+      "unit_price": "94.26",
+      "amount": "5184.30",
+      "hs_code": "871200"
+    }
+  ]
+}

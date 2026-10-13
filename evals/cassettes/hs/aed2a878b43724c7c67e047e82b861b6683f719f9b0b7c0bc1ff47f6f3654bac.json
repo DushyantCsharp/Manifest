@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "aed2a878b43724c7c67e047e82b861b6683f719f9b0b7c0bc1ff47f6f3654bac",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Unwrought aluminium ingots, not alloyed\nCountry of origin: AE\n\nChosen so far: 76 Aluminium and articles thereof > 7601 Aluminium; unwrought\n\nChoose the subheading that covers these goods. Options:\n- 760110: Aluminium; unwrought, (not alloyed)\n- 760120: Aluminium; unwrought, alloys\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "eabeb28bc5c4f8745fcd3822cc52dc9e8bdc56bf20a1b6938870309bb7343a50",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "760110",
+      "cited": [
+        "760110"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 300,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

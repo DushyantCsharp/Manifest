@@ -1,0 +1,87 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0004",
+  "seed": 2525620576,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/4866",
+    "invoice_date": "2026-09-03",
+    "seller": {
+      "name": "Pires Viana e Filhos",
+      "address": [
+        "Favela de da Rosa, 36",
+        "11956-824 Santos",
+        "Brazil"
+      ],
+      "country": "BR"
+    },
+    "buyer": {
+      "name": "Miller-Burke",
+      "address": [
+        "299 Benjamin Oval Suite 202",
+        "39555 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "GBP",
+    "incoterm": "CIP",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "T/T in advance",
+    "total_amount": "27890.80",
+    "bl_number": "ONEYFW6533019",
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE TAGE",
+    "voyage": "453S",
+    "port_of_loading": "Paranaguá",
+    "port_of_discharge": "Los Angeles",
+    "shipped_on_board": "2026-09-06",
+    "container_number": "ONEU4707533",
+    "seal_number": "3198566",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1866,
+    "total_gross_weight_kg": "24654.69",
+    "goods_description": "SAID TO CONTAIN: A4 copy paper 80gsm, ream; Roasted coffee beans, whole",
+    "total_net_weight_kg": "22945.32",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "A4 copy paper 80gsm, ream",
+        "country_of_origin": "BR",
+        "quantity": "8710",
+        "unit": "pcs",
+        "unit_price": "1.76",
+        "amount": "15329.60",
+        "hs_code": "480256",
+        "packages": 1742,
+        "net_weight_kg": "21705.32",
+        "gross_weight_kg": "23300.61"
+      },
+      {
+        "line_no": 2,
+        "description": "Roasted coffee beans, whole",
+        "country_of_origin": "BR",
+        "quantity": "1240",
+        "unit": "kg",
+        "unit_price": "10.13",
+        "amount": "12561.20",
+        "hs_code": "090121",
+        "packages": 124,
+        "net_weight_kg": "1240.00",
+        "gross_weight_kg": "1354.08"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

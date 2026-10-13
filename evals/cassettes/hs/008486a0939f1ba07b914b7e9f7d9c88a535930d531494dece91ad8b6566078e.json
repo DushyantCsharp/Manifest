@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "008486a0939f1ba07b914b7e9f7d9c88a535930d531494dece91ad8b6566078e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Red wine in 0.75L bottles\nCountry of origin: FR\n\nChoose the chapter that covers these goods. Options:\n- 22: Beverages, spirits and vinegar\n    contains 220410: Wine; sparkling\n    contains 220421: Wine; still, in containers holding 2 litres or less\n    contains 220429: Wine; still, in containers holding more than 10 litres\n    contains 220422: Wine; still, in containers holding more than 2 litres but not more than 10 litres\n    contains 220430: Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2\n    contains 220820: Spirits obtained by distilling grape wine or grape marc\n    contains 220510: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less\n    contains 220590: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding more than 2 litres\n- 23: Food industries, residues and wastes thereof; prepared animal fodder\n    contains 230700: Wine lees; argol\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 843510: Presses, crushers and similar machinery; used in the manufacture of wine, cider, fruit juices or similar beverages\n    contains 843590: Presses, crushers and similar machinery; parts, used in the manufacture of wine, cider, fruit juices or similar beverages\n    contains 842220: Machinery; for cleaning or drying bottles or other containers\n    contains 842230: Machinery; for filling, closing, sealing, capsuling or labelling bottles, cans, bags or other containers, machinery for aerating beverages\n- 39: Plastics and articles thereof\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 081030: Fruit, edible; black, white or red currants and gooseberries, fresh\n- 70: Glass and glassware\n    contains 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n- 07: Vegetables and certain roots and tubers; edible\n    contains 071332: Vegetables, leguminous; small red (adzuki) beans (phaseolus or vigna angularis), shelled, whether or not skinned or split, dried\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 901820: Medical, surgical instruments and appliances; ultra-violet or infra-red ray apparatus\n- 03: Fish and crustaceans, molluscs and other aquatic invertebrates\n    contains 030311: Fish; frozen, Pacific salmon, sockeye salmon (red salmon) (Oncorhynchus nerka), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n- 44: Wood and articles of wood; wood charcoal\n    contains 440349: Wood, tropical; other than dark red meranti, light red meranti meranti bakau and teak, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2fc59b5293ca6195d402bc1f9ade241ce78b494edc77e82f8bca8b5d9170fd56",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "22",
+      "cited": [
+        "22"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 993,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

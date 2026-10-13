@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0014",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVRQ8820880",
+    "seller": {
+      "name": "Silva",
+      "address": [
+        "Jardim Albuquerque, 73",
+        "14555-337 Santos",
+        "Brazil"
+      ],
+      "country": "BR"
+    },
+    "buyer": {
+      "name": "Jones, Hutchinson and Marshall",
+      "address": [
+        "Flat 18, Middleton Junction",
+        "LA4M 2YQ Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "notify_party": {
+      "name": "Stone, Austin and Jones",
+      "address": [
+        "Studio 5, Benjamin Union",
+        "BA3Y 2XJ Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN TAGE",
+    "voyage": "814S",
+    "port_of_loading": "Paranaguá",
+    "port_of_discharge": "Felixstowe",
+    "shipped_on_board": "2026-04-04",
+    "container_number": "EGLU0551895",
+    "seal_number": "6906693",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1188,
+    "total_gross_weight_kg": "22987.06",
+    "goods_description": "SAID TO CONTAIN: Green Arabica coffee beans, grade 1; A4 copy paper 80gsm, ream"
+  },
+  "line_items": []
+}

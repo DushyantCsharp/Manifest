@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "C O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nNingbo Ruifeng Manufacturing Co., Ltd.\r\nNo. 205 Industrial Road, Ningbo, China\r\nINVOICE NO. & DATE\r\nEX202670-4033\r\n03-JUL-2026\r\nCONSIGNEE\r\nKoninklijke d' Heripon\r\nYassinring 32, 9927DN Tilburg, Netherlands\r\nTERMS OF DELIVERY AND PAYMENT\r\nFCA Shenzhen\r\nT/T in advance\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nVESSEL / VOYAGE\r\nEVERGREEN PEGASUS V.207E\r\nPORT OF LOADING\r\nQINGDAO\r\nPORT OF DISCHARGE\r\nROTTERDAM\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nKONINKLIJKE /\r\nEX202670-4033\r\nRUBBER FLIP-FLOPS, THONG\r\nPLUGGED INTO THE SOLE\r\n6402.20 CHINA 16,500 PAIRS 1.93 31,845.00\r\nCORRUGATED SHIPPING\r\nCARTON, 3-PLY\r\n4819.10 CHINA 27,100 PCS 0.5514 14,942.94\r\nCITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36\r\nLED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49\r\nTOTAL FCA SHENZHEN USD 114,236.79\r\nSAY TOTAL US DOLLARS ONE HUNDRED FOURTEEN THOUSAND TWO HUNDRED THIRTY-SIX AND CENTS SEVENTY-NINE\r\nONLY\r\nFor and on behalf of Ningbo Ruifeng Manufacturing\r\nCo., Ltd.\r\nAuthorized Signature\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Ningbo Ruifeng Manufacturing Co., Ltd.\r\nNo. 205 Industrial Road, Ningbo, China \r\nPACKING LIST\r\nInvoice Ref. EX022670-4033\r\nDate 03-JUL-2026\r\nCONSIGNEE\r\nKoninklijke d' Heripon\r\nYassinring 32, 9927DN Tilburg, Netherlands\r\nTERMS OF DELIVERY\r\nFCA Shenzhen\r\nQingdao to Rotterdam\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Rubber flip-flops, thong plugged into the\r\nsole\r\nCN 16,500 pairs 275 3,514.50 kg 4,118.02 kg\r\n2 Corrugated shipping carton, 3-ply CN 31,707 pcs 542 13,116.40 kg 14,049.72 kg\r\n3 City bicycle 28in, 7-speed CN 144 pcs 144 2,314.37 kg 2,554.03 kg\r\n4 LED television 55in 4K CN 219 pcs 219 3,694.75 kg 4,030.32 kg\r\nTotal 1180 CARTONS 22,640.02 kg 24,752.09 kg\r\nShipping marks: KONINKLIJKE / EX202670-4033\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nNingbo Ruifeng Manufacturing Co., Ltd.\r\nNo. 205 Industrial Road, Ningbo, China\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVGB6731838 \r\nCONSIGNEE\r\nKoninklijke d' Heripon\r\nYassinring 32, 9927DN Tilburg, Netherlands\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN PEGASUS / 207E\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nQingdao\r\nPORT OF DISCHARGE\r\nRotterdam\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU6304819\r\nSEAL\r\n1713540\r\nKONINKLIJKE /\r\nEX202670-4033\r\n1180\r\nCARTONS\r\nSAID TO CONTAIN: Rubber flip-flops, thong\r\nplugged into the sole; Corrugated shipping\r\ncarton, 3-ply; City bicycle 28in, 7-speed;\r\nLED television 55in 4K\r\n24,752.09 kg\r\nSHIPPED ON BOARD\r\n12-JUL-2026\r\nPLACE AND DATE OF ISSUE\r\nQingdao, 12-JUL-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1"
+    }
+  ]
+}

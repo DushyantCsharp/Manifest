@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "df244e2dbeb6ac30624946fa1fa404429729fc226b6eeca5be775f92d1b8f0c6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Sultana raisins, dried grapes\nCountry of origin: TR\n\nChoose the chapter that covers these goods. Options:\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 080620: Fruit, edible; grapes, dried\n    contains 080610: Fruit, edible; grapes, fresh\n- 22: Beverages, spirits and vinegar\n    contains 220430: Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2\n    contains 220410: Wine; sparkling\n    contains 220820: Spirits obtained by distilling grape wine or grape marc\n    contains 220421: Wine; still, in containers holding 2 litres or less\n    contains 220510: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less\n    contains 220429: Wine; still, in containers holding more than 10 litres\n    contains 220590: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding more than 2 litres\n    contains 220422: Wine; still, in containers holding more than 2 litres but not more than 10 litres\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040811: Eggs; birds' eggs, yolks, dried, whether or not containing added sugar or other sweetening matter\n    contains 040891: Eggs; birds' eggs (not in shell, excluding yolks only), dried, whether or not containing added sugar or other sweetening matter\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 040819: Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200961: Juice; grape, of a Brix value not exceeding 30, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n    contains 200969: Juice; grape, of a Brix value exceeding 30, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c521b46bb47e7b12949474529c15d69fb4b52b0642696d70a92bd8531f58b69a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "08",
+      "cited": [
+        "08"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 924,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

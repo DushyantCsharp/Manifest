@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "key": "9ee500e340ea8f5339eca178309b413d59c74798be8370454875ee6168345667",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nTrapanese-Giolitti s.r.l.\r\nCanale Gianfranco, 97 Piano 9, 59021 Bologna, Italy\r\nPACKING LIST\r\nInvoice Ref. RE-26-1297\r\nDate 06.05.2026\r\nCONSIGNEE\r\nVerdonck-Vinck BV\r\nDieterweg 26, 6903 Antwerpen, Belgium\r\nTERMS OF DELIVERY\r\nCPT Gent\r\nLa Spezia to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg\r\n2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg\r\n3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg\r\n4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg\r\n5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg\r\nTotal 1045 CARTONS 17.388,16 kg 18.840,45 kg\r\nShipping marks: VERDONCK-VINCK / RE-26-1297\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Verdonck-Vinck BV",
+        "value": "Verdonck-Vinck BV"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 06.05.2026",
+        "value": "06.05.2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Gent",
+        "value": "CPT Gent"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. RE-26-1297",
+        "value": "RE-26-1297"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "PT"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "Porcelain dinner plate 27cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "8.009,64 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "7.461,24 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "11.640"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "value": "KH"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "value": "City bicycle 28in, 7-speed"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "value": "1.352,60 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "value": "1.212,54 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "value": "69"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "value": "TR"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "value": "Aluminium household foil 12 micron"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "value": "5.064,25 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "value": "4.700,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "value": "4.700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "value": "Upholstered office chair, steel base"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "value": "1.516,87 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "value": "1.326,38 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "value": "81"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "value": "PK"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "value": "Women's cotton denim trousers"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "value": "2.897,09 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "value": "2.688,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "value": "5.250"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Trapanese-Giolitti s.r.l.",
+        "value": "Trapanese-Giolitti s.r.l."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "value": "18.840,45 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "value": "17.388,16 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "value": "1045"
+      }
+    },
+    "input_tokens": 430,
+    "latency_ms": 0,
+    "output_tokens": 1381
+  }
+}

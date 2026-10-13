@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "fdd8ffb3196c558ea8d77947bd7e44412a0d52d06fe5543894edd2c16dbec666",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Grey Portland cement in 50kg bags\nCountry of origin: VN\n\nChosen so far: 25 Salt; sulphur; earths, stone; plastering materials, lime and cement > 2523 Portland cement, aluminous cement (ciment fondu), slag cement, supersulphate cement and similar hydraulic cements, whether or not coloured or in the form of clinkers\n\nChoose the subheading that covers these goods. Options:\n- 252321: Cement; portland, white, whether or not artificially coloured\n- 252329: Cement; portland, other than white, whether or not artificially coloured\n- 252310: Cement clinkers (whether or not coloured)\n- 252390: Cement; hydraulic kinds n.e.c. in heading no. 2523\n- 252330: Cement; aluminous (ciment fondu), whether or not coloured or in the form of clinkers\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "48457b6c97bfa2c9ae7d05ed55c2bcb2b9657a46e85c4c286baa9d29b2a24fc2",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "252329",
+      "cited": [
+        "252329"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 414,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

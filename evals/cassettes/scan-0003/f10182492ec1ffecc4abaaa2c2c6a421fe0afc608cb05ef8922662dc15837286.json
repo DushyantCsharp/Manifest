@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "f10182492ec1ffecc4abaaa2c2c6a421fe0afc608cb05ef8922662dc15837286",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER:\nPD Prastuti Tbk\n\nONE\n\nBastiaanbaan 753, 7737CR Utrecht, Netherlands\n\nJ1-. Rajawali Barat No. 9, 87451 Semarang, Indonesia’ BILL OF LADING\nONEYSL3197817\n\nCONSIGNEE NOTIFY PARTY ;\n\nPeak-IT Movares Groep\n\nLottelaan 652, 4935GX Utrecht, Netherlands\n\nOCEAN VESSEL / VOYAGE NO.\nONE TRITON / 740W -\n\nFREIGHT\n\nFREIGHT PREPAID\n\nPORT OF LOADING\n\n07-JUN-2026 Tanjung Perak, 07-JUN-2026\n\nPORT OF DISCHARGE\n\nTanjung Perak Rotterdam\n\nCONTAINER / SEAL | MARKS & NOS. NO.OF — | DESCRIPTION OF GOODS x GROSS WEIGHT\n\nNO. PACKAGES :\n\nONEU6263401 | PEAK-IT / 1266 . SAID TO CONTAIN: Plastic storage box .30L 22,803.52 kg\n‘| SEAL ; EX202620-1238 CARTONS |with lid; Porcelain dinner plate 27cm; ;\n\n1294982 - Roasted coffee beans,’ whole; LDPE ‘film-grade.\n\ngranules ~ 3 ;\nSHIPPED ONBOARD ‘| PLACE AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\nTHREE (3)\n\nRECEIVED by the Carrier in apparent good order and condition uniess otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. :\n\nPage ! of |\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYSL3197817",
+        "value": "ONEYSL3197817"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Peak-IT Movares Groep",
+        "value": "Peak-IT"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU6263401 | PEAK-IT / 1266 . SAID TO CONTAIN: Plastic storage box .30L 22,803.52 kg",
+        "value": "ONEU6263401"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Peak-IT Movares Groep",
+        "value": "Movares Groep"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "‘| SEAL ; EX202620-1238 CARTONS |with lid; Porcelain dinner plate 27cm; ;",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Tanjung Perak Rotterdam",
+        "value": "Rotterdam"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "07-JUN-2026 Tanjung Perak, 07-JUN-2026",
+        "value": "Tanjung Perak"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "1294982 - Roasted coffee beans,’ whole; LDPE ‘film-grade.",
+        "value": "1294982"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "PD Prastuti Tbk",
+        "value": "PD Prastuti Tbk"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "07-JUN-2026 Tanjung Perak, 07-JUN-2026",
+        "value": "07-JUN-2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "ONEU6263401 | PEAK-IT / 1266 . SAID TO CONTAIN: Plastic storage box .30L 22,803.52 kg",
+        "value": "22,803.52 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "ONEU6263401 | PEAK-IT / 1266 . SAID TO CONTAIN: Plastic storage box .30L 22,803.52 kg",
+        "value": "1266"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE TRITON / 740W -",
+        "value": "ONE TRITON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "ONE TRITON / 740W -",
+        "value": "740W"
+      }
+    },
+    "input_tokens": 524,
+    "latency_ms": 0,
+    "output_tokens": 471
+  }
+}

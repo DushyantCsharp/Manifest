@@ -1,0 +1,134 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0007",
+  "seed": 333965384,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-1297",
+    "invoice_date": "2026-05-06",
+    "seller": {
+      "name": "Trapanese-Giolitti s.r.l.",
+      "address": [
+        "Canale Gianfranco, 97 Piano 9",
+        "59021 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Verdonck-Vinck BV",
+      "address": [
+        "Dieterweg 26",
+        "6903 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "CPT",
+    "incoterm_place": "Gent",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "115108.86",
+    "bl_number": "HLCUHX1393202",
+    "notify_party": {
+      "name": "Verbeke CommV",
+      "address": [
+        "Marie-Jeannelei 20",
+        "6994 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD HARMONY",
+    "voyage": "180S",
+    "port_of_loading": "La Spezia",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-05-12",
+    "container_number": "HLCU8084325",
+    "seal_number": "5438587",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1045,
+    "total_gross_weight_kg": "18840.45",
+    "goods_description": "SAID TO CONTAIN: Porcelain dinner plate 27cm; City bicycle 28in, 7-speed; Aluminium household foil 12 micron; Upholstered office chair, steel base; Women's cotton denim trousers",
+    "total_net_weight_kg": "17388.16",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Porcelain dinner plate 27cm",
+        "country_of_origin": "PT",
+        "quantity": "11640",
+        "unit": "pcs",
+        "unit_price": "1.89",
+        "amount": "21999.60",
+        "hs_code": "691110",
+        "packages": 485,
+        "net_weight_kg": "7461.24",
+        "gross_weight_kg": "8009.64"
+      },
+      {
+        "line_no": 2,
+        "description": "City bicycle 28in, 7-speed",
+        "country_of_origin": "KH",
+        "quantity": "69",
+        "unit": "pcs",
+        "unit_price": "218.18",
+        "amount": "15054.42",
+        "hs_code": "871200",
+        "packages": 69,
+        "net_weight_kg": "1212.54",
+        "gross_weight_kg": "1352.60"
+      },
+      {
+        "line_no": 3,
+        "description": "Aluminium household foil 12 micron",
+        "country_of_origin": "TR",
+        "quantity": "4700",
+        "unit": "kg",
+        "unit_price": "3.69",
+        "amount": "17343.00",
+        "hs_code": "760711",
+        "packages": 235,
+        "net_weight_kg": "4700.00",
+        "gross_weight_kg": "5064.25"
+      },
+      {
+        "line_no": 4,
+        "description": "Upholstered office chair, steel base",
+        "country_of_origin": "CN",
+        "quantity": "81",
+        "unit": "pcs",
+        "unit_price": "28.14",
+        "amount": "2279.34",
+        "hs_code": "940171",
+        "packages": 81,
+        "net_weight_kg": "1326.38",
+        "gross_weight_kg": "1516.87"
+      },
+      {
+        "line_no": 5,
+        "description": "Women's cotton denim trousers",
+        "country_of_origin": "PK",
+        "quantity": "5250",
+        "unit": "pcs",
+        "unit_price": "11.13",
+        "amount": "58432.50",
+        "hs_code": "620462",
+        "packages": 175,
+        "net_weight_kg": "2688.00",
+        "gross_weight_kg": "2897.09"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "b5d1820e9da953b2c981d166548a68e94772b4649fb603b08cb711cf8e273d2d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nPenang Gemilang Electronics Co., Ltd.\r\nNo. 171 Harbour Road, Penang, Malaysia\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUGW5840978 \r\nCONSIGNEE\r\nKlapp GmbH & Co. KG\r\nRolf-Peter-Trupp-Platz 34-44, 55722 Düsseldorf,\r\nGermany\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC AURORA / 520E\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nPort Klang\r\nPORT OF DISCHARGE\r\nHamburg\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU6272117\r\nSEAL 4453086\r\nKLAPP /\r\nFC-0013/26\r\n851\r\nCARTONS\r\nSAID TO CONTAIN: LED bulb E27 9W warm white;\r\nAluminium household foil 12 micron\r\n17 553,74 kg\r\nSHIPPED ON BOARD\r\n2026-08-01\r\nPLACE AND DATE OF ISSUE\r\nPort Klang, 2026-08-01\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "MEDUGW5840978",
+        "value": "MEDUGW5840978"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Klapp GmbH & Co. KG",
+        "value": "Klapp GmbH & Co. KG"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MSC",
+        "value": "MSC"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "MEDU6272117",
+        "value": "MEDU6272117"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Hamburg",
+        "value": "Hamburg"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Port Klang",
+        "value": "Port Klang"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 4453086",
+        "value": "4453086"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Penang Gemilang Electronics Co., Ltd.",
+        "value": "Penang Gemilang Electronics Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "2026-08-01",
+        "value": "2026-08-01"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "17 553,74 kg",
+        "value": "17 553,74 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "851",
+        "value": "851"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "MSC AURORA / 520E",
+        "value": "MSC AURORA"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "MSC AURORA / 520E",
+        "value": "520E"
+      }
+    },
+    "input_tokens": 501,
+    "latency_ms": 0,
+    "output_tokens": 366
+  }
+}

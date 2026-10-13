@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "1955e4b8fa1a8f50cb33ced90e4d4e15fdc7a26b26428b8728200287d3723930",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nAkgay San.\n\n06411 Sama Mills Suite 97} | 71574 Izmir | Turkey\n\nINVOICE\n\nNumber: 2026/1011\nDate:August 28, 2026\n\nTerms: 30% deposit, 70% against copy\nof B/L\n\nItem Description\n\nSOLD To\n\nLong PLC\n37 David Shore, IV2A 4QF\nBirmingham, United Kingdom\n\nMade in Quantity\n\nDELIVERY\n\nDAP Leeds (Incoterms 2020)\nvia Izmir to Southampton\n\nUnit price Line total\n\nol Black tea, CTC, bulk\n\nSri Lanka 17,000 kg\n\nAmount due\n\n2.54 43,180.00\n\n43,180.00\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Long PLC",
+        "value": "Long PLC"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "DAP Leeds (Incoterms 2020)",
+        "value": "DAP Leeds"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date:August 28, 2026",
+        "value": "August 28, 2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Number: 2026/1011",
+        "value": "2026/1011"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2.54 43,180.00",
+            "value": "43,180.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Sri Lanka 17,000 kg",
+            "value": "Sri Lanka"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "ol Black tea, CTC, bulk",
+            "value": "Black tea, CTC, bulk"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "Sri Lanka 17,000 kg",
+            "value": "17,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "Sri Lanka 17,000 kg",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2.54 43,180.00",
+            "value": "2.54"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.81",
+        "evidence": "Akgay San.",
+        "value": "Akgay San."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "2.54 43,180.00",
+        "value": "43,180.00"
+      }
+    },
+    "input_tokens": 344,
+    "latency_ms": 0,
+    "output_tokens": 352
+  }
+}

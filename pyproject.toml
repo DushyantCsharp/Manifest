@@ -1,0 +1,227 @@
+[project]
+name = "manifest"
+version = "0.1.0"
+description = "Shipment document-pack extraction, reconciliation and HS classification with calibrated confidence."
+readme = "CLAUDE.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "manifest-api",
+    "manifest-worker",
+    "manifest-domain",
+    "manifest-db",
+    "manifest-llm",
+    "manifest-hs",
+    "manifest-telemetry",
+    "manifest-evals",
+]
+
+[dependency-groups]
+dev = [
+    "fakeredis[lua]>=2.39.0",
+    "httpx>=0.28.1",
+    "hypothesis>=6.169.0",
+    "import-linter>=2.15",
+    "manifest-client",
+    "manifest-review-client",
+    "mypy>=2.4.0",
+    "pre-commit>=4.6.2",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.0",
+    "testcontainers[minio,postgres,rabbitmq,redis]>=4.15.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["services/*", "libs/*", "evals", "clients/python", "clients/graphql"]
+# Separately locked toolchain (see tools/codegen/pyproject.toml).
+exclude = ["tools/*"]
+
+[tool.uv.sources]
+manifest-api = { workspace = true }
+manifest-worker = { workspace = true }
+manifest-domain = { workspace = true }
+manifest-db = { workspace = true }
+manifest-llm = { workspace = true }
+manifest-hs = { workspace = true }
+manifest-telemetry = { workspace = true }
+manifest-evals = { workspace = true }
+manifest-client = { workspace = true }
+manifest-review-client = { workspace = true }
+
+# ---------------------------------------------------------------- ruff
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+# Generated code (scripts/contracts.py) is not linted; force-exclude also covers paths that
+# pre-commit passes explicitly.
+extend-exclude = ["web", "clients/python", "clients/graphql/src"]
+force-exclude = true
+
+[tool.ruff.lint]
+select = [
+    "E", "W", "F",  # pycodestyle, pyflakes
+    "I",            # isort
+    "N",            # pep8-naming
+    "UP",           # pyupgrade
+    "B",            # bugbear
+    "A",            # builtins shadowing
+    "C4",           # comprehensions
+    "DTZ",          # naive datetimes
+    "PIE",
+    "PT",           # pytest style
+    "RET",
+    "SIM",
+    "TID",          # tidy imports
+    "PTH",          # pathlib over os.path
+    "S",            # bandit
+    "ASYNC",
+    "RUF",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"**/tests/**" = ["S101", "S311"]  # asserts; seeded RNGs for reproducible test data
+"conftest.py" = ["S106"]  # credentials of throwaway testcontainers
+"scripts/**" = ["S603", "S607"]  # dev scripts run fixed commands (uv, npm) from PATH
+"evals/src/manifest_evals/synth/**" = ["S311"]  # seeded RNG for reproducible synthetic data
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "manifest_api",
+    "manifest_worker",
+    "manifest_domain",
+    "manifest_db",
+    "manifest_llm",
+    "manifest_hs",
+    "manifest_telemetry",
+    "manifest_evals",
+    "manifest_client",
+    "manifest_review_client",
+]
+
+# ---------------------------------------------------------------- mypy (strict on libs/)
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unreachable = true
+plugins = ["pydantic.mypy"]
+files = [
+    "libs/domain/src",
+    "libs/db/src",
+    "libs/llm/src",
+    "libs/hs/src",
+    "libs/telemetry/src",
+]
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+# ---------------------------------------------------------------- pytest
+
+[tool.pytest.ini_options]
+testpaths = ["libs", "services", "evals"]
+addopts = [
+    "--import-mode=importlib", "-ra", "--strict-markers",
+    "-m", "not integration and not live and not contract",
+]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+markers = [
+    "integration: needs Docker (testcontainers start Postgres, RabbitMQ, Redis, MinIO)",
+    "live: calls a real LLM provider (needs ANTHROPIC_API_KEY); excluded by default",
+    "contract: schemathesis fuzzes the REST API against contracts/openapi.json (tools/codegen env)",
+]
+
+# ---------------------------------------------------------------- coverage
+# The gate covers libs/ (the shared core); `make coverage` runs every non-live test against it.
+
+[tool.coverage.run]
+# Directories, not packages: a lib file no test imports still counts (as 0%), never vanishes.
+source = [
+    "libs/domain/src", "libs/db/src", "libs/llm/src", "libs/hs/src", "libs/telemetry/src",
+]
+branch = true
+concurrency = ["thread"]  # Celery's thread pool runs lib code in integration tests
+
+[tool.coverage.report]
+fail_under = 85
+show_missing = true
+skip_covered = true
+exclude_also = ["if TYPE_CHECKING:", "raise NotImplementedError", "^\\s*\\.\\.\\.$"]
+
+# ---------------------------------------------------------------- import-linter
+# Mechanical enforcement of the dependency rules in CLAUDE.md. Run: uv run lint-imports
+
+[tool.importlinter]
+root_packages = [
+    "manifest_api",
+    "manifest_worker",
+    "manifest_domain",
+    "manifest_db",
+    "manifest_llm",
+    "manifest_hs",
+    "manifest_telemetry",
+    "manifest_evals",
+]
+include_external_packages = true
+
+[[tool.importlinter.contracts]]
+name = "libs never import services or evals"
+type = "forbidden"
+source_modules = [
+    "manifest_domain",
+    "manifest_db",
+    "manifest_llm",
+    "manifest_hs",
+    "manifest_telemetry",
+]
+forbidden_modules = ["manifest_api", "manifest_worker", "manifest_evals"]
+
+[[tool.importlinter.contracts]]
+name = "api and worker are independent deployables"
+type = "independence"
+modules = ["manifest_api", "manifest_worker"]
+
+[[tool.importlinter.contracts]]
+name = "services never import evals (evals measures them; calibrators ship as data)"
+type = "forbidden"
+source_modules = ["manifest_api", "manifest_worker"]
+forbidden_modules = ["manifest_evals"]
+
+[[tool.importlinter.contracts]]
+name = "model providers (SDKs, HTTP clients) are called only by manifest_llm"
+type = "forbidden"
+source_modules = [
+    "manifest_api",
+    "manifest_worker",
+    "manifest_domain",
+    "manifest_db",
+    "manifest_hs",
+    "manifest_telemetry",
+    "manifest_evals",
+]
+forbidden_modules = ["anthropic", "httpx"]
+# Going through manifest_llm (worker -> manifest_llm -> anthropic) is the intended path.
+allow_indirect_imports = true
+
+[[tool.importlinter.contracts]]
+name = "domain is the pure core"
+type = "forbidden"
+source_modules = ["manifest_domain"]
+forbidden_modules = [
+    "manifest_db",
+    "manifest_llm",
+    "manifest_hs",
+    "manifest_telemetry",
+    "sqlalchemy",
+]

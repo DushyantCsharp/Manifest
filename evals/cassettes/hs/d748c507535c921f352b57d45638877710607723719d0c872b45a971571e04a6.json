@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d748c507535c921f352b57d45638877710607723719d0c872b45a971571e04a6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Laundry detergent powder, retail packs\nCountry of origin: TR\n\nChosen so far: 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster\n\nChoose the heading that covers these goods. Options:\n- 3401: Soap; organic surface-active preparations used as soap, skin washing, in bars, cakes, moulded pieces, shapes, liquid or cream, containing soap or not; for retail, paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent\n    contains 340119: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use\n    contains 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n    contains 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n    contains 340120: Soap; in forms n.e.c. in item no. 3401.11\n- 3402: Organic surface-active agents (not soap); surface-active, washing (including auxiliary washing) and cleaning preparations, containing soap or not, excluding those of heading no. 3401\n    contains 340250: Washing and cleaning preparations; powders, flakes and granules, surface-active, whether or not containing soap (excluding those of heading no. 3401), put up for retail sale\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ceb019c1c7d03a371d0531061abc6462ee6fdd3c81b0965a7545b2e4b4fc83f5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3402",
+      "cited": [
+        "3402"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 662,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

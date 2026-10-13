@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "24454673f30328753299feffe8ac01aaa9fa4059eef050c13404406b6a2a38c4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER -\nPires Viana e Filhos\n\n119562824 Santos, Brazil ©\n\nONE\n\nMiller-Burke :\n| 299 Benjamin Oval Suite\nStates ‘ : ;\n\n202, 39555 Savannah, United\n\nFavela de da Rosa, 36; BILL OF LADING oi\n5 ONEYFW6533019\nCONSIGNEE \"i NOTIFY PARTY\n\nSAME AS CONSIGNEE\n\nOCEAN VESSEL / VOYAGE NO. _\nONE TAGE / 4535S ..\n\nFREIGHT |\n_FREIGHT ‘PREPAID.\n\nPORT OF LOADING\n\nPORT OF DISCHARGE\n\n| SEAL 3198566\n\n‘Paranagua - Las Angeles\n\nCONTAINER /SEAL | MARKS & NOS. NO.OF | TDESCRIPTION OF GOODS - GROSS WEIGHT ©\n\nNO. et Boyt emer, PACKAGES ; Ge Shirt\n\nONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b\n2026/4866 ‘| CARTONS . | ream; Roasted coffee beans; whole.\n\nSHIPPED ON BOARD\n‘september’ 6, 2026.\n\nPLACE AND DATE OF ISSUE\n\nParanagua, September 6, 2026\n\nNUMBER OF ORIGINALBALS -\nTHREE (3)\n\nRECEIVED’by the Carrier in apparent good order and condition unless\nOr gacage, eject 1 warms and coats ofthe carers and DH O09 Signed as Carrier: ONE.\n\notherwise stated, the total number of contai\n\nners or packages shown above for cariage from ine\n\nport of loading to the port\n\nPage.1 of 1”\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "5 ONEYFW6533019",
+        "value": "ONEYFW6533019"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Miller-Burke :",
+        "value": "Miller-Burke"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b",
+        "value": "ONEU4707533"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "_FREIGHT ‘PREPAID.",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "2026/4866 ‘| CARTONS . | ream; Roasted coffee beans; whole.",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.82",
+        "evidence": "‘Paranagua - Las Angeles",
+        "value": "Las Angeles"
+      },
+      "port_of_loading": {
+        "confidence": "0.76",
+        "evidence": "‘Paranagua - Las Angeles",
+        "value": "‘Paranagua"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "| SEAL 3198566",
+        "value": "3198566"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Pires Viana e Filhos",
+        "value": "Pires Viana e Filhos"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "Paranagua, September 6, 2026",
+        "value": "September 6, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.82",
+        "evidence": "ONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b",
+        "value": "54,354.3 1b"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "ONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b",
+        "value": "1866"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE TAGE / 4535S ..",
+        "value": "ONE TAGE"
+      },
+      "voyage": {
+        "confidence": "0.80",
+        "evidence": "ONE TAGE / 4535S ..",
+        "value": "4535S"
+      }
+    },
+    "input_tokens": 508,
+    "latency_ms": 0,
+    "output_tokens": 449
+  }
+}

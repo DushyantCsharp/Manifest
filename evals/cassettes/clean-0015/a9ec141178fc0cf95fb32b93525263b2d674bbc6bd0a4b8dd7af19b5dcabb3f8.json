@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "key": "a9ec141178fc0cf95fb32b93525263b2d674bbc6bd0a4b8dd7af19b5dcabb3f8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nVendeur / Seller\r\nNingbo Ruifeng Trading Co., Ltd.\r\nNo. 334 Harbour Road, Ningbo, China \r\nAcheteur / Buyer\r\nGuillet\r\n3, rue de Perrin, 48669 Lyon, France \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-1008/26\r\nDate 2026-03-09\r\nDevise / Currency USD\r\nIncoterm 2020 FOB Qingdao\r\nPaiement /\r\nPayment\r\nT/T in advance\r\nChargement /\r\nLoading\r\nQingdao\r\nDestination Marseille\r\nLig. Désignation / Description Orig. Qté U. P.U. USD Montant USD\r\n1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40\r\n2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50\r\n3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94\r\n4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00\r\n5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80\r\n6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76\r\n7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00\r\nTotal USD : 243 177,40\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Guillet",
+        "value": "Guillet"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Devise / Currency USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Incoterm 2020 FOB Qingdao",
+        "value": "FOB Qingdao"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-03-09",
+        "value": "2026-03-09"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "N° / No. FC-1008/26",
+        "value": "FC-1008/26"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "value": "113 189,40"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "value": "Running shoes, rubber sole, textile upper"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "value": "4 860"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "value": "pairs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "value": "23,29"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "19 527,50"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "Corrugated shipping carton, 3-ply"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "18 250"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "1,07"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "value": "5 097,94"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "value": "Solar PV module 410W monocrystalline"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "value": "82"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "value": "62,17"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "value": "41 205,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "value": "Centrifugal water pump 1.1kW"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "value": "300"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "value": "137,35"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "value": "11 632,80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "value": "Rubber flip-flops, thong plugged into the sole"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "value": "8 880"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "value": "pairs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "value": "1,31"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "value": "32 022,76"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "value": "Lithium-ion battery pack 48V 20Ah"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "value": "281"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "value": "113,96"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "value": "20 502,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 334 Harbour Road, Ningbo, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "value": "Polarized sunglasses"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "value": "6 700"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "value": "3,06"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "T/T in advance",
+        "value": "T/T in advance"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Ruifeng Trading Co., Ltd.",
+        "value": "Ningbo Ruifeng Trading Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total USD : 243 177,40",
+        "value": "243 177,40"
+      }
+    },
+    "input_tokens": 471,
+    "latency_ms": 0,
+    "output_tokens": 1753
+  }
+}

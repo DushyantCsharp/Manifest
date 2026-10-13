@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Vendeur / Seller\r\nLuna Losada Valverde S.A.\r\nUrbanización Efraín Mayoral 87 Piso 0 , 35972\r\nJaén, Spain \r\nAcheteur / Buyer\r\nGielen-Wouters NV\r\nJulialei 856, 8637 Gent, Belgium \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-3926/26\r\nDate 2026-09-19\r\nDevise / Currency USD\r\nIncoterm 2020 EXW Barcelona\r\nPaiement /\r\nPayment\r\nCash against documents\r\nChargement /\r\nLoading\r\nValencia\r\nDestination Antwerp\r\nLig. Désignation / Description Orig. Qté U. P.U. USD Montant USD\r\n1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36\r\n2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20\r\n3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16\r\n4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90\r\nTotal USD : 397 158,80\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Luna Losada Valverde S.A.\r\nUrbanización Efraín Mayoral 87 Piso 0 , 35972 Jaén, Spain\r\nPACKING LIST\r\nInvoice Ref. FC-3926/26\r\nDate 2026-09-19\r\nCONSIGNEE\r\nGielen-Wouters NV\r\nJulialei 856, 8637 Gent, Belgium\r\nTERMS OF DELIVERY\r\nEXW Barcelona\r\nValencia to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg\r\n2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg\r\n3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg\r\n4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg\r\nTotal 1826 CARTONS 18 429,87 kg 20 725,48 kg\r\nShipping marks: GIELEN-WOUTERS / FC-3926/26\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nLuna Losada Valverde S.A.\r\nUrbanización Efraín Mayoral 87 Piso 0 , 35972 Jaén,\r\nSpain\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVNH2302732 \r\nCONSIGNEE\r\nGielen-Wouters NV\r\nJulialei 856, 8637 Gent, Belgium\r\nNOTIFY PARTY\r\nJacobs CV\r\nCarinestraat 287, 8348 Antwerpen, Belgium\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN TAGE / 505S\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nValencia\r\nPORT OF DISCHARGE\r\nAntwerp\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU2572006\r\nSEAL\r\n5833992\r\nGIELEN￾WOUTERS /\r\nFC-3926/26\r\n1826\r\nCARTONS\r\nSAID TO CONTAIN: Stainless steel saucepan\r\n20cm; Frozen vannamei shrimp, peeled; Laptop\r\ncomputer 14in, 16GB RAM; Plastic storage box\r\n30L with lid\r\n20 725,48 kg\r\nSHIPPED ON BOARD\r\n2026-09-28\r\nPLACE AND DATE OF ISSUE\r\nValencia, 2026-09-28\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1"
+    }
+  ]
+}

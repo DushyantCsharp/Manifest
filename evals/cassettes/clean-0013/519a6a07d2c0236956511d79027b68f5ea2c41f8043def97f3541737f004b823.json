@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "519a6a07d2c0236956511d79027b68f5ea2c41f8043def97f3541737f004b823",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nBusan Daesung Import & Export Co., Ltd.\r\nNo. 227 Avenue 3, Busan, South Korea\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVYG3308072 \r\nCONSIGNEE\r\nWilliamson PLC\r\n2226 Ryan Views, 86254 Newark, United States\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN KENSINGTON / 574E\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nBusan\r\nPORT OF DISCHARGE\r\nSavannah\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU7101117\r\nSEAL\r\n1162134\r\nWILLIAMSON /\r\nEX202665-8629\r\n1731\r\nCARTONS\r\nSAID TO CONTAIN: Women's cotton denim\r\ntrousers; Red wine, 0.75L bottle; Leather\r\nhandbag with shoulder strap; Corrugated\r\nshipping carton, 3-ply; Stainless cutlery set,\r\n24 pieces; Frozen vannamei shrimp, peeled;\r\nPolarized sunglasses\r\n24,687.99 kg\r\nSHIPPED ON BOARD\r\n16-JUN-2026\r\nPLACE AND DATE OF ISSUE\r\nBusan, 16-JUN-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVYG3308072",
+        "value": "EGLVYG3308072"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Williamson PLC",
+        "value": "Williamson PLC"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU7101117",
+        "value": "EGLU7101117"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Savannah",
+        "value": "Savannah"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Busan Daesung Import & Export Co., Ltd.",
+        "value": "Busan"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "1162134",
+        "value": "1162134"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Busan Daesung Import & Export Co., Ltd.",
+        "value": "Busan Daesung Import & Export Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "16-JUN-2026",
+        "value": "16-JUN-2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "24,687.99 kg",
+        "value": "24,687.99 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1731",
+        "value": "1731"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN KENSINGTON / 574E",
+        "value": "EVERGREEN KENSINGTON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN KENSINGTON / 574E",
+        "value": "574E"
+      }
+    },
+    "input_tokens": 542,
+    "latency_ms": 0,
+    "output_tokens": 381
+  }
+}

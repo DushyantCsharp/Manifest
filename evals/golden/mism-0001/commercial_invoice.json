@@ -1,0 +1,48 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0001",
+  "document": "commercial_invoice",
+  "layout": "us",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-37613",
+    "invoice_date": "2026-06-20",
+    "seller": {
+      "name": "Bangkok Siam Import & Export Co., Ltd.",
+      "address": [
+        "No. 346 Harbour Road",
+        "Bangkok",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Calhoun and Sons",
+      "address": [
+        "7110 Edward Coves",
+        "B7C4S1 Toronto",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "currency": "CAD",
+    "incoterm": "EXW",
+    "incoterm_place": "Samut Prakan",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "71889.60"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Passenger car tyre 205/55R16",
+      "country_of_origin": "TH",
+      "quantity": "881",
+      "unit": "pcs",
+      "unit_price": "81.60",
+      "amount": "71889.60"
+    }
+  ]
+}

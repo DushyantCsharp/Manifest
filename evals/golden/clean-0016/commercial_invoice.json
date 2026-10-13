@@ -1,0 +1,75 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0016",
+  "document": "commercial_invoice",
+  "layout": "us",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-99446",
+    "invoice_date": "2026-06-15",
+    "seller": {
+      "name": "Ningbo Tianyi Industrial Co., Ltd.",
+      "address": [
+        "No. 13 Industrial Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Johnson, Norton and Hernandez",
+      "address": [
+        "831 Joshua Glen",
+        "77798 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "183138.94"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "CN",
+      "quantity": "1918",
+      "unit": "pcs",
+      "unit_price": "51.06",
+      "amount": "97933.08"
+    },
+    {
+      "line_no": 2,
+      "description": "Milk chocolate bars 100g",
+      "country_of_origin": "CH",
+      "quantity": "46983",
+      "unit": "pcs",
+      "unit_price": "0.9961",
+      "amount": "46799.77"
+    },
+    {
+      "line_no": 3,
+      "description": "Upholstered office chair, steel base",
+      "country_of_origin": "CN",
+      "quantity": "328",
+      "unit": "pcs",
+      "unit_price": "54.66",
+      "amount": "17928.48"
+    },
+    {
+      "line_no": 4,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "CN",
+      "quantity": "81",
+      "unit": "pcs",
+      "unit_price": "252.81",
+      "amount": "20477.61"
+    }
+  ]
+}

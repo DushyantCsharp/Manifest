@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "502003eeeb48c5e71abd87abb7b44c9f2c9257774d24b75a7148e84b01d27718",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Tomato ketchup in bottles\nCountry of origin: US\n\nChoose the chapter that covers these goods. Options:\n- 21: Miscellaneous edible preparations\n    contains 210320: Sauces; tomato ketchup and other tomato sauces\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200950: Juice; tomato, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 39: Plastics and articles thereof\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 842220: Machinery; for cleaning or drying bottles or other containers\n    contains 842230: Machinery; for filling, closing, sealing, capsuling or labelling bottles, cans, bags or other containers, machinery for aerating beverages\n    contains 842240: Machinery; for packing or wrapping\n    contains 842290: Machinery; parts of machinery of heading no. 8422\n- 70: Glass and glassware\n    contains 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n    contains 701020: Glass; stoppers, lids and other closures\n    contains 701010: Glass; ampoules, of a kind used for the conveyance or packing of goods\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 83: Metal; miscellaneous products of base metal\n    contains 830910: Stoppers; corks, of base metal\n    contains 830990: Stoppers; caps and lids, of base metal\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7671eb136026169a53e9a227fab2550c72e7496f61d8b68e586470489a180130",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "21",
+      "cited": [
+        "21"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 989,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

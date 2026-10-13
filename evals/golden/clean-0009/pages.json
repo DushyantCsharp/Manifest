@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "G Guangzhou Tianyi Trading Co., Ltd. I N VO I C E\r\nINVOICE\r\nNumber: 2026/2135\r\nDate: March 9, 2026\r\nTerms: T/T in advance \r\nSOLD TO\r\nScott and Sons\r\n78 Lawrence Village, M0 3AB Leeds,\r\nUnited Kingdom \r\nDELIVERY\r\nFOB Qingdao (Incoterms 2020)\r\nvia Qingdao to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00\r\nAmount due 19,293.00\r\nAll amounts are in US dollars (USD). Please quote invoice 2026/2135 with your payment. \r\nNo. 220 Avenue 3 | Guangzhou | China\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Guangzhou Tianyi Trading Co., Ltd.\r\nNo. 220 Avenue 3, Guangzhou, China \r\nPACKING LIST\r\nInvoice Ref. 2026/2135\r\nDate March 9, 2026\r\nCONSIGNEE\r\nScott and Sons\r\n78 Lawrence Village, M0 3AB Leeds, United Kingdom\r\nTERMS OF DELIVERY\r\nFOB Qingdao\r\nQingdao to Southampton\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Red wine, 0.75L bottle ES 3,270 pcs 545 9,343.0 lb 9,918.3 lb\r\nTotal 545 CARTONS 9,343.0 lb 9,918.3 lb\r\nShipping marks: SCOTT / 2026/2135\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nGuangzhou Tianyi Trading Co., Ltd.\r\nNo. 220 Avenue 3, Guangzhou, China\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUAC7525004 \r\nCONSIGNEE\r\nScott and Sons\r\n78 Lawrence Village, M0 3AB Leeds, United Kingdom\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD VALENCIA / 741W\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nQingdao\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL NO. MARKS & NOS. NO. OF PACKAGES DESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU2348441\r\nSEAL 2551983\r\nSCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb\r\nSHIPPED ON BOARD\r\nMarch 17, 2026\r\nPLACE AND DATE OF ISSUE\r\nQingdao, March 17, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+"""Python types for the schema's custom scalars, copied into the generated package.
+
+Aliased because the schema has fields named ``date``: a generated ``date: Optional[date] = None``
+makes pydantic resolve the annotation to the field's own default (None) and reject every date.
+"""
+
+import datetime
+
+IsoDate = datetime.date
+IsoDateTime = datetime.datetime

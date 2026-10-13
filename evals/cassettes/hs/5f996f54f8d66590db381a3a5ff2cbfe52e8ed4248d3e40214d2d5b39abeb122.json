@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "5f996f54f8d66590db381a3a5ff2cbfe52e8ed4248d3e40214d2d5b39abeb122",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's leather belt\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 42: Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)\n    contains 420330: Clothing accessories; belts and bandoliers, of leather or of composition leather\n- 40: Rubber and articles thereof\n    contains 401039: Rubber; vulcanised, conveyor or transmission belts or belting, n.e.c. in heading no. 4010\n    contains 401011: Rubber; vulcanised, conveyor belts or belting, reinforced only with metal\n    contains 401012: Rubber; vulcanised, conveyor belts or belting, reinforced only with textile materials\n    contains 401019: Rubber; vulcanised, conveyor belts or belting, (reinforced with other than metal only or textile materials only)\n    contains 401035: Rubber; vulcanised, endless synchronous belts, of an outside circumference exceeding 60 cm but not exceeding 150 cm\n    contains 401036: Rubber; vulcanised, endless synchronous belts, of an outside circumference exceeding 150 cm but not exceeding 198 cm\n    contains 401031: Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), V-ribbed, of an outside circumference exceeding 60cm but not exceeding 180 cm\n    contains 401033: Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), V-ribbed, of an outside circumference exceeding 180cm but not exceeding 240 cm\n    contains 401032: Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), other than V-ribbed, of an outside circumference exceeding 60cm but not exceeding 180 cm\n    contains 401034: Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), other than V-ribbed, of an outside circumference exceeding 180cm but not exceeding 240 cm\n- 63: Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n    contains 630720: Life-jackets and life-belts\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 870821: Vehicles; parts of bodies, safety seat belts\n    contains 870829: Vehicles; parts and accessories, of bodies, other than safety seat belts\n- 59: Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use\n    contains 591000: Textiles; transmission or conveyor belts or belting, of textile material, whether or not impregnated, coated, covered or laminated with plastics, or reinforced with metal or other material\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8e855ffed996674b1e18f886226df855ef6211e89c0171e2a5cab524ebf15e93",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "42",
+      "cited": [
+        "42"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1084,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

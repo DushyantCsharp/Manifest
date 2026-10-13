@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0024",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/1152",
+    "date": "2026-08-19",
+    "seller": {
+      "name": "Gonzáles Group",
+      "address": [
+        "Dg. 132L # 4-3 Este",
+        "911184 Bogotá",
+        "Colombia"
+      ],
+      "country": "CO"
+    },
+    "buyer": {
+      "name": "Williams, Barber and Howe",
+      "address": [
+        "Studio 50k, Long Crescent",
+        "SK3P 1QL Manchester",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "incoterm": "CIF",
+    "incoterm_place": "Felixstowe",
+    "package_type": "CARTONS",
+    "total_packages": 315,
+    "total_net_weight_kg": "3116.77",
+    "total_gross_weight_kg": "3607.78"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "1640",
+      "unit": "pcs",
+      "packages": 82,
+      "net_weight_kg": "1006.98",
+      "gross_weight_kg": "1167.86"
+    },
+    {
+      "line_no": 2,
+      "description": "Passenger car tyre 205/55R16",
+      "country_of_origin": "DE",
+      "quantity": "233",
+      "unit": "pcs",
+      "packages": 233,
+      "net_weight_kg": "2109.84",
+      "gross_weight_kg": "2439.92"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0002",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "0.85",
+    "noise_sigma": 11,
+    "salt_pepper": "0.0008",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVFY6488353",
+    "seller": {
+      "name": "Şener Şti.",
+      "address": [
+        "75555 Efe Park",
+        "05262 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Hebert Baron S.A.",
+      "address": [
+        "rue de Breton",
+        "55478 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": {
+      "name": "Barbier",
+      "address": [
+        "892, rue Carpentier",
+        "84335 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN CALYPSO",
+    "voyage": "368E",
+    "port_of_loading": "Izmir",
+    "port_of_discharge": "Marseille",
+    "shipped_on_board": "2026-07-14",
+    "container_number": "EGLU0805958",
+    "seal_number": "1764144",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1225,
+    "total_gross_weight_kg": "11438.46",
+    "goods_description": "SAID TO CONTAIN: Nitrile examination gloves, box of 100; Aluminium household foil 12 micron; AC induction motor 0.55kW 3-phase"
+  },
+  "line_items": []
+}

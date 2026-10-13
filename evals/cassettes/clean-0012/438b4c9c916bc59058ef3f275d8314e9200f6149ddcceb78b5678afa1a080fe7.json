@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "438b4c9c916bc59058ef3f275d8314e9200f6149ddcceb78b5678afa1a080fe7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nIssac, Jaggi and Chacko\r\nH.No. 111, Oza Path, 529203 Chennai, India\r\nMAERSK\r\nBILL OF LADING\r\nB/L NO.\r\nMAEUKA5841204 \r\nCONSIGNEE\r\nJunck\r\nHans-Gerhard-Schleich-Allee 28/31, 89157 Frankfurt am\r\nMain, Germany\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nMAERSK ZEPHYR / 265W\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nChennai\r\nPORT OF DISCHARGE\r\nHamburg\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMAEU1848035\r\nSEAL\r\n8618627\r\nJUNCK /\r\nRE-26-5581\r\n378\r\nCARTONS\r\nSAID TO CONTAIN: Men's crew-neck T-shirt, 100%\r\ncotton jersey; Lithium-ion battery pack 48V\r\n20Ah; Stainless steel sheet 304, cold-rolled 2mm\r\n25.303,71 kg\r\nSHIPPED ON BOARD\r\n15.07.2026\r\nPLACE AND DATE OF ISSUE\r\nChennai, 15.07.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MAERSK. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "MAEUKA5841204",
+        "value": "MAEUKA5841204"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Junck",
+        "value": "Junck"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "MAERSK",
+        "value": "MAERSK"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "MAEU1848035",
+        "value": "MAEU1848035"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Hamburg",
+        "value": "Hamburg"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "H.No. 111, Oza Path, 529203 Chennai, India",
+        "value": "Chennai"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "8618627",
+        "value": "8618627"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Issac, Jaggi and Chacko",
+        "value": "Issac, Jaggi and Chacko"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "15.07.2026",
+        "value": "15.07.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "25.303,71 kg",
+        "value": "25.303,71 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "378",
+        "value": "378"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "MAERSK ZEPHYR / 265W",
+        "value": "MAERSK ZEPHYR"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "MAERSK ZEPHYR / 265W",
+        "value": "265W"
+      }
+    },
+    "input_tokens": 515,
+    "latency_ms": 0,
+    "output_tokens": 362
+  }
+}

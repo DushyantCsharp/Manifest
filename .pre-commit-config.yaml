@@ -1,0 +1,50 @@
+# Tool versions come from uv.lock (local hooks run via `uv run`), so pre-commit and
+# `make lint` can never disagree about ruff/mypy versions.
+#
+# Generated clients are byte-for-byte generator output (checked by `make contracts-check`) and
+# the vendored HS nomenclature is pinned by checksum (migration 0002), so no hook may rewrite them.
+exclude: ^(clients/python/|clients/graphql/src/|web/review/src/generated/|libs/db/src/manifest_db/migrations/data/)
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: [--maxkb=1024]
+        exclude: ^evals/golden/
+
+  - repo: local
+    hooks:
+      - id: uv-lock
+        name: uv lock --check
+        entry: uv lock --check
+        language: system
+        files: ^(uv\.lock|pyproject\.toml|.*/pyproject\.toml)$
+        pass_filenames: false
+      - id: ruff-check
+        name: ruff check
+        entry: uv run --frozen ruff check --fix
+        language: system
+        types_or: [python, pyi]
+      - id: ruff-format
+        name: ruff format
+        entry: uv run --frozen ruff format
+        language: system
+        types_or: [python, pyi]
+      - id: mypy
+        name: mypy --strict (libs)
+        entry: uv run --frozen mypy
+        language: system
+        files: ^libs/.*\.py$
+        pass_filenames: false
+      - id: import-linter
+        name: import contracts
+        entry: uv run --frozen lint-imports
+        language: system
+        types: [python]
+        pass_filenames: false

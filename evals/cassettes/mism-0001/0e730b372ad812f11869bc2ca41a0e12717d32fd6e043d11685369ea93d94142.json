@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "0e730b372ad812f11869bc2ca41a0e12717d32fd6e043d11685369ea93d94142",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nBangkok Siam Import & Export Co., Ltd.\r\nNo. 346 Harbour Road, Bangkok, Thailand \r\nPACKING LIST\r\nInvoice Ref. INV-2026-37613\r\nDate 06/20/2026\r\nCONSIGNEE\r\nCalhoun and Sons\r\n7110 Edward Coves, B7C4S1 Toronto, Canada\r\nTERMS OF DELIVERY\r\nEXW Samut Prakan\r\nBangkok to Vancouver\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg\r\nTotal 881 CARTONS 7,838.26 kg 8,316.27 kg\r\nShipping marks: CALHOUN / INV-2026-37613\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Calhoun and Sons",
+        "value": "Calhoun and Sons"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 06/20/2026",
+        "value": "06/20/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "EXW Samut Prakan",
+        "value": "EXW Samut Prakan"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. INV-2026-37613",
+        "value": "INV-2026-37613"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 346 Harbour Road, Bangkok, Thailand",
+            "value": "Thailand"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "value": "Passenger car tyre 205/55R16"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "value": "8,316.27 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "value": "7,838.26 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "value": "881"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 881 CARTONS 7,838.26 kg 8,316.27 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Bangkok Siam Import & Export Co., Ltd.",
+        "value": "Bangkok Siam Import & Export Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+        "value": "8,316.27 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+        "value": "7,838.26 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+        "value": "881"
+      }
+    },
+    "input_tokens": 359,
+    "latency_ms": 0,
+    "output_tokens": 497
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "ec625ddd4ee3a7bbb7e5bd1aa0239e06787d048be02d222708429ff816acf4d6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nNingbo Ruifeng Trading Co., Ltd.\r\nNo. 334 Harbour Road, Ningbo, China\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVWB3421832 \r\nCONSIGNEE\r\nGuillet\r\n3, rue de Perrin, 48669 Lyon, France\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN ORION / 935N\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nQingdao\r\nPORT OF DISCHARGE\r\nMarseille\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU9166755\r\nSEAL\r\n5410094\r\nGUILLET /\r\nFC-1008/26\r\n1359\r\nCARTONS\r\nSAID TO CONTAIN: Running shoes, rubber sole,\r\ntextile upper; Corrugated shipping carton, 3-ply;\r\nSolar PV module 410W monocrystalline; Centrifugal\r\nwater pump 1.1kW; Rubber flip-flops, thong plugged\r\ninto the sole; Lithium-ion battery pack 48V 20Ah;\r\nPolarized sunglasses\r\n24 939,37 kg\r\nSHIPPED ON BOARD\r\n2026-03-13\r\nPLACE AND DATE OF ISSUE\r\nQingdao, 2026-03-13\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVWB3421832",
+        "value": "EGLVWB3421832"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Guillet",
+        "value": "Guillet"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU9166755",
+        "value": "EGLU9166755"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Marseille",
+        "value": "Marseille"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Qingdao",
+        "value": "Qingdao"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "5410094",
+        "value": "5410094"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Ruifeng Trading Co., Ltd.",
+        "value": "Ningbo Ruifeng Trading Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "2026-03-13",
+        "value": "2026-03-13"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "24 939,37 kg",
+        "value": "24 939,37 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1359",
+        "value": "1359"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN ORION / 935N",
+        "value": "EVERGREEN ORION"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN ORION / 935N",
+        "value": "935N"
+      }
+    },
+    "input_tokens": 543,
+    "latency_ms": 0,
+    "output_tokens": 363
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "340d55de6ce131449029162ab461dc8ff3d54a333b38c3922d2bacdae00b4162",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nSamut Prakan Sukjai Trading Co., Ltd.\r\nNo. 358 Industrial Road, Samut Prakan, Thailand\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDUFO3249687 \r\nCONSIGNEE\r\nFlores, Wheeler and Smith\r\n3389 Jennifer Valley Apt. 764, 83583 Savannah, United\r\nStates\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA CALYPSO / 948S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nBangkok\r\nPORT OF DISCHARGE\r\nLos Angeles\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU5092478\r\nSEAL 9623312\r\nFLORES, /\r\nINV-2026-04038\r\n1117\r\nCARTONS\r\nSAID TO CONTAIN: Passenger car tyre\r\n205/55R16\r\n10,453.85 kg\r\nSHIPPED ON BOARD\r\n09/20/2026\r\nPLACE AND DATE OF ISSUE\r\nBangkok, 09/20/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "CMDUFO3249687",
+        "value": "CMDUFO3249687"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Flores, Wheeler and Smith",
+        "value": "Flores, Wheeler and Smith"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "CMA CGM",
+        "value": "CMA CGM"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "CMDU5092478",
+        "value": "CMDU5092478"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Los Angeles",
+        "value": "Los Angeles"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Bangkok",
+        "value": "Bangkok"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 9623312",
+        "value": "9623312"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Samut Prakan Sukjai Trading Co., Ltd.",
+        "value": "Samut Prakan Sukjai Trading Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "09/20/2026",
+        "value": "09/20/2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "10,453.85 kg",
+        "value": "10,453.85 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1117",
+        "value": "1117"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "CMA CALYPSO / 948S",
+        "value": "CMA CALYPSO"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "CMA CALYPSO / 948S",
+        "value": "948S"
+      }
+    },
+    "input_tokens": 501,
+    "latency_ms": 0,
+    "output_tokens": 373
+  }
+}

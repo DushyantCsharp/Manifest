@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "493094176239ce96490d5be4ac81d67a80aa040e4afa6cffed6f6bb898ae4c46",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nChattogram Bengal Textile Co., Ltd. · No. 247 Ring Road · Chattogram · Bangladesh\r\nDe Neve, Van de Velde en Claes NV\r\nJenslei 79\r\n9082 Gent\r\nBelgium\r\nRechnungsnummer / Invoice no. RE-26-0240\r\nRechnungsdatum / Date 07.06.2026\r\nLieferbedingung / Incoterms® 2020 CPT Gent\r\nZahlungsbedingung / Payment L/C at sight\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08\r\nGesamtbetrag / Total 50.599,08 EUR\r\nVersand / Shipment: Chattogram → Antwerp. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "De Neve, Van de Velde en Claes NV",
+        "value": "De Neve, Van de Velde en Claes NV"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Währung / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Lieferbedingung / Incoterms® 2020 CPT Gent",
+        "value": "CPT Gent"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Rechnungsdatum / Date 07.06.2026",
+        "value": "07.06.2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Rechnungsnummer / Invoice no. RE-26-0240",
+        "value": "RE-26-0240"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08",
+            "value": "50.599,08"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Chattogram Bengal Textile Co., Ltd. · No. 247 Ring Road · Chattogram · Bangladesh",
+            "value": "Bangladesh"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08",
+            "value": "Men's woven cotton shirt, long sleeve"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08",
+            "value": "7.452"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08",
+            "value": "6,79"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Zahlungsbedingung / Payment L/C at sight",
+        "value": "L/C at sight"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Chattogram Bengal Textile Co., Ltd. · No. 247 Ring Road · Chattogram · Bangladesh",
+        "value": "Chattogram Bengal Textile Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08",
+        "value": "50.599,08"
+      }
+    },
+    "input_tokens": 414,
+    "latency_ms": 0,
+    "output_tokens": 506
+  }
+}

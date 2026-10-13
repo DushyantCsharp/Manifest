@@ -1,0 +1,87 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0008",
+  "seed": 2011915286,
+  "layout": "exporter",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "EX202630-7680",
+    "invoice_date": "2026-03-27",
+    "seller": {
+      "name": "Lahore Sapphire Industrial Co., Ltd.",
+      "address": [
+        "No. 384 Avenue 3",
+        "Lahore",
+        "Pakistan"
+      ],
+      "country": "PK"
+    },
+    "buyer": {
+      "name": "Barrera, Butler and Duffy",
+      "address": [
+        "715 Janice Greens Suite 816",
+        "43608 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Savannah",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "13612.26",
+    "bl_number": "EGLVSG8570685",
+    "notify_party": null,
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN CALYPSO",
+    "voyage": "703E",
+    "port_of_loading": "Karachi",
+    "port_of_discharge": "Savannah",
+    "shipped_on_board": "2026-04-07",
+    "container_number": "EGLU9318816",
+    "seal_number": "6683495",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 530,
+    "total_gross_weight_kg": "14727.83",
+    "goods_description": "SAID TO CONTAIN: Terry cotton bath towel 70x140; Long grain white rice, milled",
+    "total_net_weight_kg": "13077.26",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Terry cotton bath towel 70x140",
+        "country_of_origin": "PK",
+        "quantity": "1770",
+        "unit": "pcs",
+        "unit_price": "3.84",
+        "amount": "6796.80",
+        "hs_code": "630260",
+        "packages": 45,
+        "net_weight_kg": "952.26",
+        "gross_weight_kg": "1060.53"
+      },
+      {
+        "line_no": 2,
+        "description": "Long grain white rice, milled",
+        "country_of_origin": "PK",
+        "quantity": "12125",
+        "unit": "kg",
+        "unit_price": "0.5621",
+        "amount": "6815.46",
+        "hs_code": "100630",
+        "packages": 485,
+        "net_weight_kg": "12125.00",
+        "gross_weight_kg": "13667.30"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

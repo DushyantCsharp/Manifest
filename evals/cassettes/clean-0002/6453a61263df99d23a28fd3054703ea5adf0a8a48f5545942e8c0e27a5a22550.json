@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "6453a61263df99d23a28fd3054703ea5adf0a8a48f5545942e8c0e27a5a22550",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nKhare Inc\r\n78, Kota Zila, 881224 Tiruppur, India\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDUMN2957417 \r\nCONSIGNEE\r\nKarge Mälzer GmbH & Co. KG\r\nHeinzstraße 7/8, 00962 Düsseldorf, Germany\r\nNOTIFY PARTY\r\nCarsten Stiftung & Co. KGaA\r\nMia-Klemt-Platz 2/3, 85847 Düsseldorf,\r\nGermany\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA CALYPSO / 850S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nChennai\r\nPORT OF DISCHARGE\r\nHamburg\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU1780805\r\nSEAL 7807542\r\nKARGE /\r\nRE-26-6547\r\n409\r\nCARTONS\r\nSAID TO CONTAIN: Men's crew-neck T-shirt, 100%\r\ncotton jersey; Black tea, CTC, bulk; Stainless\r\ncutlery set, 24 pieces\r\n10.097,52 kg\r\nSHIPPED ON BOARD\r\n04.02.2026\r\nPLACE AND DATE OF ISSUE\r\nChennai, 04.02.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "CMDUMN2957417",
+        "value": "CMDUMN2957417"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Karge Mälzer GmbH & Co. KG",
+        "value": "Karge Mälzer GmbH & Co. KG"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "CMA CGM",
+        "value": "CMA CGM"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "CMDU1780805",
+        "value": "CMDU1780805"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Carsten Stiftung & Co. KGaA",
+        "value": "Carsten Stiftung & Co. KGaA"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Hamburg",
+        "value": "Hamburg"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Chennai",
+        "value": "Chennai"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 7807542",
+        "value": "7807542"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Khare Inc",
+        "value": "Khare Inc"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "04.02.2026",
+        "value": "04.02.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "10.097,52 kg",
+        "value": "10.097,52 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "409",
+        "value": "409"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "CMA CALYPSO / 850S",
+        "value": "CMA CALYPSO"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "CMA CALYPSO / 850S",
+        "value": "850S"
+      }
+    },
+    "input_tokens": 517,
+    "latency_ms": 0,
+    "output_tokens": 373
+  }
+}

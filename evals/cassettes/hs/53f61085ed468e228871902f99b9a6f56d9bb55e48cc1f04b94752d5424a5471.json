@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "53f61085ed468e228871902f99b9a6f56d9bb55e48cc1f04b94752d5424a5471",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cardigan, knitted, 80% wool 20% nylon\nCountry of origin: IT\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted > 6110 Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted\n\nChoose the subheading that covers these goods. Options:\n- 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n- 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n- 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n- 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n- 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n- 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "bba427d1351bbb0312f9f297f8dfc0f862738156c586f5ac1b38d469453ce42c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "611011",
+      "cited": [
+        "611011"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 506,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

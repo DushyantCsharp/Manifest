@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0003",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "CMDUJV6693502",
+    "seller": {
+      "name": "Bangkok Siam Trading Co., Ltd.",
+      "address": [
+        "No. 42 Avenue 3",
+        "Bangkok",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Bolkesteijn Groep",
+      "address": [
+        "Abeldreef 2",
+        "4065 NA Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "notify_party": null,
+    "carrier": "CMA CGM",
+    "vessel": "CMA HARMONY",
+    "voyage": "495W",
+    "port_of_loading": "Laem Chabang",
+    "port_of_discharge": "Rotterdam",
+    "shipped_on_board": "2026-10-03",
+    "container_number": "CMDU4975098",
+    "seal_number": "4989732",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 994,
+    "total_gross_weight_kg": "23672.84",
+    "goods_description": "SAID TO CONTAIN: Stainless steel sheet 304, cold-rolled 2mm; Polarized sunglasses; Nitrile examination gloves, box of 100"
+  },
+  "line_items": []
+}

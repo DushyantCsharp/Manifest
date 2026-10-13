@@ -1,0 +1,23 @@
+/* Shared by every synthetic document. Layout-specific styles live in each template. */
+@page {
+  size: A4;
+  margin: 14mm 14mm 16mm 14mm;
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages);
+    font-size: 7.5pt;
+    color: #666;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; color: #111; font-size: 9.5pt; line-height: 1.35; }
+h1, h2, h3, p { margin: 0; }
+table { border-collapse: collapse; width: 100%; }
+th, td { vertical-align: top; text-align: left; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+.num { text-align: right; white-space: nowrap; }
+.center { text-align: center; }
+.muted { color: #555; }
+.small { font-size: 8pt; }
+.upper { text-transform: uppercase; }
+.nowrap { white-space: nowrap; }

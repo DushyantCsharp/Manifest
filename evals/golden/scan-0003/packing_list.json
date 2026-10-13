@@ -1,0 +1,86 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0003",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-2.92",
+    "noise_sigma": 12,
+    "salt_pepper": "0.0012",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202620-1238",
+    "date": "2026-05-27",
+    "seller": {
+      "name": "PD Prastuti Tbk",
+      "address": [
+        "Jl. Rajawali Barat No. 9",
+        "87451 Semarang",
+        "Indonesia"
+      ],
+      "country": "ID"
+    },
+    "buyer": {
+      "name": "Peak-IT",
+      "address": [
+        "Bastiaanbaan 753",
+        "7737CR Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "incoterm": "DDP",
+    "incoterm_place": "Rotterdam",
+    "package_type": "CARTONS",
+    "total_packages": 1266,
+    "total_net_weight_kg": "20514.06",
+    "total_gross_weight_kg": "22803.52"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Plastic storage box 30L with lid",
+      "country_of_origin": "CN",
+      "quantity": "5830",
+      "unit": "pcs",
+      "packages": 583,
+      "net_weight_kg": "7474.06",
+      "gross_weight_kg": "8530.77"
+    },
+    {
+      "line_no": 2,
+      "description": "Porcelain dinner plate 27cm",
+      "country_of_origin": "CN",
+      "quantity": "2448",
+      "unit": "pcs",
+      "packages": 102,
+      "net_weight_kg": "1530.00",
+      "gross_weight_kg": "1737.57"
+    },
+    {
+      "line_no": 3,
+      "description": "Roasted coffee beans, whole",
+      "country_of_origin": "DE",
+      "quantity": "2010",
+      "unit": "kg",
+      "packages": 201,
+      "net_weight_kg": "2010.00",
+      "gross_weight_kg": "2307.48"
+    },
+    {
+      "line_no": 4,
+      "description": "LDPE film-grade granules",
+      "country_of_origin": "KR",
+      "quantity": "9500",
+      "unit": "kg",
+      "packages": 380,
+      "net_weight_kg": "9500.00",
+      "gross_weight_kg": "10227.70"
+    }
+  ]
+}

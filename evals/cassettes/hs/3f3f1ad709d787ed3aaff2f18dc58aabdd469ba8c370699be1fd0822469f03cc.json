@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "3f3f1ad709d787ed3aaff2f18dc58aabdd469ba8c370699be1fd0822469f03cc",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Red wine in 0.75L bottles\nCountry of origin: FR\n\nChosen so far: 22 Beverages, spirits and vinegar\n\nChoose the heading that covers these goods. Options:\n- 2204: Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009\n    contains 220410: Wine; sparkling\n    contains 220421: Wine; still, in containers holding 2 litres or less\n    contains 220429: Wine; still, in containers holding more than 10 litres\n    contains 220422: Wine; still, in containers holding more than 2 litres but not more than 10 litres\n    contains 220430: Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2\n- 2208: Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages\n    contains 220820: Spirits obtained by distilling grape wine or grape marc\n- 2205: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances\n    contains 220510: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less\n    contains 220590: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding more than 2 litres\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4a64d969ded6f65462bb5ebc69ce2bf2046bcbcc80018c527a4919c9457d67c9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "2204",
+      "cited": [
+        "2204"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 541,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

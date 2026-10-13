@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "ca8c7dc650d8a65645c810c7b13f84f8929fdb27c95a8dd2a3c2bf752ab2d8d1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nGuangzhou Tianyi Trading Co., Ltd.\r\nNo. 220 Avenue 3, Guangzhou, China\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUAC7525004 \r\nCONSIGNEE\r\nScott and Sons\r\n78 Lawrence Village, M0 3AB Leeds, United Kingdom\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD VALENCIA / 741W\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nQingdao\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL NO. MARKS & NOS. NO. OF PACKAGES DESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU2348441\r\nSEAL 2551983\r\nSCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb\r\nSHIPPED ON BOARD\r\nMarch 17, 2026\r\nPLACE AND DATE OF ISSUE\r\nQingdao, March 17, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "HLCUAC7525004",
+        "value": "HLCUAC7525004"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Scott and Sons",
+        "value": "Scott and Sons"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD",
+        "value": "HAPAG-LLOYD"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "HLCU2348441",
+        "value": "HLCU2348441"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "SCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Southampton",
+        "value": "Southampton"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Qingdao",
+        "value": "Qingdao"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 2551983",
+        "value": "2551983"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Guangzhou Tianyi Trading Co., Ltd.",
+        "value": "Guangzhou Tianyi Trading Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "March 17, 2026",
+        "value": "March 17, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "SCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb",
+        "value": "9,918.3 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "SCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb",
+        "value": "545"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD VALENCIA / 741W",
+        "value": "HAPAG-LLOYD VALENCIA"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "HAPAG-LLOYD VALENCIA / 741W",
+        "value": "741W"
+      }
+    },
+    "input_tokens": 491,
+    "latency_ms": 0,
+    "output_tokens": 430
+  }
+}

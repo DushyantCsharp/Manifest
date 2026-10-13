@@ -1,0 +1,110 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0013",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202665-8629",
+    "date": "2026-06-11",
+    "seller": {
+      "name": "Busan Daesung Import & Export Co., Ltd.",
+      "address": [
+        "No. 227 Avenue 3",
+        "Busan",
+        "South Korea"
+      ],
+      "country": "KR"
+    },
+    "buyer": {
+      "name": "Williamson PLC",
+      "address": [
+        "2226 Ryan Views",
+        "86254 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "package_type": "CARTONS",
+    "total_packages": 1731,
+    "total_net_weight_kg": "21927.00",
+    "total_gross_weight_kg": "24687.99"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Women's cotton denim trousers",
+      "country_of_origin": "BD",
+      "quantity": "3001",
+      "unit": "pcs",
+      "packages": 101,
+      "net_weight_kg": "1581.53",
+      "gross_weight_kg": "1818.96"
+    },
+    {
+      "line_no": 2,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "FR",
+      "quantity": "3072",
+      "unit": "pcs",
+      "packages": 512,
+      "net_weight_kg": "3947.52",
+      "gross_weight_kg": "4748.12"
+    },
+    {
+      "line_no": 3,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "CN",
+      "quantity": "1930",
+      "unit": "pcs",
+      "packages": 193,
+      "net_weight_kg": "1947.37",
+      "gross_weight_kg": "2073.58"
+    },
+    {
+      "line_no": 4,
+      "description": "Corrugated shipping carton, 3-ply",
+      "country_of_origin": "CN",
+      "quantity": "18050",
+      "unit": "pcs",
+      "packages": 361,
+      "net_weight_kg": "8194.70",
+      "gross_weight_kg": "9014.78"
+    },
+    {
+      "line_no": 5,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "2640",
+      "unit": "sets",
+      "packages": 264,
+      "net_weight_kg": "3780.48",
+      "gross_weight_kg": "4133.31"
+    },
+    {
+      "line_no": 6,
+      "description": "Frozen vannamei shrimp, peeled",
+      "country_of_origin": "IN",
+      "quantity": "2140",
+      "unit": "kg",
+      "packages": 214,
+      "net_weight_kg": "2140.00",
+      "gross_weight_kg": "2495.24"
+    },
+    {
+      "line_no": 7,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "8600",
+      "unit": "pcs",
+      "packages": 86,
+      "net_weight_kg": "335.40",
+      "gross_weight_kg": "404.00"
+    }
+  ]
+}

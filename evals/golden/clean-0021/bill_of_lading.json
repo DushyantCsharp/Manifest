@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0021",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "COSUOU8350124",
+    "seller": {
+      "name": "Chakraborty, Sidhu and Sarma",
+      "address": [
+        "83/94, Sethi Chowk",
+        "756939 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Savage, Huffman and Waters",
+      "address": [
+        "10024 Alex Mall",
+        "01510 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": null,
+    "carrier": "COSCO",
+    "vessel": "COSCO HARMONY",
+    "voyage": "148S",
+    "port_of_loading": "Nhava Sheva",
+    "port_of_discharge": "Savannah",
+    "shipped_on_board": "2026-03-31",
+    "container_number": "COSU9024241",
+    "seal_number": "1388950",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 110,
+    "total_gross_weight_kg": "1856.70",
+    "goods_description": "SAID TO CONTAIN: Hair dryer 2200W ionic"
+  },
+  "line_items": []
+}

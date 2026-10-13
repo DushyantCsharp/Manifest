@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "ad1643532b9e7c925562092d0867716d13733dee64d441788aaa5ef5c214476c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nNingbo Ruifeng Manufacturing Co., Ltd.\r\nNo. 205 Industrial Road, Ningbo, China\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVGB6731838 \r\nCONSIGNEE\r\nKoninklijke d' Heripon\r\nYassinring 32, 9927DN Tilburg, Netherlands\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN PEGASUS / 207E\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nQingdao\r\nPORT OF DISCHARGE\r\nRotterdam\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU6304819\r\nSEAL\r\n1713540\r\nKONINKLIJKE /\r\nEX202670-4033\r\n1180\r\nCARTONS\r\nSAID TO CONTAIN: Rubber flip-flops, thong\r\nplugged into the sole; Corrugated shipping\r\ncarton, 3-ply; City bicycle 28in, 7-speed;\r\nLED television 55in 4K\r\n24,752.09 kg\r\nSHIPPED ON BOARD\r\n12-JUL-2026\r\nPLACE AND DATE OF ISSUE\r\nQingdao, 12-JUL-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVGB6731838",
+        "value": "EGLVGB6731838"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Koninklijke d' Heripon",
+        "value": "Koninklijke d' Heripon"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU6304819",
+        "value": "EGLU6304819"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Rotterdam",
+        "value": "Rotterdam"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Qingdao",
+        "value": "Qingdao"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "1713540",
+        "value": "1713540"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Ruifeng Manufacturing Co., Ltd.",
+        "value": "Ningbo Ruifeng Manufacturing Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "12-JUL-2026",
+        "value": "12-JUL-2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "24,752.09 kg",
+        "value": "24,752.09 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1180",
+        "value": "1180"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN PEGASUS / 207E",
+        "value": "EVERGREEN PEGASUS"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN PEGASUS / 207E",
+        "value": "207E"
+      }
+    },
+    "input_tokens": 524,
+    "latency_ms": 0,
+    "output_tokens": 376
+  }
+}

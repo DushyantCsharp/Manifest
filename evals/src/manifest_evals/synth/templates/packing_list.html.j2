@@ -1,0 +1,73 @@
+{# Packing list, shared by every pack; numbers, dates and weights follow the pack's invoice layout. #}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  body { font-family: Verdana, Arial, "DejaVu Sans", sans-serif; font-size: 8.5pt; }
+  .top { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #333; padding-bottom: 6px; }
+  h1 { font-size: 17pt; letter-spacing: 2px; }
+  .refs { width: auto; }
+  .refs td { padding: 1px 0 1px 10px; }
+  .parties { display: flex; gap: 10px; margin: 10px 0; }
+  .parties > div { flex: 1; border: 1px solid #999; padding: 5px 7px; }
+  .parties h3 { font-size: 7.5pt; text-transform: uppercase; color: #555; }
+  .items th { border-top: 1px solid #333; border-bottom: 1px solid #333; padding: 4px; font-size: 7.5pt; }
+  .items td { padding: 4px; border-bottom: 1px solid #ddd; }
+  .items tfoot td { border-top: 2px solid #333; font-weight: bold; }
+  .marks { margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="top">
+  <div>
+    <strong>{{ doc.seller.name }}</strong><br>{{ doc.seller.address | join(", ") }}
+  </div>
+  <div>
+    <h1>PACKING LIST</h1>
+    <table class="refs">
+      <tr><td>Invoice Ref.</td><td>{{ doc.invoice_number }}</td></tr>
+      <tr><td>Date</td><td>{{ layout.date(doc.invoice_date) }}</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="parties">
+  <div><h3>Consignee</h3><strong>{{ doc.buyer.name }}</strong><br>{{ doc.buyer.address | join(", ") }}</div>
+  <div><h3>Terms of Delivery</h3>{{ doc.incoterm }} {{ doc.incoterm_place }}<br>{{ doc.port_of_loading }} to {{ doc.port_of_discharge }}</div>
+</div>
+
+<table class="items">
+  <thead>
+    <tr>
+      <th>#</th><th>Description</th><th>Origin</th><th class="num">Quantity</th>
+      <th class="num">Pkgs</th><th class="num">Net weight</th><th class="num">Gross weight</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for line in doc.lines %}
+    <tr>
+      <td>{{ line.line_no }}</td>
+      <td>{{ line.description }}</td>
+      <td>{{ line.country_of_origin or "" }}</td>
+      <td class="num">{{ layout.quantity(line.quantity) }} {{ line.unit }}</td>
+      <td class="num">{{ line.packages }}</td>
+      <td class="num">{{ layout.weight(line.net_weight_kg) }}</td>
+      <td class="num">{{ layout.weight(line.gross_weight_kg) }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">Total</td>
+      <td class="num">{{ doc.total_packages }} {{ doc.package_type }}</td>
+      <td class="num">{{ layout.weight(doc.total_net_weight_kg) }}</td>
+      <td class="num">{{ layout.weight(doc.total_gross_weight_kg) }}</td>
+    </tr>
+  </tfoot>
+</table>
+
+<div class="marks small">Shipping marks: {{ doc.marks }}</div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+{
+  "format": 1,
+  "key": "a42d04ab17082f239599743bf7f20c4d0b0d707ad91cdb988d8bd098928b240f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nSalvi LLC :\n\nPACKING LIST\n\nShipping marks;. JANSSENS / RE-26-3139\n\nInvoice Ref. RE-26-3139 -\n81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026\n_Janssens VOF | | FCA Mumbai oy\n| Rudilei-3, 5485 Gent, Belgium | Chennai to Antwerp\n# Description Origin Quantity Pkgs §- Net weight —_Gross weight\n1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:\n2. Stainless steel sheet 304, cold-rolled 2mm: : IN : 10.000 kg - -10 — 10.000,00 kg . 10.368,40 kg\n3 ‘Smartphone 6.1in, 128GB : , IN 1.280 pcs 32 250,88 kg 304,31 kg\n4 Men's woven cotton shirt, long sleeve IN 7:800 pes 195 2.324,40 kg 2.466,20 kg\n5 Long grain white rice, milled ‘IN 10.050 kg 402. 10.050,00 kg 10.576,62 kg\n6 Men's crew-neck T-shirt, 100% cotton jersey. -IN 4.057 pcs pute 82 ; 803,29 kg 963,24 kg\nTotal 786 CARTONS 24.060,37 kg 25.372,26 kg\n\nPage | of 1.\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "_Janssens VOF | | FCA Mumbai oy",
+        "value": "Janssens VOF"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026",
+        "value": "30.04.2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "_Janssens VOF | | FCA Mumbai oy",
+        "value": "FCA Mumbai"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Shipping marks;. JANSSENS / RE-26-3139",
+        "value": "RE-26-3139"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.81",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "693,49 -kg:"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "631,80 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "650"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2. Stainless steel sheet 304, cold-rolled 2mm: : IN : 10.000 kg - -10 — 10.000,00 kg . 10.368,40 kg",
+            "value": "Stainless steel sheet 304, cold-rolled 2mm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2. Stainless steel sheet 304, cold-rolled 2mm: : IN : 10.000 kg - -10 — 10.000,00 kg . 10.368,40 kg",
+            "value": "10.368,40 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2. Stainless steel sheet 304, cold-rolled 2mm: : IN : 10.000 kg - -10 — 10.000,00 kg . 10.368,40 kg",
+            "value": "10.000,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2. Stainless steel sheet 304, cold-rolled 2mm: : IN : 10.000 kg - -10 — 10.000,00 kg . 10.368,40 kg",
+            "value": "10.000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 ‘Smartphone 6.1in, 128GB : , IN 1.280 pcs 32 250,88 kg 304,31 kg",
+            "value": "Smartphone 6.1in, 128GB"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 ‘Smartphone 6.1in, 128GB : , IN 1.280 pcs 32 250,88 kg 304,31 kg",
+            "value": "304,31 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 ‘Smartphone 6.1in, 128GB : , IN 1.280 pcs 32 250,88 kg 304,31 kg",
+            "value": "250,88 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 ‘Smartphone 6.1in, 128GB : , IN 1.280 pcs 32 250,88 kg 304,31 kg",
+            "value": "1.280"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN 7:800 pes 195 2.324,40 kg 2.466,20 kg",
+            "value": "Men's woven cotton shirt, long sleeve"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN 7:800 pes 195 2.324,40 kg 2.466,20 kg",
+            "value": "2.466,20 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN 7:800 pes 195 2.324,40 kg 2.466,20 kg",
+            "value": "2.324,40 kg"
+          },
+          "quantity": {
+            "confidence": "0.72",
+            "evidence": "4 Men's woven cotton shirt, long sleeve IN 7:800 pes 195 2.324,40 kg 2.466,20 kg",
+            "value": "7:800"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled ‘IN 10.050 kg 402. 10.050,00 kg 10.576,62 kg",
+            "value": "Long grain white rice, milled"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled ‘IN 10.050 kg 402. 10.050,00 kg 10.576,62 kg",
+            "value": "10.576,62 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled ‘IN 10.050 kg 402. 10.050,00 kg 10.576,62 kg",
+            "value": "10.050,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Long grain white rice, milled ‘IN 10.050 kg 402. 10.050,00 kg 10.576,62 kg",
+            "value": "10.050"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "81, Mane Circle, 917747 Mumbai, India ° ra - Date | 30.04.2026",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey. -IN 4.057 pcs pute 82 ; 803,29 kg 963,24 kg",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey. -IN 4.057 pcs pute 82 ; 803,29 kg 963,24 kg",
+            "value": "963,24 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey. -IN 4.057 pcs pute 82 ; 803,29 kg 963,24 kg",
+            "value": "803,29 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Men's crew-neck T-shirt, 100% cotton jersey. -IN 4.057 pcs pute 82 ; 803,29 kg 963,24 kg",
+            "value": "4.057"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap IN . 650 pcs: 65 631,80 kg © 693,49 -kg:",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 786 CARTONS 24.060,37 kg 25.372,26 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Salvi LLC :",
+        "value": "Salvi LLC"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 786 CARTONS 24.060,37 kg 25.372,26 kg",
+        "value": "25.372,26 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 786 CARTONS 24.060,37 kg 25.372,26 kg",
+        "value": "24.060,37 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 786 CARTONS 24.060,37 kg 25.372,26 kg",
+        "value": "786"
+      }
+    },
+    "input_tokens": 448,
+    "latency_ms": 0,
+    "output_tokens": 1724
+  }
+}

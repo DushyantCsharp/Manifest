@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0011",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "MEDUZD8239607",
+    "seller": {
+      "name": "Tainan Chunghwa Electronics Co., Ltd.",
+      "address": [
+        "No. 218 Industrial Road",
+        "Tainan",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "White-Bowen",
+      "address": [
+        "8229 Tom Ferry Suite 084",
+        "N3B 6B8 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "notify_party": {
+      "name": "Tanner-Lewis",
+      "address": [
+        "22480 Lisa Station Suite 644",
+        "A2A 9C4 Montréal",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "carrier": "MSC",
+    "vessel": "MSC TRITON",
+    "voyage": "401E",
+    "port_of_loading": "Kaohsiung",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-03-01",
+    "container_number": "MEDU2337035",
+    "seal_number": "7738955",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 465,
+    "total_gross_weight_kg": "12722.27",
+    "goods_description": "SAID TO CONTAIN: Solar PV module 410W monocrystalline; Stainless steel saucepan 20cm; Combed cotton yarn Ne 30/1"
+  },
+  "line_items": []
+}

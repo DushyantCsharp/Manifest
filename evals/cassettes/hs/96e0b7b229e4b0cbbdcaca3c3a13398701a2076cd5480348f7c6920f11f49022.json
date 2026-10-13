@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "96e0b7b229e4b0cbbdcaca3c3a13398701a2076cd5480348f7c6920f11f49022",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Rubberwood dining table, 6 seats\nCountry of origin: MY\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings > 9401 Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof\n\nChoose the subheading that covers these goods. Options:\n- 940152: Seats; of bamboo\n- 940153: Seats; of rattan\n- 940110: Seats; of a kind used for aircraft\n- 940120: Seats; of a kind used for motor vehicles\n- 940141: Seats; convertible into beds of wood, other than garden seats or camping equipment\n- 940149: Seats; convertible into beds of other than wood, other than garden seats or camping equipment\n- 940159: Seats; of cane, osier or similar materials, other than bamboo or rattan\n- 940180: Seats; n.e.c. in heading no. 9401, (excluding medical, surgical, dental, veterinary or barber furniture)\n- 940199: Seats; parts, (of other than wood) for use in the assembly of motor vehicles as determined by the minister\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c0fbb774f40e9181eb0aa1719dac962d315a24a7d08315bdc14b43981152f5ce",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "940152",
+      "cited": [
+        "940152"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 506,
+    "latency_ms": 0,
+    "output_tokens": 31
+  }
+}

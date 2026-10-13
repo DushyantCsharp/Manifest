@@ -1,0 +1,48 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0019",
+  "document": "commercial_invoice",
+  "layout": "letterhead",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/6840",
+    "invoice_date": "2026-09-10",
+    "seller": {
+      "name": "Korpal and Sons",
+      "address": [
+        "06, Gola Zila",
+        "914197 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Stokes, Woods and Austin",
+      "address": [
+        "Flat 38, Adams Fort",
+        "CM3 1TZ Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Manchester",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "42451.50"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Combed cotton yarn Ne 30/1",
+      "country_of_origin": "IN",
+      "quantity": "13650",
+      "unit": "kg",
+      "unit_price": "3.11",
+      "amount": "42451.50"
+    }
+  ]
+}

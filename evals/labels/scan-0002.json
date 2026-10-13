@@ -1,0 +1,108 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0002",
+  "seed": 3291104576,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-1583",
+    "invoice_date": "2026-07-02",
+    "seller": {
+      "name": "Şener Şti.",
+      "address": [
+        "75555 Efe Park",
+        "05262 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Hebert Baron S.A.",
+      "address": [
+        "rue de Breton",
+        "55478 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "FCA",
+    "incoterm_place": "Istanbul",
+    "payment_terms": "Cash against documents",
+    "total_amount": "44706.12",
+    "bl_number": "EGLVFY6488353",
+    "notify_party": {
+      "name": "Barbier",
+      "address": [
+        "892, rue Carpentier",
+        "84335 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN CALYPSO",
+    "voyage": "368E",
+    "port_of_loading": "Izmir",
+    "port_of_discharge": "Marseille",
+    "shipped_on_board": "2026-07-14",
+    "container_number": "EGLU0805958",
+    "seal_number": "1764144",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1225,
+    "total_gross_weight_kg": "11438.46",
+    "goods_description": "SAID TO CONTAIN: Nitrile examination gloves, box of 100; Aluminium household foil 12 micron; AC induction motor 0.55kW 3-phase",
+    "total_net_weight_kg": "9759.10",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Nitrile examination gloves, box of 100",
+        "country_of_origin": "MY",
+        "quantity": "9180",
+        "unit": "sets",
+        "unit_price": "2.10",
+        "amount": "19278.00",
+        "hs_code": "401512",
+        "packages": 918,
+        "net_weight_kg": "4415.58",
+        "gross_weight_kg": "5460.59"
+      },
+      {
+        "line_no": 2,
+        "description": "Aluminium household foil 12 micron",
+        "country_of_origin": "TR",
+        "quantity": "3100",
+        "unit": "kg",
+        "unit_price": "3.37",
+        "amount": "10447.00",
+        "hs_code": "760711",
+        "packages": 155,
+        "net_weight_kg": "3100.00",
+        "gross_weight_kg": "3366.60"
+      },
+      {
+        "line_no": 3,
+        "description": "AC induction motor 0.55kW 3-phase",
+        "country_of_origin": "CN",
+        "quantity": "304",
+        "unit": "pcs",
+        "unit_price": "49.28",
+        "amount": "14981.12",
+        "hs_code": "850151",
+        "packages": 152,
+        "net_weight_kg": "2243.52",
+        "gross_weight_kg": "2611.27"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

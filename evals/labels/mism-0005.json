@@ -1,0 +1,109 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0005",
+  "seed": 3459775048,
+  "layout": "compact",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "FC-0013/26",
+    "invoice_date": "2026-07-29",
+    "seller": {
+      "name": "Penang Gemilang Electronics Co., Ltd.",
+      "address": [
+        "No. 171 Harbour Road",
+        "Penang",
+        "Malaysia"
+      ],
+      "country": "MY"
+    },
+    "buyer": {
+      "name": "Klapp GmbH & Co. KG",
+      "address": [
+        "Rolf-Peter-Trupp-Platz 34-44",
+        "55722 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Port Klang",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "72480.65",
+    "bl_number": "MEDUGW5840978",
+    "notify_party": null,
+    "carrier": "MSC",
+    "vessel": "MSC AURORA",
+    "voyage": "520E",
+    "port_of_loading": "Port Klang",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-08-01",
+    "container_number": "MEDU6272117",
+    "seal_number": "4453086",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 851,
+    "total_gross_weight_kg": "17553.74",
+    "goods_description": "SAID TO CONTAIN: LED bulb E27 9W warm white; Aluminium household foil 12 micron",
+    "total_net_weight_kg": "16665.57",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "LED bulb E27 9W warm white",
+        "country_of_origin": "CN",
+        "quantity": "11385",
+        "unit": "pcs",
+        "unit_price": "1.61",
+        "amount": "18329.85",
+        "hs_code": "853952",
+        "packages": 57,
+        "net_weight_kg": "785.57",
+        "gross_weight_kg": "919.44"
+      },
+      {
+        "line_no": 2,
+        "description": "Aluminium household foil 12 micron",
+        "country_of_origin": "TR",
+        "quantity": "15880",
+        "unit": "kg",
+        "unit_price": "3.41",
+        "amount": "54150.80",
+        "hs_code": "760711",
+        "packages": 794,
+        "net_weight_kg": "15880.00",
+        "gross_weight_kg": "16634.30"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "invoice_total",
+      "kind": "totals_mismatch",
+      "field": "total_amount",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "commercial_invoice": "74002.74"
+      }
+    },
+    {
+      "mutation": "origin",
+      "kind": "value_mismatch",
+      "field": "line_items.country_of_origin",
+      "line_no": 2,
+      "description": "Aluminium household foil 12 micron",
+      "values": {
+        "commercial_invoice": "TR",
+        "packing_list": "IT"
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

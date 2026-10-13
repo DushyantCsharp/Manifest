@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Taichung Yungshin Textile Co., Ltd. COMMERCIAL INVOICE\n\nNo. 250. Industrial Road\n\nTaichung Invoice No. INV-2026-91736\nTaiwan Invoice Date 04/08/2026\nPayment Terms T/T 30 days after B/L date\n\nBILL TO / CONSIGNEE SHIPPING\n\nMassey Inc Terms of Sale: DDP Montréal (Incoterms 2020)\n4324 Brittany Lodge Port of Loading: Keelung\n\nM9Y 9S7 Vancouver Port-of Discharge: Vancouver\n\nCanada Currency: USD\n\n# Description Country of Origin Qty Unit Unit Price\n\nAmount (USD)\n\n1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92\n2 Split air conditioner 12000 BTU “ China 98 pcs 280.46 27,485.08\nTotal USD 126,706.00\n\nWe hereby certify that this invoice shows the actual Price of the goods described, -that all Particulars are true and correct, and that the goods are\nof-the origin stated.\n\nAuthorized Signature .. for Taichung Yungshin Textile Co., Lid.\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "| | | ‘PACKING LIST\nTaichung Yungshin Textile Co., Ltd. — Invoice Ref. INV-2026-91736\n\nNo. 250 Industrial Road, Taichung, Taiwan. Date - 04/08/2026\n| CONSIGNEE | | TERMS OF DELIVERY.\n_, Massey Inc ; _ | DDP Montréal\n| 4324 Brittany Lodge, M9Y 9S7 Vancouver, Canada Keelung to: Vancouver a\n# Description . Origin Quantity : Pkgs Net weight Gross weight\n1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg\n2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg\nTotal 1531 CARTONS 14,558.90 kg 17,156.71 kg\n\nShipping marks: MASSEY / INV-2026-91736\n\nPage | of 1” ;\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER °.° ay, one\nTaichung Yungshin Textile Co., Ltd.\n\nMAERSK\n\nMassey. Inc\n4324 Brittany Lodge\n\n, M9Y 9S7 Vancouver, Canada .\n\n[No. 250 Industrial. Road, Taichung, ‘Taiwan: . BILL OF LADING\n3 MAEUXG8596004 -\nCONSIGNEE NOTIFY PARTY\n\nWilliams, Turner and Foster\n\n‘| 7196-John Route ‘Suite 853, G9P 9L4\n\nVancouver, Canada ..°\n\nOCEAN VESSEL / VOYAGE ‘NO.\nMAERSK ‘TAGE / 684N\n\n| FREIGHT ©\n\nFREIGHT - PREPAID\n\n| PORT OF LOADING\n\nPORT OF DISCHARGE\n\n04/17/2026 an Keelung, ‘04/17/2026\n\n4 Keelung 7 Vancouver:\n| CONTAINER /SEAL |MARKS&NOS. ‘[No.oF . _ | DESCRIPTION OF GooDs GROSS WEIGHT\n|No. -  Ipackaces “|. °°) .” ae\n‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg\na SEAL 2723343. | INV-2026-91736 | CARTONS . | Split air conditioner 12000. BTU\nSHIPPED ON BOARD. 3 ‘ PLACE AND DATE OF ISSUE : NUMBER OF ORIGINAL BILS\nTHREE (3)\n\nRECEIVED by. the Carrier in apparent good onder and condition unless otherwise stated, the total number of containers or packages shown above for carr\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MAERSK. .\n\nage from the port of loading to the port\n\n* Page | of 1\n"
+    }
+  ]
+}

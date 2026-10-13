@@ -1,0 +1,295 @@
+directive @oneOf on INPUT_OBJECT
+
+type ApproveFieldPayload {
+  field: ExtractedField
+  userErrors: [UserError!]!
+}
+
+type ApproveTaskPayload {
+  task: ReviewTask
+  userErrors: [UserError!]!
+}
+
+"""
+Region on the source page. Edges are fractions (0-1) of the page's width or height, measured from the top-left corner, so they don't depend on render resolution.
+"""
+type BoundingBox {
+  left: Float!
+  top: Float!
+  right: Float!
+  bottom: Float!
+}
+
+type CorrectFieldPayload {
+  field: ExtractedField
+  userErrors: [UserError!]!
+}
+
+"""Date (isoformat)"""
+scalar Date
+
+"""Date with time (isoformat)"""
+scalar DateTime
+
+type DateValue {
+  date: Date!
+}
+
+"""Decimal (fixed-point)"""
+scalar Decimal
+
+"""A cross-document disagreement found during reconciliation."""
+type Discrepancy {
+  id: ID!
+  kind: DiscrepancyKind!
+  severity: DiscrepancySeverity!
+  fieldKey: String!
+  lineNumber: Int
+  message: String!
+  observations: [DiscrepancyObservation!]!
+}
+
+enum DiscrepancyKind {
+  VALUE_MISMATCH
+  MISSING_FIELD
+  LINE_ITEMS_MISMATCH
+  TOTALS_MISMATCH
+}
+
+type DiscrepancyObservation {
+  documentId: ID!
+  documentKind: DocumentKind!
+  value: FieldValue
+  sourcePage: Int
+  bbox: BoundingBox
+}
+
+enum DiscrepancySeverity {
+  INFO
+  WARNING
+  BLOCKING
+}
+
+enum DocumentKind {
+  COMMERCIAL_INVOICE
+  PACKING_LIST
+  BILL_OF_LADING
+  OTHER
+}
+
+"""One extracted value with the evidence a reviewer needs to check it."""
+type ExtractedField {
+  id: ID!
+
+  """Schema field name, e.g. `invoice_number`."""
+  key: String!
+
+  """Current value: the correction if corrected. Null when missing."""
+  value: FieldValue
+
+  """Calibrated probability (0-1) that the extracted value is correct."""
+  confidence: Float!
+
+  """1-based page of the source document the value was read from."""
+  sourcePage: Int
+  bbox: BoundingBox
+  status: FieldStatus!
+  correction: FieldCorrection
+}
+
+type Extraction {
+  id: ID!
+  documentId: ID!
+  documentKind: DocumentKind!
+  schemaVersion: Int!
+  fields: [ExtractedField!]!
+  lineItems: [LineItem!]!
+}
+
+type FieldCorrection {
+  previousValue: FieldValue
+  reason: String!
+  correctedAt: DateTime!
+}
+
+enum FieldStatus {
+  EXTRACTED
+  MISSING
+  APPROVED
+  CORRECTED
+}
+
+union FieldValue = TextValue | MoneyValue | QuantityValue | DateValue
+
+"""Exactly one member must be set."""
+input FieldValueInput @oneOf {
+  text: String
+  money: MoneyInput
+  quantity: QuantityInput
+  date: Date
+}
+
+type HsCandidate {
+  code: String!
+  description: String!
+
+  """Hybrid retrieval score; higher is closer."""
+  score: Float!
+}
+
+type HsSuggestion {
+  """6-digit HS 2022 subheading, e.g. `847130`."""
+  code: String!
+  description: String!
+
+  """Calibrated probability (0-1) that `code` is the correct subheading."""
+  confidence: Float!
+
+  """Why this code, citing retrieved candidates."""
+  rationale: String!
+
+  """Nomenclature entries retrieved as evidence, best first."""
+  retrievedCandidates: [HsCandidate!]!
+}
+
+type LineItem {
+  lineNumber: Int!
+  fields: [ExtractedField!]!
+  hsSuggestion: HsSuggestion
+}
+
+input MoneyInput {
+  amount: Decimal!
+
+  """ISO 4217 code, e.g. `USD`."""
+  currency: String!
+}
+
+"""An amount of money. Never a bare number: always with its currency."""
+type MoneyValue {
+  amount: Decimal!
+
+  """ISO 4217 code, e.g. `USD`."""
+  currency: String!
+}
+
+type Mutation {
+  """Accept an extracted value as correct."""
+  approveField(fieldId: ID!): ApproveFieldPayload!
+
+  """
+  Replace a value. The reason is stored with the correction and feeds evals.
+  """
+  correctField(fieldId: ID!, value: FieldValueInput!, reason: String!): CorrectFieldPayload!
+
+  """Approve the whole task, closing it."""
+  approveTask(taskId: ID!): ApproveTaskPayload!
+}
+
+type PageInfo {
+  hasNextPage: Boolean!
+
+  """
+  Always false: keyset connections here page forward only (`first`/`after`).
+  """
+  hasPreviousPage: Boolean!
+  startCursor: String
+  endCursor: String
+}
+
+input QuantityInput {
+  amount: Decimal!
+  unit: String!
+}
+
+type QuantityValue {
+  amount: Decimal!
+
+  """Normalised unit; weights are always `kg`."""
+  unit: String!
+}
+
+type Query {
+  """Liveness probe."""
+  health: String!
+
+  """The review queue: most urgent first, then oldest first."""
+  reviewTasks(
+    filter: ReviewTaskFilter = null
+
+    """Page size, 1-100."""
+    first: Int! = 25
+
+    """`endCursor` of the previous page."""
+    after: String = null
+  ): ReviewTaskConnection!
+  reviewTask(id: ID!): ReviewTask
+}
+
+"""URGENT is reviewed first."""
+enum ReviewPriority {
+  URGENT
+  HIGH
+  NORMAL
+  LOW
+}
+
+enum ReviewReason {
+  LOW_CONFIDENCE
+  DISCREPANCY
+  MISSING_FIELD
+  PARTIAL_EXTRACTION
+  HS_UNCERTAIN
+}
+
+type ReviewTask {
+  id: ID!
+  shipmentId: ID!
+  status: ReviewTaskStatus!
+  priority: ReviewPriority!
+  reasons: [ReviewReason!]!
+  createdAt: DateTime!
+  extractions: [Extraction!]!
+  discrepancies: [Discrepancy!]!
+}
+
+"""Ordered by priority, then oldest first. Keyset-paginated."""
+type ReviewTaskConnection {
+  edges: [ReviewTaskEdge!]!
+  pageInfo: PageInfo!
+}
+
+type ReviewTaskEdge {
+  cursor: String!
+  node: ReviewTask!
+}
+
+input ReviewTaskFilter {
+  status: [ReviewTaskStatus!] = null
+  priority: [ReviewPriority!] = null
+}
+
+enum ReviewTaskStatus {
+  OPEN
+  IN_PROGRESS
+  APPROVED
+}
+
+type TextValue {
+  text: String!
+}
+
+"""An expected failure, returned as data rather than a GraphQL error."""
+type UserError {
+  code: UserErrorCode!
+  message: String!
+
+  """Path to the offending argument, e.g. `["value", "money", "currency"]`."""
+  field: [String!]
+}
+
+enum UserErrorCode {
+  NOT_FOUND
+  CONFLICT
+  INVALID_VALUE
+}

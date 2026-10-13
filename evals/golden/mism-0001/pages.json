@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Bangkok Siam Import & Export Co., Ltd.\r\nNo. 346 Harbour Road\r\nBangkok\r\nThailand\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-37613\r\nInvoice Date 06/20/2026\r\nPayment Terms T/T 30 days after B/L date\r\nBILL TO / CONSIGNEE\r\nCalhoun and Sons\r\n7110 Edward Coves\r\nB7C4S1 Toronto\r\nCanada\r\nSHIPPING\r\nTerms of Sale: EXW Samut Prakan (Incoterms 2020)\r\nPort of Loading: Bangkok\r\nPort of Discharge: Vancouver\r\nCurrency: CAD\r\n# Description Country of Origin Qty Unit Unit Price Amount (CAD)\r\n1 Passenger car tyre 205/55R16 Thailand 881 pcs 81.60 71,889.60\r\nTotal CAD 71,889.60\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Bangkok Siam Import & Export Co., Ltd. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Bangkok Siam Import & Export Co., Ltd.\r\nNo. 346 Harbour Road, Bangkok, Thailand \r\nPACKING LIST\r\nInvoice Ref. INV-2026-37613\r\nDate 06/20/2026\r\nCONSIGNEE\r\nCalhoun and Sons\r\n7110 Edward Coves, B7C4S1 Toronto, Canada\r\nTERMS OF DELIVERY\r\nEXW Samut Prakan\r\nBangkok to Vancouver\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg\r\nTotal 881 CARTONS 7,838.26 kg 8,316.27 kg\r\nShipping marks: CALHOUN / INV-2026-37613\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nBangkok Siam Import & Export Co., Ltd.\r\nNo. 346 Harbour Road, Bangkok, Thailand\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUBY8605421 \r\nCONSIGNEE\r\nCalhoun and Sons\r\n7110 Edward Coves, B7C4S1 Toronto, Canada\r\nNOTIFY PARTY\r\nStone, Trevino and Jones\r\n5056 Derek Center, C7P 4T2 Toronto, Canada\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC PEGASUS / 345W\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nBangkok\r\nPORT OF DISCHARGE\r\nVancouver\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU7376815\r\nSEAL 6471673\r\nCALHOUN /\r\nINV-2026-37613\r\n881\r\nCARTONS\r\nSAID TO CONTAIN: Passenger car tyre\r\n205/55R16\r\n8,665.55 kg\r\nSHIPPED ON BOARD\r\n06/29/2026\r\nPLACE AND DATE OF ISSUE\r\nBangkok, 06/29/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1"
+    }
+  ]
+}

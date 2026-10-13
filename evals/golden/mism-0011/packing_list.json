@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0011",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-90214",
+    "date": "2026-02-27",
+    "seller": {
+      "name": "Tainan Chunghwa Electronics Co., Ltd.",
+      "address": [
+        "No. 218 Industrial Road",
+        "Tainan",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "White-Bowen",
+      "address": [
+        "8229 Tom Ferry Suite 084",
+        "N3B 6B8 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "incoterm": "DDP",
+    "incoterm_place": "Vancouver",
+    "package_type": "CARTONS",
+    "total_packages": 465,
+    "total_net_weight_kg": "12581.61",
+    "total_gross_weight_kg": "13621.27"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "MY",
+      "quantity": "48",
+      "unit": "pcs",
+      "packages": 2,
+      "net_weight_kg": "987.26",
+      "gross_weight_kg": "1020.56"
+    },
+    {
+      "line_no": 2,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "CN",
+      "quantity": "3648",
+      "unit": "pcs",
+      "packages": 304,
+      "net_weight_kg": "3644.35",
+      "gross_weight_kg": "4098.98"
+    },
+    {
+      "line_no": 3,
+      "description": "Combed cotton yarn Ne 30/1",
+      "country_of_origin": "BE",
+      "quantity": "7950",
+      "unit": "kg",
+      "packages": 159,
+      "net_weight_kg": "7950.00",
+      "gross_weight_kg": "8501.73"
+    }
+  ]
+}

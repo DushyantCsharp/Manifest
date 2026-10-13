@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "8df8b41c8c09563e0a8d7c86b21ec782d36473eaf09ce633347b534997b24ecd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Skimmed milk powder, fat 1%\nCountry of origin: NZ\n\nChosen so far: 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n\nChoose the heading that covers these goods. Options:\n- 0402: Milk and cream; concentrated or containing added sugar or other sweetening matter\n    contains 040229: Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040210: Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)\n    contains 040221: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n- 0405: Butter and other fats and oils derived from milk; dairy spreads\n    contains 040590: Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)\n    contains 040510: Dairy produce; derived from milk, butter\n    contains 040520: Dairy produce; dairy spreads\n- 0401: Milk and cream; not concentrated, not containing added sugar or other sweetening matter\n    contains 040110: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, not exceeding 1%\n    contains 040120: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%\n    contains 040150: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 10%\n    contains 040140: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 6% but not exceeding 10%\n- 0404: Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included\n    contains 040490: Dairy produce; natural milk constituents (excluding whey), whether or not containing added sugar or other sweetening matter, n.e.c. in chapter 04\n    contains 040410: Dairy produce; whey, whether or not concentrated or containing added sugar or other sweetening matter\n- 0403: Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa.\n    contains 040390: Dairy produce; buttermilk, curdled milk or cream, kephir, fermented or acidified milk or cream, whether or not concentrated or containing added sweetening, flavouring, fruit, nuts or cocoa (excluding yoghurt)\n    contains 040320: Dairy produce; yoghurt, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa\n- 0410: Animal products; insects and other edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3eb6da721fc4b33da1a3d6a107ce98b82a4eac936276795b490cc9393c257d97",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0402",
+      "cited": [
+        "0402"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 1158,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

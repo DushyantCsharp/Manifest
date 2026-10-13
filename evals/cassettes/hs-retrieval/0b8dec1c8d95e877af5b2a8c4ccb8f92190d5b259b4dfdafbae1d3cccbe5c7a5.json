@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "0b8dec1c8d95e877af5b2a8c4ccb8f92190d5b259b4dfdafbae1d3cccbe5c7a5",
+  "retriever": "offline-lexical",
+  "query": "Household washing machine, fully automatic, front loading, 8kg dry linen capacity origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "845011",
+      "description": "Washing machines; household or laundry-type, fully-automatic, (of a dry linen capacity not exceeding 10kg)",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "845012",
+      "description": "Washing machines; household or laundry-type, with built-in centrifugal drier, (not fully-automatic), of a dry linen capacity not exceeding 10kg",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "845019",
+      "description": "Washing machines; household or laundry-type, not fully-automatic, without built-in centrifugal drier, of a dry linen capacity not exceeding 10kg",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "845020",
+      "description": "Washing machines; household or laundry-type, of a dry linen capacity exceeding 10kg",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "845129",
+      "description": "Drying machines; of a dry linen capacity exceeding 10kg",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "845121",
+      "description": "Drying machines; of a dry linen capacity not exceeding 10kg",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "845090",
+      "description": "Washing machines; parts for household or laundry-type",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "842211",
+      "description": "Dish washing machines; of the household type",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "845221",
+      "description": "Sewing machines; (not household type), automatic units",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "845229",
+      "description": "Sewing machines; not household or automatic unit type",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "851521",
+      "description": "Welding machines and apparatus; for resistance welding of metal, fully or partly automatic, whether or not capable of cutting",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "842219",
+      "description": "Dish washing machines; of other than household type",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "851529",
+      "description": "Welding machines and apparatus; for resistance welding of metal, other than fully or partly automatic, whether or not capable of cutting",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "851531",
+      "description": "Welding machines and apparatus; for arc (including plasma arc) welding of metals, fully or partly automatic, whether or not capable of cutting",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "851539",
+      "description": "Welding machines and apparatus; for arc (including plasma arc) welding of metals, other than fully or partly automatic, whether or not capable of cutting",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "845110",
+      "description": "Dry-cleaning machines",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "410120",
+      "description": "Raw hides and skins; whole, unsplit, of bovine or equine animals, of a weight per skin not exceeding 8kg when simply dried, 10kg when dry-salted or 16kg when fresh, wet-salted or otherwise preserved",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "842951",
+      "description": "Front-end shovel loaders",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "845210",
+      "description": "Sewing machines; of the household type",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "842310",
+      "description": "Weighing machines; personal (including baby scales) and household scales",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

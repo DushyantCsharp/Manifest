@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0022",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVAP9602518",
+    "seller": {
+      "name": "Geisel Rust GmbH",
+      "address": [
+        "Raik-Hornig-Weg 60/60",
+        "74988 Köln",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "buyer": {
+      "name": "Laurent",
+      "address": [
+        "15, rue de Bigot",
+        "27387 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "notify_party": {
+      "name": "Perrin",
+      "address": [
+        "314, avenue de Delmas",
+        "13649 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN SERENITY",
+    "voyage": "436N",
+    "port_of_loading": "Hamburg",
+    "port_of_discharge": "Le Havre",
+    "shipped_on_board": "2026-04-13",
+    "container_number": "EGLU3676577",
+    "seal_number": "4774577",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 813,
+    "total_gross_weight_kg": "9816.90",
+    "goods_description": "SAID TO CONTAIN: Passenger car tyre 205/55R16; Stainless cutlery set, 24 pieces; Deep groove ball bearing 6205-2RS"
+  },
+  "line_items": []
+}

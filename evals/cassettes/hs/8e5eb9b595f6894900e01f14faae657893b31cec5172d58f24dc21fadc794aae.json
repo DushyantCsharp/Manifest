@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "8e5eb9b595f6894900e01f14faae657893b31cec5172d58f24dc21fadc794aae",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Manual toothbrushes, plastic handle\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 96: Miscellaneous manufactured articles\n    contains 960321: Brushes; toothbrushes\n    contains 960310: Brooms and brushes; consisting of twigs or other vegetable materials bound together, with or without handles\n- 42: Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)\n    contains 420222: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials\n    contains 420221: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of leather or of composition leather\n    contains 420229: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n- 44: Wood and articles of wood; wood charcoal\n    contains 441700: Wood; tools, tool bodies, tool handles, broom or brush bodies and handles, boot and shoe lasts and trees, of wood\n    contains 440410: Wood; coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood\n    contains 440420: Wood; non-coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 821195: Knives; with handles of base metal\n    contains 820420: Tools, hand; interchangeable spanner sockets, with or without handles\n    contains 820412: Tools, hand; hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches), adjustable\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 040900: Honey; natural\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8c321ae63f7d02b591a30428e9763ea3aab6477d9309590cb6a0f0c9ab185f95",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "96",
+      "cited": [
+        "96"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1132,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

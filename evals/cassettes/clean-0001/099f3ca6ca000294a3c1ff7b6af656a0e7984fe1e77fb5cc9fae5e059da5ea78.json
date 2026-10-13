@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "099f3ca6ca000294a3c1ff7b6af656a0e7984fe1e77fb5cc9fae5e059da5ea78",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nSamut Prakan Sukjai Trading Co., Ltd.\r\nNo. 358 Industrial Road, Samut Prakan, Thailand\r\nPACKING LIST\r\nInvoice Ref. INV-2026-04038\r\nDate 09/13/2026\r\nCONSIGNEE\r\nFlores, Wheeler and Smith\r\n3389 Jennifer Valley Apt. 764, 83583 Savannah, United\r\nStates\r\nTERMS OF DELIVERY\r\nCIF Los Angeles\r\nBangkok to Los Angeles\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg\r\nTotal 1117 CARTONS 9,621.84 kg 10,453.85 kg\r\nShipping marks: FLORES, / INV-2026-04038\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Flores, Wheeler and Smith",
+        "value": "Flores, Wheeler and Smith"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 09/13/2026",
+        "value": "09/13/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CIF Los Angeles",
+        "value": "CIF Los Angeles"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. INV-2026-04038",
+        "value": "INV-2026-04038"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 358 Industrial Road, Samut Prakan, Thailand",
+            "value": "Thailand"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "value": "Passenger car tyre 205/55R16"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "value": "10,453.85 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "value": "9,621.84 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "value": "1,117"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1117 CARTONS 9,621.84 kg 10,453.85 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Samut Prakan Sukjai Trading Co., Ltd.",
+        "value": "Samut Prakan Sukjai Trading Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+        "value": "10,453.85 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+        "value": "9,621.84 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+        "value": "1117"
+      }
+    },
+    "input_tokens": 369,
+    "latency_ms": 0,
+    "output_tokens": 512
+  }
+}

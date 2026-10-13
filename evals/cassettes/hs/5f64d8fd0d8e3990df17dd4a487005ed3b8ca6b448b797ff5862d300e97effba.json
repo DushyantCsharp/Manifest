@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "5f64d8fd0d8e3990df17dd4a487005ed3b8ca6b448b797ff5862d300e97effba",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green tea in 2g tea bags\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 09: Coffee, tea, mate and spices\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n    contains 090240: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg\n    contains 090230: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg\n    contains 090300: Mate\n- 63: Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n    contains 630520: Sacks and bags; of a kind used for the packing of goods, of cotton\n    contains 630510: Sacks and bags; of a kind used for the packing of goods, of jute or of other textile bast fibres of heading no. 5303\n    contains 630590: Sacks and bags; of a kind used for the packing of goods, of textile materials (other than jute, cotton or man-made textile materials)\n    contains 630532: Sacks and bags; of a kind used for the packing of goods, of man-made textile materials, flexible intermediate bulk containers\n- 39: Plastics and articles thereof\n    contains 392321: Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods\n    contains 392329: Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 21: Miscellaneous edible preparations\n    contains 210120: Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 844120: Machines; for making bags, sacks or envelopes of paper pulp, paper or paperboard\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940430: Sleeping bags\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481930: Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "cb6f435429ba6b86a070801c41f5935c98ba5976ced99bcda20cf27481f3f145",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "09",
+      "cited": [
+        "09"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1038,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

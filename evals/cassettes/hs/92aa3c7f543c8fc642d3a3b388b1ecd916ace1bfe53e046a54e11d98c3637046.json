@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "92aa3c7f543c8fc642d3a3b388b1ecd916ace1bfe53e046a54e11d98c3637046",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's T-shirt, knitted, 95% polyester 5% elastane\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n    contains 610620: Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres, knitted or crocheted\n    contains 610690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n    contains 610910: T-shirts, singlets and other vests; of cotton, knitted or crocheted\n    contains 610520: Shirts; men's or boys', of man-made fibres, knitted or crocheted\n    contains 610990: T-shirts, singlets and other vests; of textile materials (other than cotton), knitted or crocheted\n    contains 610590: Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 611241: Swimwear; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 611249: Swimwear; women's or girls', of textile materials (other than synthetic fibres), knitted or crocheted\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620630: Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)\n    contains 620610: Blouses, shirts and shirt-blouses; women's or girls', of silk or silk waste (not knitted or crocheted)\n    contains 620640: Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres (not knitted or crocheted)\n    contains 620620: Blouses, shirts and shirt-blouses; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n    contains 620690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials n.e.c. in heading no. 6206 (not knitted or crocheted)\n    contains 620520: Shirts; men's or boys', of cotton (not knitted or crocheted)\n    contains 620530: Shirts; men's or boys', of man-made fibres (not knitted or crocheted)\n    contains 620590: Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)\n    contains 621112: Swimwear; women's or girls', (not knitted or crocheted)\n    contains 621142: Track suits and other garments n.e.c.; women's or girls', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "92d14a2f8223f53c74cd26688c63042cc118a1b1fd04246f5471d17c16b737c3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "61",
+      "cited": [
+        "61"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 847,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

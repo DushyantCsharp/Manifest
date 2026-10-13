@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "cfde0eaf669c397a2f94f44dc28f18e71129a6c45d1267b56283afeb27e475a4",
+  "retriever": "offline-lexical",
+  "query": "Scented paraffin candles in glass jars origin PL",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "701090",
+      "description": "Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "701020",
+      "description": "Glass; stoppers, lids and other closures",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "701010",
+      "description": "Glass; ampoules, of a kind used for the conveyance or packing of goods",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "382489",
+      "description": "Chemical products, mixtures and preparations; containing goods specified in Subheading Note 3 to this Chapter; containing short-chain chlorinated paraffins",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "271290",
+      "description": "Paraffin wax; containing by weight 0.75% or more of oil, obtained by synthesis or by other processes, whether or not coloured",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "481160",
+      "description": "Paper and paperboard; coated, impregnated or covered with wax, paraffin wax, stearin, oil or glycerol, other than goods of heading no. 4803, 4809, or 4810",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "271220",
+      "description": "Paraffin wax; containing by weight less than 0.75% of oil, obtained by synthesis or by other processes, whether or not coloured",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "690990",
+      "description": "Ceramic wares; pots, jars and similar articles of a kind used for the conveyance or packing of goods and ceramic troughs, tubs and similar receptacles used in agriculture",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "340590",
+      "description": "Polishes, creams and similar preparations; n.e.c. in heading no. 3405, excluding waxes of heading no. 3404",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "340600",
+      "description": "Candles, tapers and the like",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "340510",
+      "description": "Polishes, creams and similar preparations; for footwear or leather, excluding waxes of heading no. 3404",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "340530",
+      "description": "Polishes, creams and similar preparations; for coachwork, other than metal polishes, excluding waxes of heading no. 3404",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "271210",
+      "description": "Petroleum jelly",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "340520",
+      "description": "Polishes, creams and similar preparations; for the maintenance of wooden furniture, floors or other woodwork, excluding waxes of heading no. 3404",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "340540",
+      "description": "Scouring pastes and powders and other scouring preparations; (whether or not in the form of paper, wadding, felt, nonwovens, cellular plastics, cellular rubber, impregnated, coated or covered)",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "76a0e73de99059acfcdb1c32b1289751278e8dae37a8fa933c4679708c2945a5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Microwave oven 20L, 700W, countertop\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8516: Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n    contains 851650: Ovens; microwave, of a kind used for domestic purposes\n    contains 851660: Ovens, cookers, cooking plates, boiling rings, grillers and roasters; of a kind used for domestic purposes (excluding microwaves)\n- 8508: Vacuum cleaners\n    contains 850811: Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L\n- 8540: Thermionic, cold cathode or photo-cathode valves and tubes (e.g. vacuum, vapour, gas filled valves and tubes, mercury arc rectifying valves and tubes, cathode-ray and television camera tubes)\n    contains 854071: Tubes; microwave, magnetrons, excluding grid-controlled tubes\n    contains 854079: Tubes; microwave (for example klystrons, travelling wave tubes, carlinotrons), excluding magnetrons and grid-controlled tubes\n- 8514: Industrial or laboratory electric furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory equipment for the heat treatment of materials by induction or dielectric loss\n    contains 851420: Furnaces and ovens; electric, for industrial or laboratory use, functioning by induction or dielectric loss\n    contains 851490: Furnaces, ovens and heating equipment; parts of the industrial or laboratory equipment of heading no. 8514\n    contains 851440: Heating equipment; for the heat treatment of materials by induction or dielectric loss, industrial or laboratory, other than furnaces and ovens\n    contains 851411: Furnaces and ovens; electric, for industrial or laboratory use, resistance heated; hot isostatic presses\n    contains 851431: Furnaces and ovens; electric, for industrial or laboratory use, other than those functioning by induction, dielectric loss or resistance heated, electron beam furnaces\n    contains 851432: Furnaces and ovens; electric, for industrial or laboratory use, other than those functioning by induction, dielectric loss or resistance heated, plasma and vacuum arc furnaces\n    contains 851419: Furnaces and ovens; electric, for industrial or laboratory use, resistance heated; other than hot isostatic presses, for the manufacture of semiconductor devices on semiconductor wafers\n    contains 851439: Furnaces and ovens; electric, for industrial or laboratory use, other than those functioning by induction, dielectric loss or resistance heated, other than electron beam, plasma or vacuum arc furnaces\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2a59a41fc94a0e153ffcc1fa6688ee33032419a2822eb65093ba5334688a5e33",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8516",
+      "cited": [
+        "8516"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 973,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "df6bd11c6e684a198435c31623c3e83ff394d2068c868c7049e861e2a4393167",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:12+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\n~ Jaramillo-Ayala\n\n~ Cl. 78 # 4)-7,.854381 Armenia, Colombia\n\nPACKING LIST\n\nInvoice.Ref. 2026/7435\n\n‘Date\n\nFebruary 3, 2026 ©\n\nCONSIGNEE |\n_ Hendrix, Harrell and Franco —\n\n| 064 Antonio Mills Apt. 751, 28063 Los Angeles, United\n\n| TERMS OF DELIVERY\n|_| CPT Savannah\n\n| Cartagena to Savannah\n\nStates | I]\n\n# Description Origin Quantity — Pkgs Net weight Gross weight\n1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib\nTotal 291 BAGS 38,492.7 ib 40,295.5 Ib\n\nShipping marks: HENDRIX, / 2026/7435\n\nPage L.of I\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "_ Hendrix, Harrell and Franco —",
+        "value": "Hendrix, Harrell and Franco"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "February 3, 2026 ©",
+        "value": "February 3, 2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "|_| CPT Savannah",
+        "value": "CPT Savannah"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice.Ref. 2026/7435",
+        "value": "2026/7435"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "~ Cl. 78 # 4)-7,.854381 Armenia, Colombia",
+            "value": "Colombia"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib",
+            "value": "Green Arabica coffee beans, grade 1"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.82",
+            "evidence": "1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib",
+            "value": "40,295.5 Ib"
+          },
+          "net_weight_kg": {
+            "confidence": "0.82",
+            "evidence": "Total 291 BAGS 38,492.7 ib 40,295.5 Ib",
+            "value": "38,492.7 ib"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib",
+            "value": "17,460"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib",
+            "value": "kg"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 291 BAGS 38,492.7 ib 40,295.5 Ib",
+        "value": "BAGS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "~ Jaramillo-Ayala",
+        "value": "Jaramillo-Ayala"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.82",
+        "evidence": "1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib",
+        "value": "40,295.5 Ib"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.82",
+        "evidence": "Total 291 BAGS 38,492.7 ib 40,295.5 Ib",
+        "value": "38,492.7 ib"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "1 Green Arabica coffee beans, grade 1 co 17,460 kg 291 38,492.:7 Ib °40,295.5 Ib",
+        "value": "291"
+      }
+    },
+    "input_tokens": 368,
+    "latency_ms": 0,
+    "output_tokens": 503
+  }
+}

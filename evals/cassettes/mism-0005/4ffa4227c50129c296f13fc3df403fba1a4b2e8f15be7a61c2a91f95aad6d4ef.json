@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "key": "4ffa4227c50129c296f13fc3df403fba1a4b2e8f15be7a61c2a91f95aad6d4ef",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nVendeur / Seller\r\nPenang Gemilang Electronics Co., Ltd.\r\nNo. 171 Harbour Road, Penang, Malaysia \r\nAcheteur / Buyer\r\nKlapp GmbH & Co. KG\r\nRolf-Peter-Trupp-Platz 34-44, 55722 Düsseldorf,\r\nGermany \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-0013/26\r\nDate 2026-07-29\r\nDevise / Currency USD\r\nIncoterm 2020 FOB Port Klang\r\nPaiement /\r\nPayment\r\nT/T 30 days after B/L date\r\nChargement /\r\nLoading\r\nPort Klang\r\nDestination Hamburg\r\nLig. Désignation / Description Orig. Qté U. P.U. USD Montant USD\r\n1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85\r\n2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80\r\nTotal USD : 74 002,74\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Klapp GmbH & Co. KG",
+        "value": "Klapp GmbH & Co. KG"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Devise / Currency USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Incoterm 2020 FOB Port Klang",
+        "value": "FOB Port Klang"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-07-29",
+        "value": "2026-07-29"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "N° / No. FC-0013/26",
+        "value": "FC-0013/26"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "value": "18 329,85"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "value": "CN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "value": "LED bulb E27 9W warm white"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "value": "11 385"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "value": "1,61"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "value": "54 150,80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "value": "TR"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "value": "Aluminium household foil 12 micron"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "value": "15 880"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "value": "kg"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "value": "3,41"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "T/T 30 days after B/L date",
+        "value": "T/T 30 days after B/L date"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Penang Gemilang Electronics Co., Ltd.",
+        "value": "Penang Gemilang Electronics Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total USD : 74 002,74",
+        "value": "74 002,74"
+      }
+    },
+    "input_tokens": 400,
+    "latency_ms": 0,
+    "output_tokens": 660
+  }
+}

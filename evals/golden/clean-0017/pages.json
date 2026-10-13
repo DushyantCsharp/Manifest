@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Chattogram Bengal Textile Co., Ltd. · No. 247 Ring Road · Chattogram · Bangladesh\r\nDe Neve, Van de Velde en Claes NV\r\nJenslei 79\r\n9082 Gent\r\nBelgium\r\nRechnungsnummer / Invoice no. RE-26-0240\r\nRechnungsdatum / Date 07.06.2026\r\nLieferbedingung / Incoterms® 2020 CPT Gent\r\nZahlungsbedingung / Payment L/C at sight\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 6,79 50.599,08\r\nGesamtbetrag / Total 50.599,08 EUR\r\nVersand / Shipment: Chattogram → Antwerp. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Chattogram Bengal Textile Co., Ltd.\r\nNo. 247 Ring Road, Chattogram, Bangladesh\r\nPACKING LIST\r\nInvoice Ref. RE-26-0240\r\nDate 07.06.2026\r\nCONSIGNEE\r\nDe Neve, Van de Velde en Claes NV\r\nJenslei 79, 9082 Gent, Belgium\r\nTERMS OF DELIVERY\r\nCPT Gent\r\nChattogram to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg\r\nTotal 187 CARTONS 2.362,28 kg 2.769,16 kg\r\nShipping marks: DE / RE-26-0240\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nChattogram Bengal Textile Co., Ltd.\r\nNo. 247 Ring Road, Chattogram, Bangladesh\r\nCOSCO\r\nBILL OF LADING\r\nB/L NO.\r\nCOSUWU8751024 \r\nCONSIGNEE\r\nDe Neve, Van de Velde en Claes NV\r\nJenslei 79, 9082 Gent, Belgium\r\nNOTIFY PARTY\r\nBogaert-De Backer BV\r\nMargarethahof 4, 9565 Gent, Belgium\r\nOCEAN VESSEL / VOYAGE NO.\r\nCOSCO SERENITY / 193S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nChattogram\r\nPORT OF DISCHARGE\r\nAntwerp\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCOSU6179764\r\nSEAL 7904883\r\nDE /\r\nRE-26-0240\r\n187\r\nCARTONS\r\nSAID TO CONTAIN: Men's woven cotton shirt,\r\nlong sleeve\r\n2.769,16 kg\r\nSHIPPED ON BOARD\r\n10.06.2026\r\nPLACE AND DATE OF ISSUE\r\nChattogram, 10.06.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: COSCO. \r\nPage 1 of 1"
+    }
+  ]
+}

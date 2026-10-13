@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "key": "94580829a71cbddf35278f9ac7ea0681b97223d781eca0e2ec60c2dd8a0d5bd5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nBangkok Sukjai Trading Co., Ltd.\r\nNo. 298 Avenue 3\r\nBangkok\r\nThailand\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-30691\r\nInvoice Date 02/13/2026\r\nPayment Terms 30% deposit, 70% against copy of B/L\r\nBILL TO / CONSIGNEE\r\nDouglas-Adams\r\n34620 Joseph Lodge\r\nL5V1M3 Toronto\r\nCanada\r\nSHIPPING\r\nTerms of Sale: CIP Toronto (Incoterms 2020)\r\nPort of Loading: Bangkok\r\nPort of Discharge: Montreal\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80\r\nTotal USD 28,504.80\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Bangkok Sukjai Trading Co., Ltd. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Douglas-Adams",
+        "value": "Douglas-Adams"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Currency: USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Terms of Sale: CIP Toronto (Incoterms 2020)",
+        "value": "CIP Toronto"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Invoice Date 02/13/2026",
+        "value": "02/13/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice No. INV-2026-30691",
+        "value": "INV-2026-30691"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "value": "28,504.80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Thailand",
+            "value": "Thailand"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "value": "Porcelain dinner plate 27cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "value": "7,704"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "value": "3.70"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms 30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Bangkok Sukjai Trading Co., Ltd.",
+        "value": "Bangkok Sukjai Trading Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+        "value": "28,504.80"
+      }
+    },
+    "input_tokens": 441,
+    "latency_ms": 0,
+    "output_tokens": 448
+  }
+}

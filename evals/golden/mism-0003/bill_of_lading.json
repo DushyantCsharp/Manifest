@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0003",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "MAEURN8101212",
+    "seller": {
+      "name": "UD Utami Tbk",
+      "address": [
+        "Gang Merdeka No. 1",
+        "38707 Semarang",
+        "Indonesia"
+      ],
+      "country": "ID"
+    },
+    "buyer": {
+      "name": "Ward, Taylor and Morton",
+      "address": [
+        "1414 Lowe Burg",
+        "67239 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": {
+      "name": "Frazier-Nguyen",
+      "address": [
+        "7439 Tyrone Lock Suite 412",
+        "24258 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "MAERSK",
+    "vessel": "MAERSK VALENCIA",
+    "voyage": "107N",
+    "port_of_loading": "Tanjung Perak",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-02-28",
+    "container_number": "MAEU6142226",
+    "seal_number": "2680679",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1127,
+    "total_gross_weight_kg": "20809.16",
+    "goods_description": "SAID TO CONTAIN: Cashew kernels W320; Running shoes, rubber sole, textile upper; Corrugated shipping carton, 3-ply"
+  },
+  "line_items": []
+}

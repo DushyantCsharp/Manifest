@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "2b280fbd1d99f5d72a9422e189dceacefea2a1a1cacd93278eb2c8d2e1be10b4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Plush teddy bear 30cm\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 844610: Weaving machines (looms); for weaving fabrics of a width 30cm or less\n    contains 844630: Weaving machines (looms); for weaving fabrics of a width exceeding 30cm, shuttleless type\n    contains 844621: Weaving machines (looms); for weaving fabrics of a width exceeding 30cm, shuttle type, power looms\n    contains 844629: Weaving machines (looms); for weaving fabrics of a width exceeding 30cm, shuttle type, other than power looms\n- 70: Glass and glassware\n    contains 701966: Glass fibres; open woven fabrics of a width exceeding 30cm\n    contains 701965: Glass fibres; open woven fabrics of a width not exceeding 30cm\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 040900: Honey; natural\n    contains 041010: Animal products; insects\n    contains 040520: Dairy produce; dairy spreads\n    contains 040790: Birds' eggs, in shell; preserved or cooked\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 60: Fabrics; knitted or crocheted\n    contains 600290: Fabrics; knitted or crocheted, other than those of heading 60.01, of a width not exceeding 30 cm, containing by weight 5% or more of elastomeric yarn or rubber thread\n    contains 600240: Fabrics; knitted or crocheted, other than those of heading 60.01, of a width not exceeding 30 cm, containing by weight 5% or more of elastomeric yarn but not containing rubber thread\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8743b401ecfa1bb5674b7eda3c9c8340e5cb9d76c51ba99ac35101c0c9a462c1",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 967,
+    "latency_ms": 0,
+    "output_tokens": 29
+  }
+}

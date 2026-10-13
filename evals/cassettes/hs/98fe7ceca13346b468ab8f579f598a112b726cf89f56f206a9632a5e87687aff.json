@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "98fe7ceca13346b468ab8f579f598a112b726cf89f56f206a9632a5e87687aff",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LDPE granules, film grade, specific gravity below 0.94\nCountry of origin: SA\n\nChoose the chapter that covers these goods. Options:\n- 39: Plastics and articles thereof\n    contains 390120: Ethylene polymers; in primary forms, polyethylene having a specific gravity of 0.94 or more\n    contains 390110: Ethylene polymers; in primary forms, polyethylene having a specific gravity of less than 0.94\n    contains 390140: Ethylene polymers; in primary forms, ethylene-alpha-olefin copolymers, having a specific gravity of less than 0.94\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 251200: Siliceous fossil meals (e.g. kieselguhr, tripolite and diatomite) and similar siliceous earths; whether or not calcined, of an apparent specific gravity of 1 or less\n    contains 251520: Ecaussine and other calcareous monumental or building stone; alabaster, having a specific gravity of 2.5 or more\n    contains 251512: Marble and travertine; merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape, having a specific gravity of 2.5 or more\n    contains 251511: Marble and travertine; having a specific gravity of 2.5 or more, crude or roughly trimmed by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040229: Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040210: Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)\n    contains 040221: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n- 47: Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard\n    contains 470200: Wood pulp; chemical wood pulp, dissolving grades\n    contains 470411: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of coniferous wood\n    contains 470311: Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of coniferous wood\n    contains 470419: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of non-coniferous wood\n    contains 470421: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of coniferous wood\n    contains 470319: Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of non-coniferous wood\n    contains 470321: Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of coniferous wood\n    contains 470429: Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "aee2104c79a80c4a76bc3cd789f408da0ad4b94cc15dd2bab177d57ef5024aeb",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "39",
+      "cited": [
+        "39"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1103,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

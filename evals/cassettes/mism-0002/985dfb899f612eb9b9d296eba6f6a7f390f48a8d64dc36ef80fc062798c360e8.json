@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "985dfb899f612eb9b9d296eba6f6a7f390f48a8d64dc36ef80fc062798c360e8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nToyota Otomotiv\r\n1009 Korutürk Ways, 26238 Bursa, Turkey\r\nCOSCO\r\nBILL OF LADING\r\nB/L NO.\r\nCOSUSE4376401 \r\nCONSIGNEE\r\nGotthard GmbH & Co. OHG\r\nZimmerweg 75/88, 37966 Hamburg, Germany\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCOSCO ORION / 829W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nIzmir\r\nPORT OF DISCHARGE\r\nHamburg\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCOSU4044857\r\nSEAL 5443485\r\nDEHMEL /\r\nRE-26-8158\r\n617\r\nCARTONS\r\nSAID TO CONTAIN: Terry cotton bath towel\r\n70x140; Aluminium household foil 12 micron;\r\nWomen's cotton denim trousers\r\n12.951,57 kg\r\nSHIPPED ON BOARD\r\n01.05.2026\r\nPLACE AND DATE OF ISSUE\r\nIzmir, 01.05.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: COSCO. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "COSUSE4376401",
+        "value": "COSUSE4376401"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Gotthard GmbH & Co. OHG",
+        "value": "Gotthard GmbH & Co. OHG"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "COSCO",
+        "value": "COSCO"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "COSU4044857",
+        "value": "COSU4044857"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Zimmerweg 75/88, 37966 Hamburg, Germany",
+        "value": "Hamburg"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Izmir",
+        "value": "Izmir"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 5443485",
+        "value": "5443485"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Toyota Otomotiv",
+        "value": "Toyota Otomotiv"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "01.05.2026",
+        "value": "01.05.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "12.951,57 kg",
+        "value": "12.951,57 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "617",
+        "value": "617"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "COSCO ORION / 829W",
+        "value": "COSCO ORION"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "COSCO ORION / 829W",
+        "value": "829W"
+      }
+    },
+    "input_tokens": 501,
+    "latency_ms": 0,
+    "output_tokens": 364
+  }
+}

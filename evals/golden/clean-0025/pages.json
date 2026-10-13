@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Vendeur / Seller\r\nBoldù s.r.l.\r\nRotonda Benussi, 591 Appartamento 4, 26865\r\nBologna, Italy \r\nAcheteur / Buyer\r\nJanssens-Desmet NV\r\nThomassteeg 6, 7645 Gent, Belgium \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-4865/26\r\nDate 2026-04-04\r\nDevise / Currency EUR\r\nIncoterm 2020 DDP Gent\r\nPaiement /\r\nPayment\r\nT/T 30 days after B/L date\r\nChargement /\r\nLoading\r\nGenova\r\nDestination Antwerp\r\nLig. Désignation / Description Orig. Qté U. P.U. EUR Montant EUR\r\n1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00\r\n2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32\r\nTotal EUR : 110 576,32\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Boldù s.r.l.\r\nRotonda Benussi, 591 Appartamento 4, 26865 Bologna, Italy\r\nPACKING LIST\r\nInvoice Ref. FC-4865/26\r\nDate 2026-04-04\r\nCONSIGNEE\r\nJanssens-Desmet NV\r\nThomassteeg 6, 7645 Gent, Belgium\r\nTERMS OF DELIVERY\r\nDDP Gent\r\nGenova to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Roasted coffee beans, whole IT 5 150 kg 515 5 150,00 kg 5 989,45 kg\r\n2 AC induction motor 0.55kW 3-phase IT 308 pcs 154 2 452,91 kg 2 594,54 kg\r\nTotal 669 CARTONS 7 602,91 kg 8 583,99 kg\r\nShipping marks: JANSSENS-DESMET / FC-4865/26\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nBoldù s.r.l.\r\nRotonda Benussi, 591 Appartamento 4, 26865 Bologna,\r\nItaly\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYBC7484741 \r\nCONSIGNEE\r\nJanssens-Desmet NV\r\nThomassteeg 6, 7645 Gent, Belgium\r\nNOTIFY PARTY\r\nCasier-Pieters CommV\r\nAnnysteeg 3, 8931 Gent, Belgium\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE KENSINGTON / 676S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nGenova\r\nPORT OF DISCHARGE\r\nAntwerp\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU5262993\r\nSEAL 2466818\r\nJANSSENS-DESMET /\r\nFC-4865/26\r\n669\r\nCARTONS\r\nSAID TO CONTAIN: Roasted coffee beans,\r\nwhole; AC induction motor 0.55kW 3-phase\r\n8 583,99 kg\r\nSHIPPED ON BOARD\r\n2026-04-08\r\nPLACE AND DATE OF ISSUE\r\nGenova, 2026-04-08\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1"
+    }
+  ]
+}

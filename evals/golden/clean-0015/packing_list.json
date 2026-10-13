@@ -1,0 +1,110 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0015",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-1008/26",
+    "date": "2026-03-09",
+    "seller": {
+      "name": "Ningbo Ruifeng Trading Co., Ltd.",
+      "address": [
+        "No. 334 Harbour Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Guillet",
+      "address": [
+        "3, rue de Perrin",
+        "48669 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "incoterm": "FOB",
+    "incoterm_place": "Qingdao",
+    "package_type": "CARTONS",
+    "total_packages": 1359,
+    "total_net_weight_kg": "23127.43",
+    "total_gross_weight_kg": "24939.37"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Running shoes, rubber sole, textile upper",
+      "country_of_origin": "CN",
+      "quantity": "4860",
+      "unit": "pairs",
+      "packages": 405,
+      "net_weight_kg": "3868.56",
+      "gross_weight_kg": "4384.30"
+    },
+    {
+      "line_no": 2,
+      "description": "Corrugated shipping carton, 3-ply",
+      "country_of_origin": "CN",
+      "quantity": "18250",
+      "unit": "pcs",
+      "packages": 365,
+      "net_weight_kg": "10183.50",
+      "gross_weight_kg": "10741.07"
+    },
+    {
+      "line_no": 3,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "CN",
+      "quantity": "82",
+      "unit": "pcs",
+      "packages": 3,
+      "net_weight_kg": "1810.40",
+      "gross_weight_kg": "1871.42"
+    },
+    {
+      "line_no": 4,
+      "description": "Centrifugal water pump 1.1kW",
+      "country_of_origin": "CN",
+      "quantity": "300",
+      "unit": "pcs",
+      "packages": 300,
+      "net_weight_kg": "3624.60",
+      "gross_weight_kg": "3973.20"
+    },
+    {
+      "line_no": 5,
+      "description": "Rubber flip-flops, thong plugged into the sole",
+      "country_of_origin": "CN",
+      "quantity": "8880",
+      "unit": "pairs",
+      "packages": 148,
+      "net_weight_kg": "1598.40",
+      "gross_weight_kg": "1731.90"
+    },
+    {
+      "line_no": 6,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "CN",
+      "quantity": "281",
+      "unit": "pcs",
+      "packages": 71,
+      "net_weight_kg": "1733.77",
+      "gross_weight_kg": "1844.07"
+    },
+    {
+      "line_no": 7,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "CN",
+      "quantity": "6700",
+      "unit": "pcs",
+      "packages": 67,
+      "net_weight_kg": "308.20",
+      "gross_weight_kg": "393.41"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Bùi Tập Đoàn · Số 5/88 Ngõ 53 Nguyễn Tất Thành · 43460 Hai Phong · Vietnam\r\nVan Leeuwen Buizen\r\nDuukpad 05\r\n2303 CE Utrecht\r\nNetherlands\r\nRechnungsnummer / Invoice no. RE-26-5405\r\nRechnungsdatum / Date 21.07.2026\r\nLieferbedingung / Incoterms® 2020 DDP Rotterdam\r\nZahlungsbedingung / Payment L/C at sight\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30\r\n2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 6,05 42.350,00\r\n3 Solar PV module 410W monocrystalline VN 143 pcs 83,83 11.987,69\r\n4 Green Arabica coffee beans, grade 1 VN 8.400 kg 3,03 25.452,00\r\nGesamtbetrag / Total 90.061,99 EUR\r\nVersand / Shipment: Hai Phong → Rotterdam. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Bùi Tập Đoàn\r\nSố 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong, Vietnam\r\nPACKING LIST\r\nInvoice Ref. RE-26-5405\r\nDate 21.07.2026\r\nCONSIGNEE\r\nVan Leeuwen Buizen\r\nDuukpad 05, 2303 CE Utrecht, Netherlands\r\nTERMS OF DELIVERY\r\nDDP Rotterdam\r\nHai Phong to Rotterdam\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg\r\n2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 175 1.946,00 kg 2.282,84 kg\r\n3 Solar PV module 410W monocrystalline VN 143 pcs 5 2.954,95 kg 3.079,15 kg\r\n4 Green Arabica coffee beans, grade 1 VN 8.400 kg 140 8.400,00 kg 8.782,20 kg\r\nTotal 611 CARTONS 16.120,74 kg 17.491,19 kg\r\nShipping marks: VAN / RE-26-5405\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nBùi Tập Đoàn\r\nSố 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong,\r\nVietnam\r\nHAPAG-LLOYD\r\nBILL OF LADING\r\nB/L NO.\r\nHLCUVG7865925 \r\nCONSIGNEE\r\nVan Leeuwen Buizen\r\nDuukpad 05, 2303 CE Utrecht, Netherlands\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nHAPAG-LLOYD ZEPHYR / 468S\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nHai Phong\r\nPORT OF DISCHARGE\r\nRotterdam\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nHLCU3473350\r\nSEAL\r\n4920681\r\nVAN /\r\nRE-26-5405\r\n614\r\nCARTONS\r\nSAID TO CONTAIN: Plastic storage box 30L with\r\nlid; Men's woven cotton shirt, long sleeve; Solar\r\nPV module 410W monocrystalline; Green Arabica\r\ncoffee beans, grade 1\r\n17.491,19 kg\r\nSHIPPED ON BOARD\r\n31.07.2026\r\nPLACE AND DATE OF ISSUE\r\nHai Phong, 31.07.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: HAPAG-LLOYD. \r\nPage 1 of 1"
+    }
+  ]
+}

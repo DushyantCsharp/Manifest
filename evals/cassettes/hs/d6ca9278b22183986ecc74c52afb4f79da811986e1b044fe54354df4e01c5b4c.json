@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d6ca9278b22183986ecc74c52afb4f79da811986e1b044fe54354df4e01c5b4c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Bath towel 70x140, terry cotton\nCountry of origin: PK\n\nChoose the chapter that covers these goods. Options:\n- 63: Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n    contains 630260: Kitchen and toilet linen; of terry towelling or similar terry fabrics, of cotton\n    contains 630291: Toilet and kitchen linen; of cotton, excluding terry towelling or similar terry fabrics\n- 58: Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery\n    contains 580220: Fabrics; terry towelling and similar woven terry fabrics, of textile materials, excluding cotton, excluding narrow fabrics of heading no. 5806\n    contains 580210: Fabrics; terry towelling and similar woven terry fabrics, of cotton, whether bleached or unbleached, excluding narrow fabrics of heading no. 5806\n    contains 580610: Fabrics; woven pile (including terry towelling and similar terry fabrics) and chenille fabrics (excluding goods of heading 5807)\n- 60: Fabrics; knitted or crocheted\n    contains 600121: Fabrics; looped pile fabrics, of cotton, knitted or crocheted\n    contains 600191: Fabrics; pile fabrics (excluding long pile and loop pile), of cotton, knitted or crocheted\n    contains 600129: Fabrics; looped pile fabrics, of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 600199: Fabrics; pile fabrics (excluding long pile and loop pile), of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 600110: Fabrics; long pile fabrics, knitted or crocheted\n- 96: Miscellaneous manufactured articles\n    contains 961900: Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material\n- 73: Iron or steel articles\n    contains 732429: Iron (other than cast) or steel; baths\n    contains 732421: Cast iron, baths, whether or not enamelled\n    contains 732490: Iron or steel; sanitary ware and parts thereof, excluding sinks, wash basins and baths\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481820: Paper articles; handkerchiefs, cleansing or facial tissues and towels\n    contains 480300: Tissue, towel, napkin stock or similar; for household or sanitary use, cellulose, wadding webs of cellulose fibres, in rolls exceeding 36cm in width or rectangular sheets with one side more than 36cm in unfolded state\n- 39: Plastics and articles thereof\n    contains 392210: Plastics; baths, shower-baths, sinks and wash-basins\n- 33: Essential oils and resinoids; perfumery, cosmetic or toilet preparations\n    contains 330730: Perfumery, cosmetic or toilet preparations; perfumed bath salts and other bath preparations\n- 69: Ceramic products\n    contains 691010: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of porcelain or china\n    contains 691090: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of other than porcelain or china\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3efc06f7bb47b56bb847a389706baa65c0b7abe6a89f7d6595c280973ba00df4",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "63",
+      "cited": [
+        "63"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1011,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

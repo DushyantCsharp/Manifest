@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "key": "3261e974c660926bdb366295599e6ed1f5d0583778dfafb23da54c6c2217ef56",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nFátima Quintanilla Ferreras S.L.\r\nCalle Albert Ribes 8, 33664 Manta, Ecuador\r\nPACKING LIST\r\nInvoice Ref. 2026/8750\r\nDate September 21, 2026\r\nCONSIGNEE\r\nBrown-Rose\r\n132 Wood Bypass, 68462 Newark, United States\r\nTERMS OF DELIVERY\r\nFOB Guayaquil\r\nGuayaquil to New York\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb\r\n2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb\r\n3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb\r\n4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb\r\nTotal 470 CARTONS 34,912.8 lb 37,556.4 lb\r\nShipping marks: BROWN-ROSE / 2026/8750\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Brown-Rose",
+        "value": "Brown-Rose"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date September 21, 2026",
+        "value": "September 21, 2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FOB Guayaquil",
+        "value": "FOB Guayaquil"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. 2026/8750",
+        "value": "2026/8750"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "IT"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "Centrifugal water pump 1.1kW"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "3,516.1 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "3,019.6 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "120"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "value": "Split air conditioner 12000 BTU"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "value": "9,392.8 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "value": "8,635.3 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "value": "102"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "value": "ET"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "value": "Green Arabica coffee beans, grade 1"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "value": "20,819.6 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "value": "19,709.3 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "value": "8,940"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "value": "Inflatable beach ball 40cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "value": "2,842.6 lb"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "value": "2,647.3 lb"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "value": "15,800"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Fátima Quintanilla Ferreras S.L.",
+        "value": "Fátima Quintanilla Ferreras S.L."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "value": "37,556.4 lb"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "value": "34,912.8 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "value": "470"
+      }
+    },
+    "input_tokens": 411,
+    "latency_ms": 0,
+    "output_tokens": 1150
+  }
+}

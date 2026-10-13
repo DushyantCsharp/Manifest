@@ -1,0 +1,123 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0002",
+  "seed": 2251924069,
+  "layout": "eu",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "RE-26-8158",
+    "invoice_date": "2026-04-26",
+    "seller": {
+      "name": "Toyota Otomotiv",
+      "address": [
+        "1009 Korutürk Ways",
+        "26238 Bursa",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Dehmel",
+      "address": [
+        "Zimmerweg 75/88",
+        "37966 Hamburg",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "currency": "EUR",
+    "incoterm": "CPT",
+    "incoterm_place": "Düsseldorf",
+    "payment_terms": "T/T in advance",
+    "total_amount": "71400.50",
+    "bl_number": "COSUSE4376401",
+    "notify_party": null,
+    "carrier": "COSCO",
+    "vessel": "COSCO ORION",
+    "voyage": "829W",
+    "port_of_loading": "Izmir",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-05-01",
+    "container_number": "COSU4044857",
+    "seal_number": "5443485",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 620,
+    "total_gross_weight_kg": "12951.57",
+    "goods_description": "SAID TO CONTAIN: Terry cotton bath towel 70x140; Aluminium household foil 12 micron; Women's cotton denim trousers",
+    "total_net_weight_kg": "11825.43",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Terry cotton bath towel 70x140",
+        "country_of_origin": "TR",
+        "quantity": "8240",
+        "unit": "pcs",
+        "unit_price": "5.02",
+        "amount": "41364.80",
+        "hs_code": "630260",
+        "packages": 206,
+        "net_weight_kg": "3749.20",
+        "gross_weight_kg": "4197.00"
+      },
+      {
+        "line_no": 2,
+        "description": "Aluminium household foil 12 micron",
+        "country_of_origin": "TR",
+        "quantity": "7460",
+        "unit": "kg",
+        "unit_price": "2.91",
+        "amount": "21708.60",
+        "hs_code": "760711",
+        "packages": 373,
+        "net_weight_kg": "7460.00",
+        "gross_weight_kg": "8064.26"
+      },
+      {
+        "line_no": 3,
+        "description": "Women's cotton denim trousers",
+        "country_of_origin": "TR",
+        "quantity": "1230",
+        "unit": "pcs",
+        "unit_price": "6.77",
+        "amount": "8327.10",
+        "hs_code": "620462",
+        "packages": 41,
+        "net_weight_kg": "616.23",
+        "gross_weight_kg": "690.31"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [
+    {
+      "mutation": "package_count",
+      "kind": "value_mismatch",
+      "field": "total_packages",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "packing_list": 620,
+        "bill_of_lading": 617
+      }
+    },
+    {
+      "mutation": "consignee",
+      "kind": "value_mismatch",
+      "field": "buyer.name",
+      "line_no": null,
+      "description": null,
+      "values": {
+        "commercial_invoice": "Dehmel",
+        "bill_of_lading": "Gotthard GmbH & Co. OHG"
+      }
+    }
+  ],
+  "variant": "mismatch"
+}

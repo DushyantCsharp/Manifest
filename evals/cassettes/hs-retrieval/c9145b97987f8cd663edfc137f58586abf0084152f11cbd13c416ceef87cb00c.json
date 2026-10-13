@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "c9145b97987f8cd663edfc137f58586abf0084152f11cbd13c416ceef87cb00c",
+  "retriever": "offline-lexical",
+  "query": "Cordless stick vacuum cleaner, 0.6L dust container, 150W motor origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "850811",
+      "description": "Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "850860",
+      "description": "Vacuum cleaners, other than with a self-contained electric motor",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "850819",
+      "description": "Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "850980",
+      "description": "Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "850870",
+      "description": "Parts of vacuum cleaners",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "850990",
+      "description": "Electro-mechanical domestic appliances; parts for the appliances of heading no. 8509",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "850940",
+      "description": "Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "851711",
+      "description": "Line telephone sets with cordless handsets",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "790310",
+      "description": "Zinc dust",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "660199",
+      "description": "Umbrellas and sun umbrellas; n.e.c. in heading no. 6601 (including walking stick umbrellas)",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "660110",
+      "description": "Umbrellas and sun umbrellas; garden or similar umbrellas",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "660200",
+      "description": "Walking-sticks, seat-sticks, whips, riding-crops and the like",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "710510",
+      "description": "Stones; precious and semi-precious, dust and powder, of diamonds",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "560130",
+      "description": "Wadding; textile flock and dust and mill neps",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "710590",
+      "description": "Stones; precious and semi-precious, dust and powder, of natural or synthetic precious or semi-precious stones, excluding diamonds",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "660191",
+      "description": "Umbrellas and sun umbrellas; having a telescopic shaft, (excluding garden or similar umbrellas)",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "660320",
+      "description": "Umbrella frames; including frames mounted on shafts (sticks)",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "820900",
+      "description": "Tools; plates, sticks, tips and the like for tools, unmounted, of sintered metal carbides or cermets",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "841451",
+      "description": "Fans; table, floor, wall, window, ceiling or roof fans, with a self-contained electric motor of an output not exceeding 125W",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "411520",
+      "description": "Leather; parings and other waste, of leather or composition leather; not suitable for the manufacture of leather articles; leather dust, powder and flour",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

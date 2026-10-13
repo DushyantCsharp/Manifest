@@ -1,0 +1,79 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0013",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202670-4033",
+    "invoice_date": "2026-07-03",
+    "seller": {
+      "name": "Ningbo Ruifeng Manufacturing Co., Ltd.",
+      "address": [
+        "No. 205 Industrial Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Koninklijke d' Heripon",
+      "address": [
+        "Yassinring 32",
+        "9927DN Tilburg",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "currency": "USD",
+    "incoterm": "FCA",
+    "incoterm_place": "Shenzhen",
+    "payment_terms": "T/T in advance",
+    "total_amount": "114236.79"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Rubber flip-flops, thong plugged into the sole",
+      "country_of_origin": "CN",
+      "quantity": "16500",
+      "unit": "pairs",
+      "unit_price": "1.93",
+      "amount": "31845.00",
+      "hs_code": "640220"
+    },
+    {
+      "line_no": 2,
+      "description": "Corrugated shipping carton, 3-ply",
+      "country_of_origin": "CN",
+      "quantity": "27100",
+      "unit": "pcs",
+      "unit_price": "0.5514",
+      "amount": "14942.94",
+      "hs_code": "481910"
+    },
+    {
+      "line_no": 3,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "CN",
+      "quantity": "144",
+      "unit": "pcs",
+      "unit_price": "147.94",
+      "amount": "21303.36",
+      "hs_code": "871200"
+    },
+    {
+      "line_no": 4,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "CN",
+      "quantity": "219",
+      "unit": "pcs",
+      "unit_price": "210.71",
+      "amount": "46145.49",
+      "hs_code": "852872"
+    }
+  ]
+}

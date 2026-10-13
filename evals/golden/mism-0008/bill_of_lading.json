@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0008",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYDC4185685",
+    "seller": {
+      "name": "Chonburi Sukjai Industrial Co., Ltd.",
+      "address": [
+        "No. 114 Industrial Road",
+        "Chonburi",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Cohen-Johnson",
+      "address": [
+        "Unit 12 46 Moore Lees",
+        "2665 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "notify_party": {
+      "name": "Hernandez-Coleman",
+      "address": [
+        "73 May Wynd",
+        "2074 Melbourne",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE AURORA",
+    "voyage": "520W",
+    "port_of_loading": "Bangkok",
+    "port_of_discharge": "Sydney",
+    "shipped_on_board": "2026-07-07",
+    "container_number": "ONEU6963299",
+    "seal_number": "8282568",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1098,
+    "total_gross_weight_kg": "11236.93",
+    "goods_description": "SAID TO CONTAIN: Canned skipjack tuna in oil, 185g; Passenger car tyre 205/55R16"
+  },
+  "line_items": []
+}

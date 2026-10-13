@@ -1,0 +1,121 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0003",
+  "seed": 2974118588,
+  "layout": "exporter",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "EX202620-1238",
+    "invoice_date": "2026-05-27",
+    "seller": {
+      "name": "PD Prastuti Tbk",
+      "address": [
+        "Jl. Rajawali Barat No. 9",
+        "87451 Semarang",
+        "Indonesia"
+      ],
+      "country": "ID"
+    },
+    "buyer": {
+      "name": "Peak-IT",
+      "address": [
+        "Bastiaanbaan 753",
+        "7737CR Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Rotterdam",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "57145.42",
+    "bl_number": "ONEYSL3197817",
+    "notify_party": {
+      "name": "Movares Groep",
+      "address": [
+        "Lottelaan 652",
+        "4935GX Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE TRITON",
+    "voyage": "740W",
+    "port_of_loading": "Tanjung Perak",
+    "port_of_discharge": "Rotterdam",
+    "shipped_on_board": "2026-06-07",
+    "container_number": "ONEU6263401",
+    "seal_number": "1294982",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1266,
+    "total_gross_weight_kg": "22803.52",
+    "goods_description": "SAID TO CONTAIN: Plastic storage box 30L with lid; Porcelain dinner plate 27cm; Roasted coffee beans, whole; LDPE film-grade granules",
+    "total_net_weight_kg": "20514.06",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Plastic storage box 30L with lid",
+        "country_of_origin": "CN",
+        "quantity": "5830",
+        "unit": "pcs",
+        "unit_price": "1.71",
+        "amount": "9969.30",
+        "hs_code": "392490",
+        "packages": 583,
+        "net_weight_kg": "7474.06",
+        "gross_weight_kg": "8530.77"
+      },
+      {
+        "line_no": 2,
+        "description": "Porcelain dinner plate 27cm",
+        "country_of_origin": "CN",
+        "quantity": "2448",
+        "unit": "pcs",
+        "unit_price": "2.54",
+        "amount": "6217.92",
+        "hs_code": "691110",
+        "packages": 102,
+        "net_weight_kg": "1530.00",
+        "gross_weight_kg": "1737.57"
+      },
+      {
+        "line_no": 3,
+        "description": "Roasted coffee beans, whole",
+        "country_of_origin": "DE",
+        "quantity": "2010",
+        "unit": "kg",
+        "unit_price": "15.32",
+        "amount": "30793.20",
+        "hs_code": "090121",
+        "packages": 201,
+        "net_weight_kg": "2010.00",
+        "gross_weight_kg": "2307.48"
+      },
+      {
+        "line_no": 4,
+        "description": "LDPE film-grade granules",
+        "country_of_origin": "KR",
+        "quantity": "9500",
+        "unit": "kg",
+        "unit_price": "1.07",
+        "amount": "10165.00",
+        "hs_code": "390110",
+        "packages": 380,
+        "net_weight_kg": "9500.00",
+        "gross_weight_kg": "10227.70"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

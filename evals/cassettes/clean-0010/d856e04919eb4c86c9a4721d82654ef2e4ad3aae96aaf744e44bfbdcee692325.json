@@ -1,0 +1,434 @@
+{
+  "format": 1,
+  "key": "d856e04919eb4c86c9a4721d82654ef2e4ad3aae96aaf744e44bfbdcee692325",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nVendeur / Seller\r\nNapolitano, Cuomo e Foa SPA\r\nStrada Mariano, 2, 89047 Prato, Italy \r\nAcheteur / Buyer\r\nBaudry et Fils\r\n64, rue de Delaunay, 97235 Paris, France \r\nFACTURE COMMERCIALE\r\nCOMMERCIAL INVOICE\r\nN° / No. FC-1980/26\r\nDate 2026-05-04\r\nDevise / Currency EUR\r\nIncoterm 2020 CFR Marseille\r\nPaiement /\r\nPayment\r\n30% deposit, 70% against\r\ncopy of B/L\r\nChargement /\r\nLoading\r\nGenova\r\nDestination Marseille\r\nLig. Désignation / Description Orig. Qté U. P.U. EUR Montant EUR\r\n1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39\r\n2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63\r\n3 Red wine, 0.75L bottle IT 2 914 pcs 11,47 33 423,58\r\n4 Cotton knitted pullover CN 5 424 pcs 11,57 62 755,68\r\n5 Centrifugal water pump 1.1kW IT 95 pcs 118,25 11 233,75\r\n6 Inflatable beach ball 40cm CN 11 400 pcs 0,3511 4 002,54\r\n7 Hair dryer 2200W ionic CN 2 480 pcs 8,37 20 757,60\r\n8 Terry cotton bath towel 70x140 IN 8 280 pcs 3,90 32 292,00\r\n9 LED bulb E27 9W warm white CN 6 400 pcs 1,48 9 472,00\r\n10 Stainless cutlery set, 24 pieces CN 2 770 sets 18,56 51 411,20\r\nTotal EUR : 236 799,37\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Baudry et Fils",
+        "value": "Baudry et Fils"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Devise / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Incoterm 2020 CFR Marseille",
+        "value": "CFR Marseille"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-05-04",
+        "value": "2026-05-04"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "N° / No. FC-1980/26",
+        "value": "FC-1980/26"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "4 361,39"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Strada Mariano, 2, 89047 Prato, Italy",
+            "value": "Italy"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "Polarized sunglasses"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "1 279"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "3,41"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "7 089,63"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "CN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "Electric kettle 1.7L stainless"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "843"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "8,41"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 11,47 33 423,58",
+            "value": "33 423,58"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Strada Mariano, 2, 89047 Prato, Italy",
+            "value": "Italy"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 11,47 33 423,58",
+            "value": "Red wine, 0.75L bottle"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 11,47 33 423,58",
+            "value": "2 914"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 11,47 33 423,58",
+            "value": "11,47"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 11,57 62 755,68",
+            "value": "62 755,68"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "CN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 11,57 62 755,68",
+            "value": "Cotton knitted pullover"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 11,57 62 755,68",
+            "value": "5 424"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 11,57 62 755,68",
+            "value": "11,57"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 118,25 11 233,75",
+            "value": "11 233,75"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "Strada Mariano, 2, 89047 Prato, Italy",
+            "value": "Italy"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 118,25 11 233,75",
+            "value": "Centrifugal water pump 1.1kW"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 118,25 11 233,75",
+            "value": "95"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 118,25 11 233,75",
+            "value": "118,25"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 0,3511 4 002,54",
+            "value": "4 002,54"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "CN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 0,3511 4 002,54",
+            "value": "Inflatable beach ball 40cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 0,3511 4 002,54",
+            "value": "11 400"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 0,3511 4 002,54",
+            "value": "0,3511"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 8,37 20 757,60",
+            "value": "20 757,60"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "CN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 8,37 20 757,60",
+            "value": "Hair dryer 2200W ionic"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 8,37 20 757,60",
+            "value": "2 480"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 8,37 20 757,60",
+            "value": "8,37"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 3,90 32 292,00",
+            "value": "32 292,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 3,90 32 292,00",
+            "value": "IN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 3,90 32 292,00",
+            "value": "Terry cotton bath towel 70x140"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 3,90 32 292,00",
+            "value": "8 280"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 3,90 32 292,00",
+            "value": "3,90"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 1,48 9 472,00",
+            "value": "9 472,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "CN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 1,48 9 472,00",
+            "value": "LED bulb E27 9W warm white"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 1,48 9 472,00",
+            "value": "6 400"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Polarized sunglasses IT 1 279 pcs 3,41 4 361,39",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 1,48 9 472,00",
+            "value": "1,48"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 18,56 51 411,20",
+            "value": "51 411,20"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 8,41 7 089,63",
+            "value": "CN"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 18,56 51 411,20",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 18,56 51 411,20",
+            "value": "2 770"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 18,56 51 411,20",
+            "value": "sets"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 18,56 51 411,20",
+            "value": "18,56"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Napolitano, Cuomo e Foa SPA",
+        "value": "Napolitano, Cuomo e Foa SPA"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total EUR : 236 799,37",
+        "value": "236 799,37"
+      }
+    },
+    "input_tokens": 508,
+    "latency_ms": 0,
+    "output_tokens": 2319
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0005",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.53",
+    "noise_sigma": 7,
+    "salt_pepper": "0.0014",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-5883/26",
+    "date": "2026-09-19",
+    "seller": {
+      "name": "Qingdao Haixing Import & Export Co., Ltd.",
+      "address": [
+        "No. 252 Export Processing Zone",
+        "Qingdao",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Bousquet",
+      "address": [
+        "27, rue de Le Roux",
+        "84775 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "incoterm": "EXW",
+    "incoterm_place": "Guangzhou",
+    "package_type": "CARTONS",
+    "total_packages": 1923,
+    "total_net_weight_kg": "19935.95",
+    "total_gross_weight_kg": "23044.67"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "2021",
+      "unit": "pcs",
+      "packages": 169,
+      "net_weight_kg": "2437.33",
+      "gross_weight_kg": "2854.29"
+    },
+    {
+      "line_no": 2,
+      "description": "Upholstered office chair, steel base",
+      "country_of_origin": "CN",
+      "quantity": "374",
+      "unit": "pcs",
+      "packages": 374,
+      "net_weight_kg": "4752.04",
+      "gross_weight_kg": "5196.35"
+    },
+    {
+      "line_no": 3,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "CN",
+      "quantity": "30",
+      "unit": "pcs",
+      "packages": 15,
+      "net_weight_kg": "227.94",
+      "gross_weight_kg": "258.98"
+    },
+    {
+      "line_no": 4,
+      "description": "Running shoes, rubber sole, textile upper",
+      "country_of_origin": "CN",
+      "quantity": "600",
+      "unit": "pairs",
+      "packages": 50,
+      "net_weight_kg": "394.80",
+      "gross_weight_kg": "428.54"
+    },
+    {
+      "line_no": 5,
+      "description": "Passenger car tyre 205/55R16",
+      "country_of_origin": "CN",
+      "quantity": "899",
+      "unit": "pcs",
+      "packages": 899,
+      "net_weight_kg": "8089.20",
+      "gross_weight_kg": "9727.96"
+    },
+    {
+      "line_no": 6,
+      "description": "Plush toy bear 30cm",
+      "country_of_origin": "CN",
+      "quantity": "912",
+      "unit": "pcs",
+      "packages": 19,
+      "net_weight_kg": "268.13",
+      "gross_weight_kg": "288.03"
+    },
+    {
+      "line_no": 7,
+      "description": "Plastic storage box 30L with lid",
+      "country_of_origin": "CN",
+      "quantity": "3900",
+      "unit": "pcs",
+      "packages": 390,
+      "net_weight_kg": "3591.90",
+      "gross_weight_kg": "4103.41"
+    },
+    {
+      "line_no": 8,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "CN",
+      "quantity": "28",
+      "unit": "pcs",
+      "packages": 7,
+      "net_weight_kg": "174.61",
+      "gross_weight_kg": "187.11"
+    }
+  ]
+}

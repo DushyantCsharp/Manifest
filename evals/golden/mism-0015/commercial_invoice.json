@@ -1,0 +1,75 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0015",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-3926/26",
+    "invoice_date": "2026-09-19",
+    "seller": {
+      "name": "Luna Losada Valverde S.A.",
+      "address": [
+        "Urbanización Efraín Mayoral 87 Piso 0 ",
+        "35972 Jaén",
+        "Spain"
+      ],
+      "country": "ES"
+    },
+    "buyer": {
+      "name": "Gielen-Wouters NV",
+      "address": [
+        "Julialei 856",
+        "8637 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "USD",
+    "incoterm": "EXW",
+    "incoterm_place": "Barcelona",
+    "payment_terms": "Cash against documents",
+    "total_amount": "397158.80"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "432",
+      "unit": "pcs",
+      "unit_price": "10.23",
+      "amount": "4419.36"
+    },
+    {
+      "line_no": 2,
+      "description": "Frozen vannamei shrimp, peeled",
+      "country_of_origin": "EC",
+      "quantity": "15540",
+      "unit": "kg",
+      "unit_price": "8.03",
+      "amount": "124786.20"
+    },
+    {
+      "line_no": 3,
+      "description": "Laptop computer 14in, 16GB RAM",
+      "country_of_origin": "VN",
+      "quantity": "284",
+      "unit": "pcs",
+      "unit_price": "874.49",
+      "amount": "248355.16"
+    },
+    {
+      "line_no": 4,
+      "description": "Plastic storage box 30L with lid",
+      "country_of_origin": "VN",
+      "quantity": "1790",
+      "unit": "pcs",
+      "unit_price": "2.21",
+      "amount": "3955.90"
+    }
+  ]
+}

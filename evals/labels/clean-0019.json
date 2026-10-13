@@ -1,0 +1,82 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0019",
+  "seed": 4285502411,
+  "layout": "letterhead",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "2026/6840",
+    "invoice_date": "2026-09-10",
+    "seller": {
+      "name": "Korpal and Sons",
+      "address": [
+        "06, Gola Zila",
+        "914197 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Stokes, Woods and Austin",
+      "address": [
+        "Flat 38, Adams Fort",
+        "CM3 1TZ Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Manchester",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "42451.50",
+    "bl_number": "ONEYBV5709577",
+    "notify_party": {
+      "name": "Smith-King",
+      "address": [
+        "Studio 03d, Terence Plain",
+        "S0S 3BU Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE TAGE",
+    "voyage": "351S",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-09-21",
+    "container_number": "ONEU0138357",
+    "seal_number": "5140503",
+    "freight_terms": "PREPAID",
+    "package_type": "BAGS",
+    "total_packages": 273,
+    "total_gross_weight_kg": "14984.97",
+    "goods_description": "SAID TO CONTAIN: Combed cotton yarn Ne 30/1",
+    "total_net_weight_kg": "13650.00",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Combed cotton yarn Ne 30/1",
+        "country_of_origin": "IN",
+        "quantity": "13650",
+        "unit": "kg",
+        "unit_price": "3.11",
+        "amount": "42451.50",
+        "hs_code": "520523",
+        "packages": 273,
+        "net_weight_kg": "13650.00",
+        "gross_weight_kg": "14984.97"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "a58b9d8bd7345af598d5a1a1a43c8ace75931563e407695d8be01ad82850cf8c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Sultana raisins, dried grapes\nCountry of origin: TR\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons > 0806 Grapes; fresh or dried\n\nChoose the subheading that covers these goods. Options:\n- 080620: Fruit, edible; grapes, dried\n- 080610: Fruit, edible; grapes, fresh\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "18bc3039bc719d490dd905839949805679f2c03546450f4d83ea20951448a565",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "080620",
+      "cited": [
+        "080620"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 302,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

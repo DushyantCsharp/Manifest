@@ -1,0 +1,121 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0016",
+  "seed": 657657655,
+  "layout": "us",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "INV-2026-99446",
+    "invoice_date": "2026-06-15",
+    "seller": {
+      "name": "Ningbo Tianyi Industrial Co., Ltd.",
+      "address": [
+        "No. 13 Industrial Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Johnson, Norton and Hernandez",
+      "address": [
+        "831 Joshua Glen",
+        "77798 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "183138.94",
+    "bl_number": "MEDUPS4423485",
+    "notify_party": {
+      "name": "Perkins Inc",
+      "address": [
+        "4466 Thomas River",
+        "81676 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "MSC",
+    "vessel": "MSC TAGE",
+    "voyage": "160W",
+    "port_of_loading": "Shenzhen",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-06-18",
+    "container_number": "MEDU2580683",
+    "seal_number": "3098887",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1385,
+    "total_gross_weight_kg": "14852.39",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Milk chocolate bars 100g; Upholstered office chair, steel base; LED television 55in 4K",
+    "total_net_weight_kg": "13267.08",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Leather handbag with shoulder strap",
+        "country_of_origin": "CN",
+        "quantity": "1918",
+        "unit": "pcs",
+        "unit_price": "51.06",
+        "amount": "97933.08",
+        "hs_code": "420221",
+        "packages": 192,
+        "net_weight_kg": "1684.00",
+        "gross_weight_kg": "1876.22"
+      },
+      {
+        "line_no": 2,
+        "description": "Milk chocolate bars 100g",
+        "country_of_origin": "CH",
+        "quantity": "46983",
+        "unit": "pcs",
+        "unit_price": "0.9961",
+        "amount": "46799.77",
+        "hs_code": "180632",
+        "packages": 784,
+        "net_weight_kg": "4933.22",
+        "gross_weight_kg": "5985.64"
+      },
+      {
+        "line_no": 3,
+        "description": "Upholstered office chair, steel base",
+        "country_of_origin": "CN",
+        "quantity": "328",
+        "unit": "pcs",
+        "unit_price": "54.66",
+        "amount": "17928.48",
+        "hs_code": "940171",
+        "packages": 328,
+        "net_weight_kg": "5513.35",
+        "gross_weight_kg": "5788.32"
+      },
+      {
+        "line_no": 4,
+        "description": "LED television 55in 4K",
+        "country_of_origin": "CN",
+        "quantity": "81",
+        "unit": "pcs",
+        "unit_price": "252.81",
+        "amount": "20477.61",
+        "hs_code": "852872",
+        "packages": 81,
+        "net_weight_kg": "1136.51",
+        "gross_weight_kg": "1202.21"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

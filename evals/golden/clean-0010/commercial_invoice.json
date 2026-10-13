@@ -1,0 +1,129 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0010",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-1980/26",
+    "invoice_date": "2026-05-04",
+    "seller": {
+      "name": "Napolitano, Cuomo e Foa SPA",
+      "address": [
+        "Strada Mariano, 2",
+        "89047 Prato",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Baudry et Fils",
+      "address": [
+        "64, rue de Delaunay",
+        "97235 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "CFR",
+    "incoterm_place": "Marseille",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "236799.37"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "1279",
+      "unit": "pcs",
+      "unit_price": "3.41",
+      "amount": "4361.39"
+    },
+    {
+      "line_no": 2,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "843",
+      "unit": "pcs",
+      "unit_price": "8.41",
+      "amount": "7089.63"
+    },
+    {
+      "line_no": 3,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "IT",
+      "quantity": "2914",
+      "unit": "pcs",
+      "unit_price": "11.47",
+      "amount": "33423.58"
+    },
+    {
+      "line_no": 4,
+      "description": "Cotton knitted pullover",
+      "country_of_origin": "CN",
+      "quantity": "5424",
+      "unit": "pcs",
+      "unit_price": "11.57",
+      "amount": "62755.68"
+    },
+    {
+      "line_no": 5,
+      "description": "Centrifugal water pump 1.1kW",
+      "country_of_origin": "IT",
+      "quantity": "95",
+      "unit": "pcs",
+      "unit_price": "118.25",
+      "amount": "11233.75"
+    },
+    {
+      "line_no": 6,
+      "description": "Inflatable beach ball 40cm",
+      "country_of_origin": "CN",
+      "quantity": "11400",
+      "unit": "pcs",
+      "unit_price": "0.3511",
+      "amount": "4002.54"
+    },
+    {
+      "line_no": 7,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "2480",
+      "unit": "pcs",
+      "unit_price": "8.37",
+      "amount": "20757.60"
+    },
+    {
+      "line_no": 8,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "IN",
+      "quantity": "8280",
+      "unit": "pcs",
+      "unit_price": "3.90",
+      "amount": "32292.00"
+    },
+    {
+      "line_no": 9,
+      "description": "LED bulb E27 9W warm white",
+      "country_of_origin": "CN",
+      "quantity": "6400",
+      "unit": "pcs",
+      "unit_price": "1.48",
+      "amount": "9472.00"
+    },
+    {
+      "line_no": 10,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "CN",
+      "quantity": "2770",
+      "unit": "sets",
+      "unit_price": "18.56",
+      "amount": "51411.20"
+    }
+  ]
+}

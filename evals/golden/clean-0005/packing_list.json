@@ -1,0 +1,110 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0005",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-4994/26",
+    "date": "2026-05-26",
+    "seller": {
+      "name": "Prabhakar LLC",
+      "address": [
+        "87/47, Khalsa Ganj",
+        "252500 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Voisin S.A.",
+      "address": [
+        "8, boulevard Laurence Barthelemy",
+        "97325 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Tiruppur",
+    "package_type": "CARTONS",
+    "total_packages": 952,
+    "total_net_weight_kg": "22491.25",
+    "total_gross_weight_kg": "24673.76"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+      "country_of_origin": "IN",
+      "quantity": "14600",
+      "unit": "pcs",
+      "packages": 292,
+      "net_weight_kg": "2379.80",
+      "gross_weight_kg": "2809.49"
+    },
+    {
+      "line_no": 2,
+      "description": "Black tea, CTC, bulk",
+      "country_of_origin": "IN",
+      "quantity": "14600",
+      "unit": "kg",
+      "packages": 292,
+      "net_weight_kg": "14600.00",
+      "gross_weight_kg": "15782.60"
+    },
+    {
+      "line_no": 3,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "IN",
+      "quantity": "5504",
+      "unit": "pcs",
+      "packages": 138,
+      "net_weight_kg": "1535.62",
+      "gross_weight_kg": "1641.56"
+    },
+    {
+      "line_no": 4,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "888",
+      "unit": "pcs",
+      "packages": 74,
+      "net_weight_kg": "1133.98",
+      "gross_weight_kg": "1296.79"
+    },
+    {
+      "line_no": 5,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "715",
+      "unit": "sets",
+      "packages": 72,
+      "net_weight_kg": "1013.87",
+      "gross_weight_kg": "1131.05"
+    },
+    {
+      "line_no": 6,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "IN",
+      "quantity": "200",
+      "unit": "pcs",
+      "packages": 5,
+      "net_weight_kg": "43.60",
+      "gross_weight_kg": "51.33"
+    },
+    {
+      "line_no": 7,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "IN",
+      "quantity": "3136",
+      "unit": "pcs",
+      "packages": 79,
+      "net_weight_kg": "1784.38",
+      "gross_weight_kg": "1960.94"
+    }
+  ]
+}

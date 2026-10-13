@@ -1,0 +1,116 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0013",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "2.9",
+    "noise_sigma": 9,
+    "salt_pepper": "0.0023",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202675-4069",
+    "date": "2026-07-14",
+    "seller": {
+      "name": "Lahore Crescent Industrial Co., Ltd.",
+      "address": [
+        "No. 353 Ring Road",
+        "Lahore",
+        "Pakistan"
+      ],
+      "country": "PK"
+    },
+    "buyer": {
+      "name": "Weeks-Gonzalez",
+      "address": [
+        "29/5 Robert Grove",
+        "3849 Brisbane",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "incoterm": "FOB",
+    "incoterm_place": "Karachi",
+    "package_type": "CARTONS",
+    "total_packages": 1504,
+    "total_net_weight_kg": "17252.06",
+    "total_gross_weight_kg": "19128.49"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Split air conditioner 12000 BTU",
+      "country_of_origin": "TH",
+      "quantity": "158",
+      "unit": "pcs",
+      "packages": 158,
+      "net_weight_kg": "6386.52",
+      "gross_weight_kg": "6740.14"
+    },
+    {
+      "line_no": 2,
+      "description": "Cotton knitted pullover",
+      "country_of_origin": "BD",
+      "quantity": "1121",
+      "unit": "pcs",
+      "packages": 47,
+      "net_weight_kg": "507.81",
+      "gross_weight_kg": "560.58"
+    },
+    {
+      "line_no": 3,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "MX",
+      "quantity": "236",
+      "unit": "pcs",
+      "packages": 236,
+      "net_weight_kg": "3880.78",
+      "gross_weight_kg": "4425.88"
+    },
+    {
+      "line_no": 4,
+      "description": "Nitrile examination gloves, box of 100",
+      "country_of_origin": "TH",
+      "quantity": "9250",
+      "unit": "sets",
+      "packages": 925,
+      "net_weight_kg": "4227.25",
+      "gross_weight_kg": "4892.11"
+    },
+    {
+      "line_no": 5,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "1008",
+      "unit": "pcs",
+      "packages": 84,
+      "net_weight_kg": "948.53",
+      "gross_weight_kg": "1076.98"
+    },
+    {
+      "line_no": 6,
+      "description": "Analog quartz wristwatch, steel case",
+      "country_of_origin": "JP",
+      "quantity": "818",
+      "unit": "pcs",
+      "packages": 17,
+      "net_weight_kg": "97.34",
+      "gross_weight_kg": "117.05"
+    },
+    {
+      "line_no": 7,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "KR",
+      "quantity": "148",
+      "unit": "pcs",
+      "packages": 37,
+      "net_weight_kg": "1203.83",
+      "gross_weight_kg": "1315.75"
+    }
+  ]
+}

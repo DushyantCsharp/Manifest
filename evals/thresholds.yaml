@@ -1,0 +1,55 @@
+# Gates for `make eval` (manifest_evals.run). Each metric needs `min` or `max`; a metric the
+# run couldn't compute fails its gate.
+#
+# The profile follows where the cassettes' answers came from:
+#   plumbing  any answer was seeded offline by the ground-truth oracle. The numbers prove the
+#             pipeline, scoring and calibration code; the bounds guard against regressions in
+#             that code and say nothing about a model. Latency and cost aren't gated: the
+#             oracle is instant and its token counts are estimates.
+#   model     every answer was recorded from a real model (`make eval-record`). These are the
+#             product targets: review them with the first real recording.
+
+# The auto-approve threshold is the lowest calibrated confidence whose precision reaches this
+# on the calibration split.
+target_precision: 0.99
+
+profiles:
+  plumbing:
+    field_accuracy_clean: {min: 1.0}
+    field_accuracy_mismatch: {min: 1.0}
+    field_accuracy_scanned: {min: 0.85}  # what OCR leaves a literal copier
+    line_item_f1: {min: 0.90}
+    reconciliation_recall: {min: 1.0}
+    false_alarm_rate_clean: {max: 0.0}  # text layers agree exactly
+    false_alarm_rate_scanned: {max: 0.80}  # OCR misreads disagree with the other documents
+    ece: {max: 0.05}
+    coverage_at_threshold: {min: 0.5}
+    precision_at_threshold: {min: 0.98}
+    # HS: offline BM25 retrieval bounds the stand-in model, which is right whenever the
+    # labelled code was retrieved.
+    hs_recall_at_20: {min: 0.80}
+    hs_accuracy_2: {min: 0.90}
+    hs_accuracy_4: {min: 0.85}
+    hs_accuracy_6: {min: 0.80}
+    hs_ece: {max: 0.15}
+
+  model:
+    field_accuracy: {min: 0.96}
+    field_accuracy_clean: {min: 0.98}
+    field_accuracy_scanned: {min: 0.90}
+    line_item_f1: {min: 0.97}
+    reconciliation_recall: {min: 0.95}
+    false_alarm_rate: {max: 0.10}
+    ece: {max: 0.05}
+    coverage_at_threshold: {min: 0.50}
+    precision_at_threshold: {min: 0.98}
+    shipment_precision: {min: 0.95}
+    p95_latency_ms: {max: 30000}
+    usd_per_page: {max: 0.05}
+    hs_recall_at_20: {min: 0.95}
+    hs_accuracy_2: {min: 0.95}
+    hs_accuracy_4: {min: 0.85}
+    hs_accuracy_6: {min: 0.75}
+    hs_ece: {max: 0.08}
+    hs_p95_latency_ms: {max: 60000}
+    hs_usd_per_description: {max: 0.05}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "b4bfea61d22db3008df969b1f07266a452aaa51ba8511828e617f7dcf02ec571",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hair dryer 2200W with diffuser and concentrator nozzle\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8516 Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n\nChoose the subheading that covers these goods. Options:\n- 851631: Hair-dressing apparatus; electro-thermic hair dryers\n- 851632: Hair-dressing apparatus; electro-thermic, other than hair dryers\n- 851690: Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516\n- 851640: Smoothing irons; electric\n- 851633: Hand-drying apparatus; electro-thermic\n- 851621: Heating apparatus; electric storage heating radiators\n- 851610: Heaters; electric, instantaneous or storage water and immersion heaters\n- 851650: Ovens; microwave, of a kind used for domestic purposes\n- 851679: Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes\n- 851680: Resistors; electric heating, other than those of heading no. 8545\n- 851629: Heating apparatus; electric soil heating apparatus and space heating apparatus (excluding storage heating radiators)\n- 851672: Electro-thermic appliances; toasters, of a kind used for domestic purposes\n- 851671: Electro-thermic appliances; coffee or tea makers, of a kind used for domestic purposes\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "19cbdb16b42455376e4b8ec02cd7acbccb3187152df65fe7704cf1e15fdf3dd9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "851631",
+      "cited": [
+        "851631"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 644,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

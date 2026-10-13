@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "cb2187f7302833fc6401f8047f0ba07b7dcad847a3dd6b265e0030a35a229ff0",
+  "retriever": "offline-lexical",
+  "query": "Mirrorless digital camera body, interchangeable lens origin JP",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "852581",
+      "description": "Television cameras, digital cameras and video camera recorders; high-speed goods as specified in subheading note 1 to this chapter",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "852583",
+      "description": "Television cameras, digital cameras and video camera recorders; night vision goods as specified in subheading note 3 to this chapter",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "852582",
+      "description": "Television cameras, digital cameras and video camera recorders; radiation-hardened or radiation-tolerant goods as specified in subheading note 2 to this chapter",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "852589",
+      "description": "Television cameras; n.e.c. in item no 8525.8",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "852550",
+      "description": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating sound recording or reproducing apparatus, not incorporating reception apparatus",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "852560",
+      "description": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating sound recording or reproducing apparatus, incorporating reception apparatus",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "820420",
+      "description": "Tools, hand; interchangeable spanner sockets, with or without handles",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "820770",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), for milling",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "820780",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), for turning",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "820730",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), tools for pressing, stamping or punching",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "820760",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), for boring or broaching",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "820720",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), dies for drawing or extruding metal",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "820740",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), tools for tapping or threading",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "820750",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), tools for drilling (other than rock)",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "820713",
+      "description": "Tools, interchangeable; rock drilling or earth boring tools, with working part of cermets, whether or not power operated",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "820790",
+      "description": "Tools, interchangeable; (for machine or hand tools, whether or not power-operated), for screw-driving or uses n.e.c. in heading no. 8207",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "820719",
+      "description": "Tools, interchangeable; rock drilling or earth boring tools, with working part (other than of cermets), whether or not power operated, including parts",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "870821",
+      "description": "Vehicles; parts of bodies, safety seat belts",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "441700",
+      "description": "Wood; tools, tool bodies, tool handles, broom or brush bodies and handles, boot and shoe lasts and trees, of wood",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "870710",
+      "description": "Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8703",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

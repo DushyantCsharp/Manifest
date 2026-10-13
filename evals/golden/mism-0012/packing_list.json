@@ -1,0 +1,80 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0012",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-5405",
+    "date": "2026-07-21",
+    "seller": {
+      "name": "Bùi Tập Đoàn",
+      "address": [
+        "Số 5/88 Ngõ 53 Nguyễn Tất Thành",
+        "43460 Hai Phong",
+        "Vietnam"
+      ],
+      "country": "VN"
+    },
+    "buyer": {
+      "name": "Van Leeuwen Buizen",
+      "address": [
+        "Duukpad 05",
+        "2303 CE Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "incoterm": "DDP",
+    "incoterm_place": "Rotterdam",
+    "package_type": "CARTONS",
+    "total_packages": 611,
+    "total_net_weight_kg": "16120.74",
+    "total_gross_weight_kg": "17491.19"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Plastic storage box 30L with lid",
+      "country_of_origin": "VN",
+      "quantity": "2910",
+      "unit": "pcs",
+      "packages": 291,
+      "net_weight_kg": "2819.79",
+      "gross_weight_kg": "3347.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "VN",
+      "quantity": "7000",
+      "unit": "pcs",
+      "packages": 175,
+      "net_weight_kg": "1946.00",
+      "gross_weight_kg": "2282.84"
+    },
+    {
+      "line_no": 3,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "VN",
+      "quantity": "143",
+      "unit": "pcs",
+      "packages": 5,
+      "net_weight_kg": "2954.95",
+      "gross_weight_kg": "3079.15"
+    },
+    {
+      "line_no": 4,
+      "description": "Green Arabica coffee beans, grade 1",
+      "country_of_origin": "VN",
+      "quantity": "8400",
+      "unit": "kg",
+      "packages": 140,
+      "net_weight_kg": "8400.00",
+      "gross_weight_kg": "8782.20"
+    }
+  ]
+}

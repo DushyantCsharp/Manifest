@@ -1,0 +1,95 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0011",
+  "seed": 2500110088,
+  "layout": "us",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "INV-2026-91736",
+    "invoice_date": "2026-04-08",
+    "seller": {
+      "name": "Taichung Yungshin Textile Co., Ltd.",
+      "address": [
+        "No. 250 Industrial Road",
+        "Taichung",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "Massey Inc",
+      "address": [
+        "4324 Brittany Lodge",
+        "M9Y 9S7 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Montréal",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "126706.00",
+    "bl_number": "MAEUXG8596004",
+    "notify_party": {
+      "name": "Williams, Turner and Foster",
+      "address": [
+        "7196 John Route Suite 853",
+        "G9P 9L4 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "carrier": "MAERSK",
+    "vessel": "MAERSK TAGE",
+    "voyage": "684N",
+    "port_of_loading": "Keelung",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-04-17",
+    "container_number": "MAEU3279004",
+    "seal_number": "2723343",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1531,
+    "total_gross_weight_kg": "17156.71",
+    "goods_description": "SAID TO CONTAIN: Red wine, 0.75L bottle; Split air conditioner 12000 BTU",
+    "total_net_weight_kg": "14558.90",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Red wine, 0.75L bottle",
+        "country_of_origin": "IT",
+        "quantity": "8598",
+        "unit": "pcs",
+        "unit_price": "11.54",
+        "amount": "99220.92",
+        "hs_code": "220421",
+        "packages": 1433,
+        "net_weight_kg": "11014.04",
+        "gross_weight_kg": "13283.04"
+      },
+      {
+        "line_no": 2,
+        "description": "Split air conditioner 12000 BTU",
+        "country_of_origin": "CN",
+        "quantity": "98",
+        "unit": "pcs",
+        "unit_price": "280.46",
+        "amount": "27485.08",
+        "hs_code": "841510",
+        "packages": 98,
+        "net_weight_kg": "3544.86",
+        "gross_weight_kg": "3873.67"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

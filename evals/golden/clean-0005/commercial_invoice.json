@@ -1,0 +1,102 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0005",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-4994/26",
+    "invoice_date": "2026-05-26",
+    "seller": {
+      "name": "Prabhakar LLC",
+      "address": [
+        "87/47, Khalsa Ganj",
+        "252500 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Voisin S.A.",
+      "address": [
+        "8, boulevard Laurence Barthelemy",
+        "97325 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "FCA",
+    "incoterm_place": "Tiruppur",
+    "payment_terms": "T/T 30 days after B/L date",
+    "total_amount": "207041.19"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+      "country_of_origin": "IN",
+      "quantity": "14600",
+      "unit": "pcs",
+      "unit_price": "1.84",
+      "amount": "26864.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Black tea, CTC, bulk",
+      "country_of_origin": "IN",
+      "quantity": "14600",
+      "unit": "kg",
+      "unit_price": "3.74",
+      "amount": "54604.00"
+    },
+    {
+      "line_no": 3,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "IN",
+      "quantity": "5504",
+      "unit": "pcs",
+      "unit_price": "4.85",
+      "amount": "26694.40"
+    },
+    {
+      "line_no": 4,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "888",
+      "unit": "pcs",
+      "unit_price": "12.82",
+      "amount": "11384.16"
+    },
+    {
+      "line_no": 5,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "715",
+      "unit": "sets",
+      "unit_price": "11.33",
+      "amount": "8100.95"
+    },
+    {
+      "line_no": 6,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "IN",
+      "quantity": "200",
+      "unit": "pcs",
+      "unit_price": "316.53",
+      "amount": "63306.00"
+    },
+    {
+      "line_no": 7,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "IN",
+      "quantity": "3136",
+      "unit": "pcs",
+      "unit_price": "5.13",
+      "amount": "16087.68"
+    }
+  ]
+}

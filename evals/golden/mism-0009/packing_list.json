@@ -1,0 +1,80 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0009",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/4803",
+    "date": "2026-04-29",
+    "seller": {
+      "name": "Narváez & Asociados S.A.",
+      "address": [
+        "C. de Héctor Coll 90",
+        "16963 Guayaquil",
+        "Ecuador"
+      ],
+      "country": "EC"
+    },
+    "buyer": {
+      "name": "Larson-Robertson",
+      "address": [
+        "00300 Tiffany Crescent",
+        "19048 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "DAP",
+    "incoterm_place": "Los Angeles",
+    "package_type": "CARTONS",
+    "total_packages": 1155,
+    "total_net_weight_kg": "19386.67",
+    "total_gross_weight_kg": "21041.52"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Cashew kernels W320",
+      "country_of_origin": "PH",
+      "quantity": "8901",
+      "unit": "kg",
+      "packages": 387,
+      "net_weight_kg": "8900.98",
+      "gross_weight_kg": "9686.60"
+    },
+    {
+      "line_no": 2,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "IN",
+      "quantity": "7720",
+      "unit": "pcs",
+      "packages": 193,
+      "net_weight_kg": "2593.91",
+      "gross_weight_kg": "2761.56"
+    },
+    {
+      "line_no": 3,
+      "description": "Running shoes, rubber sole, textile upper",
+      "country_of_origin": "VN",
+      "quantity": "3396",
+      "unit": "pairs",
+      "packages": 283,
+      "net_weight_kg": "2475.66",
+      "gross_weight_kg": "2671.98"
+    },
+    {
+      "line_no": 4,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "IN",
+      "quantity": "2915",
+      "unit": "sets",
+      "packages": 292,
+      "net_weight_kg": "5416.07",
+      "gross_weight_kg": "5921.38"
+    }
+  ]
+}

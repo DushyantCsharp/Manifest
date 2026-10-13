@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "1a34d31e2c07b33c81574de10f5eb19cc1f142525bef8e8ac96d9983d9fa757e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cardigan, knitted, 80% wool 20% nylon\nCountry of origin: IT\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6110: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted\n    contains 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n    contains 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n    contains 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n    contains 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n    contains 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n    contains 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n- 6103: Suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches, shorts (not swimwear); men's or boys', knitted or crocheted\n    contains 610331: Jackets and blazers; men's or boys', of wool or fine animal hair, knitted or crocheted\n- 6104: Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (not swimwear), women's or girls', knitted or crocheted\n    contains 610431: Jackets; women's or girls', of wool or fine animal hair, knitted or crocheted\n    contains 610441: Dresses; women's or girls', of wool or fine animal hair, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b4c1d737e67c8932a7e5de846d607bce21f50f0a1af11676aad968640d5bca2d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6110",
+      "cited": [
+        "6110"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 680,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

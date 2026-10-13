@@ -1,0 +1,79 @@
+{# Layout 4 "letterhead": branded header, long dates, currency named once in words, weights in lb on the pack's other documents. #}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  body { font-family: "Gill Sans", "Trebuchet MS", "DejaVu Sans", sans-serif; font-size: 9.5pt; }
+  .band { background: #7a1f2b; color: #fff; padding: 12px 16px; display: flex; align-items: center; gap: 14px; }
+  .mono { width: 42px; height: 42px; border-radius: 21px; border: 2px solid #fff; text-align: center; line-height: 38px; font-size: 16pt; font-weight: bold; }
+  .band .name { font-size: 15pt; font-weight: bold; }
+  .band .addr { font-size: 8pt; opacity: 0.9; }
+  .band .doc { margin-left: auto; font-size: 18pt; letter-spacing: 4px; }
+  .row { display: flex; gap: 12px; margin: 14px 0; }
+  .card { flex: 1; background: #f6f0f1; padding: 8px 10px; }
+  .card h3 { font-size: 8pt; color: #7a1f2b; text-transform: uppercase; margin-bottom: 4px; }
+  .items th { color: #7a1f2b; border-bottom: 2px solid #7a1f2b; padding: 5px; font-size: 8.5pt; }
+  .items td { padding: 6px 5px; border-bottom: 1px dotted #b9a3a7; }
+  .due { width: 60%; margin: 12px 0 0 auto; background: #7a1f2b; color: #fff; }
+  .due td { padding: 8px 10px; font-size: 12pt; }
+  .note { margin-top: 16px; font-size: 8pt; color: #555; }
+</style>
+</head>
+<body>
+<div class="band">
+  <div class="mono">{{ doc.seller.name[:1] }}</div>
+  <div>
+    <div class="name">{{ doc.seller.name }}</div>
+    <div class="addr">{{ doc.seller.address | join(" | ") }}</div>
+  </div>
+  <div class="doc">INVOICE</div>
+</div>
+
+<div class="row">
+  <div class="card">
+    <h3>Invoice</h3>
+    Number: <strong>{{ doc.invoice_number }}</strong><br>
+    Date: {{ layout.date(doc.invoice_date) }}<br>
+    Terms: {{ doc.payment_terms }}
+  </div>
+  <div class="card">
+    <h3>Sold To</h3>
+    <strong>{{ doc.buyer.name }}</strong><br>{{ doc.buyer.address | join(", ") }}
+  </div>
+  <div class="card">
+    <h3>Delivery</h3>
+    {{ doc.incoterm }} {{ doc.incoterm_place }} (Incoterms 2020)<br>
+    via {{ doc.port_of_loading }} to {{ doc.port_of_discharge }}
+  </div>
+</div>
+
+<table class="items">
+  <thead>
+    <tr><th>Item</th><th>Description</th><th>Made in</th><th class="num">Quantity</th><th class="num">Unit price</th><th class="num">Line total</th></tr>
+  </thead>
+  <tbody>
+  {% for line in doc.lines %}
+    <tr>
+      <td>{{ "%02d" | format(line.line_no) }}</td>
+      <td>{{ line.description }}</td>
+      <td>{{ country(line.country_of_origin) or "" }}</td>
+      <td class="num">{{ layout.quantity(line.quantity) }} {{ line.unit }}</td>
+      <td class="num">{{ layout.price(line.unit_price) }}</td>
+      <td class="num">{{ layout.money(line.amount) }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<table class="due">
+  <tr><td>Amount due</td><td class="num">{{ layout.money(doc.total_amount) }}</td></tr>
+</table>
+
+<div class="note">
+  All amounts are in {{ {"GBP": "pounds sterling (GBP)", "USD": "US dollars (USD)"}[doc.currency] }}.
+  Please quote invoice {{ doc.invoice_number }} with your payment.
+</div>
+</body>
+</html>

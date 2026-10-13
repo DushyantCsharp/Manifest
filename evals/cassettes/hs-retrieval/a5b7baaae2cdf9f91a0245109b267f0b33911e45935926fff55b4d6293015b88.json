@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "a5b7baaae2cdf9f91a0245109b267f0b33911e45935926fff55b4d6293015b88",
+  "retriever": "offline-lexical",
+  "query": "A4 copy paper 80gsm, reams of 500 sheets origin ID",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "480920",
+      "description": "Paper; self-copy paper, whether or not printed, in rolls or sheets",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "480990",
+      "description": "Paper; carbon paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "481620",
+      "description": "Paper; self-copy paper (other than those of heading no. 4809), whether or not put up in boxes",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "481690",
+      "description": "Paper; carbon paper and other copying or transfer papers (other than those of heading no. 4809), n.e.c. in item no. 4816.20",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "480620",
+      "description": "Paper; greaseproof papers, in rolls or sheets",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "480630",
+      "description": "Paper; tracing papers, in rolls or sheets",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "350300",
+      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "480640",
+      "description": "Paper; glassine and other glazed transparent or translucent papers, in rolls or sheets",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "480610",
+      "description": "Paper; vegetable parchment, in rolls or sheets",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "480540",
+      "description": "Paper and paperboard; filter paper and paperboard, uncoated, in rolls or sheets",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "480550",
+      "description": "Paper and paperboard; felt paper and paperboard, uncoated, in rolls or sheets",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "480512",
+      "description": "Paper and paperboard; uncoated, straw fluting paper, rolls or sheets",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "480530",
+      "description": "Paper and paperboard; sulphite wrapping paper, uncoated, in rolls or sheets",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "480511",
+      "description": "Paper and paperboard; uncoated, semi-chemical fluting paper, rolls or sheets",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "480519",
+      "description": "Paper and paperboard; uncoated, fluting paper other than semi-chemical or straw, rolls or sheets",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "480591",
+      "description": "Paper and paperboard; uncoated, weight 150g/m2 or less, in rolls or sheets, n.e.c. in heading no.4805",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "480593",
+      "description": "Paper and paperboard; uncoated, weight 225/m2 or more, in rolls or sheets, n.e.c. in heading no. 4805",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "480524",
+      "description": "Paper & paperboard; uncoated, testliner (recycled linerboard), weight 150g/m2, or less, in rolls or sheets",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "480525",
+      "description": "Paper & paperboard; uncoated, testliner (recycled linerboard), weight over 150g/m2, in rolls or sheets",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "810931",
+      "description": "Zirconium; waste and scrap, containing less than 1 part hafnium to 500 parts zirconium by weight",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

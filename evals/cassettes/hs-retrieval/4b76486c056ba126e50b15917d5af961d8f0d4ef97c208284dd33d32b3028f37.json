@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "4b76486c056ba126e50b15917d5af961d8f0d4ef97c208284dd33d32b3028f37",
+  "retriever": "offline-lexical",
+  "query": "Household aluminium foil 12 micron, rolls origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "761510",
+      "description": "Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "760719",
+      "description": "Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "760711",
+      "description": "Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "760720",
+      "description": "Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "761520",
+      "description": "Aluminium; sanitary ware and parts thereof",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "391910",
+      "description": "Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, in rolls of a width not exceeding 20cm",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "391990",
+      "description": "Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, other than in rolls of a width not exceeding 20cm",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "480300",
+      "description": "Tissue, towel, napkin stock or similar; for household or sanitary use, cellulose, wadding webs of cellulose fibres, in rolls exceeding 36cm in width or rectangular sheets with one side more than 36cm in unfolded state",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "392490",
+      "description": "Plastics; household articles and hygienic or toilet articles",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "260600",
+      "description": "Aluminium ores and concentrates",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "761699",
+      "description": "Aluminium; articles n.e.c. in heading 7616",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "760120",
+      "description": "Aluminium; unwrought, alloys",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "760200",
+      "description": "Aluminium; waste and scrap",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "790500",
+      "description": "Zinc; plates, sheets, strip and foil",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "691190",
+      "description": "Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "760110",
+      "description": "Aluminium; unwrought, (not alloyed)",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "760820",
+      "description": "Aluminium; tubes and pipes, alloys",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "750620",
+      "description": "Nickel; plates, sheets, strip and foil, of nickel alloys",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "691200",
+      "description": "Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "760320",
+      "description": "Aluminium; powders of lamellar structure, flakes",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "0f5a9655d84f345d7f3a536c8ac5ef9b611c0c1b2eca39b1436cd94a5bf345f5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Centrifugal water pump 1.1kW, single stage, electric\nCountry of origin: IT\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841370: Pumps; centrifugal, n.e.c. in heading no. 8413, for liquids\n    contains 842121: Machinery; for filtering or purifying water\n    contains 842122: Machinery; for filtering or purifying beverages other than water\n    contains 841861: Heat pumps; other than air conditioning machines of heading no. 8415\n    contains 841821: Refrigerators; for household use, compression-type, electric or other\n    contains 841829: Refrigerators; household, electric or not, other than compression-type\n    contains 841912: Heaters; solar water heaters, non-electric\n    contains 841810: Refrigerators and freezers; combined refrigerator-freezers, fitted with separate external doors, electric or other\n    contains 841919: Heaters; instantaneous or storage water heaters, non-electric, (other than instantaneous gas or solar water heaters)\n    contains 842191: Centrifuges; parts thereof, including parts for centrifugal dryers\n    contains 841869: Refrigerating or freezing equipment; n.e.c. in heading no. 8418\n    contains 841899: Refrigerating or freezing equipment; parts thereof, other than furniture\n- 89: Ships, boats and floating structures\n    contains 890790: Floating structures; tanks, coffer-dams, landing stages, buoys and beacons\n    contains 890710: Rafts; inflatable\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 850140: Electric motors; AC motors, single-phase\n    contains 851610: Heaters; electric, instantaneous or storage water and immersion heaters\n    contains 851821: Loudspeakers; single, mounted in their enclosures\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040819: Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter\n    contains 040899: Eggs; birds' eggs (not in shell, excluding yolks only), fresh, cooked by steaming or boiling in water, moulded, frozen, otherwise preserved, whether or not containing added sugar or other sweetening matter\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200989: Juice; of any single fruit, nut or vegetable n.e.c. in heading no. 2009, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f15275387f739b23f37f3d4b435ad4eef40f804ef227ff2a8cbdf102d3328570",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 913,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

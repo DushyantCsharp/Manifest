@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "cb39a6d256e72bddaee9cfb8c53ee588721dc589f1fe0c721a67b08b0c768031",
+  "retriever": "offline-lexical",
+  "query": "Wooden chess set with board origin IN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "441410",
+      "description": "Wooden frames; for paintings, photographs, mirrors or similar objects; of tropical wood",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "441490",
+      "description": "Wooden frames; for paintings, photographs, mirrors or similar objects; not of tropical wood",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "441911",
+      "description": "Tableware and kitchenware, of wood; of bamboo, bread boards, chopping boards and similar boards",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "961000",
+      "description": "Slates and boards; with writing or drawing surfaces, whether or not framed",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "940330",
+      "description": "Furniture; wooden, for office use",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "940340",
+      "description": "Furniture; wooden, for kitchen use",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "940350",
+      "description": "Furniture; wooden, for bedroom use",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "441520",
+      "description": "Wood; pallets, box pallets and other load boards; pallet collars",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "442090",
+      "description": "Wood; marquetry and inlaid wood, caskets and cases for jewellery or cutlery and similar articles of wood, wooden articles of furniture not falling in chapter 94",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "940360",
+      "description": "Furniture; wooden, other than for office, kitchen or bedroom use",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "441011",
+      "description": "Particle board of wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "441012",
+      "description": "Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "442120",
+      "description": "Wood; coffins",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "950629",
+      "description": "Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "441252",
+      "description": "Blockboard, laminboard and battenboard; with at least one outer ply of non-coniferous wood, (not containing particle board)",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "441019",
+      "description": "Wafer board and similar board of wood n.e.c. in item no. 4410.1, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "442110",
+      "description": "Wood; clothes hangers",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "441090",
+      "description": "Particle board, oriented strand board (OSB) and similar board of ligneous materials other than wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "680911",
+      "description": "Plaster, or plaster compositions; boards, sheets, panels, tiles and similar articles, faced or reinforced with paper or paperboard only, not ornamented",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "847930",
+      "description": "Machinery and mechanical appliances; presses for the manufacture of particle or fibre building board of wood or other ligneous materials and other machinery for treating wood or cork",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

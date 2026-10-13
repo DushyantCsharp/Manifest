@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "key": "f387609d426fccd867d4376effd50c74447ccad8786bd3c927fe92c9f1bdd1f8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nLuna Losada Valverde S.A.\r\nUrbanización Efraín Mayoral 87 Piso 0 , 35972 Jaén, Spain\r\nPACKING LIST\r\nInvoice Ref. FC-3926/26\r\nDate 2026-09-19\r\nCONSIGNEE\r\nGielen-Wouters NV\r\nJulialei 856, 8637 Gent, Belgium\r\nTERMS OF DELIVERY\r\nEXW Barcelona\r\nValencia to Antwerp\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg\r\n2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg\r\n3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg\r\n4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg\r\nTotal 1826 CARTONS 18 429,87 kg 20 725,48 kg\r\nShipping marks: GIELEN-WOUTERS / FC-3926/26\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Gielen-Wouters NV",
+        "value": "Gielen-Wouters NV"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-09-19",
+        "value": "2026-09-19"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "EXW Barcelona",
+        "value": "EXW Barcelona"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. FC-3926/26",
+        "value": "FC-3926/26"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "IN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "575,91 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "523,15 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "432"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "value": "EC"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "value": "Frozen vannamei shrimp, peeled"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "value": "17 373,72 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "value": "15 540,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "value": "15 540"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "value": "VN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "value": "Laptop computer 14in, 16GB RAM"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "value": "549,80 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "value": "501,54 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "value": "284"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "value": "VN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "value": "Plastic storage box 30L with lid"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "value": "2 226,05 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "value": "1 865,18 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "value": "1 790"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Luna Losada Valverde S.A.",
+        "value": "Luna Losada Valverde S.A."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "value": "20 725,48 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "value": "18 429,87 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "value": "1826"
+      }
+    },
+    "input_tokens": 412,
+    "latency_ms": 0,
+    "output_tokens": 1142
+  }
+}

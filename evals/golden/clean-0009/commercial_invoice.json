@@ -1,0 +1,48 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0009",
+  "document": "commercial_invoice",
+  "layout": "letterhead",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/2135",
+    "invoice_date": "2026-03-09",
+    "seller": {
+      "name": "Guangzhou Tianyi Trading Co., Ltd.",
+      "address": [
+        "No. 220 Avenue 3",
+        "Guangzhou",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Scott and Sons",
+      "address": [
+        "78 Lawrence Village",
+        "M0 3AB Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Qingdao",
+    "payment_terms": "T/T in advance",
+    "total_amount": "19293.00"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "ES",
+      "quantity": "3270",
+      "unit": "pcs",
+      "unit_price": "5.90",
+      "amount": "19293.00"
+    }
+  ]
+}

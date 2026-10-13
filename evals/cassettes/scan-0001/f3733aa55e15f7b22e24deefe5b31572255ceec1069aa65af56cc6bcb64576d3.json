@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "f3733aa55e15f7b22e24deefe5b31572255ceec1069aa65af56cc6bcb64576d3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER ~\nBalay-Dass\n\n72183 Mark Manors Suite 748\n\n57/142, Parekh Chowk, 736831 Mumbai, India i . BILL OF LADING\nse clays apne prea BLNO.\nONEYLA6131517\nCONSIGNEE NOTIFY PARTY _\nReed Group\n\nee x SAME AS CONSIGNEE-\n, X3N 9G6 Toronto, Canada . |’\n\nOCEAN VESSEL / VOYAGE NO... -\nONE MERIDIAN / 443W ..\n\nFREIGHT ae\nFREIGHT COLLECT\n\nPORT OF LOADING\n\n05/25/2026\n\nMundra, 05/25/2026 ; THREE (3):\n\n| PORT OF DISCHARGE\n\n-| Mundra | Vancouver\n\n‘ AINER / SEAL | MARKS & NOS. NO. OF DESCRIPTION OF GOODS GROSS WEIGHT\n‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg\n\nSEAL . INV-2026-17807 ° | CARTONS | monocrystalline; Frozen vannaméei’ shrimp,’ .\n| 3513552 ’ feos ‘peeled; AC induction motor 0:55kW 3-phase; _\n\n: LDPE film-grade granules\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE ae SN ; : ‘NUMBER OF ORIGINAL B/LS\n\nRECEIVED by the Carrier in apparent good order and\n\ncondition unless otherwise stated. the total b of conti ‘or ges shown above for carriage from the port of loading to the port :\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE P : :\n\n’ \"Page | of |\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYLA6131517",
+        "value": "ONEYLA6131517"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Reed Group",
+        "value": "Reed Group"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE MERIDIAN / 443W ..",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg",
+        "value": "ONEU1362844"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT COLLECT",
+        "value": "COLLECT"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "SEAL . INV-2026-17807 ° | CARTONS | monocrystalline; Frozen vannaméei’ shrimp,’ .",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "-| Mundra | Vancouver",
+        "value": "Vancouver"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Mundra, 05/25/2026 ; THREE (3):",
+        "value": "Mundra"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "| 3513552 ’ feos ‘peeled; AC induction motor 0:55kW 3-phase; _",
+        "value": "3513552"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Balay-Dass",
+        "value": "Balay-Dass"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "05/25/2026",
+        "value": "05/25/2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg",
+        "value": "24,212.04 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg",
+        "value": "1601"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE MERIDIAN / 443W ..",
+        "value": "ONE MERIDIAN"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "ONE MERIDIAN / 443W ..",
+        "value": "443W"
+      }
+    },
+    "input_tokens": 524,
+    "latency_ms": 0,
+    "output_tokens": 463
+  }
+}

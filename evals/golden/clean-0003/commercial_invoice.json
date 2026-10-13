@@ -1,0 +1,69 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0003",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202658-1822",
+    "invoice_date": "2026-09-21",
+    "seller": {
+      "name": "Bangkok Siam Trading Co., Ltd.",
+      "address": [
+        "No. 42 Avenue 3",
+        "Bangkok",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Bolkesteijn Groep",
+      "address": [
+        "Abeldreef 2",
+        "4065 NA Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "currency": "USD",
+    "incoterm": "CIP",
+    "incoterm_place": "Utrecht",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "98583.12"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "CN",
+      "quantity": "17000",
+      "unit": "kg",
+      "unit_price": "2.36",
+      "amount": "40120.00",
+      "hs_code": "721933"
+    },
+    {
+      "line_no": 2,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "9400",
+      "unit": "pcs",
+      "unit_price": "3.29",
+      "amount": "30926.00",
+      "hs_code": "900410"
+    },
+    {
+      "line_no": 3,
+      "description": "Nitrile examination gloves, box of 100",
+      "country_of_origin": "TH",
+      "quantity": "8826",
+      "unit": "sets",
+      "unit_price": "3.12",
+      "amount": "27537.12",
+      "hs_code": "401512"
+    }
+  ]
+}

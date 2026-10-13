@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "C O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nBangkok Siam Trading Co., Ltd.\r\nNo. 42 Avenue 3, Bangkok, Thailand\r\nINVOICE NO. & DATE\r\nEX202658-1822\r\n21-SEP-2026\r\nCONSIGNEE\r\nBolkesteijn Groep\r\nAbeldreef 2, 4065 NA Utrecht, Netherlands\r\nTERMS OF DELIVERY AND PAYMENT\r\nCIP Utrecht\r\n30% deposit, 70% against copy of B/L\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nVESSEL / VOYAGE\r\nCMA HARMONY V.495W\r\nPORT OF LOADING\r\nLAEM CHABANG\r\nPORT OF DISCHARGE\r\nROTTERDAM\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nBOLKESTEIJN /\r\nEX202658-1822\r\nSTAINLESS STEEL SHEET 304,\r\nCOLD-ROLLED 2MM\r\n7219.33 CHINA 17,000 KG 2.36 40,120.00\r\nPOLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00\r\nNITRILE EXAMINATION\r\nGLOVES, BOX OF 100\r\n4015.12 THAILAND 8,826 SETS 3.12 27,537.12\r\nTOTAL CIP UTRECHT USD 98,583.12\r\nSAY TOTAL US DOLLARS NINETY-EIGHT THOUSAND FIVE HUNDRED EIGHTY-THREE AND CENTS TWELVE ONLY\r\nFor and on behalf of Bangkok Siam Trading Co.,\r\nLtd.\r\nAuthorized Signature\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Bangkok Siam Trading Co., Ltd.\r\nNo. 42 Avenue 3, Bangkok, Thailand\r\nPACKING LIST\r\nInvoice Ref. EX202658-1822\r\nDate 21-SEP-2026\r\nCONSIGNEE\r\nBolkesteijn Groep\r\nAbeldreef 2, 4065 NA Utrecht, Netherlands\r\nTERMS OF DELIVERY\r\nCIP Utrecht\r\nLaem Chabang to Rotterdam\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg\r\n2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg\r\n3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg\r\nTotal 994 CARTONS 21,753.12 kg 23,672.84 kg\r\nShipping marks: BOLKESTEIJN / EX202658-1822\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nBangkok Siam Trading Co., Ltd.\r\nNo. 42 Avenue 3, Bangkok, Thailand\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDUJV6693502 \r\nCONSIGNEE\r\nBolkesteijn Groep\r\nAbeldreef 2, 4065 NA Utrecht, Netherlands\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA HARMONY / 495W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nLaem Chabang\r\nPORT OF DISCHARGE\r\nRotterdam\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU4975098\r\nSEAL\r\n4989732\r\nBOLKESTEIJN /\r\nEX202658-1822\r\n994\r\nCARTONS\r\nSAID TO CONTAIN: Stainless steel sheet 304,\r\ncold-rolled 2mm; Polarized sunglasses;\r\nNitrile examination gloves, box of 100\r\n23,672.84 kg\r\nSHIPPED ON BOARD\r\n03-OCT-2026\r\nPLACE AND DATE OF ISSUE\r\nLaem Chabang, 03-OCT-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1"
+    }
+  ]
+}

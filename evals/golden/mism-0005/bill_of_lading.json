@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0005",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "MEDUGW5840978",
+    "seller": {
+      "name": "Penang Gemilang Electronics Co., Ltd.",
+      "address": [
+        "No. 171 Harbour Road",
+        "Penang",
+        "Malaysia"
+      ],
+      "country": "MY"
+    },
+    "buyer": {
+      "name": "Klapp GmbH & Co. KG",
+      "address": [
+        "Rolf-Peter-Trupp-Platz 34-44",
+        "55722 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "notify_party": null,
+    "carrier": "MSC",
+    "vessel": "MSC AURORA",
+    "voyage": "520E",
+    "port_of_loading": "Port Klang",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-08-01",
+    "container_number": "MEDU6272117",
+    "seal_number": "4453086",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 851,
+    "total_gross_weight_kg": "17553.74",
+    "goods_description": "SAID TO CONTAIN: LED bulb E27 9W warm white; Aluminium household foil 12 micron"
+  },
+  "line_items": []
+}

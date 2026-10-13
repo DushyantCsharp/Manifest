@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "08de1f980057b94ca058005ef7be72f2369dc62e6ba91b4349ee2dedbe39a580",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Milk chocolate bars 100g, not filled\nCountry of origin: BE\n\nChosen so far: 18 Cocoa and cocoa preparations > 1806 Chocolate and other food preparations containing cocoa\n\nChoose the subheading that covers these goods. Options:\n- 180632: Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, (not filled), weighing 2kg or less\n- 180631: Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, filled, weighing 2kg or less\n- 180620: Chocolate & other food preparations containing cocoa; in blocks, slabs or bars weighing more than 2kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, content exceeding 2kg\n- 180690: Chocolate and other food preparations containing cocoa; n.e.c. in chapter 18\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "beaad0bcf4e5f1593217ef5acd42d75bdac5e8cc9b42310aaf795ac42c391d9a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "180632",
+      "cited": [
+        "180632"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 427,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0015",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVNH2302732",
+    "seller": {
+      "name": "Luna Losada Valverde S.A.",
+      "address": [
+        "Urbanización Efraín Mayoral 87 Piso 0 ",
+        "35972 Jaén",
+        "Spain"
+      ],
+      "country": "ES"
+    },
+    "buyer": {
+      "name": "Gielen-Wouters NV",
+      "address": [
+        "Julialei 856",
+        "8637 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "notify_party": {
+      "name": "Jacobs CV",
+      "address": [
+        "Carinestraat 287",
+        "8348 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN TAGE",
+    "voyage": "505S",
+    "port_of_loading": "Valencia",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-09-28",
+    "container_number": "EGLU2572006",
+    "seal_number": "5833992",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1826,
+    "total_gross_weight_kg": "20725.48",
+    "goods_description": "SAID TO CONTAIN: Stainless steel saucepan 20cm; Frozen vannamei shrimp, peeled; Laptop computer 14in, 16GB RAM; Plastic storage box 30L with lid"
+  },
+  "line_items": []
+}

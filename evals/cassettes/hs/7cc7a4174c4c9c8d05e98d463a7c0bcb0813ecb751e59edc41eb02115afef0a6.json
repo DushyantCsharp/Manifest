@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "7cc7a4174c4c9c8d05e98d463a7c0bcb0813ecb751e59edc41eb02115afef0a6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Analogue quartz wristwatch, stainless steel case\nCountry of origin: CH\n\nChosen so far: 72 Iron and steel\n\nChoose the heading that covers these goods. Options:\n- 7223: Stainless steel wire\n    contains 722300: Steel, stainless; wire\n- 7204: Ferrous waste and scrap; remelting scrap ingots of iron or steel\n    contains 720421: Ferrous waste and scrap; of stainless steel\n    contains 720429: Ferrous waste and scrap; of alloy steel (excluding stainless)\n- 7222: Stainless steel bars and rods, angles, shapes and sections\n    contains 722240: Steel, stainless; angles, shapes and sections\n    contains 722230: Steel, stainless; bars and rods, n.e.c. in heading no. 7222\n    contains 722220: Steel, stainless; bars and rods, cold-formed or cold-finished\n- 7218: Stainless steel in ingots or other primary forms; semi-finished products of stainless steel\n    contains 721810: Steel, stainless; ingots and other primary forms\n    contains 721899: Steel, stainless; semi-finished products, other than of rectangular cross-section\n- 7221: Stainless steel bars and rods, hot-rolled, in irregularly wound coils\n    contains 722100: Steel, stainless; bars and rods, hot-rolled, in irregularly wound coils\n- 7219: Stainless steel; flat-rolled products of width of 600mm or more\n    contains 721990: Steel, stainless; flat-rolled, width 600mm or more, n.e.c. in heading no. 7219\n- 7220: Stainless steel; flat-rolled products of width less than 600mm\n    contains 722020: Steel, stainless; flat-rolled, width less than 600mm, cold-rolled\n    contains 722090: Steel, stainless; flat-rolled, width less than 600mm, n.e.c. in heading no 7220\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a66dd9f60e39fec9f34daeb03b5574301be8a95aadf930c1701f3086f5ff5c00",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7223",
+      "cited": [
+        "7223"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 636,
+    "latency_ms": 0,
+    "output_tokens": 30
+  }
+}

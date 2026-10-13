@@ -1,0 +1,74 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0021",
+  "seed": 3750326941,
+  "layout": "us",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "INV-2026-47166",
+    "invoice_date": "2026-03-28",
+    "seller": {
+      "name": "Chakraborty, Sidhu and Sarma",
+      "address": [
+        "83/94, Sethi Chowk",
+        "756939 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Savage, Huffman and Waters",
+      "address": [
+        "10024 Alex Mall",
+        "01510 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "currency": "USD",
+    "incoterm": "FCA",
+    "incoterm_place": "Tiruppur",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "45320.00",
+    "bl_number": "COSUOU8350124",
+    "notify_party": null,
+    "carrier": "COSCO",
+    "vessel": "COSCO HARMONY",
+    "voyage": "148S",
+    "port_of_loading": "Nhava Sheva",
+    "port_of_discharge": "Savannah",
+    "shipped_on_board": "2026-03-31",
+    "container_number": "COSU9024241",
+    "seal_number": "1388950",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 110,
+    "total_gross_weight_kg": "1856.70",
+    "goods_description": "SAID TO CONTAIN: Hair dryer 2200W ionic",
+    "total_net_weight_kg": "1749.00",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Hair dryer 2200W ionic",
+        "country_of_origin": "CN",
+        "quantity": "2200",
+        "unit": "pcs",
+        "unit_price": "20.60",
+        "amount": "45320.00",
+        "hs_code": "851631",
+        "packages": 110,
+        "net_weight_kg": "1749.00",
+        "gross_weight_kg": "1856.70"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "clean"
+}

@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "789d2b5347d8db05049ff4b86d98c5b1e0e8d94a125bf15fe378a0b91fbb3e42",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nGonzáles Group\r\nDg. 132L # 4-3 Este, 911184 Bogotá, Colombia\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDULP1879298 \r\nCONSIGNEE\r\nWilliams, Barber and Howe\r\nStudio 50k, Long Crescent, SK3P 1QL Manchester,\r\nUnited Kingdom\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA TRITON / 918N\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nCartagena\r\nPORT OF DISCHARGE\r\nFelixstowe\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU3845778\r\nSEAL 3945412\r\nWILLIAMS, /\r\n2026/1152\r\n315\r\nCARTONS\r\nSAID TO CONTAIN: Hair dryer 2200W ionic;\r\nPassenger car tyre 205/55R16\r\n7,953.8 lb\r\nSHIPPED ON BOARD\r\nAugust 22, 2026\r\nPLACE AND DATE OF ISSUE\r\nCartagena, August 22, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "CMDULP1879298",
+        "value": "CMDULP1879298"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Williams, Barber and Howe",
+        "value": "Williams, Barber and Howe"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "CMA CGM",
+        "value": "CMA CGM"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "CMDU3845778",
+        "value": "CMDU3845778"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "",
+        "value": ""
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Felixstowe",
+        "value": "Felixstowe"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Cartagena",
+        "value": "Cartagena"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "SEAL 3945412",
+        "value": "3945412"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Gonzáles Group",
+        "value": "Gonzáles Group"
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "August 22, 2026",
+        "value": "August 22, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "7,953.8 lb",
+        "value": "7,953.8 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "315",
+        "value": "315"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "CMA TRITON / 918N",
+        "value": "CMA TRITON"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "CMA TRITON / 918N",
+        "value": "918N"
+      }
+    },
+    "input_tokens": 503,
+    "latency_ms": 0,
+    "output_tokens": 365
+  }
+}

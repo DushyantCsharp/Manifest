@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "key": "4d2ccbab061b0f3731832ed79e2e7632d96bae175a1eb739d2a30571aafa5bf7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nC O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nBangkok Siam Trading Co., Ltd.\r\nNo. 42 Avenue 3, Bangkok, Thailand\r\nINVOICE NO. & DATE\r\nEX202658-1822\r\n21-SEP-2026\r\nCONSIGNEE\r\nBolkesteijn Groep\r\nAbeldreef 2, 4065 NA Utrecht, Netherlands\r\nTERMS OF DELIVERY AND PAYMENT\r\nCIP Utrecht\r\n30% deposit, 70% against copy of B/L\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nVESSEL / VOYAGE\r\nCMA HARMONY V.495W\r\nPORT OF LOADING\r\nLAEM CHABANG\r\nPORT OF DISCHARGE\r\nROTTERDAM\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nBOLKESTEIJN /\r\nEX202658-1822\r\nSTAINLESS STEEL SHEET 304,\r\nCOLD-ROLLED 2MM\r\n7219.33 CHINA 17,000 KG 2.36 40,120.00\r\nPOLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00\r\nNITRILE EXAMINATION\r\nGLOVES, BOX OF 100\r\n4015.12 THAILAND 8,826 SETS 3.12 27,537.12\r\nTOTAL CIP UTRECHT USD 98,583.12\r\nSAY TOTAL US DOLLARS NINETY-EIGHT THOUSAND FIVE HUNDRED EIGHTY-THREE AND CENTS TWELVE ONLY\r\nFor and on behalf of Bangkok Siam Trading Co.,\r\nLtd.\r\nAuthorized Signature\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Bolkesteijn Groep",
+        "value": "Bolkesteijn Groep"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CIP Utrecht",
+        "value": "CIP Utrecht"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "21-SEP-2026",
+        "value": "21-SEP-2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "EX202658-1822",
+        "value": "EX202658-1822"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "value": "40,120.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "value": "CHINA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM",
+            "value": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "value": "17,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "value": "KG"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "value": "2.36"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "value": "30,926.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "value": "ITALY"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "value": "POLARIZED SUNGLASSES"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "value": "9,400"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "value": "3.29"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "value": "27,537.12"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 42 Avenue 3, Bangkok, Thailand",
+            "value": "Thailand"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "NITRILE EXAMINATION GLOVES, BOX OF 100",
+            "value": "NITRILE EXAMINATION GLOVES, BOX OF 100"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "value": "8,826"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "value": "SETS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "value": "3.12"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Bangkok Siam Trading Co., Ltd.",
+        "value": "Bangkok Siam Trading Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "TOTAL CIP UTRECHT USD 98,583.12",
+        "value": "98,583.12"
+      }
+    },
+    "input_tokens": 491,
+    "latency_ms": 0,
+    "output_tokens": 821
+  }
+}

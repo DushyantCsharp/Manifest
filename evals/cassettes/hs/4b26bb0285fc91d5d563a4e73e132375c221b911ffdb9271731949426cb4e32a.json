@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "4b26bb0285fc91d5d563a4e73e132375c221b911ffdb9271731949426cb4e32a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Babies' romper suit, knitted, 100% cotton\nCountry of origin: IN\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted > 6111 Garments and clothing accessories, babies'; knitted or crocheted\n\nChoose the subheading that covers these goods. Options:\n- 611120: Garments and clothing accessories; babies', of cotton, knitted or crocheted\n- 611190: Garments and clothing accessories; babies', of textile materials (other than cotton or synthetic fibres), knitted or crocheted\n- 611130: Garments and clothing accessories; babies', of synthetic fibres, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e1125005db685d9548f9dd513b106a743dcf21406097c80af8bde855ce4d8e64",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "611120",
+      "cited": [
+        "611120"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 376,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

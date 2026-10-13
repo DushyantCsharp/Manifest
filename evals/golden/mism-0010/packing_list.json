@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0010",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-2883/26",
+    "date": "2026-02-16",
+    "seller": {
+      "name": "Gasperi-Finetti SPA",
+      "address": [
+        "Strada Giovine, 24",
+        "64011 Prato",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Fernandez",
+      "address": [
+        "77, rue Collet",
+        "35329 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "incoterm": "DDP",
+    "incoterm_place": "Paris",
+    "package_type": "CARTONS",
+    "total_packages": 2539,
+    "total_net_weight_kg": "20615.13",
+    "total_gross_weight_kg": "23688.91"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Roasted coffee beans, whole",
+      "country_of_origin": "IT",
+      "quantity": "4980",
+      "unit": "kg",
+      "packages": 498,
+      "net_weight_kg": "4980.00",
+      "gross_weight_kg": "5463.06"
+    },
+    {
+      "line_no": 2,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "6200",
+      "unit": "pcs",
+      "packages": 62,
+      "net_weight_kg": "210.80",
+      "gross_weight_kg": "246.88"
+    },
+    {
+      "line_no": 3,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": null,
+      "quantity": "11874",
+      "unit": "pcs",
+      "packages": 1979,
+      "net_weight_kg": "15424.33",
+      "gross_weight_kg": "17978.97"
+    }
+  ]
+}

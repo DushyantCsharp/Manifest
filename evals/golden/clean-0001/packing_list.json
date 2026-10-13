@@ -1,0 +1,50 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0001",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-04038",
+    "date": "2026-09-13",
+    "seller": {
+      "name": "Samut Prakan Sukjai Trading Co., Ltd.",
+      "address": [
+        "No. 358 Industrial Road",
+        "Samut Prakan",
+        "Thailand"
+      ],
+      "country": "TH"
+    },
+    "buyer": {
+      "name": "Flores, Wheeler and Smith",
+      "address": [
+        "3389 Jennifer Valley Apt. 764",
+        "83583 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "CIF",
+    "incoterm_place": "Los Angeles",
+    "package_type": "CARTONS",
+    "total_packages": 1117,
+    "total_net_weight_kg": "9621.84",
+    "total_gross_weight_kg": "10453.85"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Passenger car tyre 205/55R16",
+      "country_of_origin": "TH",
+      "quantity": "1117",
+      "unit": "pcs",
+      "packages": 1117,
+      "net_weight_kg": "9621.84",
+      "gross_weight_kg": "10453.85"
+    }
+  ]
+}

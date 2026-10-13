@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "C O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nChonburi Sukjai Industrial Co., Ltd.\r\nNo. 114 Industrial Road, Chonburi, Thailand\r\nINVOICE NO. & DATE\r\nEX202621-3018\r\n02-JUL-2026\r\nCONSIGNEE\r\nCohen-Johnson\r\nUnit 12 46 Moore Lees, 2665 Sydney, Australia\r\nTERMS OF DELIVERY AND PAYMENT\r\nCIF Sydney\r\n30% deposit, 70% against copy of B/L\r\nNOTIFY PARTY\r\nHernandez-Coleman, 73 May Wynd, 2074 Melbourne, Australia\r\nVESSEL / VOYAGE\r\nONE AURORA V.520W\r\nPORT OF LOADING\r\nBANGKOK\r\nPORT OF DISCHARGE\r\nSYDNEY\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nCOHEN-JOHNSON /\r\nEX202621-3018\r\nCANNED SKIPJACK TUNA\r\nIN OIL, 185G\r\n1604.14 THAILAND 10,848 PCS 1.07 11,607.36\r\nPASSENGER CAR TYRE\r\n205/55R16\r\n4011.10 THAILAND 872 PCS 43.47 37,905.84\r\nTOTAL CIF SYDNEY USD 49,513.20\r\nSAY TOTAL US DOLLARS FORTY-NINE THOUSAND FIVE HUNDRED THIRTEEN AND CENTS TWENTY ONLY\r\nFor and on behalf of Chonburi Sukjai Industrial Co.,\r\nLtd.\r\nAuthorized Signature\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Chonburi Sukjai Industrial Co., Ltd.\r\nNo. 114 Industrial Road, Chonburi, Thailand\r\nPACKING LIST\r\nInvoice Ref. EX202621-3018\r\nDate 02-JUL-2026\r\nCONSIGNEE\r\nCohen-Johnson\r\nUnit 12 46 Moore Lees, 2665 Sydney, Australia\r\nTERMS OF DELIVERY\r\nFCA Sydney\r\nBangkok to Sydney\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Canned skipjack tuna in oil, 185g TH 10,848 pcs 226 2,212.99 kg 2,481.75 kg\r\n2 Passenger car tyre 205/55R16 TH 1,020 pcs 872 7,380.61 kg 8,755.18 kg\r\nTotal 1098 CARTONS 9,593.60 kg 11,236.93 kg\r\nShipping marks: COHEN-JOHNSON / EX202621-3018\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nChonburi Sukjai Industrial Co., Ltd.\r\nNo. 114 Industrial Road, Chonburi, Thailand\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYDC4185685 \r\nCONSIGNEE\r\nCohen-Johnson\r\nUnit 12 46 Moore Lees, 2665 Sydney, Australia\r\nNOTIFY PARTY\r\nHernandez-Coleman\r\n73 May Wynd, 2074 Melbourne, Australia\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE AURORA / 520W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nBangkok\r\nPORT OF DISCHARGE\r\nSydney\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU6963299\r\nSEAL 8282568\r\nCOHEN-JOHNSON /\r\nEX202621-3018\r\n1098\r\nCARTONS\r\nSAID TO CONTAIN: Canned skipjack tuna\r\nin oil, 185g; Passenger car tyre\r\n205/55R16\r\n11,236.93 kg\r\nSHIPPED ON BOARD\r\n07-JUL-2026\r\nPLACE AND DATE OF ISSUE\r\nBangkok, 07-JUL-2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1"
+    }
+  ]
+}

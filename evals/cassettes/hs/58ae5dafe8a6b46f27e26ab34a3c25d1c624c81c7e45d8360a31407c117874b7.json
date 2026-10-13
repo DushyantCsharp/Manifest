@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "58ae5dafe8a6b46f27e26ab34a3c25d1c624c81c7e45d8360a31407c117874b7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's dress, knitted, 100% polyester\nCountry of origin: CN\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6106: Blouses, shirts and shirt-blouses; women's or girls', knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n    contains 610620: Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres, knitted or crocheted\n- 6112: Track suits, ski suits and swimwear; knitted or crocheted\n    contains 611241: Swimwear; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 611249: Swimwear; women's or girls', of textile materials (other than synthetic fibres), knitted or crocheted\n- 6108: Slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles; women's or girls', knitted or crocheted\n    contains 610821: Briefs and panties; women's or girls', of cotton, knitted or crocheted\n    contains 610831: Nightdresses and pyjamas; women's or girls', of cotton, knitted or crocheted\n- 6104: Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (not swimwear), women's or girls', knitted or crocheted\n    contains 610422: Ensembles; women's or girls', of cotton, knitted or crocheted\n    contains 610432: Jackets; women's or girls', of cotton, knitted or crocheted\n    contains 610442: Dresses; women's or girls', of cotton, knitted or crocheted\n    contains 610452: Skirts and divided skirts; women's or girls', of cotton, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "923e73f2573711059f017764cc023e614e4059b47b0a7b28dc16f0b464408d7b",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6104",
+      "cited": [
+        "6104"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 643,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

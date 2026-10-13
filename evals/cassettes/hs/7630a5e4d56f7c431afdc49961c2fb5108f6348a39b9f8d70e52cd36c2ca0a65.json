@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "7630a5e4d56f7c431afdc49961c2fb5108f6348a39b9f8d70e52cd36c2ca0a65",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's padded jacket, woven polyester shell, down filled\nCountry of origin: CN\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted > 6204 Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear); women's or girls' (not knitted or crocheted)\n\nChoose the subheading that covers these goods. Options:\n- 620432: Jackets and blazers; women's or girls', of cotton (not knitted or crocheted)\n- 620433: Jackets and blazers; women's or girls', of synthetic fibres (not knitted or crocheted)\n- 620431: Jackets and blazers; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n- 620439: Jackets and blazers; women's or girls', of textile materials n.e.c. in item no. 6204.3 (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f72a02f60645e861688810847101feb19cd1c74dd6fe92d1a4b56162bc56b97e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "620432",
+      "cited": [
+        "620432"
+      ],
+      "confidence": "0.30",
+      "reason": "best guess: the labelled code was not retrieved"
+    },
+    "input_tokens": 434,
+    "latency_ms": 0,
+    "output_tokens": 31
+  }
+}

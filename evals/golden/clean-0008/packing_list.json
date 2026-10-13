@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0008",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202630-7680",
+    "date": "2026-03-27",
+    "seller": {
+      "name": "Lahore Sapphire Industrial Co., Ltd.",
+      "address": [
+        "No. 384 Avenue 3",
+        "Lahore",
+        "Pakistan"
+      ],
+      "country": "PK"
+    },
+    "buyer": {
+      "name": "Barrera, Butler and Duffy",
+      "address": [
+        "715 Janice Greens Suite 816",
+        "43608 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "DDP",
+    "incoterm_place": "Savannah",
+    "package_type": "CARTONS",
+    "total_packages": 530,
+    "total_net_weight_kg": "13077.26",
+    "total_gross_weight_kg": "14727.83"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "PK",
+      "quantity": "1770",
+      "unit": "pcs",
+      "packages": 45,
+      "net_weight_kg": "952.26",
+      "gross_weight_kg": "1060.53"
+    },
+    {
+      "line_no": 2,
+      "description": "Long grain white rice, milled",
+      "country_of_origin": "PK",
+      "quantity": "12125",
+      "unit": "kg",
+      "packages": 485,
+      "net_weight_kg": "12125.00",
+      "gross_weight_kg": "13667.30"
+    }
+  ]
+}

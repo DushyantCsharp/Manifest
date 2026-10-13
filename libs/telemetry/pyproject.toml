@@ -1,0 +1,15 @@
+[project]
+name = "manifest-telemetry"
+version = "0.1.0"
+description = "OpenTelemetry tracing/metrics and structured logging setup."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "opentelemetry-api>=1.45.1",
+    "opentelemetry-exporter-otlp-proto-http>=1.45.1",
+    "opentelemetry-sdk>=1.45.1",
+    "structlog>=26.1.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12"]
+build-backend = "uv_build"

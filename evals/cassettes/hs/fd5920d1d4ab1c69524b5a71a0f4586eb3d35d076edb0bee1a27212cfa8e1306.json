@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "fd5920d1d4ab1c69524b5a71a0f4586eb3d35d076edb0bee1a27212cfa8e1306",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Natural honey in jars\nCountry of origin: AR\n\nChosen so far: 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n\nChoose the heading that covers these goods. Options:\n- 0409: Honey; natural\n    contains 040900: Honey; natural\n- 0410: Animal products; insects and other edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 041010: Animal products; insects\n- 0405: Butter and other fats and oils derived from milk; dairy spreads\n    contains 040520: Dairy produce; dairy spreads\n    contains 040510: Dairy produce; derived from milk, butter\n    contains 040590: Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)\n- 0407: Birds' eggs, in shell; fresh, preserved or cooked\n    contains 040790: Birds' eggs, in shell; preserved or cooked\n    contains 040721: Birds' eggs, in shell; fresh, not for incubation, of fowls of the species Gallus domesticus (domestic hens)\n    contains 040711: Birds' eggs, in shell; fresh, fertilised eggs for incubation, of fowls of the species Gallus domesticus (domestic hens)\n    contains 040729: Birds' eggs, in shell; fresh, not for incubation, other than fowls of the species Gallus domesticus (domestic hens)\n    contains 040719: Birds' eggs, in shell; fresh, fertilised eggs for incubation, other than fowls of the species Gallus domesticus (domestic hens)\n- 0406: Cheese and curd\n    contains 040630: Dairy produce; cheese, processed (not grated or powdered)\n    contains 040620: Dairy produce; cheese of all kinds, grated or powdered\n    contains 040610: Dairy produce; fresh cheese (including whey cheese), not fermented, and curd\n    contains 040690: Dairy produce; cheese (not grated, powdered or processed), n.e.c. in heading no. 0406\n    contains 040640: Dairy produce; cheese, blue-veined and other cheese containing veins produced by Penicillium roqueforti (not grated, powdered or processed)\n- 0404: Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included\n    contains 040490: Dairy produce; natural milk constituents (excluding whey), whether or not containing added sugar or other sweetening matter, n.e.c. in chapter 04\n    contains 040410: Dairy produce; whey, whether or not concentrated or containing added sugar or other sweetening matter\n- 0401: Milk and cream; not concentrated, not containing added sugar or other sweetening matter\n    contains 040110: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, not exceeding 1%\n- 0402: Milk and cream; concentrated or containing added sugar or other sweetening matter\n    contains 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "78ffbc655d4b44e8f8cfc4f10078c2c836e707d6da208256f16b4381f6ea4240",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0409",
+      "cited": [
+        "0409"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 994,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

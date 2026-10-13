@@ -1,0 +1,56 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0009",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "0.06",
+    "noise_sigma": 12,
+    "salt_pepper": "0.0017",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/1011",
+    "date": "2026-08-28",
+    "seller": {
+      "name": "Akçay San.",
+      "address": [
+        "06411 Şama Mills Suite 971",
+        "71574 Izmir",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Long PLC",
+      "address": [
+        "37 David Shore",
+        "IV2A 4QF Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "incoterm": "DAP",
+    "incoterm_place": "Leeds",
+    "package_type": "BAGS",
+    "total_packages": 340,
+    "total_net_weight_kg": "17000.01",
+    "total_gross_weight_kg": "17839.79"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Black tea, CTC, bulk",
+      "country_of_origin": "LK",
+      "quantity": "17000",
+      "unit": "kg",
+      "packages": 340,
+      "net_weight_kg": "17000.01",
+      "gross_weight_kg": "17839.79"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "4985102567516f056b3ffa19745c2d874cc1e5abd8c7d40fd0b1efa5f7114546",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Household aluminium foil 12 micron, rolls\nCountry of origin: CN\n\nChosen so far: 76 Aluminium and articles thereof > 7607 Aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0.2mm\n\nChoose the subheading that covers these goods. Options:\n- 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n- 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n- 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "660d10826f9fb5fc219df4ce5bd6a3ae5c113037f5803968a13c4f32d899ffeb",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "760711",
+      "cited": [
+        "760711"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 405,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

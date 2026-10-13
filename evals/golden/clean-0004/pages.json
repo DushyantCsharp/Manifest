@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "K Khanna LLC I N VO I C E\r\nINVOICE\r\nNumber: 2026/0296\r\nDate: July 15, 2026\r\nTerms: L/C at sight \r\nSOLD TO\r\nBailey, Martin and Hardy\r\nFlat 6, Hayward Port, TW7R 2BY\r\nBirmingham, United Kingdom \r\nDELIVERY\r\nCPT Leeds (Incoterms 2020)\r\nvia Chennai to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Leather handbag with shoulder strap India 1,700 pcs 29.65 50,405.00\r\n02 Stainless steel saucepan 20cm India 2,229 pcs 6.97 15,536.13\r\n03 Stainless cutlery set, 24 pieces India 2,360 sets 11.02 26,007.20\r\nAmount due 91,948.33\r\nAll amounts are in pounds sterling (GBP). Please quote invoice 2026/0296 with your payment. \r\n56/973, Mittal Zila | 603532 Mumbai | India\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Khanna LLC\r\n56/973, Mittal Zila, 603532 Mumbai, India\r\nPACKING LIST\r\nInvoice Ref. 2026/0296\r\nDate July 15, 2026\r\nCONSIGNEE\r\nBailey, Martin and Hardy\r\nFlat 6, Hayward Port, TW7R 2BY Birmingham, United\r\nKingdom\r\nTERMS OF DELIVERY\r\nCPT Leeds\r\nChennai to Southampton\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Leather handbag with shoulder strap IN 1,700 pcs 170 3,627.9 lb 4,208.3 lb\r\n2 Stainless steel saucepan 20cm IN 2,229 pcs 186 5,076.3 lb 5,826.7 lb\r\n3 Stainless cutlery set, 24 pieces IN 2,360 sets 236 8,553.6 lb 9,147.3 lb\r\nTotal 592 CARTONS 17,257.8 lb 19,182.3 lb\r\nShipping marks: BAILEY, / 2026/0296\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nKhanna LLC\r\n56/973, Mittal Zila, 603532 Mumbai, India\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUMA9303387 \r\nCONSIGNEE\r\nBailey, Martin and Hardy\r\nFlat 6, Hayward Port, TW7R 2BY Birmingham, United\r\nKingdom\r\nNOTIFY PARTY\r\nDennis LLC\r\nFlat 43, Ross Club, BL1H 5BY Leeds, United\r\nKingdom\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC ZEPHYR / 708W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nChennai\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU0757126\r\nSEAL 5902472\r\nBAILEY, /\r\n2026/0296\r\n592\r\nCARTONS\r\nSAID TO CONTAIN: Leather handbag with shoulder\r\nstrap; Stainless steel saucepan 20cm; Stainless\r\ncutlery set, 24 pieces\r\n19,182.3 lb\r\nSHIPPED ON BOARD\r\nJuly 17, 2026\r\nPLACE AND DATE OF ISSUE\r\nChennai, July 17, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1"
+    }
+  ]
+}

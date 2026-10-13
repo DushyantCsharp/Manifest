@@ -1,0 +1,69 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0018",
+  "document": "commercial_invoice",
+  "layout": "exporter",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202629-3132",
+    "invoice_date": "2026-07-31",
+    "seller": {
+      "name": "Kaul-Kala",
+      "address": [
+        "18, Parikh Road",
+        "002880 Tiruppur",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Nguyen-Robinson",
+      "address": [
+        "119 Donaldson Estate",
+        "1764 Sydney",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Sydney",
+    "payment_terms": "Cash against documents",
+    "total_amount": "88903.96"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Stainless steel sheet 304, cold-rolled 2mm",
+      "country_of_origin": "IN",
+      "quantity": "12000",
+      "unit": "kg",
+      "unit_price": "2.98",
+      "amount": "35760.00",
+      "hs_code": "721933"
+    },
+    {
+      "line_no": 2,
+      "description": "Stainless steel saucepan 20cm",
+      "country_of_origin": "IN",
+      "quantity": "2083",
+      "unit": "pcs",
+      "unit_price": "8.92",
+      "amount": "18580.36",
+      "hs_code": "732393"
+    },
+    {
+      "line_no": 3,
+      "description": "Smartphone 6.1in, 128GB",
+      "country_of_origin": "IN",
+      "quantity": "120",
+      "unit": "pcs",
+      "unit_price": "288.03",
+      "amount": "34563.60",
+      "hs_code": "851713"
+    }
+  ]
+}

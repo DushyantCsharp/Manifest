@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "864e27226914690747b5aecaa6894faae341f3b4c2e3d677fb6a1ec57c7f6a2c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Rechargeable electric toothbrush with self-contained motor\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 846722: Tools; for working in the hand, with self-contained electric motor; saws\n    contains 846781: Tools; for working in the hand, chain saws with self-contained non-electric motor\n    contains 846721: Tools; for working in the hand, with self-contained electric motor; drills of all kinds\n    contains 846729: Tools; for working in the hand, with self-contained electric motor; other than saws and drills\n    contains 846791: Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor\n    contains 846789: Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)\n    contains 841451: Fans; table, floor, wall, window, ceiling or roof fans, with a self-contained electric motor of an output not exceeding 125W\n    contains 846792: Tools; for working in the hand, parts of pneumatic tools\n    contains 846719: Tools; for working in the hand, pneumatic, other than rotary type\n    contains 846799: Tools; for working in the hand, parts thereof for other than chain saws and pneumatic tools\n    contains 846711: Tools; for working in the hand, pneumatic, rotary type (including combined rotary-percussion)\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 850860: Vacuum cleaners, other than with a self-contained electric motor\n    contains 851010: Shavers; with self-contained electric motor\n    contains 851020: Hair clippers; with a self-contained electric motor\n    contains 851030: Hair-removing appliances; with self-contained electric motor\n    contains 850819: Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1\n    contains 851090: Shavers and hair clippers; parts of those with self-contained electric motor\n    contains 850980: Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509\n    contains 850811: Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L\n    contains 850940: Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "38af13bae0e325aa9d53ee877dd64d5bb98c9b853211f9b0a0b9ae30a3b8112d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 888,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

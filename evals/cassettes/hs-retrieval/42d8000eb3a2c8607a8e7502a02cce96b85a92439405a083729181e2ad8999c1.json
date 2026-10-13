@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "42d8000eb3a2c8607a8e7502a02cce96b85a92439405a083729181e2ad8999c1",
+  "retriever": "offline-lexical",
+  "query": "Grey Portland cement in 50kg bags origin VN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "252321",
+      "description": "Cement; portland, white, whether or not artificially coloured",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "252329",
+      "description": "Cement; portland, other than white, whether or not artificially coloured",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "252310",
+      "description": "Cement clinkers (whether or not coloured)",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "252390",
+      "description": "Cement; hydraulic kinds n.e.c. in heading no. 2523",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "252330",
+      "description": "Cement; aluminous (ciment fondu), whether or not coloured or in the form of clinkers",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "010391",
+      "description": "Swine; live, other than pure-bred breeding animals, weighing less than 50kg",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "010392",
+      "description": "Swine; live, other than pure-bred breeding animals, weighing 50kg or more",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "630520",
+      "description": "Sacks and bags; of a kind used for the packing of goods, of cotton",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "392321",
+      "description": "Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "392329",
+      "description": "Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "844120",
+      "description": "Machines; for making bags, sacks or envelopes of paper pulp, paper or paperboard",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "630510",
+      "description": "Sacks and bags; of a kind used for the packing of goods, of jute or of other textile bast fibres of heading no. 5303",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "630590",
+      "description": "Sacks and bags; of a kind used for the packing of goods, of textile materials (other than jute, cotton or man-made textile materials)",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "940430",
+      "description": "Sleeping bags",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "630532",
+      "description": "Sacks and bags; of a kind used for the packing of goods, of man-made textile materials, flexible intermediate bulk containers",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

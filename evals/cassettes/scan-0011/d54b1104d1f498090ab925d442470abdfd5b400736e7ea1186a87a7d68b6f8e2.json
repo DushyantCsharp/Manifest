@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "key": "d54b1104d1f498090ab925d442470abdfd5b400736e7ea1186a87a7d68b6f8e2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\n| | | ‘PACKING LIST\nTaichung Yungshin Textile Co., Ltd. — Invoice Ref. INV-2026-91736\n\nNo. 250 Industrial Road, Taichung, Taiwan. Date - 04/08/2026\n| CONSIGNEE | | TERMS OF DELIVERY.\n_, Massey Inc ; _ | DDP Montréal\n| 4324 Brittany Lodge, M9Y 9S7 Vancouver, Canada Keelung to: Vancouver a\n# Description . Origin Quantity : Pkgs Net weight Gross weight\n1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg\n2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg\nTotal 1531 CARTONS 14,558.90 kg 17,156.71 kg\n\nShipping marks: MASSEY / INV-2026-91736\n\nPage | of 1” ;\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "_, Massey Inc ; _ | DDP Montréal",
+        "value": "Massey Inc"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "No. 250 Industrial Road, Taichung, Taiwan. Date - 04/08/2026",
+        "value": "04/08/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "_, Massey Inc ; _ | DDP Montréal",
+        "value": "DDP Montréal"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Taichung Yungshin Textile Co., Ltd. — Invoice Ref. INV-2026-91736",
+        "value": "INV-2026-91736"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "value": "IT"
+          },
+          "description": {
+            "confidence": "0.86",
+            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "value": "Red wine, 0.751 bottle"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "value": "13,283.04 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "value": "11,014.04 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "value": "8,598"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "value": "Split air conditioner 12000 BTU"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "value": "3,873.67 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "value": "3,544.86 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "value": "98"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Taichung Yungshin Textile Co., Ltd. — Invoice Ref. INV-2026-91736",
+        "value": "Taichung Yungshin Textile Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "value": "17,156.71 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "value": "14,558.90 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "value": "1531"
+      }
+    },
+    "input_tokens": 384,
+    "latency_ms": 0,
+    "output_tokens": 786
+  }
+}

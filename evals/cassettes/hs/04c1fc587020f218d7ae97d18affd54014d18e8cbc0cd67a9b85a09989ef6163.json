@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "04c1fc587020f218d7ae97d18affd54014d18e8cbc0cd67a9b85a09989ef6163",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Combination spanner set, chrome vanadium steel\nCountry of origin: TW\n\nChoose the chapter that covers these goods. Options:\n- 72: Iron and steel\n    contains 720292: Ferro-alloys; ferro-vanadium\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 820420: Tools, hand; interchangeable spanner sockets, with or without handles\n    contains 820412: Tools, hand; hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches), adjustable\n    contains 820411: Tools, hand; hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches), non-adjustable\n- 41: Raw hides and skins (other than furskins) and leather\n    contains 411410: Leather; chamois (including combination chamois)\n- 26: Ores, slag and ash\n    contains 261590: Niobium, tantalum, vanadium ores and concentrates\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 845521: Metal-rolling mills; hot or combination hot and cold rolling mills\n    contains 841620: Furnaces; furnace burners, for pulverized solid fuel or gas, including combination burners\n- 47: Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard\n    contains 470500: Wood pulp; obtained by a combination of mechanical and chemical pulping processes\n    contains 470693: Pulp; of fibrous cellulosic material, other than of bamboo or fibres derived from recovered (waste and scrap) paper or paperboard or from cotton linters pulp, obtained by a combination of mechanical and chemical processes\n- 83: Metal; miscellaneous products of base metal\n    contains 830110: Padlocks; (key, combination or electrically operated), of base metal\n    contains 830130: Locks; of a kind used for furniture (key, combination or electrically operated), of base metal\n    contains 830120: Locks; of a kind used for motor vehicles (key, combination or electrically operated), of base metal\n    contains 830140: Locks; (other than those for motor vehicles or furniture), (key, combination or electrically operated), of base metal\n- 28: Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes\n    contains 282530: Vanadium oxides and hydroxides\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 902590: Hydrometers and similar floating instruments, barometers, hygrometers, psychrometers, thermometers, pyrometers; recording or not, any combination of these instruments, parts and accessories\n    contains 902580: Hydrometers and similar floating instruments, barometers, hygrometers, psychrometers, thermometers, pyrometers; recording or not, any combination of these instruments (excluding thermometers and barometers not combined with other instruments)\n- 93: Arms and ammunition; parts and accessories thereof\n    contains 930320: Firearms; sporting, hunting or target-shooting shotguns, including combination shotgun-rifles\n- 81: Metals; n.e.c., cermets and articles thereof\n    contains 811292: Gallium, germanium, indium, niobium (columbium) and vanadium; articles thereof, unwrought, including waste and scrap, powders\n    contains 811299: Gallium, germanium, indium, niobium (columbium) and vanadium; articles thereof, other than unwrought including waste and scrap and powders\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1ea310a53cf8ff4aa5372ee067ef4840e8dbe6419cb2bd9884e95ab007cac176",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "82",
+      "cited": [
+        "82"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1102,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

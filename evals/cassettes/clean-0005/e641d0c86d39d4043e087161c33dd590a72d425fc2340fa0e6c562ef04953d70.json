@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "key": "e641d0c86d39d4043e087161c33dd590a72d425fc2340fa0e6c562ef04953d70",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nPrabhakar LLC\r\n87/47, Khalsa Ganj, 252500 Ludhiana, India\r\nPACKING LIST\r\nInvoice Ref. FC-4994/26\r\nDate 2026-05-26\r\nCONSIGNEE\r\nVoisin S.A.\r\n8, boulevard Laurence Barthelemy, 97325 Lyon, France\r\nTERMS OF DELIVERY\r\nFCA Tiruppur\r\nMundra to Le Havre\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg\r\n2 Black tea, CTC, bulk IN 14 600 kg 292 14 600,00 kg 15 782,60 kg\r\n3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 138 1 535,62 kg 1 641,56 kg\r\n4 Stainless steel saucepan 20cm IN 888 pcs 74 1 133,98 kg 1 296,79 kg\r\n5 Stainless cutlery set, 24 pieces IN 715 sets 72 1 013,87 kg 1 131,05 kg\r\n6 Smartphone 6.1in, 128GB IN 200 pcs 5 43,60 kg 51,33 kg\r\n7 Terry cotton bath towel 70x140 IN 3 136 pcs 79 1 784,38 kg 1 960,94 kg\r\nTotal 952 CARTONS 22 491,25 kg 24 673,76 kg\r\nShipping marks: VOISIN / FC-4994/26\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Voisin S.A.",
+        "value": "Voisin S.A."
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 2026-05-26",
+        "value": "2026-05-26"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FCA Tiruppur",
+        "value": "FCA Tiruppur"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. FC-4994/26",
+        "value": "FC-4994/26"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "2 809,49 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "2 379,80 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "14 600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 14 600 kg 292 14 600,00 kg 15 782,60 kg",
+            "value": "Black tea, CTC, bulk"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 14 600 kg 292 14 600,00 kg 15 782,60 kg",
+            "value": "15 782,60 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Black tea, CTC, bulk IN 14 600 kg 292 14 600,00 kg 15 782,60 kg",
+            "value": "14 600,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "14 600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 138 1 535,62 kg 1 641,56 kg",
+            "value": "Men's woven cotton shirt, long sleeve"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 138 1 535,62 kg 1 641,56 kg",
+            "value": "1 641,56 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 138 1 535,62 kg 1 641,56 kg",
+            "value": "1 535,62 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Men's woven cotton shirt, long sleeve IN 5 504 pcs 138 1 535,62 kg 1 641,56 kg",
+            "value": "5 504"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 74 1 133,98 kg 1 296,79 kg",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 74 1 133,98 kg 1 296,79 kg",
+            "value": "1 296,79 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 74 1 133,98 kg 1 296,79 kg",
+            "value": "1 133,98 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm IN 888 pcs 74 1 133,98 kg 1 296,79 kg",
+            "value": "888"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 72 1 013,87 kg 1 131,05 kg",
+            "value": "Stainless cutlery set, 24 pieces"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 72 1 013,87 kg 1 131,05 kg",
+            "value": "1 131,05 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 72 1 013,87 kg 1 131,05 kg",
+            "value": "1 013,87 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 72 1 013,87 kg 1 131,05 kg",
+            "value": "715"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "5 Stainless cutlery set, 24 pieces IN 715 sets 72 1 013,87 kg 1 131,05 kg",
+            "value": "sets"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 5 43,60 kg 51,33 kg",
+            "value": "Smartphone 6.1in, 128GB"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 5 43,60 kg 51,33 kg",
+            "value": "51,33 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 5 43,60 kg 51,33 kg",
+            "value": "43,60 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Smartphone 6.1in, 128GB IN 200 pcs 5 43,60 kg 51,33 kg",
+            "value": "200"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "87/47, Khalsa Ganj, 252500 Ludhiana, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 79 1 784,38 kg 1 960,94 kg",
+            "value": "Terry cotton bath towel 70x140"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 79 1 784,38 kg 1 960,94 kg",
+            "value": "1 960,94 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 79 1 784,38 kg 1 960,94 kg",
+            "value": "1 784,38 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "7 Terry cotton bath towel 70x140 IN 3 136 pcs 79 1 784,38 kg 1 960,94 kg",
+            "value": "3 136"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14 600 pcs 292 2 379,80 kg 2 809,49 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 952 CARTONS 22 491,25 kg 24 673,76 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Prabhakar LLC",
+        "value": "Prabhakar LLC"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 952 CARTONS 22 491,25 kg 24 673,76 kg",
+        "value": "24 673,76 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 952 CARTONS 22 491,25 kg 24 673,76 kg",
+        "value": "22 491,25 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 952 CARTONS 22 491,25 kg 24 673,76 kg",
+        "value": "952"
+      }
+    },
+    "input_tokens": 462,
+    "latency_ms": 0,
+    "output_tokens": 1808
+  }
+}

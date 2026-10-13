@@ -1,0 +1,20 @@
+# Contract tooling locked separately from the workspace (own uv.lock and .venv): the client
+# generators and schemathesis.
+#
+# ariadne-codegen and schemathesis (via hypothesis-graphql) need graphql-core<3.3, and
+# ariadne-codegen ruff<0.16; strawberry-graphql needs graphql-core>=3.3 and the repo uses a newer
+# ruff. These tools only read contracts/ or talk HTTP to a running app, so they don't need to
+# share an environment with it. Exact pins keep generated code byte-stable, which
+# the drift check (scripts/contracts.py) relies on.
+[project]
+name = "manifest-codegen"
+version = "0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ariadne-codegen==0.19.0",
+    "openapi-python-client==0.29.1",
+    "schemathesis>=4.20",
+]
+
+[tool.uv]
+package = false

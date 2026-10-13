@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0012",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "HLCUVG7865925",
+    "seller": {
+      "name": "Bùi Tập Đoàn",
+      "address": [
+        "Số 5/88 Ngõ 53 Nguyễn Tất Thành",
+        "43460 Hai Phong",
+        "Vietnam"
+      ],
+      "country": "VN"
+    },
+    "buyer": {
+      "name": "Van Leeuwen Buizen",
+      "address": [
+        "Duukpad 05",
+        "2303 CE Utrecht",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "notify_party": null,
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD ZEPHYR",
+    "voyage": "468S",
+    "port_of_loading": "Hai Phong",
+    "port_of_discharge": "Rotterdam",
+    "shipped_on_board": "2026-07-31",
+    "container_number": "HLCU3473350",
+    "seal_number": "4920681",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 614,
+    "total_gross_weight_kg": "17491.19",
+    "goods_description": "SAID TO CONTAIN: Plastic storage box 30L with lid; Men's woven cotton shirt, long sleeve; Solar PV module 410W monocrystalline; Green Arabica coffee beans, grade 1"
+  },
+  "line_items": []
+}

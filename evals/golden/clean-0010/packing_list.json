@@ -1,0 +1,140 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0010",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-1980/26",
+    "date": "2026-05-04",
+    "seller": {
+      "name": "Napolitano, Cuomo e Foa SPA",
+      "address": [
+        "Strada Mariano, 2",
+        "89047 Prato",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Baudry et Fils",
+      "address": [
+        "64, rue de Delaunay",
+        "97235 Paris",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "incoterm": "CFR",
+    "incoterm_place": "Marseille",
+    "package_type": "CARTONS",
+    "total_packages": 1588,
+    "total_net_weight_kg": "19834.46",
+    "total_gross_weight_kg": "22354.98"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "1279",
+      "unit": "pcs",
+      "packages": 13,
+      "net_weight_kg": "49.88",
+      "gross_weight_kg": "60.32"
+    },
+    {
+      "line_no": 2,
+      "description": "Electric kettle 1.7L stainless",
+      "country_of_origin": "CN",
+      "quantity": "843",
+      "unit": "pcs",
+      "packages": 71,
+      "net_weight_kg": "890.21",
+      "gross_weight_kg": "972.89"
+    },
+    {
+      "line_no": 3,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "IT",
+      "quantity": "2914",
+      "unit": "pcs",
+      "packages": 486,
+      "net_weight_kg": "3651.24",
+      "gross_weight_kg": "4301.55"
+    },
+    {
+      "line_no": 4,
+      "description": "Cotton knitted pullover",
+      "country_of_origin": "CN",
+      "quantity": "5424",
+      "unit": "pcs",
+      "packages": 226,
+      "net_weight_kg": "2739.12",
+      "gross_weight_kg": "3045.23"
+    },
+    {
+      "line_no": 5,
+      "description": "Centrifugal water pump 1.1kW",
+      "country_of_origin": "IT",
+      "quantity": "95",
+      "unit": "pcs",
+      "packages": 95,
+      "net_weight_kg": "1210.30",
+      "gross_weight_kg": "1411.25"
+    },
+    {
+      "line_no": 6,
+      "description": "Inflatable beach ball 40cm",
+      "country_of_origin": "CN",
+      "quantity": "11400",
+      "unit": "pcs",
+      "packages": 57,
+      "net_weight_kg": "763.80",
+      "gross_weight_kg": "825.01"
+    },
+    {
+      "line_no": 7,
+      "description": "Hair dryer 2200W ionic",
+      "country_of_origin": "CN",
+      "quantity": "2480",
+      "unit": "pcs",
+      "packages": 124,
+      "net_weight_kg": "1676.48",
+      "gross_weight_kg": "1907.32"
+    },
+    {
+      "line_no": 8,
+      "description": "Terry cotton bath towel 70x140",
+      "country_of_origin": "IN",
+      "quantity": "8280",
+      "unit": "pcs",
+      "packages": 207,
+      "net_weight_kg": "3949.56",
+      "gross_weight_kg": "4260.10"
+    },
+    {
+      "line_no": 9,
+      "description": "LED bulb E27 9W warm white",
+      "country_of_origin": "CN",
+      "quantity": "6400",
+      "unit": "pcs",
+      "packages": 32,
+      "net_weight_kg": "275.20",
+      "gross_weight_kg": "322.24"
+    },
+    {
+      "line_no": 10,
+      "description": "Stainless cutlery set, 24 pieces",
+      "country_of_origin": "CN",
+      "quantity": "2770",
+      "unit": "sets",
+      "packages": 277,
+      "net_weight_kg": "4628.67",
+      "gross_weight_kg": "5249.07"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d26e636f3b1e7ef66d630b40c5b01a49893f4d78b62dcdc3a875e1e012897829",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel sheet 304, cold-rolled, 2mm thick, 1250mm wide\nCountry of origin: CN\n\nChosen so far: 72 Iron and steel > 7219 Stainless steel; flat-rolled products of width of 600mm or more\n\nChoose the subheading that covers these goods. Options:\n- 721931: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled or cold-reduced, of a thickness of 4.75mm or more\n- 721935: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm\n- 721932: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more but less than 4.75mm\n- 721934: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm\n- 721933: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm\n- 721990: Steel, stainless; flat-rolled, width 600mm or more, n.e.c. in heading no. 7219\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4233e62d8cb3b4256421f02dcf23d33205fad287e641b79d2f8758e54a8b92ef",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "721933",
+      "cited": [
+        "721933"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 466,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

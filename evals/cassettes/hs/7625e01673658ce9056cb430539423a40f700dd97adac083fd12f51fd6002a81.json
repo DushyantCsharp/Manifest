@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "7625e01673658ce9056cb430539423a40f700dd97adac083fd12f51fd6002a81",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Single malt Scotch whisky 70cl\nCountry of origin: GB\n\nChoose the chapter that covers these goods. Options:\n- 22: Beverages, spirits and vinegar\n    contains 220830: Whiskies\n    contains 220300: Beer; made from malt\n- 11: Products of the milling industry; malt, starches, inulin, wheat gluten\n    contains 110720: Malt; roasted\n    contains 110710: Malt; not roasted\n    contains 110820: Inulin\n    contains 110811: Starch; wheat\n    contains 110813: Starch; potato\n    contains 110100: Wheat or meslin flour\n    contains 110320: Cereal pellets\n    contains 110812: Starch; maize (corn) starch\n    contains 110814: Starch; manioc (cassava)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n    contains 293979: Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 19: Preparations of cereals, flour, starch or milk; pastrycooks' products\n    contains 190190: Food preparations; of flour, meal, starch, malt extract or milk products, for uses n.e.c. in heading no. 1901\n- 53: Vegetable textile fibres; paper yarn and woven fabrics of paper yarn\n    contains 530610: Yarn; of flax, single\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "412bcae39df4d268611908964b4174bc96aa85f577df01d3c75ee8ce9212a910",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "22",
+      "cited": [
+        "22"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 774,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

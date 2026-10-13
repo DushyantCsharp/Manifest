@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "key": "97202f3fb431d4de12e4b27d6bb42d84a722bd9db0cf584cf3ff9634052676d0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nCOMMERCIAL INVOICE\n\nSHIPPER / EXPORTER INVOICE NO. & DATE.\nPD Prastuti Tbk EX202620-1238\nJl. Rajawali Barat No, 9, 87451 Semarang, Indonesia 27-MAY-2026 :\n| CONSIGNEE : . TERMS OF DELIVERY AND PAYMENT\nPeak-IT , ? DDP Rotterdam\nBastiaanbaan 753, 7737CR Utrecht, Netherlands T/T 30.days after B/L date\nNOTIFY PARTY : $ VESSEL / VOYAGE\nMovares Groep, Lottelaan 652, 4935GX Utrecht, Netherlands ONE TRITON V.740W\nPORT OF LOADING PORT OF DISCHARGE\nTANJUNG PERAK ROTTERDAM\nMARKS & NOS. | DESCRIPTION OF Goops | H.S. ORIGIN QUANTITY | UNIT PRICE (USD) AMOUNT (USD)\n| CODE ees\nPEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30\nEX202620-1238 WITH LID :\nPORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92\n27CM\nROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20\nWHOLE\nLDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00\nGRANULES KOREA\nTOTAL DDP ROTTERDAM | USD 57,145.42\nSAY TOTAL US DOLLARS FIFTY-SEVEN THOUSAND ONE HUNDRED. FORTY-FIVE AND CENTS FORTY-TWO ONLY\n\nFor and on‘behalf of PD Prastuti Tbk\nAuthorized Signature\n\nPage 1 of |\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Peak-IT , ? DDP Rotterdam",
+        "value": "Peak-IT"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "MARKS & NOS. | DESCRIPTION OF Goops | H.S. ORIGIN QUANTITY | UNIT PRICE (USD) AMOUNT (USD)",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Peak-IT , ? DDP Rotterdam",
+        "value": "DDP Rotterdam"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Jl. Rajawali Barat No, 9, 87451 Semarang, Indonesia 27-MAY-2026 :",
+        "value": "27-MAY-2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "PD Prastuti Tbk EX202620-1238",
+        "value": "EX202620-1238"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.79",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "9;969.30"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "CHINA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.76",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "PLASTIC STORAGE BOX 30L |"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "5,830"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "1.71"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
+            "value": "6,217.92"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "CHINA"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.81",
+            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
+            "value": "PORCELAIN DINNER PLATE"
+          },
+          "quantity": {
+            "confidence": "0.72",
+            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
+            "value": "2;448"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
+            "value": "2.54"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "value": "30,793.20"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "value": "GERMANY"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.79",
+            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "value": "ROASTED COFFEE BEANS,"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "value": "2,010"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "value": "KG"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "value": "15.32"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "value": "10,165.00"
+          },
+          "country_of_origin": {
+            "confidence": "0.56",
+            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "value": "SOUTH"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.69",
+            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "value": "LDPE FILM-GRADE"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "value": "9,500"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "value": "KG"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "value": "1.07"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.87",
+        "evidence": "Bastiaanbaan 753, 7737CR Utrecht, Netherlands T/T 30.days after B/L date",
+        "value": "T/T 30.days after B/L date"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "PD Prastuti Tbk EX202620-1238",
+        "value": "PD Prastuti Tbk"
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "TOTAL DDP ROTTERDAM | USD 57,145.42",
+        "value": "57,145.42"
+      }
+    },
+    "input_tokens": 506,
+    "latency_ms": 0,
+    "output_tokens": 1169
+  }
+}

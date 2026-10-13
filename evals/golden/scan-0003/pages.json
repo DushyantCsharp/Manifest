@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "COMMERCIAL INVOICE\n\nSHIPPER / EXPORTER INVOICE NO. & DATE.\nPD Prastuti Tbk EX202620-1238\nJl. Rajawali Barat No, 9, 87451 Semarang, Indonesia 27-MAY-2026 :\n| CONSIGNEE : . TERMS OF DELIVERY AND PAYMENT\nPeak-IT , ? DDP Rotterdam\nBastiaanbaan 753, 7737CR Utrecht, Netherlands T/T 30.days after B/L date\nNOTIFY PARTY : $ VESSEL / VOYAGE\nMovares Groep, Lottelaan 652, 4935GX Utrecht, Netherlands ONE TRITON V.740W\nPORT OF LOADING PORT OF DISCHARGE\nTANJUNG PERAK ROTTERDAM\nMARKS & NOS. | DESCRIPTION OF Goops | H.S. ORIGIN QUANTITY | UNIT PRICE (USD) AMOUNT (USD)\n| CODE ees\nPEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30\nEX202620-1238 WITH LID :\nPORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92\n27CM\nROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20\nWHOLE\nLDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00\nGRANULES KOREA\nTOTAL DDP ROTTERDAM | USD 57,145.42\nSAY TOTAL US DOLLARS FIFTY-SEVEN THOUSAND ONE HUNDRED. FORTY-FIVE AND CENTS FORTY-TWO ONLY\n\nFor and on‘behalf of PD Prastuti Tbk\nAuthorized Signature\n\nPage 1 of |\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "- PACKING LIST\n\nPD Prastuti Tbk : Invoice Ref.. EX202620-1238\n\nJI. Rajawali Barat No. 9, 87451 Semarang, Indonesia Date 27-MAY-2026\n\n| CONSIGNEE | | TERMS OF DELIVERY\n\n_Peak-IT . et | | DDP Rotterdam\n\n| Bastiaanbaan 753, 7737CR Utrecht, Netherlands | | Tanjung Perak to Rotterdam\n\n# Description Origin Quantity Pkgs Net weight Gross weight\n1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg\n2 Porcelain dinner plate 27cm CN 2,448 pcs 102 1,530.00 kg 1,737.57 kg\n3 Roasted coffee beans, whole DE 2,010 kg 201 2,010.00 kg 2,307.48 kg\n4 LDPE film-grade granules KR 9,500 kg 380 9,500.00 kg 10,227.70 kg\nTotal 1266 CARTONS 20,514.06 kg 22,803.52 kg\n\nShipping marks: PEAK-IT / EX202620-1238\n\nPage | of |\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER:\nPD Prastuti Tbk\n\nONE\n\nBastiaanbaan 753, 7737CR Utrecht, Netherlands\n\nJ1-. Rajawali Barat No. 9, 87451 Semarang, Indonesia’ BILL OF LADING\nONEYSL3197817\n\nCONSIGNEE NOTIFY PARTY ;\n\nPeak-IT Movares Groep\n\nLottelaan 652, 4935GX Utrecht, Netherlands\n\nOCEAN VESSEL / VOYAGE NO.\nONE TRITON / 740W -\n\nFREIGHT\n\nFREIGHT PREPAID\n\nPORT OF LOADING\n\n07-JUN-2026 Tanjung Perak, 07-JUN-2026\n\nPORT OF DISCHARGE\n\nTanjung Perak Rotterdam\n\nCONTAINER / SEAL | MARKS & NOS. NO.OF — | DESCRIPTION OF GOODS x GROSS WEIGHT\n\nNO. PACKAGES :\n\nONEU6263401 | PEAK-IT / 1266 . SAID TO CONTAIN: Plastic storage box .30L 22,803.52 kg\n‘| SEAL ; EX202620-1238 CARTONS |with lid; Porcelain dinner plate 27cm; ;\n\n1294982 - Roasted coffee beans,’ whole; LDPE ‘film-grade.\n\ngranules ~ 3 ;\nSHIPPED ONBOARD ‘| PLACE AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\nTHREE (3)\n\nRECEIVED by the Carrier in apparent good order and condition uniess otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. :\n\nPage ! of |\n\n"
+    }
+  ]
+}

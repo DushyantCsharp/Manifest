@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "018bd51cd67c06c8e48d984291c17a95fb08ef9c764390b9425012f053087a55",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lager beer made from malt, 330ml cans\nCountry of origin: MX\n\nChosen so far: 22 Beverages, spirits and vinegar\n\nChoose the heading that covers these goods. Options:\n- 2203: Beer made from malt\n    contains 220300: Beer; made from malt\n- 2202: Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading no. 2009\n    contains 220291: Non-alcoholic beverages; non-alcoholic beer\n    contains 220299: Non-alcoholic beverages; other than non-alcoholic beer, n.e.c. in item no. 2202.10, not including fruit, nut or vegetable juices of heading no. 2009\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0733efa99d0003e31542c5a2f489dd17a0c698895b438ad49d8b14552b632205",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "2203",
+      "cited": [
+        "2203"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 398,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

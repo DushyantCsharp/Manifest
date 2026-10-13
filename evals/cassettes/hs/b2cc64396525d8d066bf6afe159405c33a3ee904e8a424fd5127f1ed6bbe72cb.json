@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "b2cc64396525d8d066bf6afe159405c33a3ee904e8a424fd5127f1ed6bbe72cb",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Toilet soap bars\nCountry of origin: ID\n\nChosen so far: 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster > 3401 Soap; organic surface-active preparations used as soap, skin washing, in bars, cakes, moulded pieces, shapes, liquid or cream, containing soap or not; for retail, paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent\n\nChoose the subheading that covers these goods. Options:\n- 340119: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use\n- 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n- 340120: Soap; in forms n.e.c. in item no. 3401.11\n- 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4c0faa0e12f1ecab3d15069145a48bf73146d67d95597cff6537b8a723e340cd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "340111",
+      "cited": [
+        "340111"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 549,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

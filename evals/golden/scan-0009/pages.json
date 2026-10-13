@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Akgay San.\n\n06411 Sama Mills Suite 97} | 71574 Izmir | Turkey\n\nINVOICE\n\nNumber: 2026/1011\nDate:August 28, 2026\n\nTerms: 30% deposit, 70% against copy\nof B/L\n\nItem Description\n\nSOLD To\n\nLong PLC\n37 David Shore, IV2A 4QF\nBirmingham, United Kingdom\n\nMade in Quantity\n\nDELIVERY\n\nDAP Leeds (Incoterms 2020)\nvia Izmir to Southampton\n\nUnit price Line total\n\nol Black tea, CTC, bulk\n\nSri Lanka 17,000 kg\n\nAmount due\n\n2.54 43,180.00\n\n43,180.00\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "PACKING LIST\n\nInvoice Ref. 2026/1011\n\n' Akcay San. ca lhrats\n06411 Sama Mills Suite 971, 71574 Izmir, Turkey Sans Date August 28, 2026:\n| CONSIGNEE ? _°. | | TERMS OF DELIVERY\n| Long PLC | | DAP Leeds\n\n| 37 David Shore, IV2A 4QrF Birmingham, United: Kingdom | Izmir to Southampton\n\n' # = Description Origin Quantity Pkgs Net weight Gross weight ©\n1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib\nTotal , 340 BAGS 37,478.6 Ib 39,330.0 Ib\n\nShipping marks: LONG / 2026/1011\n\n. .Page | of |\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER\n\nMSC\n\n37 David Shore, IV2A 4QF Birmingham, United Kingdom\n\nAkeay San.\n06411 Sama Mills Suite 971, 71574 Izmir, Turkey: - BILL OF LADING\n: B/L NO\nMEDULR2350766\nCONSIGNEE NOTIFY PARTY\nLong PLC SAME AS CONSIGNEE\n\nOCEAN VESSEL / VOYAGE NO.\nMSC HARMONY / 4735S\n\nFREIGHT\nFREIGHT PREPAID\n\nPORT OF LOADING PORT OF DISCHARGE\n\nIzmir Southampton\n\nCONTAINER / SEAL NO. | MARKS & NOS. NO. OF PACKAGES DESCRIPTION OF GOODS GROSS WEIGHT\nMEDU2896861t LONG / 2026/1011 | 340 Bacs SAID TO CONTAIN: Black tea, CTC, bulk | 39,330.0 lb\nSEAL 7462656\n\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE ; NUMBER OF ORIGINAL B/LS\n\nSeptember 3, 2026 Izmir, September 3, 2026 THREE (3)\n\nol charge, se oe are eo ae concn urea thervise sated he toa numba of containers o packages shown abow fer carape Yon te pou beang bo po\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading Signed as Carrier: MSC. E :\n\nPage | of |\n\n"
+    }
+  ]
+}

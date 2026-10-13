@@ -1,0 +1,66 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0011",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "1.62",
+    "noise_sigma": 12,
+    "salt_pepper": "0.0025",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-91736",
+    "date": "2026-04-08",
+    "seller": {
+      "name": "Taichung Yungshin Textile Co., Ltd.",
+      "address": [
+        "No. 250 Industrial Road",
+        "Taichung",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "Massey Inc",
+      "address": [
+        "4324 Brittany Lodge",
+        "M9Y 9S7 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "incoterm": "DDP",
+    "incoterm_place": "Montréal",
+    "package_type": "CARTONS",
+    "total_packages": 1531,
+    "total_net_weight_kg": "14558.90",
+    "total_gross_weight_kg": "17156.71"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "IT",
+      "quantity": "8598",
+      "unit": "pcs",
+      "packages": 1433,
+      "net_weight_kg": "11014.04",
+      "gross_weight_kg": "13283.04"
+    },
+    {
+      "line_no": 2,
+      "description": "Split air conditioner 12000 BTU",
+      "country_of_origin": "CN",
+      "quantity": "98",
+      "unit": "pcs",
+      "packages": 98,
+      "net_weight_kg": "3544.86",
+      "gross_weight_kg": "3873.67"
+    }
+  ]
+}

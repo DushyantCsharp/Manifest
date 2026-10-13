@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Toyota Otomotiv · 1009 Korutürk Ways · 26238 Bursa · Turkey\r\nDehmel\r\nZimmerweg 75/88\r\n37966 Hamburg\r\nGermany\r\nRechnungsnummer / Invoice no. RE-26-8158\r\nRechnungsdatum / Date 26.04.2026\r\nLieferbedingung / Incoterms® 2020 CPT Düsseldorf\r\nZahlungsbedingung / Payment T/T in advance\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80\r\n2 Aluminium household foil 12 micron TR 7.460 kg 2,91 21.708,60\r\n3 Women's cotton denim trousers TR 1.230 pcs 6,77 8.327,10\r\nGesamtbetrag / Total 71.400,50 EUR\r\nVersand / Shipment: Izmir → Hamburg. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Toyota Otomotiv\r\n1009 Korutürk Ways, 26238 Bursa, Turkey\r\nPACKING LIST\r\nInvoice Ref. RE-26-8158\r\nDate 26.04.2026\r\nCONSIGNEE\r\nDehmel\r\nZimmerweg 75/88, 37966 Hamburg, Germany\r\nTERMS OF DELIVERY\r\nCPT Düsseldorf\r\nIzmir to Hamburg\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg\r\n2 Aluminium household foil 12 micron TR 7.460 kg 373 7.460,00 kg 8.064,26 kg\r\n3 Women's cotton denim trousers TR 1.230 pcs 41 616,23 kg 690,31 kg\r\nTotal 620 CARTONS 11.825,43 kg 12.951,57 kg\r\nShipping marks: DEHMEL / RE-26-8158\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nToyota Otomotiv\r\n1009 Korutürk Ways, 26238 Bursa, Turkey\r\nCOSCO\r\nBILL OF LADING\r\nB/L NO.\r\nCOSUSE4376401 \r\nCONSIGNEE\r\nGotthard GmbH & Co. OHG\r\nZimmerweg 75/88, 37966 Hamburg, Germany\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCOSCO ORION / 829W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nIzmir\r\nPORT OF DISCHARGE\r\nHamburg\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCOSU4044857\r\nSEAL 5443485\r\nDEHMEL /\r\nRE-26-8158\r\n617\r\nCARTONS\r\nSAID TO CONTAIN: Terry cotton bath towel\r\n70x140; Aluminium household foil 12 micron;\r\nWomen's cotton denim trousers\r\n12.951,57 kg\r\nSHIPPED ON BOARD\r\n01.05.2026\r\nPLACE AND DATE OF ISSUE\r\nIzmir, 01.05.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: COSCO. \r\nPage 1 of 1"
+    }
+  ]
+}

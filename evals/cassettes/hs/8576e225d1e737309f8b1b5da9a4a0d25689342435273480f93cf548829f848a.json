@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "8576e225d1e737309f8b1b5da9a4a0d25689342435273480f93cf548829f848a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cordless stick vacuum cleaner, 0.6L dust container, 150W motor\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 850811: Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L\n    contains 850860: Vacuum cleaners, other than with a self-contained electric motor\n    contains 850819: Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1\n    contains 850980: Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509\n    contains 850870: Parts of vacuum cleaners\n    contains 850990: Electro-mechanical domestic appliances; parts for the appliances of heading no. 8509\n    contains 850940: Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor\n    contains 851711: Line telephone sets with cordless handsets\n- 79: Zinc and articles thereof\n    contains 790310: Zinc dust\n- 66: Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof\n    contains 660199: Umbrellas and sun umbrellas; n.e.c. in heading no. 6601 (including walking stick umbrellas)\n    contains 660110: Umbrellas and sun umbrellas; garden or similar umbrellas\n    contains 660200: Walking-sticks, seat-sticks, whips, riding-crops and the like\n    contains 660191: Umbrellas and sun umbrellas; having a telescopic shaft, (excluding garden or similar umbrellas)\n    contains 660320: Umbrella frames; including frames mounted on shafts (sticks)\n- 71: Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin\n    contains 710510: Stones; precious and semi-precious, dust and powder, of diamonds\n    contains 710590: Stones; precious and semi-precious, dust and powder, of natural or synthetic precious or semi-precious stones, excluding diamonds\n- 56: Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof\n    contains 560130: Wadding; textile flock and dust and mill neps\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 820900: Tools; plates, sticks, tips and the like for tools, unmounted, of sintered metal carbides or cermets\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841451: Fans; table, floor, wall, window, ceiling or roof fans, with a self-contained electric motor of an output not exceeding 125W\n- 41: Raw hides and skins (other than furskins) and leather\n    contains 411520: Leather; parings and other waste, of leather or composition leather; not suitable for the manufacture of leather articles; leather dust, powder and flour\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c19d7e1d09de3aacaa3b2e745902a64d7eb597a4483f46acb2ff3c5a2e738f4f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 1010,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "key": "ae333f30fa0d967dd7bc6cf2e864e122793cac7fff7c86e5a1079b3a33f27edd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nIssac, Jaggi and Chacko\r\nH.No. 111, Oza Path, 529203 Chennai, India\r\nPACKING LIST\r\nInvoice Ref. RE-26-5581\r\nDate 12.07.2026\r\nCONSIGNEE\r\nJunck\r\nHans-Gerhard-Schleich-Allee 28/31, 89157 Frankfurt\r\nam Main, Germany\r\nTERMS OF DELIVERY\r\nFOB Chennai\r\nChennai to Hamburg\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg\r\n2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 71 2.218,61 kg 2.407,02 kg\r\n3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 19 19.000,00 kg 20.144,56 kg\r\nTotal 378 CARTONS 23.522,61 kg 25.303,71 kg\r\nShipping marks: JUNCK / RE-26-5581\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Junck",
+        "value": "Junck"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 12.07.2026",
+        "value": "12.07.2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "FOB Chennai",
+        "value": "FOB Chennai"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. RE-26-5581",
+        "value": "RE-26-5581"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "H.No. 111, Oza Path, 529203 Chennai, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg",
+            "value": "Men's crew-neck T-shirt, 100% cotton jersey"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg",
+            "value": "2.752,13 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg",
+            "value": "2.304,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg",
+            "value": "14.400"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 71 2.218,61 kg 2.407,02 kg",
+            "value": "CN"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 71 2.218,61 kg 2.407,02 kg",
+            "value": "Lithium-ion battery pack 48V 20Ah"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 71 2.218,61 kg 2.407,02 kg",
+            "value": "2.407,02 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 71 2.218,61 kg 2.407,02 kg",
+            "value": "2.218,61 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 71 2.218,61 kg 2.407,02 kg",
+            "value": "284"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "H.No. 111, Oza Path, 529203 Chennai, India",
+            "value": "India"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 19 19.000,00 kg 20.144,56 kg",
+            "value": "Stainless steel sheet 304, cold-rolled 2mm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 19 19.000,00 kg 20.144,56 kg",
+            "value": "20.144,56 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 19 19.000,00 kg 20.144,56 kg",
+            "value": "19.000,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 19 19.000,00 kg 20.144,56 kg",
+            "value": "19.000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg",
+            "value": "kg"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 378 CARTONS 23.522,61 kg 25.303,71 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Issac, Jaggi and Chacko",
+        "value": "Issac, Jaggi and Chacko"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 378 CARTONS 23.522,61 kg 25.303,71 kg",
+        "value": "25.303,71 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 378 CARTONS 23.522,61 kg 25.303,71 kg",
+        "value": "23.522,61 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 378 CARTONS 23.522,61 kg 25.303,71 kg",
+        "value": "378"
+      }
+    },
+    "input_tokens": 401,
+    "latency_ms": 0,
+    "output_tokens": 960
+  }
+}

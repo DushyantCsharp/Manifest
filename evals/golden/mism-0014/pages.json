@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "S\r\nSezgin Manço San. I N VO I C E\r\nINVOICE\r\nNumber: 2026/0956\r\nDate: May 4, 2026\r\nTerms: T/T in advance \r\nSOLD TO\r\nRogers-Clark\r\n409 Heather Heights, DA7 4UX\r\nBirmingham, United Kingdom \r\nDELIVERY\r\nCFR Southampton (Incoterms 2020)\r\nvia Ambarli to Southampton \r\nItem Description Made in Quantity Unit price Line total\r\n01 Red wine, 0.75L bottle Chile 8,982 pcs 3.25 29,191.50\r\n02 Laptop computer 14in, 16GB RAM Vietnam 375 pcs 726.18 272,317.50\r\n03 Stainless steel saucepan 20cm India 2,880 pcs 13.51 38,908.80\r\n04 Electric kettle 1.7L stainless China 2,632 pcs 8.41 22,135.12\r\n05 Analog quartz wristwatch, steel case China 950 pcs 36.80 34,960.00\r\nAmount due 397,512.92\r\nAll amounts are in US dollars (USD). Please quote invoice 2026/0956 with your payment. \r\n8703 Soylu Circles | 54932 Istanbul | Turkey\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Sezgin Manço San.\r\n8703 Soylu Circles, 54932 Istanbul, Turkey\r\nPACKING LIST\r\nInvoice Ref. 2026/0956\r\nDate May 4, 2026\r\nCONSIGNEE\r\nRogers-Clark\r\n409 Heather Heights, DA7 4UX Birmingham, United\r\nKingdom\r\nTERMS OF DELIVERY\r\nCFR Southampton\r\nAmbarli to Southampton\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb\r\n2 Laptop computer 14in, 16GB RAM VN 375 pcs 75 1,487.3 lb 1,835.8 lb\r\n3 Electric kettle 1.7L stainless CN 2,632 pcs 220 6,162.3 lb 6,612.0 lb\r\n4 Analog quartz wristwatch, steel case CN 950 pcs 19 169.6 lb 241.5 lb\r\nTotal 2051 CARTONS 40,239.5 lb 46,921.9 lb\r\nShipping marks: ROGERS-CLARK / 2026/0956\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nSezgin Manço San.\r\n8703 Soylu Circles, 54932 Istanbul, Turkey\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVNX4732008 \r\nCONSIGNEE\r\nRogers-Clark\r\n409 Heather Heights, DA7 4UX Birmingham, United\r\nKingdom\r\nNOTIFY PARTY\r\nKelly Ltd\r\n24 Harrison Locks, W9U 6TH Manchester,\r\nUnited Kingdom\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN SERENITY / 770N\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nAmbarli\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU8477500\r\nSEAL\r\n3000008\r\nROGERS￾CLARK /\r\n2026/0956\r\n2051\r\nCARTONS\r\nSAID TO CONTAIN: Red wine, 0.75L bottle; Laptop\r\ncomputer 14in, 16GB RAM; Stainless steel saucepan\r\n20cm; Electric kettle 1.7L stainless; Analog\r\nquartz wristwatch, steel case\r\n46,921.9 lb\r\nSHIPPED ON BOARD\r\nMay 11, 2026\r\nPLACE AND DATE OF ISSUE\r\nAmbarli, May 11, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1"
+    }
+  ]
+}

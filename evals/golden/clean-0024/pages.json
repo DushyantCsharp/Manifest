@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "G Gonzáles Group I N VO I C E\r\nINVOICE\r\nNumber: 2026/1152\r\nDate: August 19, 2026\r\nTerms: T/T 30 days after B/L date \r\nSOLD TO\r\nWilliams, Barber and Howe\r\nStudio 50k, Long Crescent, SK3P 1QL\r\nManchester, United Kingdom \r\nDELIVERY\r\nCIF Felixstowe (Incoterms 2020)\r\nvia Cartagena to Felixstowe \r\nItem Description Made in Quantity Unit price Line total\r\n01 Hair dryer 2200W ionic China 1,640 pcs 7.79 12,775.60\r\n02 Passenger car tyre 205/55R16 Germany 233 pcs 55.23 12,868.59\r\nAmount due 25,644.19\r\nAll amounts are in US dollars (USD). Please quote invoice 2026/1152 with your payment. \r\nDg. 132L # 4-3 Este | 911184 Bogotá | Colombia\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Gonzáles Group\r\nDg. 132L # 4-3 Este, 911184 Bogotá, Colombia\r\nPACKING LIST\r\nInvoice Ref. 2026/1152\r\nDate August 19, 2026\r\nCONSIGNEE\r\nWilliams, Barber and Howe\r\nStudio 50k, Long Crescent, SK3P 1QL Manchester,\r\nUnited Kingdom\r\nTERMS OF DELIVERY\r\nCIF Felixstowe\r\nCartagena to Felixstowe\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Hair dryer 2200W ionic CN 1,640 pcs 82 2,220.0 lb 2,574.7 lb\r\n2 Passenger car tyre 205/55R16 DE 233 pcs 233 4,651.4 lb 5,379.1 lb\r\nTotal 315 CARTONS 6,871.3 lb 7,953.8 lb\r\nShipping marks: WILLIAMS, / 2026/1152\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nGonzáles Group\r\nDg. 132L # 4-3 Este, 911184 Bogotá, Colombia\r\nCMA CGM\r\nBILL OF LADING\r\nB/L NO.\r\nCMDULP1879298 \r\nCONSIGNEE\r\nWilliams, Barber and Howe\r\nStudio 50k, Long Crescent, SK3P 1QL Manchester,\r\nUnited Kingdom\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nCMA TRITON / 918N\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nCartagena\r\nPORT OF DISCHARGE\r\nFelixstowe\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nCMDU3845778\r\nSEAL 3945412\r\nWILLIAMS, /\r\n2026/1152\r\n315\r\nCARTONS\r\nSAID TO CONTAIN: Hair dryer 2200W ionic;\r\nPassenger car tyre 205/55R16\r\n7,953.8 lb\r\nSHIPPED ON BOARD\r\nAugust 22, 2026\r\nPLACE AND DATE OF ISSUE\r\nCartagena, August 22, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: CMA CGM. \r\nPage 1 of 1"
+    }
+  ]
+}

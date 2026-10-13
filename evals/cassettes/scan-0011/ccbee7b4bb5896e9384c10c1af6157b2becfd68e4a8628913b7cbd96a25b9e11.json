@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "key": "ccbee7b4bb5896e9384c10c1af6157b2becfd68e4a8628913b7cbd96a25b9e11",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nTaichung Yungshin Textile Co., Ltd. COMMERCIAL INVOICE\n\nNo. 250. Industrial Road\n\nTaichung Invoice No. INV-2026-91736\nTaiwan Invoice Date 04/08/2026\nPayment Terms T/T 30 days after B/L date\n\nBILL TO / CONSIGNEE SHIPPING\n\nMassey Inc Terms of Sale: DDP Montréal (Incoterms 2020)\n4324 Brittany Lodge Port of Loading: Keelung\n\nM9Y 9S7 Vancouver Port-of Discharge: Vancouver\n\nCanada Currency: USD\n\n# Description Country of Origin Qty Unit Unit Price\n\nAmount (USD)\n\n1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92\n2 Split air conditioner 12000 BTU “ China 98 pcs 280.46 27,485.08\nTotal USD 126,706.00\n\nWe hereby certify that this invoice shows the actual Price of the goods described, -that all Particulars are true and correct, and that the goods are\nof-the origin stated.\n\nAuthorized Signature .. for Taichung Yungshin Textile Co., Lid.\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Massey Inc Terms of Sale: DDP Montréal (Incoterms 2020)",
+        "value": "Massey Inc"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Canada Currency: USD",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "Massey Inc Terms of Sale: DDP Montréal (Incoterms 2020)",
+        "value": "DDP Montréal"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Taiwan Invoice Date 04/08/2026",
+        "value": "04/08/2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Taichung Invoice No. INV-2026-91736",
+        "value": "INV-2026-91736"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92",
+            "value": "99,220.92"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92",
+            "value": "Italy"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.86",
+            "evidence": "1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92",
+            "value": "Red wine, 0.75. bottle"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92",
+            "value": "8,598"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92",
+            "value": "11.54"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU “ China 98 pcs 280.46 27,485.08",
+            "value": "27,485.08"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU “ China 98 pcs 280.46 27,485.08",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU “ China 98 pcs 280.46 27,485.08",
+            "value": "Split air conditioner 12000 BTU"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU “ China 98 pcs 280.46 27,485.08",
+            "value": "98"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Red wine, 0.75. bottle Italy 8,598 pcs 11.54 99,220.92",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Split air conditioner 12000 BTU “ China 98 pcs 280.46 27,485.08",
+            "value": "280.46"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Payment Terms T/T 30 days after B/L date",
+        "value": "T/T 30 days after B/L date"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Taichung Yungshin Textile Co., Ltd. COMMERCIAL INVOICE",
+        "value": "Taichung Yungshin Textile Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "Total USD 126,706.00",
+        "value": "126,706.00"
+      }
+    },
+    "input_tokens": 446,
+    "latency_ms": 0,
+    "output_tokens": 695
+  }
+}

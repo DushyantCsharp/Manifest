@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "key": "3579e8c977d2ea9d803dab2b2fc1c84306010c04734076045724034a4f3cf0b9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nToyota Otomotiv\r\n1009 Korutürk Ways, 26238 Bursa, Turkey\r\nPACKING LIST\r\nInvoice Ref. RE-26-8158\r\nDate 26.04.2026\r\nCONSIGNEE\r\nDehmel\r\nZimmerweg 75/88, 37966 Hamburg, Germany\r\nTERMS OF DELIVERY\r\nCPT Düsseldorf\r\nIzmir to Hamburg\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg\r\n2 Aluminium household foil 12 micron TR 7.460 kg 373 7.460,00 kg 8.064,26 kg\r\n3 Women's cotton denim trousers TR 1.230 pcs 41 616,23 kg 690,31 kg\r\nTotal 620 CARTONS 11.825,43 kg 12.951,57 kg\r\nShipping marks: DEHMEL / RE-26-8158\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Dehmel",
+        "value": "Dehmel"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 26.04.2026",
+        "value": "26.04.2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Düsseldorf",
+        "value": "CPT Düsseldorf"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. RE-26-8158",
+        "value": "RE-26-8158"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1009 Korutürk Ways, 26238 Bursa, Turkey",
+            "value": "Turkey"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg",
+            "value": "Terry cotton bath towel 70x140"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg",
+            "value": "4.197,00 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg",
+            "value": "3.749,20 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg",
+            "value": "8.240"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1009 Korutürk Ways, 26238 Bursa, Turkey",
+            "value": "Turkey"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 373 7.460,00 kg 8.064,26 kg",
+            "value": "Aluminium household foil 12 micron"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 373 7.460,00 kg 8.064,26 kg",
+            "value": "8.064,26 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 373 7.460,00 kg 8.064,26 kg",
+            "value": "7.460,00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 373 7.460,00 kg 8.064,26 kg",
+            "value": "7.460"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg",
+            "value": "kg"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "1009 Korutürk Ways, 26238 Bursa, Turkey",
+            "value": "Turkey"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 41 616,23 kg 690,31 kg",
+            "value": "Women's cotton denim trousers"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 41 616,23 kg 690,31 kg",
+            "value": "690,31 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 41 616,23 kg 690,31 kg",
+            "value": "616,23 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 41 616,23 kg 690,31 kg",
+            "value": "1.230"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 206 3.749,20 kg 4.197,00 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 620 CARTONS 11.825,43 kg 12.951,57 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Toyota Otomotiv",
+        "value": "Toyota Otomotiv"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 620 CARTONS 11.825,43 kg 12.951,57 kg",
+        "value": "12.951,57 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 620 CARTONS 11.825,43 kg 12.951,57 kg",
+        "value": "11.825,43 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 620 CARTONS 11.825,43 kg 12.951,57 kg",
+        "value": "620"
+      }
+    },
+    "input_tokens": 384,
+    "latency_ms": 0,
+    "output_tokens": 908
+  }
+}

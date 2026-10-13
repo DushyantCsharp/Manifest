@@ -1,0 +1,70 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0003",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "EX202694-3613",
+    "date": "2026-02-20",
+    "seller": {
+      "name": "UD Utami Tbk",
+      "address": [
+        "Gang Merdeka No. 1",
+        "38707 Semarang",
+        "Indonesia"
+      ],
+      "country": "ID"
+    },
+    "buyer": {
+      "name": "Ward, Taylor and Morton",
+      "address": [
+        "1414 Lowe Burg",
+        "67239 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Semarang",
+    "package_type": "CARTONS",
+    "total_packages": 1127,
+    "total_net_weight_kg": "19556.00",
+    "total_gross_weight_kg": "20809.16"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Cashew kernels W320",
+      "country_of_origin": "VN",
+      "quantity": "11431",
+      "unit": "kg",
+      "packages": 497,
+      "net_weight_kg": "11431.00",
+      "gross_weight_kg": "12168.05"
+    },
+    {
+      "line_no": 2,
+      "description": "Running shoes, rubber sole, textile upper",
+      "country_of_origin": "ID",
+      "quantity": "1973",
+      "unit": "pairs",
+      "packages": 189,
+      "net_weight_kg": "1476.47",
+      "gross_weight_kg": "1700.31"
+    },
+    {
+      "line_no": 3,
+      "description": "Corrugated shipping carton, 3-ply",
+      "country_of_origin": "VN",
+      "quantity": "22015",
+      "unit": "pcs",
+      "packages": 441,
+      "net_weight_kg": "6648.53",
+      "gross_weight_kg": "6940.80"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0015",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-0.07",
+    "noise_sigma": 7,
+    "salt_pepper": "0.002",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "COSUQG1244862",
+    "seller": {
+      "name": "Ceci, Mantegazza e Donati s.r.l.",
+      "address": [
+        "Via Oreste, 67 Appartamento 9",
+        "20135 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Segebahn Hein AG & Co. KGaA",
+      "address": [
+        "Emin-Krause-Allee 574",
+        "74731 Frankfurt am Main",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "notify_party": {
+      "name": "Kuhl AG & Co. KG",
+      "address": [
+        "Heidi-Wohlgemut-Allee 19/16",
+        "22773 Düsseldorf",
+        "Germany"
+      ],
+      "country": "DE"
+    },
+    "carrier": "COSCO",
+    "vessel": "COSCO KENSINGTON",
+    "voyage": "107N",
+    "port_of_loading": "La Spezia",
+    "port_of_discharge": "Hamburg",
+    "shipped_on_board": "2026-02-28",
+    "container_number": "COSU2178883",
+    "seal_number": "3378026",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 396,
+    "total_gross_weight_kg": "4935.14",
+    "goods_description": "SAID TO CONTAIN: Leather handbag with shoulder strap; Extra virgin olive oil, 1L bottle"
+  },
+  "line_items": []
+}

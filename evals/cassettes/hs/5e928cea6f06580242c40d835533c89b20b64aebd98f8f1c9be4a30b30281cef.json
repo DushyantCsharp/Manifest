@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "5e928cea6f06580242c40d835533c89b20b64aebd98f8f1c9be4a30b30281cef",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Canned skipjack tuna in oil, 185g\nCountry of origin: TH\n\nChoose the chapter that covers these goods. Options:\n- 03: Fish and crustaceans, molluscs and other aquatic invertebrates\n    contains 030487: Fish fillets; frozen, tunas (of the genus Thunnus), skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)\n    contains 030343: Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030233: Fish; fresh or chilled, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n    contains 030195: Fish; live, southern bluefin tunas (Thunnus maccoyii)\n    contains 030194: Fish; live, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis)\n    contains 030349: Fish; frozen, tuna, n.e.c. in item no. 0303.4, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030239: Fish; fresh or chilled, tuna, n.e.c. in item no. 0302.3, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n    contains 030342: Fish; frozen, yellowfin tunas (Thunnus albacares), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030344: Fish; frozen, bigeye tunas (Thunnus obesus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n- 16: Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof\n    contains 160414: Fish preparations; tunas, skipjack tuna and bonito (Sarda spp.), prepared or preserved, whole or in pieces (but not minced)\n- 01: Animals; live\n    contains 010512: Poultry; live, turkeys, weighing not more than 185g\n    contains 010513: Poultry; live, ducks, weighing not more than 185g\n    contains 010514: Poultry; live, geese, weighing not more than 185g\n    contains 010515: Poultry; live, guinea fowls, weighing not more than 185g\n    contains 010594: Poultry; live, fowls of the species Gallus domesticus, weighing more than 185g\n    contains 010599: Poultry; live, ducks, geese, turkeys and guinea fowls, weighing more than 185g\n    contains 010511: Poultry; live, fowls of the species Gallus domesticus, weighing not more than 185g\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040590: Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)\n    contains 040520: Dairy produce; dairy spreads\n    contains 040510: Dairy produce; derived from milk, butter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b7f5c31ea74e132b66b350865df06148bf66c461f955950bf63602fc84184ff1",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "16",
+      "cited": [
+        "16"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 915,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

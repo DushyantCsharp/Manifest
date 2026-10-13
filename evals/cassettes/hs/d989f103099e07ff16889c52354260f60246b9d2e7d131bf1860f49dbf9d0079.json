@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d989f103099e07ff16889c52354260f60246b9d2e7d131bf1860f49dbf9d0079",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's ankle boots, leather uppers, rubber soles\nCountry of origin: PT\n\nChosen so far: 64 Footwear; gaiters and the like; parts of such articles > 6403 Footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of leather\n\nChoose the subheading that covers these goods. Options:\n- 640391: Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather\n- 640399: Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles of rubber, plastics or composition leather, uppers of leather\n- 640351: Footwear; n.e.c. in heading no. 6403, with outer soles and uppers of leather, covering the ankle\n- 640312: Sports footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of leather, ski-boots, snowboard boots and cross-country ski footwear\n- 640359: Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles and uppers of leather\n- 640319: Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles of rubber, plastics, leather or composition leather and uppers of leather\n- 640340: Footwear; with metal toe-cap, outer soles of rubber, plastics, leather or composition leather, uppers of leather\n- 640320: Footwear; with outer soles of leather, uppers consisting of leather straps across instep and around the big toe\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "86c877012339c3011d00ff8986ade29a82e418d0bf0aad0dca1e7534c96962d5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "640391",
+      "cited": [
+        "640391"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 586,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

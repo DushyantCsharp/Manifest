@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "9f0afbadc55d71548aa01bca5c4eae619ae9b59c0a8101bba92db9c82e2a2675",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's jeans, woven denim, 98% cotton 2% elastane\nCountry of origin: PK\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted > 6203 Suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear); men's or boys' (not knitted or crocheted)\n\nChoose the subheading that covers these goods. Options:\n- 620322: Ensembles; men's or boys', of cotton (not knitted or crocheted)\n- 620332: Jackets and blazers; men's or boys', of cotton (not knitted or crocheted)\n- 620342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "396759b4f3257c73e6478b79f683cfc94e47fc5cdfc99f6f3461ed8aa617ae7b",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "620342",
+      "cited": [
+        "620342"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 391,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

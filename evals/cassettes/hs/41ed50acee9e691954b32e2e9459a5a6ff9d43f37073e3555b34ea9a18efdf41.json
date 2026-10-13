@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "41ed50acee9e691954b32e2e9459a5a6ff9d43f37073e3555b34ea9a18efdf41",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Ballpoint pens with plastic body\nCountry of origin: CN\n\nChosen so far: 96 Miscellaneous manufactured articles > 9608 Pens; ball-point, felt tipped, other porous tipped pens; fountain pens, stylograph pens duplicating stylos, propelling or sliding pencils; parts of the foregoing, excluding those of heading no. 9609\n\nChoose the subheading that covers these goods. Options:\n- 960899: Pens and pencils; duplicating stylos, pen-holders, pencil-holders, and similar holders, parts of the articles of heading 9608, including caps and clips\n- 960850: Pen and pencil sets; of articles from two or more of the foregoing sub-headings\n- 960810: Pens; ball point\n- 960830: Pens; fountain, stylograph and other pens\n- 960820: Pens; felt tipped and other porous-tipped pens and markers\n- 960891: Pens; nibs and nib points\n- 960860: Pens; ball-point, refills comprising the ball point and ink-reservoir\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4739af64109bd315e21ce8ff0a5e053010c2ad40079ddcd18fb7eb43599a1062",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "960810",
+      "cited": [
+        "960810"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 452,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

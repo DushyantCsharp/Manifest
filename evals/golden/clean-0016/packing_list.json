@@ -1,0 +1,80 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0016",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "INV-2026-99446",
+    "date": "2026-06-15",
+    "seller": {
+      "name": "Ningbo Tianyi Industrial Co., Ltd.",
+      "address": [
+        "No. 13 Industrial Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Johnson, Norton and Hernandez",
+      "address": [
+        "831 Joshua Glen",
+        "77798 Los Angeles",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "incoterm": "CPT",
+    "incoterm_place": "Los Angeles",
+    "package_type": "CARTONS",
+    "total_packages": 1385,
+    "total_net_weight_kg": "13267.08",
+    "total_gross_weight_kg": "14852.39"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Leather handbag with shoulder strap",
+      "country_of_origin": "CN",
+      "quantity": "1918",
+      "unit": "pcs",
+      "packages": 192,
+      "net_weight_kg": "1684.00",
+      "gross_weight_kg": "1876.22"
+    },
+    {
+      "line_no": 2,
+      "description": "Milk chocolate bars 100g",
+      "country_of_origin": "CH",
+      "quantity": "46983",
+      "unit": "pcs",
+      "packages": 784,
+      "net_weight_kg": "4933.22",
+      "gross_weight_kg": "5985.64"
+    },
+    {
+      "line_no": 3,
+      "description": "Upholstered office chair, steel base",
+      "country_of_origin": "CN",
+      "quantity": "328",
+      "unit": "pcs",
+      "packages": 328,
+      "net_weight_kg": "5513.35",
+      "gross_weight_kg": "5788.32"
+    },
+    {
+      "line_no": 4,
+      "description": "LED television 55in 4K",
+      "country_of_origin": "CN",
+      "quantity": "81",
+      "unit": "pcs",
+      "packages": 81,
+      "net_weight_kg": "1136.51",
+      "gross_weight_kg": "1202.21"
+    }
+  ]
+}

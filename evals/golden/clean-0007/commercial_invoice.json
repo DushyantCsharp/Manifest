@@ -1,0 +1,84 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0007",
+  "document": "commercial_invoice",
+  "layout": "eu",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-1297",
+    "invoice_date": "2026-05-06",
+    "seller": {
+      "name": "Trapanese-Giolitti s.r.l.",
+      "address": [
+        "Canale Gianfranco, 97 Piano 9",
+        "59021 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Verdonck-Vinck BV",
+      "address": [
+        "Dieterweg 26",
+        "6903 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "currency": "EUR",
+    "incoterm": "CPT",
+    "incoterm_place": "Gent",
+    "payment_terms": "30% deposit, 70% against copy of B/L",
+    "total_amount": "115108.86"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Porcelain dinner plate 27cm",
+      "country_of_origin": "PT",
+      "quantity": "11640",
+      "unit": "pcs",
+      "unit_price": "1.89",
+      "amount": "21999.60"
+    },
+    {
+      "line_no": 2,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "KH",
+      "quantity": "69",
+      "unit": "pcs",
+      "unit_price": "218.18",
+      "amount": "15054.42"
+    },
+    {
+      "line_no": 3,
+      "description": "Aluminium household foil 12 micron",
+      "country_of_origin": "TR",
+      "quantity": "4700",
+      "unit": "kg",
+      "unit_price": "3.69",
+      "amount": "17343.00"
+    },
+    {
+      "line_no": 4,
+      "description": "Upholstered office chair, steel base",
+      "country_of_origin": "CN",
+      "quantity": "81",
+      "unit": "pcs",
+      "unit_price": "28.14",
+      "amount": "2279.34"
+    },
+    {
+      "line_no": 5,
+      "description": "Women's cotton denim trousers",
+      "country_of_origin": "PK",
+      "quantity": "5250",
+      "unit": "pcs",
+      "unit_price": "11.13",
+      "amount": "58432.50"
+    }
+  ]
+}

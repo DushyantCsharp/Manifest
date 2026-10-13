@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Ningbo Tianyi Industrial Co., Ltd.\r\nNo. 13 Industrial Road\r\nNingbo\r\nChina\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-99446\r\nInvoice Date 06/15/2026\r\nPayment Terms 30% deposit, 70% against copy of B/L\r\nBILL TO / CONSIGNEE\r\nJohnson, Norton and Hernandez\r\n831 Joshua Glen\r\n77798 Los Angeles\r\nUnited States\r\nSHIPPING\r\nTerms of Sale: CPT Los Angeles (Incoterms 2020)\r\nPort of Loading: Shenzhen\r\nPort of Discharge: New York\r\nCurrency: USD\r\n# Description Country of Origin Qty Unit Unit Price Amount (USD)\r\n1 Leather handbag with shoulder strap China 1,918 pcs 51.06 97,933.08\r\n2 Milk chocolate bars 100g Switzerland 46,983 pcs 0.9961 46,799.77\r\n3 Upholstered office chair, steel base China 328 pcs 54.66 17,928.48\r\n4 LED television 55in 4K China 81 pcs 252.81 20,477.61\r\nTotal USD 183,138.94\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Ningbo Tianyi Industrial Co., Ltd. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Ningbo Tianyi Industrial Co., Ltd.\r\nNo. 13 Industrial Road, Ningbo, China\r\nPACKING LIST\r\nInvoice Ref. INV-2026-99446\r\nDate 06/15/2026\r\nCONSIGNEE\r\nJohnson, Norton and Hernandez\r\n831 Joshua Glen, 77798 Los Angeles, United States\r\nTERMS OF DELIVERY\r\nCPT Los Angeles\r\nShenzhen to New York\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg\r\n2 Milk chocolate bars 100g CH 46,983 pcs 784 4,933.22 kg 5,985.64 kg\r\n3 Upholstered office chair, steel base CN 328 pcs 328 5,513.35 kg 5,788.32 kg\r\n4 LED television 55in 4K CN 81 pcs 81 1,136.51 kg 1,202.21 kg\r\nTotal 1385 CARTONS 13,267.08 kg 14,852.39 kg\r\nShipping marks: JOHNSON, / INV-2026-99446\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nNingbo Tianyi Industrial Co., Ltd.\r\nNo. 13 Industrial Road, Ningbo, China\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUPS4423485 \r\nCONSIGNEE\r\nJohnson, Norton and Hernandez\r\n831 Joshua Glen, 77798 Los Angeles, United States\r\nNOTIFY PARTY\r\nPerkins Inc\r\n4466 Thomas River, 81676 Los Angeles,\r\nUnited States\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC TAGE / 160W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nShenzhen\r\nPORT OF DISCHARGE\r\nNew York\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU2580683\r\nSEAL\r\n3098887\r\nJOHNSON, /\r\nINV-2026-99446\r\n1385\r\nCARTONS\r\nSAID TO CONTAIN: Leather handbag with\r\nshoulder strap; Milk chocolate bars 100g;\r\nUpholstered office chair, steel base; LED\r\ntelevision 55in 4K\r\n14,852.39 kg\r\nSHIPPED ON BOARD\r\n06/18/2026\r\nPLACE AND DATE OF ISSUE\r\nShenzhen, 06/18/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1"
+    }
+  ]
+}

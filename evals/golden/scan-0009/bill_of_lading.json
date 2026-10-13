@@ -1,0 +1,52 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0009",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-1.36",
+    "noise_sigma": 11,
+    "salt_pepper": "0.0005",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "MEDULR2350766",
+    "seller": {
+      "name": "Akçay San.",
+      "address": [
+        "06411 Şama Mills Suite 971",
+        "71574 Izmir",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Long PLC",
+      "address": [
+        "37 David Shore",
+        "IV2A 4QF Birmingham",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "notify_party": null,
+    "carrier": "MSC",
+    "vessel": "MSC HARMONY",
+    "voyage": "473S",
+    "port_of_loading": "Izmir",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-09-03",
+    "container_number": "MEDU2896861",
+    "seal_number": "7462656",
+    "freight_terms": "PREPAID",
+    "package_type": "BAGS",
+    "total_packages": 340,
+    "total_gross_weight_kg": "17839.79",
+    "goods_description": "SAID TO CONTAIN: Black tea, CTC, bulk"
+  },
+  "line_items": []
+}

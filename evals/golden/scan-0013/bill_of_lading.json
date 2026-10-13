@@ -1,0 +1,52 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0013",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "-1.79",
+    "noise_sigma": 14,
+    "salt_pepper": "0.0025",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "COSUJJ3833836",
+    "seller": {
+      "name": "Lahore Crescent Industrial Co., Ltd.",
+      "address": [
+        "No. 353 Ring Road",
+        "Lahore",
+        "Pakistan"
+      ],
+      "country": "PK"
+    },
+    "buyer": {
+      "name": "Weeks-Gonzalez",
+      "address": [
+        "29/5 Robert Grove",
+        "3849 Brisbane",
+        "Australia"
+      ],
+      "country": "AU"
+    },
+    "notify_party": null,
+    "carrier": "COSCO",
+    "vessel": "COSCO AURORA",
+    "voyage": "268S",
+    "port_of_loading": "Karachi",
+    "port_of_discharge": "Melbourne",
+    "shipped_on_board": "2026-07-17",
+    "container_number": "COSU3313057",
+    "seal_number": "8882129",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1504,
+    "total_gross_weight_kg": "19128.49",
+    "goods_description": "SAID TO CONTAIN: Split air conditioner 12000 BTU; Cotton knitted pullover; LED television 55in 4K; Nitrile examination gloves, box of 100; Electric kettle 1.7L stainless; Analog quartz wristwatch, steel case; Lithium-ion battery pack 48V 20Ah"
+  },
+  "line_items": []
+}

@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "6729343a6b724d4b024967856b0745bde2130ac6c2866ae85e10043a646cbf59",
+  "retriever": "offline-lexical",
+  "query": "Folding umbrella with telescopic shaft origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "660191",
+      "description": "Umbrellas and sun umbrellas; having a telescopic shaft, (excluding garden or similar umbrellas)",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "660320",
+      "description": "Umbrella frames; including frames mounted on shafts (sticks)",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "660110",
+      "description": "Umbrellas and sun umbrellas; garden or similar umbrellas",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "901310",
+      "description": "Optical appliances and instruments; telescopic sights for fitting to arms; periscopes; telescopes designed to form parts of machines, appliances, instruments or apparatus of this chapter",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "848310",
+      "description": "Transmission shafts (including cam shafts and crank shafts) and cranks",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "848360",
+      "description": "Clutches and shaft couplings (including universal joints)",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "660199",
+      "description": "Umbrellas and sun umbrellas; n.e.c. in heading no. 6601 (including walking stick umbrellas)",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "848330",
+      "description": "Bearing housings, not incorporating ball or roller bearings and plain shaft bearings",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "848320",
+      "description": "Bearing housings, incorporating ball or roller bearings",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "848350",
+      "description": "Pulleys and flywheels, including pulley blocks",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "440410",
+      "description": "Wood; coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "848390",
+      "description": "Transmission components; toothed wheels, chain sprockets and other transmission elements presented separately; parts",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "440420",
+      "description": "Wood; non-coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "481920",
+      "description": "Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "660200",
+      "description": "Walking-sticks, seat-sticks, whips, riding-crops and the like",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "848340",
+      "description": "Gears and gearing; (not toothed wheels, chain sprockets and other transmission elements presented separately); ball or roller screws; gear boxes and other speed changers, including torque converters",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "847230",
+      "description": "Office machines; for sorting or folding mail or for inserting mail in envelopes or bands, machines for opening, closing or sealing mail and machines for affixing or cancelling postage stamps",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "key": "dc7eec1631a6bf4a28ee3ba0c826e9942ff947f4978528e3279e6a3e27652157",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nXiamen Ruifeng Import & Export Co., i” “egies\n\nPACKING LIST\nInvoice Ref. EX202683-2035\nDate\n\nNo. 386 Industrial Road, Xiamen, China\n\n| CONSIGNEE\nWinter PLC\n\n* Studio 9, Miles Fort, HA1 8HD Durban, South Africa\n\n| | TERMS OF DELIVERY\n\n| FOB Shanghai\n\n| | Shanghai to Cape Town\n\n07-SEP-2026\n\nOrigin\n\nQuantity.\n\nNet weight\n\nGross weight ~\n\n# Pkgs\n\n1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg\n\n2 City bicycle 28in, 7-speed CN 159 pes 159 -2,685.67kg- 2,975.21 kg\n3 Upholstered office chair, steel base — oe 286 pcs 286 4,720.72 kg 5,019.64 kg\n4 Stainless steel saucepan 20cm | cN 3,372 pcs 281 3,931.75 kg 4,500.97 kg\n5 Polarized sunglasses 3 CN 4,800 pcs 48 144.00 kg | 167.47 kg\n6 Leather handbag with shoulder strap CN 1,272 pcs 128 | 1,310.16 kg 1,447.92 kg\nif LED bulb E27 ow warm white . CN é 23,000 pcs 115 966.00 kg 1,175.90 kg\n8 Hair dryer 2200W ionic CN 3,419 pes 171 : 2,024.05 kg 2,258.25 kg\n9 Smartphone 6.1in, 128GB CN 1,689 pcs 43 339.49 kg 378.01 kg\nTotal 1386 CARTONS 18,121.34 kg 20,269.03 kg\n\nShipping marks: WINTER / EX202683-2035\n\nPage | of |\n\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Winter PLC",
+        "value": "Winter PLC"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "07-SEP-2026",
+        "value": "07-SEP-2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "| FOB Shanghai",
+        "value": "FOB Shanghai"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. EX202683-2035",
+        "value": "EX202683-2035"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "Deep groove ball bearing 6205-2RS"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "2,345.66 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "1,999.50 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "15,500"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed CN 159 pes 159 -2,685.67kg- 2,975.21 kg",
+            "value": "City bicycle 28in, 7-speed"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed CN 159 pes 159 -2,685.67kg- 2,975.21 kg",
+            "value": "2,975.21 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.78",
+            "evidence": "2 City bicycle 28in, 7-speed CN 159 pes 159 -2,685.67kg- 2,975.21 kg",
+            "value": "-2,685.67kg-"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 City bicycle 28in, 7-speed CN 159 pes 159 -2,685.67kg- 2,975.21 kg",
+            "value": "159"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base — oe 286 pcs 286 4,720.72 kg 5,019.64 kg",
+            "value": "Upholstered office chair, steel base"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base — oe 286 pcs 286 4,720.72 kg 5,019.64 kg",
+            "value": "5,019.64 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base — oe 286 pcs 286 4,720.72 kg 5,019.64 kg",
+            "value": "4,720.72 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base — oe 286 pcs 286 4,720.72 kg 5,019.64 kg",
+            "value": "286"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm | cN 3,372 pcs 281 3,931.75 kg 4,500.97 kg",
+            "value": "Stainless steel saucepan 20cm"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm | cN 3,372 pcs 281 3,931.75 kg 4,500.97 kg",
+            "value": "4,500.97 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm | cN 3,372 pcs 281 3,931.75 kg 4,500.97 kg",
+            "value": "3,931.75 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Stainless steel saucepan 20cm | cN 3,372 pcs 281 3,931.75 kg 4,500.97 kg",
+            "value": "3,372"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Polarized sunglasses 3 CN 4,800 pcs 48 144.00 kg | 167.47 kg",
+            "value": "Polarized sunglasses"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Polarized sunglasses 3 CN 4,800 pcs 48 144.00 kg | 167.47 kg",
+            "value": "167.47 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "5 Polarized sunglasses 3 CN 4,800 pcs 48 144.00 kg | 167.47 kg",
+            "value": "144.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Polarized sunglasses 3 CN 4,800 pcs 48 144.00 kg | 167.47 kg",
+            "value": "4,800"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Leather handbag with shoulder strap CN 1,272 pcs 128 | 1,310.16 kg 1,447.92 kg",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Leather handbag with shoulder strap CN 1,272 pcs 128 | 1,310.16 kg 1,447.92 kg",
+            "value": "1,447.92 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "6 Leather handbag with shoulder strap CN 1,272 pcs 128 | 1,310.16 kg 1,447.92 kg",
+            "value": "1,310.16 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Leather handbag with shoulder strap CN 1,272 pcs 128 | 1,310.16 kg 1,447.92 kg",
+            "value": "1,272"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.83",
+            "evidence": "if LED bulb E27 ow warm white . CN é 23,000 pcs 115 966.00 kg 1,175.90 kg",
+            "value": "LED bulb E27 ow warm white"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "if LED bulb E27 ow warm white . CN é 23,000 pcs 115 966.00 kg 1,175.90 kg",
+            "value": "1,175.90 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "if LED bulb E27 ow warm white . CN é 23,000 pcs 115 966.00 kg 1,175.90 kg",
+            "value": "966.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "if LED bulb E27 ow warm white . CN é 23,000 pcs 115 966.00 kg 1,175.90 kg",
+            "value": "23,000"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "8 Hair dryer 2200W ionic CN 3,419 pes 171 : 2,024.05 kg 2,258.25 kg",
+            "value": "Hair dryer 2200W ionic"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "8 Hair dryer 2200W ionic CN 3,419 pes 171 : 2,024.05 kg 2,258.25 kg",
+            "value": "2,258.25 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "8 Hair dryer 2200W ionic CN 3,419 pes 171 : 2,024.05 kg 2,258.25 kg",
+            "value": "2,024.05 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "8 Hair dryer 2200W ionic CN 3,419 pes 171 : 2,024.05 kg 2,258.25 kg",
+            "value": "3,419"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 386 Industrial Road, Xiamen, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "9 Smartphone 6.1in, 128GB CN 1,689 pcs 43 339.49 kg 378.01 kg",
+            "value": "Smartphone 6.1in, 128GB"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "9 Smartphone 6.1in, 128GB CN 1,689 pcs 43 339.49 kg 378.01 kg",
+            "value": "378.01 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "9 Smartphone 6.1in, 128GB CN 1,689 pcs 43 339.49 kg 378.01 kg",
+            "value": "339.49 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "9 Smartphone 6.1in, 128GB CN 1,689 pcs 43 339.49 kg 378.01 kg",
+            "value": "1,689"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Deep groove ball bearing 6205-2RS CN. 15,500 pcs 155 1,999.50 kg 2,345.66 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1386 CARTONS 18,121.34 kg 20,269.03 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.84",
+        "evidence": "Xiamen Ruifeng Import & Export Co., i” “egies",
+        "value": "Xiamen Ruifeng Import & Export Co.,"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1386 CARTONS 18,121.34 kg 20,269.03 kg",
+        "value": "20,269.03 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1386 CARTONS 18,121.34 kg 20,269.03 kg",
+        "value": "18,121.34 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1386 CARTONS 18,121.34 kg 20,269.03 kg",
+        "value": "1386"
+      }
+    },
+    "input_tokens": 507,
+    "latency_ms": 0,
+    "output_tokens": 2241
+  }
+}

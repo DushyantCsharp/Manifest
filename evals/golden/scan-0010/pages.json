@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Vendeur / Seller\n\nErtas Arsoy Sti.\n\n4306 Esna Springs Suite 854, 02128 Istanbul,\nTurkey\n\nAcheteur / Buyer\nBonte BV\nAriettelaan 827, 1789 Antwerpen, Belgium\n\nFACTURE COMMERCIALE\nCOMMERCIAL INVOICE\nN° / No. FC-3728/26\nDate 2026-06-26\nDevise / Currency EUR\nIncoterm 2020 FOB Izmir\nPaiement / 30% deposit, 70% against\nPayment copy of B/L\nChargement / izmir\nLoading\nDestination Antwerp\n\nDésignation / Description\n\nBlack tea, CTC, bulk\n\nAnalog quartz wristwatch, steel case\nAC induction motor 0.55kW 3-phase _\nCity bicycle 28in, 7-speed\n\nAluminium household foil 12 micron\nSolar PV module 410W monocrystalline\n\nawn WN =\n\nMontant EUR\n\n3000 kg 3,48 10440,00\n4700 pcs 20,65 97 055,00\n282 pes 62,83 17718,06\n269 pcs 101,68 27 351,92\n3840 kg 3,60 13824,00\n434 pcs 99,81 43317,54\n\nTotal EUR : 209706,52\n\nPage | of |\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "PACKING List\n\na Ertas Arioy | Sti. Sea ; pegs Ne heat |... Invoice Ref. FC-3728/26\n\n- 4306 Esna ‘Springs. Suite 854, 02128 Istanbul, Turkey a Sane, Date ’ 2026- -06-26\n| CONSIGNEE 4 Ss: se SORE Tf | TERMS ¢ OF DELIVERY AR a a Sipe emia 2\n_BonteBV || FOB Izmir\n| Arlettelaan 827, 1 1789 Antwerpen, ‘Belgium Izmir to Antwerp\n# Description 3 tr Ree Origin Quantity _ -Pkgs Net weight — Gross weight. -—\n1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg\n2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg\n\nee AC induction motor 0.55kW 3- “phase ? IT | \"282 pes } 141 | 2 569,87 kg | 2895,51 kg 3\n4 City bicycle 28in, 7-speed : TW 3 269 pcs 269 4 226,26 kg 4735,76 kg\n5 Aluminium household foil 12 micron 3 TR 3840 kg 192 3840,00 kg 4 287,36 kg\n6 Solar PV module 410w monocrystalline MY 434 pes 14 9715,96kg . 10 139,07 kg\nTotal 770 CARTONS 23 878,49 kg 25 962,41 kg\n\nShipping marks: BONTE / FC-3728/26\n\n, Page lofi\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER\nErtas Arsoy Sti.\n\nMSC\n\nArlettelaan 827, 1789 Antwerpen, Belgium.\n\n| 4306 Esna Springs Suite 854, 02128 Istanbul, Turkey. BILL OF LADING\n: B/L NO.\nMEDUHT4058802\n‘ CONSIGNEE NOTIFY PARTY\nBonte BV SAME AS CONSIGNEE\n\nOCEAN VESSEL / VOYAGE NO.\nMSC CALYPSO / 972N\n\nFREIGHT\nFREIGHT COLLECT\n\nPORT OF LOADING\nIzmir\n\nPORT OF DISCHARGE\nAntwerp\n\nIzmir, 2026-07-01 THREE (3)\n\nCONTAINER / SEAL MARKS & NOS. NO. OF DESCRIPTION OF GOODS GROSS WEIGHT\nMEDU9893648 | BONTE -/ 770 SAID TO CONTAIN: Black tea, CTC, bulk; Analog 25 962,41 kg\nSEAL FC-3728/26 CARTONS | quartz wristwatch, steel case; AC induction motor :\n2044734 0.55kW 3-phase; City bicycle 28in, 7-speed;\n\nAluminium household foil 12 micron; Solar PV\n\nmodule 410W monocrystalline\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE ; NUMBER OF ORIGINAL B/LS\n2026-07-01\n\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or\n\nof discharge, subject to the terms and conditions of the carrier's standard bil of lading. Signed as Camer MSC.\n\ncackages shown above for cariage from the port of lading tothe port\n\nPage lofl .\n\n"
+    }
+  ]
+}

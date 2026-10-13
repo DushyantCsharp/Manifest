@@ -1,0 +1,60 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0014",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "2026/1389",
+    "date": "2026-03-29",
+    "seller": {
+      "name": "Silva",
+      "address": [
+        "Jardim Albuquerque, 73",
+        "14555-337 Santos",
+        "Brazil"
+      ],
+      "country": "BR"
+    },
+    "buyer": {
+      "name": "Jones, Hutchinson and Marshall",
+      "address": [
+        "Flat 18, Middleton Junction",
+        "LA4M 2YQ Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "incoterm": "CPT",
+    "incoterm_place": "Manchester",
+    "package_type": "CARTONS",
+    "total_packages": 1188,
+    "total_net_weight_kg": "20439.64",
+    "total_gross_weight_kg": "22987.06"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Green Arabica coffee beans, grade 1",
+      "country_of_origin": "BR",
+      "quantity": "7020",
+      "unit": "kg",
+      "packages": 117,
+      "net_weight_kg": "7020.02",
+      "gross_weight_kg": "7595.63"
+    },
+    {
+      "line_no": 2,
+      "description": "A4 copy paper 80gsm, ream",
+      "country_of_origin": "BR",
+      "quantity": "5355",
+      "unit": "pcs",
+      "packages": 1071,
+      "net_weight_kg": "13419.62",
+      "gross_weight_kg": "15391.43"
+    }
+  ]
+}

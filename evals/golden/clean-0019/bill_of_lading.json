@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0019",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYBV5709577",
+    "seller": {
+      "name": "Korpal and Sons",
+      "address": [
+        "06, Gola Zila",
+        "914197 Ludhiana",
+        "India"
+      ],
+      "country": "IN"
+    },
+    "buyer": {
+      "name": "Stokes, Woods and Austin",
+      "address": [
+        "Flat 38, Adams Fort",
+        "CM3 1TZ Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "notify_party": {
+      "name": "Smith-King",
+      "address": [
+        "Studio 03d, Terence Plain",
+        "S0S 3BU Leeds",
+        "United Kingdom"
+      ],
+      "country": "GB"
+    },
+    "carrier": "ONE",
+    "vessel": "ONE TAGE",
+    "voyage": "351S",
+    "port_of_loading": "Mundra",
+    "port_of_discharge": "Southampton",
+    "shipped_on_board": "2026-09-21",
+    "container_number": "ONEU0138357",
+    "seal_number": "5140503",
+    "freight_terms": "PREPAID",
+    "package_type": "BAGS",
+    "total_packages": 273,
+    "total_gross_weight_kg": "14984.97",
+    "goods_description": "SAID TO CONTAIN: Combed cotton yarn Ne 30/1"
+  },
+  "line_items": []
+}

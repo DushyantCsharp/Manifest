@@ -1,0 +1,33 @@
+{
+  "fitted_on": {
+    "items": 60,
+    "positives": 49,
+    "samples": 60,
+    "split": "calibration"
+  },
+  "knots": [
+    [
+      "0.187636",
+      "0.076923"
+    ],
+    [
+      "0.774008",
+      "0.980392"
+    ]
+  ],
+  "method": "isotonic",
+  "metrics": {
+    "ece_after_test": "0.032580",
+    "ece_before_test": "0.227413",
+    "test_samples": "60.000000"
+  },
+  "model": "anthropic/claude-sonnet-5-5",
+  "name": "hs",
+  "prompt_version": "2026-10-13",
+  "provenance": "oracle",
+  "schema_version": 3,
+  "score_version": 1,
+  "target_precision": "0.99",
+  "threshold": "0.9076",
+  "version": 1
+}

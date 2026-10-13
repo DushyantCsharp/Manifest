@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "N Narváez & Asociados S.A. I N VO I C E\r\nINVOICE\r\nNumber: 2026/4803\r\nDate: April 29, 2026\r\nTerms: 30% deposit, 70% against copy\r\nof B/L \r\nSOLD TO\r\nLarson-Robertson\r\n00300 Tiffany Crescent, 19048\r\nSavannah, United States \r\nDELIVERY\r\nCPT Los Angeles (Incoterms 2020)\r\nvia Guayaquil to Los Angeles \r\nItem Description Made in Quantity Unit price Line total\r\n01 Cashew kernels W320 Côte d'Ivoire 8,901 kg 6.15 54,741.15\r\n02 Men's woven cotton shirt, long sleeve India 7,720 pcs 5.56 42,923.20\r\n03 Running shoes, rubber sole, textile upper Vietnam 3,396 pairs 15.68 53,249.28\r\n04 Stainless cutlery set, 24 pieces India 2,915 sets 6.99 20,375.85\r\nAmount due 171,289.48\r\nAll amounts are in pounds sterling (GBP). Please quote invoice 2026/4803 with your payment. \r\nC. de Héctor Coll 90 | 16963 Guayaquil | Ecuador\r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Narváez & Asociados S.A.\r\nC. de Héctor Coll 90, 16963 Guayaquil, Ecuador\r\nPACKING LIST\r\nInvoice Ref. 2026/4803\r\nDate April 29, 2026\r\nCONSIGNEE\r\nLarson-Robertson\r\n00300 Tiffany Crescent, 19048 Savannah, United States\r\nTERMS OF DELIVERY\r\nDAP Los Angeles\r\nGuayaquil to Los Angeles\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Cashew kernels W320 PH 8,901 kg 387 19,623.3 lb 21,355.3 lb\r\n2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb\r\n3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283 5,457.9 lb 5,890.7 lb\r\n4 Stainless cutlery set, 24 pieces IN 2,915 sets 292 11,940.4 lb 13,054.4 lb\r\nTotal 1155 CARTONS 42,740.3 lb 46,388.6 lb\r\nShipping marks: LARSON-ROBERTSON / 2026/4803\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nNarváez & Asociados S.A.\r\nC. de Héctor Coll 90, 16963 Guayaquil, Ecuador\r\nONE\r\nBILL OF LADING\r\nB/L NO.\r\nONEYLB5183699 \r\nCONSIGNEE\r\nLarson-Robertson\r\n00300 Tiffany Crescent, 19048 Savannah, United States\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nONE VALENCIA / 507W\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nGuayaquil\r\nPORT OF DISCHARGE\r\nLos Angeles\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nONEU4434064\r\nSEAL\r\n3761647\r\nLARSON￾ROBERTSON /\r\n2026/4803\r\n1155\r\nCARTONS\r\nSAID TO CONTAIN: Cashew kernels W320; Men's\r\nwoven cotton shirt, long sleeve; Running\r\nshoes, rubber sole, textile upper; Stainless\r\ncutlery set, 24 pieces\r\n46,388.6 lb\r\nSHIPPED ON BOARD\r\nMay 2, 2026\r\nPLACE AND DATE OF ISSUE\r\nGuayaquil, May 2, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: ONE. \r\nPage 1 of 1"
+    }
+  ]
+}

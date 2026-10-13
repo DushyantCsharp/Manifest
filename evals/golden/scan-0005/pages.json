@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Vendeur./ Seller\n-| Qingdao Haixing Import & Export Co., Ltd.\nNo. 252 Export Processing Zone, Qingdao, China\n\nAcheteur / Buyer\nBousquet\n27,-rue de Le Roux, 84775 Lille, France\n\nFACTURE COMMERCIALE\n\nCOMMERCIAL INVOICE\nN°?/ No. FC-5883/26\nDate ~* 2026-09-19\n\nDevise / Currency EUR\n| Incoterm 2020 EXW Guangzhou\n\nPaiement / T/T in advance\nPayment\n.| Chargement / Qingdao\nLoading\nDestination Le Havre\nLig. Désignation / Description Orig. Qte U. P.U. EUR Montant EUR\n1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74\n2 Upholstered office chair; steel base CN 374 pes 76,25 28517,50\n3 AG induction motor 0.55kW 3-phase CN 30 pes 60,09 1502,70\n4 Running shoes, rubber sole, textile upper CN 600 pairs 24,05 414.430,00\n5 Passenger car tyre 205/55R16 CN 899 pcs 59,58 53 562,42\n6 Plush toy bear 30cm CN 912 pes 3,12 2845,44\n7 _ Plastic storage box 30L with lid CN 3900 pcs) 2,98 11622,00\n8 Lithium-ion battery pack 48V 20Ah CN 28 pcs 260,50 7294,00\n\nTotal EUR : 135820,80\n\nPage 1 of |\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "PACKING LIST —\n\nQingdao Haixing Import & Export Co., Ltd. ; Invoice Ref. FC-5883/26\n\nNo. 252 Export Processing Zone, Qingdao, China Date — . 2026-09-19\n CONSIGNEE : | TERMS OF DELIVERY\n| Bousquet | | EXW Guangzhou\n\n| 27, rue de Le Roux, 84775 Lille, France | Qingdao to Le Havre\n\na Description “Origin Quantity . Pkgs Net weight Gross weight\n\noi iniain & win\n\n1 Electric kettle 1.7L stainless CN 2021 pcs oe 2 437,33 kg 2 854,29 kg\n‘Upholstered office chair, steel base CN f 374 pcs 374. 4 752,04 kg 5 196,35 kg\nAC induction motor 0.55kW 3-phase CN 30 pcs 15 227,94 kg 258,98 kg\nRunning shoes, rubber sole, textile upper CN 600 pairs 50 | 394,80 kg 428,54 kg\nPassenger car tyre 205/55R16 , CN 899 pcs 899 8 089,20 kg 9727,96 kg\nPlush toy bear 30cm CN 912 pcs 19 268,13 kg 288,03 kg\nPlastic storage box 30L with lid ; CN 3900 pcs 390 3591,90 kg 4 103,41 kg\nLithium-ion battery pack 48V 20Ah CN : 28 pcs 7 174,61 kg 187,11 kg\n\nTotal 1923 CARTONS 19935,95kg 23044,67 kg\n\nShipping marks: BOUSQUET / FC-5883/26\n\nPage | of !\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "SHIPPER\n\nLtd.\n\nONE\n\nQingdao’ Haixing Import & Export Co-, {\n\nNo. 252 Export Processing Zone, Qingdao, China BILL OF LADING\nB/LNO. ~-\nONEYFE6112892\n\nCONSIGNEE NOTIFY PARTY\n\nBousquet tl SAME AS CONSIGNEE.\n\n27, rue de Le Roux, 84775 Lille, France © ae\n\nOCEAN VESSEL / VOYAGE NO.\nONE ZEPHYR / A76N\n\nFREIGHT ae\nFREIGHT COLLECT\n\nPORT OF LOADING\nQingdao\n\nPORT OF DISCHARGE\nLe Havre\n\nCONTAINER / SEAL |MARKS &NOS. —| NO. OF DESCRIPTION OF GOODS GROSS WEIGHT\nONEU9284964 BOUSQUET-/ — 1923 SAID TO CONTAIN: Electric kettle 1.7L stainless; 23 044,67 kg\n‘| SEAL FC-5883/26 | CARTONS Upholstered office chair, steel base; AC induction\n5525718 motor 0.55kW 3-phase; Running shoes, rubber sole,\ntextile upper; Passenger car tyre 205/55R16; Plush\ntoy bear 30cm; Plastic storage box 30L with lid;\nLithium-ion battery pack 48v .20Ah\nSHIPPED ON BOARD PLACE AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\n| 2026-10-01 ‘Qingdao, 2026-10-01\n\nTHREE. (3)\n\nRECEIVED by the Carrier in apparent good order and\nof discharge, subject to the terms and conditions of the\n\na coereas eed eros er pecgon eno shove er caragn tame Ha IASG S17\ncarrier's standard bill of lading Signed as Carrier. ONE : :\n\nPage. | of |\n\n"
+    }
+  ]
+}

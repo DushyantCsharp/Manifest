@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "Sener Sti. - 75555 Efe Park - 05262 Istanbul - Turkey\n\n_ Hebert Baron S.A.\nrue de Breton\n\n' . 55478 Lille\n\nFrance .\n\nHandelsrechnung . Commercial Invoice\n\nPos. | Artikelbezeichnung / Description\n\nRechnungsnummer / Invoice no.\n\nReehnungsdatum / Date:\n\nLieferbedingung / Incoterms®\n\nORO .\n\nZahlungsbedingung / Paynient _\n\nWahrung / Currency ~\n\nRE-26-1583\n\n02.07.2026 .\n\nFCA Istanbul\n\nCash against |\ndocuments\n\n. EUR\n\nMenge Einheit Einzelpreis EUR ' Gesamt EUR\n\n1 .- Nitrile examination gloves, box of 100 © MY | 9.180 sets. 2,10 19.278,00\n2 Aluminium household foil 12 micron se 3.100 kg ay “10.447,00\n_ CN 304 pes 49,28 14.981,12\n\nee AC induction motor 0.55kW 3-phase\n\n_Gesamtbetrag / Total ! 44.706,12 EUR\n\nVersand / Shipment: Izmir — Marseille. Ursprungsland gema Spalte .Ursprung* (ISO 3166). Wir bestatigen die Richtigkeit der Angaben. :\n\n* Page | of |\n"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "PACKING LIST\n_ Sener Sti. ' Invoice Ref. RE-26-1583\n\n75555 Efe Park, 05262. Istanbul, Turkey. ae ; iz Date . 02.07.2026\n| CONSIGNEE : | | TERMS.OF DELIVERY:\n\nHebert Baron S.A. _ | FCA Istanbul\n| rue de Breton, 55478 Lille, France : - | Izmir to Marseille\n\n# Description Origin. Quantity Pkgs Net weight Gross weight\n1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg\n2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg\n3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg\nTotal . 1225 CARTONS 9.759,10 kg 11.438,46 kg\n\nShipping marks: HEBERT / RE-26-1583\n\n- Page | of 4.\n"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "ocr",
+      "text": "‘SHIPPER\n\nEVERGREEN\n\nSener Sti. : :\n75555 Efe Park, 05262 Istanbul, Turkey BILL OF LADING\nBALNO. ©\nEGLVFY6488353\nCONSIGNEE ‘ -| NOTIFY PARTY\nHebert Baron 3.A. Barbier\n\nrue de Breton, 55478 Lille, France 892, rue Carpentier, 84335 Paris, France\nOCEAN VESSEL / VOYAGE NO. FREIGHT\n\nEVERGREEN CALYPSO / 368E FREIGHT COLLECT\n\nPORT OF LOADING PORT OF DISCHARGE\n\nIzmir Marseille\n\nCONTAINER / SEAL MARKS & NOS. NO. OF DESCRIPTION OF GOODS ' GROSS WEIGHT\nNO. | PACKAGES : Sores\nEGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg\nSEAL | RE-26-1583 CARTONS box. of 100; Aluminium household foil 12 micron;\n\n1764144 AC induction motor 0.55kW 3-phase\n\n| SHIPPED ON BOARD . PLACE AND DATE OF ISSUE ~ NUMBER OF ORIGINAL B/LS\n\n14.07.2026 :\n\nIzmir, 14.07.2026 - | THREE (3)\n\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the ‘port of loading to the port\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN\n\nPage i of |\n"
+    }
+  ]
+}

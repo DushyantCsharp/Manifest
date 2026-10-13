@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0004",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVKS3977823",
+    "seller": {
+      "name": "Fátima Quintanilla Ferreras S.L.",
+      "address": [
+        "Calle Albert Ribes 8",
+        "33664 Manta",
+        "Ecuador"
+      ],
+      "country": "EC"
+    },
+    "buyer": {
+      "name": "Brown-Rose",
+      "address": [
+        "132 Wood Bypass",
+        "68462 Newark",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": {
+      "name": "Rodriguez, Carson and Willis",
+      "address": [
+        "29749 Kevin Point",
+        "50467 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN CALYPSO",
+    "voyage": "910N",
+    "port_of_loading": "Guayaquil",
+    "port_of_discharge": "New York",
+    "shipped_on_board": "2026-09-24",
+    "container_number": "EGLU8810919",
+    "seal_number": "2083407",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 470,
+    "total_gross_weight_kg": "17035.30",
+    "goods_description": "SAID TO CONTAIN: Centrifugal water pump 1.1kW; Split air conditioner 12000 BTU; Terry cotton bath towel 70x140; Green Arabica coffee beans, grade 1; Inflatable beach ball 40cm"
+  },
+  "line_items": []
+}

@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "key": "6acef2d7e605adab734ec25e6ed285c652a1061fcb8c063b96b94f65e846b662",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nC O M M E R C I A L I N V O I C E\r\nSHIPPER / EXPORTER\r\nLahore Sapphire Industrial Co., Ltd.\r\nNo. 384 Avenue 3, Lahore, Pakistan\r\nINVOICE NO. & DATE\r\nEX202630-7680\r\n27-MAR-2026\r\nCONSIGNEE\r\nBarrera, Butler and Duffy\r\n715 Janice Greens Suite 816, 43608 Newark, United States\r\nTERMS OF DELIVERY AND PAYMENT\r\nDDP Savannah\r\n30% deposit, 70% against copy of B/L\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nVESSEL / VOYAGE\r\nEVERGREEN CALYPSO V.703E\r\nPORT OF LOADING\r\nKARACHI\r\nPORT OF DISCHARGE\r\nSAVANNAH\r\nMARKS & NOS. DESCRIPTION OF GOODS H.S.\r\nCODE\r\nORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)\r\nBARRERA, /\r\nEX202630-7680\r\nTERRY COTTON BATH TOWEL\r\n70X140\r\n6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80\r\nLONG GRAIN WHITE RICE,\r\nMILLED\r\n1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46\r\nTOTAL DDP SAVANNAH USD 13,612.26\r\nSAY TOTAL US DOLLARS THIRTEEN THOUSAND SIX HUNDRED TWELVE AND CENTS TWENTY-SIX ONLY\r\nFor and on behalf of Lahore Sapphire Industrial Co.,\r\nLtd.\r\nAuthorized Signature\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Barrera, Butler and Duffy",
+        "value": "Barrera, Butler and Duffy"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "value": "USD"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "DDP Savannah",
+        "value": "DDP Savannah"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "27-MAR-2026",
+        "value": "27-MAR-2026"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "EX202630-7680",
+        "value": "EX202630-7680"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "value": "6,796.80"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 384 Avenue 3, Lahore, Pakistan",
+            "value": "Pakistan"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "TERRY COTTON BATH TOWEL 70X140",
+            "value": "TERRY COTTON BATH TOWEL 70X140"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "value": "1,770"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "value": "PCS"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "value": "3.84"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "value": "6,815.46"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 384 Avenue 3, Lahore, Pakistan",
+            "value": "Pakistan"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "LONG GRAIN WHITE RICE, MILLED",
+            "value": "LONG GRAIN WHITE RICE, MILLED"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "value": "12,125"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "value": "KG"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "value": "0.5621"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "30% deposit, 70% against copy of B/L",
+        "value": "30% deposit, 70% against copy of B/L"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Lahore Sapphire Industrial Co., Ltd.",
+        "value": "Lahore Sapphire Industrial Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.97",
+        "evidence": "TOTAL DDP SAVANNAH USD 13,612.26",
+        "value": "13,612.26"
+      }
+    },
+    "input_tokens": 478,
+    "latency_ms": 0,
+    "output_tokens": 604
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Issac, Jaggi and Chacko · H.No. 111, Oza Path · 529203 Chennai · India\r\nJunck\r\nHans-Gerhard-Schleich-Allee 28/31\r\n89157 Frankfurt am Main\r\nGermany\r\nRechnungsnummer / Invoice no. RE-26-5581\r\nRechnungsdatum / Date 12.07.2026\r\nLieferbedingung / Incoterms®\r\n2020\r\nFOB Chennai\r\nZahlungsbedingung / Payment Cash against\r\ndocuments\r\nWährung / Currency EUR\r\nHandelsrechnung · Commercial Invoice\r\nPos. Artikelbezeichnung / Description Ursprung Menge Einheit Einzelpreis EUR Gesamt EUR\r\n1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 2,47 35.568,00\r\n2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 133,72 37.976,48\r\n3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 2,19 41.610,00\r\nGesamtbetrag / Total 115.154,48 EUR\r\nVersand / Shipment: Chennai → Hamburg. Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Issac, Jaggi and Chacko\r\nH.No. 111, Oza Path, 529203 Chennai, India\r\nPACKING LIST\r\nInvoice Ref. RE-26-5581\r\nDate 12.07.2026\r\nCONSIGNEE\r\nJunck\r\nHans-Gerhard-Schleich-Allee 28/31, 89157 Frankfurt\r\nam Main, Germany\r\nTERMS OF DELIVERY\r\nFOB Chennai\r\nChennai to Hamburg\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 288 2.304,00 kg 2.752,13 kg\r\n2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 71 2.218,61 kg 2.407,02 kg\r\n3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 19 19.000,00 kg 20.144,56 kg\r\nTotal 378 CARTONS 23.522,61 kg 25.303,71 kg\r\nShipping marks: JUNCK / RE-26-5581\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nIssac, Jaggi and Chacko\r\nH.No. 111, Oza Path, 529203 Chennai, India\r\nMAERSK\r\nBILL OF LADING\r\nB/L NO.\r\nMAEUKA5841204 \r\nCONSIGNEE\r\nJunck\r\nHans-Gerhard-Schleich-Allee 28/31, 89157 Frankfurt am\r\nMain, Germany\r\nNOTIFY PARTY\r\nSAME AS CONSIGNEE\r\nOCEAN VESSEL / VOYAGE NO.\r\nMAERSK ZEPHYR / 265W\r\nFREIGHT\r\nFREIGHT COLLECT\r\nPORT OF LOADING\r\nChennai\r\nPORT OF DISCHARGE\r\nHamburg\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMAEU1848035\r\nSEAL\r\n8618627\r\nJUNCK /\r\nRE-26-5581\r\n378\r\nCARTONS\r\nSAID TO CONTAIN: Men's crew-neck T-shirt, 100%\r\ncotton jersey; Lithium-ion battery pack 48V\r\n20Ah; Stainless steel sheet 304, cold-rolled 2mm\r\n25.303,71 kg\r\nSHIPPED ON BOARD\r\n15.07.2026\r\nPLACE AND DATE OF ISSUE\r\nChennai, 15.07.2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MAERSK. \r\nPage 1 of 1"
+    }
+  ]
+}

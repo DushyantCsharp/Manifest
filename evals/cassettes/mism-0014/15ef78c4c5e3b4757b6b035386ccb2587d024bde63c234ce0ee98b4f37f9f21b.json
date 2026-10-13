@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "15ef78c4c5e3b4757b6b035386ccb2587d024bde63c234ce0ee98b4f37f9f21b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\r\nSezgin Manço San.\r\n8703 Soylu Circles, 54932 Istanbul, Turkey\r\nEVERGREEN\r\nBILL OF LADING\r\nB/L NO.\r\nEGLVNX4732008 \r\nCONSIGNEE\r\nRogers-Clark\r\n409 Heather Heights, DA7 4UX Birmingham, United\r\nKingdom\r\nNOTIFY PARTY\r\nKelly Ltd\r\n24 Harrison Locks, W9U 6TH Manchester,\r\nUnited Kingdom\r\nOCEAN VESSEL / VOYAGE NO.\r\nEVERGREEN SERENITY / 770N\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nAmbarli\r\nPORT OF DISCHARGE\r\nSouthampton\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nEGLU8477500\r\nSEAL\r\n3000008\r\nROGERS￾CLARK /\r\n2026/0956\r\n2051\r\nCARTONS\r\nSAID TO CONTAIN: Red wine, 0.75L bottle; Laptop\r\ncomputer 14in, 16GB RAM; Stainless steel saucepan\r\n20cm; Electric kettle 1.7L stainless; Analog\r\nquartz wristwatch, steel case\r\n46,921.9 lb\r\nSHIPPED ON BOARD\r\nMay 11, 2026\r\nPLACE AND DATE OF ISSUE\r\nAmbarli, May 11, 2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: EVERGREEN. \r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "EGLVNX4732008",
+        "value": "EGLVNX4732008"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Rogers-Clark",
+        "value": "Rogers-Clark"
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN",
+        "value": "EVERGREEN"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "EGLU8477500",
+        "value": "EGLU8477500"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Kelly Ltd",
+        "value": "Kelly Ltd"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.97",
+        "evidence": "Southampton",
+        "value": "Southampton"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Ambarli",
+        "value": "Ambarli"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "3000008",
+        "value": "3000008"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Sezgin Manço San.",
+        "value": "Sezgin Manço San."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "May 11, 2026",
+        "value": "May 11, 2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "46,921.9 lb",
+        "value": "46,921.9 lb"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "2051",
+        "value": "2051"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN SERENITY / 770N",
+        "value": "EVERGREEN SERENITY"
+      },
+      "voyage": {
+        "confidence": "0.97",
+        "evidence": "EVERGREEN SERENITY / 770N",
+        "value": "770N"
+      }
+    },
+    "input_tokens": 539,
+    "latency_ms": 0,
+    "output_tokens": 369
+  }
+}

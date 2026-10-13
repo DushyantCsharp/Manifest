@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "2e99512bd0e6040994a1e82a26f1661f04f30b845373250c2472813f3e00b803",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hair dryer 2200W with diffuser and concentrator nozzle\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 851631: Hair-dressing apparatus; electro-thermic hair dryers\n    contains 851632: Hair-dressing apparatus; electro-thermic, other than hair dryers\n    contains 851690: Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516\n    contains 851640: Smoothing irons; electric\n    contains 851633: Hand-drying apparatus; electro-thermic\n    contains 851621: Heating apparatus; electric storage heating radiators\n    contains 851610: Heaters; electric, instantaneous or storage water and immersion heaters\n    contains 851650: Ovens; microwave, of a kind used for domestic purposes\n    contains 851679: Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes\n    contains 851680: Resistors; electric heating, other than those of heading no. 8545\n    contains 851629: Heating apparatus; electric soil heating apparatus and space heating apparatus (excluding storage heating radiators)\n    contains 851672: Electro-thermic appliances; toasters, of a kind used for domestic purposes\n    contains 851671: Electro-thermic appliances; coffee or tea makers, of a kind used for domestic purposes\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 842112: Centrifuges; clothes-dryers\n    contains 842191: Centrifuges; parts thereof, including parts for centrifugal dryers\n    contains 842119: Centrifuges; n.e.c. in heading no. 8421, including centrifugal dryers (but not clothes-dryers)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 29: Organic chemicals\n    contains 293972: Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b06dba6d339dac6e9d70ff6ffcc7ec99c38169ed8a800cd8d41191303af25802",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85"
+      ],
+      "confidence": "0.95",
+      "reason": "label"
+    },
+    "input_tokens": 881,
+    "latency_ms": 0,
+    "output_tokens": 18
+  }
+}

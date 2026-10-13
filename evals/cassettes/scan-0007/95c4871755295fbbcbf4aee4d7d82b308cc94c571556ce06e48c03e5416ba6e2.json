@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "key": "95c4871755295fbbcbf4aee4d7d82b308cc94c571556ce06e48c03e5416ba6e2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: bill of lading\nPage 1\n\nPage text:\n<<<\nSHIPPER\n\nChattogram Padma Manufacturing Co., Ltd.\n\nONE\n\nLarysz Sp.j.\n\nal. Plater 76, 63-797 rod, Poland\n\nNo.. 280 Ring Road, Chattogram, Bangladesh BILL OF LADING ©\nONEYEJ5137402\nCONSIGNEE || NOTIFY PARTY\n\nFundacja Bodziony\n\npl. Jara 09, 54-110 Poznas, Poland\n\nOCEAN VESSEL / VOYAGE NO. .\nONE HARMONY / 104s\n\nFREIGHT :\nFREIGHT PREPAID -\n\nPORT OF LOADING |\n\n}SEAL 2312776 | RE-26-0149\n\nCARTONS cotton jersey;\n\nCotton knitted pullover; Men's\n\n-woven cotton shirt, long Sleeve\n\n( PORT OF DISCHARGE\nChattogram Gdafisk\nCONTAINER / SEAL | MARKS & NOS. NO.OF) DESCRIPTION OF GooDS GROSS WEIGHT -\nONEU6469265 | LaRysz / 496° SAID TO CONTAIN: ‘Men's crew-neck T-shirt, 1003. 6.025,13 kg\n\nSHIPPED ON BOARD\n‘| 17.07.2026\n\nPLACE AND DATE OF ISSUE\nChattogram, 17.07.2026\n\nTHREE (3)\n\nNUMBER OF ORIGINAL B/LS\n\nPage | of j\n\n\n>>>",
+    "schema_sha256": "d5ec15ee2f5eddc0533200a93037a31430c5573a8b2abbda8f6decb0b3aa3409",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "bl_number": {
+        "confidence": "0.97",
+        "evidence": "ONEYEJ5137402",
+        "value": "ONEYEJ5137402"
+      },
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Larysz Sp.j.",
+        "value": "Larysz Sp.j."
+      },
+      "carrier": {
+        "confidence": "0.97",
+        "evidence": "ONE",
+        "value": "ONE"
+      },
+      "container_number": {
+        "confidence": "0.97",
+        "evidence": "ONEU6469265 | LaRysz / 496° SAID TO CONTAIN: ‘Men's crew-neck T-shirt, 1003. 6.025,13 kg",
+        "value": "ONEU6469265"
+      },
+      "freight_terms": {
+        "confidence": "0.97",
+        "evidence": "FREIGHT PREPAID -",
+        "value": "PREPAID"
+      },
+      "notify_party_name": {
+        "confidence": "0.97",
+        "evidence": "Fundacja Bodziony",
+        "value": "Fundacja Bodziony"
+      },
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "CARTONS cotton jersey;",
+        "value": "CARTONS"
+      },
+      "port_of_discharge": {
+        "confidence": "0.69",
+        "evidence": "Chattogram Gdafisk",
+        "value": "Gdafisk"
+      },
+      "port_of_loading": {
+        "confidence": "0.97",
+        "evidence": "Chattogram Padma Manufacturing Co., Ltd.",
+        "value": "Chattogram"
+      },
+      "seal_number": {
+        "confidence": "0.97",
+        "evidence": "}SEAL 2312776 | RE-26-0149",
+        "value": "2312776"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Chattogram Padma Manufacturing Co., Ltd.",
+        "value": "Chattogram Padma Manufacturing Co., Ltd."
+      },
+      "shipped_on_board": {
+        "confidence": "0.97",
+        "evidence": "‘| 17.07.2026",
+        "value": "17.07.2026"
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "ONEU6469265 | LaRysz / 496° SAID TO CONTAIN: ‘Men's crew-neck T-shirt, 1003. 6.025,13 kg",
+        "value": "6.025,13 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "ONEU6469265 | LaRysz / 496° SAID TO CONTAIN: ‘Men's crew-neck T-shirt, 1003. 6.025,13 kg",
+        "value": "496"
+      },
+      "vessel": {
+        "confidence": "0.97",
+        "evidence": "ONE HARMONY / 104s",
+        "value": "ONE HARMONY"
+      },
+      "voyage": {
+        "confidence": "0.68",
+        "evidence": "ONE HARMONY / 104s",
+        "value": "104s"
+      }
+    },
+    "input_tokens": 436,
+    "latency_ms": 0,
+    "output_tokens": 460
+  }
+}

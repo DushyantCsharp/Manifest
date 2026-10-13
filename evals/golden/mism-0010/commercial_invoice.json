@@ -1,0 +1,66 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0010",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-2883/26",
+    "invoice_date": "2026-02-16",
+    "seller": {
+      "name": "Gasperi-Finetti SPA",
+      "address": [
+        "Strada Giovine, 24",
+        "64011 Prato",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Fernandez",
+      "address": [
+        "77, rue Collet",
+        "35329 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_place": "Paris",
+    "payment_terms": "L/C at sight",
+    "total_amount": "144940.86"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Roasted coffee beans, whole",
+      "country_of_origin": "IT",
+      "quantity": "4980",
+      "unit": "kg",
+      "unit_price": "10.13",
+      "amount": "50447.40"
+    },
+    {
+      "line_no": 2,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "IT",
+      "quantity": "6200",
+      "unit": "pcs",
+      "unit_price": "8.94",
+      "amount": "55428.00"
+    },
+    {
+      "line_no": 3,
+      "description": "Red wine, 0.75L bottle",
+      "country_of_origin": "IT",
+      "quantity": "11874",
+      "unit": "pcs",
+      "unit_price": "3.29",
+      "amount": "39065.46"
+    }
+  ]
+}

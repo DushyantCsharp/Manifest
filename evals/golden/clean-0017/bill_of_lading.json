@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0017",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "COSUWU8751024",
+    "seller": {
+      "name": "Chattogram Bengal Textile Co., Ltd.",
+      "address": [
+        "No. 247 Ring Road",
+        "Chattogram",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "De Neve, Van de Velde en Claes NV",
+      "address": [
+        "Jenslei 79",
+        "9082 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "notify_party": {
+      "name": "Bogaert-De Backer BV",
+      "address": [
+        "Margarethahof 4",
+        "9565 Gent",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "COSCO",
+    "vessel": "COSCO SERENITY",
+    "voyage": "193S",
+    "port_of_loading": "Chattogram",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-06-10",
+    "container_number": "COSU6179764",
+    "seal_number": "7904883",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 187,
+    "total_gross_weight_kg": "2769.16",
+    "goods_description": "SAID TO CONTAIN: Men's woven cotton shirt, long sleeve"
+  },
+  "line_items": []
+}

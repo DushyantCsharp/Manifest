@@ -1,0 +1,160 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0006",
+  "seed": 3087345576,
+  "layout": "us",
+  "documents": {
+    "commercial_invoice": "commercial_invoice.pdf",
+    "packing_list": "packing_list.pdf",
+    "bill_of_lading": "bill_of_lading.pdf"
+  },
+  "shipment": {
+    "invoice_number": "INV-2026-81295",
+    "invoice_date": "2026-02-12",
+    "seller": {
+      "name": "Kaohsiung Lienhwa Textile Co., Ltd.",
+      "address": [
+        "No. 71 Industrial Road",
+        "Kaohsiung",
+        "Taiwan"
+      ],
+      "country": "TW"
+    },
+    "buyer": {
+      "name": "Price LLC",
+      "address": [
+        "8994 Bruce Plains Suite 532",
+        "N8E9V7 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "currency": "CAD",
+    "incoterm": "EXW",
+    "incoterm_place": "Tainan",
+    "payment_terms": "L/C at sight",
+    "total_amount": "192370.05",
+    "bl_number": "CMDUUO4980769",
+    "notify_party": {
+      "name": "Roth-Rich",
+      "address": [
+        "490 Miller Lakes Suite 556",
+        "X6A 4M2 Vancouver",
+        "Canada"
+      ],
+      "country": "CA"
+    },
+    "carrier": "CMA CGM",
+    "vessel": "CMA KENSINGTON",
+    "voyage": "311W",
+    "port_of_loading": "Kaohsiung",
+    "port_of_discharge": "Vancouver",
+    "shipped_on_board": "2026-02-22",
+    "container_number": "CMDU6521134",
+    "seal_number": "9005552",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1670,
+    "total_gross_weight_kg": "25483.08",
+    "goods_description": "SAID TO CONTAIN: Polarized sunglasses; Milk chocolate bars 100g; LED bulb E27 9W warm white; Porcelain dinner plate 27cm; Lithium-ion battery pack 48V 20Ah; LDPE film-grade granules; Long grain white rice, milled",
+    "total_net_weight_kg": "23282.46",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Polarized sunglasses",
+        "country_of_origin": "IT",
+        "quantity": "500",
+        "unit": "pcs",
+        "unit_price": "11.35",
+        "amount": "5675.00",
+        "hs_code": "900410",
+        "packages": 5,
+        "net_weight_kg": "25.00",
+        "gross_weight_kg": "30.63"
+      },
+      {
+        "line_no": 2,
+        "description": "Milk chocolate bars 100g",
+        "country_of_origin": "DE",
+        "quantity": "47520",
+        "unit": "pcs",
+        "unit_price": "1.86",
+        "amount": "88387.20",
+        "hs_code": "180632",
+        "packages": 792,
+        "net_weight_kg": "5037.12",
+        "gross_weight_kg": "5577.64"
+      },
+      {
+        "line_no": 3,
+        "description": "LED bulb E27 9W warm white",
+        "country_of_origin": "CN",
+        "quantity": "39800",
+        "unit": "pcs",
+        "unit_price": "0.9031",
+        "amount": "35943.38",
+        "hs_code": "853952",
+        "packages": 199,
+        "net_weight_kg": "2069.60",
+        "gross_weight_kg": "2353.85"
+      },
+      {
+        "line_no": 4,
+        "description": "Porcelain dinner plate 27cm",
+        "country_of_origin": "TH",
+        "quantity": "1920",
+        "unit": "pcs",
+        "unit_price": "4.34",
+        "amount": "8332.80",
+        "hs_code": "691110",
+        "packages": 80,
+        "net_weight_kg": "1255.68",
+        "gross_weight_kg": "1343.49"
+      },
+      {
+        "line_no": 5,
+        "description": "Lithium-ion battery pack 48V 20Ah",
+        "country_of_origin": "KR",
+        "quantity": "88",
+        "unit": "pcs",
+        "unit_price": "423.73",
+        "amount": "37288.24",
+        "hs_code": "850760",
+        "packages": 22,
+        "net_weight_kg": "595.06",
+        "gross_weight_kg": "652.61"
+      },
+      {
+        "line_no": 6,
+        "description": "LDPE film-grade granules",
+        "country_of_origin": "US",
+        "quantity": "5175",
+        "unit": "kg",
+        "unit_price": "1.67",
+        "amount": "8642.25",
+        "hs_code": "390110",
+        "packages": 207,
+        "net_weight_kg": "5175.00",
+        "gross_weight_kg": "5447.21"
+      },
+      {
+        "line_no": 7,
+        "description": "Long grain white rice, milled",
+        "country_of_origin": "PK",
+        "quantity": "9125",
+        "unit": "kg",
+        "unit_price": "0.8878",
+        "amount": "8101.18",
+        "hs_code": "100630",
+        "packages": 365,
+        "net_weight_kg": "9125.00",
+        "gross_weight_kg": "10077.65"
+      }
+    ]
+  },
+  "tolerances": {
+    "weight_kg_relative": "0.005"
+  },
+  "discrepancies": [],
+  "variant": "scanned"
+}

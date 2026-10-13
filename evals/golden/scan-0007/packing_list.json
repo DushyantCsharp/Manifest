@@ -1,0 +1,76 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0007",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "0.17",
+    "noise_sigma": 7,
+    "salt_pepper": "0.0007",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-0140",
+    "date": "2026-07-08",
+    "seller": {
+      "name": "Chattogram Padma Manufacturing Co., Ltd.",
+      "address": [
+        "No. 280 Ring Road",
+        "Chattogram",
+        "Bangladesh"
+      ],
+      "country": "BD"
+    },
+    "buyer": {
+      "name": "Larysz Sp.j.",
+      "address": [
+        "al. Plater 76",
+        "63-797 Łódź",
+        "Poland"
+      ],
+      "country": "PL"
+    },
+    "incoterm": "CFR",
+    "incoterm_place": "Gdańsk",
+    "package_type": "CARTONS",
+    "total_packages": 496,
+    "total_net_weight_kg": "5284.99",
+    "total_gross_weight_kg": "6025.13"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Men's crew-neck T-shirt, 100% cotton jersey",
+      "country_of_origin": "BD",
+      "quantity": "17800",
+      "unit": "pcs",
+      "packages": 356,
+      "net_weight_kg": "3417.60",
+      "gross_weight_kg": "3914.58"
+    },
+    {
+      "line_no": 2,
+      "description": "Cotton knitted pullover",
+      "country_of_origin": "BD",
+      "quantity": "2544",
+      "unit": "pcs",
+      "packages": 106,
+      "net_weight_kg": "1394.11",
+      "gross_weight_kg": "1586.95"
+    },
+    {
+      "line_no": 3,
+      "description": "Men's woven cotton shirt, long sleeve",
+      "country_of_origin": "BD",
+      "quantity": "1360",
+      "unit": "pcs",
+      "packages": 34,
+      "net_weight_kg": "473.28",
+      "gross_weight_kg": "523.60"
+    }
+  ]
+}

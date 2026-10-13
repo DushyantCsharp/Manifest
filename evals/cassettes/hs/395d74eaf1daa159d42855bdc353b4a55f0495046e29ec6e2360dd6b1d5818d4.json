@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "395d74eaf1daa159d42855bdc353b4a55f0495046e29ec6e2360dd6b1d5818d4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Combined refrigerator-freezer 300L with separate external doors\nCountry of origin: TR\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8418 Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air conditioning machines of heading no. 8415\n\nChoose the subheading that covers these goods. Options:\n- 841810: Refrigerators and freezers; combined refrigerator-freezers, fitted with separate external doors, electric or other\n- 841821: Refrigerators; for household use, compression-type, electric or other\n- 841829: Refrigerators; household, electric or not, other than compression-type\n- 841830: Freezers; of the chest type, not exceeding 800l capacity\n- 841840: Freezers; of the upright type, not exceeding 900l capacity\n- 841869: Refrigerating or freezing equipment; n.e.c. in heading no. 8418\n- 841899: Refrigerating or freezing equipment; parts thereof, other than furniture\n- 841861: Heat pumps; other than air conditioning machines of heading no. 8415\n- 841891: Refrigerating or freezing equipment; parts, furniture designed to receive refrigerating or freezing equipment\n- 841850: Furniture incorporating refrigerating or freezing equipment; for storage and display, n.e.c. in item no. 8418.1, 8418.2, 8418.3 or 8418.4 (chests, cabinets, display counters, show-cases and the like)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1a6c04e44f1fb08eb1c14a2a68f5eb5f647458f25fae47d5c58a44a2d6d6db9e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "841810",
+      "cited": [
+        "841810"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 578,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

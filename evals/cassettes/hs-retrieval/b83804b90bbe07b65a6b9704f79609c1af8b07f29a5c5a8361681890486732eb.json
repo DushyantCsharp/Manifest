@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "b83804b90bbe07b65a6b9704f79609c1af8b07f29a5c5a8361681890486732eb",
+  "retriever": "offline-lexical",
+  "query": "Drinking tumblers of soda-lime glass, set of 6 origin TR",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "701328",
+      "description": "Stemware drinking glasses, other than of lead crystal or glass-ceramics",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "701337",
+      "description": "Glassware; drinking glasses (not stemware), other than of lead crystal or glass-ceramics",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "701349",
+      "description": "Glassware of a kind used for table or kitchen purposes (not drinking glasses or of glass-ceramics), of glass n.e.c. in item no. 7013.4",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "701322",
+      "description": "Stemware drinking glasses, of lead crystal",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "701333",
+      "description": "Glassware; drinking glasses (not stemware), of lead crystal",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "701341",
+      "description": "Glassware of a kind used for table or kitchen purposes (not drinking glasses), of lead crystal",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "701342",
+      "description": "Glassware of a kind used for table or kitchen purposes (not drinking glasses), of glass having a linear coefficient of expansion not exceeding 5 x 10 (to the minus 6), (or 0.000005) per Kelvin within a temperature range of 0-300 degrees C",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "281511",
+      "description": "Sodium hydroxide (caustic soda); solid",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "470311",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of coniferous wood",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "470319",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of non-coniferous wood",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "470321",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of coniferous wood",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "281512",
+      "description": "Sodium hydroxide (caustic soda); in aqueous solution (soda lye or liquid soda)",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "470329",
+      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "281530",
+      "description": "Peroxides of sodium or potassium",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "293972",
+      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "281520",
+      "description": "Potassium hydroxide (caustic potash)",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "293979",
+      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "truth_version": 1,
+  "pack_id": "mism-0013",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "EGLVGB6731838",
+    "seller": {
+      "name": "Ningbo Ruifeng Manufacturing Co., Ltd.",
+      "address": [
+        "No. 205 Industrial Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Koninklijke d' Heripon",
+      "address": [
+        "Yassinring 32",
+        "9927DN Tilburg",
+        "Netherlands"
+      ],
+      "country": "NL"
+    },
+    "notify_party": null,
+    "carrier": "EVERGREEN",
+    "vessel": "EVERGREEN PEGASUS",
+    "voyage": "207E",
+    "port_of_loading": "Qingdao",
+    "port_of_discharge": "Rotterdam",
+    "shipped_on_board": "2026-07-12",
+    "container_number": "EGLU6304819",
+    "seal_number": "1713540",
+    "freight_terms": "COLLECT",
+    "package_type": "CARTONS",
+    "total_packages": 1180,
+    "total_gross_weight_kg": "24752.09",
+    "goods_description": "SAID TO CONTAIN: Rubber flip-flops, thong plugged into the sole; Corrugated shipping carton, 3-ply; City bicycle 28in, 7-speed; LED television 55in 4K"
+  },
+  "line_items": []
+}

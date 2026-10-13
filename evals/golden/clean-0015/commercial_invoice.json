@@ -1,0 +1,102 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0015",
+  "document": "commercial_invoice",
+  "layout": "compact",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-1008/26",
+    "invoice_date": "2026-03-09",
+    "seller": {
+      "name": "Ningbo Ruifeng Trading Co., Ltd.",
+      "address": [
+        "No. 334 Harbour Road",
+        "Ningbo",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Guillet",
+      "address": [
+        "3, rue de Perrin",
+        "48669 Lyon",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_place": "Qingdao",
+    "payment_terms": "T/T in advance",
+    "total_amount": "243177.40"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Running shoes, rubber sole, textile upper",
+      "country_of_origin": "CN",
+      "quantity": "4860",
+      "unit": "pairs",
+      "unit_price": "23.29",
+      "amount": "113189.40"
+    },
+    {
+      "line_no": 2,
+      "description": "Corrugated shipping carton, 3-ply",
+      "country_of_origin": "CN",
+      "quantity": "18250",
+      "unit": "pcs",
+      "unit_price": "1.07",
+      "amount": "19527.50"
+    },
+    {
+      "line_no": 3,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "CN",
+      "quantity": "82",
+      "unit": "pcs",
+      "unit_price": "62.17",
+      "amount": "5097.94"
+    },
+    {
+      "line_no": 4,
+      "description": "Centrifugal water pump 1.1kW",
+      "country_of_origin": "CN",
+      "quantity": "300",
+      "unit": "pcs",
+      "unit_price": "137.35",
+      "amount": "41205.00"
+    },
+    {
+      "line_no": 5,
+      "description": "Rubber flip-flops, thong plugged into the sole",
+      "country_of_origin": "CN",
+      "quantity": "8880",
+      "unit": "pairs",
+      "unit_price": "1.31",
+      "amount": "11632.80"
+    },
+    {
+      "line_no": 6,
+      "description": "Lithium-ion battery pack 48V 20Ah",
+      "country_of_origin": "CN",
+      "quantity": "281",
+      "unit": "pcs",
+      "unit_price": "113.96",
+      "amount": "32022.76"
+    },
+    {
+      "line_no": 7,
+      "description": "Polarized sunglasses",
+      "country_of_origin": "CN",
+      "quantity": "6700",
+      "unit": "pcs",
+      "unit_price": "3.06",
+      "amount": "20502.00"
+    }
+  ]
+}

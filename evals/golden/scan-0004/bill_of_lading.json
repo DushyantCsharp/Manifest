@@ -1,0 +1,52 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0004",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "en",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "2.83",
+    "noise_sigma": 6,
+    "salt_pepper": "0.0025",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "bl_number": "ONEYFW6533019",
+    "seller": {
+      "name": "Pires Viana e Filhos",
+      "address": [
+        "Favela de da Rosa, 36",
+        "11956-824 Santos",
+        "Brazil"
+      ],
+      "country": "BR"
+    },
+    "buyer": {
+      "name": "Miller-Burke",
+      "address": [
+        "299 Benjamin Oval Suite 202",
+        "39555 Savannah",
+        "United States"
+      ],
+      "country": "US"
+    },
+    "notify_party": null,
+    "carrier": "ONE",
+    "vessel": "ONE TAGE",
+    "voyage": "453S",
+    "port_of_loading": "Paranaguá",
+    "port_of_discharge": "Los Angeles",
+    "shipped_on_board": "2026-09-06",
+    "container_number": "ONEU4707533",
+    "seal_number": "3198566",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1866,
+    "total_gross_weight_kg": "24654.70",
+    "goods_description": "SAID TO CONTAIN: A4 copy paper 80gsm, ream; Roasted coffee beans, whole"
+  },
+  "line_items": []
+}

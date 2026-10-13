@@ -1,0 +1,74 @@
+{# Layout 2 "eu": German/English serif invoice, 1.234,56 amounts, DD.MM.YYYY dates, origin as a code. #}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  body { font-family: Georgia, "Times New Roman", "DejaVu Serif", serif; font-size: 9.5pt; }
+  .sender { font-size: 7pt; color: #444; border-bottom: 0.5pt solid #444; display: inline-block; margin-bottom: 4px; }
+  .head { display: flex; justify-content: space-between; margin-top: 10mm; }
+  .window { width: 85mm; min-height: 32mm; }
+  .info { width: 80mm; font-size: 8.5pt; }
+  .info th { font-weight: normal; color: #444; padding: 1px 6px 1px 0; }
+  .info td { padding: 1px 0; }
+  h1 { font-size: 15pt; font-weight: normal; margin: 9mm 0 4mm; }
+  .items th { border-bottom: 1pt solid #111; padding: 4px; font-weight: bold; font-size: 8.5pt; }
+  .items td { padding: 4px; }
+  .items tbody tr:nth-child(even) { background: #f2f2f2; }
+  .sum { margin-top: 6mm; width: 70mm; margin-left: auto; font-size: 11pt; }
+  .sum td { border-top: 1pt solid #111; border-bottom: 3pt double #111; padding: 4px; }
+  .foot { margin-top: 12mm; font-size: 7.5pt; color: #444; }
+</style>
+</head>
+<body>
+<div class="sender">{{ doc.seller.name }} · {{ doc.seller.address | join(" · ") }}</div>
+<div class="head">
+  <div class="window">
+    {{ doc.buyer.name }}<br>
+    {% for line in doc.buyer.address %}{{ line }}<br>{% endfor %}
+  </div>
+  <table class="info">
+    <tr><th>Rechnungsnummer / Invoice no.</th><td>{{ doc.invoice_number }}</td></tr>
+    <tr><th>Rechnungsdatum / Date</th><td>{{ layout.date(doc.invoice_date) }}</td></tr>
+    <tr><th>Lieferbedingung / Incoterms® 2020</th><td>{{ doc.incoterm }} {{ doc.incoterm_place }}</td></tr>
+    <tr><th>Zahlungsbedingung / Payment</th><td>{{ doc.payment_terms }}</td></tr>
+    <tr><th>Währung / Currency</th><td>{{ doc.currency }}</td></tr>
+  </table>
+</div>
+
+<h1>Handelsrechnung · Commercial Invoice</h1>
+
+<table class="items">
+  <thead>
+    <tr>
+      <th>Pos.</th><th>Artikelbezeichnung / Description</th><th>Ursprung</th>
+      <th class="num">Menge</th><th>Einheit</th>
+      <th class="num">Einzelpreis {{ doc.currency }}</th><th class="num">Gesamt {{ doc.currency }}</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for line in doc.lines %}
+    <tr>
+      <td>{{ line.line_no }}</td>
+      <td>{{ line.description }}</td>
+      <td>{{ line.country_of_origin or "" }}</td>
+      <td class="num">{{ layout.quantity(line.quantity) }}</td>
+      <td>{{ line.unit }}</td>
+      <td class="num">{{ layout.price(line.unit_price) }}</td>
+      <td class="num">{{ layout.money(line.amount) }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<table class="sum">
+  <tr><td>Gesamtbetrag / Total</td><td class="num">{{ layout.money(doc.total_amount) }} {{ doc.currency }}</td></tr>
+</table>
+
+<div class="foot">
+  Versand / Shipment: {{ doc.port_of_loading }} → {{ doc.port_of_discharge }}.
+  Ursprungsland gemäß Spalte „Ursprung“ (ISO 3166). Wir bestätigen die Richtigkeit der Angaben.
+</div>
+</body>
+</html>

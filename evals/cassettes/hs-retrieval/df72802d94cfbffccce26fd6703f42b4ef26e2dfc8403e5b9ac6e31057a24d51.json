@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "key": "df72802d94cfbffccce26fd6703f42b4ef26e2dfc8403e5b9ac6e31057a24d51",
+  "retriever": "offline-lexical",
+  "query": "Roasted coffee beans, not decaffeinated origin IT",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "090111",
+      "description": "Coffee; not roasted or decaffeinated",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1
+      }
+    },
+    {
+      "code": "090112",
+      "description": "Coffee; decaffeinated, not roasted",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2
+      }
+    },
+    {
+      "code": "090121",
+      "description": "Coffee; roasted, not decaffeinated",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3
+      }
+    },
+    {
+      "code": "090122",
+      "description": "Coffee; roasted, decaffeinated",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4
+      }
+    },
+    {
+      "code": "090190",
+      "description": "Coffee; husks and skins, coffee substitutes containing coffee in any proportion",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5
+      }
+    },
+    {
+      "code": "180100",
+      "description": "Cocoa beans; whole or broken, raw or roasted",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6
+      }
+    },
+    {
+      "code": "210130",
+      "description": "Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7
+      }
+    },
+    {
+      "code": "210112",
+      "description": "Preparations with a basis of extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8
+      }
+    },
+    {
+      "code": "210111",
+      "description": "Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9
+      }
+    },
+    {
+      "code": "210120",
+      "description": "Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10
+      }
+    },
+    {
+      "code": "110710",
+      "description": "Malt; not roasted",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11
+      }
+    },
+    {
+      "code": "130232",
+      "description": "Mucilages and thickeners; whether or not modified, derived from locust beans, locust bean seeds or guar seeds",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12
+      }
+    },
+    {
+      "code": "110720",
+      "description": "Malt; roasted",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13
+      }
+    },
+    {
+      "code": "261310",
+      "description": "Molybdenum ores and concentrates; roasted",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14
+      }
+    },
+    {
+      "code": "120110",
+      "description": "Soya beans; seed, whether or not broken",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15
+      }
+    },
+    {
+      "code": "260120",
+      "description": "Iron pyrites; roasted",
+      "score": "0.013158",
+      "ranks": {
+        "lexical": 16
+      }
+    },
+    {
+      "code": "261390",
+      "description": "Molybdenum ores and concentrates; other than roasted",
+      "score": "0.012987",
+      "ranks": {
+        "lexical": 17
+      }
+    },
+    {
+      "code": "120190",
+      "description": "Soya beans; other than seed, whether or not broken",
+      "score": "0.012821",
+      "ranks": {
+        "lexical": 18
+      }
+    },
+    {
+      "code": "120230",
+      "description": "Ground-nuts; seed, not roasted or otherwise cooked, whether or not shelled or broken",
+      "score": "0.012658",
+      "ranks": {
+        "lexical": 19
+      }
+    },
+    {
+      "code": "120241",
+      "description": "Ground-nuts; other than seed, not roasted or otherwise cooked, in shell",
+      "score": "0.012500",
+      "ranks": {
+        "lexical": 20
+      }
+    }
+  ]
+}

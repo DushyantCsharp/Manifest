@@ -1,0 +1,54 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0007",
+  "document": "bill_of_lading",
+  "layout": "standard",
+  "number_style": "de",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "bl_number": "HLCUHX1393202",
+    "seller": {
+      "name": "Trapanese-Giolitti s.r.l.",
+      "address": [
+        "Canale Gianfranco, 97 Piano 9",
+        "59021 Bologna",
+        "Italy"
+      ],
+      "country": "IT"
+    },
+    "buyer": {
+      "name": "Verdonck-Vinck BV",
+      "address": [
+        "Dieterweg 26",
+        "6903 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "notify_party": {
+      "name": "Verbeke CommV",
+      "address": [
+        "Marie-Jeannelei 20",
+        "6994 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "carrier": "HAPAG-LLOYD",
+    "vessel": "HAPAG-LLOYD HARMONY",
+    "voyage": "180S",
+    "port_of_loading": "La Spezia",
+    "port_of_discharge": "Antwerp",
+    "shipped_on_board": "2026-05-12",
+    "container_number": "HLCU8084325",
+    "seal_number": "5438587",
+    "freight_terms": "PREPAID",
+    "package_type": "CARTONS",
+    "total_packages": 1045,
+    "total_gross_weight_kg": "18840.45",
+    "goods_description": "SAID TO CONTAIN: Porcelain dinner plate 27cm; City bicycle 28in, 7-speed; Aluminium household foil 12 micron; Upholstered office chair, steel base; Women's cotton denim trousers"
+  },
+  "line_items": []
+}

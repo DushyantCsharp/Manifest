@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "bdc9b8e0101e90fabaa46c86fc924d424de1aceed7c458cf3e2b8bf369d38437",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Polarised sunglasses\nCountry of origin: CN\n\nChosen so far: 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories > 9004 Spectacles, goggles and the like; corrective, protective or other\n\nChoose the subheading that covers these goods. Options:\n- 900410: Sunglasses; corrective, protective or other\n- 900490: Spectacles, goggles and the like; (other than sunglasses) corrective, protective or other\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1fb93920fceedf97f9700e4dd475c7c69326c27069a743130ce80ada3425e88c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "900410",
+      "cited": [
+        "900410"
+      ],
+      "confidence": "0.85",
+      "reason": "label"
+    },
+    "input_tokens": 349,
+    "latency_ms": 0,
+    "output_tokens": 20
+  }
+}

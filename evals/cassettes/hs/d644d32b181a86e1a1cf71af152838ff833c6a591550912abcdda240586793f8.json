@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d644d32b181a86e1a1cf71af152838ff833c6a591550912abcdda240586793f8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T06:36:47+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Porcelain dinner plate 27cm\nCountry of origin: CN\n\nChosen so far: 69 Ceramic products\n\nChoose the heading that covers these goods. Options:\n- 6914: Ceramic articles; n.e.c. in chapter 69\n    contains 691410: Ceramic articles n.e.c. in chapter 69; of porcelain or china\n    contains 691490: Ceramic articles n.e.c. in chapter 69; other than of porcelain or china\n- 6911: Tableware, kitchenware, other household articles and toilet articles; of porcelain or china\n    contains 691110: Tableware and kitchenware; of porcelain or china\n    contains 691190: Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china\n- 6913: Statuettes and other ornamental ceramic articles\n    contains 691310: Ceramic statuettes and other ornamental ceramic articles, of porcelain or china\n    contains 691390: Ceramic statuettes and other ornamental ceramic articles; other than of porcelain or china\n- 6912: Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china\n    contains 691200: Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china\n- 6909: Ceramic ware for laboratory, chemical, other technical uses; ceramic troughs, tubs, similar receptacles used in agriculture; ceramic pots, jars and similar used in the conveyance or packing of goods\n    contains 690911: Ceramic wares; for laboratory, chemical or other technical uses, of porcelain or china\n    contains 690919: Ceramic wares; for laboratory, chemical or other technical uses, other than articles having a hardness equivalent to 9 or more on the Mohs scale or of porcelain or china\n- 6910: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures\n    contains 691010: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of porcelain or china\n    contains 691090: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of other than porcelain or china\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ddf9ec20fde7848c69783c357d149cf6299df70ee427f66b3a6c91d3f0a69f57",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6911",
+      "cited": [
+        "6911"
+      ],
+      "confidence": "0.90",
+      "reason": "label"
+    },
+    "input_tokens": 777,
+    "latency_ms": 0,
+    "output_tokens": 19
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "truth_version": 1,
+  "pack_id": "scan-0002",
+  "document": "commercial_invoice",
+  "layout": "eu",
+  "number_style": "de",
+  "variant": "scanned",
+  "scan": {
+    "dpi": 150,
+    "rotation_degrees": "0.23",
+    "noise_sigma": 10,
+    "salt_pepper": "0.002",
+    "blur_radius": "0.6"
+  },
+  "pages": 1,
+  "fields": {
+    "invoice_number": "RE-26-1583",
+    "invoice_date": "2026-07-02",
+    "seller": {
+      "name": "Şener Şti.",
+      "address": [
+        "75555 Efe Park",
+        "05262 Istanbul",
+        "Turkey"
+      ],
+      "country": "TR"
+    },
+    "buyer": {
+      "name": "Hebert Baron S.A.",
+      "address": [
+        "rue de Breton",
+        "55478 Lille",
+        "France"
+      ],
+      "country": "FR"
+    },
+    "currency": "EUR",
+    "incoterm": "FCA",
+    "incoterm_place": "Istanbul",
+    "payment_terms": "Cash against documents",
+    "total_amount": "44706.12"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Nitrile examination gloves, box of 100",
+      "country_of_origin": "MY",
+      "quantity": "9180",
+      "unit": "sets",
+      "unit_price": "2.10",
+      "amount": "19278.00"
+    },
+    {
+      "line_no": 2,
+      "description": "Aluminium household foil 12 micron",
+      "country_of_origin": "TR",
+      "quantity": "3100",
+      "unit": "kg",
+      "unit_price": "3.37",
+      "amount": "10447.00"
+    },
+    {
+      "line_no": 3,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "CN",
+      "quantity": "304",
+      "unit": "pcs",
+      "unit_price": "49.28",
+      "amount": "14981.12"
+    }
+  ]
+}

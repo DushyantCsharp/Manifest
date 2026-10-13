@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "key": "31a84fbecefd8251378803686e691bdac0820060ea74bdee3f2d6906851ca58b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:11+00:00",
+  "recorded_with": "ground-truth oracle (OCR)",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: commercial invoice\nPage 1\n\nPage text:\n<<<\nVendeur./ Seller\n-| Qingdao Haixing Import & Export Co., Ltd.\nNo. 252 Export Processing Zone, Qingdao, China\n\nAcheteur / Buyer\nBousquet\n27,-rue de Le Roux, 84775 Lille, France\n\nFACTURE COMMERCIALE\n\nCOMMERCIAL INVOICE\nN°?/ No. FC-5883/26\nDate ~* 2026-09-19\n\nDevise / Currency EUR\n| Incoterm 2020 EXW Guangzhou\n\nPaiement / T/T in advance\nPayment\n.| Chargement / Qingdao\nLoading\nDestination Le Havre\nLig. Désignation / Description Orig. Qte U. P.U. EUR Montant EUR\n1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74\n2 Upholstered office chair; steel base CN 374 pes 76,25 28517,50\n3 AG induction motor 0.55kW 3-phase CN 30 pes 60,09 1502,70\n4 Running shoes, rubber sole, textile upper CN 600 pairs 24,05 414.430,00\n5 Passenger car tyre 205/55R16 CN 899 pcs 59,58 53 562,42\n6 Plush toy bear 30cm CN 912 pes 3,12 2845,44\n7 _ Plastic storage box 30L with lid CN 3900 pcs) 2,98 11622,00\n8 Lithium-ion battery pack 48V 20Ah CN 28 pcs 260,50 7294,00\n\nTotal EUR : 135820,80\n\nPage 1 of |\n\n>>>",
+    "schema_sha256": "cf5dd25d43587365719c49544956a37b746a7fb426b55dc74153a5c21bb48cb8",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Bousquet",
+        "value": "Bousquet"
+      },
+      "currency": {
+        "confidence": "0.97",
+        "evidence": "Devise / Currency EUR",
+        "value": "EUR"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "| Incoterm 2020 EXW Guangzhou",
+        "value": "EXW Guangzhou"
+      },
+      "invoice_date": {
+        "confidence": "0.97",
+        "evidence": "Date ~* 2026-09-19",
+        "value": "2026-09-19"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "N°?/ No. FC-5883/26",
+        "value": "FC-5883/26"
+      },
+      "line_items": [
+        {
+          "amount": {
+            "confidence": "0.85",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "16046,74"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "Electric kettle 1.7L stainless"
+          },
+          "quantity": {
+            "confidence": "0.80",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "2021"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "7,94"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.85",
+            "evidence": "2 Upholstered office chair; steel base CN 374 pes 76,25 28517,50",
+            "value": "28517,50"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.87",
+            "evidence": "2 Upholstered office chair; steel base CN 374 pes 76,25 28517,50",
+            "value": "Upholstered office chair; steel base"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Upholstered office chair; steel base CN 374 pes 76,25 28517,50",
+            "value": "374"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "2 Upholstered office chair; steel base CN 374 pes 76,25 28517,50",
+            "value": "76,25"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.84",
+            "evidence": "3 AG induction motor 0.55kW 3-phase CN 30 pes 60,09 1502,70",
+            "value": "1502,70"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.87",
+            "evidence": "3 AG induction motor 0.55kW 3-phase CN 30 pes 60,09 1502,70",
+            "value": "AG induction motor 0.55kW 3-phase"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 AG induction motor 0.55kW 3-phase CN 30 pes 60,09 1502,70",
+            "value": "30"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.72",
+            "evidence": "3 AG induction motor 0.55kW 3-phase CN 30 pes 60,09 1502,70",
+            "value": "60,09"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.76",
+            "evidence": "4 Running shoes, rubber sole, textile upper CN 600 pairs 24,05 414.430,00",
+            "value": "414.430,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 Running shoes, rubber sole, textile upper CN 600 pairs 24,05 414.430,00",
+            "value": "Running shoes, rubber sole, textile upper"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 Running shoes, rubber sole, textile upper CN 600 pairs 24,05 414.430,00",
+            "value": "600"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "4 Running shoes, rubber sole, textile upper CN 600 pairs 24,05 414.430,00",
+            "value": "pairs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "4 Running shoes, rubber sole, textile upper CN 600 pairs 24,05 414.430,00",
+            "value": "24,05"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 899 pcs 59,58 53 562,42",
+            "value": "53 562,42"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 899 pcs 59,58 53 562,42",
+            "value": "Passenger car tyre 205/55R16"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 899 pcs 59,58 53 562,42",
+            "value": "899"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "5 Passenger car tyre 205/55R16 CN 899 pcs 59,58 53 562,42",
+            "value": "59,58"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.84",
+            "evidence": "6 Plush toy bear 30cm CN 912 pes 3,12 2845,44",
+            "value": "2845,44"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "6 Plush toy bear 30cm CN 912 pes 3,12 2845,44",
+            "value": "Plush toy bear 30cm"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "6 Plush toy bear 30cm CN 912 pes 3,12 2845,44",
+            "value": "912"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "6 Plush toy bear 30cm CN 912 pes 3,12 2845,44",
+            "value": "3,12"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.85",
+            "evidence": "7 _ Plastic storage box 30L with lid CN 3900 pcs) 2,98 11622,00",
+            "value": "11622,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "7 _ Plastic storage box 30L with lid CN 3900 pcs) 2,98 11622,00",
+            "value": "Plastic storage box 30L with lid"
+          },
+          "quantity": {
+            "confidence": "0.80",
+            "evidence": "7 _ Plastic storage box 30L with lid CN 3900 pcs) 2,98 11622,00",
+            "value": "3900"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "7 _ Plastic storage box 30L with lid CN 3900 pcs) 2,98 11622,00",
+            "value": "2,98"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.84",
+            "evidence": "8 Lithium-ion battery pack 48V 20Ah CN 28 pcs 260,50 7294,00",
+            "value": "7294,00"
+          },
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 252 Export Processing Zone, Qingdao, China",
+            "value": "China"
+          },
+          "currency": {
+            "confidence": "0.97",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "8 Lithium-ion battery pack 48V 20Ah CN 28 pcs 260,50 7294,00",
+            "value": "Lithium-ion battery pack 48V 20Ah"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "8 Lithium-ion battery pack 48V 20Ah CN 28 pcs 260,50 7294,00",
+            "value": "28"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Electric kettle 1.7L stainless CN 2021 pcs 7,94 16046,74",
+            "value": "pcs"
+          },
+          "unit_price": {
+            "confidence": "0.97",
+            "evidence": "8 Lithium-ion battery pack 48V 20Ah CN 28 pcs 260,50 7294,00",
+            "value": "260,50"
+          }
+        }
+      ],
+      "payment_terms": {
+        "confidence": "0.97",
+        "evidence": "Paiement / T/T in advance",
+        "value": "T/T in advance"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "-| Qingdao Haixing Import & Export Co., Ltd.",
+        "value": "Qingdao Haixing Import & Export Co., Ltd."
+      },
+      "total_amount": {
+        "confidence": "0.85",
+        "evidence": "Total EUR : 135820,80",
+        "value": "135820,80"
+      }
+    },
+    "input_tokens": 481,
+    "latency_ms": 0,
+    "output_tokens": 1946
+  }
+}

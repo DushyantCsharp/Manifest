@@ -1,0 +1,100 @@
+{
+  "truth_version": 1,
+  "pack_id": "clean-0020",
+  "document": "packing_list",
+  "layout": "standard",
+  "number_style": "fr",
+  "variant": "clean",
+  "scan": null,
+  "pages": 1,
+  "fields": {
+    "invoice_number": "FC-5520/26",
+    "date": "2026-04-25",
+    "seller": {
+      "name": "Qingdao Hengda Trading Co., Ltd.",
+      "address": [
+        "No. 269 Industrial Road",
+        "Qingdao",
+        "China"
+      ],
+      "country": "CN"
+    },
+    "buyer": {
+      "name": "Mestdagh CommV",
+      "address": [
+        "Christellebaan 9",
+        "4257 Antwerpen",
+        "Belgium"
+      ],
+      "country": "BE"
+    },
+    "incoterm": "FCA",
+    "incoterm_place": "Xiamen",
+    "package_type": "CARTONS",
+    "total_packages": 1274,
+    "total_net_weight_kg": "22008.24",
+    "total_gross_weight_kg": "24631.33"
+  },
+  "line_items": [
+    {
+      "line_no": 1,
+      "description": "Solar PV module 410W monocrystalline",
+      "country_of_origin": "CN",
+      "quantity": "341",
+      "unit": "pcs",
+      "packages": 11,
+      "net_weight_kg": "7218.29",
+      "gross_weight_kg": "7559.39"
+    },
+    {
+      "line_no": 2,
+      "description": "Laptop computer 14in, 16GB RAM",
+      "country_of_origin": "CN",
+      "quantity": "153",
+      "unit": "pcs",
+      "packages": 31,
+      "net_weight_kg": "192.93",
+      "gross_weight_kg": "209.02"
+    },
+    {
+      "line_no": 3,
+      "description": "City bicycle 28in, 7-speed",
+      "country_of_origin": "CN",
+      "quantity": "26",
+      "unit": "pcs",
+      "packages": 26,
+      "net_weight_kg": "419.35",
+      "gross_weight_kg": "457.82"
+    },
+    {
+      "line_no": 4,
+      "description": "AC induction motor 0.55kW 3-phase",
+      "country_of_origin": "CN",
+      "quantity": "85",
+      "unit": "pcs",
+      "packages": 43,
+      "net_weight_kg": "578.85",
+      "gross_weight_kg": "654.53"
+    },
+    {
+      "line_no": 5,
+      "description": "Passenger car tyre 205/55R16",
+      "country_of_origin": "CN",
+      "quantity": "865",
+      "unit": "pcs",
+      "packages": 865,
+      "net_weight_kg": "7638.82",
+      "gross_weight_kg": "9087.29"
+    },
+    {
+      "line_no": 6,
+      "description": "Aluminium household foil 12 micron",
+      "country_of_origin": "CN",
+      "quantity": "5960",
+      "unit": "kg",
+      "packages": 298,
+      "net_weight_kg": "5960.00",
+      "gross_weight_kg": "6663.28"
+    }
+  ]
+}

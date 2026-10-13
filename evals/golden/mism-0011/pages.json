@@ -1,0 +1,23 @@
+{
+  "commercial_invoice": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Tainan Chunghwa Electronics Co., Ltd.\r\nNo. 218 Industrial Road\r\nTainan\r\nTaiwan\r\nCOMMERCIAL INVOICE\r\nInvoice No. INV-2026-90214\r\nInvoice Date 02/27/2026\r\nPayment Terms T/T in advance\r\nBILL TO / CONSIGNEE\r\nWhite-Bowen\r\n8229 Tom Ferry Suite 084\r\nN3B 6B8 Vancouver\r\nCanada\r\nSHIPPING\r\nTerms of Sale: DDP Vancouver (Incoterms 2020)\r\nPort of Loading: Kaohsiung\r\nPort of Discharge: Vancouver\r\nCurrency: CAD\r\n# Description Country of Origin Qty Unit Unit Price Amount (CAD)\r\n1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40\r\n2 Stainless steel saucepan 20cm China 3,648 pcs 7.90 28,819.20\r\n3 Combed cotton yarn Ne 30/1 Vietnam 7,950 kg 4.68 37,206.00\r\nTotal CAD 73,047.60\r\nWe hereby certify that this invoice shows the actual price of the goods described, that all particulars are true and correct, and that the goods are\r\nof the origin stated. \r\nAuthorized signature: ______________________ for Tainan Chunghwa Electronics Co., Ltd. \r\nPage 1 of 1"
+    }
+  ],
+  "packing_list": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "Tainan Chunghwa Electronics Co., Ltd.\r\nNo. 218 Industrial Road, Tainan, Taiwan \r\nPACKING LIST\r\nInvoice Ref. INV-2026-90214\r\nDate 02/27/2026\r\nCONSIGNEE\r\nWhite-Bowen\r\n8229 Tom Ferry Suite 084, N3B 6B8 Vancouver, Canada\r\nTERMS OF DELIVERY\r\nDDP Vancouver\r\nKaohsiung to Vancouver\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg\r\n2 Stainless steel saucepan 20cm CN 3,648 pcs 304 3,644.35 kg 4,098.98 kg\r\n3 Combed cotton yarn Ne 30/1 BE 7,950 kg 159 7,950.00 kg 8,501.73 kg\r\nTotal 465 CARTONS 12,581.61 kg 13,621.27 kg\r\nShipping marks: WHITE-BOWEN / INV-2026-90214\r\nPage 1 of 1"
+    }
+  ],
+  "bill_of_lading": [
+    {
+      "page_no": 1,
+      "source": "native",
+      "text": "SHIPPER\r\nTainan Chunghwa Electronics Co., Ltd.\r\nNo. 218 Industrial Road, Tainan, Taiwan\r\nMSC\r\nBILL OF LADING\r\nB/L NO.\r\nMEDUZD8239607 \r\nCONSIGNEE\r\nWhite-Bowen\r\n8229 Tom Ferry Suite 084, N3B 6B8 Vancouver, Canada\r\nNOTIFY PARTY\r\nTanner-Lewis\r\n22480 Lisa Station Suite 644, A2A 9C4\r\nMontréal, Canada\r\nOCEAN VESSEL / VOYAGE NO.\r\nMSC TRITON / 401E\r\nFREIGHT\r\nFREIGHT PREPAID\r\nPORT OF LOADING\r\nKaohsiung\r\nPORT OF DISCHARGE\r\nVancouver\r\nCONTAINER / SEAL\r\nNO.\r\nMARKS & NOS. NO. OF\r\nPACKAGES\r\nDESCRIPTION OF GOODS GROSS WEIGHT\r\nMEDU2337035\r\nSEAL\r\n7738955\r\nWHITE-BOWEN /\r\nINV-2026-90214\r\n465\r\nCARTONS\r\nSAID TO CONTAIN: Solar PV module 410W\r\nmonocrystalline; Stainless steel saucepan\r\n20cm; Combed cotton yarn Ne 30/1\r\n12,722.27 kg\r\nSHIPPED ON BOARD\r\n03/01/2026\r\nPLACE AND DATE OF ISSUE\r\nKaohsiung, 03/01/2026\r\nNUMBER OF ORIGINAL B/LS\r\nTHREE (3)\r\nRECEIVED by the Carrier in apparent good order and condition unless otherwise stated, the total number of containers or packages shown above for carriage from the port of loading to the port\r\nof discharge, subject to the terms and conditions of the carrier's standard bill of lading. Signed as Carrier: MSC. \r\nPage 1 of 1"
+    }
+  ]
+}

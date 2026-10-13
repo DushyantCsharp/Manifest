@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "key": "e4757fca444b41e763bd9ffaadf3692decf885c5db2c10e13bbbb6413bc37443",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T05:45:10+00:00",
+  "recorded_with": "ground-truth oracle",
+  "request": {
+    "effort": "low",
+    "max_tokens": 16000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Document: packing list\nPage 1\n\nPage text:\n<<<\nNingbo Tianyi Industrial Co., Ltd.\r\nNo. 13 Industrial Road, Ningbo, China\r\nPACKING LIST\r\nInvoice Ref. INV-2026-99446\r\nDate 06/15/2026\r\nCONSIGNEE\r\nJohnson, Norton and Hernandez\r\n831 Joshua Glen, 77798 Los Angeles, United States\r\nTERMS OF DELIVERY\r\nCPT Los Angeles\r\nShenzhen to New York\r\n# Description Origin Quantity Pkgs Net weight Gross weight\r\n1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg\r\n2 Milk chocolate bars 100g CH 46,983 pcs 784 4,933.22 kg 5,985.64 kg\r\n3 Upholstered office chair, steel base CN 328 pcs 328 5,513.35 kg 5,788.32 kg\r\n4 LED television 55in 4K CN 81 pcs 81 1,136.51 kg 1,202.21 kg\r\nTotal 1385 CARTONS 13,267.08 kg 14,852.39 kg\r\nShipping marks: JOHNSON, / INV-2026-99446\r\nPage 1 of 1\n>>>",
+    "schema_sha256": "d15f025e2d641df339ab3a3e5593bfd116b3fc1b322eaa48240000963f5ac737",
+    "system_sha256": "502eb4cf89a23f5e37aac12be41d597acdffe4c1c81e06ff43a3e351b4816e96"
+  },
+  "response": {
+    "data": {
+      "buyer_name": {
+        "confidence": "0.97",
+        "evidence": "Johnson, Norton and Hernandez",
+        "value": "Johnson, Norton and Hernandez"
+      },
+      "date": {
+        "confidence": "0.97",
+        "evidence": "Date 06/15/2026",
+        "value": "06/15/2026"
+      },
+      "incoterm": {
+        "confidence": "0.97",
+        "evidence": "CPT Los Angeles",
+        "value": "CPT Los Angeles"
+      },
+      "invoice_number": {
+        "confidence": "0.97",
+        "evidence": "Invoice Ref. INV-2026-99446",
+        "value": "INV-2026-99446"
+      },
+      "line_items": [
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 13 Industrial Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "Leather handbag with shoulder strap"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "1,876.22 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "1,684.00 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "1,918"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g CH 46,983 pcs 784 4,933.22 kg 5,985.64 kg",
+            "value": "CH"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g CH 46,983 pcs 784 4,933.22 kg 5,985.64 kg",
+            "value": "Milk chocolate bars 100g"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g CH 46,983 pcs 784 4,933.22 kg 5,985.64 kg",
+            "value": "5,985.64 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g CH 46,983 pcs 784 4,933.22 kg 5,985.64 kg",
+            "value": "4,933.22 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "2 Milk chocolate bars 100g CH 46,983 pcs 784 4,933.22 kg 5,985.64 kg",
+            "value": "46,983"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 13 Industrial Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base CN 328 pcs 328 5,513.35 kg 5,788.32 kg",
+            "value": "Upholstered office chair, steel base"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base CN 328 pcs 328 5,513.35 kg 5,788.32 kg",
+            "value": "5,788.32 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base CN 328 pcs 328 5,513.35 kg 5,788.32 kg",
+            "value": "5,513.35 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "3 Upholstered office chair, steel base CN 328 pcs 328 5,513.35 kg 5,788.32 kg",
+            "value": "328"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "pcs"
+          }
+        },
+        {
+          "country_of_origin": {
+            "confidence": "0.97",
+            "evidence": "No. 13 Industrial Road, Ningbo, China",
+            "value": "China"
+          },
+          "description": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K CN 81 pcs 81 1,136.51 kg 1,202.21 kg",
+            "value": "LED television 55in 4K"
+          },
+          "gross_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K CN 81 pcs 81 1,136.51 kg 1,202.21 kg",
+            "value": "1,202.21 kg"
+          },
+          "net_weight_kg": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K CN 81 pcs 81 1,136.51 kg 1,202.21 kg",
+            "value": "1,136.51 kg"
+          },
+          "quantity": {
+            "confidence": "0.97",
+            "evidence": "4 LED television 55in 4K CN 81 pcs 81 1,136.51 kg 1,202.21 kg",
+            "value": "81"
+          },
+          "unit": {
+            "confidence": "0.97",
+            "evidence": "1 Leather handbag with shoulder strap CN 1,918 pcs 192 1,684.00 kg 1,876.22 kg",
+            "value": "pcs"
+          }
+        }
+      ],
+      "package_type": {
+        "confidence": "0.97",
+        "evidence": "Total 1385 CARTONS 13,267.08 kg 14,852.39 kg",
+        "value": "CARTONS"
+      },
+      "seller_name": {
+        "confidence": "0.97",
+        "evidence": "Ningbo Tianyi Industrial Co., Ltd.",
+        "value": "Ningbo Tianyi Industrial Co., Ltd."
+      },
+      "total_gross_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1385 CARTONS 13,267.08 kg 14,852.39 kg",
+        "value": "14,852.39 kg"
+      },
+      "total_net_weight_kg": {
+        "confidence": "0.97",
+        "evidence": "Total 1385 CARTONS 13,267.08 kg 14,852.39 kg",
+        "value": "13,267.08 kg"
+      },
+      "total_packages": {
+        "confidence": "0.97",
+        "evidence": "Total 1385 CARTONS 13,267.08 kg 14,852.39 kg",
+        "value": "1385"
+      }
+    },
+    "input_tokens": 418,
+    "latency_ms": 0,
+    "output_tokens": 1150
+  }
+}
