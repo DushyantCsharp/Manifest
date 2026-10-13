@@ -2,8 +2,8 @@
   "format": 1,
   "key": "de8b7fc32175beb946d2235be71e1c8d0bc5a09a336f39f2f837e59284b45afe",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:50:19+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "080390",
       "cited": [
-        "080390"
+        "080390",
+        "080310"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.97",
+      "reason": "Cavendish bananas are dessert bananas, not plantains, so they fall under bananas other than plantains, fresh or dried (080390)."
     },
-    "input_tokens": 317,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 886,
+    "latency_ms": 3228,
+    "output_tokens": 83
   }
 }

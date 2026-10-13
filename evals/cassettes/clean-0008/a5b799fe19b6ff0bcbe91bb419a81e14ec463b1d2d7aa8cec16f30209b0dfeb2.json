@@ -2,8 +2,8 @@
   "format": 1,
   "key": "a5b799fe19b6ff0bcbe91bb419a81e14ec463b1d2d7aa8cec16f30209b0dfeb2",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:53+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Barrera, Butler and Duffy",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nBarrera, Butler and Duffy",
         "value": "Barrera, Butler and Duffy"
       },
       "date": {
@@ -25,8 +25,8 @@
         "value": "27-MAR-2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "DDP Savannah",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nDDP Savannah",
         "value": "DDP Savannah"
       },
       "invoice_number": {
@@ -37,97 +37,97 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 384 Avenue 3, Lahore, Pakistan",
-            "value": "Pakistan"
+            "confidence": "0.93",
+            "evidence": "70x140 PK 1,770",
+            "value": "PK"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 PK 1,770 pcs 45 952.26 kg 1,060.53 kg",
+            "confidence": "0.95",
+            "evidence": "Terry cotton bath towel 70x140",
             "value": "Terry cotton bath towel 70x140"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 PK 1,770 pcs 45 952.26 kg 1,060.53 kg",
+            "confidence": "0.95",
+            "evidence": "1,060.53 kg",
             "value": "1,060.53 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 PK 1,770 pcs 45 952.26 kg 1,060.53 kg",
+            "confidence": "0.95",
+            "evidence": "952.26 kg",
             "value": "952.26 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 PK 1,770 pcs 45 952.26 kg 1,060.53 kg",
+            "confidence": "0.95",
+            "evidence": "1,770 pcs",
             "value": "1,770"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 PK 1,770 pcs 45 952.26 kg 1,060.53 kg",
+            "confidence": "0.93",
+            "evidence": "1,770 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 384 Avenue 3, Lahore, Pakistan",
-            "value": "Pakistan"
+            "confidence": "0.93",
+            "evidence": "milled PK 12,125",
+            "value": "PK"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Long grain white rice, milled PK 12,125 kg 485 12,125.00 kg 13,667.30 kg",
+            "confidence": "0.95",
+            "evidence": "Long grain white rice, milled",
             "value": "Long grain white rice, milled"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Long grain white rice, milled PK 12,125 kg 485 12,125.00 kg 13,667.30 kg",
+            "confidence": "0.95",
+            "evidence": "13,667.30 kg",
             "value": "13,667.30 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Long grain white rice, milled PK 12,125 kg 485 12,125.00 kg 13,667.30 kg",
+            "confidence": "0.95",
+            "evidence": "12,125.00 kg",
             "value": "12,125.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Long grain white rice, milled PK 12,125 kg 485 12,125.00 kg 13,667.30 kg",
+            "confidence": "0.93",
+            "evidence": "PK 12,125 kg 485",
             "value": "12,125"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 PK 1,770 pcs 45 952.26 kg 1,060.53 kg",
+            "confidence": "0.92",
+            "evidence": "PK 12,125 kg 485",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 530 CARTONS 13,077.26 kg 14,727.83 kg",
+        "confidence": "0.9",
+        "evidence": "Total 530 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Lahore Sapphire Industrial Co., Ltd.",
         "value": "Lahore Sapphire Industrial Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 530 CARTONS 13,077.26 kg 14,727.83 kg",
+        "confidence": "0.95",
+        "evidence": "13,077.26 kg 14,727.83 kg",
         "value": "14,727.83 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 530 CARTONS 13,077.26 kg 14,727.83 kg",
+        "confidence": "0.95",
+        "evidence": "13,077.26 kg 14,727.83 kg",
         "value": "13,077.26 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 530 CARTONS 13,077.26 kg 14,727.83 kg",
+        "confidence": "0.95",
+        "evidence": "Total 530 CARTONS",
         "value": "530"
       }
     },
-    "input_tokens": 382,
-    "latency_ms": 0,
-    "output_tokens": 700
+    "input_tokens": 2342,
+    "latency_ms": 6169,
+    "output_tokens": 976
   }
 }

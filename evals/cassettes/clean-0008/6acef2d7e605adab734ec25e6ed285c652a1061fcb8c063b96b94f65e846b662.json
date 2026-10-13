@@ -2,8 +2,8 @@
   "format": 1,
   "key": "6acef2d7e605adab734ec25e6ed285c652a1061fcb8c063b96b94f65e846b662",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:47+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,124 +15,124 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Barrera, Butler and Duffy",
         "value": "Barrera, Butler and Duffy"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.9",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "DDP Savannah",
         "value": "DDP Savannah"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "27-MAR-2026",
         "value": "27-MAR-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EX202630-7680",
         "value": "EX202630-7680"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "confidence": "0.95",
+            "evidence": "3.84 6,796.80",
             "value": "6,796.80"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 384 Avenue 3, Lahore, Pakistan",
-            "value": "Pakistan"
+            "confidence": "0.95",
+            "evidence": "6302.60 PAKISTAN",
+            "value": "PAKISTAN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "TERRY COTTON BATH TOWEL 70X140",
+            "confidence": "0.85",
+            "evidence": "TERRY COTTON BATH TOWEL\n70X140",
             "value": "TERRY COTTON BATH TOWEL 70X140"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "confidence": "0.95",
+            "evidence": "1,770 PCS",
             "value": "1,770"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "confidence": "0.95",
+            "evidence": "1,770 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "6302.60 PAKISTAN 1,770 PCS 3.84 6,796.80",
+            "confidence": "0.95",
+            "evidence": "PCS 3.84 6,796.80",
             "value": "3.84"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "confidence": "0.95",
+            "evidence": "0.5621 6,815.46",
             "value": "6,815.46"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 384 Avenue 3, Lahore, Pakistan",
-            "value": "Pakistan"
+            "confidence": "0.95",
+            "evidence": "1006.30 PAKISTAN",
+            "value": "PAKISTAN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "LONG GRAIN WHITE RICE, MILLED",
+            "confidence": "0.85",
+            "evidence": "LONG GRAIN WHITE RICE,\nMILLED",
             "value": "LONG GRAIN WHITE RICE, MILLED"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "confidence": "0.95",
+            "evidence": "12,125 KG",
             "value": "12,125"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "confidence": "0.95",
+            "evidence": "12,125 KG",
             "value": "KG"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1006.30 PAKISTAN 12,125 KG 0.5621 6,815.46",
+            "confidence": "0.95",
+            "evidence": "KG 0.5621 6,815.46",
             "value": "0.5621"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "30% deposit, 70% against copy of B/L",
         "value": "30% deposit, 70% against copy of B/L"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Lahore Sapphire Industrial Co., Ltd.",
         "value": "Lahore Sapphire Industrial Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "TOTAL DDP SAVANNAH USD 13,612.26",
         "value": "13,612.26"
       }
     },
-    "input_tokens": 478,
-    "latency_ms": 0,
-    "output_tokens": 604
+    "input_tokens": 2496,
+    "latency_ms": 6396,
+    "output_tokens": 1007
   }
 }

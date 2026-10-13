@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "cb39a6d256e72bddaee9cfb8c53ee588721dc589f1fe0c721a67b08b0c768031",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Wooden chess set with board origin IN",
   "limit": 20,
   "candidates": [
     {
-      "code": "441410",
-      "description": "Wooden frames; for paintings, photographs, mirrors or similar objects; of tropical wood",
-      "score": "0.016393",
-      "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "441490",
-      "description": "Wooden frames; for paintings, photographs, mirrors or similar objects; not of tropical wood",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
       "code": "441911",
       "description": "Tableware and kitchenware, of wood; of bamboo, bread boards, chopping boards and similar boards",
-      "score": "0.015873",
+      "score": "0.032266",
       "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "961000",
-      "description": "Slates and boards; with writing or drawing surfaces, whether or not framed",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "940330",
-      "description": "Furniture; wooden, for office use",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "940340",
-      "description": "Furniture; wooden, for kitchen use",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "940350",
-      "description": "Furniture; wooden, for bedroom use",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "441520",
-      "description": "Wood; pallets, box pallets and other load boards; pallet collars",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
+        "lexical": 3,
+        "vector": 1
       }
     },
     {
       "code": "442090",
       "description": "Wood; marquetry and inlaid wood, caskets and cases for jewellery or cutlery and similar articles of wood, wooden articles of furniture not falling in chapter 94",
-      "score": "0.014493",
+      "score": "0.028629",
       "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "940360",
-      "description": "Furniture; wooden, other than for office, kitchen or bedroom use",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "441011",
-      "description": "Particle board of wood, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "441012",
-      "description": "Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "442120",
-      "description": "Wood; coffins",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "950629",
-      "description": "Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "441252",
-      "description": "Blockboard, laminboard and battenboard; with at least one outer ply of non-coniferous wood, (not containing particle board)",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
+        "lexical": 20,
+        "vector": 2
       }
     },
     {
       "code": "441019",
       "description": "Wafer board and similar board of wood n.e.c. in item no. 4410.1, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.013158",
+      "score": "0.027118",
       "ranks": {
-        "lexical": 16
+        "lexical": 2,
+        "vector": 31
       }
     },
     {
-      "code": "442110",
-      "description": "Wood; clothes hangers",
-      "score": "0.012987",
+      "code": "441012",
+      "description": "Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.026646",
       "ranks": {
-        "lexical": 17
+        "lexical": 6,
+        "vector": 27
+      }
+    },
+    {
+      "code": "441011",
+      "description": "Particle board of wood, whether or not agglomerated with resins or other organic binding substances",
+      "score": "0.026023",
+      "ranks": {
+        "lexical": 5,
+        "vector": 34
+      }
+    },
+    {
+      "code": "441490",
+      "description": "Wooden frames; for paintings, photographs, mirrors or similar objects; not of tropical wood",
+      "score": "0.022821",
+      "ranks": {
+        "lexical": 18,
+        "vector": 40
       }
     },
     {
       "code": "441090",
       "description": "Particle board, oriented strand board (OSB) and similar board of ligneous materials other than wood, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.012821",
+      "score": "0.016393",
       "ranks": {
-        "lexical": 18
+        "lexical": 1,
+        "vector": null
       }
     },
     {
-      "code": "680911",
-      "description": "Plaster, or plaster compositions; boards, sheets, panels, tiles and similar articles, faced or reinforced with paper or paperboard only, not ornamented",
-      "score": "0.012658",
+      "code": "442019",
+      "description": "Wood; statuettes and other ornaments, of other than tropical wood",
+      "score": "0.015873",
       "ranks": {
-        "lexical": 19
+        "lexical": null,
+        "vector": 3
       }
     },
     {
-      "code": "847930",
-      "description": "Machinery and mechanical appliances; presses for the manufacture of particle or fibre building board of wood or other ligneous materials and other machinery for treating wood or cork",
-      "score": "0.012500",
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015625",
       "ranks": {
-        "lexical": 20
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "442011",
+      "description": "Wood; statuettes and other ornaments, of tropical wood",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "820530",
+      "description": "Tools, hand; planes, chisels, gauges and similar cutting tools for working wood",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "961000",
+      "description": "Slates and boards; with writing or drawing surfaces, whether or not framed",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "440921",
+      "description": "Wood; bamboo (including unassembled strips and friezes for parquet flooring), continuously shaped along any edges, ends or faces, whether or not planed, sanded or end-jointed",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "854430",
+      "description": "Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "441990",
+      "description": "Tableware and kitchenware, of wood; not of bamboo or tropical wood",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "851830",
+      "description": "Headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "440929",
+      "description": "Wood; non-coniferous, other than bamboo or tropical wood, (including unassembled strips and friezes for parquet flooring), continuously shaped along any edges, ends or faces, whether or not planed, sanded or end-jointed",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "851850",
+      "description": "Amplifier sets; electric sound",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "440910",
+      "description": "Wood; coniferous (including unassembled strips and friezes for parquet flooring), continuously shaped along any edges, ends or faces, whether or not planed, sanded or end-jointed",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
       }
     }
   ]

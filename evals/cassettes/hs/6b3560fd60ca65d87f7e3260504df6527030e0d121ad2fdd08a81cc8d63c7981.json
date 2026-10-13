@@ -2,8 +2,8 @@
   "format": 1,
   "key": "6b3560fd60ca65d87f7e3260504df6527030e0d121ad2fdd08a81cc8d63c7981",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:50:44+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "200410",
       "cited": [
-        "200410"
+        "200410",
+        "2004"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.98",
+      "reason": "Frozen French fries are prepared potatoes, frozen, and fall under 200410, while 200490 expressly excludes potatoes."
     },
-    "input_tokens": 388,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 985,
+    "latency_ms": 3234,
+    "output_tokens": 81
   }
 }

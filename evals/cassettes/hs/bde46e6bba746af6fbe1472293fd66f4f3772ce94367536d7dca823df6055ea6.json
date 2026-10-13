@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "bde46e6bba746af6fbe1472293fd66f4f3772ce94367536d7dca823df6055ea6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:55+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Multifunction inkjet printer, print scan copy, USB and Wi-Fi\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8443 Printing machinery; used for printing by means of plates, cylinders and other printing components of heading 84.42; other printers, copying machines and facsimile machines, whether or not combined; parts and accessories thereof\n\nChoose the subheading that covers these goods. Options:\n- 844331: Printing, copying, and facsimile machines; machines which perform two or more of the functions of printing, copying or facsimile transmission, capable of connecting to an automatic data processing machine or to a network\n- 844332: Printing, copying, and facsimile machines; single-function printing, copying or facsimile machines, capable of connecting to an automatic data processing machine or to a network\n- 844339: Printing, copying, and facsimile machines; single-function printing, copying or facsimile machines, not capable of connecting to an automatic data processing machine or to a network\n- 844391: Printing machinery used for printing by means of plates, cylinders and other printing components of heading 8442; parts and accessories\n- 844319: Printing machinery; used for printing by means of plates, cylinders and other printing components of heading 84.42, n.e.c. in item no. 8443.1\n- 844311: Printing machinery; offset, reel-fed\n- 844314: Printing machinery; letterpress, reel-fed, excluding flexographic printing\n- 844312: Printing machinery; offset, sheet-fed, office type (sheet size not exceeding 22 x 36cm in the unfolded state)\n- 844316: Printing machinery; flexographic\n- 844315: Printing machinery; letterpress, other than reel-fed, excluding flexographic printing\n- 844399: Printing machinery; parts and accessories, n.e.c. in item no. 8443.91\n- 844313: Printing machinery; offset, n.e.c. in item no. 8443.1\n- 844317: Printing machinery; gravure\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f3fe8dcb8a974d373b2c9594186379bd9177afe7c5f0ab70d826a269ff3244d6",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "844331",
+      "cited": [
+        "844331"
+      ],
+      "confidence": "0.97",
+      "reason": "A multifunction inkjet printer that prints, scans and copies and connects via USB and Wi-Fi is a machine performing two or more of printing, copying or facsimile functions and is capable of connecting to a computer or network."
+    },
+    "input_tokens": 1491,
+    "latency_ms": 2898,
+    "output_tokens": 105
+  }
+}

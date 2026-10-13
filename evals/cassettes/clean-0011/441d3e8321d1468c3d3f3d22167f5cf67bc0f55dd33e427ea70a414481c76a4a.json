@@ -2,8 +2,8 @@
   "format": 1,
   "key": "441d3e8321d1468c3d3f3d22167f5cf67bc0f55dd33e427ea70a414481c76a4a",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:08+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Griffith-Watson",
+        "confidence": "0.96",
+        "evidence": "BILL TO / CONSIGNEE\nGriffith-Watson",
         "value": "Griffith-Watson"
       },
       "currency": {
@@ -25,7 +25,7 @@
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Terms of Sale: CIF Vancouver (Incoterms 2020)",
         "value": "CIF Vancouver"
       },
@@ -35,45 +35,45 @@
         "value": "02/11/2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice No. INV-2026-20381",
         "value": "INV-2026-20381"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "confidence": "0.96",
+            "evidence": "7,301.70",
             "value": "7,301.70"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Vietnam",
+            "confidence": "0.95",
+            "evidence": "Vietnam 15,250",
             "value": "Vietnam"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.6",
+            "evidence": "Amount (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "confidence": "0.96",
+            "evidence": "Long grain white rice, milled",
             "value": "Long grain white rice, milled"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "confidence": "0.96",
+            "evidence": "15,250 kg",
             "value": "15,250"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "confidence": "0.96",
+            "evidence": "15,250 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+            "confidence": "0.96",
+            "evidence": "0.4788",
             "value": "0.4788"
           }
         }
@@ -84,18 +84,18 @@
         "value": "T/T in advance"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Nguyễn Công ty Hợp danh",
         "value": "Nguyễn Công ty Hợp danh"
       },
       "total_amount": {
         "confidence": "0.97",
-        "evidence": "1 Long grain white rice, milled Vietnam 15,250 kg 0.4788 7,301.70",
+        "evidence": "Total USD 7,301.70",
         "value": "7,301.70"
       }
     },
-    "input_tokens": 440,
-    "latency_ms": 0,
-    "output_tokens": 445
+    "input_tokens": 2283,
+    "latency_ms": 4516,
+    "output_tokens": 655
   }
 }

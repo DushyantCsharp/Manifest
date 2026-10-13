@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "6d668d6cc5174883a7e36ce249a3b94abd370f19851ce7a6ba0424cbf7525fca",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "PVC resin, suspension grade, not mixed origin CN",
   "limit": 20,
   "candidates": [
     {
-      "code": "870880",
-      "description": "Vehicle parts; suspension systems and parts thereof (including shock-absorbers)",
-      "score": "0.016393",
+      "code": "391120",
+      "description": "Petroleum resins, poly(1,3-phenylene methylphosphonate), in primary forms",
+      "score": "0.028309",
       "ranks": {
-        "lexical": 1
+        "lexical": 16,
+        "vector": 6
       }
     },
     {
-      "code": "470200",
-      "description": "Wood pulp; chemical wood pulp, dissolving grades",
-      "score": "0.016129",
+      "code": "391110",
+      "description": "Petroleum resins, coumarone, indene or coumarone-indene resins and polyterpenes; in primary forms",
+      "score": "0.027313",
       "ranks": {
-        "lexical": 2
+        "lexical": 9,
+        "vector": 18
       }
     },
     {
-      "code": "470411",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of coniferous wood",
-      "score": "0.015873",
+      "code": "390931",
+      "description": "Amino-resins; n.e.c. in heading no. 3909, in primary forms, poly(methylene phenyl isocyanate) (Crude MDI, polymeric MDI)",
+      "score": "0.025747",
       "ranks": {
-        "lexical": 3
+        "lexical": 13,
+        "vector": 23
       }
     },
     {
-      "code": "470311",
-      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of coniferous wood",
-      "score": "0.015625",
+      "code": "390920",
+      "description": "Amino-resins; melamine resins, in primary forms",
+      "score": "0.025575",
       "ranks": {
-        "lexical": 4
+        "lexical": 8,
+        "vector": 32
       }
     },
     {
-      "code": "470419",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of non-coniferous wood",
-      "score": "0.015385",
+      "code": "390939",
+      "description": "Amino-resins; n.e.c. in heading no. 3909, in primary forms, other than poly(methylene phenyl isocyanate) (Crude MDI, polymeric MDI)",
+      "score": "0.025278",
       "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "470421",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of coniferous wood",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "470319",
-      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of non-coniferous wood",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "470321",
-      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of coniferous wood",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "470429",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "470329",
-      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "441011",
-      "description": "Particle board of wood, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "441012",
-      "description": "Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "441192",
-      "description": "Fibreboard (other than MDF) of a density exceeding 0.8g/cm3, of wood or other ligneous materials, bonded or not with resins or other organic substances",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "441194",
-      "description": "Fibreboard (other than MDF) of a density not exceeding 0.5g/cm3, of wood or other ligneous materials, bonded or not with resins or other organic substances",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "320300",
-      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "350300",
-      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "441019",
-      "description": "Wafer board and similar board of wood n.e.c. in item no. 4410.1, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
+        "lexical": 14,
+        "vector": 25
       }
     },
     {
       "code": "390940",
       "description": "Phenolic resins; in primary forms",
-      "score": "0.012658",
+      "score": "0.025238",
       "ranks": {
-        "lexical": 19
+        "lexical": 15,
+        "vector": 24
       }
     },
     {
-      "code": "441090",
-      "description": "Particle board, oriented strand board (OSB) and similar board of ligneous materials other than wood, whether or not agglomerated with resins or other organic binding substances",
-      "score": "0.012500",
+      "code": "390910",
+      "description": "Amino-resins; urea and thiourea resins, in primary forms",
+      "score": "0.025129",
       "ranks": {
-        "lexical": 20
+        "lexical": 7,
+        "vector": 38
+      }
+    },
+    {
+      "code": "390730",
+      "description": "Epoxide resins; in primary forms",
+      "score": "0.023518",
+      "ranks": {
+        "lexical": 11,
+        "vector": 46
+      }
+    },
+    {
+      "code": "380620",
+      "description": "Rosin and resin; salts of rosin, of resin acids or of derivatives of rosin or resin acids, other than salts of rosin adducts",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "390410",
+      "description": "Vinyl chloride, other halogenated olefin polymers; poly(vinyl chloride), not mixed with any other substances, in primary forms",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "130190",
+      "description": "Natural gums, resins, gum-resins and oleoresins, n.e.c. in heading no. 1301",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "390421",
+      "description": "Vinyl chloride, other halogenated olefin polymers; non-plasticised poly(vinyl chloride), in primary forms, mixed with other substances",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "210390",
+      "description": "Sauces and preparations therefor; mixed condiments and mixed seasonings",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "390422",
+      "description": "Vinyl chloride, other halogenated olefin polymers; plasticised poly(vinyl chloride), in primary forms, mixed with other substances",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "310100",
+      "description": "Fertilizers, animal or vegetable; whether or not mixed together or chemically treated; fertilizers, produced by the mixing or chemical treatment of animal or vegetable products",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "391723",
+      "description": "Plastics; tubes, pipes and hoses thereof, rigid, of polymers of vinyl chloride",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "390512",
+      "description": "Poly(vinyl acetate); in aqueous dispersion, in primary forms",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "381700",
+      "description": "Mixed alkylbenzenes and mixed alkylnaphthalenes, other than those of heading no. 2707 or 2902",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "390521",
+      "description": "Vinyl acetate copolymers; in aqueous dispersion, in primary forms",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
       }
     }
   ]

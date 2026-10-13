@@ -24,6 +24,7 @@ from pathlib import Path
 from typing import Any
 
 from manifest_evals.golden import CASSETTES, LABELS, PROVIDER, splits
+from manifest_evals.live import WORKERS, RetryingProvider, forget_stand_ins, in_parallel
 from manifest_evals.oracle import NAME as ORACLE
 from manifest_hs.offline import Bm25Retriever
 from manifest_hs.recorded import Mode as RetrievalMode
@@ -135,17 +136,20 @@ class HsRun:
 
 
 def evaluate(
-    provider: CassetteProvider | None = None, retriever: RecordedRetriever | None = None
+    provider: CassetteProvider | None = None,
+    retriever: RecordedRetriever | None = None,
+    workers: int = 1,
 ) -> HsRun:
     """Replay (by default) every labelled description through retrieval and the walk."""
     provider = provider or cassettes()
     retriever = retriever or retrievals()
     split_of = {i: s for s, ids in splits()["hs"].items() for i in ids}
     hs = walker(provider, retriever)
-    outcomes = [
-        Outcome(label, split_of[label.id], hs.classify(label.description, label.origin))
-        for label in labels()
-    ]
+
+    def classify(label: Label) -> Outcome:
+        return Outcome(label, split_of[label.id], hs.classify(label.description, label.origin))
+
+    outcomes = in_parallel(labels(), classify, workers)
     return HsRun(outcomes, Counter(provider.sources), Counter(retriever.sources))
 
 
@@ -158,11 +162,23 @@ def seed(root: Path = CASSETTES) -> HsRun:
 
 
 def record(retriever: Retriever, root: Path = CASSETTES) -> HsRun:
-    """Record a real model's walks over a live retriever (``PostgresRetriever``)."""
-    for folder in (root / "hs", root / "hs-retrieval"):
-        shutil.rmtree(folder, ignore_errors=True)
-    provider = cassettes("record", AnthropicProvider(), root)
-    return evaluate(provider, retrievals("record", retriever, root))
+    """Record a real model's walks over a live retriever (``PostgresRetriever``).
+
+    Resumable: keeps real recordings already made, replaces the stand-ins', prunes the rest.
+    """
+    forget_stand_ins(root / "hs")
+    forget_stand_ins(root / "hs-retrieval", field="retriever")
+    live = AnthropicProvider()
+    provider = CassetteProvider(
+        root / "hs",
+        mode="new",
+        inner=RetryingProvider(live),
+        name=PROVIDER,
+        recorded_with=live.name,
+    )
+    run = evaluate(provider, retrievals("new", retriever, root), workers=WORKERS)
+    provider.prune()
+    return run
 
 
 def summary(run: HsRun) -> dict[str, Any]:

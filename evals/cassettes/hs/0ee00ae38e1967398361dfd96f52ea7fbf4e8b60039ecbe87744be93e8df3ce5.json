@@ -2,8 +2,8 @@
   "format": 1,
   "key": "0ee00ae38e1967398361dfd96f52ea7fbf4e8b60039ecbe87744be93e8df3ce5",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:49:51+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -18,11 +18,11 @@
       "cited": [
         "090111"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.98",
+      "reason": "Green Arabica beans that are neither roasted nor decaffeinated fall under 'Coffee, not roasted, not decaffeinated' in 090111."
     },
-    "input_tokens": 375,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 999,
+    "latency_ms": 3218,
+    "output_tokens": 85
   }
 }

@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "c316c4f6433ce6fa78babb840be41e70b7e2bb00bc6e23f409cc93463344c473",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Refined copper cathodes origin CL",
   "limit": 20,
   "candidates": [
     {
       "code": "740311",
       "description": "Copper; refined, unwrought, cathodes and sections of cathodes",
-      "score": "0.016393",
+      "score": "0.032018",
       "ranks": {
-        "lexical": 1
+        "lexical": 4,
+        "vector": 1
       }
     },
     {
-      "code": "741110",
-      "description": "Copper; tubes and pipes, of refined copper",
-      "score": "0.016129",
+      "code": "740200",
+      "description": "Copper; unrefined, copper anodes for electrolytic refining",
+      "score": "0.031281",
       "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "740313",
-      "description": "Copper; refined, unwrought, billets",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
+        "lexical": 6,
+        "vector": 2
       }
     },
     {
       "code": "740710",
       "description": "Copper; bars, rods and profiles, of refined copper",
-      "score": "0.015625",
+      "score": "0.030579",
       "ranks": {
-        "lexical": 4
+        "lexical": 8,
+        "vector": 3
       }
     },
     {
-      "code": "740312",
-      "description": "Copper; refined, unwrought, wire-bars",
-      "score": "0.015385",
+      "code": "740100",
+      "description": "Copper mattes; cement copper (precipitated copper)",
+      "score": "0.029083",
       "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "740319",
-      "description": "Copper; refined, unwrought, n.e.c. in item no. 7403.1",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "740911",
-      "description": "Copper; strip, of a thickness exceeding 0.15mm, of refined copper, in coils",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "741210",
-      "description": "Copper; tube or pipe fittings (e.g. couplings, elbows, sleeves) of refined copper",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
+        "lexical": 5,
+        "vector": 13
       }
     },
     {
       "code": "740919",
       "description": "Copper; plates and sheets, of a thickness exceeding 0.15mm, of refined copper, not in coils",
-      "score": "0.014493",
+      "score": "0.028665",
       "ranks": {
-        "lexical": 9
+        "lexical": 14,
+        "vector": 6
       }
     },
     {
-      "code": "740811",
-      "description": "Copper; wire, of refined copper, of which the maximum cross-sectional dimension exceeds 6mm",
-      "score": "0.014286",
+      "code": "740911",
+      "description": "Copper; strip, of a thickness exceeding 0.15mm, of refined copper, in coils",
+      "score": "0.028624",
       "ranks": {
-        "lexical": 10
+        "lexical": 13,
+        "vector": 7
       }
     },
     {
-      "code": "740819",
-      "description": "Copper; wire, of refined copper, of which the maximum cross-sectional dimension is 6mm or less",
-      "score": "0.014085",
+      "code": "741110",
+      "description": "Copper; tubes and pipes, of refined copper",
+      "score": "0.028446",
       "ranks": {
-        "lexical": 11
+        "lexical": 18,
+        "vector": 4
+      }
+    },
+    {
+      "code": "740990",
+      "description": "Copper; plates, sheets and strip, of a thickness exceeding 0.15mm, of copper alloys (other than copper-zinc base alloys, copper-tin base alloys, copper-nickel base alloys or copper-nickel-zinc base alloys)",
+      "score": "0.028298",
+      "ranks": {
+        "lexical": 1,
+        "vector": 24
+      }
+    },
+    {
+      "code": "741129",
+      "description": "Copper; tubes and pipes, of copper alloys (other than copper-zinc, copper-nickel base alloys (cupro-nickel) or copper-nickel-zinc base alloys (nickel-silver))",
+      "score": "0.028219",
+      "ranks": {
+        "lexical": 3,
+        "vector": 21
+      }
+    },
+    {
+      "code": "740313",
+      "description": "Copper; refined, unwrought, billets",
+      "score": "0.027580",
+      "ranks": {
+        "lexical": 22,
+        "vector": 5
+      }
+    },
+    {
+      "code": "740729",
+      "description": "Copper; bars, rods and profiles, of copper alloys (other than copper-zinc base alloys)",
+      "score": "0.027313",
+      "ranks": {
+        "lexical": 9,
+        "vector": 18
+      }
+    },
+    {
+      "code": "741210",
+      "description": "Copper; tube or pipe fittings (e.g. couplings, elbows, sleeves) of refined copper",
+      "score": "0.026786",
+      "ranks": {
+        "lexical": 20,
+        "vector": 10
+      }
+    },
+    {
+      "code": "740312",
+      "description": "Copper; refined, unwrought, wire-bars",
+      "score": "0.026430",
+      "ranks": {
+        "lexical": 21,
+        "vector": 11
+      }
+    },
+    {
+      "code": "740829",
+      "description": "Copper; wire, of copper alloys (other than copper-zinc base alloys, copper-nickel base alloys or copper-nickel-zinc base alloys)",
+      "score": "0.025933",
+      "ranks": {
+        "lexical": 2,
+        "vector": 42
       }
     },
     {
       "code": "741011",
       "description": "Copper; foil, not backed, of a thickness not exceeding 0.15mm, of refined copper",
-      "score": "0.013889",
+      "score": "0.025816",
       "ranks": {
-        "lexical": 12
+        "lexical": 16,
+        "vector": 19
       }
     },
     {
-      "code": "740321",
-      "description": "Copper; copper-zinc base alloys (brass) unwrought",
-      "score": "0.013699",
+      "code": "740811",
+      "description": "Copper; wire, of refined copper, of which the maximum cross-sectional dimension exceeds 6mm",
+      "score": "0.025780",
       "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "740322",
-      "description": "Copper; copper-tin base alloys (bronze) unwrought",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "740329",
-      "description": "Copper; copper alloys n.e.c. in heading no. 7403 (other than master alloys of heading no. 7405)",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
+        "lexical": 10,
+        "vector": 27
       }
     },
     {
       "code": "741021",
       "description": "Copper; foil, backed with paper, paperboard, plastics or similar backing material, of a thickness (excluding any backing) not exceeding 0.15mm, of refined copper",
-      "score": "0.013158",
+      "score": "0.025487",
       "ranks": {
-        "lexical": 16
+        "lexical": 17,
+        "vector": 20
       }
     },
     {
-      "code": "700100",
-      "description": "Glass; cullet and other waste and scrap of glass, excluding glass from cathode ray tubes or other activated glass of heading 85.49, glass in the mass",
-      "score": "0.012987",
+      "code": "740319",
+      "description": "Copper; refined, unwrought, n.e.c. in item no. 7403.1",
+      "score": "0.025206",
       "ranks": {
-        "lexical": 17
+        "lexical": 23,
+        "vector": 16
       }
     },
     {
-      "code": "701120",
-      "description": "Glass envelopes (including bulbs and tubes); open, and glass parts thereof, without fittings, for cathode-ray tubes",
-      "score": "0.012821",
+      "code": "740819",
+      "description": "Copper; wire, of refined copper, of which the maximum cross-sectional dimension is 6mm or less",
+      "score": "0.025074",
       "ranks": {
-        "lexical": 18
+        "lexical": 11,
+        "vector": 31
       }
     },
     {
-      "code": "260300",
-      "description": "Copper ores and concentrates",
-      "score": "0.012658",
+      "code": "740329",
+      "description": "Copper; copper alloys n.e.c. in heading no. 7403 (other than master alloys of heading no. 7405)",
+      "score": "0.024615",
       "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "740400",
-      "description": "Copper; waste and scrap",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": 26,
+        "vector": 17
       }
     }
   ]

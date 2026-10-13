@@ -2,8 +2,8 @@
   "format": 1,
   "key": "83f153519096f7f76389d1e38b6414df7e7a4a2a90c78dfe22e8947b5cf587e9",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:20+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,383 +15,383 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Winter PLC ; ; FOB Shanghai",
+        "confidence": "0.9",
+        "evidence": "Winter PLC",
         "value": "Winter PLC"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "MARKS & NOS. DESCRIPTION OF GOODS H.S. ORIGIN QUANTITY | UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.9",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Winter PLC ; ; FOB Shanghai",
+        "confidence": "0.93",
+        "evidence": "FOB Shanghai",
         "value": "FOB Shanghai"
       },
       "invoice_date": {
-        "confidence": "0.97",
-        "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
+        "confidence": "0.9",
+        "evidence": "07-SEP-2026",
         "value": "07-SEP-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "Xiamen Ruifeng Import & Export Co., Ltd. EX202683-2035",
+        "confidence": "0.85",
+        "evidence": "EX202683-2035",
         "value": "EX202683-2035"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.92",
+            "evidence": "53,010.00",
             "value": "53,010.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.9",
+            "evidence": "CHINA| 15,500 PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.76",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
-            "value": "DEEP GROOVE BALL BEARING"
+            "confidence": "0.8",
+            "evidence": "DEEP GROOVE BALL BEARING 8482.10",
+            "value": "DEEP GROOVE BALL BEARING 6205-2RS"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.92",
+            "evidence": "15,500 PCS",
             "value": "15,500"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.9",
+            "evidence": "15,500 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.92",
+            "evidence": "3.42",
             "value": "3.42"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 | CHINA 159 PCS 156.45 24,875.55",
+            "confidence": "0.92",
+            "evidence": "24,875.55",
             "value": "24,875.55"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.9",
+            "evidence": "CHINA | 159 PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 | CHINA 159 PCS 156.45 24,875.55",
+            "confidence": "0.93",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED",
             "value": "CITY BICYCLE 28IN, 7-SPEED"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 | CHINA 159 PCS 156.45 24,875.55",
+            "confidence": "0.92",
+            "evidence": "159 PCS",
             "value": "159"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.9",
+            "evidence": "159 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 | CHINA 159 PCS 156.45 24,875.55",
+            "confidence": "0.92",
+            "evidence": "156.45",
             "value": "156.45"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "UPHOLSTERED OFFICE CHAIR, 9401.71 | CHINA 286 PCS 28.59 8,176.74",
+            "confidence": "0.92",
+            "evidence": "8,176.74",
             "value": "8,176.74"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.9",
+            "evidence": "CHINA | 286 PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.68",
-            "evidence": "UPHOLSTERED OFFICE CHAIR, 9401.71 | CHINA 286 PCS 28.59 8,176.74",
-            "value": "UPHOLSTERED OFFICE CHAIR, 9401.71 |"
+            "confidence": "0.88",
+            "evidence": "UPHOLSTERED OFFICE CHAIR,",
+            "value": "UPHOLSTERED OFFICE CHAIR, STEEL BASE"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "UPHOLSTERED OFFICE CHAIR, 9401.71 | CHINA 286 PCS 28.59 8,176.74",
+            "confidence": "0.92",
+            "evidence": "286 PCS",
             "value": "286"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.9",
+            "evidence": "286 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "UPHOLSTERED OFFICE CHAIR, 9401.71 | CHINA 286 PCS 28.59 8,176.74",
+            "confidence": "0.92",
+            "evidence": "28.59",
             "value": "28.59"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "STAINLESS STEEL SAUCEPAN 7323.93 | CHINA] 3,372PCS 11.49 38,744.28",
+            "confidence": "0.92",
+            "evidence": "38,744.28",
             "value": "38,744.28"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.85",
+            "evidence": "CHINA]",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.82",
-            "evidence": "STAINLESS STEEL SAUCEPAN 7323.93 | CHINA] 3,372PCS 11.49 38,744.28",
-            "value": "STAINLESS STEEL SAUCEPAN"
+            "confidence": "0.88",
+            "evidence": "STAINLESS STEEL SAUCEPAN",
+            "value": "STAINLESS STEEL SAUCEPAN 20CM"
           },
           "quantity": {
-            "confidence": "0.69",
-            "evidence": "STAINLESS STEEL SAUCEPAN 7323.93 | CHINA] 3,372PCS 11.49 38,744.28",
-            "value": "3,372PCS"
+            "confidence": "0.9",
+            "evidence": "3,372PCS",
+            "value": "3,372"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.88",
+            "evidence": "3,372PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "STAINLESS STEEL SAUCEPAN 7323.93 | CHINA] 3,372PCS 11.49 38,744.28",
+            "confidence": "0.92",
+            "evidence": "11.49",
             "value": "11.49"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 | CHINA] 4,800 PCS 7.40 35,520.00",
+            "confidence": "0.92",
+            "evidence": "35,520.00",
             "value": "35,520.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.85",
+            "evidence": "CHINA] 4,800 PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 | CHINA] 4,800 PCS 7.40 35,520.00",
+            "confidence": "0.93",
+            "evidence": "POLARIZED SUNGLASSES",
             "value": "POLARIZED SUNGLASSES"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 | CHINA] 4,800 PCS 7.40 35,520.00",
+            "confidence": "0.92",
+            "evidence": "4,800 PCS",
             "value": "4,800"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.9",
+            "evidence": "4,800 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 | CHINA] 4,800 PCS 7.40 35,520.00",
+            "confidence": "0.92",
+            "evidence": "7.40",
             "value": "7.40"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "LEATHER HANDBAG WITH 4202.21 | CHINA] 1,272PCS 61.28 77,948.16",
+            "confidence": "0.92",
+            "evidence": "77,948.16",
             "value": "77,948.16"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.85",
+            "evidence": "CHINA] 1,272PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.61",
-            "evidence": "LEATHER HANDBAG WITH 4202.21 | CHINA] 1,272PCS 61.28 77,948.16",
-            "value": "LEATHER HANDBAG WITH 4202.21 |"
+            "confidence": "0.88",
+            "evidence": "LEATHER HANDBAG WITH",
+            "value": "LEATHER HANDBAG WITH SHOULDER STRAP"
           },
           "quantity": {
-            "confidence": "0.69",
-            "evidence": "LEATHER HANDBAG WITH 4202.21 | CHINA] 1,272PCS 61.28 77,948.16",
-            "value": "1,272PCS"
+            "confidence": "0.9",
+            "evidence": "1,272PCS",
+            "value": "1,272"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.88",
+            "evidence": "1,272PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "LEATHER HANDBAG WITH 4202.21 | CHINA] 1,272PCS 61.28 77,948.16",
+            "confidence": "0.92",
+            "evidence": "61.28",
             "value": "61.28"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "LED BULB E27 9W WARM WHITE 8539.52 | CHINA | 23,000 PCS 1.80 41,400.00",
+            "confidence": "0.92",
+            "evidence": "41,400.00",
             "value": "41,400.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.9",
+            "evidence": "CHINA | 23,000 PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "LED BULB E27 9W WARM WHITE 8539.52 | CHINA | 23,000 PCS 1.80 41,400.00",
+            "confidence": "0.93",
+            "evidence": "LED BULB E27 9W WARM WHITE",
             "value": "LED BULB E27 9W WARM WHITE"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "LED BULB E27 9W WARM WHITE 8539.52 | CHINA | 23,000 PCS 1.80 41,400.00",
+            "confidence": "0.92",
+            "evidence": "23,000 PCS",
             "value": "23,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.9",
+            "evidence": "23,000 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "LED BULB E27 9W WARM WHITE 8539.52 | CHINA | 23,000 PCS 1.80 41,400.00",
+            "confidence": "0.92",
+            "evidence": "1.80",
             "value": "1.80"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "HAIR DRYER 2200W IONIC 8516.31 | CHINA] 3,419PCS 19.19 65,610.61",
+            "confidence": "0.92",
+            "evidence": "65,610.61",
             "value": "65,610.61"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.85",
+            "evidence": "CHINA] 3,419PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "HAIR DRYER 2200W IONIC 8516.31 | CHINA] 3,419PCS 19.19 65,610.61",
+            "confidence": "0.93",
+            "evidence": "HAIR DRYER 2200W IONIC",
             "value": "HAIR DRYER 2200W IONIC"
           },
           "quantity": {
-            "confidence": "0.69",
-            "evidence": "HAIR DRYER 2200W IONIC 8516.31 | CHINA] 3,419PCS 19.19 65,610.61",
-            "value": "3,419PCS"
+            "confidence": "0.9",
+            "evidence": "3,419PCS",
+            "value": "3,419"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.88",
+            "evidence": "3,419PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "HAIR DRYER 2200W IONIC 8516.31 | CHINA] 3,419PCS 19.19 65,610.61",
+            "confidence": "0.92",
+            "evidence": "19.19",
             "value": "19.19"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "SMARTPHONE 6.11N, 128GB 8517.13 | CHINA] 1,689PCS 566.74 957,223.86",
+            "confidence": "0.92",
+            "evidence": "957,223.86",
             "value": "957,223.86"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "‘No. 386 industrial Road, Xiamen, China — 07-SEP-2026",
-            "value": "China"
+            "confidence": "0.85",
+            "evidence": "CHINA] 1,689PCS",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.86",
-            "evidence": "SMARTPHONE 6.11N, 128GB 8517.13 | CHINA] 1,689PCS 566.74 957,223.86",
+            "confidence": "0.92",
+            "evidence": "SMARTPHONE 6.11N, 128GB",
             "value": "SMARTPHONE 6.11N, 128GB"
           },
           "quantity": {
-            "confidence": "0.69",
-            "evidence": "SMARTPHONE 6.11N, 128GB 8517.13 | CHINA] 1,689PCS 566.74 957,223.86",
-            "value": "1,689PCS"
+            "confidence": "0.9",
+            "evidence": "1,689PCS",
+            "value": "1,689"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WINTER / DEEP GROOVE BALL BEARING 8482.10 | CHINA| 15,500 PCS 3.42 53,010.00",
+            "confidence": "0.88",
+            "evidence": "1,689PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "SMARTPHONE 6.11N, 128GB 8517.13 | CHINA] 1,689PCS 566.74 957,223.86",
+            "confidence": "0.92",
+            "evidence": "566.74",
             "value": "566.74"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "Studio 9, Miles Fort, HA1 8HD Durban, South Africa T/T in advance",
+        "confidence": "0.93",
+        "evidence": "T/T in advance",
         "value": "T/T in advance"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Xiamen Ruifeng Import & Export Co., Ltd. EX202683-2035",
+        "confidence": "0.95",
+        "evidence": "Xiamen Ruifeng Import & Export Co., Ltd.",
         "value": "Xiamen Ruifeng Import & Export Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "TOTAL FOB SHANGHAI | USD 1,302,509.20",
         "value": "1,302,509.20"
       }
     },
-    "input_tokens": 610,
-    "latency_ms": 0,
-    "output_tokens": 2349
+    "input_tokens": 2877,
+    "latency_ms": 13611,
+    "output_tokens": 2879
   }
 }

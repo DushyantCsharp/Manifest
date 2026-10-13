@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "bab230cdb1fa951786002e40d61ca6401822eaac2d3b3c8fd1a17d9f82bcb966",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:27+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Raw cane sugar in bulk\nCountry of origin: BR\n\nChosen so far: 17 Sugars and sugar confectionery\n\nChoose the heading that covers these goods. Options:\n- 1701: Cane or beet sugar and chemically pure sucrose, in solid form\n    contains 170113: Sugars; cane sugar, raw, in solid form, as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n    contains 170114: Sugars; cane sugar, raw, in solid form, other than as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n    contains 170112: Sugars; beet sugar, raw, in solid form, not containing added flavouring or colouring matter\n    contains 170199: Sugars; sucrose, chemically pure, in solid form, not containing added flavouring or colouring matter\n    contains 170191: Sugars; sucrose, chemically pure, in solid form, containing added flavouring or colouring matter\n- 1703: Molasses; resulting from the extraction or refining of sugar\n    contains 170310: Sugars; molasses, from sugar cane, resulting from the extraction or refining of sugar\n    contains 170390: Sugars; molasses, from sugar beet, resulting from the extraction or refining of sugar\n- 1702: Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel\n    contains 170290: Sugars; n.e.c. in heading no. 1702, including invert sugar and other sugar and sugar syrup blends containing, in the dry state, 50% by weight of fructose\n    contains 170260: Sugars; fructose, other than chemically pure fructose, and fructose syrup (containing in the dry state more than 50% by weight of fructose), excluding invert sugar\n    contains 170240: Sugars; glucose and glucose syrup, containing in the dry state at least 20% but less than 50% by weight of fructose, excluding invert sugar, the syrup not containing added flavouring or colouring matter\n    contains 170220: Sugars; maple sugar, chemically pure, in solid form; maple syrup, not containing added flavouring or colouring matter\n    contains 170250: Sugars; fructose, chemically pure, in solid form\n    contains 170230: Sugars; glucose and glucose syrup, not containing fructose or containing in the dry state less than 20% by weight of fructose, the syrup not containing added flavouring or colouring matter\n    contains 170211: Sugars; lactose and lactose syrup, containing by weight 99% or more lactose, expressed as anhydrous lactose, calculated on the dry matter\n    contains 170219: Sugars; lactose and lactose syrup, containing by weight less than 99% lactose, expressed as anhydrous lactose, calculated on the dry matter\n- 1704: Sugar confectionery (including white chocolate), not containing cocoa\n    contains 170490: Sugar confectionery; (excluding chewing gum, including white chocolate), not containing cocoa\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4aa40f15cb5a4d87c6641b3ecc963a127ad9ac42e1e9dea924cefd9dc83d479c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "1701",
+      "cited": [
+        "1701",
+        "170113",
+        "170114"
+      ],
+      "confidence": "0.98",
+      "reason": "Raw cane sugar in solid form is expressly covered by heading 1701 (subheadings 170113/170114), not molasses, other sugars or confectionery."
+    },
+    "input_tokens": 1809,
+    "latency_ms": 3163,
+    "output_tokens": 92
+  }
+}

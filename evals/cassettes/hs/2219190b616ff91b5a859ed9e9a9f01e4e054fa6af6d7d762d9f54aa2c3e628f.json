@@ -2,8 +2,8 @@
   "format": 1,
   "key": "2219190b616ff91b5a859ed9e9a9f01e4e054fa6af6d7d762d9f54aa2c3e628f",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:49:15+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "392490",
       "cited": [
-        "392490"
+        "392490",
+        "392410"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.88",
+      "reason": "A 30L household storage box with lid is a household article but not tableware or kitchenware, so it falls under the residual household articles subheading 392490."
     },
-    "input_tokens": 331,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 887,
+    "latency_ms": 3341,
+    "output_tokens": 82
   }
 }

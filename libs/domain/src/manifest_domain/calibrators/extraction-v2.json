@@ -1,0 +1,61 @@
+{
+  "fitted_on": {
+    "items": 28,
+    "positives": 2074,
+    "samples": 2130,
+    "split": "calibration"
+  },
+  "knots": [
+    [
+      "0.400000",
+      "0.250000"
+    ],
+    [
+      "0.500000",
+      "0.444444"
+    ],
+    [
+      "0.600000",
+      "0.450000"
+    ],
+    [
+      "0.700000",
+      "0.470588"
+    ],
+    [
+      "0.815511",
+      "0.781250"
+    ],
+    [
+      "0.883095",
+      "0.857143"
+    ],
+    [
+      "0.900000",
+      "0.959350"
+    ],
+    [
+      "0.929571",
+      "0.976744"
+    ],
+    [
+      "0.979075",
+      "0.998174"
+    ]
+  ],
+  "method": "isotonic",
+  "metrics": {
+    "ece_after_test": "0.021934",
+    "ece_before_test": "0.041346",
+    "test_samples": "2146.000000"
+  },
+  "model": "anthropic/claude-sonnet-5-5",
+  "name": "extraction",
+  "prompt_version": "2026-10-13",
+  "provenance": "model",
+  "schema_version": 3,
+  "score_version": 1,
+  "target_precision": "0.99",
+  "threshold": "0.8536",
+  "version": 2
+}

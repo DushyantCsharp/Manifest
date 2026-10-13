@@ -2,8 +2,8 @@
   "format": 1,
   "key": "91c8b7f4a5aae64b63f037f77ff9bbcaecadd648da4d6cabdb6e65d8dbdd0756",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:03+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,17 +16,17 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "HLCUVG3017718",
+        "evidence": "B/L NO.\nHLCUVG3017718",
         "value": "HLCUVG3017718"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Fernandez",
+        "confidence": "0.96",
+        "evidence": "CONSIGNEE\nFernandez",
         "value": "Fernandez"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "HAPAG-LLOYD",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: HAPAG-LLOYD",
         "value": "HAPAG-LLOYD"
       },
       "container_number": {
@@ -35,32 +35,32 @@
         "value": "HLCU2448055"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Maurice S.A.S.",
         "value": "Maurice S.A.S."
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Le Havre",
+        "evidence": "PORT OF DISCHARGE\nLe Havre",
         "value": "Le Havre"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "La Spezia",
+        "evidence": "PORT OF LOADING\nLa Spezia",
         "value": "La Spezia"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 1885491",
         "value": "1885491"
       },
@@ -70,33 +70,33 @@
         "value": "Gasperi-Finetti SPA"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "2026-02-20",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n2026-02-20",
         "value": "2026-02-20"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "23 688,91 kg",
         "value": "23 688,91 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "2539",
+        "confidence": "0.95",
+        "evidence": "2539\nCARTONS",
         "value": "2539"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "HAPAG-LLOYD TAGE / 296W",
         "value": "HAPAG-LLOYD TAGE"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "HAPAG-LLOYD TAGE / 296W",
         "value": "296W"
       }
     },
-    "input_tokens": 509,
-    "latency_ms": 0,
-    "output_tokens": 368
+    "input_tokens": 2347,
+    "latency_ms": 5099,
+    "output_tokens": 760
   }
 }

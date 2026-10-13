@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "713c21bd343901e3ceed2d800eb23be348bd533d11fd61b700cb8e0d90b357a9",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Tomato ketchup in bottles origin US",
   "limit": 20,
   "candidates": [
     {
       "code": "210320",
       "description": "Sauces; tomato ketchup and other tomato sauces",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
-      "code": "200950",
-      "description": "Juice; tomato, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
-      "score": "0.016129",
+      "code": "200290",
+      "description": "Vegetable preparations; tomatoes, (other than whole or in pieces), prepared or preserved otherwise than by vinegar or acetic acid",
+      "score": "0.031281",
       "ranks": {
-        "lexical": 2
+        "lexical": 6,
+        "vector": 2
       }
     },
     {
-      "code": "392330",
-      "description": "Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods",
-      "score": "0.015873",
+      "code": "200210",
+      "description": "Vegetable preparations; tomatoes, whole or in pieces, prepared or preserved otherwise than by vinegar or acetic acid",
+      "score": "0.031258",
       "ranks": {
-        "lexical": 3
+        "lexical": 5,
+        "vector": 3
       }
     },
     {
-      "code": "842220",
-      "description": "Machinery; for cleaning or drying bottles or other containers",
-      "score": "0.015625",
+      "code": "070200",
+      "description": "Vegetables; tomatoes, fresh or chilled",
+      "score": "0.030118",
       "ranks": {
-        "lexical": 4
+        "lexical": 4,
+        "vector": 9
       }
     },
     {
       "code": "701090",
       "description": "Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods",
-      "score": "0.015385",
+      "score": "0.028175",
       "ranks": {
-        "lexical": 5
+        "lexical": 12,
+        "vector": 10
       }
     },
     {
-      "code": "842230",
-      "description": "Machinery; for filling, closing, sealing, capsuling or labelling bottles, cans, bags or other containers, machinery for aerating beverages",
-      "score": "0.015152",
+      "code": "200950",
+      "description": "Juice; tomato, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.028043",
       "ranks": {
-        "lexical": 6
+        "lexical": 19,
+        "vector": 5
       }
     },
     {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.014925",
+      "code": "392330",
+      "description": "Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods",
+      "score": "0.026084",
       "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "293979",
-      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "701020",
-      "description": "Glass; stoppers, lids and other closures",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "320190",
-      "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "830910",
-      "description": "Stoppers; corks, of base metal",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "320300",
-      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
+        "lexical": 22,
+        "vector": 12
       }
     },
     {
       "code": "701010",
       "description": "Glass; ampoules, of a kind used for the conveyance or packing of goods",
-      "score": "0.013158",
+      "score": "0.025327",
       "ranks": {
-        "lexical": 16
+        "lexical": 26,
+        "vector": 13
+      }
+    },
+    {
+      "code": "701020",
+      "description": "Glass; stoppers, lids and other closures",
+      "score": "0.025008",
+      "ranks": {
+        "lexical": 27,
+        "vector": 14
+      }
+    },
+    {
+      "code": "321390",
+      "description": "Colours; (other than in sets), of a kind used by artists, students or signboard painters",
+      "score": "0.024752",
+      "ranks": {
+        "lexical": 25,
+        "vector": 17
+      }
+    },
+    {
+      "code": "321310",
+      "description": "Colours; in sets, of a kind used by artists, students or signboard painters",
+      "score": "0.024100",
+      "ranks": {
+        "lexical": 24,
+        "vector": 22
       }
     },
     {
       "code": "830990",
       "description": "Stoppers; caps and lids, of base metal",
-      "score": "0.012987",
+      "score": "0.023284",
       "ranks": {
-        "lexical": 17
+        "lexical": 29,
+        "vector": 23
       }
     },
     {
-      "code": "350300",
-      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
-      "score": "0.012821",
+      "code": "830910",
+      "description": "Stoppers; corks, of base metal",
+      "score": "0.023268",
       "ranks": {
-        "lexical": 18
+        "lexical": 28,
+        "vector": 24
       }
     },
     {
-      "code": "842240",
-      "description": "Machinery; for packing or wrapping",
-      "score": "0.012658",
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016129",
       "ranks": {
-        "lexical": 19
+        "lexical": 2,
+        "vector": null
       }
     },
     {
-      "code": "842290",
-      "description": "Machinery; parts of machinery of heading no. 8422",
-      "score": "0.012500",
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.015873",
       "ranks": {
-        "lexical": 20
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "210390",
+      "description": "Sauces and preparations therefor; mixed condiments and mixed seasonings",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "210330",
+      "description": "Mustard flour and meal and prepared mustard",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "210310",
+      "description": "Sauces; soya",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "200110",
+      "description": "Vegetable preparations; cucumbers and gherkins, prepared or preserved by vinegar or acetic acid",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
       }
     }
   ]

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "716193a9c788c3c3e29c1cab000e553a526f4b9f2410ba01f4210a327bb5a5fd",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:59+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Stokes, Woods and Austin",
         "value": "Stokes, Woods and Austin"
       },
@@ -25,7 +25,7 @@
         "value": "September 10, 2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "DDP Manchester",
         "value": "DDP Manchester"
       },
@@ -37,65 +37,65 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "06, Gola Zila, 914197 Ludhiana, India",
-            "value": "India"
+            "confidence": "0.94",
+            "evidence": "yarn Ne 30/1 IN 13,650",
+            "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+            "confidence": "0.95",
+            "evidence": "Combed cotton yarn Ne 30/1",
             "value": "Combed cotton yarn Ne 30/1"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+            "confidence": "0.94",
+            "evidence": "273 30,093.1 lb 33,036.2 lb",
             "value": "33,036.2 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+            "confidence": "0.94",
+            "evidence": "273 30,093.1 lb 33,036.2 lb",
             "value": "30,093.1 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+            "confidence": "0.93",
+            "evidence": "IN 13,650 kg 273",
             "value": "13,650"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+            "confidence": "0.9",
+            "evidence": "IN 13,650 kg 273",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 273 BAGS 30,093.1 lb 33,036.2 lb",
+        "confidence": "0.93",
+        "evidence": "Total 273 BAGS",
         "value": "BAGS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Korpal and Sons",
         "value": "Korpal and Sons"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+        "confidence": "0.94",
+        "evidence": "273 BAGS 30,093.1 lb 33,036.2 lb",
         "value": "33,036.2 lb"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+        "confidence": "0.94",
+        "evidence": "273 BAGS 30,093.1 lb 33,036.2 lb",
         "value": "30,093.1 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 Combed cotton yarn Ne 30/1 IN 13,650 kg 273 30,093.1 lb 33,036.2 lb",
+        "confidence": "0.95",
+        "evidence": "Total 273 BAGS",
         "value": "273"
       }
     },
-    "input_tokens": 355,
-    "latency_ms": 0,
-    "output_tokens": 487
+    "input_tokens": 2288,
+    "latency_ms": 4588,
+    "output_tokens": 723
   }
 }

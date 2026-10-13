@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "f73a7653cac273ed80a49126ea10f83a6d9b664e64515f1eef865b18e38c5102",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:29+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's leather gloves\nCountry of origin: PK\n\nChosen so far: 42 Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut) > 4203 Articles of apparel and clothing accessories, of leather or of composition leather\n\nChoose the subheading that covers these goods. Options:\n- 420321: Clothing accessories; gloves, mittens and mitts, specially designed for use in sports, of leather or composition leather, padded\n- 420329: Clothing accessories; gloves, mittens and mitts, n.e.c. in heading no. 4203, of leather or composition leather, not specially designed for use in sports\n- 420330: Clothing accessories; belts and bandoliers, of leather or of composition leather\n- 420310: Apparel; articles of apparel, of leather or of composition leather\n- 420340: Clothing accessories; of leather or of composition leather, n.e.c. in heading no. 4203\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3e73f0ebc14cfd9d6e69880a3c63bf3a4aedba18e6d83118a4eb6551027e991e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "420329",
+      "cited": [
+        "420329",
+        "4203"
+      ],
+      "confidence": "0.93",
+      "reason": "Women's leather gloves are not specially designed for sports, so they fall under the other gloves, mittens and mitts of leather subheading 420329 rather than the sports gloves subheading 420321.\n"
+    },
+    "input_tokens": 1081,
+    "latency_ms": 4140,
+    "output_tokens": 102
+  }
+}

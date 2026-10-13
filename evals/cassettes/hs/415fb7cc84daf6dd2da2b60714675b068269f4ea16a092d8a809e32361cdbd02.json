@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "415fb7cc84daf6dd2da2b60714675b068269f4ea16a092d8a809e32361cdbd02",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh avocados\nCountry of origin: MX\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons\n\nChoose the heading that covers these goods. Options:\n- 0804: Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried\n    contains 080440: Fruit, edible; avocados, fresh or dried\n    contains 080410: Fruit, edible; dates, fresh or dried\n    contains 080420: Fruit, edible; figs, fresh or dried\n    contains 080450: Fruit, edible; guavas, mangoes and mangosteens, fresh or dried\n    contains 080430: Fruit, edible; pineapples, fresh or dried\n- 0807: Melons (including watermelons) and papaws (papayas); fresh\n    contains 080720: Fruit, edible; papaws (papayas), fresh\n    contains 080719: Fruit, edible; melons, other than watermelons, fresh\n    contains 080711: Fruit, edible; watermelons, fresh\n- 0809: Apricots, cherries, peaches (including nectarines), plums and sloes, fresh\n    contains 080910: Fruit, edible; apricots, fresh\n- 0802: Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled\n    contains 080262: Nuts, edible; macadamia, fresh or dried, shelled\n    contains 080261: Nuts, edible; macadamia, fresh or dried, in shell\n- 0805: Citrus fruit; fresh or dried\n    contains 080540: Fruit, edible; grapefruit and pomelos, fresh or dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8bf91228671c46bc1af4a7f0f33b063dd05ac556da19596911db27d84d20454f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0804",
+      "cited": [
+        "0804",
+        "080440"
+      ],
+      "confidence": "0.99",
+      "reason": "Heading 0804 expressly covers avocados, fresh or dried, with subheading 080440 specifically for avocados."
+    },
+    "input_tokens": 1336,
+    "latency_ms": 2690,
+    "output_tokens": 76
+  }
+}

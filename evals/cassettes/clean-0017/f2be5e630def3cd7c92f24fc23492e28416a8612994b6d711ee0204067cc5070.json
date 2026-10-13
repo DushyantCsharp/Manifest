@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f2be5e630def3cd7c92f24fc23492e28416a8612994b6d711ee0204067cc5070",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:48+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "De Neve, Van de Velde en Claes NV",
         "value": "De Neve, Van de Velde en Claes NV"
       },
@@ -25,8 +25,8 @@
         "value": "07.06.2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "CPT Gent",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nCPT Gent",
         "value": "CPT Gent"
       },
       "invoice_number": {
@@ -37,65 +37,65 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 247 Ring Road, Chattogram, Bangladesh",
-            "value": "Bangladesh"
+            "confidence": "0.95",
+            "evidence": "long sleeve BD 7.452",
+            "value": "BD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "confidence": "0.96",
+            "evidence": "Men's woven cotton shirt, long sleeve",
             "value": "Men's woven cotton shirt, long sleeve"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "confidence": "0.95",
+            "evidence": "187 2.362,28 kg 2.769,16 kg",
             "value": "2.769,16 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "confidence": "0.95",
+            "evidence": "187 2.362,28 kg 2.769,16 kg",
             "value": "2.362,28 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "confidence": "0.95",
+            "evidence": "BD 7.452 pcs",
             "value": "7.452"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+            "confidence": "0.95",
+            "evidence": "7.452 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 187 CARTONS 2.362,28 kg 2.769,16 kg",
+        "confidence": "0.93",
+        "evidence": "Total 187 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Chattogram Bengal Textile Co., Ltd.",
         "value": "Chattogram Bengal Textile Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+        "confidence": "0.96",
+        "evidence": "2.362,28 kg 2.769,16 kg",
         "value": "2.769,16 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+        "confidence": "0.96",
+        "evidence": "Total 187 CARTONS 2.362,28 kg",
         "value": "2.362,28 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 Men's woven cotton shirt, long sleeve BD 7.452 pcs 187 2.362,28 kg 2.769,16 kg",
+        "confidence": "0.96",
+        "evidence": "Total 187 CARTONS",
         "value": "187"
       }
     },
-    "input_tokens": 357,
-    "latency_ms": 0,
-    "output_tokens": 523
+    "input_tokens": 2297,
+    "latency_ms": 4702,
+    "output_tokens": 754
   }
 }

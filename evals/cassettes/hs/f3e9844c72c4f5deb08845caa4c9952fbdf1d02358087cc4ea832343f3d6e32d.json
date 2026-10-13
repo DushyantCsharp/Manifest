@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "f3e9844c72c4f5deb08845caa4c9952fbdf1d02358087cc4ea832343f3d6e32d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:06+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen Atlantic salmon fillets\nCountry of origin: NO\n\nChosen so far: 03 Fish and crustaceans, molluscs and other aquatic invertebrates\n\nChoose the heading that covers these goods. Options:\n- 0303: Fish; frozen, excluding fish fillets and other fish meat of heading 0304\n    contains 030313: Fish; frozen, Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030311: Fish; frozen, Pacific salmon, sockeye salmon (red salmon) (Oncorhynchus nerka), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030312: Fish; frozen, Pacific salmon (Oncorhynchus gorbuscha/keta/tschawytscha/ kisutch/masou/rhodurus) other than sockeye salmon (Oncorhynchus nerka), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030319: Fish; frozen, salmonidae, n.e.c. in item no. 0303.1, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030314: Fish; frozen, trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster), excluding fillets, meat of 0304, and edible fish offal of 0303.91 to 0303.99\n    contains 030345: Fish; frozen, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030332: Fish; frozen, plaice (Pleuronectes platessa), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030326: Fish; frozen, eels (Anguilla spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030333: Fish; frozen, sole (Solea spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030343: Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030369: Fish; frozen, of Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae, Muraenolepididae, other than cod, haddock, coalfish, hake, Alaska pollack, blue whitings, not fillets, meat of 0304, and edible offal of 0303.9\n    contains 030339: Fish; frozen, flat fish, n.e.c. in item no. 0303.3, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030367: Fish; frozen, Alaska pollock (Theragra chalcogramma), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030363: Fish; frozen, cod (Gadus morhua, Gadus ogac, Gadus macrocephalus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030355: Fish; frozen, jack and horse mackerel (Trachurus spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n- 0304: Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen\n    contains 030481: Fish fillets; frozen, salmon, Pacific (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou, Oncorhynchus rhodurus), Atlantic (Salmo salar), and Danube (Hucho hucho)\n    contains 030441: Fish fillets; fresh or chilled, salmon, Pacific (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus), Atlantic (Salmo salar), Danube (Hucho hucho)\n    contains 030471: Fish fillets; frozen, cod (Gadus morhua, Gadus ogac, Gadus macrocephalus)\n- 0302: Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304\n    contains 030214: Fish; fresh or chilled, Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n- 0305: Fish, dried, salted or in brine; smoked fish, whether or not cooked before, or during the smoking process\n    contains 030541: Fish; smoked, whether or not cooked before or during smoking, salmon, Pacific (Oncorhynchus nerka, gorbuscha, keta, tschawytscha, kisutch, masou, rhodurus), Atlantic (Salmo salar) and Danube (Hucho hucho), includes fillets, but excludes edible fish offal\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "71fe4da9aa36910b8bd9231affed279cdc75d121785f8e67a0b83359e2e58faf",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0304",
+      "cited": [
+        "0304",
+        "030481"
+      ],
+      "confidence": "0.98",
+      "reason": "Frozen fish fillets are covered by heading 0304 (subheading 0304.81 for Atlantic salmon), and heading 0303 expressly excludes fillets."
+    },
+    "input_tokens": 2887,
+    "latency_ms": 2843,
+    "output_tokens": 93
+  }
+}

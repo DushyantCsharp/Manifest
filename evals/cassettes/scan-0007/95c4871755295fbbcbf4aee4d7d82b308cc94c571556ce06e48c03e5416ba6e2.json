@@ -2,8 +2,8 @@
   "format": 1,
   "key": "95c4871755295fbbcbf4aee4d7d82b308cc94c571556ce06e48c03e5416ba6e2",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:05+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "ONEYEJ5137402",
         "value": "ONEYEJ5137402"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Larysz Sp.j.",
-        "value": "Larysz Sp.j."
+        "confidence": "0.8",
+        "evidence": "Fundacja Bodziony",
+        "value": "Fundacja Bodziony"
       },
       "carrier": {
-        "confidence": "0.97",
+        "confidence": "0.6",
         "evidence": "ONE",
         "value": "ONE"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "ONEU6469265 | LaRysz / 496° SAID TO CONTAIN: ‘Men's crew-neck T-shirt, 1003. 6.025,13 kg",
+        "confidence": "0.88",
+        "evidence": "ONEU6469265",
         "value": "ONEU6469265"
       },
       "freight_terms": {
-        "confidence": "0.97",
-        "evidence": "FREIGHT PREPAID -",
+        "confidence": "0.88",
+        "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": "Fundacja Bodziony",
-        "value": "Fundacja Bodziony"
+        "confidence": "0.5",
+        "evidence": "Larysz Sp.j.",
+        "value": "Larysz Sp.j."
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS cotton jersey;",
+        "confidence": "0.85",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.69",
+        "confidence": "0.7",
         "evidence": "Chattogram Gdafisk",
         "value": "Gdafisk"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Chattogram Padma Manufacturing Co., Ltd.",
+        "confidence": "0.7",
+        "evidence": "Chattogram Gdafisk",
         "value": "Chattogram"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "}SEAL 2312776 | RE-26-0149",
+        "confidence": "0.7",
+        "evidence": "}SEAL 2312776",
         "value": "2312776"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Chattogram Padma Manufacturing Co., Ltd.",
         "value": "Chattogram Padma Manufacturing Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "‘| 17.07.2026",
+        "confidence": "0.85",
+        "evidence": "17.07.2026",
         "value": "17.07.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "ONEU6469265 | LaRysz / 496° SAID TO CONTAIN: ‘Men's crew-neck T-shirt, 1003. 6.025,13 kg",
+        "confidence": "0.88",
+        "evidence": "6.025,13 kg",
         "value": "6.025,13 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "ONEU6469265 | LaRysz / 496° SAID TO CONTAIN: ‘Men's crew-neck T-shirt, 1003. 6.025,13 kg",
-        "value": "496"
+        "confidence": "0.6",
+        "evidence": "1003.",
+        "value": "1003"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.88",
         "evidence": "ONE HARMONY / 104s",
         "value": "ONE HARMONY"
       },
       "voyage": {
-        "confidence": "0.68",
+        "confidence": "0.75",
         "evidence": "ONE HARMONY / 104s",
         "value": "104s"
       }
     },
-    "input_tokens": 436,
-    "latency_ms": 0,
-    "output_tokens": 460
+    "input_tokens": 2252,
+    "latency_ms": 4630,
+    "output_tokens": 695
   }
 }

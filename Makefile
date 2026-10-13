@@ -102,7 +102,7 @@ coverage: ## Every non-live test (needs Docker), libs/ coverage gate + HTML repo
 	$(PANGO) uv run pytest -m "not live" --cov --cov-report=term --cov-report=html
 
 .PHONY: cassettes
-cassettes: ## Reseed every eval cassette from ground truth (offline, no API key), then refit
+cassettes: ## Replace every eval cassette with the oracle's answers (offline; discards real recordings)
 	uv run python -m manifest_evals.golden seed
 	uv run python -m manifest_evals.hs seed
 	uv run python -m manifest_evals calibrate

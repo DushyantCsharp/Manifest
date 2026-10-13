@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "a5c9fce55cd9e94bce7099914a828d0ee6f85cd6327621cb8a006de3f4059d3e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:31+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Manual toothbrushes, plastic handle\nCountry of origin: CN\n\nChosen so far: 96 Miscellaneous manufactured articles > 9603 Brooms, brushes (including parts of machines), hand operated floor sweepers, mops and feather dusters; knots and tufts for broom or brush making; paint pads and rollers; squeegees\n\nChoose the subheading that covers these goods. Options:\n- 960321: Brushes; toothbrushes\n- 960329: Brushes; shaving, hair, nail, eyelash and other toilet brushes for use on the person, including brushes as parts of appliances\n- 960310: Brooms and brushes; consisting of twigs or other vegetable materials bound together, with or without handles\n- 960390: Brooms, brushes, mops, feather dusters, squeegees, hand operated mechanical floor sweepers; (not motorised), prepared knots and tufts for brooms or brush making n.e.c.\n- 960350: Brushes; constituting parts of machines, appliances or vehicles\n- 960330: Brushes; artists' brushes, writing brushes and similar brushes for the application of cosmetics\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "773d084709128793f88f2658f1f2cffa588ff282dc709322a738a68f64be18c8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "960321",
+      "cited": [
+        "960321"
+      ],
+      "confidence": "0.97",
+      "reason": "Manual toothbrushes fall under subheading 9603.21, which covers toothbrushes, including dental-plate brushes, in contrast to other toilet brushes in 9603.29."
+    },
+    "input_tokens": 1140,
+    "latency_ms": 2980,
+    "output_tokens": 94
+  }
+}

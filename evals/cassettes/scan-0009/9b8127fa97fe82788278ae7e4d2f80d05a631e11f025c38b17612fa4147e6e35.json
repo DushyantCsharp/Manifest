@@ -2,8 +2,8 @@
   "format": 1,
   "key": "9b8127fa97fe82788278ae7e4d2f80d05a631e11f025c38b17612fa4147e6e35",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:23+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MEDULR2350766",
         "value": "MEDULR2350766"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Long PLC SAME AS CONSIGNEE",
+        "confidence": "0.93",
+        "evidence": "Long PLC",
         "value": "Long PLC"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MSC",
+        "confidence": "0.85",
+        "evidence": "Signed as Carrier: MSC",
         "value": "MSC"
       },
       "container_number": {
-        "confidence": "0.86",
-        "evidence": "MEDU2896861t LONG / 2026/1011 | 340 Bacs SAID TO CONTAIN: Black tea, CTC, bulk | 39,330.0 lb",
+        "confidence": "0.6",
+        "evidence": "MEDU2896861t",
         "value": "MEDU2896861t"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.60",
-        "evidence": "Long PLC SAME AS CONSIGNEE",
-        "value": "AS"
+        "confidence": "0.7",
+        "evidence": "340 Bacs",
+        "value": "Bacs"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Izmir Southampton",
         "value": "Southampton"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "06411 Sama Mills Suite 971, 71574 Izmir, Turkey: - BILL OF LADING",
+        "confidence": "0.9",
+        "evidence": "Izmir Southampton",
         "value": "Izmir"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 7462656",
         "value": "7462656"
       },
       "seller_name": {
-        "confidence": "0.81",
+        "confidence": "0.6",
         "evidence": "Akeay San.",
         "value": "Akeay San."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "September 3, 2026 Izmir, September 3, 2026 THREE (3)",
+        "confidence": "0.9",
+        "evidence": "September 3, 2026 Izmir",
         "value": "September 3, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "MEDU2896861t LONG / 2026/1011 | 340 Bacs SAID TO CONTAIN: Black tea, CTC, bulk | 39,330.0 lb",
+        "confidence": "0.93",
+        "evidence": "39,330.0 lb",
         "value": "39,330.0 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "MEDU2896861t LONG / 2026/1011 | 340 Bacs SAID TO CONTAIN: Black tea, CTC, bulk | 39,330.0 lb",
+        "confidence": "0.88",
+        "evidence": "340 Bacs",
         "value": "340"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "MSC HARMONY / 4735S",
         "value": "MSC HARMONY"
       },
       "voyage": {
-        "confidence": "0.80",
+        "confidence": "0.93",
         "evidence": "MSC HARMONY / 4735S",
         "value": "4735S"
       }
     },
-    "input_tokens": 466,
-    "latency_ms": 0,
-    "output_tokens": 447
+    "input_tokens": 2264,
+    "latency_ms": 4847,
+    "output_tokens": 642
   }
 }

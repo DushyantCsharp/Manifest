@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "21482fb585eb4e19ca35ad2607f8a92ecac16ea972d61de4e7939451691203c7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:05+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Drinking tumblers of soda-lime glass, set of 6\nCountry of origin: TR\n\nChosen so far: 70 Glass and glassware > 7013 Glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than of heading no. 7010 or 7018)\n\nChoose the subheading that covers these goods. Options:\n- 701328: Stemware drinking glasses, other than of lead crystal or glass-ceramics\n- 701349: Glassware of a kind used for table or kitchen purposes (not drinking glasses or of glass-ceramics), of glass n.e.c. in item no. 7013.4\n- 701337: Glassware; drinking glasses (not stemware), other than of lead crystal or glass-ceramics\n- 701342: Glassware of a kind used for table or kitchen purposes (not drinking glasses), of glass having a linear coefficient of expansion not exceeding 5 x 10 (to the minus 6), (or 0.000005) per Kelvin within a temperature range of 0-300 degrees C\n- 701322: Stemware drinking glasses, of lead crystal\n- 701333: Glassware; drinking glasses (not stemware), of lead crystal\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e324d2359007abc96e5c5dc6cd93f9a411ee69451d711f789e56adacb2defbb8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "701337",
+      "cited": [
+        "701337"
+      ],
+      "confidence": "0.8",
+      "reason": "Soda-lime glass tumblers are non-stemware drinking glasses that are not lead crystal or glass-ceramics, which is what 701337 covers (the HS 7013.37 text has no toughened/other split here)."
+    },
+    "input_tokens": 1168,
+    "latency_ms": 3558,
+    "output_tokens": 106
+  }
+}

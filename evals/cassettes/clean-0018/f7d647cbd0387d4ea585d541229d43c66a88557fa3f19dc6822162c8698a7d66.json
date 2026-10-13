@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f7d647cbd0387d4ea585d541229d43c66a88557fa3f19dc6822162c8698a7d66",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:49+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Nguyen-Robinson",
         "value": "Nguyen-Robinson"
       },
@@ -25,7 +25,7 @@
         "value": "31-JUL-2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "DDP Sydney",
         "value": "DDP Sydney"
       },
@@ -37,129 +37,129 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "2mm IN 12,000",
+            "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm IN 12,000 kg 12 12,000.00 kg 12,952.80 kg",
+            "confidence": "0.95",
+            "evidence": "Stainless steel sheet 304, cold-rolled 2mm",
             "value": "Stainless steel sheet 304, cold-rolled 2mm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm IN 12,000 kg 12 12,000.00 kg 12,952.80 kg",
+            "confidence": "0.95",
+            "evidence": "12,952.80 kg",
             "value": "12,952.80 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm IN 12,000 kg 12 12,000.00 kg 12,952.80 kg",
+            "confidence": "0.95",
+            "evidence": "12,000.00 kg",
             "value": "12,000.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm IN 12,000 kg 12 12,000.00 kg 12,952.80 kg",
+            "confidence": "0.93",
+            "evidence": "IN 12,000 kg 12",
             "value": "12,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm IN 12,000 kg 12 12,000.00 kg 12,952.80 kg",
+            "confidence": "0.92",
+            "evidence": "IN 12,000 kg 12",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "20cm IN 2,083",
+            "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm IN 2,083 pcs 174 2,832.88 kg 3,114.08 kg",
+            "confidence": "0.95",
+            "evidence": "Stainless steel saucepan 20cm",
             "value": "Stainless steel saucepan 20cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm IN 2,083 pcs 174 2,832.88 kg 3,114.08 kg",
+            "confidence": "0.95",
+            "evidence": "3,114.08 kg",
             "value": "3,114.08 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm IN 2,083 pcs 174 2,832.88 kg 3,114.08 kg",
+            "confidence": "0.95",
+            "evidence": "2,832.88 kg",
             "value": "2,832.88 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm IN 2,083 pcs 174 2,832.88 kg 3,114.08 kg",
+            "confidence": "0.95",
+            "evidence": "IN 2,083 pcs",
             "value": "2,083"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm IN 2,083 pcs 174 2,832.88 kg 3,114.08 kg",
+            "confidence": "0.95",
+            "evidence": "IN 2,083 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "128GB IN 120",
+            "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Smartphone 6.1in, 128GB IN 120 pcs 3 21.24 kg 26.49 kg",
+            "confidence": "0.95",
+            "evidence": "Smartphone 6.1in, 128GB",
             "value": "Smartphone 6.1in, 128GB"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Smartphone 6.1in, 128GB IN 120 pcs 3 21.24 kg 26.49 kg",
+            "confidence": "0.95",
+            "evidence": "26.49 kg",
             "value": "26.49 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Smartphone 6.1in, 128GB IN 120 pcs 3 21.24 kg 26.49 kg",
+            "confidence": "0.95",
+            "evidence": "21.24 kg",
             "value": "21.24 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Smartphone 6.1in, 128GB IN 120 pcs 3 21.24 kg 26.49 kg",
+            "confidence": "0.95",
+            "evidence": "IN 120 pcs",
             "value": "120"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm IN 2,083 pcs 174 2,832.88 kg 3,114.08 kg",
+            "confidence": "0.95",
+            "evidence": "IN 120 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 189 CARTONS 14,854.12 kg 16,093.37 kg",
+        "confidence": "0.9",
+        "evidence": "Total 189 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Kaul-Kala",
         "value": "Kaul-Kala"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 189 CARTONS 14,854.12 kg 16,093.37 kg",
+        "confidence": "0.95",
+        "evidence": "16,093.37 kg",
         "value": "16,093.37 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 189 CARTONS 14,854.12 kg 16,093.37 kg",
+        "confidence": "0.95",
+        "evidence": "14,854.12 kg",
         "value": "14,854.12 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 189 CARTONS 14,854.12 kg 16,093.37 kg",
+        "confidence": "0.95",
+        "evidence": "Total 189 CARTONS",
         "value": "189"
       }
     },
-    "input_tokens": 389,
-    "latency_ms": 0,
-    "output_tokens": 903
+    "input_tokens": 2384,
+    "latency_ms": 6554,
+    "output_tokens": 1180
   }
 }

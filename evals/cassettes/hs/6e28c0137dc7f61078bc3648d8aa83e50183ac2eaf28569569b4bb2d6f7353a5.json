@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "6e28c0137dc7f61078bc3648d8aa83e50183ac2eaf28569569b4bb2d6f7353a5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:24+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Electric guitar\nCountry of origin: ID\n\nChoose the chapter that covers these goods. Options:\n- 92: Musical instruments; parts and accessories of such articles\n    contains 920994: Musical instruments; parts and accessories for the musical instruments the sound of which is produced or must be amplified electrically (e.g. organs, guitars and accordions)\n    contains 920790: Musical instruments; (other than keyboard), the sound of which is produced or must be amplified electrically\n    contains 920710: Musical instruments; keyboard, (other than accordions), the sound of which is produced or must be amplified electrically\n    contains 920290: Musical instruments; string, played other than with a bow (e.g. guitars and harps)\n    contains 920210: Musical instruments; string, played with a bow (e.g. violins)\n    contains 920930: Musical instrument strings\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854430: Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships\n    contains 854921: Electrical and electronic waste and scrap; of a kind used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switches, glass from cathode ray tubes or other activated glass, or electrical\n    contains 854931: Electrical and electronic waste and scrap; electrical and electronic assemblies and printed circuit boards, other than those used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switch\n    contains 853590: Electrical apparatus; n.e.c. in heading no. 8535, for switching or protecting electrical circuits, for a voltage exceeding 1000 volts\n    contains 853630: Electrical apparatus; for protecting electrical circuits, n.e.c. in heading no. 8536, for a voltage not exceeding 1000 volts\n    contains 853690: Electrical apparatus; n.e.c. in heading no. 8536, for switching or protecting electrical circuits, for a voltage not exceeding 1000 volts\n    contains 851110: Ignition or starting equipment; spark plugs, of a kind used for spark or compression-ignition internal combustion engines\n    contains 854420: Insulated electric conductors; co-axial cable and other co-axial electric conductors\n    contains 851130: Ignition or starting equipment; distributors and ignition coils of a kind used for spark-ignition or compression-ignition internal combustion engines\n    contains 851150: Ignition or starting equipment; generators n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n    contains 853710: Boards, panels, consoles, desks and other bases; for electric control or the distribution of electricity, (other than switching apparatus of heading no. 8517), for a voltage not exceeding 1000 volts\n    contains 851180: Ignition or starting equipment; n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 848790: Machinery parts; not containing electrical connectors, insulators, coils, contacts or other electrical features, n.e.c. in chapter 84, other than ships' or boats' propellers and blades therefor\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1d7055ff4e347dec30854241bf59a6bb637df2b84546bf672242083da8472915",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "92",
+      "cited": [
+        "92",
+        "920790"
+      ],
+      "confidence": "0.97",
+      "reason": "An electric guitar is a musical instrument whose sound is produced or amplified electrically, falling in Chapter 92 (heading 9207)."
+    },
+    "input_tokens": 2051,
+    "latency_ms": 3340,
+    "output_tokens": 81
+  }
+}

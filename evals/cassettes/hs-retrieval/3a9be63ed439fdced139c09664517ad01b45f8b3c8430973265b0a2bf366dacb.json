@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "3a9be63ed439fdced139c09664517ad01b45f8b3c8430973265b0a2bf366dacb",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "LED colour television receiver 55in 4K UHD origin MX",
   "limit": 20,
   "candidates": [
     {
       "code": "852872",
       "description": "Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a colour video display or screen",
-      "score": "0.016393",
+      "score": "0.032522",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "852869",
-      "description": "Projectors; n.e.c. in subheading 8528.62, whether or not colour",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "852849",
-      "description": "Monitors; cathode-ray tube, n.e.c. in subheading 8528.42, whether or not colour",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "852859",
-      "description": "Monitors other than cathode-ray tube; n.e.c. in subheading 8528.52, whether or not colour",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
+        "lexical": 2,
+        "vector": 1
       }
     },
     {
       "code": "852873",
       "description": "Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a monochrome video display or screen",
-      "score": "0.015385",
+      "score": "0.031250",
       "ranks": {
-        "lexical": 5
+        "lexical": 4,
+        "vector": 4
       }
     },
     {
       "code": "852871",
       "description": "Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; not designed to incorporate a video display or screen",
-      "score": "0.015152",
+      "score": "0.030798",
       "ranks": {
-        "lexical": 6
+        "lexical": 3,
+        "vector": 7
       }
     },
     {
-      "code": "854081",
-      "description": "Valves and tubes; receiver or amplifier",
-      "score": "0.014925",
+      "code": "852849",
+      "description": "Monitors; cathode-ray tube, n.e.c. in subheading 8528.42, whether or not colour",
+      "score": "0.030415",
       "ranks": {
-        "lexical": 7
+        "lexical": 10,
+        "vector": 2
       }
     },
     {
-      "code": "852791",
-      "description": "Radio-broadcast receivers n.e.c. in heading no. 8527; combined with sound recording or reproducing apparatus",
-      "score": "0.014706",
+      "code": "852859",
+      "description": "Monitors other than cathode-ray tube; n.e.c. in subheading 8528.52, whether or not colour",
+      "score": "0.029958",
       "ranks": {
-        "lexical": 8
+        "lexical": 11,
+        "vector": 3
       }
     },
     {
-      "code": "852799",
-      "description": "Radio-broadcast receivers n.e.c. in heading no. 8527; not combined with sound recording or reproducing apparatus and not combined with a clock",
-      "score": "0.014493",
+      "code": "852869",
+      "description": "Projectors; n.e.c. in subheading 8528.62, whether or not colour",
+      "score": "0.028595",
       "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "854110",
-      "description": "Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "854141",
-      "description": "Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "852792",
-      "description": "Radio-broadcast receivers n.e.c. in heading no. 8527; not combined with sound recording or reproducing apparatus but combined with a clock",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "852719",
-      "description": "Radio broadcast receivers capable of operating without an external power source; n.e.c. in item no. 8527.1",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "852712",
-      "description": "Radio broadcast receivers capable of operating without an external power source; pocket-size radio cassette-players",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
+        "lexical": 12,
+        "vector": 8
       }
     },
     {
       "code": "854011",
       "description": "Tubes; cathode-ray television picture tubes, including video monitor cathode-ray tubes, colour",
-      "score": "0.013333",
+      "score": "0.028006",
       "ranks": {
-        "lexical": 15
+        "lexical": 9,
+        "vector": 14
       }
     },
     {
       "code": "853952",
       "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps",
-      "score": "0.013158",
+      "score": "0.026070",
       "ranks": {
-        "lexical": 16
+        "lexical": 8,
+        "vector": 28
       }
     },
     {
-      "code": "854160",
-      "description": "Crystals; mounted piezo-electric",
-      "score": "0.012987",
+      "code": "852581",
+      "description": "Television cameras, digital cameras and video camera recorders; high-speed goods as specified in subheading note 1 to this chapter",
+      "score": "0.025645",
       "ranks": {
-        "lexical": 17
+        "lexical": 17,
+        "vector": 19
+      }
+    },
+    {
+      "code": "852560",
+      "description": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating sound recording or reproducing apparatus, incorporating reception apparatus",
+      "score": "0.025353",
+      "ranks": {
+        "lexical": 16,
+        "vector": 22
+      }
+    },
+    {
+      "code": "854141",
+      "description": "Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)",
+      "score": "0.025182",
+      "ranks": {
+        "lexical": 22,
+        "vector": 17
+      }
+    },
+    {
+      "code": "852550",
+      "description": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating sound recording or reproducing apparatus, not incorporating reception apparatus",
+      "score": "0.025098",
+      "ranks": {
+        "lexical": 15,
+        "vector": 25
       }
     },
     {
       "code": "853951",
       "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) modules",
-      "score": "0.012821",
+      "score": "0.024826",
       "ranks": {
-        "lexical": 18
+        "lexical": 7,
+        "vector": 41
       }
     },
     {
-      "code": "852721",
-      "description": "Radio-broadcast receivers not capable of operating without an external source of power, of a kind used in motor vehicles; combined with sound recording or reproducing apparatus",
-      "score": "0.012658",
+      "code": "854040",
+      "description": "Tubes; data/graphic display tubes, monochrome; data/graphic display tubes, colour, with a phosphor dot screen pitch smaller than 0.4mm",
+      "score": "0.023259",
       "ranks": {
-        "lexical": 19
+        "lexical": 39,
+        "vector": 16
       }
     },
     {
-      "code": "852729",
-      "description": "Radio-broadcast receivers not capable of operating without an external source of power, of a kind used in motor vehicles; not combined with sound recording or reproducing apparatus",
-      "score": "0.012500",
+      "code": "854012",
+      "description": "Tubes; cathode-ray television picture tubes, including video monitor cathode-ray tubes, monochrome",
+      "score": "0.021937",
       "ranks": {
-        "lexical": 20
+        "lexical": 37,
+        "vector": 26
+      }
+    },
+    {
+      "code": "854081",
+      "description": "Valves and tubes; receiver or amplifier",
+      "score": "0.021236",
+      "ranks": {
+        "lexical": 40,
+        "vector": 29
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "320500",
+      "description": "Colour lakes; preparations based on colour lakes as specified in note 3 to this chapter",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "852499",
+      "description": "Flat panel display modules, whether or not incorporating touch-sensitive screens; of other than liquid crystals or organic light-emitting diodes (OLED), with drivers or control circuits",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "350300",
+      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
       }
     }
   ]

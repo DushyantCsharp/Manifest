@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b30072bf75a9cc1b683cd3eb7dc3854a8ced7a751ad2b6d4c8f8004950b270a6",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:29+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Karge Mälzer GmbH & Co. KG",
         "value": "Karge Mälzer GmbH & Co. KG"
       },
@@ -25,7 +25,7 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "DAP Frankfurt am Main",
         "value": "DAP Frankfurt am Main"
       },
@@ -42,123 +42,123 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "confidence": "0.96",
+            "evidence": "3,27 25.179,00",
             "value": "25.179,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "jersey IN 7.700",
+            "value": "IN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "Einzelpreis EUR Gesamt EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "confidence": "0.96",
+            "evidence": "Men's crew-neck T-shirt, 100% cotton jersey",
             "value": "Men's crew-neck T-shirt, 100% cotton jersey"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "confidence": "0.95",
+            "evidence": "IN 7.700 pcs 3,27 25.179,00",
             "value": "7.700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "confidence": "0.96",
+            "evidence": "7.700 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 7.700 pcs 3,27 25.179,00",
+            "confidence": "0.96",
+            "evidence": "pcs 3,27 25.179,00",
             "value": "3,27"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "confidence": "0.96",
+            "evidence": "3,50 16.450,00",
             "value": "16.450,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "bulk IN 4.700",
+            "value": "IN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "Einzelpreis EUR Gesamt EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "confidence": "0.96",
+            "evidence": "Black tea, CTC, bulk",
             "value": "Black tea, CTC, bulk"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "confidence": "0.95",
+            "evidence": "IN 4.700 kg 3,50 16.450,00",
             "value": "4.700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "confidence": "0.96",
+            "evidence": "4.700 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Black tea, CTC, bulk IN 4.700 kg 3,50 16.450,00",
+            "confidence": "0.96",
+            "evidence": "kg 3,50 16.450,00",
             "value": "3,50"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "confidence": "0.96",
+            "evidence": "19,93 31.907,93",
             "value": "31.907,93"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "pieces IN 1.601",
+            "value": "IN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "Einzelpreis EUR Gesamt EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "confidence": "0.96",
+            "evidence": "Stainless cutlery set, 24 pieces",
             "value": "Stainless cutlery set, 24 pieces"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "confidence": "0.95",
+            "evidence": "IN 1.601 sets 19,93 31.907,93",
             "value": "1.601"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "confidence": "0.96",
+            "evidence": "1.601 sets",
             "value": "sets"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless cutlery set, 24 pieces IN 1.601 sets 19,93 31.907,93",
+            "confidence": "0.96",
+            "evidence": "sets 19,93 31.907,93",
             "value": "19,93"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "T/T 30 days after B/L date",
+        "confidence": "0.85",
+        "evidence": "Payment T/T 30 days after B/L\ndate",
         "value": "T/T 30 days after B/L date"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Khare Inc · 78, Kota Zila · 881224 Tiruppur · India",
         "value": "Khare Inc"
       },
@@ -168,8 +168,8 @@
         "value": "73.536,93"
       }
     },
-    "input_tokens": 446,
-    "latency_ms": 0,
-    "output_tokens": 913
+    "input_tokens": 2362,
+    "latency_ms": 7786,
+    "output_tokens": 1348
   }
 }

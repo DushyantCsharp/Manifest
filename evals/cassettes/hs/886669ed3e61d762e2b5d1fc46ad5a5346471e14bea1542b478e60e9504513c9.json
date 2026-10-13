@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "886669ed3e61d762e2b5d1fc46ad5a5346471e14bea1542b478e60e9504513c9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:18+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Sultana raisins, dried grapes\nCountry of origin: TR\n\nChoose the chapter that covers these goods. Options:\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 080620: Fruit, edible; grapes, dried\n    contains 081320: Fruit, edible; prunes, dried\n    contains 080610: Fruit, edible; grapes, fresh\n    contains 081310: Fruit, edible; apricots, dried\n    contains 081340: Fruit, edible; fruit n.e.c. in heading no. 0812, dried\n    contains 081350: Nuts, edible; mixtures of nuts or dried fruits of chapter 08\n    contains 081210: Fruit, edible; cherries, provisionally preserved, but unsuitable in that state for immediate consumption\n    contains 080929: Fruit, edible; cherries, other than sour cherries (Prunus cerasus), fresh\n    contains 080921: Fruit, edible; sour cherries (Prunus cerasus), fresh\n    contains 080940: Fruit, edible; plums and sloes, fresh\n    contains 080521: Fruit, edible; mandarins (including tangerines and satsumas), fresh or dried\n- 22: Beverages, spirits and vinegar\n    contains 220430: Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2\n    contains 220820: Spirits obtained by distilling grape wine or grape marc\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200860: Fruit; cherries, prepared or preserved in ways n.e.c. in heading no. 2007, whether or not containing added sugar, other sweetening matter or spirit\n    contains 200600: Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 843790: Machines; parts of those for cleaning, sorting or grading seed, grain or dried leguminous vegetables or for milling or working cereals or dried leguminous vegetables (not farm-type machinery)\n    contains 845121: Drying machines; of a dry linen capacity not exceeding 10kg\n    contains 845129: Drying machines; of a dry linen capacity exceeding 10kg\n- 41: Raw hides and skins (other than furskins) and leather\n    contains 410120: Raw hides and skins; whole, unsplit, of bovine or equine animals, of a weight per skin not exceeding 8kg when simply dried, 10kg when dry-salted or 16kg when fresh, wet-salted or otherwise preserved\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "666f019bb9603cc497dfde67d85bbc48cc4a5d682a0dbfa8808d6b5929c6e7de",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "08",
+      "cited": [
+        "08",
+        "080620"
+      ],
+      "confidence": "0.98",
+      "reason": "Dried grapes (sultana raisins) are edible dried fruit covered by heading 0806, subheading 080620, in Chapter 08."
+    },
+    "input_tokens": 1818,
+    "latency_ms": 2934,
+    "output_tokens": 81
+  }
+}

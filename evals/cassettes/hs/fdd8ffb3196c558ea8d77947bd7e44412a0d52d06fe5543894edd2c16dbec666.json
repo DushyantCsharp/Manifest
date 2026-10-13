@@ -2,8 +2,8 @@
   "format": 1,
   "key": "fdd8ffb3196c558ea8d77947bd7e44412a0d52d06fe5543894edd2c16dbec666",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:51:04+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "252329",
       "cited": [
-        "252329"
+        "252329",
+        "2523"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.96",
+      "reason": "Grey Portland cement is Portland cement other than white, so it falls under 252329 rather than the white Portland, clinker, aluminous or other hydraulic cement subheadings."
     },
-    "input_tokens": 414,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 1042,
+    "latency_ms": 3158,
+    "output_tokens": 95
   }
 }

@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "bab616faa996567ad03300a00fc64f3a601f984c5a744e34123adb392e29ffe1",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "City bicycle 28in, 7-speed, no motor origin TW",
   "limit": 20,
   "candidates": [
     {
-      "code": "851210",
-      "description": "Lighting or visual signalling equipment; electrical, of a kind used on bicycles, excluding articles of heading no. 8539",
+      "code": "871160",
+      "description": "Motorcycles (including mopeds) and cycles; fitted with auxiliary motor, with electric motor for propulsion, with or without side-cars; side-cars",
+      "score": "0.029211",
+      "ranks": {
+        "lexical": 7,
+        "vector": 10
+      }
+    },
+    {
+      "code": "870380",
+      "description": "Vehicles; with only electric motor for propulsion",
+      "score": "0.024749",
+      "ranks": {
+        "lexical": 14,
+        "vector": 29
+      }
+    },
+    {
+      "code": "870340",
+      "description": "Vehicles; with both spark-ignition internal combustion piston engine and electric motor for propulsion, incapable of being charged by plugging to external source of electric power",
+      "score": "0.024702",
+      "ranks": {
+        "lexical": 10,
+        "vector": 36
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
       "score": "0.016393",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "401320",
-      "description": "Rubber; inner tubes, of a kind used on bicycles",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "401150",
-      "description": "Rubber; new pneumatic tyres, of a kind used on bicycles",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
+        "lexical": 1,
+        "vector": null
       }
     },
     {
       "code": "871200",
       "description": "Bicycles and other cycles; including delivery tricycles, not motorised",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "841520",
+      "description": "Air conditioning machines; comprising a motor driven fan and elements for changing the temperature and humidity, of a kind used for persons, in motor vehicles",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "871493",
+      "description": "Cycles; parts thereof, hubs (other than coaster braking hubs and hub brakes) and free-wheel sprocket-wheels",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "850140",
+      "description": "Electric motors; AC motors, single-phase",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "871492",
+      "description": "Cycles; parts thereof, wheel rims and spokes",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "850151",
+      "description": "Electric motors; AC motors, multi-phase, of an output not exceeding 750W",
       "score": "0.015625",
       "ranks": {
-        "lexical": 4
+        "lexical": 4,
+        "vector": null
       }
     },
     {
-      "code": "902920",
-      "description": "Meters; speed indicators and tachometers; stroboscopes",
+      "code": "871491",
+      "description": "Cycles; frames and forks, and parts thereof",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "850152",
+      "description": "Electric motors; AC motors, multi-phase, of an output exceeding 750W but not exceeding 75kW",
       "score": "0.015385",
       "ranks": {
-        "lexical": 5
+        "lexical": 5,
+        "vector": null
       }
     },
     {
-      "code": "902990",
-      "description": "Meters and counters; parts and accessories for revolution and production counters, taximeters, mileometers, pedometers and the like; speed indicators, tachometers (excluding heading no. 9015), stroboscopes",
+      "code": "871496",
+      "description": "Cycles; parts, pedals and crank-gear, and parts thereof",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "850153",
+      "description": "Electric motors; AC motors, multi-phase, of an output exceeding 75kW",
       "score": "0.015152",
       "ranks": {
-        "lexical": 6
+        "lexical": 6,
+        "vector": null
       }
     },
     {
-      "code": "293979",
-      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
+      "code": "871495",
+      "description": "Cycles; parts thereof, saddles",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "871499",
+      "description": "Cycles; parts thereof, n.e.c. in item no. 8714.9",
       "score": "0.014925",
       "ranks": {
-        "lexical": 7
+        "lexical": null,
+        "vector": 7
       }
     },
     {
-      "code": "722810",
-      "description": "Steel, alloy; bars and rods, of high speed steel",
+      "code": "870441",
+      "description": "Vehicles; with both compression-ignition internal combustion piston engine (diesel/semi-diesel) and electric motor as motor for propulsion, unassembled as in section 14, (gvw not exceeding 5000kg), for the transport of goods, vans",
       "score": "0.014706",
       "ranks": {
-        "lexical": 8
+        "lexical": 8,
+        "vector": null
       }
     },
     {
-      "code": "722620",
-      "description": "Steel, alloy; flat-rolled, width less than 600mm, of high speed steel",
+      "code": "871494",
+      "description": "Cycles; parts thereof, brakes, including coaster braking hubs and hub-brakes, and parts thereof",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "871190",
+      "description": "Motorcycles (including mopeds) and cycles; n.e.c. in heading no. 8711, fitted with auxiliary motor, with or without side-cars; side-cars",
       "score": "0.014493",
       "ranks": {
-        "lexical": 9
+        "lexical": null,
+        "vector": 9
       }
     },
     {
-      "code": "722710",
-      "description": "Steel, alloy; bars and rods, hot-rolled, in irregularly wound coils, of high speed steel",
-      "score": "0.014286",
+      "code": "890311",
+      "description": "Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), fitted or designed to be fitted with a motor, unladen (net) weight (excluding the motor) not exceeding 100kg",
+      "score": "0.014493",
       "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "350300",
-      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "722691",
-      "description": "Steel, alloy; flat-rolled, width less than 600mm, (excluding silicon-electrical or high speed steel), hot-rolled",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "722692",
-      "description": "Steel, alloy; flat-rolled, width less than 600mm, (excluding silicon-electrical or high speed steel), cold-rolled",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "841290",
-      "description": "Engines; parts, for engines and motors of heading no. 8412",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "841280",
-      "description": "Engines; pneumatic power engines and motors, n.e.c. in heading no. 8412",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "870600",
-      "description": "Chassis; fitted with engines, for the motor vehicles of heading no. 8701 to 8705",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "870710",
-      "description": "Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8703",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "870790",
-      "description": "Vehicles; bodies (including cabs) for the motor vehicles of heading no. 8701, 8702, 8704 or 8705",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "910690",
-      "description": "Time recording apparatus; with clock or watch movement or with synchronous motor, n.e.c. in heading no. 9106",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "850819",
-      "description": "Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": 9,
+        "vector": null
       }
     }
   ]

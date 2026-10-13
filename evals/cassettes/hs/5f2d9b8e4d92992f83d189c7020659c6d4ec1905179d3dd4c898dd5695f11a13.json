@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "5f2d9b8e4d92992f83d189c7020659c6d4ec1905179d3dd4c898dd5695f11a13",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:30+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Natural honey in jars\nCountry of origin: AR\n\nChoose the chapter that covers these goods. Options:\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040900: Honey; natural\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 040490: Dairy produce; natural milk constituents (excluding whey), whether or not containing added sugar or other sweetening matter, n.e.c. in chapter 04\n    contains 041010: Animal products; insects\n    contains 040410: Dairy produce; whey, whether or not concentrated or containing added sugar or other sweetening matter\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 251320: Emery, natural corundum, natural garnet and other natural abrasives, whether or not heat-treated\n    contains 252800: Natural borates and concentrates thereof (whether or not calcined), but not including borates separated from natural brine; natural boric acid containing not more than 85 % of H3BO3 calculated on the dry weight\n    contains 251010: Natural calcium phosphates, natural aluminium calcium phosphates and phosphatic chalk; unground\n    contains 251020: Natural calcium phosphates, natural aluminium calcium phosphates and phosphatic chalk; ground\n- 17: Sugars and sugar confectionery\n    contains 170250: Sugars; fructose, chemically pure, in solid form\n    contains 170220: Sugars; maple sugar, chemically pure, in solid form; maple syrup, not containing added flavouring or colouring matter\n    contains 170230: Sugars; glucose and glucose syrup, not containing fructose or containing in the dry state less than 20% by weight of fructose, the syrup not containing added flavouring or colouring matter\n    contains 170240: Sugars; glucose and glucose syrup, containing in the dry state at least 20% but less than 50% by weight of fructose, excluding invert sugar, the syrup not containing added flavouring or colouring matter\n- 39: Plastics and articles thereof\n    contains 391390: Polymers, natural and modified natural; in primary forms (excluding alginic acid, its salts and esters)\n- 28: Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes\n    contains 284410: Uranium; natural uranium and its compounds, alloys, dispersions (including cermets), ceramic products and mixtures containing natural uranium or natural uranium compounds\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200710: Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes; homogenised, cooked preparations, whether or not containing added sugar or other sweetening matter\n    contains 200850: Fruit; apricots, prepared or preserved in ways n.e.c. in heading no. 2007, whether or not containing added sugar, other sweetening matter or spirit\n- 27: Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes\n    contains 271500: Bituminous mixtures based on natural asphalt, on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (e.g. bituminous mastics, cut-backs)\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 68: Stone, plaster, cement, asbestos, mica or similar materials; articles thereof\n    contains 680430: Stones; hand sharpening or polishing stones, of natural stone, agglomerated natural or artificial abrasives or ceramics, with or without parts of other materials\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "138c3a637259dd47754b16621103ec32d63639d359ed1549b454dc6def5761a9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "04",
+      "cited": [
+        "04",
+        "040900"
+      ],
+      "confidence": "0.99",
+      "reason": "Natural honey is expressly named in the heading text of Chapter 04 and falls under subheading 040900."
+    },
+    "input_tokens": 2171,
+    "latency_ms": 2949,
+    "output_tokens": 69
+  }
+}

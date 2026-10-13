@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "b36770871848c6ea77bd019720926f73f9ae58b20905d18b9d9e6ba59de1caeb",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:15+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LED light bulb E27 9W 806lm, warm white\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940511: Luminaires and light fittings; chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use solely with light-emitting diode (LED) light sources\n    contains 940519: Chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use other than with light-emitting diode (LED) light sources\n    contains 940529: Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for other than use solely with light-emitting diode (LED) light sources\n    contains 940521: Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for use solely with light-emitting diode (LED) light sources\n    contains 940541: Luminaires and light fittings; electric, photovoltaic, designed for use solely with light-emitting diode (LED) light sources\n    contains 940542: Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources\n    contains 940569: Luminaires; illuminated signs, illuminated name-plates and the like, designed for other than use solely with light-emitting diode (LED) light sources\n    contains 940549: Luminaires and light fittings; electric, designed for other than use solely with light-emitting diode (LED) light sources\n    contains 940561: Luminaires; illuminated signs, illuminated name-plates and the like, designed for use solely with light-emitting diode (LED) light sources\n    contains 940531: Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for use solely with light-emitting diode (LED) light sources\n    contains 940539: Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for other than use solely with light-emitting diode (LED) light sources\n    contains 940591: Lamps and light fittings; parts thereof, of glass\n    contains 940599: Lamps and light fittings; parts thereof, of materials other than glass or plastics\n    contains 940550: Luminaires and light fittings; non-electric\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 853952: Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps\n    contains 853951: Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) modules\n    contains 853922: Lamps; filament, (excluding ultra-violet or infra-red), of a power not exceeding 200W and for a voltage exceeding 100 volts, other than tungsten halogen\n    contains 854141: Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)\n- 70: Glass and glassware\n    contains 701110: Glass envelopes (including bulbs and tubes); open, and glass parts thereof, without fittings, for electric lighting\n    contains 701190: Glass envelopes (including bulbs and tubes); open, and glass parts thereof, without fittings, other than for electric lighting and cathode-ray tubes\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "25e45471b01a615bb2578d9fb72c8ddbafe09ddf2d6dc39ec265ba0377827f73",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "853952"
+      ],
+      "confidence": "0.96",
+      "reason": "An LED light bulb with an E27 cap is an LED lamp, which falls under heading 8539 (subheading 853952) in Chapter 85, not a luminaire in Chapter 94 or glass envelope in Chapter 70."
+    },
+    "input_tokens": 1960,
+    "latency_ms": 3011,
+    "output_tokens": 109
+  }
+}

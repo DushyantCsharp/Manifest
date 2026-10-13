@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "1bf2a9b985705f099913b9fd32182e8eb3a428d81efaffb1cf4b63e52d631ab5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:10+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Shampoo in 400ml bottles\nCountry of origin: TH\n\nChoose the chapter that covers these goods. Options:\n- 33: Essential oils and resinoids; perfumery, cosmetic or toilet preparations\n    contains 330510: Hair preparations; shampoos\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 34: Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster\n    contains 340231: Anionic organic surface-active agents (other than soap); linear alkylbenzene sulphonic acids and their salts, whether or not put up for retail sale\n    contains 340239: Anionic organic surface-active agents (other than soap); other than linear alkylbenzene sulphonic acids and their salts, whether or not put up for retail sale\n    contains 340250: Washing and cleaning preparations; powders, flakes and granules, surface-active, whether or not containing soap (excluding those of heading no. 3401), put up for retail sale\n    contains 340249: Organic surface-active agents; whether or not put up for retail sale, n.e.c. in item no. 3402\n    contains 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n    contains 340290: Washing and cleaning preparations; surface-active, whether or not containing soap (excluding those of heading no. 3401), including auxiliary washing preparations, not for retail sale\n    contains 340120: Soap; in forms n.e.c. in item no. 3401.11\n    contains 340241: Organic surface-active agents; cationic (other than soap), whether or not put up for retail sale\n    contains 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 49: Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans\n    contains 490600: Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies\n- 70: Glass and glassware\n    contains 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 842220: Machinery; for cleaning or drying bottles or other containers\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e65e76b97b096cde3abebd434dded5bd76853b8475c20d8bcaee25241d4232ab",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "33",
+      "cited": [
+        "33",
+        "330510"
+      ],
+      "confidence": "0.97",
+      "reason": "Shampoo is a hair preparation covered by heading 3305 in Chapter 33, and the bottle is only its packaging."
+    },
+    "input_tokens": 2175,
+    "latency_ms": 3299,
+    "output_tokens": 76
+  }
+}

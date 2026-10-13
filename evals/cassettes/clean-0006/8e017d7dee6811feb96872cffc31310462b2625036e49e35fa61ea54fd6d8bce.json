@@ -2,8 +2,8 @@
   "format": 1,
   "key": "8e017d7dee6811feb96872cffc31310462b2625036e49e35fa61ea54fd6d8bce",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:40+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -20,13 +20,13 @@
         "value": "COSUYH3473800"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Douglas-Adams",
+        "confidence": "0.96",
+        "evidence": "CONSIGNEE\nDouglas-Adams",
         "value": "Douglas-Adams"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "COSCO",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: COSCO",
         "value": "COSCO"
       },
       "container_number": {
@@ -35,32 +35,32 @@
         "value": "COSU1437486"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": "Jackson-Cross",
+        "confidence": "0.96",
+        "evidence": "NOTIFY PARTY\nJackson-Cross",
         "value": "Jackson-Cross"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "321\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Montreal",
+        "evidence": "PORT OF DISCHARGE\nMontreal",
         "value": "Montreal"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Bangkok Sukjai Trading Co., Ltd.",
+        "evidence": "PORT OF LOADING\nBangkok",
         "value": "Bangkok"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 7287462",
         "value": "7287462"
       },
@@ -70,33 +70,33 @@
         "value": "Bangkok Sukjai Trading Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "02/19/2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n02/19/2026",
         "value": "02/19/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "4,851.38 kg",
         "value": "4,851.38 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "321",
+        "confidence": "0.95",
+        "evidence": "321\nCARTONS",
         "value": "321"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO ZEPHYR / 849S",
         "value": "COSCO ZEPHYR"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO ZEPHYR / 849S",
         "value": "849S"
       }
     },
-    "input_tokens": 499,
-    "latency_ms": 0,
-    "output_tokens": 374
+    "input_tokens": 2330,
+    "latency_ms": 5241,
+    "output_tokens": 749
   }
 }

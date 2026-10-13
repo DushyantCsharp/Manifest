@@ -2,8 +2,8 @@
   "format": 1,
   "key": "79063e491adcf3d2f4a664f74f5f2b2c7bf15f1775949c4beb3463b4d10eee9f",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:53+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,151 +15,151 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Hebert Baron S.A. _ | FCA Istanbul",
+        "confidence": "0.93",
+        "evidence": "Hebert Baron S.A.",
         "value": "Hebert Baron S.A."
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "75555 Efe Park, 05262. Istanbul, Turkey. ae ; iz Date . 02.07.2026",
+        "confidence": "0.9",
+        "evidence": "Date . 02.07.2026",
         "value": "02.07.2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Hebert Baron S.A. _ | FCA Istanbul",
+        "confidence": "0.9",
+        "evidence": "FCA Istanbul",
         "value": "FCA Istanbul"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "_ Sener Sti. ' Invoice Ref. RE-26-1583",
+        "confidence": "0.95",
+        "evidence": "Invoice Ref. RE-26-1583",
         "value": "RE-26-1583"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "confidence": "0.88",
+            "evidence": "MY 9.180",
             "value": "MY"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "confidence": "0.95",
+            "evidence": "Nitrile examination gloves, box of 100",
             "value": "Nitrile examination gloves, box of 100"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "confidence": "0.93",
+            "evidence": "5.460,59 kg",
             "value": "5.460,59 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "confidence": "0.93",
+            "evidence": "4.415,58 kg",
             "value": "4.415,58 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "confidence": "0.9",
+            "evidence": "MY 9.180 sets",
             "value": "9.180"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "confidence": "0.9",
+            "evidence": "9.180 sets",
             "value": "sets"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "75555 Efe Park, 05262. Istanbul, Turkey. ae ; iz Date . 02.07.2026",
-            "value": "Turkey"
+            "confidence": "0.4",
+            "evidence": "micron T 3.100",
+            "value": "T"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "confidence": "0.95",
+            "evidence": "Aluminium household foil 12 micron",
             "value": "Aluminium household foil 12 micron"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "confidence": "0.93",
+            "evidence": "3.366,60 kg",
             "value": "3.366,60 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "confidence": "0.93",
+            "evidence": "3.100,00 kg",
             "value": "3.100,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron T 3.100 kg “ 155 3.100,00 kg 3.366,60 kg",
+            "confidence": "0.9",
+            "evidence": "3.100 kg",
             "value": "3.100"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Nitrile examination gloves, box of 100 MY 9.180 sets -°918 4.415,58 kg 5.460,59 kg",
+            "confidence": "0.9",
+            "evidence": "3.100 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "confidence": "0.92",
+            "evidence": "CN 304 pcs",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "confidence": "0.95",
+            "evidence": "AC induction motor 0.55kW 3-phase",
             "value": "AC induction motor 0.55kW 3-phase"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "confidence": "0.93",
+            "evidence": "2.611,27 kg",
             "value": "2.611,27 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "confidence": "0.93",
+            "evidence": "2.243,52 kg",
             "value": "2.243,52 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "confidence": "0.92",
+            "evidence": "CN 304 pcs",
             "value": "304"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 AC induction motor 0.55kW 3-phase . CN 304 pcs 152 2.243,52 kg 2.611,27 kg",
+            "confidence": "0.92",
+            "evidence": "304 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "confidence": "0.9",
+        "evidence": "1225 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.72",
-        "evidence": "_ Sener Sti. ' Invoice Ref. RE-26-1583",
+        "confidence": "0.5",
+        "evidence": "_ Sener Sti. '",
         "value": "Sener Sti."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "confidence": "0.93",
+        "evidence": "11.438,46 kg",
         "value": "11.438,46 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "confidence": "0.93",
+        "evidence": "9.759,10 kg",
         "value": "9.759,10 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total . 1225 CARTONS 9.759,10 kg 11.438,46 kg",
+        "confidence": "0.85",
+        "evidence": "Total . 1225 CARTONS",
         "value": "1225"
       }
     },
-    "input_tokens": 397,
-    "latency_ms": 0,
-    "output_tokens": 1009
+    "input_tokens": 2394,
+    "latency_ms": 6308,
+    "output_tokens": 1155
   }
 }

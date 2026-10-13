@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "989049e7e1e7bd7069b17688db2237bbd446f330b54b93bcab05e05bceb87fa8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:15+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Desktop computer system unit with processor, memory and storage, no monitor\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8471 Automatic data processing machines and units thereof, magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n\nChoose the subheading that covers these goods. Options:\n- 847150: Units of automatic data processing machines; processing units other than those of item no. 8471.41 or 8471.49, whether or not containing in the same housing one or two of the following types of unit: storage units, input units or output units\n- 847170: Units of automatic data processing machines; storage units\n- 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n- 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n- 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n- 847180: Units of automatic data processing machines; n.e.c. in item no. 8471.50, 8471.60 or 8471.70\n- 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n- 847190: Magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "391f08b7ba0e10c608b13029b7e757cc53f7318a018fa5376249be02b22328b3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "847150",
+      "cited": [
+        "847150"
+      ],
+      "confidence": "0.85",
+      "reason": "A desktop system unit with processor, memory and storage but no monitor is a processing unit housing storage, which falls under 8471.50, not a complete system under 8471.41 or 8471.49 as no input/output unit is presented with it."
+    },
+    "input_tokens": 1317,
+    "latency_ms": 3560,
+    "output_tokens": 109
+  }
+}

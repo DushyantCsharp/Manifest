@@ -1,80 +1,125 @@
 {
   "format": 1,
   "key": "7bac81141c8f553a01b37695f467f9d8f06654de3ac1e459d5f4e99807eca821",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Fresh avocados origin MX",
   "limit": 20,
   "candidates": [
     {
       "code": "080440",
       "description": "Fruit, edible; avocados, fresh or dried",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "080410",
       "description": "Fruit, edible; dates, fresh or dried",
-      "score": "0.016129",
+      "score": "0.031498",
       "ranks": {
-        "lexical": 2
+        "lexical": 3,
+        "vector": 4
       }
     },
     {
       "code": "080420",
       "description": "Fruit, edible; figs, fresh or dried",
-      "score": "0.015873",
+      "score": "0.031498",
       "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "080430",
-      "description": "Fruit, edible; pineapples, fresh or dried",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
+        "lexical": 4,
+        "vector": 3
       }
     },
     {
       "code": "080450",
       "description": "Fruit, edible; guavas, mangoes and mangosteens, fresh or dried",
-      "score": "0.015385",
+      "score": "0.031281",
       "ranks": {
-        "lexical": 5
+        "lexical": 6,
+        "vector": 2
       }
     },
     {
-      "code": "040610",
-      "description": "Dairy produce; fresh cheese (including whey cheese), not fermented, and curd",
+      "code": "080430",
+      "description": "Fruit, edible; pineapples, fresh or dried",
+      "score": "0.030769",
+      "ranks": {
+        "lexical": 5,
+        "vector": 5
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "080720",
+      "description": "Fruit, edible; papaws (papayas), fresh",
       "score": "0.015152",
       "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "040790",
-      "description": "Birds' eggs, in shell; preserved or cooked",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "040721",
-      "description": "Birds' eggs, in shell; fresh, not for incubation, of fowls of the species Gallus domesticus (domestic hens)",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
+        "lexical": null,
+        "vector": 6
       }
     },
     {
       "code": "040711",
       "description": "Birds' eggs, in shell; fresh, fertilised eggs for incubation, of fowls of the species Gallus domesticus (domestic hens)",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "080910",
+      "description": "Fruit, edible; apricots, fresh",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "040719",
+      "description": "Birds' eggs, in shell; fresh, fertilised eggs for incubation, other than fowls of the species Gallus domesticus (domestic hens)",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "080719",
+      "description": "Fruit, edible; melons, other than watermelons, fresh",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "040721",
+      "description": "Birds' eggs, in shell; fresh, not for incubation, of fowls of the species Gallus domesticus (domestic hens)",
       "score": "0.014493",
       "ranks": {
-        "lexical": 9
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "080262",
+      "description": "Nuts, edible; macadamia, fresh or dried, shelled",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
       }
     },
     {
@@ -82,87 +127,62 @@
       "description": "Birds' eggs, in shell; fresh, not for incubation, other than fowls of the species Gallus domesticus (domestic hens)",
       "score": "0.014286",
       "ranks": {
-        "lexical": 10
+        "lexical": 10,
+        "vector": null
       }
     },
     {
-      "code": "040719",
-      "description": "Birds' eggs, in shell; fresh, fertilised eggs for incubation, other than fowls of the species Gallus domesticus (domestic hens)",
-      "score": "0.014085",
+      "code": "080540",
+      "description": "Fruit, edible; grapefruit and pomelos, fresh or dried",
+      "score": "0.014286",
       "ranks": {
-        "lexical": 11
+        "lexical": null,
+        "vector": 10
       }
     },
     {
       "code": "040819",
       "description": "Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",
-      "score": "0.013889",
+      "score": "0.014085",
       "ranks": {
-        "lexical": 12
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "080711",
+      "description": "Fruit, edible; watermelons, fresh",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
       }
     },
     {
       "code": "040899",
       "description": "Eggs; birds' eggs (not in shell, excluding yolks only), fresh, cooked by steaming or boiling in water, moulded, frozen, otherwise preserved, whether or not containing added sugar or other sweetening matter",
-      "score": "0.013699",
+      "score": "0.013889",
       "ranks": {
-        "lexical": 13
+        "lexical": 12,
+        "vector": null
+      }
+    },
+    {
+      "code": "080261",
+      "description": "Nuts, edible; macadamia, fresh or dried, in shell",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": null,
+        "vector": 12
       }
     },
     {
       "code": "041090",
       "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.013514",
+      "score": "0.013699",
       "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "293979",
-      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "040811",
-      "description": "Eggs; birds' eggs, yolks, dried, whether or not containing added sugar or other sweetening matter",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "040891",
-      "description": "Eggs; birds' eggs (not in shell, excluding yolks only), dried, whether or not containing added sugar or other sweetening matter",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": 13,
+        "vector": null
       }
     }
   ]

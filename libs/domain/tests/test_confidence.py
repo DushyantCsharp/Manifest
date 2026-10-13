@@ -107,7 +107,8 @@ def test_empty_and_invalid() -> None:
 @given(st.decimals(min_value=0, max_value=1, allow_nan=False))
 def test_stored_never_overstates(value: Decimal) -> None:
     assert stored(value) <= value
-    assert value - stored(value) < Decimal("0.0001")
+    # Not ``value - stored(value) < 0.0001``: subtraction rounds to the context's 28 digits.
+    assert value < stored(value) + Decimal("0.0001")
 
 
 # ---------------------------------------------------------------- settling a field

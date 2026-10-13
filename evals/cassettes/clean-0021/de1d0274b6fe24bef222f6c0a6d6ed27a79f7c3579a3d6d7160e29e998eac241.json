@@ -2,8 +2,8 @@
   "format": 1,
   "key": "de1d0274b6fe24bef222f6c0a6d6ed27a79f7c3579a3d6d7160e29e998eac241",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:53+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "COSUOU8350124",
         "value": "COSUOU8350124"
       },
@@ -25,42 +25,42 @@
         "value": "Savage, Huffman and Waters"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "COSCO",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: COSCO.",
         "value": "COSCO"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSU9024241",
         "value": "COSU9024241"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.96",
+        "evidence": "110\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Savannah",
+        "evidence": "PORT OF DISCHARGE\nSavannah",
         "value": "Savannah"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Nhava Sheva",
+        "evidence": "PORT OF LOADING\nNhava Sheva",
         "value": "Nhava Sheva"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 1388950",
         "value": "1388950"
       },
@@ -71,32 +71,32 @@
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "03/31/2026",
+        "evidence": "SHIPPED ON BOARD\n03/31/2026",
         "value": "03/31/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "1,856.70 kg",
         "value": "1,856.70 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "110",
+        "confidence": "0.96",
+        "evidence": "110\nCARTONS",
         "value": "110"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO HARMONY / 148S",
         "value": "COSCO HARMONY"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO HARMONY / 148S",
         "value": "148S"
       }
     },
-    "input_tokens": 494,
-    "latency_ms": 0,
-    "output_tokens": 369
+    "input_tokens": 2304,
+    "latency_ms": 4429,
+    "output_tokens": 713
   }
 }

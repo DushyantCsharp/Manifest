@@ -2,8 +2,8 @@
   "format": 1,
   "key": "3261e974c660926bdb366295599e6ed1f5d0583778dfafb23da54c6c2217ef56",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:52+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Brown-Rose",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nBrown-Rose",
         "value": "Brown-Rose"
       },
       "date": {
@@ -25,7 +25,7 @@
         "value": "September 21, 2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FOB Guayaquil",
         "value": "FOB Guayaquil"
       },
@@ -37,161 +37,161 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.95",
+            "evidence": "1.1kW IT 120",
             "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.96",
+            "evidence": "Centrifugal water pump 1.1kW IT 120 pcs",
             "value": "Centrifugal water pump 1.1kW"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.96",
+            "evidence": "3,516.1 lb",
             "value": "3,516.1 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.96",
+            "evidence": "3,019.6 lb",
             "value": "3,019.6 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.95",
+            "evidence": "IT 120 pcs 120",
             "value": "120"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.95",
+            "evidence": "120 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "confidence": "0.95",
+            "evidence": "BTU CN 102",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "confidence": "0.96",
+            "evidence": "Split air conditioner 12000 BTU CN 102 pcs",
             "value": "Split air conditioner 12000 BTU"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "confidence": "0.96",
+            "evidence": "9,392.8 lb",
             "value": "9,392.8 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "confidence": "0.96",
+            "evidence": "8,635.3 lb",
             "value": "8,635.3 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "confidence": "0.95",
+            "evidence": "CN 102 pcs 102",
             "value": "102"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.95",
+            "evidence": "102 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "confidence": "0.95",
+            "evidence": "grade 1 ET 8,940",
             "value": "ET"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "confidence": "0.96",
+            "evidence": "Green Arabica coffee beans, grade 1 ET 8,940 kg",
             "value": "Green Arabica coffee beans, grade 1"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "confidence": "0.96",
+            "evidence": "20,819.6 lb",
             "value": "20,819.6 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "confidence": "0.96",
+            "evidence": "19,709.3 lb",
             "value": "19,709.3 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "confidence": "0.95",
+            "evidence": "ET 8,940 kg",
             "value": "8,940"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 Green Arabica coffee beans, grade 1 ET 8,940 kg 149 19,709.3 lb 20,819.6 lb",
+            "confidence": "0.95",
+            "evidence": "8,940 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 102 pcs 102 8,635.3 lb 9,392.8 lb",
+            "confidence": "0.95",
+            "evidence": "40cm CN 15,800",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "confidence": "0.96",
+            "evidence": "Inflatable beach ball 40cm CN 15,800 pcs",
             "value": "Inflatable beach ball 40cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "confidence": "0.96",
+            "evidence": "2,842.6 lb",
             "value": "2,842.6 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "confidence": "0.96",
+            "evidence": "2,647.3 lb",
             "value": "2,647.3 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Inflatable beach ball 40cm CN 15,800 pcs 79 2,647.3 lb 2,842.6 lb",
+            "confidence": "0.95",
+            "evidence": "CN 15,800 pcs",
             "value": "15,800"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Centrifugal water pump 1.1kW IT 120 pcs 120 3,019.6 lb 3,516.1 lb",
+            "confidence": "0.95",
+            "evidence": "15,800 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "confidence": "0.93",
+        "evidence": "Total 470 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Fátima Quintanilla Ferreras S.L.",
         "value": "Fátima Quintanilla Ferreras S.L."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "confidence": "0.95",
+        "evidence": "37,556.4 lb",
         "value": "37,556.4 lb"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "confidence": "0.95",
+        "evidence": "34,912.8 lb",
         "value": "34,912.8 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 470 CARTONS 34,912.8 lb 37,556.4 lb",
+        "confidence": "0.95",
+        "evidence": "Total 470 CARTONS",
         "value": "470"
       }
     },
-    "input_tokens": 411,
-    "latency_ms": 0,
-    "output_tokens": 1150
+    "input_tokens": 2431,
+    "latency_ms": 8219,
+    "output_tokens": 1476
   }
 }

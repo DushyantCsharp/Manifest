@@ -2,8 +2,8 @@
   "format": 1,
   "key": "2e50b9e0346b744baa9675791a231d6eff903bfb8e6b88be3571aefa1bc50956",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:12+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,161 +15,161 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.8",
         "evidence": "Larysz Sp.j.",
         "value": "Larysz Sp.j."
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": ". EUR",
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.77",
+        "confidence": "0.8",
         "evidence": "CFR Gdarisk",
         "value": "CFR Gdarisk"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "08.07.2026",
         "value": "08.07.2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "RE-26-0140 —",
+        "confidence": "0.9",
+        "evidence": "RE-26-0140",
         "value": "RE-26-0140"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.80",
-            "evidence": "3,07. 54-646,00",
-            "value": "54-646,00"
+            "confidence": "0.6",
+            "evidence": "54-646,00",
+            "value": "54.646,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "“hattogram - Bangladesh",
-            "value": "Bangladesh"
+            "confidence": "0.9",
+            "evidence": "jersey BD",
+            "value": "BD"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "ye Men's crew-neck T-shirt, 100% cotton jersey BD",
+            "confidence": "0.9",
+            "evidence": "Men's crew-neck T-shirt, 100% cotton jersey",
             "value": "Men's crew-neck T-shirt, 100% cotton jersey"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "17.800 pcs —",
+            "confidence": "0.85",
+            "evidence": "17.800 pcs",
             "value": "17.800"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "17.800 pcs —",
+            "confidence": "0.85",
+            "evidence": "17.800 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3,07. 54-646,00",
+            "confidence": "0.5",
+            "evidence": "3,07.",
             "value": "3,07"
           }
         },
         {
           "amount": {
-            "confidence": "0.80",
-            "evidence": "_ 37-345,92",
-            "value": "37-345,92"
+            "confidence": "0.6",
+            "evidence": "37-345,92",
+            "value": "37.345,92"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "“hattogram - Bangladesh",
-            "value": "Bangladesh"
+            "confidence": "0.85",
+            "evidence": "pullover se BD",
+            "value": "BD"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover se BD",
+            "confidence": "0.9",
+            "evidence": "Cotton knitted pullover",
             "value": "Cotton knitted pullover"
           },
           "quantity": {
-            "confidence": "0.97",
+            "confidence": "0.85",
             "evidence": "2.544 Pes",
             "value": "2.544"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "17.800 pcs —",
-            "value": "pcs"
+            "confidence": "0.7",
+            "evidence": "2.544 Pes",
+            "value": "Pes"
           },
           "unit_price": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "14,68",
             "value": "14,68"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
+            "confidence": "0.85",
             "evidence": "7.792,80",
             "value": "7.792,80"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "“hattogram - Bangladesh",
-            "value": "Bangladesh"
+            "confidence": "0.9",
+            "evidence": "long sleave BD",
+            "value": "BD"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.88",
-            "evidence": "3 Men's woven cotton shirt, long sleave BD",
+            "confidence": "0.9",
+            "evidence": "Men's woven cotton shirt, long sleave",
             "value": "Men's woven cotton shirt, long sleave"
           },
           "quantity": {
-            "confidence": "0.97",
+            "confidence": "0.85",
             "evidence": "1.360 pes",
             "value": "1.360"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "17.800 pcs —",
-            "value": "pcs"
+            "confidence": "0.7",
+            "evidence": "1.360 pes",
+            "value": "pes"
           },
           "unit_price": {
-            "confidence": "0.68",
+            "confidence": "0.6",
             "evidence": "5:73",
-            "value": "5:73"
+            "value": "5,73"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "Cash against documents",
+        "confidence": "0.7",
+        "evidence": "Cash against\ndocuments",
         "value": "Cash against documents"
       },
       "seller_name": {
-        "confidence": "0.84",
-        "evidence": "ogram Padma Manufacturing Co., Ltd. - No. 280 Ring Road - C",
-        "value": "ogram Padma Manufacturing Co., Ltd."
+        "confidence": "0.6",
+        "evidence": "Padma Manufacturing Co., Ltd.",
+        "value": "Padma Manufacturing Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Gesamtbetrag / Total 99.784,72 EUR",
         "value": "99.784,72"
       }
     },
-    "input_tokens": 457,
-    "latency_ms": 0,
-    "output_tokens": 696
+    "input_tokens": 2385,
+    "latency_ms": 7106,
+    "output_tokens": 1123
   }
 }

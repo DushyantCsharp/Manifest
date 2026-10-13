@@ -2,8 +2,8 @@
   "format": 1,
   "key": "eda063e704cd8fdc7730e5b2817f872d451c4e3b3fa045d325c686764580b713",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:28+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Robbins, Clark and Barnett",
         "value": "Robbins, Clark and Barnett"
       },
@@ -25,7 +25,7 @@
         "value": "28-JUN-2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CPT Los Angeles",
         "value": "CPT Los Angeles"
       },
@@ -37,289 +37,289 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "CN 1,190",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "Smartphone 6.1in, 128GB",
             "value": "Smartphone 6.1in, 128GB"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "295.21 kg",
             "value": "295.21 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "272.51 kg",
             "value": "272.51 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "CN 1,190 pcs",
             "value": "1,190"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "1,190 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "CN 2,360",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "confidence": "0.95",
+            "evidence": "Hair dryer 2200W ionic",
             "value": "Hair dryer 2200W ionic"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "confidence": "0.95",
+            "evidence": "1,916.31 kg",
             "value": "1,916.31 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "confidence": "0.95",
+            "evidence": "1,673.24 kg",
             "value": "1,673.24 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Hair dryer 2200W ionic CN 2,360 pcs 118 1,673.24 kg 1,916.31 kg",
+            "confidence": "0.95",
+            "evidence": "CN 2,360 pcs",
             "value": "2,360"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "2,360 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "confidence": "0.95",
+            "evidence": "VN 11,732",
             "value": "VN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "Rubber flip-flops, thong plugged into the sole",
+            "confidence": "0.85",
+            "evidence": "Rubber flip-flops, thong plugged into the",
             "value": "Rubber flip-flops, thong plugged into the sole"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "confidence": "0.95",
+            "evidence": "2,837.15 kg",
             "value": "2,837.15 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "confidence": "0.95",
+            "evidence": "2,651.43 kg",
             "value": "2,651.43 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "confidence": "0.95",
+            "evidence": "VN 11,732 pairs",
             "value": "11,732"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "VN 11,732 pairs 196 2,651.43 kg 2,837.15 kg",
+            "confidence": "0.95",
+            "evidence": "11,732 pairs",
             "value": "pairs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "confidence": "0.95",
+            "evidence": "PT 6,713",
             "value": "PT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "confidence": "0.95",
+            "evidence": "Porcelain dinner plate 27cm",
             "value": "Porcelain dinner plate 27cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "confidence": "0.95",
+            "evidence": "4,382.96 kg",
             "value": "4,382.96 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "confidence": "0.95",
+            "evidence": "4,141.92 kg",
             "value": "4,141.92 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm PT 6,713 pcs 280 4,141.92 kg 4,382.96 kg",
+            "confidence": "0.95",
+            "evidence": "PT 6,713 pcs",
             "value": "6,713"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "6,713 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "confidence": "0.95",
+            "evidence": "MX 285",
             "value": "MX"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "confidence": "0.95",
+            "evidence": "LED television 55in 4K",
             "value": "LED television 55in 4K"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "confidence": "0.95",
+            "evidence": "4,939.42 kg",
             "value": "4,939.42 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "confidence": "0.95",
+            "evidence": "4,494.17 kg",
             "value": "4,494.17 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 LED television 55in 4K MX 285 pcs 285 4,494.17 kg 4,939.42 kg",
+            "confidence": "0.95",
+            "evidence": "MX 285 pcs",
             "value": "285"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "285 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "confidence": "0.95",
+            "evidence": "KE 7,000",
             "value": "KE"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "confidence": "0.95",
+            "evidence": "Black tea, CTC, bulk",
             "value": "Black tea, CTC, bulk"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "confidence": "0.95",
+            "evidence": "7,565.60 kg",
             "value": "7,565.60 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "confidence": "0.95",
+            "evidence": "7,000.00 kg",
             "value": "7,000.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Black tea, CTC, bulk KE 7,000 kg 140 7,000.00 kg 7,565.60 kg",
+            "confidence": "0.93",
+            "evidence": "KE 7,000 kg",
             "value": "7,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.93",
+            "evidence": "7,000 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "confidence": "0.95",
+            "evidence": "IN 750",
             "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "confidence": "0.95",
+            "evidence": "Leather handbag with shoulder strap",
             "value": "Leather handbag with shoulder strap"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "confidence": "0.95",
+            "evidence": "598.11 kg",
             "value": "598.11 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "confidence": "0.95",
+            "evidence": "552.00 kg",
             "value": "552.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7 Leather handbag with shoulder strap IN 750 pcs 75 552.00 kg 598.11 kg",
+            "confidence": "0.95",
+            "evidence": "IN 750 pcs",
             "value": "750"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "750 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "confidence": "0.95",
+            "evidence": "KH 55",
             "value": "KH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "confidence": "0.95",
+            "evidence": "City bicycle 28in, 7-speed",
             "value": "City bicycle 28in, 7-speed"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "confidence": "0.95",
+            "evidence": "949.65 kg",
             "value": "949.65 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "confidence": "0.95",
+            "evidence": "885.28 kg",
             "value": "885.28 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "8 City bicycle 28in, 7-speed KH 55 pcs 55 885.28 kg 949.65 kg",
+            "confidence": "0.95",
+            "evidence": "KH 55 pcs",
             "value": "55"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Smartphone 6.1in, 128GB CN 1,190 pcs 30 272.51 kg 295.21 kg",
+            "confidence": "0.95",
+            "evidence": "55 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "confidence": "0.93",
+        "evidence": "Total 1179 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Gazipur Karim Import & Export Co., Ltd.",
         "value": "Gazipur Karim Import & Export Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "confidence": "0.95",
+        "evidence": "21,670.55 kg 23,484.41 kg",
         "value": "23,484.41 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "confidence": "0.95",
+        "evidence": "21,670.55 kg 23,484.41 kg",
         "value": "21,670.55 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1179 CARTONS 21,670.55 kg 23,484.41 kg",
+        "confidence": "0.95",
+        "evidence": "Total 1179 CARTONS",
         "value": "1179"
       }
     },
-    "input_tokens": 489,
-    "latency_ms": 0,
-    "output_tokens": 1946
+    "input_tokens": 2612,
+    "latency_ms": 11799,
+    "output_tokens": 2417
   }
 }

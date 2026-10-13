@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "fae96c6d721555ee693be02248e335dd390c1b69a238d3b45f6809b3c21cf3fb",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:33+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Household aluminium foil 12 micron, rolls\nCountry of origin: CN\n\nChosen so far: 76 Aluminium and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 7607: Aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0.2mm\n    contains 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n    contains 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n    contains 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n- 7616: Aluminium; articles n.e.c. in chapter 76\n    contains 761691: Aluminium; cloth, grill, netting and fencing, of aluminium wire\n- 7606: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm\n    contains 760612: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)\n- 7615: Aluminium; table, kitchen or other household articles and parts thereof, pot scourers and scouring or polishing pads, gloves and the like, sanitary ware and parts thereof\n    contains 761510: Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7c66d725f765ab5e92aef0917f58114e7d9f496a68ad023734edcda763bb411e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7607",
+      "cited": [
+        "7607",
+        "760711"
+      ],
+      "confidence": "0.93",
+      "reason": "Aluminium foil of 12 micron (0.012 mm) is within the thickness limit of 0.2 mm, and heading 7607 covers foil specifically, taking precedence over the household articles heading 7615 and the residual heading 7616."
+    },
+    "input_tokens": 1300,
+    "latency_ms": 3430,
+    "output_tokens": 116
+  }
+}

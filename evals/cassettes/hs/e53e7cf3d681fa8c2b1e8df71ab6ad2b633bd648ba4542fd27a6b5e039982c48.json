@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "e53e7cf3d681fa8c2b1e8df71ab6ad2b633bd648ba4542fd27a6b5e039982c48",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:51+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Solid oak bed frame, queen size\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940141: Seats; convertible into beds of wood, other than garden seats or camping equipment\n    contains 940169: Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940149: Seats; convertible into beds of other than wood, other than garden seats or camping equipment\n    contains 940490: Bedding and similar furnishing articles; n.e.c. in heading no. 9404 (e.g. quilts, eiderdowns, cushions, pouffes and pillows)\n    contains 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940290: Furniture; for medical, surgical, veterinary use (e.g. operating tables, examination tables, hospital beds with mechanical fittings) and parts thereof\n    contains 940350: Furniture; wooden, for bedroom use\n    contains 940389: Furniture; of cane, osier, or similar materials (other than bamboo or rattan)\n    contains 940360: Furniture; wooden, other than for office, kitchen or bedroom use\n    contains 940159: Seats; of cane, osier or similar materials, other than bamboo or rattan\n    contains 940391: Furniture; parts, of wood\n- 44: Wood and articles of wood; wood charcoal\n    contains 441410: Wooden frames; for paintings, photographs, mirrors or similar objects; of tropical wood\n    contains 441490: Wooden frames; for paintings, photographs, mirrors or similar objects; not of tropical wood\n    contains 440391: Wood; oak, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 66: Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof\n    contains 660320: Umbrella frames; including frames mounted on shafts (sticks)\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 847480: Machines; for agglomerating, shaping or moulding solid mineral fuels, ceramic paste, unhardened cements, plastering materials in powder or paste form, machines for forming foundry moulds of sand\n    contains 847490: Machines, for sorting, screening, separating, washing, crushing etc mineral substances, for agglomerating, shaping or moulding solid fuels, ceramic pastes etc, for forming foundry moulds of sand; parts\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "17b1a22abf22c05c62d289f20f7a78848f2364f900fa3e70211094cc79b5323f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "94",
+      "cited": [
+        "94",
+        "940350"
+      ],
+      "confidence": "0.97",
+      "reason": "A wooden bed frame is bedroom furniture, which falls in Chapter 94 (subheading 940350, wooden furniture for bedroom use), not in Chapter 44, which covers raw wood and wooden articles not classified elsewhere."
+    },
+    "input_tokens": 1998,
+    "latency_ms": 3122,
+    "output_tokens": 115
+  }
+}

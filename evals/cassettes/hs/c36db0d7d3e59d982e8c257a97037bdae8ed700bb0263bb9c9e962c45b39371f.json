@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "c36db0d7d3e59d982e8c257a97037bdae8ed700bb0263bb9c9e962c45b39371f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:13+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh Cavendish bananas\nCountry of origin: EC\n\nChoose the chapter that covers these goods. Options:\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 080390: Fruit, edible; bananas, other than plantains, fresh or dried\n    contains 080310: Fruit, edible; plantains, fresh or dried\n    contains 081050: Fruit, edible; kiwifruit, fresh\n    contains 081030: Fruit, edible; black, white or red currants and gooseberries, fresh\n    contains 081060: Fruit, edible; durians, fresh\n    contains 080720: Fruit, edible; papaws (papayas), fresh\n    contains 080719: Fruit, edible; melons, other than watermelons, fresh\n    contains 081010: Fruit, edible; strawberries, fresh\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040711: Birds' eggs, in shell; fresh, fertilised eggs for incubation, of fowls of the species Gallus domesticus (domestic hens)\n    contains 040719: Birds' eggs, in shell; fresh, fertilised eggs for incubation, other than fowls of the species Gallus domesticus (domestic hens)\n    contains 040721: Birds' eggs, in shell; fresh, not for incubation, of fowls of the species Gallus domesticus (domestic hens)\n    contains 040729: Birds' eggs, in shell; fresh, not for incubation, other than fowls of the species Gallus domesticus (domestic hens)\n    contains 040819: Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter\n    contains 040899: Eggs; birds' eggs (not in shell, excluding yolks only), fresh, cooked by steaming or boiling in water, moulded, frozen, otherwise preserved, whether or not containing added sugar or other sweetening matter\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 07: Vegetables and certain roots and tubers; edible\n    contains 070930: Vegetables; aubergines, (e.g. plants), fresh or chilled\n    contains 070999: Vegetables; edible, n.e.c. in chapter 07, fresh or chilled\n    contains 070190: Vegetables; potatoes (other than seed), fresh or chilled\n- 05: Animal originated products; not elsewhere specified or included\n    contains 050400: Animal products; guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c3da6273b671ee959811dbaa0d36f0ac7d278bde1ea98c71f110356d3e30aa57",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "08",
+      "cited": [
+        "08",
+        "080390"
+      ],
+      "confidence": "0.98",
+      "reason": "Fresh Cavendish bananas are edible fruit, covered by Chapter 08 (subheading 080390, bananas other than plantains, fresh)."
+    },
+    "input_tokens": 1844,
+    "latency_ms": 3016,
+    "output_tokens": 86
+  }
+}

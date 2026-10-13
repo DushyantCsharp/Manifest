@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "8c4f8feb64881dc6b14d3e7e7beeba37a12a897ee2df537d61fc0facfba9357c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:07+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Spark plugs for petrol engines\nCountry of origin: JP\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8511 Ignition or starting equipment; used for spark-ignition or compression-ignition internal combustion engines; generators and cut outs used in conjunction with such engines\n\nChoose the subheading that covers these goods. Options:\n- 851110: Ignition or starting equipment; spark plugs, of a kind used for spark or compression-ignition internal combustion engines\n- 851130: Ignition or starting equipment; distributors and ignition coils of a kind used for spark-ignition or compression-ignition internal combustion engines\n- 851120: Ignition or starting equipment; ignition magnetos, magneto-dynamos and magnetic flywheels, of a kind used for spark or compression-ignition internal combustion engines\n- 851190: Ignition or starting equipment; parts of the equipment of heading no. 8511, for use in spark-ignition or compression-ignition internal combustion engines\n- 851180: Ignition or starting equipment; n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n- 851150: Ignition or starting equipment; generators n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n- 851140: Ignition or starting equipment; starter motors and dual purpose starter-generators, of a kind used for spark or compression-ignition internal combustion engines\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6e710ec9a56c1ca0726fc44bfcb6230290152d93795e8e0fe1ddc2ad9aadda3c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "851110",
+      "cited": [
+        "851110"
+      ],
+      "confidence": "0.98",
+      "reason": "Spark plugs for petrol (spark-ignition) engines are expressly covered by subheading 8511.10."
+    },
+    "input_tokens": 1309,
+    "latency_ms": 2750,
+    "output_tokens": 70
+  }
+}

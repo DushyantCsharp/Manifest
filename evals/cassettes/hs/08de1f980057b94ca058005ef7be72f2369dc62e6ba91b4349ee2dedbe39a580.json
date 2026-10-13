@@ -2,8 +2,8 @@
   "format": 1,
   "key": "08de1f980057b94ca058005ef7be72f2369dc62e6ba91b4349ee2dedbe39a580",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:50:27+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -18,11 +18,11 @@
       "cited": [
         "180632"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.97",
+      "reason": "Milk chocolate bars of 100g that are not filled are chocolate in bars weighing 2kg or less, not filled, which is exactly what 180632 covers."
     },
-    "input_tokens": 427,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 1055,
+    "latency_ms": 4415,
+    "output_tokens": 87
   }
 }

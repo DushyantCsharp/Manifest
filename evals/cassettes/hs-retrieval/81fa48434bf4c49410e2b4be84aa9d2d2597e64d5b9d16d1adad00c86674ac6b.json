@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "81fa48434bf4c49410e2b4be84aa9d2d2597e64d5b9d16d1adad00c86674ac6b",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Frozen concentrated orange juice origin BR",
   "limit": 20,
   "candidates": [
     {
       "code": "200911",
       "description": "Juice; orange, frozen, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "200912",
       "description": "Juice; orange, not frozen, of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
-      "score": "0.016129",
+      "score": "0.032002",
       "ranks": {
-        "lexical": 2
+        "lexical": 2,
+        "vector": 3
       }
     },
     {
       "code": "200919",
       "description": "Juice; orange, not frozen, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
-      "score": "0.015873",
+      "score": "0.032002",
       "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "200931",
-      "description": "Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
+        "lexical": 3,
+        "vector": 2
       }
     },
     {
       "code": "200939",
       "description": "Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
-      "score": "0.015385",
+      "score": "0.031010",
       "ranks": {
-        "lexical": 5
+        "lexical": 5,
+        "vector": 4
       }
     },
     {
-      "code": "040410",
-      "description": "Dairy produce; whey, whether or not concentrated or containing added sugar or other sweetening matter",
-      "score": "0.015152",
+      "code": "200931",
+      "description": "Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.030777",
       "ranks": {
-        "lexical": 6
+        "lexical": 4,
+        "vector": 6
       }
     },
     {
-      "code": "040110",
-      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, not exceeding 1%",
-      "score": "0.014925",
+      "code": "200929",
+      "description": "Juice; grapefruit or pomelo, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.028043",
       "ranks": {
-        "lexical": 7
+        "lexical": 19,
+        "vector": 5
       }
     },
     {
-      "code": "040120",
-      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%",
-      "score": "0.014706",
+      "code": "200921",
+      "description": "Juice; grapefruit or pomelo, of a Brix value not exceeding 20, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter",
+      "score": "0.027746",
       "ranks": {
-        "lexical": 8
+        "lexical": 18,
+        "vector": 7
       }
     },
     {
-      "code": "040150",
-      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 10%",
-      "score": "0.014493",
+      "code": "200949",
+      "description": "Juice; pineapple, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.026838",
       "ranks": {
-        "lexical": 9
+        "lexical": 21,
+        "vector": 9
       }
     },
     {
-      "code": "040291",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
-      "score": "0.014286",
+      "code": "200941",
+      "description": "Juice; pineapple, of a Brix value not exceeding 20, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter",
+      "score": "0.026786",
       "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "400220",
-      "description": "Rubber; synthetic, butadiene rubber (BR), in primary forms or in plates, sheets or strip",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "040140",
-      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 6% but not exceeding 10%",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "040210",
-      "description": "Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "040221",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "040320",
-      "description": "Dairy produce; yoghurt, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "040390",
-      "description": "Dairy produce; buttermilk, curdled milk or cream, kephir, fermented or acidified milk or cream, whether or not concentrated or containing added sweetening, flavouring, fruit, nuts or cocoa (excluding yoghurt)",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "080510",
-      "description": "Fruit, edible; oranges, fresh or dried",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "040299",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "040229",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
+        "lexical": 20,
+        "vector": 10
       }
     },
     {
       "code": "200990",
       "description": "Juices; mixtures of fruits or vegetables (but not nut juice), unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
-      "score": "0.012500",
+      "score": "0.026646",
       "ranks": {
-        "lexical": 20
+        "lexical": 6,
+        "vector": 27
+      }
+    },
+    {
+      "code": "200981",
+      "description": "Juice; cranberry (Vaccinium macrocarpon, Vaccinium oxycoccos); Iingonberry (Vaccinium vitis-idaea), unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.026200",
+      "ranks": {
+        "lexical": 27,
+        "vector": 8
+      }
+    },
+    {
+      "code": "200969",
+      "description": "Juice; grape, of a Brix value exceeding 30, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.025794",
+      "ranks": {
+        "lexical": 24,
+        "vector": 12
+      }
+    },
+    {
+      "code": "200961",
+      "description": "Juice; grape, of a Brix value not exceeding 30, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter",
+      "score": "0.025562",
+      "ranks": {
+        "lexical": 23,
+        "vector": 14
+      }
+    },
+    {
+      "code": "200979",
+      "description": "Juice; apple, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.025327",
+      "ranks": {
+        "lexical": 26,
+        "vector": 13
+      }
+    },
+    {
+      "code": "200971",
+      "description": "Juice; apple, of a Brix value not exceeding 20, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter",
+      "score": "0.025098",
+      "ranks": {
+        "lexical": 25,
+        "vector": 15
+      }
+    },
+    {
+      "code": "200989",
+      "description": "Juice; of any single fruit, nut or vegetable n.e.c. in heading no. 2009, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.023864",
+      "ranks": {
+        "lexical": 28,
+        "vector": 20
+      }
+    },
+    {
+      "code": "200950",
+      "description": "Juice; tomato, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
+      "score": "0.023823",
+      "ranks": {
+        "lexical": 22,
+        "vector": 26
+      }
+    },
+    {
+      "code": "210111",
+      "description": "Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "210120",
+      "description": "Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "260200",
+      "description": "Manganese ores and concentrates, including ferruginous manganese ores and concentrates with a manganese content of 20% or more, calculated on the dry weight",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
       }
     }
   ]

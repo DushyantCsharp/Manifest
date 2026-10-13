@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "869ead06df566a451dd160afab3ddd9d389ac161fe77f44d23b5aa7f2db5698a",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Green Arabica coffee beans, not roasted, not decaffeinated origin BR",
   "limit": 20,
   "candidates": [
     {
       "code": "090111",
       "description": "Coffee; not roasted or decaffeinated",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "090112",
       "description": "Coffee; decaffeinated, not roasted",
-      "score": "0.016129",
+      "score": "0.032002",
       "ranks": {
-        "lexical": 2
+        "lexical": 2,
+        "vector": 3
       }
     },
     {
       "code": "090121",
       "description": "Coffee; roasted, not decaffeinated",
-      "score": "0.015873",
+      "score": "0.031258",
       "ranks": {
-        "lexical": 3
+        "lexical": 3,
+        "vector": 5
       }
     },
     {
       "code": "090122",
       "description": "Coffee; roasted, decaffeinated",
-      "score": "0.015625",
+      "score": "0.030777",
       "ranks": {
-        "lexical": 4
+        "lexical": 4,
+        "vector": 6
       }
     },
     {
       "code": "090190",
       "description": "Coffee; husks and skins, coffee substitutes containing coffee in any proportion",
-      "score": "0.015385",
+      "score": "0.030090",
       "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "090210",
-      "description": "Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "090220",
-      "description": "Tea, green; (not fermented), in immediate packings of a content exceeding 3kg",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
+        "lexical": 5,
+        "vector": 8
       }
     },
     {
       "code": "180100",
       "description": "Cocoa beans; whole or broken, raw or roasted",
-      "score": "0.014706",
+      "score": "0.029418",
       "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "210130",
-      "description": "Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "210112",
-      "description": "Preparations with a basis of extracts, essences or concentrates or with a basis of coffee",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
+        "lexical": 9,
+        "vector": 7
       }
     },
     {
       "code": "210111",
       "description": "Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee",
-      "score": "0.014085",
+      "score": "0.028814",
       "ranks": {
-        "lexical": 11
+        "lexical": 7,
+        "vector": 12
       }
     },
     {
-      "code": "400220",
-      "description": "Rubber; synthetic, butadiene rubber (BR), in primary forms or in plates, sheets or strip",
-      "score": "0.013889",
+      "code": "210130",
+      "description": "Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof",
+      "score": "0.028309",
       "ranks": {
-        "lexical": 12
+        "lexical": 6,
+        "vector": 16
+      }
+    },
+    {
+      "code": "210112",
+      "description": "Preparations with a basis of extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.028219",
+      "ranks": {
+        "lexical": 8,
+        "vector": 14
       }
     },
     {
       "code": "210120",
       "description": "Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate",
-      "score": "0.013699",
+      "score": "0.026172",
       "ranks": {
-        "lexical": 13
+        "lexical": 14,
+        "vector": 19
       }
     },
     {
-      "code": "110710",
-      "description": "Malt; not roasted",
-      "score": "0.013514",
+      "code": "121292",
+      "description": "Locust beans (carob); fit for human consumption, fresh, chilled, frozen or dried, whether or not ground",
+      "score": "0.026133",
       "ranks": {
-        "lexical": 14
+        "lexical": 23,
+        "vector": 11
       }
     },
     {
-      "code": "130232",
-      "description": "Mucilages and thickeners; whether or not modified, derived from locust beans, locust bean seeds or guar seeds",
-      "score": "0.013333",
+      "code": "090210",
+      "description": "Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg",
+      "score": "0.026030",
       "ranks": {
-        "lexical": 15
+        "lexical": 41,
+        "vector": 2
       }
     },
     {
-      "code": "110720",
-      "description": "Malt; roasted",
-      "score": "0.013158",
+      "code": "090220",
+      "description": "Tea, green; (not fermented), in immediate packings of a content exceeding 3kg",
+      "score": "0.025429",
       "ranks": {
-        "lexical": 16
+        "lexical": 42,
+        "vector": 4
       }
     },
     {
-      "code": "261310",
-      "description": "Molybdenum ores and concentrates; roasted",
-      "score": "0.012987",
+      "code": "120230",
+      "description": "Ground-nuts; seed, not roasted or otherwise cooked, whether or not shelled or broken",
+      "score": "0.024128",
       "ranks": {
-        "lexical": 17
+        "lexical": 20,
+        "vector": 26
       }
     },
     {
-      "code": "120110",
-      "description": "Soya beans; seed, whether or not broken",
-      "score": "0.012821",
+      "code": "120242",
+      "description": "Ground-nuts; other than seed, not roasted or otherwise cooked, shelled, whether or not broken,",
+      "score": "0.021904",
       "ranks": {
-        "lexical": 18
+        "lexical": 22,
+        "vector": 43
       }
     },
     {
-      "code": "260120",
-      "description": "Iron pyrites; roasted",
-      "score": "0.012658",
+      "code": "070820",
+      "description": "Vegetables, leguminous; beans (vigna spp., phaseolus spp.), shelled or unshelled, fresh or chilled",
+      "score": "0.020578",
       "ranks": {
-        "lexical": 19
+        "lexical": 43,
+        "vector": 32
       }
     },
     {
-      "code": "261390",
-      "description": "Molybdenum ores and concentrates; other than roasted",
-      "score": "0.012500",
+      "code": "071334",
+      "description": "Vegetables, leguminous; bambara beans (Vigna subterranea or Voandzeia subterranea), shelled, whether or not skinned or split, dried",
+      "score": "0.019275",
       "ranks": {
-        "lexical": 20
+        "lexical": 49,
+        "vector": 39
+      }
+    },
+    {
+      "code": "071332",
+      "description": "Vegetables, leguminous; small red (adzuki) beans (phaseolus or vigna angularis), shelled, whether or not skinned or split, dried",
+      "score": "0.018875",
+      "ranks": {
+        "lexical": 48,
+        "vector": 44
+      }
+    },
+    {
+      "code": "071022",
+      "description": "Vegetables, leguminous; beans (vigna spp., phaseolus spp.), shelled or unshelled, uncooked or cooked by steaming or boiling in water, frozen",
+      "score": "0.018783",
+      "ranks": {
+        "lexical": 45,
+        "vector": 48
+      }
+    },
+    {
+      "code": "090510",
+      "description": "Spices; vanilla, neither crushed nor ground",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
       }
     }
   ]

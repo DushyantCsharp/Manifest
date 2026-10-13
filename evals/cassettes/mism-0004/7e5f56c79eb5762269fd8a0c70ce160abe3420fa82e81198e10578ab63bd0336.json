@@ -2,8 +2,8 @@
   "format": 1,
   "key": "7e5f56c79eb5762269fd8a0c70ce160abe3420fa82e81198e10578ab63bd0336",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:33+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -21,47 +21,47 @@
       },
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "Brown-Rose",
+        "evidence": "CONSIGNEE\nBrown-Rose",
         "value": "Brown-Rose"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN.",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU8810919",
         "value": "EGLU8810919"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Rodriguez, Carson and Willis",
         "value": "Rodriguez, Carson and Willis"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "470\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "New York",
+        "evidence": "PORT OF DISCHARGE\nNew York",
         "value": "New York"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Guayaquil",
+        "evidence": "PORT OF LOADING\nGuayaquil",
         "value": "Guayaquil"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "2083407",
+        "confidence": "0.94",
+        "evidence": "SEAL\n2083407",
         "value": "2083407"
       },
       "seller_name": {
@@ -70,33 +70,33 @@
         "value": "Fátima Quintanilla Ferreras S.L."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "September 24, 2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\nSeptember 24, 2026",
         "value": "September 24, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "37,556.4 lb",
         "value": "37,556.4 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "470",
+        "confidence": "0.95",
+        "evidence": "470\nCARTONS",
         "value": "470"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN CALYPSO / 910N",
         "value": "EVERGREEN CALYPSO"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN CALYPSO / 910N",
         "value": "910N"
       }
     },
-    "input_tokens": 545,
-    "latency_ms": 0,
-    "output_tokens": 386
+    "input_tokens": 2394,
+    "latency_ms": 5043,
+    "output_tokens": 767
   }
 }

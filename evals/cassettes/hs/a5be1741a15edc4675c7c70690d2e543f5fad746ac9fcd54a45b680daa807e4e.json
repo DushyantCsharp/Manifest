@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "a5be1741a15edc4675c7c70690d2e543f5fad746ac9fcd54a45b680daa807e4e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:33+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Split-system air conditioner 12000 BTU, wall mounted indoor and outdoor unit\nCountry of origin: TH\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8415 Air conditioning machines; comprising a motor driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated\n\nChoose the subheading that covers these goods. Options:\n- 841510: Air conditioning machines; comprising a motor-driven fan and elements for changing the temperature and humidity, of a kind designed to be fixed to a window, wall, ceiling or floor, self-contained or split-system\n- 841581: Air conditioning machines; containing a motor driven fan, other than window or wall types, incorporating a refrigerating unit and a valve for reversal of the cooling/heat cycle (reversible heat pumps)\n- 841583: Air conditioning machines; containing a motor driven fan, other than window or wall types, not incorporating a refrigerating unit\n- 841582: Air conditioning machines; containing a motor driven fan, other than window or wall types, incorporating a refrigerating unit\n- 841590: Air conditioning machines; with motor driven fan and elements for temperature control, parts thereof\n- 841520: Air conditioning machines; comprising a motor driven fan and elements for changing the temperature and humidity, of a kind used for persons, in motor vehicles\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "bbe890899f3649220d15b92b077a5578f7b0358fb19491aae2224475f25adcbb",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "841510",
+      "cited": [
+        "841510"
+      ],
+      "confidence": "0.93",
+      "reason": "A wall-mounted split-system air conditioner is of a kind designed to be fixed to a wall, split-system, which is expressly covered by 8415.10, and is not a vehicle type or a part."
+    },
+    "input_tokens": 1251,
+    "latency_ms": 3335,
+    "output_tokens": 98
+  }
+}

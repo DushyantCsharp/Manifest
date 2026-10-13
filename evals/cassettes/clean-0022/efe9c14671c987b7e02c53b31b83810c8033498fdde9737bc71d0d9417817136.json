@@ -2,8 +2,8 @@
   "format": 1,
   "key": "efe9c14671c987b7e02c53b31b83810c8033498fdde9737bc71d0d9417817136",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:08+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Laurent",
+        "confidence": "0.93",
+        "evidence": "CONSIGNEE\nLaurent",
         "value": "Laurent"
       },
       "date": {
@@ -25,8 +25,8 @@
         "value": "08.04.2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "CPT Lille",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nCPT Lille",
         "value": "CPT Lille"
       },
       "invoice_number": {
@@ -37,129 +37,129 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Raik-Hornig-Weg 60/60, 74988 Köln, Germany",
-            "value": "Germany"
+            "confidence": "0.95",
+            "evidence": "205/55R16 DE",
+            "value": "DE"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 615 5.535,62 kg 6.692,48 kg",
+            "confidence": "0.96",
+            "evidence": "Passenger car tyre 205/55R16",
             "value": "Passenger car tyre 205/55R16"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 615 5.535,62 kg 6.692,48 kg",
+            "confidence": "0.96",
+            "evidence": "6.692,48 kg",
             "value": "6.692,48 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 615 5.535,62 kg 6.692,48 kg",
+            "confidence": "0.96",
+            "evidence": "5.535,62 kg",
             "value": "5.535,62 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 615 5.535,62 kg 6.692,48 kg",
+            "confidence": "0.95",
+            "evidence": "DE 615 pcs",
             "value": "615"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 615 5.535,62 kg 6.692,48 kg",
+            "confidence": "0.95",
+            "evidence": "615 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Raik-Hornig-Weg 60/60, 74988 Köln, Germany",
-            "value": "Germany"
+            "confidence": "0.95",
+            "evidence": "24 pieces DE",
+            "value": "DE"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 64 1.156,48 kg 1.240,03 kg",
+            "confidence": "0.96",
+            "evidence": "Stainless cutlery set, 24 pieces",
             "value": "Stainless cutlery set, 24 pieces"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 64 1.156,48 kg 1.240,03 kg",
+            "confidence": "0.96",
+            "evidence": "1.240,03 kg",
             "value": "1.240,03 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 64 1.156,48 kg 1.240,03 kg",
+            "confidence": "0.96",
+            "evidence": "1.156,48 kg",
             "value": "1.156,48 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 64 1.156,48 kg 1.240,03 kg",
+            "confidence": "0.95",
+            "evidence": "DE 640 sets",
             "value": "640"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless cutlery set, 24 pieces DE 640 sets 64 1.156,48 kg 1.240,03 kg",
+            "confidence": "0.95",
+            "evidence": "640 sets",
             "value": "sets"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Raik-Hornig-Weg 60/60, 74988 Köln, Germany",
-            "value": "Germany"
+            "confidence": "0.95",
+            "evidence": "6205-2RS DE",
+            "value": "DE"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 134 1.688,40 kg 1.884,39 kg",
+            "confidence": "0.96",
+            "evidence": "Deep groove ball bearing 6205-2RS",
             "value": "Deep groove ball bearing 6205-2RS"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 134 1.688,40 kg 1.884,39 kg",
+            "confidence": "0.96",
+            "evidence": "1.884,39 kg",
             "value": "1.884,39 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 134 1.688,40 kg 1.884,39 kg",
+            "confidence": "0.96",
+            "evidence": "1.688,40 kg",
             "value": "1.688,40 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Deep groove ball bearing 6205-2RS DE 13.400 pcs 134 1.688,40 kg 1.884,39 kg",
+            "confidence": "0.95",
+            "evidence": "DE 13.400 pcs",
             "value": "13.400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 DE 615 pcs 615 5.535,62 kg 6.692,48 kg",
+            "confidence": "0.95",
+            "evidence": "13.400 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 813 CARTONS 8.380,50 kg 9.816,90 kg",
+        "confidence": "0.93",
+        "evidence": "Total 813 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Geisel Rust GmbH",
         "value": "Geisel Rust GmbH"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 813 CARTONS 8.380,50 kg 9.816,90 kg",
+        "confidence": "0.95",
+        "evidence": "9.816,90 kg",
         "value": "9.816,90 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 813 CARTONS 8.380,50 kg 9.816,90 kg",
+        "confidence": "0.95",
+        "evidence": "8.380,50 kg",
         "value": "8.380,50 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 813 CARTONS 8.380,50 kg 9.816,90 kg",
+        "confidence": "0.95",
+        "evidence": "Total 813 CARTONS",
         "value": "813"
       }
     },
-    "input_tokens": 385,
-    "latency_ms": 0,
-    "output_tokens": 906
+    "input_tokens": 2374,
+    "latency_ms": 6351,
+    "output_tokens": 1171
   }
 }

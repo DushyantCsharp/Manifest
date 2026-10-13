@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "eab9c57e63ae0ef24f2c7cb655e5f54291d918ce884ab47222a4a592dc38257e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:22+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: A4 copy paper 80gsm, reams of 500 sheets\nCountry of origin: ID\n\nChosen so far: 48 Paper and paperboard; articles of paper pulp, of paper or paperboard > 4802 Uncoated paper and paperboard, used for writing, printing or other graphics, non perforated punch-cards and punch tape paper, in rolls or rectangular sheets, of any size, other than paper of heading 4801 or 4803; hand-made paper and paperboard\n\nChoose the subheading that covers these goods. Options:\n- 480220: Uncoated paper and paperboard (not 4801 or 4803); of a kind used as a base for photo-sensitive, heat-sensitive or electro-sensitive paper or paperboard, in rolls or sheets\n- 480254: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing less than 40g/m2, in rolls or sheets\n- 480256: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weight 40-150g/m2, in sheets 435mm or less by 297mm or less (unfolded)\n- 480240: Uncoated paper and paperboard (not 4801 or 4803); wallpaper base, in rolls or sheets\n- 480262: Uncoated paper and paperboard (not 4801 or 4803); over 10% by weight of mechanical or chemi-mechanical processed fibre, in sheets 435mm or less by 297mm or less (unfolded)\n- 480269: Uncoated paper and paperboard (not 4801 or 4803); over 10% by weight of mechanical or chemi-mechanical processed fibre, other than rolls, other than sheets 435mm or less by 297mm or less (unfolded)\n- 480255: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing 40g/m2 to 150g/m2, in rolls\n- 480258: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing more than 150g/m2\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "73607030014fac737734f3c6342f14bce33eb30352193b5135d1e84b5275c936",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "480256",
+      "cited": [
+        "480256"
+      ],
+      "confidence": "0.88",
+      "reason": "A4 copy paper (210x297mm) at 80 g/m2 in sheets is typically wood-free (10% or less mechanical fibre), so it falls within the 40-150 g/m2 sheets of 435x297mm or less subheading."
+    },
+    "input_tokens": 1592,
+    "latency_ms": 3165,
+    "output_tokens": 113
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "e2704ec489c25391680ba12aa5f61da3c9104ce298d47f5da73b9992f0e28df6",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:12+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:46+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,87 +15,87 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Number: 2026/7435 Hendrix, Harrell and Franco CPT Savannah (Incoterms 2020)",
+        "confidence": "0.93",
+        "evidence": "Hendrix, Harrell and Franco",
         "value": "Hendrix, Harrell and Franco"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "All amounts are in US dollars (USD) Please quote invoice 2026/7435 with your payment",
+        "confidence": "0.9",
+        "evidence": "All amounts are in US dollars (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Number: 2026/7435 Hendrix, Harrell and Franco CPT Savannah (Incoterms 2020)",
+        "confidence": "0.9",
+        "evidence": "CPT Savannah (Incoterms 2020)",
         "value": "CPT Savannah"
       },
       "invoice_date": {
         "confidence": "0.97",
-        "evidence": "Date: February 3, 2026 064 Antonio Mills Apt. 751, 28063 Los via Cartagena to Savannah",
+        "evidence": "Date: February 3, 2026",
         "value": "February 3, 2026"
       },
       "invoice_number": {
         "confidence": "0.97",
-        "evidence": "Number: 2026/7435 Hendrix, Harrell and Franco CPT Savannah (Incoterms 2020)",
+        "evidence": "Number: 2026/7435",
         "value": "2026/7435"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade | Colombia 17,460 kg 5.78 100,918.80",
+            "confidence": "0.96",
+            "evidence": "5.78 100,918.80",
             "value": "100,918.80"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Cl. 78 # 4j-7 | 85438! Armenia | Colombia",
+            "confidence": "0.93",
+            "evidence": "| Colombia 17,460",
             "value": "Colombia"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.87",
-            "evidence": "01 Green Arabica coffee beans, grade | Colombia 17,460 kg 5.78 100,918.80",
-            "value": "Green Arabica coffee beans, grade |"
+            "confidence": "0.88",
+            "evidence": "Green Arabica coffee beans, grade",
+            "value": "Green Arabica coffee beans, grade"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade | Colombia 17,460 kg 5.78 100,918.80",
+            "confidence": "0.96",
+            "evidence": "17,460 kg 5.78 100,918.80",
             "value": "17,460"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade | Colombia 17,460 kg 5.78 100,918.80",
+            "confidence": "0.96",
+            "evidence": "17,460 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade | Colombia 17,460 kg 5.78 100,918.80",
+            "confidence": "0.96",
+            "evidence": "kg 5.78 100,918.80",
             "value": "5.78"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "Terms:T/T 30 days after B/L date Angeles, United States",
+        "confidence": "0.95",
+        "evidence": "Terms:T/T 30 days after B/L date",
         "value": "T/T 30 days after B/L date"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Jaramillo-Ayala INVOICE",
         "value": "Jaramillo-Ayala"
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "01 Green Arabica coffee beans, grade | Colombia 17,460 kg 5.78 100,918.80",
+        "confidence": "0.96",
+        "evidence": "Amount due 100,918.80",
         "value": "100,918.80"
       }
     },
-    "input_tokens": 374,
-    "latency_ms": 0,
-    "output_tokens": 540
+    "input_tokens": 2156,
+    "latency_ms": 4415,
+    "output_tokens": 663
   }
 }

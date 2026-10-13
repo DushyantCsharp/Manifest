@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "9dd91ce6fbd45c605714bce67832e6a584aa0fa0342dc79dfb35657cab13d20b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:50+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Black tea in bulk sacks of 50kg\nCountry of origin: KE\n\nChosen so far: 09 Coffee, tea, mate and spices\n\nChoose the heading that covers these goods. Options:\n- 0902: Tea\n    contains 090240: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg\n    contains 090230: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n- 0908: Nutmeg, mace and cardamoms\n    contains 090832: Spices; cardamoms, crushed or ground\n    contains 090822: Spices; mace, crushed or ground\n    contains 090821: Spices; mace, neither crushed nor ground\n    contains 090831: Spices; cardamoms, neither crushed nor ground\n    contains 090812: Spices; nutmeg, crushed or ground\n- 0903: Mate\n    contains 090300: Mate\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b74fc7632859a5aaac7b4b91b70745f28e665a73d3632fecf0e933e02acb9f9f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0902",
+      "cited": [
+        "0902",
+        "090240"
+      ],
+      "confidence": "0.99",
+      "reason": "Black tea is covered by heading 0902 Tea, and bulk 50kg sacks fall under subheading 090240 (packings exceeding 3kg)."
+    },
+    "input_tokens": 1145,
+    "latency_ms": 3149,
+    "output_tokens": 89
+  }
+}

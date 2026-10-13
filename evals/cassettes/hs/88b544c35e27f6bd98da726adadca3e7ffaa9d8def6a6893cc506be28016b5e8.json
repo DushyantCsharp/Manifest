@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "88b544c35e27f6bd98da726adadca3e7ffaa9d8def6a6893cc506be28016b5e8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:46+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Instant noodles, precooked, with seasoning sachet\nCountry of origin: KR\n\nChosen so far: 19 Preparations of cereals, flour, starch or milk; pastrycooks' products\n\nChoose the heading that covers these goods. Options:\n- 1902: Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared\n    contains 190220: Food preparations; pasta, stuffed (with meat or other substances), whether or not cooked or otherwise prepared\n    contains 190240: Food preparations; couscous\n    contains 190211: Food preparations; pasta, containing eggs, uncooked, not stuffed or otherwise prepared\n    contains 190230: Food preparations; pasta (excluding stuffed), cooked or otherwise prepared\n    contains 190219: Food preparations; pasta, uncooked (excluding that containing eggs), not stuffed or otherwise prepared\n- 1903: Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms\n    contains 190300: Food preparations; tapioca and substitutes thereof, prepared from starch in the form of flakes, grains, pearls, siftings or similar\n- 1904: Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.\n    contains 190420: Food preparations; obtained from unroasted cereal flakes or from mixtures of unroasted cereal flakes and roasted cereal flakes or swelled cereals\n    contains 190410: Food preparations; obtained by the swelling or roasting of cereals or cereal products\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3e9796ea08ec1231820426eb41e135359c4b94d66e6fe66aafcb707503ebad47",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "1902",
+      "cited": [
+        "1902",
+        "190230"
+      ],
+      "confidence": "0.97",
+      "reason": "Precooked instant noodles are pasta (noodles) that is cooked or otherwise prepared, covered by heading 1902 (subheading 190230)."
+    },
+    "input_tokens": 1405,
+    "latency_ms": 3044,
+    "output_tokens": 87
+  }
+}

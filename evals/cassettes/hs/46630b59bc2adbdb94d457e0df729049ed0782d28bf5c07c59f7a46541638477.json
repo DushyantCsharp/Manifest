@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "key": "46630b59bc2adbdb94d457e0df729049ed0782d28bf5c07c59f7a46541638477",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:41+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Wooden chess set with board\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 44: Wood and articles of wood; wood charcoal\n    contains 441911: Tableware and kitchenware, of wood; of bamboo, bread boards, chopping boards and similar boards\n    contains 442090: Wood; marquetry and inlaid wood, caskets and cases for jewellery or cutlery and similar articles of wood, wooden articles of furniture not falling in chapter 94\n    contains 441019: Wafer board and similar board of wood n.e.c. in item no. 4410.1, whether or not agglomerated with resins or other organic binding substances\n    contains 441012: Oriented strand board (OSB) of wood, whether or not agglomerated with resins or other organic binding substances\n    contains 441011: Particle board of wood, whether or not agglomerated with resins or other organic binding substances\n    contains 441490: Wooden frames; for paintings, photographs, mirrors or similar objects; not of tropical wood\n    contains 441090: Particle board, oriented strand board (OSB) and similar board of ligneous materials other than wood, whether or not agglomerated with resins or other organic binding substances\n    contains 442019: Wood; statuettes and other ornaments, of other than tropical wood\n    contains 442011: Wood; statuettes and other ornaments, of tropical wood\n    contains 440921: Wood; bamboo (including unassembled strips and friezes for parquet flooring), continuously shaped along any edges, ends or faces, whether or not planed, sanded or end-jointed\n    contains 441990: Tableware and kitchenware, of wood; not of bamboo or tropical wood\n    contains 440929: Wood; non-coniferous, other than bamboo or tropical wood, (including unassembled strips and friezes for parquet flooring), continuously shaped along any edges, ends or faces, whether or not planed, sanded or end-jointed\n    contains 440910: Wood; coniferous (including unassembled strips and friezes for parquet flooring), continuously shaped along any edges, ends or faces, whether or not planed, sanded or end-jointed\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 820530: Tools, hand; planes, chisels, gauges and similar cutting tools for working wood\n- 96: Miscellaneous manufactured articles\n    contains 961000: Slates and boards; with writing or drawing surfaces, whether or not framed\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854430: Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships\n    contains 851830: Headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers\n    contains 851850: Amplifier sets; electric sound\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2dcb3286a36add05d78b7f7418c4d4e49a615335d618ef0c9ae3b111406184c7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "none",
+      "cited": [],
+      "confidence": "0.9",
+      "reason": "A chess set with board is a game classified in heading 9504 (Chapter 95), which is not among the options, and none of the listed chapters (including 44 for general wooden articles) covers it."
+    },
+    "input_tokens": 1993,
+    "latency_ms": 3672,
+    "output_tokens": 207
+  }
+}

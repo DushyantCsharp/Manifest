@@ -2,8 +2,8 @@
   "format": 1,
   "key": "7eb883e295758d6e8e1d7753c6a7bef186c8c6858ed487b48b4c2567b9682486",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:12+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,8 +25,8 @@
         "value": "Janssens-Desmet NV"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "ONE",
+        "confidence": "0.85",
+        "evidence": "Signed as Carrier: ONE.",
         "value": "ONE"
       },
       "container_number": {
@@ -35,7 +35,7 @@
         "value": "ONEU5262993"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
@@ -45,22 +45,22 @@
         "value": "Casier-Pieters CommV"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "669\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Antwerp",
+        "evidence": "PORT OF DISCHARGE\nAntwerp",
         "value": "Antwerp"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Genova",
+        "evidence": "PORT OF LOADING\nGenova",
         "value": "Genova"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "SEAL 2466818",
         "value": "2466818"
       },
@@ -71,32 +71,32 @@
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "2026-04-08",
+        "evidence": "SHIPPED ON BOARD\n2026-04-08",
         "value": "2026-04-08"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "8 583,99 kg",
         "value": "8 583,99 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "669",
+        "confidence": "0.95",
+        "evidence": "669\nCARTONS",
         "value": "669"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE KENSINGTON / 676S",
         "value": "ONE KENSINGTON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE KENSINGTON / 676S",
         "value": "676S"
       }
     },
-    "input_tokens": 504,
-    "latency_ms": 0,
-    "output_tokens": 366
+    "input_tokens": 2336,
+    "latency_ms": 4727,
+    "output_tokens": 717
   }
 }

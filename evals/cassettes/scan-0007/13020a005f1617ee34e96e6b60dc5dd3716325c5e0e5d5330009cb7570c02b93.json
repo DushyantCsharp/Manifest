@@ -2,8 +2,8 @@
   "format": 1,
   "key": "13020a005f1617ee34e96e6b60dc5dd3716325c5e0e5d5330009cb7570c02b93",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:19+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,151 +15,151 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "_ Larysz Sp.j.",
+        "confidence": "0.9",
+        "evidence": "Larysz Sp.j.",
         "value": "Larysz Sp.j."
       },
       "date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Date 08.07.2026",
         "value": "08.07.2026"
       },
       "incoterm": {
-        "confidence": "0.81",
-        "evidence": "| CFR Gdansk",
+        "confidence": "0.93",
+        "evidence": "CFR Gdansk",
         "value": "CFR Gdansk"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Invoice Ref. RE-26-0140",
         "value": "RE-26-0140"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 280 Ring Road, Chattogram, Bangladesh",
-            "value": "Bangladesh"
+            "confidence": "0.8",
+            "evidence": "BD. 17.800",
+            "value": "BD."
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey BD. 17.800 pcs 356 3.417,60 kg 3.914,58 kg",
+            "confidence": "0.93",
+            "evidence": "Men's crew-neck T-shirt, 100% cotton jersey",
             "value": "Men's crew-neck T-shirt, 100% cotton jersey"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey BD. 17.800 pcs 356 3.417,60 kg 3.914,58 kg",
+            "confidence": "0.93",
+            "evidence": "3.914,58 kg",
             "value": "3.914,58 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey BD. 17.800 pcs 356 3.417,60 kg 3.914,58 kg",
+            "confidence": "0.93",
+            "evidence": "3.417,60 kg",
             "value": "3.417,60 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey BD. 17.800 pcs 356 3.417,60 kg 3.914,58 kg",
+            "confidence": "0.93",
+            "evidence": "17.800 pcs",
             "value": "17.800"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey BD. 17.800 pcs 356 3.417,60 kg 3.914,58 kg",
+            "confidence": "0.95",
+            "evidence": "17.800 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 280 Ring Road, Chattogram, Bangladesh",
-            "value": "Bangladesh"
+            "confidence": "0.9",
+            "evidence": "BD 2.544",
+            "value": "BD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover 3 BD 2.544 pcs 106 1.394,11kg 1.586,95 kg",
-            "value": "Cotton knitted pullover"
+            "confidence": "0.7",
+            "evidence": "Cotton knitted pullover 3",
+            "value": "Cotton knitted pullover 3"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover 3 BD 2.544 pcs 106 1.394,11kg 1.586,95 kg",
+            "confidence": "0.93",
+            "evidence": "1.586,95 kg",
             "value": "1.586,95 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.86",
-            "evidence": "2 Cotton knitted pullover 3 BD 2.544 pcs 106 1.394,11kg 1.586,95 kg",
+            "confidence": "0.9",
+            "evidence": "1.394,11kg",
             "value": "1.394,11kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover 3 BD 2.544 pcs 106 1.394,11kg 1.586,95 kg",
+            "confidence": "0.93",
+            "evidence": "2.544 pcs",
             "value": "2.544"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey BD. 17.800 pcs 356 3.417,60 kg 3.914,58 kg",
+            "confidence": "0.95",
+            "evidence": "2.544 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 280 Ring Road, Chattogram, Bangladesh",
-            "value": "Bangladesh"
+            "confidence": "0.9",
+            "evidence": "BD 1.360",
+            "value": "BD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Men's woven cotton shirt, long sleeve BD 1.360 pcs 34 473,28 kg 523,60 kg",
+            "confidence": "0.93",
+            "evidence": "Men's woven cotton shirt, long sleeve",
             "value": "Men's woven cotton shirt, long sleeve"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Men's woven cotton shirt, long sleeve BD 1.360 pcs 34 473,28 kg 523,60 kg",
+            "confidence": "0.93",
+            "evidence": "523,60 kg",
             "value": "523,60 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Men's woven cotton shirt, long sleeve BD 1.360 pcs 34 473,28 kg 523,60 kg",
+            "confidence": "0.93",
+            "evidence": "473,28 kg",
             "value": "473,28 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Men's woven cotton shirt, long sleeve BD 1.360 pcs 34 473,28 kg 523,60 kg",
+            "confidence": "0.93",
+            "evidence": "1.360 pcs",
             "value": "1.360"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey BD. 17.800 pcs 356 3.417,60 kg 3.914,58 kg",
+            "confidence": "0.95",
+            "evidence": "1.360 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "496 CARTONS 5.284,99 kg 6.025,13 kg",
+        "confidence": "0.9",
+        "evidence": "496 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "‘Chattogram Padma Manufacturing Co., Ltd.",
+        "confidence": "0.9",
+        "evidence": "Chattogram Padma Manufacturing Co., Ltd.",
         "value": "Chattogram Padma Manufacturing Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "496 CARTONS 5.284,99 kg 6.025,13 kg",
+        "confidence": "0.93",
+        "evidence": "6.025,13 kg",
         "value": "6.025,13 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "496 CARTONS 5.284,99 kg 6.025,13 kg",
+        "confidence": "0.93",
+        "evidence": "5.284,99 kg",
         "value": "5.284,99 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "496 CARTONS 5.284,99 kg 6.025,13 kg",
+        "confidence": "0.92",
+        "evidence": "496 CARTONS",
         "value": "496"
       }
     },
-    "input_tokens": 396,
-    "latency_ms": 0,
-    "output_tokens": 942
+    "input_tokens": 2403,
+    "latency_ms": 6445,
+    "output_tokens": 1182
   }
 }

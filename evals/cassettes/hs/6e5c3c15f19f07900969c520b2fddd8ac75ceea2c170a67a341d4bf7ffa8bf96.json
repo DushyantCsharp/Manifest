@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "6e5c3c15f19f07900969c520b2fddd8ac75ceea2c170a67a341d4bf7ffa8bf96",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:31+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Pullover, knitted, 100% cotton\nCountry of origin: KH\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted > 6110 Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted\n\nChoose the subheading that covers these goods. Options:\n- 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n- 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n- 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n- 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n- 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n- 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b7ca2b44ccdcf992e55b2ae4fc6b07b2e7d67584d2727f94dd67c0221afe00f7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "611020",
+      "cited": [
+        "611020"
+      ],
+      "confidence": "0.98",
+      "reason": "A knitted pullover of 100% cotton falls under the subheading for jerseys and pullovers of cotton, knitted or crocheted."
+    },
+    "input_tokens": 1215,
+    "latency_ms": 2155,
+    "output_tokens": 79
+  }
+}

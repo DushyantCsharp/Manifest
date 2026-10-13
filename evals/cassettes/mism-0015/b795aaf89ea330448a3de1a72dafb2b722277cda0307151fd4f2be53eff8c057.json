@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b795aaf89ea330448a3de1a72dafb2b722277cda0307151fd4f2be53eff8c057",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:37+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -20,12 +20,12 @@
         "value": "Gielen-Wouters NV"
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Devise / Currency USD",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Incoterm 2020 EXW Barcelona",
         "value": "EXW Barcelona"
       },
@@ -42,155 +42,155 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "confidence": "0.95",
+            "evidence": "10,23 4 419,36",
             "value": "4 419,36"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "confidence": "0.95",
+            "evidence": "saucepan 20cm IN 432",
             "value": "IN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
             "value": "Stainless steel saucepan 20cm"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "confidence": "0.95",
+            "evidence": "IN 432 pcs 10,23 4 419,36",
             "value": "432"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "confidence": "0.95",
+            "evidence": "432 pcs 10,23",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "confidence": "0.95",
+            "evidence": "pcs 10,23 4 419,36",
             "value": "10,23"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "confidence": "0.95",
+            "evidence": "8,03 124 786,20",
             "value": "124 786,20"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "confidence": "0.95",
+            "evidence": "peeled EC 15 540",
             "value": "EC"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
             "value": "Frozen vannamei shrimp, peeled"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "confidence": "0.95",
+            "evidence": "EC 15 540 kg 8,03",
             "value": "15 540"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "confidence": "0.95",
+            "evidence": "15 540 kg 8,03",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 8,03 124 786,20",
+            "confidence": "0.95",
+            "evidence": "kg 8,03 124 786,20",
             "value": "8,03"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "confidence": "0.95",
+            "evidence": "874,49 248 355,16",
             "value": "248 355,16"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "confidence": "0.95",
+            "evidence": "16GB RAM VN 284",
             "value": "VN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
             "value": "Laptop computer 14in, 16GB RAM"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "confidence": "0.95",
+            "evidence": "VN 284 pcs 874,49",
             "value": "284"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "confidence": "0.95",
+            "evidence": "284 pcs 874,49",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "confidence": "0.95",
+            "evidence": "pcs 874,49 248 355,16",
             "value": "874,49"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
+            "confidence": "0.95",
+            "evidence": "2,21 3 955,90",
             "value": "3 955,90"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 874,49 248 355,16",
+            "confidence": "0.95",
+            "evidence": "with lid VN 1 790",
             "value": "VN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
             "value": "Plastic storage box 30L with lid"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
+            "confidence": "0.95",
+            "evidence": "VN 1 790 pcs 2,21",
             "value": "1 790"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 10,23 4 419,36",
+            "confidence": "0.95",
+            "evidence": "1 790 pcs 2,21",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 2,21 3 955,90",
+            "confidence": "0.95",
+            "evidence": "pcs 2,21 3 955,90",
             "value": "2,21"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Cash against documents",
         "value": "Cash against documents"
       },
@@ -205,8 +205,8 @@
         "value": "397 158,80"
       }
     },
-    "input_tokens": 424,
-    "latency_ms": 0,
-    "output_tokens": 1086
+    "input_tokens": 2307,
+    "latency_ms": 8569,
+    "output_tokens": 1558
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "375007b5be6820d7ff02ac17639012db82b9e7fe89af72873309748c8222ecf4",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:33+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,87 +15,87 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "| Long PLC | | DAP Leeds",
+        "confidence": "0.9",
+        "evidence": "| Long PLC",
         "value": "Long PLC"
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "06411 Sama Mills Suite 971, 71574 Izmir, Turkey Sans Date August 28, 2026:",
+        "confidence": "0.85",
+        "evidence": "Date August 28, 2026",
         "value": "August 28, 2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "| Long PLC | | DAP Leeds",
+        "confidence": "0.9",
+        "evidence": "DAP Leeds",
         "value": "DAP Leeds"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Invoice Ref. 2026/1011",
         "value": "2026/1011"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "confidence": "0.9",
+            "evidence": "bulk LK 17,000",
             "value": "LK"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "confidence": "0.93",
+            "evidence": "Black tea, CTC, bulk",
             "value": "Black tea, CTC, bulk"
           },
           "gross_weight_kg": {
-            "confidence": "0.82",
-            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "confidence": "0.85",
+            "evidence": "-39,330.0 Ib",
             "value": "39,330.0 Ib"
           },
           "net_weight_kg": {
-            "confidence": "0.82",
-            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "confidence": "0.88",
+            "evidence": "37,478.6 Ib -39,330.0 Ib",
             "value": "37,478.6 Ib"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "confidence": "0.9",
+            "evidence": "LK 17,000 kg",
             "value": "17,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+            "confidence": "0.88",
+            "evidence": "17,000 kg",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total , 340 BAGS 37,478.6 Ib 39,330.0 Ib",
+        "confidence": "0.85",
+        "evidence": "340 BAGS",
         "value": "BAGS"
       },
       "seller_name": {
-        "confidence": "0.81",
+        "confidence": "0.4",
         "evidence": "' Akcay San. ca lhrats",
-        "value": "Akcay San."
+        "value": "Akcay San. ca lhrats"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.82",
-        "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+        "confidence": "0.88",
+        "evidence": "37,478.6 Ib 39,330.0 Ib",
         "value": "39,330.0 Ib"
       },
       "total_net_weight_kg": {
-        "confidence": "0.82",
-        "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+        "confidence": "0.88",
+        "evidence": "37,478.6 Ib 39,330.0 Ib",
         "value": "37,478.6 Ib"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 - Black tea, CTC, bulk LK 17,000 kg ‘ 340 37,478.6 Ib -39,330.0 Ib",
+        "confidence": "0.92",
+        "evidence": "Total , 340 BAGS",
         "value": "340"
       }
     },
-    "input_tokens": 360,
-    "latency_ms": 0,
-    "output_tokens": 512
+    "input_tokens": 2310,
+    "latency_ms": 4741,
+    "output_tokens": 679
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f04bc226469af7d88075e8c963682c70f26b91f4f7e210b18b593bdafc5361a4",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:50+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Verdonck-Vinck BV",
         "value": "Verdonck-Vinck BV"
       },
@@ -25,7 +25,7 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "CPT Gent",
         "value": "CPT Gent"
       },
@@ -35,205 +35,205 @@
         "value": "06.05.2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "RE-26-1297",
         "value": "RE-26-1297"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "1,89 21.999,60",
             "value": "21.999,60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "27cm PT 11.640",
             "value": "PT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
             "value": "Porcelain dinner plate 27cm"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "11.640 pcs",
             "value": "11.640"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "11.640 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "pcs 1,89 21.999,60",
             "value": "1,89"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 218,18 15.054,42",
+            "confidence": "0.95",
+            "evidence": "218,18 15.054,42",
             "value": "15.054,42"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 218,18 15.054,42",
+            "confidence": "0.95",
+            "evidence": "7-speed KH 69",
             "value": "KH"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 218,18 15.054,42",
+            "confidence": "0.95",
+            "evidence": "City bicycle 28in, 7-speed KH 69 pcs 218,18 15.054,42",
             "value": "City bicycle 28in, 7-speed"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 218,18 15.054,42",
+            "confidence": "0.95",
+            "evidence": "KH 69 pcs",
             "value": "69"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "69 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 218,18 15.054,42",
+            "confidence": "0.95",
+            "evidence": "pcs 218,18 15.054,42",
             "value": "218,18"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00",
+            "confidence": "0.95",
+            "evidence": "3,69 17.343,00",
             "value": "17.343,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00",
+            "confidence": "0.95",
+            "evidence": "micron TR 4.700",
             "value": "TR"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00",
+            "confidence": "0.95",
+            "evidence": "Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00",
             "value": "Aluminium household foil 12 micron"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00",
+            "confidence": "0.95",
+            "evidence": "TR 4.700 kg",
             "value": "4.700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00",
+            "confidence": "0.95",
+            "evidence": "4.700 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 3,69 17.343,00",
+            "confidence": "0.95",
+            "evidence": "kg 3,69 17.343,00",
             "value": "3,69"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 28,14 2.279,34",
+            "confidence": "0.95",
+            "evidence": "28,14 2.279,34",
             "value": "2.279,34"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 28,14 2.279,34",
+            "confidence": "0.95",
+            "evidence": "base CN 81",
             "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 28,14 2.279,34",
+            "confidence": "0.95",
+            "evidence": "Upholstered office chair, steel base CN 81 pcs 28,14 2.279,34",
             "value": "Upholstered office chair, steel base"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 28,14 2.279,34",
+            "confidence": "0.95",
+            "evidence": "CN 81 pcs",
             "value": "81"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "81 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 28,14 2.279,34",
+            "confidence": "0.95",
+            "evidence": "pcs 28,14 2.279,34",
             "value": "28,14"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 11,13 58.432,50",
+            "confidence": "0.95",
+            "evidence": "11,13 58.432,50",
             "value": "58.432,50"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 11,13 58.432,50",
+            "confidence": "0.95",
+            "evidence": "trousers PK 5.250",
             "value": "PK"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 11,13 58.432,50",
+            "confidence": "0.95",
+            "evidence": "Women's cotton denim trousers PK 5.250 pcs 11,13 58.432,50",
             "value": "Women's cotton denim trousers"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 11,13 58.432,50",
+            "confidence": "0.95",
+            "evidence": "PK 5.250 pcs",
             "value": "5.250"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 1,89 21.999,60",
+            "confidence": "0.95",
+            "evidence": "5.250 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 11,13 58.432,50",
+            "confidence": "0.95",
+            "evidence": "pcs 11,13 58.432,50",
             "value": "11,13"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "30% deposit, 70% against copy of B/L",
+        "confidence": "0.85",
+        "evidence": "30% deposit, 70% against\ncopy of B/L",
         "value": "30% deposit, 70% against copy of B/L"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Trapanese-Giolitti s.r.l. · Canale Gianfranco, 97 Piano 9 · 59021 Bologna · Italy",
+        "confidence": "0.93",
+        "evidence": "Trapanese-Giolitti s.r.l. · Canale Gianfranco, 97 Piano 9",
         "value": "Trapanese-Giolitti s.r.l."
       },
       "total_amount": {
@@ -242,8 +242,8 @@
         "value": "115.108,86"
       }
     },
-    "input_tokens": 479,
-    "latency_ms": 0,
-    "output_tokens": 1329
+    "input_tokens": 2432,
+    "latency_ms": 9215,
+    "output_tokens": 1822
   }
 }

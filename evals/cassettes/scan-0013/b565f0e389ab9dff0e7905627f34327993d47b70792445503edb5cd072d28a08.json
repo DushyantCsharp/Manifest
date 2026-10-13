@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b565f0e389ab9dff0e7905627f34327993d47b70792445503edb5cd072d28a08",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:12+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:47:00+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,279 +15,279 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "_ Weeks-Gonzalez | | FOB Karachi:",
+        "confidence": "0.85",
+        "evidence": "Weeks-Gonzalez",
         "value": "Weeks-Gonzalez"
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "No. 353 Ring Road, Lahore, Pakistan Ray Date 14-JUL-2026 | ;",
+        "confidence": "0.6",
+        "evidence": "Ray Date 14-JUL-2026",
         "value": "14-JUL-2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "_ Weeks-Gonzalez | | FOB Karachi:",
+        "confidence": "0.85",
+        "evidence": "FOB Karachi",
         "value": "FOB Karachi"
       },
       "invoice_number": {
-        "confidence": "0.84",
-        "evidence": "‘Lahore Creatent Sapte ies AME See eet ene +. Inwoice Ref. EX202675- -4069 -",
+        "confidence": "0.5",
+        "evidence": "Inwoice Ref. EX202675- -4069",
         "value": "EX202675- -4069"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.85",
+            "evidence": "TH 158 pcs",
             "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "Split air conditioner 12000 BTU",
             "value": "Split air conditioner 12000 BTU"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "6,740.14 kg",
             "value": "6,740.14 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "6,386.52 kg",
             "value": "6,386.52 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.85",
+            "evidence": "158 pcs",
             "value": "158"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "158 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover ~ BD 1,121 pcs - 47 | 507.81 kg 560.58 kg",
+            "confidence": "0.85",
+            "evidence": "BD 1,121 pcs",
             "value": "BD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover ~ BD 1,121 pcs - 47 | 507.81 kg 560.58 kg",
+            "confidence": "0.9",
+            "evidence": "Cotton knitted pullover",
             "value": "Cotton knitted pullover"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover ~ BD 1,121 pcs - 47 | 507.81 kg 560.58 kg",
+            "confidence": "0.9",
+            "evidence": "560.58 kg",
             "value": "560.58 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover ~ BD 1,121 pcs - 47 | 507.81 kg 560.58 kg",
+            "confidence": "0.9",
+            "evidence": "507.81 kg",
             "value": "507.81 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Cotton knitted pullover ~ BD 1,121 pcs - 47 | 507.81 kg 560.58 kg",
+            "confidence": "0.85",
+            "evidence": "1,121 pcs",
             "value": "1,121"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "1,121 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 LED television 55in 4K MX 236 pcs 236 3,880.78 kg 4,425.88 kg",
+            "confidence": "0.85",
+            "evidence": "MX 236 pcs",
             "value": "MX"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 LED television 55in 4K MX 236 pcs 236 3,880.78 kg 4,425.88 kg",
+            "confidence": "0.9",
+            "evidence": "LED television 55in 4K",
             "value": "LED television 55in 4K"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 LED television 55in 4K MX 236 pcs 236 3,880.78 kg 4,425.88 kg",
+            "confidence": "0.9",
+            "evidence": "4,425.88 kg",
             "value": "4,425.88 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 LED television 55in 4K MX 236 pcs 236 3,880.78 kg 4,425.88 kg",
+            "confidence": "0.9",
+            "evidence": "3,880.78 kg",
             "value": "3,880.78 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 LED television 55in 4K MX 236 pcs 236 3,880.78 kg 4,425.88 kg",
+            "confidence": "0.85",
+            "evidence": "236 pcs",
             "value": "236"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "236 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.85",
+            "evidence": "TH 9,250 sets",
             "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Nitrile examination gloves, box of 100 TH 9,250 sets 925 4,227.25 kg 4,892.11 kg",
+            "confidence": "0.9",
+            "evidence": "Nitrile examination gloves, box of 100",
             "value": "Nitrile examination gloves, box of 100"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Nitrile examination gloves, box of 100 TH 9,250 sets 925 4,227.25 kg 4,892.11 kg",
+            "confidence": "0.9",
+            "evidence": "4,892.11 kg",
             "value": "4,892.11 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Nitrile examination gloves, box of 100 TH 9,250 sets 925 4,227.25 kg 4,892.11 kg",
+            "confidence": "0.9",
+            "evidence": "4,227.25 kg",
             "value": "4,227.25 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Nitrile examination gloves, box of 100 TH 9,250 sets 925 4,227.25 kg 4,892.11 kg",
+            "confidence": "0.85",
+            "evidence": "9,250 sets",
             "value": "9,250"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4 Nitrile examination gloves, box of 100 TH 9,250 sets 925 4,227.25 kg 4,892.11 kg",
+            "confidence": "0.9",
+            "evidence": "9,250 sets",
             "value": "sets"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "5 Electric kettle 1.7L stainless CN 1,008 pcs 84 948.53 kg. 1 076.98 kg",
+            "confidence": "0.85",
+            "evidence": "CN 1,008 pcs",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "5 Electric kettle 1.7L stainless CN 1,008 pcs 84 948.53 kg. 1 076.98 kg",
+            "confidence": "0.9",
+            "evidence": "Electric kettle 1.7L stainless",
             "value": "Electric kettle 1.7L stainless"
           },
           "gross_weight_kg": {
-            "confidence": "0.82",
-            "evidence": "5 Electric kettle 1.7L stainless CN 1,008 pcs 84 948.53 kg. 1 076.98 kg",
+            "confidence": "0.8",
+            "evidence": "1 076.98 kg",
             "value": "1 076.98 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Electric kettle 1.7L stainless CN 1,008 pcs 84 948.53 kg. 1 076.98 kg",
+            "confidence": "0.9",
+            "evidence": "948.53 kg",
             "value": "948.53 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Electric kettle 1.7L stainless CN 1,008 pcs 84 948.53 kg. 1 076.98 kg",
+            "confidence": "0.85",
+            "evidence": "1,008 pcs",
             "value": "1,008"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "1,008 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "6 Analog quartz wristwatch, steel case . JP 7 818 pcs 17 97.34 kg 117.05 kg",
+            "confidence": "0.85",
+            "evidence": "JP 7 818 pcs",
             "value": "JP"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "6 Analog quartz wristwatch, steel case . JP 7 818 pcs 17 97.34 kg 117.05 kg",
+            "confidence": "0.9",
+            "evidence": "Analog quartz wristwatch, steel case",
             "value": "Analog quartz wristwatch, steel case"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Analog quartz wristwatch, steel case . JP 7 818 pcs 17 97.34 kg 117.05 kg",
+            "confidence": "0.9",
+            "evidence": "117.05 kg",
             "value": "117.05 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Analog quartz wristwatch, steel case . JP 7 818 pcs 17 97.34 kg 117.05 kg",
+            "confidence": "0.9",
+            "evidence": "97.34 kg",
             "value": "97.34 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Analog quartz wristwatch, steel case . JP 7 818 pcs 17 97.34 kg 117.05 kg",
+            "confidence": "0.7",
+            "evidence": "818 pcs",
             "value": "818"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.9",
+            "evidence": "818 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "7 Lithium-ion battery pack 48V 20Ah KR 148 pcs. 37: 1,203.83 kg 1,315.75 kg",
+            "confidence": "0.85",
+            "evidence": "KR 148 pcs.",
             "value": "KR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "7 Lithium-ion battery pack 48V 20Ah KR 148 pcs. 37: 1,203.83 kg 1,315.75 kg",
+            "confidence": "0.9",
+            "evidence": "Lithium-ion battery pack 48V 20Ah",
             "value": "Lithium-ion battery pack 48V 20Ah"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Lithium-ion battery pack 48V 20Ah KR 148 pcs. 37: 1,203.83 kg 1,315.75 kg",
+            "confidence": "0.9",
+            "evidence": "1,315.75 kg",
             "value": "1,315.75 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Lithium-ion battery pack 48V 20Ah KR 148 pcs. 37: 1,203.83 kg 1,315.75 kg",
+            "confidence": "0.9",
+            "evidence": "1,203.83 kg",
             "value": "1,203.83 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7 Lithium-ion battery pack 48V 20Ah KR 148 pcs. 37: 1,203.83 kg 1,315.75 kg",
+            "confidence": "0.85",
+            "evidence": "148 pcs.",
             "value": "148"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Split air conditioner 12000 BTU TH 158 pcs 458 © 6,386.52 kg 6,740.14 kg",
+            "confidence": "0.85",
+            "evidence": "148 pcs.",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total ar 1504 CARTONS 17,252.06 kg 19,128.49 kg",
+        "confidence": "0.8",
+        "evidence": "1504 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.5",
         "evidence": "",
         "value": ""
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total ar 1504 CARTONS 17,252.06 kg 19,128.49 kg",
+        "confidence": "0.9",
+        "evidence": "19,128.49 kg",
         "value": "19,128.49 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total ar 1504 CARTONS 17,252.06 kg 19,128.49 kg",
+        "confidence": "0.9",
+        "evidence": "17,252.06 kg",
         "value": "17,252.06 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total ar 1504 CARTONS 17,252.06 kg 19,128.49 kg",
+        "confidence": "0.8",
+        "evidence": "1504 CARTONS",
         "value": "1504"
       }
     },
-    "input_tokens": 491,
-    "latency_ms": 0,
-    "output_tokens": 1884
+    "input_tokens": 2641,
+    "latency_ms": 11040,
+    "output_tokens": 2108
   }
 }

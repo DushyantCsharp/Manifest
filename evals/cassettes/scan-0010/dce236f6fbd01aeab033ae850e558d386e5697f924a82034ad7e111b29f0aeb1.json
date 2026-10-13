@@ -2,8 +2,8 @@
   "format": 1,
   "key": "dce236f6fbd01aeab033ae850e558d386e5697f924a82034ad7e111b29f0aeb1",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:47+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,247 +15,247 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.79",
-        "evidence": "_BonteBV || FOB Izmir",
-        "value": "_BonteBV"
+        "confidence": "0.5",
+        "evidence": "_BonteBV",
+        "value": "BonteBV"
       },
       "date": {
-        "confidence": "0.82",
-        "evidence": "- 4306 Esna ‘Springs. Suite 854, 02128 Istanbul, Turkey a Sane, Date ’ 2026- -06-26",
+        "confidence": "0.6",
+        "evidence": "Date ’ 2026- -06-26",
         "value": "2026- -06-26"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "_BonteBV || FOB Izmir",
+        "confidence": "0.85",
+        "evidence": "FOB Izmir",
         "value": "FOB Izmir"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "a Ertas Arioy | Sti. Sea ; pegs Ne heat |... Invoice Ref. FC-3728/26",
+        "confidence": "0.85",
+        "evidence": "Invoice Ref. FC-3728/26",
         "value": "FC-3728/26"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg",
+            "confidence": "0.7",
+            "evidence": "= IN 3000 kg",
             "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg",
+            "confidence": "0.85",
+            "evidence": "Black tea, CTC, bulk",
             "value": "Black tea, CTC, bulk"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg",
+            "confidence": "0.8",
+            "evidence": "3 246,00 kg",
             "value": "3 246,00 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.70",
-            "evidence": "1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg",
-            "value": "— 3000,00-kg"
+            "confidence": "0.6",
+            "evidence": "3000,00-kg",
+            "value": "3000,00-kg"
           },
           "quantity": {
-            "confidence": "0.80",
-            "evidence": "1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg",
+            "confidence": "0.8",
+            "evidence": "3000 kg",
             "value": "3000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg",
+            "confidence": "0.8",
+            "evidence": "3000 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.6",
+            "evidence": "Jp 4700 pcs",
+            "value": "Jp"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.85",
+            "evidence": "Analog quartz wristwatch, steel case",
             "value": "Analog quartz wristwatch, steel case"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.85",
+            "evidence": "658,71 kg",
             "value": "658,71 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.85",
+            "evidence": "526,40 kg",
             "value": "526,40 kg"
           },
           "quantity": {
-            "confidence": "0.80",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.85",
+            "evidence": "4700 pcs",
             "value": "4700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.85",
+            "evidence": "4700 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "ee AC induction motor 0.55kW 3- “phase ? IT | \"282 pes } 141 | 2 569,87 kg | 2895,51 kg 3",
+            "confidence": "0.7",
+            "evidence": "? IT |",
             "value": "IT"
           },
           "description": {
-            "confidence": "0.87",
-            "evidence": "ee AC induction motor 0.55kW 3- “phase ? IT | \"282 pes } 141 | 2 569,87 kg | 2895,51 kg 3",
+            "confidence": "0.7",
+            "evidence": "AC induction motor 0.55kW 3- “phase",
             "value": "AC induction motor 0.55kW 3- “phase"
           },
           "gross_weight_kg": {
-            "confidence": "0.86",
-            "evidence": "ee AC induction motor 0.55kW 3- “phase ? IT | \"282 pes } 141 | 2 569,87 kg | 2895,51 kg 3",
+            "confidence": "0.85",
+            "evidence": "2895,51 kg",
             "value": "2895,51 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "ee AC induction motor 0.55kW 3- “phase ? IT | \"282 pes } 141 | 2 569,87 kg | 2895,51 kg 3",
+            "confidence": "0.8",
+            "evidence": "2 569,87 kg",
             "value": "2 569,87 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "ee AC induction motor 0.55kW 3- “phase ? IT | \"282 pes } 141 | 2 569,87 kg | 2895,51 kg 3",
+            "confidence": "0.75",
+            "evidence": "282 pes",
             "value": "282"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.7",
+            "evidence": "282 pes",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4 City bicycle 28in, 7-speed : TW 3 269 pcs 269 4 226,26 kg 4735,76 kg",
+            "confidence": "0.7",
+            "evidence": "TW 3 269 pcs",
             "value": "TW"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 City bicycle 28in, 7-speed : TW 3 269 pcs 269 4 226,26 kg 4735,76 kg",
+            "confidence": "0.85",
+            "evidence": "City bicycle 28in, 7-speed",
             "value": "City bicycle 28in, 7-speed"
           },
           "gross_weight_kg": {
-            "confidence": "0.86",
-            "evidence": "4 City bicycle 28in, 7-speed : TW 3 269 pcs 269 4 226,26 kg 4735,76 kg",
+            "confidence": "0.85",
+            "evidence": "4735,76 kg",
             "value": "4735,76 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 City bicycle 28in, 7-speed : TW 3 269 pcs 269 4 226,26 kg 4735,76 kg",
+            "confidence": "0.8",
+            "evidence": "4 226,26 kg",
             "value": "4 226,26 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 City bicycle 28in, 7-speed : TW 3 269 pcs 269 4 226,26 kg 4735,76 kg",
+            "confidence": "0.6",
+            "evidence": "3 269 pcs",
             "value": "269"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.85",
+            "evidence": "269 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "- 4306 Esna ‘Springs. Suite 854, 02128 Istanbul, Turkey a Sane, Date ’ 2026- -06-26",
-            "value": "Turkey"
+            "confidence": "0.75",
+            "evidence": "3 TR 3840 kg",
+            "value": "TR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "5 Aluminium household foil 12 micron 3 TR 3840 kg 192 3840,00 kg 4 287,36 kg",
+            "confidence": "0.85",
+            "evidence": "Aluminium household foil 12 micron",
             "value": "Aluminium household foil 12 micron"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Aluminium household foil 12 micron 3 TR 3840 kg 192 3840,00 kg 4 287,36 kg",
+            "confidence": "0.85",
+            "evidence": "4 287,36 kg",
             "value": "4 287,36 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.86",
-            "evidence": "5 Aluminium household foil 12 micron 3 TR 3840 kg 192 3840,00 kg 4 287,36 kg",
+            "confidence": "0.85",
+            "evidence": "3840,00 kg",
             "value": "3840,00 kg"
           },
           "quantity": {
-            "confidence": "0.80",
-            "evidence": "5 Aluminium household foil 12 micron 3 TR 3840 kg 192 3840,00 kg 4 287,36 kg",
+            "confidence": "0.85",
+            "evidence": "3840 kg",
             "value": "3840"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Black tea, CTC, bulk = IN 3000 kg _. 60 — 3000,00-kg 3 246,00 kg",
+            "confidence": "0.85",
+            "evidence": "3840 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "6 Solar PV module 410w monocrystalline MY 434 pes 14 9715,96kg . 10 139,07 kg",
+            "confidence": "0.75",
+            "evidence": "MY 434 pes",
             "value": "MY"
           },
           "description": {
-            "confidence": "0.87",
-            "evidence": "6 Solar PV module 410w monocrystalline MY 434 pes 14 9715,96kg . 10 139,07 kg",
+            "confidence": "0.85",
+            "evidence": "Solar PV module 410w monocrystalline",
             "value": "Solar PV module 410w monocrystalline"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Solar PV module 410w monocrystalline MY 434 pes 14 9715,96kg . 10 139,07 kg",
+            "confidence": "0.85",
+            "evidence": "10 139,07 kg",
             "value": "10 139,07 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.74",
-            "evidence": "6 Solar PV module 410w monocrystalline MY 434 pes 14 9715,96kg . 10 139,07 kg",
-            "value": "9715,96kg ."
+            "confidence": "0.8",
+            "evidence": "9715,96kg",
+            "value": "9715,96kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Solar PV module 410w monocrystalline MY 434 pes 14 9715,96kg . 10 139,07 kg",
+            "confidence": "0.75",
+            "evidence": "434 pes",
             "value": "434"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Analog quartz wristwatch, steel case ; Jp 4700 pcs 94 526,40 kg 658,71 kg",
+            "confidence": "0.7",
+            "evidence": "434 pes",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 770 CARTONS 23 878,49 kg 25 962,41 kg",
+        "confidence": "0.85",
+        "evidence": "Total 770 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.69",
-        "evidence": "a Ertas Arioy | Sti. Sea ; pegs Ne heat |... Invoice Ref. FC-3728/26",
+        "confidence": "0.4",
+        "evidence": "a Ertas Arioy | Sti.",
         "value": "Ertas Arioy | Sti."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 770 CARTONS 23 878,49 kg 25 962,41 kg",
+        "confidence": "0.85",
+        "evidence": "25 962,41 kg",
         "value": "25 962,41 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 770 CARTONS 23 878,49 kg 25 962,41 kg",
+        "confidence": "0.85",
+        "evidence": "23 878,49 kg",
         "value": "23 878,49 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 770 CARTONS 23 878,49 kg 25 962,41 kg",
+        "confidence": "0.85",
+        "evidence": "Total 770 CARTONS",
         "value": "770"
       }
     },
-    "input_tokens": 472,
-    "latency_ms": 0,
-    "output_tokens": 1681
+    "input_tokens": 2604,
+    "latency_ms": 10406,
+    "output_tokens": 1866
   }
 }

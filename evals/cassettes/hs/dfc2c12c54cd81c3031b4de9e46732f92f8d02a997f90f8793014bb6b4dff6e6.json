@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "dfc2c12c54cd81c3031b4de9e46732f92f8d02a997f90f8793014bb6b4dff6e6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:59+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Granular urea fertiliser\nCountry of origin: QA\n\nChoose the chapter that covers these goods. Options:\n- 31: Fertilizers\n    contains 310210: Fertilizers, mineral or chemical; nitrogenous, urea, whether or not in aqueous solution\n    contains 310280: Fertilizers, mineral or chemical; nitrogenous, mixtures of urea and ammonium nitrate in aqueous or ammoniacal solution\n    contains 310530: Fertilizers, mineral or chemical; diammonium hydrogenorthophosphate (diammonium phosphate)\n    contains 310540: Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)\n    contains 310510: Fertilizers, mineral or chemical; in tablets or similar forms or in packages of a gross weight not exceeding 10kg\n    contains 310520: Fertilizers, mineral or chemical; containing the three fertilizing elements nitrogen, phosphorus and potassium\n    contains 310551: Fertilizers, mineral or chemical; containing nitrates and phosphates\n    contains 310559: Fertilizers, mineral or chemical; containing the two fertilizing elements nitrogen and phosphorus, other than nitrates and phosphates\n    contains 310590: Fertilizers, mineral or chemical; n.e.c. in heading no. 3105\n    contains 310560: Fertilizers, mineral or chemical; containing the two fertilizing elements phosphorus and potassium\n    contains 310221: Fertilizers, mineral or chemical; nitrogenous, ammonium sulphate\n    contains 310229: Fertilizers, mineral or chemical; nitrogenous, other than ammonium sulphate\n- 29: Organic chemicals\n    contains 293145: Non-halogenated organo-phosphorous derivatives; salt of methylphosphonic acid and (aminominomethyl) urea (1:1)\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 843242: Spreaders and distributors; for manure and fertilizers, for agricultural, horticultural or forestry use; fertiliser distributors\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 28: Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes\n    contains 284700: Hydrogen peroxide; whether or not solidified with urea\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "462dea21638ea8409db7ca0ffb5c3a89e84b07fce19d9fcad625d9d3c64f7804",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "31",
+      "cited": [
+        "31",
+        "310210"
+      ],
+      "confidence": "0.97",
+      "reason": "Granular urea used as a nitrogenous fertiliser falls in Chapter 31, specifically subheading 310210 (urea), rather than Chapter 29 organic chemicals."
+    },
+    "input_tokens": 1950,
+    "latency_ms": 3096,
+    "output_tokens": 95
+  }
+}

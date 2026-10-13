@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "f3dd15071b50cbdf73b64f552128589e2bc5e0c3efda58677af78ef614e16da5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:26+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Skimmed milk powder, fat 1%\nCountry of origin: NZ\n\nChoose the chapter that covers these goods. Options:\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040210: Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)\n    contains 040221: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040229: Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040110: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, not exceeding 1%\n    contains 040390: Dairy produce; buttermilk, curdled milk or cream, kephir, fermented or acidified milk or cream, whether or not concentrated or containing added sweetening, flavouring, fruit, nuts or cocoa (excluding yoghurt)\n    contains 040120: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%\n    contains 040140: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 6% but not exceeding 10%\n    contains 040150: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 10%\n    contains 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040590: Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)\n    contains 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040510: Dairy produce; derived from milk, butter\n    contains 040490: Dairy produce; natural milk constituents (excluding whey), whether or not containing added sugar or other sweetening matter, n.e.c. in chapter 04\n- 05: Animal originated products; not elsewhere specified or included\n    contains 050690: Animal products; bones and horn-cores and powder or waste of such, unworked, defatted, simply prepared (not cut to shape), or treated with acid or degelatinised, n.e.c. in heading no. 0506\n- 11: Products of the milling industry; malt, starches, inulin, wheat gluten\n    contains 110510: Flour, meal and powder; of potatoes\n    contains 110610: Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713\n- 15: Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes\n    contains 151790: Edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, n.e.c. in heading 1517, other than edible fats and oils or their fractions of heading 15.16\n    contains 151800: Animal, vegetable or microbial fats, oils and their fractions; boiled, oxidised, dehydrated or otherwise chemically modified, excluding those of heading no. 1516, inedible mixtures or preparations of fats, oils or their fractions, n.e.c. in chapter 15\n- 02: Meat and edible meat offal\n    contains 020910: Fat; pig fat, free of lean meat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked\n    contains 020990: Fat; poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3af0b8aee9a05ad02475e18cc425d15ede00dce9b44ac2a66db5d6ea4c437793",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "04",
+      "cited": [
+        "04",
+        "040210"
+      ],
+      "confidence": "0.99",
+      "reason": "Skimmed milk powder with 1% fat is concentrated milk in powder form with fat not exceeding 1.5%, which falls under heading 0402 in Chapter 04."
+    },
+    "input_tokens": 2194,
+    "latency_ms": 3267,
+    "output_tokens": 93
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "81ccf734f4d78bdbe6b417ca585d12eba9db8e88a667b45952493cb90138dd4a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:54+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: City bicycle 28in, 7-speed, no motor\nCountry of origin: TW\n\nChoose the chapter that covers these goods. Options:\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 871160: Motorcycles (including mopeds) and cycles; fitted with auxiliary motor, with electric motor for propulsion, with or without side-cars; side-cars\n    contains 870380: Vehicles; with only electric motor for propulsion\n    contains 870340: Vehicles; with both spark-ignition internal combustion piston engine and electric motor for propulsion, incapable of being charged by plugging to external source of electric power\n    contains 871200: Bicycles and other cycles; including delivery tricycles, not motorised\n    contains 871493: Cycles; parts thereof, hubs (other than coaster braking hubs and hub brakes) and free-wheel sprocket-wheels\n    contains 871492: Cycles; parts thereof, wheel rims and spokes\n    contains 871491: Cycles; frames and forks, and parts thereof\n    contains 871496: Cycles; parts, pedals and crank-gear, and parts thereof\n    contains 871495: Cycles; parts thereof, saddles\n    contains 871499: Cycles; parts thereof, n.e.c. in item no. 8714.9\n    contains 870441: Vehicles; with both compression-ignition internal combustion piston engine (diesel/semi-diesel) and electric motor as motor for propulsion, unassembled as in section 14, (gvw not exceeding 5000kg), for the transport of goods, vans\n    contains 871494: Cycles; parts thereof, brakes, including coaster braking hubs and hub-brakes, and parts thereof\n    contains 871190: Motorcycles (including mopeds) and cycles; n.e.c. in heading no. 8711, fitted with auxiliary motor, with or without side-cars; side-cars\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841520: Air conditioning machines; comprising a motor driven fan and elements for changing the temperature and humidity, of a kind used for persons, in motor vehicles\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 850140: Electric motors; AC motors, single-phase\n    contains 850151: Electric motors; AC motors, multi-phase, of an output not exceeding 750W\n    contains 850152: Electric motors; AC motors, multi-phase, of an output exceeding 750W but not exceeding 75kW\n    contains 850153: Electric motors; AC motors, multi-phase, of an output exceeding 75kW\n- 89: Ships, boats and floating structures\n    contains 890311: Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), fitted or designed to be fitted with a motor, unladen (net) weight (excluding the motor) not exceeding 100kg\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6317723b86b3186795cabe6de2b08c59b501bf95988e508bc9d19ebd97ef5946",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "87",
+      "cited": [
+        "871200"
+      ],
+      "confidence": "0.98",
+      "reason": "A non-motorised bicycle is covered by heading 8712 (Bicycles and other cycles, not motorised), which falls in Chapter 87."
+    },
+    "input_tokens": 1926,
+    "latency_ms": 1923,
+    "output_tokens": 81
+  }
+}

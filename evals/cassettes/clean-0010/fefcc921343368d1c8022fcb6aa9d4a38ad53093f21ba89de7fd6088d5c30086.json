@@ -2,8 +2,8 @@
   "format": 1,
   "key": "fefcc921343368d1c8022fcb6aa9d4a38ad53093f21ba89de7fd6088d5c30086",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:28+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Baudry et Fils",
         "value": "Baudry et Fils"
       },
@@ -25,7 +25,7 @@
         "value": "2026-05-04"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CFR Marseille",
         "value": "CFR Marseille"
       },
@@ -37,353 +37,353 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Mariano, 2, 89047 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "sunglasses IT 1 279",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "evidence": "Polarized sunglasses",
             "value": "Polarized sunglasses"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "60,32 kg",
             "value": "60,32 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "49,88 kg",
             "value": "49,88 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.93",
+            "evidence": "IT 1 279 pcs",
             "value": "1 279"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "1 279 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "stainless CN 843",
             "value": "CN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "evidence": "Electric kettle 1.7L stainless",
             "value": "Electric kettle 1.7L stainless"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "972,89 kg",
             "value": "972,89 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "890,21 kg",
             "value": "890,21 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "CN 843 pcs",
             "value": "843"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "843 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Mariano, 2, 89047 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "bottle IT 2 914",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 486 3 651,24 kg 4 301,55 kg",
+            "evidence": "Red wine, 0.75L bottle",
             "value": "Red wine, 0.75L bottle"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 486 3 651,24 kg 4 301,55 kg",
+            "confidence": "0.95",
+            "evidence": "4 301,55 kg",
             "value": "4 301,55 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 486 3 651,24 kg 4 301,55 kg",
+            "confidence": "0.95",
+            "evidence": "3 651,24 kg",
             "value": "3 651,24 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 2 914 pcs 486 3 651,24 kg 4 301,55 kg",
+            "confidence": "0.93",
+            "evidence": "IT 2 914 pcs",
             "value": "2 914"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "2 914 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "pullover CN 5 424",
             "value": "CN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 226 2 739,12 kg 3 045,23 kg",
+            "evidence": "Cotton knitted pullover",
             "value": "Cotton knitted pullover"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 226 2 739,12 kg 3 045,23 kg",
+            "confidence": "0.95",
+            "evidence": "3 045,23 kg",
             "value": "3 045,23 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 226 2 739,12 kg 3 045,23 kg",
+            "confidence": "0.95",
+            "evidence": "2 739,12 kg",
             "value": "2 739,12 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Cotton knitted pullover CN 5 424 pcs 226 2 739,12 kg 3 045,23 kg",
+            "confidence": "0.93",
+            "evidence": "CN 5 424 pcs",
             "value": "5 424"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "5 424 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Mariano, 2, 89047 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "1.1kW IT 95",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 95 1 210,30 kg 1 411,25 kg",
+            "evidence": "Centrifugal water pump 1.1kW",
             "value": "Centrifugal water pump 1.1kW"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 95 1 210,30 kg 1 411,25 kg",
+            "confidence": "0.95",
+            "evidence": "1 411,25 kg",
             "value": "1 411,25 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 95 1 210,30 kg 1 411,25 kg",
+            "confidence": "0.95",
+            "evidence": "1 210,30 kg",
             "value": "1 210,30 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Centrifugal water pump 1.1kW IT 95 pcs 95 1 210,30 kg 1 411,25 kg",
+            "confidence": "0.95",
+            "evidence": "IT 95 pcs",
             "value": "95"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "95 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "40cm CN 11 400",
             "value": "CN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 57 763,80 kg 825,01 kg",
+            "evidence": "Inflatable beach ball 40cm",
             "value": "Inflatable beach ball 40cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 57 763,80 kg 825,01 kg",
+            "confidence": "0.95",
+            "evidence": "825,01 kg",
             "value": "825,01 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 57 763,80 kg 825,01 kg",
+            "confidence": "0.95",
+            "evidence": "763,80 kg",
             "value": "763,80 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Inflatable beach ball 40cm CN 11 400 pcs 57 763,80 kg 825,01 kg",
+            "confidence": "0.93",
+            "evidence": "CN 11 400 pcs",
             "value": "11 400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "11 400 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "ionic CN 2 480",
             "value": "CN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 124 1 676,48 kg 1 907,32 kg",
+            "evidence": "Hair dryer 2200W ionic",
             "value": "Hair dryer 2200W ionic"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 124 1 676,48 kg 1 907,32 kg",
+            "confidence": "0.95",
+            "evidence": "1 907,32 kg",
             "value": "1 907,32 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 124 1 676,48 kg 1 907,32 kg",
+            "confidence": "0.95",
+            "evidence": "1 676,48 kg",
             "value": "1 676,48 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7 Hair dryer 2200W ionic CN 2 480 pcs 124 1 676,48 kg 1 907,32 kg",
+            "confidence": "0.93",
+            "evidence": "CN 2 480 pcs",
             "value": "2 480"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "2 480 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 207 3 949,56 kg 4 260,10 kg",
+            "confidence": "0.95",
+            "evidence": "70x140 IN 8 280",
             "value": "IN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 207 3 949,56 kg 4 260,10 kg",
+            "evidence": "Terry cotton bath towel 70x140",
             "value": "Terry cotton bath towel 70x140"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 207 3 949,56 kg 4 260,10 kg",
+            "confidence": "0.95",
+            "evidence": "4 260,10 kg",
             "value": "4 260,10 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 207 3 949,56 kg 4 260,10 kg",
+            "confidence": "0.95",
+            "evidence": "3 949,56 kg",
             "value": "3 949,56 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "8 Terry cotton bath towel 70x140 IN 8 280 pcs 207 3 949,56 kg 4 260,10 kg",
+            "confidence": "0.93",
+            "evidence": "IN 8 280 pcs",
             "value": "8 280"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "8 280 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "white CN 6 400",
             "value": "CN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 32 275,20 kg 322,24 kg",
+            "evidence": "LED bulb E27 9W warm white",
             "value": "LED bulb E27 9W warm white"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 32 275,20 kg 322,24 kg",
+            "confidence": "0.95",
+            "evidence": "322,24 kg",
             "value": "322,24 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 32 275,20 kg 322,24 kg",
+            "confidence": "0.95",
+            "evidence": "275,20 kg",
             "value": "275,20 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "9 LED bulb E27 9W warm white CN 6 400 pcs 32 275,20 kg 322,24 kg",
+            "confidence": "0.93",
+            "evidence": "CN 6 400 pcs",
             "value": "6 400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses IT 1 279 pcs 13 49,88 kg 60,32 kg",
+            "confidence": "0.95",
+            "evidence": "6 400 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Electric kettle 1.7L stainless CN 843 pcs 71 890,21 kg 972,89 kg",
+            "confidence": "0.95",
+            "evidence": "pieces CN 2 770",
             "value": "CN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 277 4 628,67 kg 5 249,07 kg",
+            "evidence": "Stainless cutlery set, 24 pieces",
             "value": "Stainless cutlery set, 24 pieces"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 277 4 628,67 kg 5 249,07 kg",
+            "confidence": "0.95",
+            "evidence": "5 249,07 kg",
             "value": "5 249,07 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 277 4 628,67 kg 5 249,07 kg",
+            "confidence": "0.95",
+            "evidence": "4 628,67 kg",
             "value": "4 628,67 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 277 4 628,67 kg 5 249,07 kg",
+            "confidence": "0.93",
+            "evidence": "CN 2 770 sets",
             "value": "2 770"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "10 Stainless cutlery set, 24 pieces CN 2 770 sets 277 4 628,67 kg 5 249,07 kg",
+            "confidence": "0.95",
+            "evidence": "2 770 sets",
             "value": "sets"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1588 CARTONS 19 834,46 kg 22 354,98 kg",
+        "confidence": "0.9",
+        "evidence": "Total 1588 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Napolitano, Cuomo e Foa SPA",
         "value": "Napolitano, Cuomo e Foa SPA"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1588 CARTONS 19 834,46 kg 22 354,98 kg",
+        "confidence": "0.95",
+        "evidence": "22 354,98 kg",
         "value": "22 354,98 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1588 CARTONS 19 834,46 kg 22 354,98 kg",
+        "confidence": "0.95",
+        "evidence": "19 834,46 kg",
         "value": "19 834,46 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1588 CARTONS 19 834,46 kg 22 354,98 kg",
+        "confidence": "0.93",
+        "evidence": "Total 1588 CARTONS",
         "value": "1588"
       }
     },
-    "input_tokens": 505,
-    "latency_ms": 0,
-    "output_tokens": 2380
+    "input_tokens": 2678,
+    "latency_ms": 13570,
+    "output_tokens": 2900
   }
 }

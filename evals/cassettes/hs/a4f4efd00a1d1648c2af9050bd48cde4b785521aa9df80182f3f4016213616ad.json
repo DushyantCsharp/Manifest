@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "a4f4efd00a1d1648c2af9050bd48cde4b785521aa9df80182f3f4016213616ad",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:17+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Polarised sunglasses\nCountry of origin: CN\n\nChosen so far: 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n\nChoose the heading that covers these goods. Options:\n- 9001: Optical fibres and optical fibre bundles; optical fibre cables not of heading no. 8544; sheets, plates of polarising material; lenses, prisms, mirrors, of any material; unmounted; not non optical glass\n    contains 900120: Optical elements; polarising material, sheets and plates thereof\n    contains 900140: Lenses, spectacle; unmounted, of glass, excluding elements of glass not optically worked\n    contains 900130: Lenses, contact; unmounted, of any material, excluding elements of glass not optically worked\n    contains 900150: Lenses, spectacle; unmounted, of materials other than glass\n    contains 900110: Optical fibres, optical fibre bundles and cables; excluding those of heading no. 8544\n    contains 900190: Optical elements; lenses n.e.c. in heading no. 9001, prisms, mirrors and other optical elements, unmounted, of any material (excluding elements of glass not optically worked)\n- 9004: Spectacles, goggles and the like; corrective, protective or other\n    contains 900410: Sunglasses; corrective, protective or other\n    contains 900490: Spectacles, goggles and the like; (other than sunglasses) corrective, protective or other\n- 9003: Frames and mountings; for spectacles, goggles or the like, and parts\n    contains 900311: Frames and mountings; for spectacles, goggles or the like, of plastics\n    contains 900319: Frames and mountings; for spectacles, goggles or the like, of materials other than plastics\n    contains 900390: Frames and mountings; parts for spectacles, goggles or the like\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7ff662f6bf59102889289d4577f23061f540ee3f19ec4ec6882afa9ea5929096",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9004",
+      "cited": [
+        "9004",
+        "900410"
+      ],
+      "confidence": "0.97",
+      "reason": "Polarised sunglasses are finished spectacles, which heading 9004 covers (subheading 900410 is sunglasses); 9001 covers only unmounted elements and 9003 covers frames and parts."
+    },
+    "input_tokens": 1373,
+    "latency_ms": 2732,
+    "output_tokens": 104
+  }
+}

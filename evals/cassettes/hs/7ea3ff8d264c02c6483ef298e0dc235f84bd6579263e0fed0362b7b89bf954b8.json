@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "7ea3ff8d264c02c6483ef298e0dc235f84bd6579263e0fed0362b7b89bf954b8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:06+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cashew kernels W320, shelled\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 080132: Nuts, edible; cashew nuts, fresh or dried, shelled\n    contains 080131: Nuts, edible; cashew nuts, fresh or dried, in shell\n    contains 080112: Nuts, edible; coconuts, in the inner shell (endocarp)\n    contains 080119: Nuts, edible; coconuts, fresh or dried, other than desiccated or in the inner shell (endocarp)\n    contains 080232: Nuts, edible; walnuts, fresh or dried, shelled\n    contains 080122: Nuts, edible; brazil nuts, fresh or dried, shelled\n    contains 080231: Nuts, edible; walnuts, fresh or dried, in shell\n    contains 080242: Nuts, edible; chestnuts (Castanea spp.), fresh or dried, shelled\n    contains 080262: Nuts, edible; macadamia, fresh or dried, shelled\n    contains 080111: Nuts, edible; coconuts, desiccated\n- 03: Fish and crustaceans, molluscs and other aquatic invertebrates\n    contains 030611: Crustaceans; frozen, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030612: Crustaceans; frozen, lobsters (Homarus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030614: Crustaceans; frozen, crabs, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030615: Crustaceans; frozen, Norway lobsters (Nephrops norvegicus), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030616: Crustaceans; frozen, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030617: Crustaceans; frozen, shrimps and prawns, excluding cold-water varieties, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030619: Crustaceans; frozen, n.e.c. in item no. 0306.1, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030771: Molluscs; clams, cockles and ark shells (families Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae and Veneridae), whether in shell or not, live, fresh or chilled\n    contains 030772: Molluscs; clams, cockles, ark shells (Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae and Veneridae), whether in shell or not, frozen\n    contains 030779: Molluscs; clams, cockle, ark shells (families Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae, Veneridae), whether in shell or not, dried, salted, in brine, smoked\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3b09569a56a6d670b1bef1e05325e6abe3d648e37d12334cd7f6de04742e3d14",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "08",
+      "cited": [
+        "08",
+        "080132"
+      ],
+      "confidence": "0.98",
+      "reason": "Shelled cashew kernels are edible nuts, covered by chapter 08 (subheading 080132), not by the aquatic animals of chapter 03."
+    },
+    "input_tokens": 2120,
+    "latency_ms": 2987,
+    "output_tokens": 85
+  }
+}

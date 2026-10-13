@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "f3831c078bcd9ee030a96055426cf6e66e12a5cc1d3b992b2c796cf9dc244938",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Men's shirt, woven, 100% cotton, long sleeves origin IN",
   "limit": 20,
   "candidates": [
     {
       "code": "610510",
       "description": "Shirts; men's or boys', of cotton, knitted or crocheted",
-      "score": "0.016393",
+      "score": "0.032522",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 2
       }
     },
     {
       "code": "620520",
       "description": "Shirts; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.016129",
+      "score": "0.031778",
       "ranks": {
-        "lexical": 2
+        "lexical": 5,
+        "vector": 1
       }
     },
     {
       "code": "610590",
       "description": "Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
-      "score": "0.015873",
+      "score": "0.031754",
       "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "620711",
-      "description": "Underpants and briefs; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "620721",
-      "description": "Nightshirts and pyjamas; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "620791",
-      "description": "Singlets and other vests, bathrobes, dressing gowns and similar articles; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "620719",
-      "description": "Underpants and briefs; men's or boys', of textile materials other than cotton (not knitted or crocheted)",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "610520",
-      "description": "Shirts; men's or boys', of man-made fibres, knitted or crocheted",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "620530",
-      "description": "Shirts; men's or boys', of man-made fibres (not knitted or crocheted)",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "620799",
-      "description": "Singlets and other vests, bathrobes, dressing gowns and similar articles; men's or boys', of textile materials other than cotton (not knitted or crocheted)",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "620590",
-      "description": "Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "600191",
-      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of cotton, knitted or crocheted",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "620729",
-      "description": "Nightshirts and pyjamas; men's or boys', of textile materials other than cotton or man-made fibres (not knitted or crocheted)",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
+        "lexical": 2,
+        "vector": 4
       }
     },
     {
       "code": "610610",
       "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted",
-      "score": "0.013514",
+      "score": "0.026862",
       "ranks": {
-        "lexical": 14
+        "lexical": 3,
+        "vector": 31
       }
     },
     {
       "code": "620630",
       "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)",
-      "score": "0.013333",
+      "score": "0.025790",
       "ranks": {
-        "lexical": 15
+        "lexical": 6,
+        "vector": 34
       }
     },
     {
-      "code": "610690",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
-      "score": "0.013158",
+      "code": "520852",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 100g/m2 but not more than 200g/m2",
+      "score": "0.025238",
       "ranks": {
-        "lexical": 16
+        "lexical": 24,
+        "vector": 15
       }
     },
     {
-      "code": "600199",
-      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of textile materials (other than cotton or man-made fibres), knitted or crocheted",
-      "score": "0.012987",
+      "code": "520812",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing more than 100g/m2 but not more than 200g/m2",
+      "score": "0.024510",
       "ranks": {
-        "lexical": 17
+        "lexical": 8,
+        "vector": 42
       }
     },
     {
-      "code": "610910",
-      "description": "T-shirts, singlets and other vests; of cotton, knitted or crocheted",
-      "score": "0.012821",
+      "code": "520851",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing not more than 100g/m2",
+      "score": "0.023953",
       "ranks": {
-        "lexical": 18
+        "lexical": 23,
+        "vector": 24
       }
     },
     {
-      "code": "600121",
-      "description": "Fabrics; looped pile fabrics, of cotton, knitted or crocheted",
-      "score": "0.012658",
+      "code": "520859",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5208.5, weighing not more than 200g/m2",
+      "score": "0.023813",
       "ranks": {
-        "lexical": 19
+        "lexical": 25,
+        "vector": 23
       }
     },
     {
-      "code": "610990",
-      "description": "T-shirts, singlets and other vests; of textile materials (other than cotton), knitted or crocheted",
-      "score": "0.012500",
+      "code": "520951",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 200g/m2",
+      "score": "0.023615",
       "ranks": {
-        "lexical": 20
+        "lexical": 39,
+        "vector": 14
+      }
+    },
+    {
+      "code": "520931",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing more than 200g/m2",
+      "score": "0.023370",
+      "ranks": {
+        "lexical": 32,
+        "vector": 20
+      }
+    },
+    {
+      "code": "520832",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing more than 100g/m2 but not more than 200g/m2",
+      "score": "0.023158",
+      "ranks": {
+        "lexical": 16,
+        "vector": 40
+      }
+    },
+    {
+      "code": "520911",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing more than 200g/m2",
+      "score": "0.023122",
+      "ranks": {
+        "lexical": 26,
+        "vector": 27
+      }
+    },
+    {
+      "code": "520942",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, weighing more than 200g/m2, denim",
+      "score": "0.023075",
+      "ranks": {
+        "lexical": 36,
+        "vector": 19
+      }
+    },
+    {
+      "code": "520959",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5209.5, weighing more than 200g/m2",
+      "score": "0.022888",
+      "ranks": {
+        "lexical": 41,
+        "vector": 17
+      }
+    },
+    {
+      "code": "520831",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing not more than 100g/m2",
+      "score": "0.022593",
+      "ranks": {
+        "lexical": 15,
+        "vector": 48
+      }
+    },
+    {
+      "code": "520839",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, dyed, of weaves n.e.c. in item no. 5208.3 weighing not more than 200g/m2",
+      "score": "0.022166",
+      "ranks": {
+        "lexical": 18,
+        "vector": 47
+      }
+    },
+    {
+      "code": "520941",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, plain weave, weighing more than 200g/m2",
+      "score": "0.022154",
+      "ranks": {
+        "lexical": 35,
+        "vector": 26
+      }
+    },
+    {
+      "code": "520939",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, dyed, of weaves n.e.c. in item no. 5209.3, weighing more than 200g/m2",
+      "score": "0.021391",
+      "ranks": {
+        "lexical": 34,
+        "vector": 33
+      }
+    },
+    {
+      "code": "520919",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, unbleached, of weaves n.e.c. in item no. 5209.1, weighing more than 200g/m2",
+      "score": "0.021265",
+      "ranks": {
+        "lexical": 28,
+        "vector": 41
       }
     }
   ]

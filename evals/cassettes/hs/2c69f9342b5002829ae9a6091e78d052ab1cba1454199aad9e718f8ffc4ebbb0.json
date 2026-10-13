@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "2c69f9342b5002829ae9a6091e78d052ab1cba1454199aad9e718f8ffc4ebbb0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lipstick\nCountry of origin: FR\n\nChosen so far: 33 Essential oils and resinoids; perfumery, cosmetic or toilet preparations\n\nChoose the heading that covers these goods. Options:\n- 3304: Cosmetic and toilet preparations; beauty, make-up and skin care preparations (excluding medicaments, including sunscreen or sun tan preparations), manicure or pedicure preparations\n    contains 330410: Cosmetic and toilet preparations; lip make-up\n    contains 330491: Cosmetic and toilet preparations; powders, whether or not compressed (excluding lip, eye, manicure or pedicure preparations)\n    contains 330499: Cosmetic and toilet preparations; n.e.c. in heading no. 3304, for the care of the skin (excluding medicaments, including sunscreen or sun tan preparations)\n    contains 330420: Cosmetic and toilet preparations; eye make-up\n    contains 330430: Cosmetic and toilet preparations; manicure or pedicure preparations\n- 3305: Hair preparations; for use on the hair\n    contains 330530: Hair preparations; lacquers\n    contains 330520: Hair preparations; for permanent waving or straightening\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "dff24140bcecf06594d303f2b977f20eb307142ab3f26194ed779d802c3bffd6",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3304",
+      "cited": [
+        "3304",
+        "330410"
+      ],
+      "confidence": "0.99",
+      "reason": "Lipstick is a lip make-up preparation, covered by heading 3304 (subheading 330410), not a hair preparation under 3305."
+    },
+    "input_tokens": 1148,
+    "latency_ms": 2982,
+    "output_tokens": 82
+  }
+}

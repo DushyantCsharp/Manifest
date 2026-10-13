@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "4b76486c056ba126e50b15917d5af961d8f0d4ef97c208284dd33d32b3028f37",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Household aluminium foil 12 micron, rolls origin CN",
   "limit": 20,
   "candidates": [
     {
-      "code": "761510",
-      "description": "Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like",
-      "score": "0.016393",
+      "code": "760711",
+      "description": "Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "760719",
       "description": "Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled",
-      "score": "0.016129",
+      "score": "0.032002",
       "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "760711",
-      "description": "Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
+        "lexical": 2,
+        "vector": 3
       }
     },
     {
       "code": "760720",
       "description": "Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm",
-      "score": "0.015625",
+      "score": "0.030777",
       "ranks": {
-        "lexical": 4
+        "lexical": 6,
+        "vector": 4
       }
     },
     {
-      "code": "761520",
-      "description": "Aluminium; sanitary ware and parts thereof",
-      "score": "0.015385",
+      "code": "721069",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with aluminium, other than plated or coated with aluminium zinc-alloys",
+      "score": "0.029139",
       "ranks": {
-        "lexical": 5
+        "lexical": 4,
+        "vector": 14
       }
     },
     {
       "code": "391910",
       "description": "Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, in rolls of a width not exceeding 20cm",
+      "score": "0.023584",
+      "ranks": {
+        "lexical": 9,
+        "vector": 50
+      }
+    },
+    {
+      "code": "761691",
+      "description": "Aluminium; cloth, grill, netting and fencing, of aluminium wire",
+      "score": "0.023259",
+      "ranks": {
+        "lexical": 39,
+        "vector": 16
+      }
+    },
+    {
+      "code": "721061",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with aluminium zinc-alloys",
+      "score": "0.021905",
+      "ranks": {
+        "lexical": 40,
+        "vector": 24
+      }
+    },
+    {
+      "code": "720918",
+      "description": "Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm",
+      "score": "0.021040",
+      "ranks": {
+        "lexical": 29,
+        "vector": 42
+      }
+    },
+    {
+      "code": "721912",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 4.75mm or more but not exceeding 10mm",
+      "score": "0.020840",
+      "ranks": {
+        "lexical": 47,
+        "vector": 27
+      }
+    },
+    {
+      "code": "721123",
+      "description": "Iron or non-alloy steel; flat-rolled, cold-rolled, of a width less than 600mm, containing by weight less than 0.25% of carbon",
+      "score": "0.018968",
+      "ranks": {
+        "lexical": 43,
+        "vector": 48
+      }
+    },
+    {
+      "code": "741012",
+      "description": "Copper; foil, not backed, of a thickness not exceeding 0.15mm, of copper alloys",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "721420",
+      "description": "Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "721113",
+      "description": "Iron or non-alloy steel; flat-rolled, hot-rolled, rolled on four faces or in a closed box pass, of a width more than 150mm but less than 600mm, 4mm thick or more, not in coils, without patterns in relief",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "741011",
+      "description": "Copper; foil, not backed, of a thickness not exceeding 0.15mm, of refined copper",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "741022",
+      "description": "Copper; foil, backed with paper, paperboard, plastics or similar backing material, of a thickness (excluding any backing) not exceeding 0.15mm, of copper alloys",
       "score": "0.015152",
       "ranks": {
-        "lexical": 6
+        "lexical": null,
+        "vector": 6
       }
     },
     {
-      "code": "391990",
-      "description": "Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, other than in rolls of a width not exceeding 20cm",
+      "code": "760612",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)",
       "score": "0.014925",
       "ranks": {
-        "lexical": 7
+        "lexical": null,
+        "vector": 7
       }
     },
     {
-      "code": "480300",
-      "description": "Tissue, towel, napkin stock or similar; for household or sanitary use, cellulose, wadding webs of cellulose fibres, in rolls exceeding 36cm in width or rectangular sheets with one side more than 36cm in unfolded state",
+      "code": "761510",
+      "description": "Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
       "score": "0.014706",
       "ranks": {
-        "lexical": 8
+        "lexical": 8,
+        "vector": null
       }
     },
     {
-      "code": "392490",
-      "description": "Plastics; household articles and hygienic or toilet articles",
+      "code": "741021",
+      "description": "Copper; foil, backed with paper, paperboard, plastics or similar backing material, of a thickness (excluding any backing) not exceeding 0.15mm, of refined copper",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "721012",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with tin, thickness of less than 0.5mm",
       "score": "0.014493",
       "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "260600",
-      "description": "Aluminium ores and concentrates",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "761699",
-      "description": "Aluminium; articles n.e.c. in heading 7616",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "760120",
-      "description": "Aluminium; unwrought, alloys",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "760200",
-      "description": "Aluminium; waste and scrap",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "790500",
-      "description": "Zinc; plates, sheets, strip and foil",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "691190",
-      "description": "Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "760110",
-      "description": "Aluminium; unwrought, (not alloyed)",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "760820",
-      "description": "Aluminium; tubes and pipes, alloys",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "750620",
-      "description": "Nickel; plates, sheets, strip and foil, of nickel alloys",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "691200",
-      "description": "Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "760320",
-      "description": "Aluminium; powders of lamellar structure, flakes",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 9
       }
     }
   ]

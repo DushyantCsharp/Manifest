@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "065b516079333a6999c89bc01f29f11bb1a21de4839b94c2dfc1d9c9b8841692",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Babies' romper suit, knitted, 100% cotton origin IN",
   "limit": 20,
   "candidates": [
     {
       "code": "611120",
       "description": "Garments and clothing accessories; babies', of cotton, knitted or crocheted",
-      "score": "0.016393",
+      "score": "0.031099",
       "ranks": {
-        "lexical": 1
+        "lexical": 8,
+        "vector": 1
       }
     },
     {
       "code": "620920",
       "description": "Garments and clothing accessories; babies', of cotton (not knitted or crocheted)",
-      "score": "0.016129",
+      "score": "0.030214",
       "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "611190",
-      "description": "Garments and clothing accessories; babies', of textile materials (other than cotton or synthetic fibres), knitted or crocheted",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "620990",
-      "description": "Garments and clothing accessories; babies', of textile materials other than cotton or synthetic fibres (not knitted or crocheted)",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "611211",
-      "description": "Track suits; of cotton, knitted or crocheted",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "621132",
-      "description": "Track suits and other garments n.e.c.; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "621142",
-      "description": "Track suits and other garments n.e.c.; women's or girls', of cotton (not knitted or crocheted)",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "611130",
-      "description": "Garments and clothing accessories; babies', of synthetic fibres, knitted or crocheted",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "611219",
-      "description": "Track suits; of textile materials (other than cotton or synthetic fibres), knitted or crocheted",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "620930",
-      "description": "Garments and clothing accessories; babies', of synthetic fibres (not knitted or crocheted)",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
+        "lexical": 11,
+        "vector": 2
       }
     },
     {
       "code": "620412",
       "description": "Suits; women's or girls', of cotton (not knitted or crocheted)",
-      "score": "0.014085",
+      "score": "0.029670",
       "ranks": {
-        "lexical": 11
+        "lexical": 10,
+        "vector": 5
+      }
+    },
+    {
+      "code": "611190",
+      "description": "Garments and clothing accessories; babies', of textile materials (other than cotton or synthetic fibres), knitted or crocheted",
+      "score": "0.028382",
+      "ranks": {
+        "lexical": 9,
+        "vector": 12
+      }
+    },
+    {
+      "code": "611211",
+      "description": "Track suits; of cotton, knitted or crocheted",
+      "score": "0.028021",
+      "ranks": {
+        "lexical": 1,
+        "vector": 26
+      }
+    },
+    {
+      "code": "621132",
+      "description": "Track suits and other garments n.e.c.; men's or boys', of cotton (not knitted or crocheted)",
+      "score": "0.026686",
+      "ranks": {
+        "lexical": 13,
+        "vector": 17
+      }
+    },
+    {
+      "code": "620990",
+      "description": "Garments and clothing accessories; babies', of textile materials other than cotton or synthetic fibres (not knitted or crocheted)",
+      "score": "0.026084",
+      "ranks": {
+        "lexical": 12,
+        "vector": 22
+      }
+    },
+    {
+      "code": "621142",
+      "description": "Track suits and other garments n.e.c.; women's or girls', of cotton (not knitted or crocheted)",
+      "score": "0.025008",
+      "ranks": {
+        "lexical": 14,
+        "vector": 27
+      }
+    },
+    {
+      "code": "611219",
+      "description": "Track suits; of textile materials (other than cotton or synthetic fibres), knitted or crocheted",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "600521",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, unbleached or bleached",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
       }
     },
     {
       "code": "610322",
       "description": "Ensembles; men's or boys', of cotton, knitted or crocheted",
-      "score": "0.013889",
+      "score": "0.015873",
       "ranks": {
-        "lexical": 12
+        "lexical": null,
+        "vector": 3
       }
     },
     {
-      "code": "610332",
-      "description": "Jackets and blazers; men's or boys', of cotton, knitted or crocheted",
-      "score": "0.013699",
+      "code": "600522",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, dyed",
+      "score": "0.015625",
       "ranks": {
-        "lexical": 13
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "610342",
+      "description": "Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton, knitted or crocheted",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "600523",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, yarns of different colours",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "600524",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, printed",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
       }
     },
     {
       "code": "610422",
       "description": "Ensembles; women's or girls', of cotton, knitted or crocheted",
-      "score": "0.013514",
+      "score": "0.015152",
       "ranks": {
-        "lexical": 14
+        "lexical": null,
+        "vector": 6
       }
     },
     {
-      "code": "610432",
-      "description": "Jackets; women's or girls', of cotton, knitted or crocheted",
-      "score": "0.013333",
+      "code": "600590",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, excluding those made from cotton or synthetic or artificial fibres",
+      "score": "0.014925",
       "ranks": {
-        "lexical": 15
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "610791",
+      "description": "Bathrobes, dressing gowns and similar articles; men's or boys', of cotton, knitted or crocheted",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "610462",
+      "description": "Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton, knitted or crocheted",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
       }
     },
     {
       "code": "610442",
       "description": "Dresses; women's or girls', of cotton, knitted or crocheted",
-      "score": "0.013158",
+      "score": "0.014493",
       "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "620322",
-      "description": "Ensembles; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "610452",
-      "description": "Skirts and divided skirts; women's or girls', of cotton, knitted or crocheted",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "620332",
-      "description": "Jackets and blazers; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "620422",
-      "description": "Ensembles; women's or girls', of cotton (not knitted or crocheted)",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 9
       }
     }
   ]

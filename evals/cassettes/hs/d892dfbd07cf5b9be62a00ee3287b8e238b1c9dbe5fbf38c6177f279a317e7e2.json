@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d892dfbd07cf5b9be62a00ee3287b8e238b1c9dbe5fbf38c6177f279a317e7e2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:26+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Three-phase AC induction motor 0.55kW, 1400 rpm\nCountry of origin: DE\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8501 Electric motors and generators (excluding generating sets)\n\nChoose the subheading that covers these goods. Options:\n- 850140: Electric motors; AC motors, single-phase\n- 850153: Electric motors; AC motors, multi-phase, of an output exceeding 75kW\n- 850151: Electric motors; AC motors, multi-phase, of an output not exceeding 750W\n- 850152: Electric motors; AC motors, multi-phase, of an output exceeding 750W but not exceeding 75kW\n- 850133: Electric motors and generators; DC, of an output exceeding 75kW but not exceeding 375kW\n- 850134: Electric motors and generators; DC, of an output exceeding 375kW\n- 850132: Electric motors and generators; DC, of an output exceeding 750W but not exceeding 75kW\n- 850131: Electric motors and generators; DC, of an output not exceeding 750W\n- 850120: Electric motors; universal AC/DC of an output exceeding 37.5W\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b393423e5ea92222d235e4a25145b39dd1f9fb0992844d22845ac2f31e53aa1d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "850151",
+      "cited": [
+        "850151"
+      ],
+      "confidence": "0.97",
+      "reason": "A three-phase (multi-phase) AC motor of 0.55 kW (550 W) has an output not exceeding 750 W, so it falls under 850151."
+    },
+    "input_tokens": 1215,
+    "latency_ms": 3178,
+    "output_tokens": 85
+  }
+}

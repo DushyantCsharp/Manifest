@@ -2,8 +2,8 @@
   "format": 1,
   "key": "75dc02f21e6113b64e1e481c843a323cb6b71bb6b33ad2de91c854bbd0528f0c",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:36+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,161 +15,161 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Ward, Taylor and Morton",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nWard, Taylor and Morton",
         "value": "Ward, Taylor and Morton"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.9",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FCA Semarang",
         "value": "FCA Semarang"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "20-FEB-2026",
         "value": "20-FEB-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EX202694-3613",
         "value": "EX202694-3613"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "confidence": "0.95",
+            "evidence": "7.57 86,532.67",
             "value": "86,532.67"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "confidence": "0.93",
+            "evidence": "0801.32 VIETNAM",
             "value": "VIETNAM"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.93",
             "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
             "value": "CASHEW KERNELS W320"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "confidence": "0.95",
+            "evidence": "11,431 KG",
             "value": "11,431"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "confidence": "0.95",
+            "evidence": "11,431 KG",
             "value": "KG"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "confidence": "0.95",
+            "evidence": "KG 7.57 86,532.67",
             "value": "7.57"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "confidence": "0.95",
+            "evidence": "25.38 57,561.84",
             "value": "57,561.84"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Gang Merdeka No. 1, 38707 Semarang, Indonesia",
-            "value": "Indonesia"
+            "confidence": "0.93",
+            "evidence": "6404.11 INDONESIA",
+            "value": "INDONESIA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "RUNNING SHOES, RUBBER SOLE, TEXTILE UPPER",
+            "confidence": "0.9",
+            "evidence": "RUNNING SHOES, RUBBER\nSOLE, TEXTILE UPPER",
             "value": "RUNNING SHOES, RUBBER SOLE, TEXTILE UPPER"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "confidence": "0.95",
+            "evidence": "2,268 PAIRS",
             "value": "2,268"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "confidence": "0.95",
+            "evidence": "2,268 PAIRS",
             "value": "PAIRS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "6404.11 INDONESIA 2,268 PAIRS 25.38 57,561.84",
+            "confidence": "0.95",
+            "evidence": "PAIRS 25.38 57,561.84",
             "value": "25.38"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "confidence": "0.95",
+            "evidence": "0.4684 10,311.83",
             "value": "10,311.83"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "CASHEW KERNELS W320 0801.32 VIETNAM 11,431 KG 7.57 86,532.67",
+            "confidence": "0.93",
+            "evidence": "4819.10 VIETNAM",
             "value": "VIETNAM"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "CORRUGATED SHIPPING CARTON, 3-PLY",
+            "confidence": "0.9",
+            "evidence": "CORRUGATED SHIPPING\nCARTON, 3-PLY",
             "value": "CORRUGATED SHIPPING CARTON, 3-PLY"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "confidence": "0.95",
+            "evidence": "22,015 PCS",
             "value": "22,015"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "confidence": "0.95",
+            "evidence": "22,015 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4819.10 VIETNAM 22,015 PCS 0.4684 10,311.83",
+            "confidence": "0.95",
+            "evidence": "PCS 0.4684 10,311.83",
             "value": "0.4684"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Cash against documents",
         "value": "Cash against documents"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "UD Utami Tbk",
+        "confidence": "0.95",
+        "evidence": "SHIPPER / EXPORTER\nUD Utami Tbk",
         "value": "UD Utami Tbk"
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "TOTAL FCA SEMARANG USD 154,406.34",
         "value": "154,406.34"
       }
     },
-    "input_tokens": 500,
-    "latency_ms": 0,
-    "output_tokens": 827
+    "input_tokens": 2558,
+    "latency_ms": 7453,
+    "output_tokens": 1285
   }
 }

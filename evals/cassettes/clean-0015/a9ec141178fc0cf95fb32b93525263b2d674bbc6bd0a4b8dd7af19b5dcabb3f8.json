@@ -2,8 +2,8 @@
   "format": 1,
   "key": "a9ec141178fc0cf95fb32b93525263b2d674bbc6bd0a4b8dd7af19b5dcabb3f8",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:34+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Guillet",
         "value": "Guillet"
       },
@@ -25,7 +25,7 @@
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Incoterm 2020 FOB Qingdao",
         "value": "FOB Qingdao"
       },
@@ -42,266 +42,266 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "confidence": "0.95",
+            "evidence": "23,29 113 189,40",
             "value": "113 189,40"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 334 Harbour Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "textile upper CN",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "P.U. USD",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "confidence": "0.95",
+            "evidence": "Running shoes, rubber sole, textile upper",
             "value": "Running shoes, rubber sole, textile upper"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "confidence": "0.93",
+            "evidence": "CN 4 860 pairs",
             "value": "4 860"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "confidence": "0.95",
+            "evidence": "4 860 pairs",
             "value": "pairs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "confidence": "0.95",
+            "evidence": "pairs 23,29",
             "value": "23,29"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "1,07 19 527,50",
             "value": "19 527,50"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 334 Harbour Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "3-ply CN",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "P.U. USD",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "Corrugated shipping carton, 3-ply",
             "value": "Corrugated shipping carton, 3-ply"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.93",
+            "evidence": "CN 18 250 pcs",
             "value": "18 250"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "18 250 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "pcs 1,07",
             "value": "1,07"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "confidence": "0.95",
+            "evidence": "62,17 5 097,94",
             "value": "5 097,94"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 334 Harbour Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "monocrystalline CN",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "P.U. USD",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "confidence": "0.95",
+            "evidence": "Solar PV module 410W monocrystalline",
             "value": "Solar PV module 410W monocrystalline"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "confidence": "0.95",
+            "evidence": "CN 82 pcs",
             "value": "82"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "82 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline CN 82 pcs 62,17 5 097,94",
+            "confidence": "0.95",
+            "evidence": "pcs 62,17",
             "value": "62,17"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "confidence": "0.95",
+            "evidence": "137,35 41 205,00",
             "value": "41 205,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 334 Harbour Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "1.1kW CN",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "P.U. USD",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "confidence": "0.95",
+            "evidence": "Centrifugal water pump 1.1kW",
             "value": "Centrifugal water pump 1.1kW"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "confidence": "0.95",
+            "evidence": "CN 300 pcs",
             "value": "300"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "300 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4 Centrifugal water pump 1.1kW CN 300 pcs 137,35 41 205,00",
+            "confidence": "0.95",
+            "evidence": "pcs 137,35",
             "value": "137,35"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "confidence": "0.95",
+            "evidence": "1,31 11 632,80",
             "value": "11 632,80"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 334 Harbour Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "the sole CN",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "P.U. USD",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "confidence": "0.95",
+            "evidence": "Rubber flip-flops, thong plugged into the sole",
             "value": "Rubber flip-flops, thong plugged into the sole"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "confidence": "0.93",
+            "evidence": "CN 8 880 pairs",
             "value": "8 880"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Running shoes, rubber sole, textile upper CN 4 860 pairs 23,29 113 189,40",
+            "confidence": "0.95",
+            "evidence": "8 880 pairs",
             "value": "pairs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "5 Rubber flip-flops, thong plugged into the sole CN 8 880 pairs 1,31 11 632,80",
+            "confidence": "0.95",
+            "evidence": "pairs 1,31",
             "value": "1,31"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "confidence": "0.95",
+            "evidence": "113,96 32 022,76",
             "value": "32 022,76"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 334 Harbour Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "20Ah CN",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "P.U. USD",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "confidence": "0.95",
+            "evidence": "Lithium-ion battery pack 48V 20Ah",
             "value": "Lithium-ion battery pack 48V 20Ah"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "confidence": "0.95",
+            "evidence": "CN 281 pcs",
             "value": "281"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "281 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "6 Lithium-ion battery pack 48V 20Ah CN 281 pcs 113,96 32 022,76",
+            "confidence": "0.95",
+            "evidence": "pcs 113,96",
             "value": "113,96"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "confidence": "0.95",
+            "evidence": "3,06 20 502,00",
             "value": "20 502,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 334 Harbour Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "sunglasses CN",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "P.U. USD",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "confidence": "0.95",
+            "evidence": "Polarized sunglasses",
             "value": "Polarized sunglasses"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "confidence": "0.93",
+            "evidence": "CN 6 700 pcs",
             "value": "6 700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Corrugated shipping carton, 3-ply CN 18 250 pcs 1,07 19 527,50",
+            "confidence": "0.95",
+            "evidence": "6 700 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "7 Polarized sunglasses CN 6 700 pcs 3,06 20 502,00",
+            "confidence": "0.95",
+            "evidence": "pcs 3,06",
             "value": "3,06"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "T/T in advance",
         "value": "T/T in advance"
       },
@@ -311,13 +311,13 @@
         "value": "Ningbo Ruifeng Trading Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Total USD : 243 177,40",
         "value": "243 177,40"
       }
     },
-    "input_tokens": 471,
-    "latency_ms": 0,
-    "output_tokens": 1753
+    "input_tokens": 2409,
+    "latency_ms": 11630,
+    "output_tokens": 2247
   }
 }

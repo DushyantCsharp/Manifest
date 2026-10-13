@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "c440a6092cdacd80a9bb48ddb3e2f91103582758e3190eff000796aa5b29dd1d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:20+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Laundry detergent powder, retail packs\nCountry of origin: TR\n\nChosen so far: 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster\n\nChoose the heading that covers these goods. Options:\n- 3402: Organic surface-active agents (not soap); surface-active, washing (including auxiliary washing) and cleaning preparations, containing soap or not, excluding those of heading no. 3401\n    contains 340250: Washing and cleaning preparations; powders, flakes and granules, surface-active, whether or not containing soap (excluding those of heading no. 3401), put up for retail sale\n- 3401: Soap; organic surface-active preparations used as soap, skin washing, in bars, cakes, moulded pieces, shapes, liquid or cream, containing soap or not; for retail, paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent\n    contains 340119: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use\n    contains 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n    contains 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n- 3407: Modelling pastes, including those for children; dental wax, impression compounds, in sets or packings for retail sale or in plates and similar forms; dentistry preparations with plaster base\n    contains 340700: Modelling pastes; preparations known as dental wax, put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms, other preparations for use in dentistry\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b30248cd5e192d4eaf2c38b100766f6c724db9e132053df96796c83f1095acdf",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3402",
+      "cited": [
+        "3402",
+        "340250"
+      ],
+      "confidence": "0.97",
+      "reason": "Laundry detergent powder put up for retail sale is a surface-active washing preparation in powder form, covered by heading 3402 (subheading 340250), not soap bars or skin-washing products of 3401."
+    },
+    "input_tokens": 1454,
+    "latency_ms": 3382,
+    "output_tokens": 103
+  }
+}

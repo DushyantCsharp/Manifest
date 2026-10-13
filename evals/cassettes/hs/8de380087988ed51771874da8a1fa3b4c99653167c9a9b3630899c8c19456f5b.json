@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "8de380087988ed51771874da8a1fa3b4c99653167c9a9b3630899c8c19456f5b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:40+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen concentrated orange juice\nCountry of origin: BR\n\nChosen so far: 20 Preparations of vegetables, fruit, nuts or other parts of plants > 2009 Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n\nChoose the subheading that covers these goods. Options:\n- 200911: Juice; orange, frozen, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n- 200912: Juice; orange, not frozen, of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200919: Juice; orange, not frozen, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200939: Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200931: Juice; of single citrus fruit (excluding orange, grapefruit or pomelo), of a Brix value not exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200929: Juice; grapefruit or pomelo, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200921: Juice; grapefruit or pomelo, of a Brix value not exceeding 20, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n- 200949: Juice; pineapple, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200941: Juice; pineapple, of a Brix value not exceeding 20, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n- 200990: Juices; mixtures of fruits or vegetables (but not nut juice), unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200981: Juice; cranberry (Vaccinium macrocarpon, Vaccinium oxycoccos); Iingonberry (Vaccinium vitis-idaea), unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200969: Juice; grape, of a Brix value exceeding 30, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200961: Juice; grape, of a Brix value not exceeding 30, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n- 200979: Juice; apple, of a Brix value exceeding 20, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200971: Juice; apple, of a Brix value not exceeding 20, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter\n- 200989: Juice; of any single fruit, nut or vegetable n.e.c. in heading no. 2009, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n- 200950: Juice; tomato, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "9dc0e61f627df63f688b1a63f8a542da56482beb1e6f02cf889180d0476d3b8d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "200911",
+      "cited": [
+        "200911"
+      ],
+      "confidence": "0.97",
+      "reason": "Frozen orange juice, including frozen concentrate, is specifically covered by subheading 2009.11 regardless of Brix value."
+    },
+    "input_tokens": 2054,
+    "latency_ms": 2741,
+    "output_tokens": 77
+  }
+}

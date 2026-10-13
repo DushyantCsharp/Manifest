@@ -2,8 +2,8 @@
   "format": 1,
   "key": "24454673f30328753299feffe8ac01aaa9fa4059eef050c13404406b6a2a38c4",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:50+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
-        "evidence": "5 ONEYFW6533019",
+        "confidence": "0.8",
+        "evidence": "ONEYFW6533019",
         "value": "ONEYFW6533019"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Miller-Burke :",
+        "confidence": "0.6",
+        "evidence": "Miller-Burke",
         "value": "Miller-Burke"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "ONE",
+        "confidence": "0.7",
+        "evidence": "Signed as Carrier: ONE",
         "value": "ONE"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "ONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b",
+        "confidence": "0.8",
+        "evidence": "ONEU4707533",
         "value": "ONEU4707533"
       },
       "freight_terms": {
-        "confidence": "0.97",
-        "evidence": "_FREIGHT ‘PREPAID.",
+        "confidence": "0.8",
+        "evidence": "FREIGHT ‘PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.8",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "2026/4866 ‘| CARTONS . | ream; Roasted coffee beans; whole.",
+        "confidence": "0.7",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.82",
-        "evidence": "‘Paranagua - Las Angeles",
+        "confidence": "0.5",
+        "evidence": "Paranagua - Las Angeles",
         "value": "Las Angeles"
       },
       "port_of_loading": {
-        "confidence": "0.76",
-        "evidence": "‘Paranagua - Las Angeles",
-        "value": "‘Paranagua"
+        "confidence": "0.6",
+        "evidence": "Paranagua - Las Angeles",
+        "value": "Paranagua"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "| SEAL 3198566",
+        "confidence": "0.8",
+        "evidence": "SEAL 3198566",
         "value": "3198566"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Pires Viana e Filhos",
         "value": "Pires Viana e Filhos"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "Paranagua, September 6, 2026",
-        "value": "September 6, 2026"
+        "confidence": "0.3",
+        "evidence": "september’ 6, 2026",
+        "value": "september 6, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.82",
-        "evidence": "ONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b",
-        "value": "54,354.3 1b"
+        "confidence": "0.6",
+        "evidence": "54,354.3 1b",
+        "value": "54,354.3 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "ONEU4707533. MILLER-BURKE / 1866 | SAID TO CONTAIN: A4 copy. paper: 80gsm, 54,354.3 1b",
+        "confidence": "0.4",
+        "evidence": "MILLER-BURKE / 1866",
         "value": "1866"
       },
       "vessel": {
-        "confidence": "0.97",
-        "evidence": "ONE TAGE / 4535S ..",
+        "confidence": "0.5",
+        "evidence": "ONE TAGE / 4535S",
         "value": "ONE TAGE"
       },
       "voyage": {
-        "confidence": "0.80",
-        "evidence": "ONE TAGE / 4535S ..",
+        "confidence": "0.5",
+        "evidence": "ONE TAGE / 4535S",
         "value": "4535S"
       }
     },
-    "input_tokens": 508,
-    "latency_ms": 0,
-    "output_tokens": 449
+    "input_tokens": 2370,
+    "latency_ms": 4511,
+    "output_tokens": 672
   }
 }

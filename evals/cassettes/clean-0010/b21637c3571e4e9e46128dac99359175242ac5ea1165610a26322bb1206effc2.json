@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b21637c3571e4e9e46128dac99359175242ac5ea1165610a26322bb1206effc2",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:58+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,7 +16,7 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "EGLVGQ9135344",
+        "evidence": "B/L NO.\nEGLVGQ9135344",
         "value": "EGLVGQ9135344"
       },
       "buyer_name": {
@@ -25,17 +25,17 @@
         "value": "Baudry et Fils"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU8820326",
         "value": "EGLU8820326"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
@@ -45,23 +45,23 @@
         "value": "Pineau S.A."
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "1588\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Marseille",
+        "evidence": "PORT OF DISCHARGE\nMarseille",
         "value": "Marseille"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Genova",
+        "evidence": "PORT OF LOADING\nGenova",
         "value": "Genova"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "2680810",
+        "confidence": "0.95",
+        "evidence": "SEAL\n2680810",
         "value": "2680810"
       },
       "seller_name": {
@@ -71,32 +71,32 @@
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "2026-05-12",
+        "evidence": "SHIPPED ON BOARD\n2026-05-12",
         "value": "2026-05-12"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "22 354,98 kg",
         "value": "22 354,98 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1588",
+        "confidence": "0.93",
+        "evidence": "1588\nCARTONS",
         "value": "1588"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN TRITON / 819S",
         "value": "EVERGREEN TRITON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN TRITON / 819S",
         "value": "819S"
       }
     },
-    "input_tokens": 561,
-    "latency_ms": 0,
-    "output_tokens": 370
+    "input_tokens": 2440,
+    "latency_ms": 4895,
+    "output_tokens": 743
   }
 }

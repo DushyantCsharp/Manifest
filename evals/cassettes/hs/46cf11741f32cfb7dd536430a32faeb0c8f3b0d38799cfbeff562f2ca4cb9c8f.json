@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "46cf11741f32cfb7dd536430a32faeb0c8f3b0d38799cfbeff562f2ca4cb9c8f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:53+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hot-rolled non-alloy steel coil, 3.5mm thick, 1500mm wide, not pickled\nCountry of origin: IN\n\nChosen so far: 72 Iron and steel\n\nChoose the heading that covers these goods. Options:\n- 7208: Iron or non-alloy steel; flat-rolled products of a width of 600mm or more, hot-rolled, not clad, plated or coated\n    contains 720826: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, pickled, of a thickness of 3mm or more but less than 4.75mm\n    contains 720827: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, pickled, of a thickness of less than 3mm\n    contains 720825: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, pickled, of a thickness of 4.75mm or more\n    contains 720838: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness of 3mm or more but less than 4.75mm\n    contains 720837: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness of 4.75mm or more but not exceeding 10mm\n    contains 720839: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness of less than 3mm\n    contains 720836: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness exceeding 10mm\n    contains 720853: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness of 3mm or more but less than 4.75mm\n    contains 720854: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness of less than 3mm\n    contains 720851: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness exceeding 10mm\n    contains 720852: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness of 4.75mm or more but not exceeding 10mm\n    contains 720810: Iron or non-alloy steel; in coils, flat-rolled, of a width 600mm or more, hot-rolled, with patterns in relief\n- 7214: Iron or non-alloy steel; bars and rods, not further worked than forged, hot-rolled, hot drawn or hot-extruded, but including those twisted after rolling\n    contains 721430: Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, including those twisted after rolling, of free-cutting steel\n    contains 721420: Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling\n    contains 721410: Iron or non-alloy steel; bars and rods, forged, hot-rolled, hot-drawn or hot-extruded, but including those twisted after rolling\n- 7211: Iron or non-alloy steel; flat-rolled products, width less than 600mm, not clad, plated or coated\n    contains 721113: Iron or non-alloy steel; flat-rolled, hot-rolled, rolled on four faces or in a closed box pass, of a width more than 150mm but less than 600mm, 4mm thick or more, not in coils, without patterns in relief\n- 7209: Iron or non-alloy steel; flat-rolled products, width 600mm or more, cold-rolled (cold-reduced), not clad, plated or coated\n    contains 720915: Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more\n    contains 720916: Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm\n    contains 720917: Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm\n- 7213: Iron or non-alloy steel; bars and rods, hot-rolled, in irregularly wound coils\n    contains 721320: Iron or non-alloy steel; bars and rods, hot-rolled, in irregularly wound coils, of free-cutting steel\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "fec47c50f664fdcf137ae8b33e32600ece08051b74fd5d0db451593ae35950e2",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7208",
+      "cited": [
+        "7208",
+        "720838"
+      ],
+      "confidence": "0.97",
+      "reason": "Hot-rolled non-alloy flat-rolled steel in coils, 1500mm wide (600mm or more), unclad and unpickled, falls in heading 7208 (subheading 720838 for 3mm to under 4.75mm thickness)."
+    },
+    "input_tokens": 2507,
+    "latency_ms": 2919,
+    "output_tokens": 119
+  }
+}

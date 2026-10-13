@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "8267cdcb32695801f6d2b1fb36ae5f17d609a7a157fef66c3dd82b141351e4f1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:08+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Nitrile examination gloves, powder free, medical\nCountry of origin: MY\n\nChoose the chapter that covers these goods. Options:\n- 40: Rubber and articles thereof\n    contains 401512: Rubber; vulcanised (other than hard rubber), gloves, of a kind used for medical, surgical, dental or veterinary purposes\n    contains 401519: Rubber; vulcanised (other than hard rubber), gloves, mittens and mitts other than surgical gloves\n    contains 401590: Rubber; vulcanised (other than hard rubber), articles of apparel and clothing accessories (other than gloves, mittens and mitts)\n    contains 401490: Rubber; vulcanised (other than hard rubber), hygienic or pharmaceutical articles (excluding sheath contraceptives), with or without fittings of hard rubber\n    contains 401410: Rubber; vulcanised (other than hard rubber), sheath contraceptives\n- 30: Pharmaceutical products\n    contains 300670: Pharmaceutical goods; Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 901831: Medical, surgical instruments and appliances; syringes, with or without needles\n    contains 901832: Medical, surgical instruments and appliances; tubular metal needles and needles for sutures\n    contains 901820: Medical, surgical instruments and appliances; ultra-violet or infra-red ray apparatus\n    contains 901890: Medical, surgical or dental instruments and appliances; n.e.c. in heading no. 9018\n    contains 901819: Medical, surgical instruments and appliances; electro-diagnostic apparatus (including apparatus for functional exploratory examination or for checking physiological parameters), n.e.c. in item no. 9018.1\n    contains 900630: Cameras, photographic (excluding cinematographic); specially designed for underwater use, aerial survey, medical or surgical examination of internal organs; comparison cameras for forensic or criminological use\n    contains 901811: Medical, surgical instruments and appliances; electro-cardiographs\n    contains 901812: Medical, surgical instruments and appliances; ultrasonic scanning apparatus\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 611693: Gloves, mittens and mitts; of synthetic fibres, knitted or crocheted, (other than impregnated, coated, covered or laminated with plastics or rubber)\n    contains 611610: Gloves, mittens and mitts; knitted or crocheted, impregnated, coated, covered or laminated with plastics or rubber\n    contains 611699: Gloves, mittens and mitts; of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted, (other than impregnated, coated, covered or laminated with plastics or rubber)\n    contains 611692: Gloves, mittens and mitts; of cotton, knitted or crocheted, (other than impregnated, coated, covered or laminated with plastics or rubber)\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940290: Furniture; for medical, surgical, veterinary use (e.g. operating tables, examination tables, hospital beds with mechanical fittings) and parts thereof\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "16605f7a6a90412a135bdb47ca043d96b693df7833cf1b267b52518ee3cdf722",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "40",
+      "cited": [
+        "40",
+        "401512"
+      ],
+      "confidence": "0.96",
+      "reason": "Nitrile (synthetic rubber) medical examination gloves are vulcanised rubber gloves for medical use, covered by heading 4015 (subheading 401512) in Chapter 40."
+    },
+    "input_tokens": 2139,
+    "latency_ms": 3003,
+    "output_tokens": 98
+  }
+}

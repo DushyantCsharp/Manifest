@@ -2,8 +2,8 @@
   "format": 1,
   "key": "4ffa4227c50129c296f13fc3df403fba1a4b2e8f15be7a61c2a91f95aad6d4ef",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:40+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,7 +25,7 @@
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Incoterm 2020 FOB Port Klang",
         "value": "FOB Port Klang"
       },
@@ -42,81 +42,81 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "confidence": "0.95",
+            "evidence": "1,61 18 329,85",
             "value": "18 329,85"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "confidence": "0.95",
+            "evidence": "white CN 11 385",
             "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
             "value": "LED bulb E27 9W warm white"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "confidence": "0.93",
+            "evidence": "CN 11 385 pcs 1,61 18 329,85",
             "value": "11 385"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "confidence": "0.96",
+            "evidence": "11 385 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 LED bulb E27 9W warm white CN 11 385 pcs 1,61 18 329,85",
+            "confidence": "0.95",
+            "evidence": "pcs 1,61 18 329,85",
             "value": "1,61"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "confidence": "0.95",
+            "evidence": "3,41 54 150,80",
             "value": "54 150,80"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "confidence": "0.95",
+            "evidence": "micron TR 15 880",
             "value": "TR"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
             "value": "Aluminium household foil 12 micron"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "confidence": "0.93",
+            "evidence": "TR 15 880 kg 3,41 54 150,80",
             "value": "15 880"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "confidence": "0.96",
+            "evidence": "15 880 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 15 880 kg 3,41 54 150,80",
+            "confidence": "0.95",
+            "evidence": "kg 3,41 54 150,80",
             "value": "3,41"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "T/T 30 days after B/L date",
         "value": "T/T 30 days after B/L date"
       },
@@ -126,13 +126,13 @@
         "value": "Penang Gemilang Electronics Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Total USD : 74 002,74",
         "value": "74 002,74"
       }
     },
-    "input_tokens": 400,
-    "latency_ms": 0,
-    "output_tokens": 660
+    "input_tokens": 2251,
+    "latency_ms": 6317,
+    "output_tokens": 987
   }
 }

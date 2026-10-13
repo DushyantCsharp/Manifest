@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "057fab73f3a512f86bdcb80ef35e95a02c9db030593fd7def19a0b4b3f878178",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:24+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Raw cane sugar in bulk\nCountry of origin: BR\n\nChoose the chapter that covers these goods. Options:\n- 17: Sugars and sugar confectionery\n    contains 170113: Sugars; cane sugar, raw, in solid form, as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n    contains 170114: Sugars; cane sugar, raw, in solid form, other than as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n    contains 170112: Sugars; beet sugar, raw, in solid form, not containing added flavouring or colouring matter\n    contains 170310: Sugars; molasses, from sugar cane, resulting from the extraction or refining of sugar\n    contains 170390: Sugars; molasses, from sugar beet, resulting from the extraction or refining of sugar\n    contains 170290: Sugars; n.e.c. in heading no. 1702, including invert sugar and other sugar and sugar syrup blends containing, in the dry state, 50% by weight of fructose\n    contains 170199: Sugars; sucrose, chemically pure, in solid form, not containing added flavouring or colouring matter\n    contains 170191: Sugars; sucrose, chemically pure, in solid form, containing added flavouring or colouring matter\n    contains 170260: Sugars; fructose, other than chemically pure fructose, and fructose syrup (containing in the dry state more than 50% by weight of fructose), excluding invert sugar\n    contains 170240: Sugars; glucose and glucose syrup, containing in the dry state at least 20% but less than 50% by weight of fructose, excluding invert sugar, the syrup not containing added flavouring or colouring matter\n    contains 170220: Sugars; maple sugar, chemically pure, in solid form; maple syrup, not containing added flavouring or colouring matter\n    contains 170250: Sugars; fructose, chemically pure, in solid form\n    contains 170230: Sugars; glucose and glucose syrup, not containing fructose or containing in the dry state less than 20% by weight of fructose, the syrup not containing added flavouring or colouring matter\n    contains 170211: Sugars; lactose and lactose syrup, containing by weight 99% or more lactose, expressed as anhydrous lactose, calculated on the dry matter\n    contains 170219: Sugars; lactose and lactose syrup, containing by weight less than 99% lactose, expressed as anhydrous lactose, calculated on the dry matter\n    contains 170490: Sugar confectionery; (excluding chewing gum, including white chocolate), not containing cocoa\n- 12: Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder\n    contains 121293: Sugar cane; fit for human consumption, fresh, chilled, frozen or dried, whether or not ground\n    contains 121291: Sugar beet; fit for human consumption, fresh, chilled, frozen or dried, whether or not ground\n- 29: Organic chemicals\n    contains 294000: Sugars, chemically pure, other than sucrose, lactose, maltose, glucose and fructose; sugar ethers, sugar acetals and sugar esters, and their salts, other than the products of heading 29.37, 29.38, or 29.39\n- 22: Beverages, spirits and vinegar\n    contains 220840: Rum and other spirits obtained by distilling fermented sugar-cane products\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "87374b415dfa4378d5b26221f1349e1788907ef7908bec614a063f15a19a4a7f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "17",
+      "cited": [
+        "17",
+        "170113",
+        "170114"
+      ],
+      "confidence": "0.98",
+      "reason": "Raw cane sugar in solid form is covered by Chapter 17 (heading 1701, subheadings 170113/170114), not by sugar cane plants (12), pure sugars (29) or spirits (22)."
+    },
+    "input_tokens": 1937,
+    "latency_ms": 3164,
+    "output_tokens": 107
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "c88bdb6eaa467d0bda0dfce5225a32ff734ef3ad8a7bbdbfea05643dfd42fa8e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:53+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's ankle boots, leather uppers, rubber soles\nCountry of origin: PT\n\nChosen so far: 64 Footwear; gaiters and the like; parts of such articles > 6403 Footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of leather\n\nChoose the subheading that covers these goods. Options:\n- 640312: Sports footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of leather, ski-boots, snowboard boots and cross-country ski footwear\n- 640391: Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather\n- 640319: Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles of rubber, plastics, leather or composition leather and uppers of leather\n- 640351: Footwear; n.e.c. in heading no. 6403, with outer soles and uppers of leather, covering the ankle\n- 640320: Footwear; with outer soles of leather, uppers consisting of leather straps across instep and around the big toe\n- 640399: Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles of rubber, plastics or composition leather, uppers of leather\n- 640340: Footwear; with metal toe-cap, outer soles of rubber, plastics, leather or composition leather, uppers of leather\n- 640359: Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles and uppers of leather\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e7af317f4e15d64d06cefe9dcb17988f9303b7781a46181ecf35e77ae1a04ade",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "640391",
+      "cited": [
+        "640391"
+      ],
+      "confidence": "0.93",
+      "reason": "Women's ankle boots are non-sports footwear covering the ankle, with rubber outer soles and leather uppers, which falls under 640391."
+    },
+    "input_tokens": 1313,
+    "latency_ms": 2805,
+    "output_tokens": 80
+  }
+}

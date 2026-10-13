@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "2c8d4e4cfcfb39b5c50b5b8af151ed406eff9322bf5ee561d2bb373c64c557bb",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:37+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen French fries, prepared potatoes\nCountry of origin: BE\n\nChoose the chapter that covers these goods. Options:\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200410: Vegetable preparations; potatoes, prepared or preserved otherwise than by vinegar or acetic acid, frozen\n    contains 200520: Vegetable preparations; potatoes, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200490: Vegetable preparations; vegetables and mixtures of vegetables (excluding potatoes), prepared or preserved otherwise than by vinegar or acetic acid, frozen\n    contains 200540: Vegetable preparations; peas (pisum sativum), prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200559: Vegetable preparations; beans, (not shelled), prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200510: Vegetable preparations; homogenised vegetables, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200551: Vegetable preparations; beans, shelled, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200560: Vegetable preparations; asparagus, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200570: Vegetable preparations; olives, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200580: Vegetable preparations; sweetcorn (zea mays var. saccharata), prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n- 07: Vegetables and certain roots and tubers; edible\n    contains 071420: Vegetable roots and tubers; sweet potatoes, with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets\n    contains 071010: Vegetables; potatoes, uncooked or cooked by steaming or boiling in water, frozen\n    contains 070190: Vegetables; potatoes (other than seed), fresh or chilled\n    contains 070110: Vegetables; seed potatoes, fresh or chilled\n    contains 071029: Vegetables, leguminous; (other than peas or beans), shelled or unshelled, uncooked or cooked by steaming or boiling in water, frozen\n    contains 071080: Vegetables; uncooked or cooked by steaming or boiling in water, n.e.c. in heading no. 0710, frozen\n    contains 071090: Vegetable mixtures; uncooked or cooked by steaming or boiling in water, frozen\n    contains 071022: Vegetables, leguminous; beans (vigna spp., phaseolus spp.), shelled or unshelled, uncooked or cooked by steaming or boiling in water, frozen\n- 19: Preparations of cereals, flour, starch or milk; pastrycooks' products\n    contains 190490: Food preparations; cereal or cereal products (excluding maize), in grain form, pre-cooked or otherwise prepared\n- 11: Products of the milling industry; malt, starches, inulin, wheat gluten\n    contains 110520: Flakes, granules and pellets; of potatoes\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "fd31ec2dc62fe1bed5be364edc5fec380016fc54003853c4a9f8721c9e58851a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "20",
+      "cited": [
+        "20",
+        "200410"
+      ],
+      "confidence": "0.93",
+      "reason": "Frozen French fries are potatoes prepared (par-fried) otherwise than by vinegar, falling in heading 2004 (200410) rather than the raw or merely boiled frozen potatoes of 0710."
+    },
+    "input_tokens": 1900,
+    "latency_ms": 2946,
+    "output_tokens": 104
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "cd962731730c40ce58b3c6f211fe1972abba2dca9d8bcd58459859d0743ac98d",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:18+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,7 +25,7 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Incoterm 2020 DDP Gent",
         "value": "DDP Gent"
       },
@@ -42,81 +42,81 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "confidence": "0.96",
+            "evidence": "16,46 84 769,00",
             "value": "84 769,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Bologna, Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "whole IT 5 150 kg",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "confidence": "0.96",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "confidence": "0.93",
+            "evidence": "IT 5 150 kg",
             "value": "5 150"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "confidence": "0.95",
+            "evidence": "5 150 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 16,46 84 769,00",
+            "confidence": "0.95",
+            "evidence": "kg 16,46 84 769,00",
             "value": "16,46"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "confidence": "0.96",
+            "evidence": "83,79 25 807,32",
             "value": "25 807,32"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Bologna, Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "3-phase IT 308 pcs",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "confidence": "0.96",
+            "evidence": "AC induction motor 0.55kW 3-phase",
             "value": "AC induction motor 0.55kW 3-phase"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "confidence": "0.96",
+            "evidence": "IT 308 pcs",
             "value": "308"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "confidence": "0.96",
+            "evidence": "308 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 83,79 25 807,32",
+            "confidence": "0.96",
+            "evidence": "pcs 83,79 25 807,32",
             "value": "83,79"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "T/T 30 days after B/L date",
         "value": "T/T 30 days after B/L date"
       },
@@ -131,8 +131,8 @@
         "value": "110 576,32"
       }
     },
-    "input_tokens": 390,
-    "latency_ms": 0,
-    "output_tokens": 622
+    "input_tokens": 2235,
+    "latency_ms": 5759,
+    "output_tokens": 937
   }
 }

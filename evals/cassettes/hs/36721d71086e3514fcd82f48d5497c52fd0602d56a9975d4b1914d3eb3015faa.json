@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "36721d71086e3514fcd82f48d5497c52fd0602d56a9975d4b1914d3eb3015faa",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:48+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cordless electric drill 18V with self-contained motor\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8467: Tools; for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor\n    contains 846721: Tools; for working in the hand, with self-contained electric motor; drills of all kinds\n    contains 846722: Tools; for working in the hand, with self-contained electric motor; saws\n    contains 846729: Tools; for working in the hand, with self-contained electric motor; other than saws and drills\n    contains 846781: Tools; for working in the hand, chain saws with self-contained non-electric motor\n    contains 846791: Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor\n    contains 846789: Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)\n- 8459: Machine-tools; (including way-type unit head machines) for drilling, boring, milling, threading or tapping by removing metal, other than lathes of heading no. 8458\n    contains 845921: Machine-tools; for drilling by removing metal, numerically controlled\n    contains 845929: Machine-tools; for drilling by removing metal, other than numerically controlled\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "dd1ab5647a13467a396be96827ffbbe17a84cb5bafa096d03dd00a38dea1e874",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8467",
+      "cited": [
+        "8467",
+        "846721"
+      ],
+      "confidence": "0.97",
+      "reason": "A cordless hand-held drill with a self-contained electric motor (battery) is a hand tool of heading 8467 (subheading 846721), not a metal-removing machine-tool of 8459."
+    },
+    "input_tokens": 1217,
+    "latency_ms": 3265,
+    "output_tokens": 99
+  }
+}

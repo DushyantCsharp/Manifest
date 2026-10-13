@@ -2,8 +2,8 @@
   "format": 1,
   "key": "4d2ccbab061b0f3731832ed79e2e7632d96bae175a1eb739d2a30571aafa5bf7",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:28+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,161 +15,161 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Bolkesteijn Groep",
         "value": "Bolkesteijn Groep"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.9",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CIP Utrecht",
         "value": "CIP Utrecht"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "21-SEP-2026",
         "value": "21-SEP-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "EX202658-1822",
         "value": "EX202658-1822"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "confidence": "0.95",
+            "evidence": "40,120.00",
             "value": "40,120.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "confidence": "0.93",
+            "evidence": "7219.33 CHINA",
             "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM",
+            "confidence": "0.85",
+            "evidence": "STAINLESS STEEL SHEET 304,\nCOLD-ROLLED 2MM",
             "value": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "confidence": "0.95",
+            "evidence": "17,000 KG",
             "value": "17,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "confidence": "0.95",
+            "evidence": "17,000 KG",
             "value": "KG"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "7219.33 CHINA 17,000 KG 2.36 40,120.00",
+            "confidence": "0.95",
+            "evidence": "2.36",
             "value": "2.36"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "confidence": "0.95",
+            "evidence": "30,926.00",
             "value": "30,926.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "confidence": "0.93",
+            "evidence": "9004.10 ITALY",
             "value": "ITALY"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "confidence": "0.95",
+            "evidence": "POLARIZED SUNGLASSES",
             "value": "POLARIZED SUNGLASSES"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "confidence": "0.95",
+            "evidence": "9,400 PCS",
             "value": "9,400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "confidence": "0.95",
+            "evidence": "9,400 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 9,400 PCS 3.29 30,926.00",
+            "confidence": "0.95",
+            "evidence": "3.29",
             "value": "3.29"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "confidence": "0.95",
+            "evidence": "27,537.12",
             "value": "27,537.12"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 42 Avenue 3, Bangkok, Thailand",
-            "value": "Thailand"
+            "confidence": "0.93",
+            "evidence": "4015.12 THAILAND",
+            "value": "THAILAND"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "NITRILE EXAMINATION GLOVES, BOX OF 100",
+            "confidence": "0.85",
+            "evidence": "NITRILE EXAMINATION\nGLOVES, BOX OF 100",
             "value": "NITRILE EXAMINATION GLOVES, BOX OF 100"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "confidence": "0.95",
+            "evidence": "8,826 SETS",
             "value": "8,826"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "confidence": "0.95",
+            "evidence": "8,826 SETS",
             "value": "SETS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4015.12 THAILAND 8,826 SETS 3.12 27,537.12",
+            "confidence": "0.95",
+            "evidence": "3.12",
             "value": "3.12"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "30% deposit, 70% against copy of B/L",
         "value": "30% deposit, 70% against copy of B/L"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Bangkok Siam Trading Co., Ltd.",
         "value": "Bangkok Siam Trading Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "TOTAL CIP UTRECHT USD 98,583.12",
         "value": "98,583.12"
       }
     },
-    "input_tokens": 491,
-    "latency_ms": 0,
-    "output_tokens": 821
+    "input_tokens": 2554,
+    "latency_ms": 7179,
+    "output_tokens": 1259
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f62f8f02c92693400426c6fdfac4f5bdbf3a26e3c91e6bf011294c7c17c61add",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:47:45+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -18,11 +18,11 @@
       "cited": [
         "850811"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.96",
+      "reason": "A cordless stick vacuum has a self-contained electric motor, with 150 W power (not above 1,500 W) and a 0.6 L dust container (not above 20 L), so it falls under 8508.11."
     },
-    "input_tokens": 412,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 1034,
+    "latency_ms": 3038,
+    "output_tokens": 101
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "6d9e8897b593735d7f5fccc25608a3260f565ca179d3a4a291efcd1ebea73a33",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:48+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -20,13 +20,13 @@
         "value": "ONEYFV5467944"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Lemaire",
         "value": "Lemaire"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "ONE",
+        "confidence": "0.8",
+        "evidence": "Signed as Carrier: ONE.",
         "value": "ONE"
       },
       "container_number": {
@@ -35,33 +35,33 @@
         "value": "ONEU7684961"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Chauvin SA",
         "value": "Chauvin SA"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "2191\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Le Havre",
+        "evidence": "PORT OF DISCHARGE\nLe Havre",
         "value": "Le Havre"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Genova",
+        "evidence": "PORT OF LOADING\nGenova",
         "value": "Genova"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "2291653",
+        "confidence": "0.95",
+        "evidence": "SEAL\n2291653",
         "value": "2291653"
       },
       "seller_name": {
@@ -70,33 +70,33 @@
         "value": "Luria-Tropea SPA"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "02.04.2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n02.04.2026",
         "value": "02.04.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "23.644,25 kg",
         "value": "23.644,25 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "2191",
+        "confidence": "0.93",
+        "evidence": "2191\nCARTONS",
         "value": "2191"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE PEGASUS / 297S",
         "value": "ONE PEGASUS"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE PEGASUS / 297S",
         "value": "297S"
       }
     },
-    "input_tokens": 533,
-    "latency_ms": 0,
-    "output_tokens": 353
+    "input_tokens": 2380,
+    "latency_ms": 4759,
+    "output_tokens": 700
   }
 }

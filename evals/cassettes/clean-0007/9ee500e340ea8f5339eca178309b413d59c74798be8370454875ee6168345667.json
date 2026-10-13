@@ -2,8 +2,8 @@
   "format": 1,
   "key": "9ee500e340ea8f5339eca178309b413d59c74798be8370454875ee6168345667",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:59+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Verdonck-Vinck BV",
         "value": "Verdonck-Vinck BV"
       },
@@ -25,8 +25,8 @@
         "value": "06.05.2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "CPT Gent",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nCPT Gent",
         "value": "CPT Gent"
       },
       "invoice_number": {
@@ -37,193 +37,193 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.95",
+            "evidence": "27cm PT 11.640",
             "value": "PT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.96",
+            "evidence": "Porcelain dinner plate 27cm",
             "value": "Porcelain dinner plate 27cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.96",
+            "evidence": "8.009,64 kg",
             "value": "8.009,64 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.96",
+            "evidence": "7.461,24 kg",
             "value": "7.461,24 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.95",
+            "evidence": "11.640 pcs",
             "value": "11.640"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.95",
+            "evidence": "11.640 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "confidence": "0.95",
+            "evidence": "7-speed KH 69",
             "value": "KH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "confidence": "0.96",
+            "evidence": "City bicycle 28in, 7-speed",
             "value": "City bicycle 28in, 7-speed"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "confidence": "0.96",
+            "evidence": "1.352,60 kg",
             "value": "1.352,60 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "confidence": "0.96",
+            "evidence": "1.212,54 kg",
             "value": "1.212,54 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 City bicycle 28in, 7-speed KH 69 pcs 69 1.212,54 kg 1.352,60 kg",
+            "confidence": "0.95",
+            "evidence": "KH 69 pcs",
             "value": "69"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.95",
+            "evidence": "69 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "confidence": "0.95",
+            "evidence": "micron TR 4.700",
             "value": "TR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "confidence": "0.96",
+            "evidence": "Aluminium household foil 12 micron",
             "value": "Aluminium household foil 12 micron"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "confidence": "0.96",
+            "evidence": "5.064,25 kg",
             "value": "5.064,25 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "confidence": "0.96",
+            "evidence": "4.700,00 kg",
             "value": "4.700,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Aluminium household foil 12 micron TR 4.700 kg 235 4.700,00 kg 5.064,25 kg",
+            "confidence": "0.94",
+            "evidence": "TR 4.700 kg 235",
             "value": "4.700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.93",
+            "evidence": "TR 4.700 kg 235",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "confidence": "0.95",
+            "evidence": "base CN 81",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "confidence": "0.96",
+            "evidence": "Upholstered office chair, steel base",
             "value": "Upholstered office chair, steel base"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "confidence": "0.96",
+            "evidence": "1.516,87 kg",
             "value": "1.516,87 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "confidence": "0.96",
+            "evidence": "1.326,38 kg",
             "value": "1.326,38 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Upholstered office chair, steel base CN 81 pcs 81 1.326,38 kg 1.516,87 kg",
+            "confidence": "0.95",
+            "evidence": "CN 81 pcs",
             "value": "81"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.95",
+            "evidence": "81 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "confidence": "0.95",
+            "evidence": "trousers PK 5.250",
             "value": "PK"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "confidence": "0.96",
+            "evidence": "Women's cotton denim trousers",
             "value": "Women's cotton denim trousers"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "confidence": "0.96",
+            "evidence": "2.897,09 kg",
             "value": "2.897,09 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "confidence": "0.96",
+            "evidence": "2.688,00 kg",
             "value": "2.688,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Women's cotton denim trousers PK 5.250 pcs 175 2.688,00 kg 2.897,09 kg",
+            "confidence": "0.95",
+            "evidence": "PK 5.250 pcs",
             "value": "5.250"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm PT 11.640 pcs 485 7.461,24 kg 8.009,64 kg",
+            "confidence": "0.95",
+            "evidence": "5.250 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "confidence": "0.93",
+        "evidence": "Total 1045 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Trapanese-Giolitti s.r.l.",
         "value": "Trapanese-Giolitti s.r.l."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "confidence": "0.96",
+        "evidence": "18.840,45 kg",
         "value": "18.840,45 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "confidence": "0.96",
+        "evidence": "17.388,16 kg",
         "value": "17.388,16 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1045 CARTONS 17.388,16 kg 18.840,45 kg",
+        "confidence": "0.96",
+        "evidence": "Total 1045 CARTONS",
         "value": "1045"
       }
     },
-    "input_tokens": 430,
-    "latency_ms": 0,
-    "output_tokens": 1381
+    "input_tokens": 2485,
+    "latency_ms": 8837,
+    "output_tokens": 1682
   }
 }

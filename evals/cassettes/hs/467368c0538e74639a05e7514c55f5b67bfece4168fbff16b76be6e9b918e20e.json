@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "467368c0538e74639a05e7514c55f5b67bfece4168fbff16b76be6e9b918e20e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:30+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LED desk lamp, electric, for LED sources only\nCountry of origin: CN\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings > 9405 Luminaires and light fittings; including searchlights, spotlights and parts thereof, n.e.c.; illuminated signs, name-plates and the like, having permanently fixed light source and parts thereof n.e.c. or included\n\nChoose the subheading that covers these goods. Options:\n- 940521: Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for use solely with light-emitting diode (LED) light sources\n- 940529: Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for other than use solely with light-emitting diode (LED) light sources\n- 940511: Luminaires and light fittings; chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use solely with light-emitting diode (LED) light sources\n- 940542: Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources\n- 940541: Luminaires and light fittings; electric, photovoltaic, designed for use solely with light-emitting diode (LED) light sources\n- 940531: Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for use solely with light-emitting diode (LED) light sources\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "76184a70225da272ee716c5013fd8d7de206ef2001748d2fe33512311df84c3d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "940521",
+      "cited": [
+        "940521"
+      ],
+      "confidence": "0.96",
+      "reason": "An electric desk lamp for use solely with LED sources falls under the table/desk/bedside/floor-standing LED subheading, which is more specific than the general LED subheading 940542."
+    },
+    "input_tokens": 1309,
+    "latency_ms": 3087,
+    "output_tokens": 92
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "0925488c68c198e85dc3bfa84552d20dffd017ee394a35a5f8fd20acc13a9784",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:33+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,17 +16,17 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "MEDUPS4423485",
+        "evidence": "B/L NO.\nMEDUPS4423485",
         "value": "MEDUPS4423485"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Johnson, Norton and Hernandez",
         "value": "Johnson, Norton and Hernandez"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MSC",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: MSC.",
         "value": "MSC"
       },
       "container_number": {
@@ -35,68 +35,68 @@
         "value": "MEDU2580683"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
         "confidence": "0.97",
-        "evidence": "Perkins Inc",
+        "evidence": "NOTIFY PARTY\nPerkins Inc",
         "value": "Perkins Inc"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "1385\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "New York",
+        "evidence": "PORT OF DISCHARGE\nNew York",
         "value": "New York"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Shenzhen",
+        "evidence": "PORT OF LOADING\nShenzhen",
         "value": "Shenzhen"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "3098887",
+        "confidence": "0.95",
+        "evidence": "SEAL\n3098887",
         "value": "3098887"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Ningbo Tianyi Industrial Co., Ltd.",
         "value": "Ningbo Tianyi Industrial Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "06/18/2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n06/18/2026",
         "value": "06/18/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "14,852.39 kg",
         "value": "14,852.39 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1385",
+        "confidence": "0.95",
+        "evidence": "1385\nCARTONS",
         "value": "1385"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC TAGE / 160W",
         "value": "MSC TAGE"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC TAGE / 160W",
         "value": "160W"
       }
     },
-    "input_tokens": 530,
-    "latency_ms": 0,
-    "output_tokens": 372
+    "input_tokens": 2354,
+    "latency_ms": 4567,
+    "output_tokens": 754
   }
 }

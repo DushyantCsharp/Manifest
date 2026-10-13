@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "f4101a02c13dda58eb8e6c20a315d18113b7d16da5b7d4ac2ae3e2c41203b10b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:13+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's T-shirt, knitted, 95% polyester 5% elastane\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610620: Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres, knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n    contains 610690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610423: Ensembles; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 610413: Suits; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 610433: Jackets; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 610520: Shirts; men's or boys', of man-made fibres, knitted or crocheted\n    contains 610463: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 610422: Ensembles; women's or girls', of cotton, knitted or crocheted\n    contains 610453: Skirts and divided skirts; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 610443: Dresses; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 610439: Jackets; women's or girls', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610432: Jackets; women's or girls', of cotton, knitted or crocheted\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620640: Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres (not knitted or crocheted)\n    contains 620630: Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)\n    contains 620690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials n.e.c. in heading no. 6206 (not knitted or crocheted)\n    contains 620620: Blouses, shirts and shirt-blouses; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n    contains 620610: Blouses, shirts and shirt-blouses; women's or girls', of silk or silk waste (not knitted or crocheted)\n- 60: Fabrics; knitted or crocheted\n    contains 600524: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, printed\n    contains 600539: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of synthetic fibres, printed\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0ffe42ad1e30f20721abc34c5487f4908bdac198395c2acd270a7ab75ba3b9a5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "61",
+      "cited": [
+        "61"
+      ],
+      "confidence": "0.97",
+      "reason": "A knitted women's T-shirt is a knitted garment, which falls in Chapter 61 (heading 6109, T-shirts, knitted), not in Chapter 62 (not knitted) or Chapter 60 (fabrics)."
+    },
+    "input_tokens": 1782,
+    "latency_ms": 3217,
+    "output_tokens": 109
+  }
+}

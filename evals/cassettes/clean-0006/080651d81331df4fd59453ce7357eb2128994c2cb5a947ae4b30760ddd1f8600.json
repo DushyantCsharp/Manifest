@@ -2,8 +2,8 @@
   "format": 1,
   "key": "080651d81331df4fd59453ce7357eb2128994c2cb5a947ae4b30760ddd1f8600",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:49+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Douglas-Adams",
+        "confidence": "0.93",
+        "evidence": "CONSIGNEE\nDouglas-Adams",
         "value": "Douglas-Adams"
       },
       "date": {
@@ -25,8 +25,8 @@
         "value": "02/13/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "CIP Toronto",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nCIP Toronto",
         "value": "CIP Toronto"
       },
       "invoice_number": {
@@ -37,65 +37,65 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 298 Avenue 3, Bangkok, Thailand",
-            "value": "Thailand"
+            "confidence": "0.93",
+            "evidence": "27cm TH 7,704",
+            "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "confidence": "0.95",
+            "evidence": "Porcelain dinner plate 27cm",
             "value": "Porcelain dinner plate 27cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "confidence": "0.93",
+            "evidence": "4,851.38 kg",
             "value": "4,851.38 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "confidence": "0.93",
+            "evidence": "4,414.39 kg",
             "value": "4,414.39 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "confidence": "0.95",
+            "evidence": "7,704 pcs",
             "value": "7,704"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+            "confidence": "0.95",
+            "evidence": "7,704 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 321 CARTONS 4,414.39 kg 4,851.38 kg",
+        "confidence": "0.93",
+        "evidence": "Total 321 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Bangkok Sukjai Trading Co., Ltd.",
         "value": "Bangkok Sukjai Trading Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+        "confidence": "0.9",
+        "evidence": "4,851.38 kg",
         "value": "4,851.38 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+        "confidence": "0.5",
+        "evidence": "4,414.39 kg 4,851.38 kg\nShipping",
         "value": "4,414.39 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 Porcelain dinner plate 27cm TH 7,704 pcs 321 4,414.39 kg 4,851.38 kg",
+        "confidence": "0.95",
+        "evidence": "Total 321 CARTONS",
         "value": "321"
       }
     },
-    "input_tokens": 356,
-    "latency_ms": 0,
-    "output_tokens": 491
+    "input_tokens": 2305,
+    "latency_ms": 4473,
+    "output_tokens": 713
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "789d2b5347d8db05049ff4b86d98c5b1e0e8d94a125bf15fe378a0b91fbb3e42",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:08+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
-        "evidence": "CMDULP1879298",
+        "confidence": "0.95",
+        "evidence": "B/L NO.\nCMDULP1879298",
         "value": "CMDULP1879298"
       },
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "Williams, Barber and Howe",
+        "evidence": "CONSIGNEE\nWilliams, Barber and Howe",
         "value": "Williams, Barber and Howe"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "CMA CGM",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: CMA CGM.",
         "value": "CMA CGM"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CMDU3845778",
         "value": "CMDU3845778"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Felixstowe",
+        "evidence": "PORT OF DISCHARGE\nFelixstowe",
         "value": "Felixstowe"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Cartagena",
+        "evidence": "PORT OF LOADING\nCartagena",
         "value": "Cartagena"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "SEAL 3945412",
         "value": "3945412"
       },
       "seller_name": {
         "confidence": "0.97",
-        "evidence": "Gonzáles Group",
+        "evidence": "SHIPPER\nGonzáles Group",
         "value": "Gonzáles Group"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "August 22, 2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\nAugust 22, 2026",
         "value": "August 22, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "7,953.8 lb",
         "value": "7,953.8 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "315",
+        "confidence": "0.93",
+        "evidence": "315\nCARTONS",
         "value": "315"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CMA TRITON / 918N",
         "value": "CMA TRITON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CMA TRITON / 918N",
         "value": "918N"
       }
     },
-    "input_tokens": 503,
-    "latency_ms": 0,
-    "output_tokens": 365
+    "input_tokens": 2323,
+    "latency_ms": 4864,
+    "output_tokens": 718
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "8e31a332094f3b1eb84d93b30ab14e4e28f63f8e72f3d6354e0e1c13f6567d75",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:57+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.80",
+        "confidence": "0.6",
         "evidence": "CMDUU04 980769",
         "value": "CMDUU04 980769"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Price LLC Roth-Rich° .",
+        "confidence": "0.85",
+        "evidence": "Price LLC",
         "value": "Price LLC"
       },
       "carrier": {
-        "confidence": "0.84",
-        "evidence": "carrier's standard bill of lading Signed as Carrier CMA, CGM",
-        "value": "CMA, CGM"
+        "confidence": "0.6",
+        "evidence": "_|CMACGM",
+        "value": "CMA CGM"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "CMDU6521134 | PRICE / = )26TO= SAID-TO CONTAIN: Polarized sunglasses; Milk | 25,483.08 kg",
+        "confidence": "0.9",
+        "evidence": "CMDU6521134",
         "value": "CMDU6521134"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": "Price LLC Roth-Rich° .",
+        "confidence": "0.7",
+        "evidence": "Roth-Rich",
         "value": "Roth-Rich"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "| SEAL INV-2026-81295 | CARTONS” chocolate bars 1009; LED bulb E27 9W warm: ae",
+        "confidence": "0.6",
+        "evidence": "CARTONS”",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Vancouver, Canada",
+        "confidence": "0.93",
+        "evidence": "PORT OF DISCHARGE\nVancouver",
         "value": "Vancouver"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Kaohsiung Lienhwa Textile Co., Ltd.",
+        "confidence": "0.85",
+        "evidence": "Kaohsiung,",
         "value": "Kaohsiung"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "9005552 ; ae white; Porcelain dinner plate 27cm; Lithium-",
-        "value": "9005552"
+        "confidence": "0.4",
+        "evidence": "SEAL INV-2026-81295",
+        "value": "INV-2026-81295"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Kaohsiung Lienhwa Textile Co., Ltd.",
         "value": "Kaohsiung Lienhwa Textile Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "} 02/22/2026 Kaohsiung, 02/22/2026 | ~ THREE (3)",
+        "confidence": "0.6",
+        "evidence": "02/22/2026 Kaohsiung, 02/22/2026",
         "value": "02/22/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "CMDU6521134 | PRICE / = )26TO= SAID-TO CONTAIN: Polarized sunglasses; Milk | 25,483.08 kg",
+        "confidence": "0.92",
+        "evidence": "25,483.08 kg",
         "value": "25,483.08 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
+        "confidence": "0.5",
         "evidence": "",
         "value": ""
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "CMA KENSINGTON / 311W",
         "value": "CMA KENSINGTON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.92",
         "evidence": "CMA KENSINGTON / 311W",
         "value": "311W"
       }
     },
-    "input_tokens": 551,
-    "latency_ms": 0,
-    "output_tokens": 479
+    "input_tokens": 2444,
+    "latency_ms": 4541,
+    "output_tokens": 719
   }
 }

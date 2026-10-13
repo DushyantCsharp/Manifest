@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "dccb9c03a1a6a827199db31a55a6044a0ebea6580158fb531cc2d48742cf0dfe",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:54+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: PVC resin, suspension grade, not mixed\nCountry of origin: CN\n\nChosen so far: 39 Plastics and articles thereof > 3904 Polymers of vinyl chloride or of other halogenated olefins, in primary forms\n\nChoose the subheading that covers these goods. Options:\n- 390410: Vinyl chloride, other halogenated olefin polymers; poly(vinyl chloride), not mixed with any other substances, in primary forms\n- 390421: Vinyl chloride, other halogenated olefin polymers; non-plasticised poly(vinyl chloride), in primary forms, mixed with other substances\n- 390422: Vinyl chloride, other halogenated olefin polymers; plasticised poly(vinyl chloride), in primary forms, mixed with other substances\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6941b56272438d456fa462fbc5778b98cd9c5a3b09517d864fdd89b909098033",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "390410",
+      "cited": [
+        "390410",
+        "3904"
+      ],
+      "confidence": "0.96",
+      "reason": "Suspension-grade PVC resin that is not mixed with any other substances is poly(vinyl chloride) in primary forms, which is the exact wording of subheading 3904.10."
+    },
+    "input_tokens": 1005,
+    "latency_ms": 2842,
+    "output_tokens": 95
+  }
+}

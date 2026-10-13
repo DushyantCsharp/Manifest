@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "b4348667ec5276f1866eb74fb3c2191ca4ab3735bb77325c8fb6d1c6d5aad0ae",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:22+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LED light bulb E27 9W 806lm, warm white\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8539 Lamps; electric filament or discharge lamps, including sealed beam lamp units and ultra-violet or infra-red lamps, arc lamps, light-emitting diode (LED) light sources\n\nChoose the subheading that covers these goods. Options:\n- 853952: Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps\n- 853951: Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) modules\n- 853922: Lamps; filament, (excluding ultra-violet or infra-red), of a power not exceeding 200W and for a voltage exceeding 100 volts, other than tungsten halogen\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c145bf2f7846930cb12b4aef3adf561c3cab9737220b77e8459f9ce34c31586e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "853952",
+      "cited": [
+        "853952"
+      ],
+      "confidence": "0.95",
+      "reason": "An E27 LED light bulb is a complete LED lamp, which falls under 8539.52 (LED lamps) rather than LED modules (8539.51) or filament lamps (8539.22)."
+    },
+    "input_tokens": 1066,
+    "latency_ms": 3334,
+    "output_tokens": 97
+  }
+}

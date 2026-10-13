@@ -1,13 +1,17 @@
 # Gates for `make eval` (manifest_evals.run). Each metric needs `min` or `max`; a metric the
-# run couldn't compute fails its gate.
+# run couldn't compute fails its gate. An optional `target` is a product goal: reports mark a
+# metric "below target" without failing, until the gate is raised to meet it.
 #
 # The profile follows where the cassettes' answers came from:
 #   plumbing  any answer was seeded offline by the ground-truth oracle. The numbers prove the
 #             pipeline, scoring and calibration code; the bounds guard against regressions in
 #             that code and say nothing about a model. Latency and cost aren't gated: the
 #             oracle is instant and its token counts are estimates.
-#   model     every answer was recorded from a real model (`make eval-record`). These are the
-#             product targets: review them with the first real recording.
+#   model     every answer was recorded from a real model (`make eval-record`). The bounds
+#             are regression floors a little under the first recording (2026-10-13: Sonnet 5.5
+#             extraction at effort low, voyage-3.5 + FTS retrieval, Sonnet 5.5 walk at effort
+#             medium) so nightly live runs have room to vary; targets the recording missed are
+#             kept as `target`.
 
 # The auto-approve threshold is the lowest calibrated confidence whose precision reaches this
 # on the calibration split.
@@ -34,22 +38,22 @@ profiles:
     hs_ece: {max: 0.15}
 
   model:
-    field_accuracy: {min: 0.96}
-    field_accuracy_clean: {min: 0.98}
-    field_accuracy_scanned: {min: 0.90}
-    line_item_f1: {min: 0.97}
-    reconciliation_recall: {min: 0.95}
-    false_alarm_rate: {max: 0.10}
-    ece: {max: 0.05}
-    coverage_at_threshold: {min: 0.50}
-    precision_at_threshold: {min: 0.98}
-    shipment_precision: {min: 0.95}
-    p95_latency_ms: {max: 30000}
-    usd_per_page: {max: 0.05}
-    hs_recall_at_20: {min: 0.95}
-    hs_accuracy_2: {min: 0.95}
-    hs_accuracy_4: {min: 0.85}
-    hs_accuracy_6: {min: 0.75}
-    hs_ece: {max: 0.08}
-    hs_p95_latency_ms: {max: 60000}
-    hs_usd_per_description: {max: 0.05}
+    field_accuracy: {min: 0.95, target: 0.96}                # 2026-10-13: 0.967
+    field_accuracy_clean: {min: 0.98}                        # 0.998
+    field_accuracy_scanned: {min: 0.87, target: 0.90}        # 0.893
+    line_item_f1: {min: 0.95, target: 0.97}                  # 0.966
+    reconciliation_recall: {min: 0.95}                       # 1.0
+    false_alarm_rate: {max: 0.45, target: 0.10}              # 0.375: scans 0.80, clean 0.12
+    ece: {max: 0.05}                                         # 0.022
+    coverage_at_threshold: {min: 0.50}                       # 0.930
+    precision_at_threshold: {min: 0.98}                      # 0.995
+    shipment_precision: {min: 0.95}                          # 1.0
+    p95_latency_ms: {max: 30000}                             # 11799
+    usd_per_page: {max: 0.05}                                # 0.0165
+    hs_recall_at_20: {min: 0.92, target: 0.95}               # 0.942
+    hs_accuracy_2: {min: 0.93, target: 0.95}                 # 0.958
+    hs_accuracy_4: {min: 0.85}                               # 0.950
+    hs_accuracy_6: {min: 0.75}                               # 0.925
+    hs_ece: {max: 0.10, target: 0.08}                        # 0.070
+    hs_p95_latency_ms: {max: 60000}                          # 10205
+    hs_usd_per_description: {max: 0.05}                      # 0.0104

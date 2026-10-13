@@ -2,8 +2,8 @@
   "format": 1,
   "key": "06ffd453c9a352676eac402ecf166dba410eaf58cdb5a7cf3b404ccff4434c0f",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:50:01+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "150920",
       "cited": [
-        "150920"
+        "150920",
+        "1509"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.97",
+      "reason": "Extra virgin olive oil is expressly named in subheading 150920, so the goods fall there regardless of the 1L bottle packaging."
     },
-    "input_tokens": 449,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 1073,
+    "latency_ms": 3805,
+    "output_tokens": 82
   }
 }

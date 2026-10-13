@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b6f5ce5a939b776a6add7cb25cc8e63544201fa75ecc07dfe0ed9844b125057d",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:49+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,8 +25,8 @@
         "value": "Stokes, Woods and Austin"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "ONE",
+        "confidence": "0.8",
+        "evidence": "Signed as Carrier: ONE.",
         "value": "ONE"
       },
       "container_number": {
@@ -35,32 +35,32 @@
         "value": "ONEU0138357"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Smith-King",
         "value": "Smith-King"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "273 BAGS SAID TO CONTAIN: Combed cotton yarn Ne",
+        "confidence": "0.93",
+        "evidence": "273 BAGS SAID TO CONTAIN",
         "value": "BAGS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Southampton",
+        "evidence": "PORT OF DISCHARGE\nSouthampton",
         "value": "Southampton"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Mundra",
+        "evidence": "PORT OF LOADING\nMundra",
         "value": "Mundra"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "SEAL 5140503",
         "value": "5140503"
       },
@@ -71,32 +71,32 @@
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "September 21, 2026",
+        "evidence": "SHIPPED ON BOARD\nSeptember 21, 2026",
         "value": "September 21, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "33,036.2 lb",
         "value": "33,036.2 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "273 BAGS SAID TO CONTAIN: Combed cotton yarn Ne",
+        "confidence": "0.95",
+        "evidence": "273 BAGS SAID TO CONTAIN",
         "value": "273"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "ONE TAGE / 351S",
         "value": "ONE TAGE"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE TAGE / 351S",
         "value": "351S"
       }
     },
-    "input_tokens": 501,
-    "latency_ms": 0,
-    "output_tokens": 385
+    "input_tokens": 2312,
+    "latency_ms": 4942,
+    "output_tokens": 716
   }
 }

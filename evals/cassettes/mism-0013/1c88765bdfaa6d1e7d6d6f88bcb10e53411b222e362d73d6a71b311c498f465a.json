@@ -2,8 +2,8 @@
   "format": 1,
   "key": "1c88765bdfaa6d1e7d6d6f88bcb10e53411b222e362d73d6a71b311c498f465a",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:27+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,198 +15,198 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Koninklijke d' Heripon",
         "value": "Koninklijke d' Heripon"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.93",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FCA Shenzhen",
         "value": "FCA Shenzhen"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "03-JUL-2026",
         "value": "03-JUL-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EX202670-4033",
         "value": "EX202670-4033"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
+            "confidence": "0.95",
+            "evidence": "1.93 31,845.00",
             "value": "31,845.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 205 Industrial Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "6402.20 CHINA",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE",
+            "confidence": "0.9",
+            "evidence": "RUBBER FLIP-FLOPS, THONG\nPLUGGED INTO THE SOLE",
             "value": "RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE"
           },
           "quantity": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
             "value": "16,500"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
+            "confidence": "0.95",
+            "evidence": "16,500 PAIRS",
             "value": "PAIRS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "6402.20 CHINA 16,500 PAIRS 1.93 31,845.00",
+            "confidence": "0.95",
+            "evidence": "PAIRS 1.93 31,845.00",
             "value": "1.93"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "confidence": "0.95",
+            "evidence": "0.5514 14,942.94",
             "value": "14,942.94"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 205 Industrial Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "4819.10 CHINA",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "CORRUGATED SHIPPING CARTON, 3-PLY",
+            "confidence": "0.9",
+            "evidence": "CORRUGATED SHIPPING\nCARTON, 3-PLY",
             "value": "CORRUGATED SHIPPING CARTON, 3-PLY"
           },
           "quantity": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
             "value": "27,100"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "confidence": "0.95",
+            "evidence": "27,100 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "confidence": "0.95",
+            "evidence": "PCS 0.5514 14,942.94",
             "value": "0.5514"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "confidence": "0.95",
+            "evidence": "147.94 21,303.36",
             "value": "21,303.36"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 205 Industrial Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "8712.00 CHINA",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "confidence": "0.95",
+            "evidence": "CITY BICYCLE 28IN, 7-SPEED",
             "value": "CITY BICYCLE 28IN, 7-SPEED"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "confidence": "0.95",
+            "evidence": "8712.00 CHINA 144 PCS 147.94 21,303.36",
             "value": "144"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "confidence": "0.95",
+            "evidence": "144 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "CITY BICYCLE 28IN, 7-SPEED 8712.00 CHINA 144 PCS 147.94 21,303.36",
+            "confidence": "0.95",
+            "evidence": "PCS 147.94 21,303.36",
             "value": "147.94"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "confidence": "0.95",
+            "evidence": "210.71 46,145.49",
             "value": "46,145.49"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 205 Industrial Road, Ningbo, China",
-            "value": "China"
+            "confidence": "0.95",
+            "evidence": "8528.72 CHINA",
+            "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "confidence": "0.95",
+            "evidence": "LED TELEVISION 55IN 4K",
             "value": "LED TELEVISION 55IN 4K"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "confidence": "0.95",
+            "evidence": "8528.72 CHINA 219 PCS 210.71 46,145.49",
             "value": "219"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 27,100 PCS 0.5514 14,942.94",
+            "confidence": "0.95",
+            "evidence": "219 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K 8528.72 CHINA 219 PCS 210.71 46,145.49",
+            "confidence": "0.95",
+            "evidence": "PCS 210.71 46,145.49",
             "value": "210.71"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "T/T in advance",
         "value": "T/T in advance"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Ningbo Ruifeng Manufacturing Co., Ltd.",
         "value": "Ningbo Ruifeng Manufacturing Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "TOTAL FCA SHENZHEN USD 114,236.79",
         "value": "114,236.79"
       }
     },
-    "input_tokens": 513,
-    "latency_ms": 0,
-    "output_tokens": 1028
+    "input_tokens": 2617,
+    "latency_ms": 8875,
+    "output_tokens": 1681
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "73432b657719a03d22fe5df2c10ba8c7f6caa738784ecae49b2fa3fc43731245",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:07+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,52 +16,52 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "MEDUZD8239607",
+        "evidence": "B/L NO.\nMEDUZD8239607",
         "value": "MEDUZD8239607"
       },
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "White-Bowen",
+        "evidence": "CONSIGNEE\nWhite-Bowen",
         "value": "White-Bowen"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MSC",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: MSC.",
         "value": "MSC"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "MEDU2337035",
         "value": "MEDU2337035"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
         "confidence": "0.97",
-        "evidence": "Tanner-Lewis",
+        "evidence": "NOTIFY PARTY\nTanner-Lewis",
         "value": "Tanner-Lewis"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.96",
+        "evidence": "465\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "8229 Tom Ferry Suite 084, N3B 6B8 Vancouver, Canada",
+        "evidence": "PORT OF DISCHARGE\nVancouver",
         "value": "Vancouver"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Kaohsiung",
+        "evidence": "PORT OF LOADING\nKaohsiung",
         "value": "Kaohsiung"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "7738955",
+        "confidence": "0.95",
+        "evidence": "SEAL\n7738955",
         "value": "7738955"
       },
       "seller_name": {
@@ -70,33 +70,33 @@
         "value": "Tainan Chunghwa Electronics Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "03/01/2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n03/01/2026",
         "value": "03/01/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "12,722.27 kg",
         "value": "12,722.27 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "465",
+        "confidence": "0.96",
+        "evidence": "465\nCARTONS",
         "value": "465"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "MSC TRITON / 401E",
         "value": "MSC TRITON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "MSC TRITON / 401E",
         "value": "401E"
       }
     },
-    "input_tokens": 523,
-    "latency_ms": 0,
-    "output_tokens": 378
+    "input_tokens": 2372,
+    "latency_ms": 4704,
+    "output_tokens": 756
   }
 }

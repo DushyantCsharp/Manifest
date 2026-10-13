@@ -2,8 +2,8 @@
   "format": 1,
   "key": "3f444b1b33182b88b356d451144c2b830da04c11cdb8dbee7110bd8d7f49a0cc",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:24+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,119 +15,119 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Janssens-Desmet NV",
         "value": "Janssens-Desmet NV"
       },
       "date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Date 2026-04-04",
         "value": "2026-04-04"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "DDP Gent",
+        "confidence": "0.93",
+        "evidence": "TERMS OF DELIVERY\nDDP Gent",
         "value": "DDP Gent"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Invoice Ref. FC-4865/26",
         "value": "FC-4865/26"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Rotonda Benussi, 591 Appartamento 4, 26865 Bologna, Italy",
-            "value": "Italy"
+            "confidence": "0.93",
+            "evidence": "whole IT 5 150",
+            "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 515 5 150,00 kg 5 989,45 kg",
+            "confidence": "0.95",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 515 5 150,00 kg 5 989,45 kg",
+            "confidence": "0.93",
+            "evidence": "5 989,45 kg",
             "value": "5 989,45 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 515 5 150,00 kg 5 989,45 kg",
+            "confidence": "0.93",
+            "evidence": "5 150,00 kg",
             "value": "5 150,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 515 5 150,00 kg 5 989,45 kg",
+            "confidence": "0.9",
+            "evidence": "IT 5 150 kg 515",
             "value": "5 150"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 5 150 kg 515 5 150,00 kg 5 989,45 kg",
+            "confidence": "0.92",
+            "evidence": "IT 5 150 kg 515",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Rotonda Benussi, 591 Appartamento 4, 26865 Bologna, Italy",
-            "value": "Italy"
+            "confidence": "0.93",
+            "evidence": "3-phase IT 308",
+            "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 154 2 452,91 kg 2 594,54 kg",
+            "confidence": "0.95",
+            "evidence": "AC induction motor 0.55kW 3-phase",
             "value": "AC induction motor 0.55kW 3-phase"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 154 2 452,91 kg 2 594,54 kg",
+            "confidence": "0.93",
+            "evidence": "2 594,54 kg",
             "value": "2 594,54 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 154 2 452,91 kg 2 594,54 kg",
+            "confidence": "0.93",
+            "evidence": "2 452,91 kg",
             "value": "2 452,91 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 154 2 452,91 kg 2 594,54 kg",
+            "confidence": "0.94",
+            "evidence": "IT 308 pcs 154",
             "value": "308"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 AC induction motor 0.55kW 3-phase IT 308 pcs 154 2 452,91 kg 2 594,54 kg",
+            "confidence": "0.95",
+            "evidence": "IT 308 pcs 154",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 669 CARTONS 7 602,91 kg 8 583,99 kg",
+        "confidence": "0.9",
+        "evidence": "Total 669 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Boldù s.r.l.",
         "value": "Boldù s.r.l."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 669 CARTONS 7 602,91 kg 8 583,99 kg",
+        "confidence": "0.93",
+        "evidence": "8 583,99 kg",
         "value": "8 583,99 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 669 CARTONS 7 602,91 kg 8 583,99 kg",
+        "confidence": "0.93",
+        "evidence": "7 602,91 kg",
         "value": "7 602,91 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 669 CARTONS 7 602,91 kg 8 583,99 kg",
+        "confidence": "0.93",
+        "evidence": "Total 669 CARTONS",
         "value": "669"
       }
     },
-    "input_tokens": 371,
-    "latency_ms": 0,
-    "output_tokens": 690
+    "input_tokens": 2342,
+    "latency_ms": 5611,
+    "output_tokens": 932
   }
 }

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "c4ad8c6536a8f29a84a11620b943be3a119585128478eb680b0d4ab193c5d7f6",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:44+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "CMDUOJ1999438",
         "value": "CMDUOJ1999438"
       },
@@ -25,43 +25,43 @@
         "value": "Morgan Group"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "CMA CGM",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: CMA CGM.",
         "value": "CMA CGM"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CMDU8142382",
         "value": "CMDU8142382"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Johnson Inc",
         "value": "Johnson Inc"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "300\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Los Angeles",
+        "confidence": "0.96",
+        "evidence": "PORT OF DISCHARGE\nLos Angeles",
         "value": "Los Angeles"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Busan Samjin Electronics Co., Ltd.",
+        "confidence": "0.96",
+        "evidence": "PORT OF LOADING\nBusan",
         "value": "Busan"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "6381126",
+        "confidence": "0.94",
+        "evidence": "SEAL\n6381126",
         "value": "6381126"
       },
       "seller_name": {
@@ -70,33 +70,33 @@
         "value": "Busan Samjin Electronics Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "01/17/2026",
+        "confidence": "0.95",
+        "evidence": "SHIPPED ON BOARD\n01/17/2026",
         "value": "01/17/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "18,474.35 kg",
         "value": "18,474.35 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "300",
+        "confidence": "0.95",
+        "evidence": "300\nCARTONS",
         "value": "300"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CMA AURORA / 841E",
         "value": "CMA AURORA"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CMA AURORA / 841E",
         "value": "841E"
       }
     },
-    "input_tokens": 523,
-    "latency_ms": 0,
-    "output_tokens": 374
+    "input_tokens": 2347,
+    "latency_ms": 4357,
+    "output_tokens": 719
   }
 }

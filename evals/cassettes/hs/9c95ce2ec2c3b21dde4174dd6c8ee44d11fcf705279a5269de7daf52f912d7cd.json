@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "9c95ce2ec2c3b21dde4174dd6c8ee44d11fcf705279a5269de7daf52f912d7cd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:03+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Canned skipjack tuna in oil, 185g\nCountry of origin: TH\n\nChoose the chapter that covers these goods. Options:\n- 03: Fish and crustaceans, molluscs and other aquatic invertebrates\n    contains 030487: Fish fillets; frozen, tunas (of the genus Thunnus), skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)\n    contains 030233: Fish; fresh or chilled, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n    contains 030195: Fish; live, southern bluefin tunas (Thunnus maccoyii)\n    contains 030343: Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030194: Fish; live, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis)\n    contains 030232: Fish; fresh or chilled, yellowfin tunas (Thunnus albacares), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n    contains 030235: Fish; fresh or chilled, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n    contains 030236: Fish; fresh or chilled, southern bluefin tunas (Thunnus maccoyii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n    contains 030231: Fish; fresh or chilled, albacore or longfinned tunas (Thunnus alalunga), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99\n- 16: Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof\n    contains 160414: Fish preparations; tunas, skipjack tuna and bonito (Sarda spp.), prepared or preserved, whole or in pieces (but not minced)\n- 27: Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes\n    contains 271012: Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; light oils and preparations\n    contains 271019: Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; not light oils and preparations\n    contains 271020: Petroleum oils and oils from bituminous minerals, containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals\n    contains 270900: Oils; petroleum oils and oils obtained from bituminous minerals, crude\n- 15: Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes\n    contains 151090: Vegetable oils; oils and their fractions n.e.c. in heading 1510, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509\n    contains 150300: Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil; not emulsified or mixed or otherwise prepared\n    contains 151790: Edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, n.e.c. in heading 1517, other than edible fats and oils or their fractions of heading 15.16\n    contains 151010: Vegetable oils; crude olive pomace oil and their fractions, obtained solely from olives, whether or not refined, but not chemically modified\n    contains 150920: Vegetable oils; olive oil and its fractions, extra virgin olive oil, whether or not refined, but not chemically modified\n    contains 150930: Vegetable oils; olive oil and its fractions, virgin olive oil, whether or not refined, but not chemically modified\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "54769ff86315a8004ddea2c61cb841056d8585c5f0a2c84c891785f0ce456526",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "16",
+      "cited": [
+        "16",
+        "160414"
+      ],
+      "confidence": "0.98",
+      "reason": "Canned skipjack tuna in oil is prepared or preserved fish, which falls under heading 1604 (subheading 160414) in Chapter 16 rather than fresh or frozen fish in Chapter 3."
+    },
+    "input_tokens": 2364,
+    "latency_ms": 3129,
+    "output_tokens": 105
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "519a6a07d2c0236956511d79027b68f5ea2c41f8043def97f3541737f004b823",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:07+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,7 +16,7 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "EGLVYG3308072",
+        "evidence": "B/L NO.\nEGLVYG3308072",
         "value": "EGLVYG3308072"
       },
       "buyer_name": {
@@ -25,43 +25,43 @@
         "value": "Williamson PLC"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU7101117",
         "value": "EGLU7101117"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "1731\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Savannah",
+        "evidence": "PORT OF DISCHARGE\nSavannah",
         "value": "Savannah"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Busan Daesung Import & Export Co., Ltd.",
+        "evidence": "PORT OF LOADING\nBusan",
         "value": "Busan"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "1162134",
+        "confidence": "0.95",
+        "evidence": "SEAL\n1162134",
         "value": "1162134"
       },
       "seller_name": {
@@ -71,32 +71,32 @@
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "16-JUN-2026",
+        "evidence": "SHIPPED ON BOARD\n16-JUN-2026",
         "value": "16-JUN-2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "24,687.99 kg",
         "value": "24,687.99 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1731",
+        "confidence": "0.95",
+        "evidence": "1731\nCARTONS",
         "value": "1731"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN KENSINGTON / 574E",
         "value": "EVERGREEN KENSINGTON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN KENSINGTON / 574E",
         "value": "574E"
       }
     },
-    "input_tokens": 542,
-    "latency_ms": 0,
-    "output_tokens": 381
+    "input_tokens": 2392,
+    "latency_ms": 5026,
+    "output_tokens": 740
   }
 }

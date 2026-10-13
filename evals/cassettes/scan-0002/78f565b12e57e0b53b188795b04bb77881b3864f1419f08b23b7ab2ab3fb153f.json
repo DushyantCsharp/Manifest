@@ -2,8 +2,8 @@
   "format": 1,
   "key": "78f565b12e57e0b53b188795b04bb77881b3864f1419f08b23b7ab2ab3fb153f",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:47+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,161 +15,161 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "_ Hebert Baron S.A.",
         "value": "Hebert Baron S.A."
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": ". EUR",
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "FCA Istanbul",
         "value": "FCA Istanbul"
       },
       "invoice_date": {
-        "confidence": "0.97",
-        "evidence": "02.07.2026 .",
+        "confidence": "0.9",
+        "evidence": "02.07.2026",
         "value": "02.07.2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "RE-26-1583",
         "value": "RE-26-1583"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 .- Nitrile examination gloves, box of 100 © MY | 9.180 sets. 2,10 19.278,00",
+            "confidence": "0.88",
+            "evidence": "9.180 sets. 2,10 19.278,00",
             "value": "19.278,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 .- Nitrile examination gloves, box of 100 © MY | 9.180 sets. 2,10 19.278,00",
-            "value": "MY"
+            "confidence": "0.5",
+            "evidence": "",
+            "value": ""
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 .- Nitrile examination gloves, box of 100 © MY | 9.180 sets. 2,10 19.278,00",
+            "confidence": "0.85",
+            "evidence": "Nitrile examination gloves, box of 100",
             "value": "Nitrile examination gloves, box of 100"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 .- Nitrile examination gloves, box of 100 © MY | 9.180 sets. 2,10 19.278,00",
+            "confidence": "0.8",
+            "evidence": "9.180 sets. 2,10 19.278,00",
             "value": "9.180"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 .- Nitrile examination gloves, box of 100 © MY | 9.180 sets. 2,10 19.278,00",
+            "confidence": "0.6",
+            "evidence": "9.180 sets. 2,10 19.278,00",
             "value": "sets"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 .- Nitrile examination gloves, box of 100 © MY | 9.180 sets. 2,10 19.278,00",
+            "confidence": "0.85",
+            "evidence": "9.180 sets. 2,10 19.278,00",
             "value": "2,10"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron se 3.100 kg ay “10.447,00",
+            "confidence": "0.6",
+            "evidence": "3.100 kg ay “10.447,00",
             "value": "10.447,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Sener Sti. - 75555 Efe Park - 05262 Istanbul - Turkey",
-            "value": "Turkey"
+            "confidence": "0.5",
+            "evidence": "",
+            "value": ""
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron se 3.100 kg ay “10.447,00",
+            "confidence": "0.85",
+            "evidence": "Aluminium household foil 12 micron",
             "value": "Aluminium household foil 12 micron"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron se 3.100 kg ay “10.447,00",
+            "confidence": "0.8",
+            "evidence": "3.100 kg ay “10.447,00",
             "value": "3.100"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron se 3.100 kg ay “10.447,00",
+            "confidence": "0.85",
+            "evidence": "3.100 kg ay “10.447,00",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
+            "confidence": "0.4",
             "evidence": "",
             "value": ""
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "_ CN 304 pes 49,28 14.981,12",
+            "confidence": "0.9",
+            "evidence": "CN 304 pes 49,28 14.981,12",
             "value": "14.981,12"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "_ CN 304 pes 49,28 14.981,12",
+            "confidence": "0.6",
+            "evidence": "CN 304 pes 49,28 14.981,12",
             "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "ee AC induction motor 0.55kW 3-phase",
+            "confidence": "0.85",
+            "evidence": "AC induction motor 0.55kW 3-phase",
             "value": "AC induction motor 0.55kW 3-phase"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "_ CN 304 pes 49,28 14.981,12",
+            "confidence": "0.8",
+            "evidence": "CN 304 pes 49,28 14.981,12",
             "value": "304"
           },
           "unit": {
-            "confidence": "0.60",
-            "evidence": "_ CN 304 pes 49,28 14.981,12",
+            "confidence": "0.6",
+            "evidence": "CN 304 pes 49,28 14.981,12",
             "value": "pes"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "_ CN 304 pes 49,28 14.981,12",
+            "confidence": "0.88",
+            "evidence": "CN 304 pes 49,28 14.981,12",
             "value": "49,28"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.86",
-        "evidence": "Cash against | documents",
-        "value": "Cash against | documents"
+        "confidence": "0.6",
+        "evidence": "Cash against |\ndocuments",
+        "value": "Cash against documents"
       },
       "seller_name": {
-        "confidence": "0.72",
+        "confidence": "0.85",
         "evidence": "Sener Sti. - 75555 Efe Park - 05262 Istanbul - Turkey",
         "value": "Sener Sti."
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "_Gesamtbetrag / Total ! 44.706,12 EUR",
+        "confidence": "0.9",
+        "evidence": "Gesamtbetrag / Total ! 44.706,12 EUR",
         "value": "44.706,12"
       }
     },
-    "input_tokens": 449,
-    "latency_ms": 0,
-    "output_tokens": 846
+    "input_tokens": 2352,
+    "latency_ms": 6634,
+    "output_tokens": 1227
   }
 }

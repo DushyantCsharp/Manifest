@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "6bbb8001c233e77db408f55b1f28d578c394d66fb72ebecb71e81af7b707cfc2",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Multifunction inkjet printer, print scan copy, USB and Wi-Fi origin CN",
   "limit": 20,
   "candidates": [
     {
-      "code": "480920",
-      "description": "Paper; self-copy paper, whether or not printed, in rolls or sheets",
-      "score": "0.016393",
+      "code": "844331",
+      "description": "Printing, copying, and facsimile machines; machines which perform two or more of the functions of printing, copying or facsimile transmission, capable of connecting to an automatic data processing machine or to a network",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
-      "code": "481620",
-      "description": "Paper; self-copy paper (other than those of heading no. 4809), whether or not put up in boxes",
-      "score": "0.016129",
+      "code": "844332",
+      "description": "Printing, copying, and facsimile machines; single-function printing, copying or facsimile machines, capable of connecting to an automatic data processing machine or to a network",
+      "score": "0.032258",
       "ranks": {
-        "lexical": 2
+        "lexical": 2,
+        "vector": 2
       }
     },
     {
-      "code": "490600",
-      "description": "Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies",
-      "score": "0.015873",
+      "code": "844339",
+      "description": "Printing, copying, and facsimile machines; single-function printing, copying or facsimile machines, not capable of connecting to an automatic data processing machine or to a network",
+      "score": "0.031746",
       "ranks": {
-        "lexical": 3
+        "lexical": 3,
+        "vector": 3
       }
     },
     {
-      "code": "970210",
-      "description": "Engravings, prints and lithographs; original of an age exceeding 100 years",
-      "score": "0.015625",
+      "code": "844391",
+      "description": "Printing machinery used for printing by means of plates, cylinders and other printing components of heading 8442; parts and accessories",
+      "score": "0.030536",
       "ranks": {
-        "lexical": 4
+        "lexical": 5,
+        "vector": 6
       }
     },
     {
-      "code": "970290",
-      "description": "Engravings, prints and lithographs; original of an age not exceeding 100 years",
-      "score": "0.015385",
+      "code": "844319",
+      "description": "Printing machinery; used for printing by means of plates, cylinders and other printing components of heading 84.42, n.e.c. in item no. 8443.1",
+      "score": "0.029911",
       "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "900640",
-      "description": "Cameras, photographic (excluding cinematographic); instant print cameras",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "370120",
-      "description": "Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "293979",
-      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "481690",
-      "description": "Paper; carbon paper and other copying or transfer papers (other than those of heading no. 4809), n.e.c. in item no. 4816.20",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "320190",
-      "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "480990",
-      "description": "Paper; carbon paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "320300",
-      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "844316",
-      "description": "Printing machinery; flexographic",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "844317",
-      "description": "Printing machinery; gravure",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "350300",
-      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
+        "lexical": 4,
+        "vector": 10
       }
     },
     {
       "code": "844311",
       "description": "Printing machinery; offset, reel-fed",
-      "score": "0.012500",
+      "score": "0.029139",
       "ranks": {
-        "lexical": 20
+        "lexical": 14,
+        "vector": 4
+      }
+    },
+    {
+      "code": "844314",
+      "description": "Printing machinery; letterpress, reel-fed, excluding flexographic printing",
+      "score": "0.029040",
+      "ranks": {
+        "lexical": 6,
+        "vector": 12
+      }
+    },
+    {
+      "code": "844312",
+      "description": "Printing machinery; offset, sheet-fed, office type (sheet size not exceeding 22 x 36cm in the unfolded state)",
+      "score": "0.028718",
+      "ranks": {
+        "lexical": 15,
+        "vector": 5
+      }
+    },
+    {
+      "code": "844316",
+      "description": "Printing machinery; flexographic",
+      "score": "0.027912",
+      "ranks": {
+        "lexical": 17,
+        "vector": 7
+      }
+    },
+    {
+      "code": "844315",
+      "description": "Printing machinery; letterpress, other than reel-fed, excluding flexographic printing",
+      "score": "0.027746",
+      "ranks": {
+        "lexical": 7,
+        "vector": 18
+      }
+    },
+    {
+      "code": "844399",
+      "description": "Printing machinery; parts and accessories, n.e.c. in item no. 8443.91",
+      "score": "0.027151",
+      "ranks": {
+        "lexical": 19,
+        "vector": 9
+      }
+    },
+    {
+      "code": "844313",
+      "description": "Printing machinery; offset, n.e.c. in item no. 8443.1",
+      "score": "0.026671",
+      "ranks": {
+        "lexical": 16,
+        "vector": 14
+      }
+    },
+    {
+      "code": "480920",
+      "description": "Paper; self-copy paper, whether or not printed, in rolls or sheets",
+      "score": "0.026611",
+      "ranks": {
+        "lexical": 8,
+        "vector": 24
+      }
+    },
+    {
+      "code": "844317",
+      "description": "Printing machinery; gravure",
+      "score": "0.026519",
+      "ranks": {
+        "lexical": 18,
+        "vector": 13
+      }
+    },
+    {
+      "code": "480990",
+      "description": "Paper; carbon paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets",
+      "score": "0.025987",
+      "ranks": {
+        "lexical": 9,
+        "vector": 27
+      }
+    },
+    {
+      "code": "490199",
+      "description": "Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",
+      "score": "0.024490",
+      "ranks": {
+        "lexical": 10,
+        "vector": 38
+      }
+    },
+    {
+      "code": "490600",
+      "description": "Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies",
+      "score": "0.023259",
+      "ranks": {
+        "lexical": 11,
+        "vector": 49
+      }
+    },
+    {
+      "code": "490110",
+      "description": "Printed matter; in single sheets, whether or not folded",
+      "score": "0.023141",
+      "ranks": {
+        "lexical": 24,
+        "vector": 29
+      }
+    },
+    {
+      "code": "491199",
+      "description": "Printed matter; n.e.c. in heading no. 4911",
+      "score": "0.023128",
+      "ranks": {
+        "lexical": 28,
+        "vector": 25
+      }
+    },
+    {
+      "code": "481690",
+      "description": "Paper; carbon paper and other copying or transfer papers (other than those of heading no. 4809), n.e.c. in item no. 4816.20",
+      "score": "0.023065",
+      "ranks": {
+        "lexical": 32,
+        "vector": 22
       }
     }
   ]

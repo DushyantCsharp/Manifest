@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "6a2012533d31f0f35be9867b953128c2e016f95549337d05b23e9218320df964",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:33+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Scented paraffin candles in glass jars\nCountry of origin: PL\n\nChosen so far: 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster\n\nChoose the heading that covers these goods. Options:\n- 3406: Candles, tapers and the like\n    contains 340600: Candles, tapers and the like\n- 3404: Waxes; artificial, prepared\n    contains 340490: Waxes; artificial and prepared, other than of polyethylene glycol\n    contains 340420: Waxes; artificial and prepared, of poly(oxyethylene) (polyethylene glycol)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "993261c83af8d1ec0d501cf5228d14d5a7b142d22743bf2cec5f13d3d9f84325",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3406",
+      "cited": [
+        "3406",
+        "340600"
+      ],
+      "confidence": "0.98",
+      "reason": "Scented paraffin candles in glass jars are candles, covered by the terms of heading 3406 rather than the artificial or prepared waxes of heading 3404."
+    },
+    "input_tokens": 991,
+    "latency_ms": 3948,
+    "output_tokens": 89
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "c86511f0d79cafcf476a96399a1acc48769be02366cec8301f155a102ac7c97f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:56+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Office swivel chair with gas-lift height adjustment, upholstered, metal base\nCountry of origin: CN\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n\nChoose the heading that covers these goods. Options:\n- 9401: Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof\n    contains 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n- 9402: Furniture; medical, surgical, dental or veterinary (e.g. operating tables, hospital beds, dentists' chairs) barbers' chairs; parts\n    contains 940210: Chairs; dentists', barbers' or similar chairs having rotating as well as both reclining and elevating movements, and parts thereof\n- 9403: Furniture and parts thereof, n.e.c. in chapter 94\n    contains 940310: Furniture; metal, for office use\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d7bcdd361cbf93ecf4df46fda730b9aa3c62204b92ca2586d90c5344c7e4f2c9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9401",
+      "cited": [
+        "9401",
+        "940139"
+      ],
+      "confidence": "0.96",
+      "reason": "An office swivel chair with height adjustment is a seat of heading 9401 (subheading 940139 for swivel seats of non-wood material), not medical/barber furniture of 9402 or other furniture of 9403."
+    },
+    "input_tokens": 1232,
+    "latency_ms": 2775,
+    "output_tokens": 106
+  }
+}

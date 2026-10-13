@@ -2,8 +2,8 @@
   "format": 1,
   "key": "0e730b372ad812f11869bc2ca41a0e12717d32fd6e043d11685369ea93d94142",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:29+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Calhoun and Sons",
         "value": "Calhoun and Sons"
       },
@@ -25,7 +25,7 @@
         "value": "06/20/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EXW Samut Prakan",
         "value": "EXW Samut Prakan"
       },
@@ -37,65 +37,65 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 346 Harbour Road, Bangkok, Thailand",
-            "value": "Thailand"
+            "confidence": "0.95",
+            "evidence": "205/55R16 TH 881",
+            "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "confidence": "0.96",
+            "evidence": "Passenger car tyre 205/55R16",
             "value": "Passenger car tyre 205/55R16"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "confidence": "0.94",
+            "evidence": "7,838.26 kg 8,316.27 kg",
             "value": "8,316.27 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "confidence": "0.94",
+            "evidence": "881 7,838.26 kg 8,316.27 kg",
             "value": "7,838.26 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "confidence": "0.93",
+            "evidence": "TH 881 pcs",
             "value": "881"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+            "confidence": "0.95",
+            "evidence": "881 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 881 CARTONS 7,838.26 kg 8,316.27 kg",
+        "confidence": "0.9",
+        "evidence": "Total 881 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Bangkok Siam Import & Export Co., Ltd.",
         "value": "Bangkok Siam Import & Export Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+        "confidence": "0.95",
+        "evidence": "7,838.26 kg 8,316.27 kg",
         "value": "8,316.27 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+        "confidence": "0.95",
+        "evidence": "7,838.26 kg 8,316.27 kg",
         "value": "7,838.26 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 Passenger car tyre 205/55R16 TH 881 pcs 881 7,838.26 kg 8,316.27 kg",
+        "confidence": "0.9",
+        "evidence": "Total 881 CARTONS",
         "value": "881"
       }
     },
-    "input_tokens": 359,
-    "latency_ms": 0,
-    "output_tokens": 497
+    "input_tokens": 2301,
+    "latency_ms": 5935,
+    "output_tokens": 719
   }
 }

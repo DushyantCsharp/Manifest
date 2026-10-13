@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "2f48246ad1a12f203177fe76ce0572fda5424dfcac095edf50ba4d0d832e1e0f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:18+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's jeans, woven denim, 98% cotton 2% elastane\nCountry of origin: PK\n\nChoose the chapter that covers these goods. Options:\n- 52: Cotton\n    contains 520942: Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, weighing more than 200g/m2, denim\n    contains 521142: Fabrics, woven; containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200g/m2, of yarns of different colours, denim\n    contains 520859: Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5208.5, weighing not more than 200g/m2\n    contains 520831: Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing not more than 100g/m2\n    contains 520852: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520832: Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520851: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing not more than 100g/m2\n    contains 520839: Fabrics, woven; containing 85% or more by weight of cotton, dyed, of weaves n.e.c. in item no. 5208.3 weighing not more than 200g/m2\n    contains 520931: Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing more than 200g/m2\n    contains 520951: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 200g/m2\n    contains 520959: Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5209.5, weighing more than 200g/m2\n    contains 520811: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing not more than 100g/m2\n    contains 520812: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520813: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, 3-thread or 4-thread twill, including cross twill, weighing not more than 200g/m2\n    contains 520819: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, of weaves n.e.c. in item no. 5208.1, weighing not more than 200g/m2\n    contains 520821: Fabrics, woven; containing 85% or more by weight of cotton, bleached, plain weave, weighing not more than 100g/m2\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton (not knitted or crocheted)\n    contains 620349: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of textile materials (other than wool, fine animal hair, cotton or synthetic fibres), (not knitted or crocheted)\n    contains 620322: Ensembles; men's or boys', of cotton (not knitted or crocheted)\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "86d7821b1a7f082ac33078d00565542557456472d6c73a2b2a5d3200e24a7ba0",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "62",
+      "cited": [
+        "620342"
+      ],
+      "confidence": "0.97",
+      "reason": "Men's jeans of woven denim are finished garments of cotton, not knitted, so they fall in Chapter 62 (men's cotton trousers, 620342) rather than the fabric chapter 52 or knitted chapter 61."
+    },
+    "input_tokens": 2033,
+    "latency_ms": 3525,
+    "output_tokens": 108
+  }
+}

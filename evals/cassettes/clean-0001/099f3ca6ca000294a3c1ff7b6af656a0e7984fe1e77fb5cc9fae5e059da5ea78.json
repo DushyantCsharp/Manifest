@@ -2,8 +2,8 @@
   "format": 1,
   "key": "099f3ca6ca000294a3c1ff7b6af656a0e7984fe1e77fb5cc9fae5e059da5ea78",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:30+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Flores, Wheeler and Smith",
         "value": "Flores, Wheeler and Smith"
       },
@@ -25,7 +25,7 @@
         "value": "09/13/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CIF Los Angeles",
         "value": "CIF Los Angeles"
       },
@@ -37,65 +37,65 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 358 Industrial Road, Samut Prakan, Thailand",
-            "value": "Thailand"
+            "confidence": "0.95",
+            "evidence": "205/55R16 TH 1,117",
+            "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "confidence": "0.96",
+            "evidence": "Passenger car tyre 205/55R16",
             "value": "Passenger car tyre 205/55R16"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "confidence": "0.95",
+            "evidence": "1117 9,621.84 kg 10,453.85 kg",
             "value": "10,453.85 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "confidence": "0.95",
+            "evidence": "1117 9,621.84 kg 10,453.85 kg",
             "value": "9,621.84 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "confidence": "0.95",
+            "evidence": "TH 1,117 pcs",
             "value": "1,117"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+            "confidence": "0.95",
+            "evidence": "1,117 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1117 CARTONS 9,621.84 kg 10,453.85 kg",
+        "confidence": "0.9",
+        "evidence": "Total 1117 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Samut Prakan Sukjai Trading Co., Ltd.",
         "value": "Samut Prakan Sukjai Trading Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+        "confidence": "0.95",
+        "evidence": "9,621.84 kg 10,453.85 kg",
         "value": "10,453.85 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+        "confidence": "0.95",
+        "evidence": "9,621.84 kg 10,453.85 kg",
         "value": "9,621.84 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 Passenger car tyre 205/55R16 TH 1,117 pcs 1117 9,621.84 kg 10,453.85 kg",
+        "confidence": "0.93",
+        "evidence": "Total 1117 CARTONS",
         "value": "1117"
       }
     },
-    "input_tokens": 369,
-    "latency_ms": 0,
-    "output_tokens": 512
+    "input_tokens": 2316,
+    "latency_ms": 4574,
+    "output_tokens": 744
   }
 }

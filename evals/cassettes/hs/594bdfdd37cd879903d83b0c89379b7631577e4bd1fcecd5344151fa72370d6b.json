@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "594bdfdd37cd879903d83b0c89379b7631577e4bd1fcecd5344151fa72370d6b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:56+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lager beer made from malt, 330ml cans\nCountry of origin: MX\n\nChoose the chapter that covers these goods. Options:\n- 22: Beverages, spirits and vinegar\n    contains 220300: Beer; made from malt\n    contains 220291: Non-alcoholic beverages; non-alcoholic beer\n- 11: Products of the milling industry; malt, starches, inulin, wheat gluten\n    contains 110720: Malt; roasted\n    contains 110710: Malt; not roasted\n- 19: Preparations of cereals, flour, starch or milk; pastrycooks' products\n    contains 190110: Food preparations; of flour, meal, starch, malt extract or milk products, suitable for infants or young children, put up for retail sale\n    contains 190190: Food preparations; of flour, meal, starch, malt extract or milk products, for uses n.e.c. in heading no. 1901\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 46: Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork\n    contains 460211: Basketwork, wickerwork and other articles; of bamboo, made directly to shape from plaiting materials or made up from goods of heading no. 4601\n    contains 460212: Basketwork, wickerwork and other articles; of rattan, made directly to shape from plaiting materials or made up from goods of heading no. 4601\n    contains 460219: Basketwork, wickerwork and other articles; of vegetable materials (not bamboo or rattan), made directly to shape from plaiting materials or made up from goods of heading no. 4601; articles of loofah\n    contains 460290: Basketwork, wickerwork and other articles; of non-vegetable materials, made directly to shape from plaiting materials or made up from goods of heading no. 4601\n- 73: Iron or steel articles\n    contains 731021: Cans; which are to be closed by soldering or crimping, for any material (excluding compressed or liquefied gas), less than 50l capacity, of iron or steel\n- 13: Lac; gums, resins and other vegetable saps and extracts\n    contains 130213: Vegetable saps and extracts; of hops\n- 23: Food industries, residues and wastes thereof; prepared animal fodder\n    contains 230330: Brewing or distilling dregs and waste; whether or not in the form of pellets\n- 56: Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof\n    contains 560811: Twine, cordage or rope; fishing nets, made up, of man made textile materials\n- 17: Sugars and sugar confectionery\n    contains 170220: Sugars; maple sugar, chemically pure, in solid form; maple syrup, not containing added flavouring or colouring matter\n    contains 170390: Sugars; molasses, from sugar beet, resulting from the extraction or refining of sugar\n- 65: Headgear and parts thereof\n    contains 650200: Hat-shapes; plaited or made by assembling strips of any material, neither blocked to shape, nor with made brims, nor lined, nor trimmed\n- 21: Miscellaneous edible preparations\n    contains 210330: Mustard flour and meal and prepared mustard\n- 57: Carpets and other textile floor coverings\n    contains 570232: Carpets and other textile floor coverings; woven, (not tufted or flocked), of man-made textile materials, of pile construction, not made up, n.e.c. in item no. 5702.10 or 5702.20\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8cabf5fa0a0e0b0ecbcc62e1171a91cda6aa9b6a056983f89784a9b8d683e006",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "22",
+      "cited": [
+        "22",
+        "220300"
+      ],
+      "confidence": "0.98",
+      "reason": "Beer made from malt is covered by heading 2203 in Chapter 22 (Beverages, spirits and vinegar); the can packaging does not change classification."
+    },
+    "input_tokens": 2078,
+    "latency_ms": 2888,
+    "output_tokens": 86
+  }
+}

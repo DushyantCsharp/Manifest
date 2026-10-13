@@ -2,8 +2,8 @@
   "format": 1,
   "key": "fbf454e2c436fb92d2d89b870071668cd6f026482b09de54f40731a6d0544bb3",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:10+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Junck",
+        "confidence": "0.85",
+        "evidence": "Junck\nHans-Gerhard-Schleich-Allee 28/31",
         "value": "Junck"
       },
       "currency": {
@@ -25,7 +25,7 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FOB Chennai",
         "value": "FOB Chennai"
       },
@@ -42,124 +42,124 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 2,47 35.568,00",
+            "confidence": "0.95",
+            "evidence": "2,47 35.568,00",
             "value": "35.568,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Issac, Jaggi and Chacko · H.No. 111, Oza Path · 529203 Chennai · India",
-            "value": "India"
+            "confidence": "0.93",
+            "evidence": "jersey IN 14.400",
+            "value": "IN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.6",
+            "evidence": "Einzelpreis EUR Gesamt EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 2,47 35.568,00",
+            "confidence": "0.95",
+            "evidence": "Men's crew-neck T-shirt, 100% cotton jersey",
             "value": "Men's crew-neck T-shirt, 100% cotton jersey"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 2,47 35.568,00",
+            "confidence": "0.95",
+            "evidence": "IN 14.400 pcs",
             "value": "14.400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 2,47 35.568,00",
+            "confidence": "0.95",
+            "evidence": "14.400 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 2,47 35.568,00",
+            "confidence": "0.95",
+            "evidence": "pcs 2,47 35.568,00",
             "value": "2,47"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 133,72 37.976,48",
+            "confidence": "0.95",
+            "evidence": "133,72 37.976,48",
             "value": "37.976,48"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 133,72 37.976,48",
+            "confidence": "0.93",
+            "evidence": "20Ah CN 284",
             "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.6",
+            "evidence": "Einzelpreis EUR Gesamt EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 133,72 37.976,48",
+            "confidence": "0.95",
+            "evidence": "Lithium-ion battery pack 48V 20Ah",
             "value": "Lithium-ion battery pack 48V 20Ah"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 133,72 37.976,48",
+            "confidence": "0.95",
+            "evidence": "CN 284 pcs",
             "value": "284"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Men's crew-neck T-shirt, 100% cotton jersey IN 14.400 pcs 2,47 35.568,00",
+            "confidence": "0.95",
+            "evidence": "284 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Lithium-ion battery pack 48V 20Ah CN 284 pcs 133,72 37.976,48",
+            "confidence": "0.95",
+            "evidence": "pcs 133,72 37.976,48",
             "value": "133,72"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 2,19 41.610,00",
+            "confidence": "0.95",
+            "evidence": "2,19 41.610,00",
             "value": "41.610,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Issac, Jaggi and Chacko · H.No. 111, Oza Path · 529203 Chennai · India",
-            "value": "India"
+            "confidence": "0.93",
+            "evidence": "2mm IN 19.000",
+            "value": "IN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.6",
+            "evidence": "Einzelpreis EUR Gesamt EUR",
+            "value": "EUR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 2,19 41.610,00",
+            "confidence": "0.95",
+            "evidence": "Stainless steel sheet 304, cold-rolled 2mm",
             "value": "Stainless steel sheet 304, cold-rolled 2mm"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 2,19 41.610,00",
+            "confidence": "0.95",
+            "evidence": "IN 19.000 kg",
             "value": "19.000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 2,19 41.610,00",
+            "confidence": "0.95",
+            "evidence": "19.000 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Stainless steel sheet 304, cold-rolled 2mm IN 19.000 kg 2,19 41.610,00",
+            "confidence": "0.95",
+            "evidence": "kg 2,19 41.610,00",
             "value": "2,19"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "Cash against documents",
+        "confidence": "0.85",
+        "evidence": "Cash against\ndocuments",
         "value": "Cash against documents"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Issac, Jaggi and Chacko · H.No. 111, Oza Path · 529203 Chennai · India",
+        "confidence": "0.9",
+        "evidence": "Issac, Jaggi and Chacko · H.No. 111, Oza Path",
         "value": "Issac, Jaggi and Chacko"
       },
       "total_amount": {
@@ -168,8 +168,8 @@
         "value": "115.154,48"
       }
     },
-    "input_tokens": 454,
-    "latency_ms": 0,
-    "output_tokens": 947
+    "input_tokens": 2370,
+    "latency_ms": 6938,
+    "output_tokens": 1316
   }
 }

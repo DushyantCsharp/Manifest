@@ -2,8 +2,8 @@
   "format": 1,
   "key": "d0b72ca0681d7a8eb64e630bee4d6c34347a38376bd9ca52ef350a6e8b85f51b",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:14+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,17 +15,17 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Griffith-Watson",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nGriffith-Watson",
         "value": "Griffith-Watson"
       },
       "date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Date 02/11/2026",
         "value": "02/11/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CIF Vancouver",
         "value": "CIF Vancouver"
       },
@@ -37,65 +37,65 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "95/152 Khóm 57 Đường Phạm Thế Hiển, 20944 Hai Phong, Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "milled VN 15,250",
+            "value": "VN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "evidence": "Long grain white rice, milled",
             "value": "Long grain white rice, milled"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "confidence": "0.95",
+            "evidence": "610 15,250.00 kg 16,601.15 kg",
             "value": "16,601.15 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "confidence": "0.95",
+            "evidence": "610 15,250.00 kg 16,601.15 kg",
             "value": "15,250.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "confidence": "0.93",
+            "evidence": "VN 15,250 kg 610",
             "value": "15,250"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+            "confidence": "0.9",
+            "evidence": "VN 15,250 kg 610",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 610 BAGS 15,250.00 kg 16,601.15 kg",
+        "confidence": "0.9",
+        "evidence": "Total 610 BAGS",
         "value": "BAGS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Nguyễn Công ty Hợp danh",
         "value": "Nguyễn Công ty Hợp danh"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+        "confidence": "0.95",
+        "evidence": "BAGS 15,250.00 kg 16,601.15 kg",
         "value": "16,601.15 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+        "confidence": "0.95",
+        "evidence": "BAGS 15,250.00 kg 16,601.15 kg",
         "value": "15,250.00 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 Long grain white rice, milled VN 15,250 kg 610 15,250.00 kg 16,601.15 kg",
+        "confidence": "0.95",
+        "evidence": "Total 610 BAGS",
         "value": "610"
       }
     },
-    "input_tokens": 364,
-    "latency_ms": 0,
-    "output_tokens": 519
+    "input_tokens": 2318,
+    "latency_ms": 6602,
+    "output_tokens": 722
   }
 }

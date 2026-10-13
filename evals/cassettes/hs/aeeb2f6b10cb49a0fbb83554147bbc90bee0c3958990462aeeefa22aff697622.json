@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "aeeb2f6b10cb49a0fbb83554147bbc90bee0c3958990462aeeefa22aff697622",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:42+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Household washing machine, fully automatic, front loading, 8kg dry linen capacity\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8450 Household or laundry-type washing machines; including machines which both wash and dry\n\nChoose the subheading that covers these goods. Options:\n- 845011: Washing machines; household or laundry-type, fully-automatic, (of a dry linen capacity not exceeding 10kg)\n- 845019: Washing machines; household or laundry-type, not fully-automatic, without built-in centrifugal drier, of a dry linen capacity not exceeding 10kg\n- 845012: Washing machines; household or laundry-type, with built-in centrifugal drier, (not fully-automatic), of a dry linen capacity not exceeding 10kg\n- 845020: Washing machines; household or laundry-type, of a dry linen capacity exceeding 10kg\n- 845090: Washing machines; parts for household or laundry-type\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "23461795d298731867e5dbb457ff11a7975f1e48120c568f79db48b92872df27",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "845011",
+      "cited": [
+        "845011"
+      ],
+      "confidence": "0.97",
+      "reason": "A fully automatic household washing machine with an 8kg dry linen capacity (not over 10kg) falls under the fully-automatic subheading 845011."
+    },
+    "input_tokens": 1102,
+    "latency_ms": 4557,
+    "output_tokens": 83
+  }
+}

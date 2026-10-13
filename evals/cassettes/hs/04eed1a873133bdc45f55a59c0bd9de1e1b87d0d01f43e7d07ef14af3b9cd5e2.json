@@ -2,8 +2,8 @@
   "format": 1,
   "key": "04eed1a873133bdc45f55a59c0bd9de1e1b87d0d01f43e7d07ef14af3b9cd5e2",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:49:05+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "691110",
       "cited": [
-        "691110"
+        "691110",
+        "6911"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.97",
+      "reason": "A porcelain dinner plate is tableware, which falls under subheading 691110 rather than the residual household and toilet articles subheading."
     },
-    "input_tokens": 328,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 890,
+    "latency_ms": 3051,
+    "output_tokens": 80
   }
 }

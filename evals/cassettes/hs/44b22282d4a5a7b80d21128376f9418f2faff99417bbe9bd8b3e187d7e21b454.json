@@ -2,8 +2,8 @@
   "format": 1,
   "key": "44b22282d4a5a7b80d21128376f9418f2faff99417bbe9bd8b3e187d7e21b454",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:48:17+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "610910",
       "cited": [
-        "610910"
+        "610910",
+        "6109"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.99",
+      "reason": "A men's knitted T-shirt of 100% cotton falls under heading 6109 and the cotton subheading 610910, not the non-cotton 610990."
     },
-    "input_tokens": 346,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 925,
+    "latency_ms": 2964,
+    "output_tokens": 87
   }
 }

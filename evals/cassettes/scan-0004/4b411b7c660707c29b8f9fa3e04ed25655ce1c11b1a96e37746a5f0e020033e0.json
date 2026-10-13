@@ -2,8 +2,8 @@
   "format": 1,
   "key": "4b411b7c660707c29b8f9fa3e04ed25655ce1c11b1a96e37746a5f0e020033e0",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:01+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,119 +15,119 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "_ Miller-Burke | | CIP Los Angeles",
+        "confidence": "0.9",
+        "evidence": "_ Miller-Burke",
         "value": "Miller-Burke"
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "Favela de da Rosa, 36, 11956-824 Santos, Brazil. . Date September 3, 2026",
+        "confidence": "0.95",
+        "evidence": "Date September 3, 2026",
         "value": "September 3, 2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "_ Miller-Burke | | CIP Los Angeles",
+        "confidence": "0.9",
+        "evidence": "CIP Los Angeles",
         "value": "CIP Los Angeles"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "Pires Viana e Filhos Invoice Ref. 2026/4866",
+        "confidence": "0.95",
+        "evidence": "Invoice Ref. 2026/4866",
         "value": "2026/4866"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Favela de da Rosa, 36, 11956-824 Santos, Brazil. . Date September 3, 2026",
-            "value": "Brazil"
+            "confidence": "0.9",
+            "evidence": "ream BR 8,710",
+            "value": "BR"
           },
           "description": {
-            "confidence": "0.86",
-            "evidence": "1 A4 copy Paper 80gsm, ream BR 8,710 pcs 1742 47,852.0 Ib 51,369.1 Ib",
+            "confidence": "0.93",
+            "evidence": "A4 copy Paper 80gsm, ream",
             "value": "A4 copy Paper 80gsm, ream"
           },
           "gross_weight_kg": {
-            "confidence": "0.82",
-            "evidence": "1 A4 copy Paper 80gsm, ream BR 8,710 pcs 1742 47,852.0 Ib 51,369.1 Ib",
+            "confidence": "0.9",
+            "evidence": "51,369.1 Ib",
             "value": "51,369.1 Ib"
           },
           "net_weight_kg": {
-            "confidence": "0.82",
-            "evidence": "1 A4 copy Paper 80gsm, ream BR 8,710 pcs 1742 47,852.0 Ib 51,369.1 Ib",
+            "confidence": "0.9",
+            "evidence": "47,852.0 Ib",
             "value": "47,852.0 Ib"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 A4 copy Paper 80gsm, ream BR 8,710 pcs 1742 47,852.0 Ib 51,369.1 Ib",
+            "confidence": "0.93",
+            "evidence": "8,710 pcs",
             "value": "8,710"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 A4 copy Paper 80gsm, ream BR 8,710 pcs 1742 47,852.0 Ib 51,369.1 Ib",
+            "confidence": "0.93",
+            "evidence": "8,710 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Favela de da Rosa, 36, 11956-824 Santos, Brazil. . Date September 3, 2026",
-            "value": "Brazil"
+            "confidence": "0.9",
+            "evidence": "whole BR 1,240",
+            "value": "BR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Roasted coffee beans, whole BR 1,240 kg 124 2,733.7 Ib 2,985.2 Ib",
+            "confidence": "0.93",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "gross_weight_kg": {
-            "confidence": "0.81",
-            "evidence": "2 Roasted coffee beans, whole BR 1,240 kg 124 2,733.7 Ib 2,985.2 Ib",
+            "confidence": "0.9",
+            "evidence": "2,985.2 Ib",
             "value": "2,985.2 Ib"
           },
           "net_weight_kg": {
-            "confidence": "0.81",
-            "evidence": "2 Roasted coffee beans, whole BR 1,240 kg 124 2,733.7 Ib 2,985.2 Ib",
+            "confidence": "0.9",
+            "evidence": "2,733.7 Ib",
             "value": "2,733.7 Ib"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Roasted coffee beans, whole BR 1,240 kg 124 2,733.7 Ib 2,985.2 Ib",
+            "confidence": "0.93",
+            "evidence": "1,240 kg",
             "value": "1,240"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Roasted coffee beans, whole BR 1,240 kg 124 2,733.7 Ib 2,985.2 Ib",
+            "confidence": "0.93",
+            "evidence": "1,240 kg",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1866 CARTONS 50,585.8 Ib 54,354.3 Ib",
+        "confidence": "0.9",
+        "evidence": "Total 1866 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Pires Viana e Filhos Invoice Ref. 2026/4866",
+        "confidence": "0.9",
+        "evidence": "Pires Viana e Filhos",
         "value": "Pires Viana e Filhos"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.82",
-        "evidence": "Total 1866 CARTONS 50,585.8 Ib 54,354.3 Ib",
+        "confidence": "0.9",
+        "evidence": "54,354.3 Ib",
         "value": "54,354.3 Ib"
       },
       "total_net_weight_kg": {
-        "confidence": "0.82",
-        "evidence": "Total 1866 CARTONS 50,585.8 Ib 54,354.3 Ib",
+        "confidence": "0.9",
+        "evidence": "50,585.8 Ib",
         "value": "50,585.8 Ib"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1866 CARTONS 50,585.8 Ib 54,354.3 Ib",
+        "confidence": "0.93",
+        "evidence": "Total 1866 CARTONS",
         "value": "1866"
       }
     },
-    "input_tokens": 379,
-    "latency_ms": 0,
-    "output_tokens": 728
+    "input_tokens": 2353,
+    "latency_ms": 5427,
+    "output_tokens": 917
   }
 }

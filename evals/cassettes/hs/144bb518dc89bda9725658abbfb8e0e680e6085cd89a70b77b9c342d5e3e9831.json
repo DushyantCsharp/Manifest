@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "144bb518dc89bda9725658abbfb8e0e680e6085cd89a70b77b9c342d5e3e9831",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:04+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lead-acid starter battery 12V 60Ah\nCountry of origin: KR\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854911: Waste and scrap of lead-acid accumulators; spent lead-acid accumulators\n    contains 854912: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, containing lead, cadmium or mercury, other than lead-acid accumulators\n    contains 850710: Electric accumulators; lead-acid, of a kind used for starting piston engines, including separators, whether or not rectangular (including square)\n    contains 850720: Electric accumulators; lead-acid, (other than for starting piston engines), including separators, whether or not rectangular (including square)\n    contains 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850780: Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850730: Electric accumulators; nickel-cadmium, including separators, whether or not rectangular (including square)\n    contains 850650: Cells and batteries; primary, lithium\n    contains 850750: Electric accumulators; nickel-metal hydride, including separators, whether or not rectangular (including square)\n    contains 850640: Cells and batteries; primary, silver oxide\n- 38: Chemical products n.e.c.\n    contains 382319: Industrial monocarboxylic fatty acids; acid oils from refining; (other than stearic acid, oleic acid or tall oil fatty acids)\n- 29: Organic chemicals\n    contains 291713: Acids; acyclic polycarboxylic acids; azelaic acid, sebacic acid, their salts and esters\n    contains 291560: Acids; saturated acyclic monocarboxylic acids; butanoic acids, pentanoic acids, their salts and esters\n    contains 291570: Acids; saturated acyclic monocarboxylic acids; palmitic acid, stearic acid, their salts and esters\n    contains 291817: Acids; carboxylic acids, (with alcohol function but without other oxygen function), 2,2-Diphenyl-2-hydroxyacetic acid (benzilic acid)\n    contains 291639: Acids; aromatic monocarboxylic acids, and their anhydrides, halides, peroxides, peroxyacids and their derivatives, other than benzoic acid, its salts and esters, benzoyl peroxide and benzoyl chloride, phenylacetic acid and its salts\n    contains 291711: Acids; acyclic polycarboxylic acids; oxalic acid, its salts and esters\n    contains 291712: Acids; acyclic polycarboxylic acids; adipic acid, its salts and esters\n    contains 291734: Acids; aromatic polycarboxylic acids; other esters of orthophthalic acids\n    contains 291736: Acids; aromatic polycarboxylic acids; terephthalic acid and its salts\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3783df7ef450a035a90158d9440d453dcf5cb8d0b5ecb80c5ba99bb7bb9dc6a0",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85",
+        "850710"
+      ],
+      "confidence": "0.99",
+      "reason": "A lead-acid starter battery is an electric accumulator used for starting piston engines, which falls under heading 8507 (subheading 850710) in Chapter 85."
+    },
+    "input_tokens": 1831,
+    "latency_ms": 3337,
+    "output_tokens": 88
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "56f4d23bef455391b73c6d3b6054e6d058a85d4cf1626666ba149cb5333792f6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:28+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's blouse, woven, 100% silk\nCountry of origin: CN\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted > 6206 Blouses, shirts and shirt-blouses; women's or girls' (not knitted or crocheted)\n\nChoose the subheading that covers these goods. Options:\n- 620610: Blouses, shirts and shirt-blouses; women's or girls', of silk or silk waste (not knitted or crocheted)\n- 620620: Blouses, shirts and shirt-blouses; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n- 620630: Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)\n- 620690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials n.e.c. in heading no. 6206 (not knitted or crocheted)\n- 620640: Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5b11d396b0a29e0d7111e32cc2eac1acc82d2cd6032aaae0c2a9b012ac077284",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "620610",
+      "cited": [
+        "620610"
+      ],
+      "confidence": "0.98",
+      "reason": "A women's woven blouse of 100% silk falls under the subheading for blouses of silk or silk waste."
+    },
+    "input_tokens": 1117,
+    "latency_ms": 2971,
+    "output_tokens": 68
+  }
+}

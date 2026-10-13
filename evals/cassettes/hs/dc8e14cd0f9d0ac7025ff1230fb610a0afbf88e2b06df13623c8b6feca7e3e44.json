@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "dc8e14cd0f9d0ac7025ff1230fb610a0afbf88e2b06df13623c8b6feca7e3e44",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:20+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Corrugated cardboard shipping cartons, 3-ply\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481910: Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard\n    contains 481920: Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard\n    contains 480810: Paper and paperboard; corrugated, whether or not perforated, in rolls or sheets, other than paper of heading 4803\n    contains 480890: Paper and paperboard; other than corrugated (with or without glued flat surface sheets) or kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803\n    contains 481930: Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more\n    contains 480840: Paper and paperboard; kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803\n    contains 481940: Paper and paperboard; sacks and bags, including cones, of paper, paperboard, cellulose wadding or fibres, having a base width less than 40cm\n    contains 481960: Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres\n    contains 481950: Paper and paperboard; packing containers, including record sleeves, of paper, paperboard, cellulose wadding or fibres, n.e.c. in heading no. 4819\n    contains 480519: Paper and paperboard; uncoated, fluting paper other than semi-chemical or straw, rolls or sheets\n- 44: Wood and articles of wood; wood charcoal\n    contains 441231: Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of tropical wood\n    contains 441233: Plywood; with sheets of wood only; not bamboo; each ply 6mm or less, with at least one outer ply of alder, ash, beech, birch, cherry, chestnut, elm, eucalyptus, hickory, horse chestnut, lime, maple, oak, plane, poplar, aspen, robinia, tulipwood or walnut\n    contains 441234: Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of non-coniferous wood not listed in subheading 4412.33\n    contains 441239: Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with both outer plies of coniferous wood\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 844130: Machines; for making cartons, boxes, cases, tubes, drums or similar containers (other than by moulding), of paper pulp, paper or paperboard\n- 47: Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard\n    contains 470710: Paper or paperboard; waste and scrap, of unbleached kraft paper or paperboard or corrugated paper or paperboard\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 89: Ships, boats and floating structures\n    contains 890110: Cruise ships, excursion boats and similar vessels, principally designed for the transport of persons, ferry boats of all kinds\n    contains 890200: Fishing vessels, factory ships and other vessels; for processing or preserving fishery products\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c347d5ff8923c2d5b59e5081e56f4adab85793b60ffc55826df5c09c82f95895",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "48",
+      "cited": [
+        "481910"
+      ],
+      "confidence": "0.97",
+      "reason": "Cartons, boxes and cases of corrugated paperboard fall in heading 4819 (subheading 481910) in Chapter 48."
+    },
+    "input_tokens": 2242,
+    "latency_ms": 3303,
+    "output_tokens": 78
+  }
+}

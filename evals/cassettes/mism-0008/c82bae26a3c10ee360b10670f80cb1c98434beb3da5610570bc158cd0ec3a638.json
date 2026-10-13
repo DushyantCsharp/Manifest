@@ -2,8 +2,8 @@
   "format": 1,
   "key": "c82bae26a3c10ee360b10670f80cb1c98434beb3da5610570bc158cd0ec3a638",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:03+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Cohen-Johnson",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nCohen-Johnson",
         "value": "Cohen-Johnson"
       },
       "date": {
@@ -25,7 +25,7 @@
         "value": "02-JUL-2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FCA Sydney",
         "value": "FCA Sydney"
       },
@@ -37,97 +37,97 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 114 Industrial Road, Chonburi, Thailand",
-            "value": "Thailand"
+            "confidence": "0.93",
+            "evidence": "TH 10,848",
+            "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Canned skipjack tuna in oil, 185g TH 10,848 pcs 226 2,212.99 kg 2,481.75 kg",
+            "confidence": "0.95",
+            "evidence": "Canned skipjack tuna in oil, 185g",
             "value": "Canned skipjack tuna in oil, 185g"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Canned skipjack tuna in oil, 185g TH 10,848 pcs 226 2,212.99 kg 2,481.75 kg",
+            "confidence": "0.95",
+            "evidence": "2,481.75 kg",
             "value": "2,481.75 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Canned skipjack tuna in oil, 185g TH 10,848 pcs 226 2,212.99 kg 2,481.75 kg",
+            "confidence": "0.95",
+            "evidence": "2,212.99 kg",
             "value": "2,212.99 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Canned skipjack tuna in oil, 185g TH 10,848 pcs 226 2,212.99 kg 2,481.75 kg",
+            "confidence": "0.95",
+            "evidence": "TH 10,848 pcs",
             "value": "10,848"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Canned skipjack tuna in oil, 185g TH 10,848 pcs 226 2,212.99 kg 2,481.75 kg",
+            "confidence": "0.95",
+            "evidence": "10,848 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 114 Industrial Road, Chonburi, Thailand",
-            "value": "Thailand"
+            "confidence": "0.93",
+            "evidence": "TH 1,020",
+            "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Passenger car tyre 205/55R16 TH 1,020 pcs 872 7,380.61 kg 8,755.18 kg",
+            "confidence": "0.95",
+            "evidence": "Passenger car tyre 205/55R16",
             "value": "Passenger car tyre 205/55R16"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Passenger car tyre 205/55R16 TH 1,020 pcs 872 7,380.61 kg 8,755.18 kg",
+            "confidence": "0.95",
+            "evidence": "8,755.18 kg",
             "value": "8,755.18 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Passenger car tyre 205/55R16 TH 1,020 pcs 872 7,380.61 kg 8,755.18 kg",
+            "confidence": "0.95",
+            "evidence": "7,380.61 kg",
             "value": "7,380.61 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Passenger car tyre 205/55R16 TH 1,020 pcs 872 7,380.61 kg 8,755.18 kg",
+            "confidence": "0.95",
+            "evidence": "TH 1,020 pcs",
             "value": "1,020"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Canned skipjack tuna in oil, 185g TH 10,848 pcs 226 2,212.99 kg 2,481.75 kg",
+            "confidence": "0.95",
+            "evidence": "1,020 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1098 CARTONS 9,593.60 kg 11,236.93 kg",
+        "confidence": "0.9",
+        "evidence": "Total 1098 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Chonburi Sukjai Industrial Co., Ltd.",
         "value": "Chonburi Sukjai Industrial Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1098 CARTONS 9,593.60 kg 11,236.93 kg",
+        "confidence": "0.95",
+        "evidence": "11,236.93 kg",
         "value": "11,236.93 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1098 CARTONS 9,593.60 kg 11,236.93 kg",
+        "confidence": "0.95",
+        "evidence": "9,593.60 kg",
         "value": "9,593.60 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1098 CARTONS 9,593.60 kg 11,236.93 kg",
+        "confidence": "0.95",
+        "evidence": "Total 1098 CARTONS",
         "value": "1098"
       }
     },
-    "input_tokens": 379,
-    "latency_ms": 0,
-    "output_tokens": 706
+    "input_tokens": 2357,
+    "latency_ms": 5829,
+    "output_tokens": 951
   }
 }

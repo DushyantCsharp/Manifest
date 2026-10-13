@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "9cc161d6989479dd4c0290fde2fcf45f9f95341cb93c777bb96a3cce3668b269",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:08+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Plastic storage box 30L with lid, polypropylene, household\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 39: Plastics and articles thereof\n    contains 392310: Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods\n    contains 392350: Plastics; stoppers, lids, caps and other closures, for the conveyance or packing of goods\n    contains 392329: Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n    contains 392490: Plastics; household articles and hygienic or toilet articles\n    contains 392390: Plastics; articles for the conveyance or packing of goods n.e.c. in heading no. 3923\n    contains 392340: Plastics; spools, cops, bobbins and similar supports, for the conveyance or packing of goods\n    contains 392410: Plastics; tableware and kitchenware\n    contains 391722: Plastics; tubes, pipes and hoses thereof, rigid, of polymers of propylene\n    contains 392020: Plastics; of polymers of propylene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392030: Plastics; of polymers of styrene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392510: Plastics; builders' ware, reservoirs, tanks, vats and similar containers of a capacity exceeding 300 litres\n    contains 392321: Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods\n    contains 391690: Plastics; monofilament, of plastics n.e.c. in heading no. 3916, cross-sectional dimension exceeds 1mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481960: Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres\n    contains 481910: Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard\n    contains 481920: Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 848030: Moulding patterns; of metal, metal carbides, glass, mineral materials, rubber or plastics\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 83: Metal; miscellaneous products of base metal\n    contains 830300: Safes; armoured or reinforced, strong-boxes, doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f0fe00205d8c7316d60d06d068fd0bcbf4e67a1d4e39011904add21b476ba1d7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "39",
+      "cited": [
+        "39",
+        "392310"
+      ],
+      "confidence": "0.97",
+      "reason": "A polypropylene household storage box with lid is an article of plastics, covered by Chapter 39 (e.g., 3923 articles for conveyance or packing of goods, or 3924 household articles)."
+    },
+    "input_tokens": 1953,
+    "latency_ms": 2976,
+    "output_tokens": 99
+  }
+}

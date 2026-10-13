@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "624cbb6abda1df43060bfb11376dbcb970a0cb3903d742a5f66b983a335020b5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:57+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Grey Portland cement in 50kg bags\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 252321: Cement; portland, white, whether or not artificially coloured\n    contains 252329: Cement; portland, other than white, whether or not artificially coloured\n    contains 252310: Cement clinkers (whether or not coloured)\n    contains 252390: Cement; hydraulic kinds n.e.c. in heading no. 2523\n    contains 252330: Cement; aluminous (ciment fondu), whether or not coloured or in the form of clinkers\n    contains 252100: Limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement\n    contains 251730: Tarred macadam\n    contains 251710: Pebbles, gravel, broken or crushed stone; of a kind commonly used for concrete aggregates, for road metalling or for railway or other ballast, shingle and flint, whether or not heat-treated\n- 68: Stone, plaster, cement, asbestos, mica or similar materials; articles thereof\n    contains 681099: Cement, concrete or artificial stone; articles (other than prefabricated structural components for building or civil engineering), whether or not reinforced, n.e.c. in heading no. 6810\n    contains 681091: Cement, concrete or artificial stone; prefabricated structural components for building or civil engineering, whether or not reinforced\n    contains 681019: Cement, concrete or artificial stone; tiles, flagstones and similar, (excluding building blocks and bricks) whether or not reinforced\n    contains 681011: Cement, concrete or artificial stone; building blocks or bricks, whether or not reinforced\n    contains 681140: Asbestos-cement; articles or the like, containing asbestos\n    contains 681181: Cellulose fibre-cement; articles or the like; corrugated sheets, not containing asbestos\n- 38: Chemical products n.e.c.\n    contains 381600: Refractory cements, mortars, concretes and similar compositions, including dolomite ramming mix, other than products of heading 38.01\n    contains 382440: Cements, mortars or concretes; their prepared additives\n    contains 382450: Mortars and concretes; non-refractory\n- 74: Copper and articles thereof\n    contains 740100: Copper mattes; cement copper (precipitated copper)\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 30: Pharmaceutical products\n    contains 300640: Pharmaceutical goods; dental cements and other dental fillings, bone reconstruction cements\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "25355df58285754cd306d144be9dbd956ff91a5e8ca4b3a77dfd8b547a54f413",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "25",
+      "cited": [
+        "25",
+        "252329"
+      ],
+      "confidence": "0.98",
+      "reason": "Grey Portland cement is classified in heading 25.23 (subheading 252329, portland cement other than white), within Chapter 25."
+    },
+    "input_tokens": 1766,
+    "latency_ms": 2701,
+    "output_tokens": 78
+  }
+}

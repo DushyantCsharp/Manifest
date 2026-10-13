@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "8900c51073902c5c35ca06680f4d3f5491be6f60352b09ed160ce68557ae94e5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:18+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's padded jacket, woven polyester shell, down filled\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620230: Coats; women's or girls', overcoats, raincoats, car-coats, capes, cloaks anoraks (including ski-jackets) and similar articles, of cotton, other than those of heading no. 6204 (not knitted or crocheted)\n    contains 620220: Coats; women's or girls', overcoats, raincoats, car-coats, capes, cloaks anoraks (including ski-jackets) and similar articles, of wool or fine animal hair, other than those of heading no. 6204 (not knitted or crocheted)\n    contains 620240: Coats; women's or girls', overcoats, raincoats, car-coats, capes, cloaks anoraks (including ski-jackets) and similar articles, of man-made fibres, other than those of heading no. 6204 (not knitted or crocheted)\n    contains 620431: Jackets and blazers; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n    contains 620439: Jackets and blazers; women's or girls', of textile materials n.e.c. in item no. 6204.3 (not knitted or crocheted)\n    contains 620433: Jackets and blazers; women's or girls', of synthetic fibres (not knitted or crocheted)\n    contains 620432: Jackets and blazers; women's or girls', of cotton (not knitted or crocheted)\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610230: Coats; women's or girls' overcoats, car-coats, capes, anoraks, wind-jackets and similar articles, of man-made fibres, knitted or crocheted (excluding those of heading no. 6104)\n    contains 610210: Coats; women's or girls' overcoats, car-coats, capes, anoraks, wind-jackets and similar articles, of wool or fine animal hair, knitted or crocheted (excluding those of heading no. 6104)\n    contains 610220: Coats; women's or girls' overcoats, car-coats, capes, anoraks, wind-jackets and similar articles, of cotton, knitted or crocheted (excluding those of heading no. 6104)\n    contains 610290: Coats; women's or girls' overcoats, car-coats, capes, anoraks, wind-jackets and similar articles, of textile materials n.e.c. in heading no. 6102, knitted or crocheted (excluding those of heading no. 6104)\n    contains 610431: Jackets; women's or girls', of wool or fine animal hair, knitted or crocheted\n    contains 610439: Jackets; women's or girls', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610433: Jackets; women's or girls', of synthetic fibres, knitted or crocheted\n    contains 610432: Jackets; women's or girls', of cotton, knitted or crocheted\n- 53: Vegetable textile fibres; paper yarn and woven fabrics of paper yarn\n    contains 531100: Fabrics, woven; of vegetable textile fibres n.e.c. in heading no. 5309 and 5310, woven fabrics of paper yarn\n- 03: Fish and crustaceans, molluscs and other aquatic invertebrates\n    contains 030611: Crustaceans; frozen, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030612: Crustaceans; frozen, lobsters (Homarus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030614: Crustaceans; frozen, crabs, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030615: Crustaceans; frozen, Norway lobsters (Nephrops norvegicus), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "835f417849d958d83b2e07f8661e197e5ffa532136940393a3def7ee4e8444f2",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "62",
+      "cited": [
+        "62",
+        "620433",
+        "620240"
+      ],
+      "confidence": "0.97",
+      "reason": "A women's jacket with a woven polyester shell is apparel that is not knitted or crocheted, so it falls in Chapter 62 (woven apparel) rather than Chapter 61 (knitted apparel)."
+    },
+    "input_tokens": 2213,
+    "latency_ms": 3398,
+    "output_tokens": 107
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "4631e3bea0e88c7dfae21a33298535469c2f3503fe33b0373dc2817bda6c4a70",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:08+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel saucepan 20cm with lid\nCountry of origin: IN\n\nChosen so far: 73 Iron or steel articles\n\nChoose the heading that covers these goods. Options:\n- 7323: Table, kitchen, other household articles and parts, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel\n    contains 732393: Steel, stainless; table, kitchen and other household articles and parts thereof\n    contains 732399: Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323\n    contains 732392: Cast iron; table, kitchen and other household articles and parts thereof, of cast iron, enamelled\n- 7324: Sanitary ware and parts thereof, of iron or steel\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n- 7307: Tube or pipe fittings (e.g. couplings, elbows, sleeves), of iron or steel\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n- 7314: Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel\n    contains 731412: Iron or steel; woven cloth, endless bands for machinery, of stainless steel\n    contains 731414: Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)\n    contains 731419: Iron or steel; woven cloth, other than of stainless steel\n- 7310: Tanks, casks, drums, cans, boxes and similar containers, for any material (excluding compressed or liquefied gas), of iron or steel, capacity not exceeding 300l, whether or not lined or heat-insulated\n    contains 731021: Cans; which are to be closed by soldering or crimping, for any material (excluding compressed or liquefied gas), less than 50l capacity, of iron or steel\n- 7321: Stoves, ranges, grates, cookers (those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances and parts, of iron or steel\n    contains 732182: Domestic appliances; non-electric, (other than cookers and plate warmers), for liquid fuel, of iron or steel\n    contains 732112: Cooking appliances and plate warmers; for liquid fuel, of iron or steel\n- 7304: Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel\n    contains 730411: Iron or steel (excluding cast iron); seamless, line pipe of a kind used for oil or gas pipelines, of stainless steel\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f6fccf5bc74249e3f3f3c5f05617b202b9c083db301593dffd414f581eb34914",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7323",
+      "cited": [
+        "7323",
+        "732393"
+      ],
+      "confidence": "0.97",
+      "reason": "A stainless steel saucepan with lid is a kitchen/household article of steel, covered by heading 7323 (subheading 732393 for stainless steel)."
+    },
+    "input_tokens": 1700,
+    "latency_ms": 3058,
+    "output_tokens": 88
+  }
+}

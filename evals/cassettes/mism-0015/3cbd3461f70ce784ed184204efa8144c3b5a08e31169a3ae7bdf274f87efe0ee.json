@@ -2,8 +2,8 @@
   "format": 1,
   "key": "3cbd3461f70ce784ed184204efa8144c3b5a08e31169a3ae7bdf274f87efe0ee",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:29+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,87 +16,87 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "EGLVNH2302732",
+        "evidence": "B/L NO.\nEGLVNH2302732",
         "value": "EGLVNH2302732"
       },
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "Gielen-Wouters NV",
+        "evidence": "CONSIGNEE\nGielen-Wouters NV",
         "value": "Gielen-Wouters NV"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU2572006",
         "value": "EGLU2572006"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
         "confidence": "0.97",
-        "evidence": "Jacobs CV",
+        "evidence": "NOTIFY PARTY\nJacobs CV",
         "value": "Jacobs CV"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "1826\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Antwerp",
+        "evidence": "PORT OF DISCHARGE\nAntwerp",
         "value": "Antwerp"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Valencia",
+        "evidence": "PORT OF LOADING\nValencia",
         "value": "Valencia"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "5833992",
+        "confidence": "0.95",
+        "evidence": "SEAL\n5833992",
         "value": "5833992"
       },
       "seller_name": {
         "confidence": "0.97",
-        "evidence": "Luna Losada Valverde S.A.",
+        "evidence": "SHIPPER\nLuna Losada Valverde S.A.",
         "value": "Luna Losada Valverde S.A."
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "2026-09-28",
+        "evidence": "SHIPPED ON BOARD\n2026-09-28",
         "value": "2026-09-28"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "20 725,48 kg",
         "value": "20 725,48 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1826",
+        "confidence": "0.95",
+        "evidence": "1826\nCARTONS",
         "value": "1826"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.92",
         "evidence": "EVERGREEN TAGE / 505S",
         "value": "EVERGREEN TAGE"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN TAGE / 505S",
         "value": "505S"
       }
     },
-    "input_tokens": 528,
-    "latency_ms": 0,
-    "output_tokens": 368
+    "input_tokens": 2386,
+    "latency_ms": 5117,
+    "output_tokens": 768
   }
 }

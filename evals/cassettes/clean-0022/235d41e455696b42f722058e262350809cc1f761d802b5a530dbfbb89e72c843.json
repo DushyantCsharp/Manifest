@@ -2,8 +2,8 @@
   "format": 1,
   "key": "235d41e455696b42f722058e262350809cc1f761d802b5a530dbfbb89e72c843",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:54+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,51 +16,51 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "EGLVAP9602518",
+        "evidence": "B/L NO.\nEGLVAP9602518",
         "value": "EGLVAP9602518"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Laurent",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nLaurent",
         "value": "Laurent"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU3676577",
         "value": "EGLU3676577"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": "Perrin",
+        "confidence": "0.95",
+        "evidence": "NOTIFY PARTY\nPerrin",
         "value": "Perrin"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "813\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Le Havre",
+        "evidence": "PORT OF DISCHARGE\nLe Havre",
         "value": "Le Havre"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Hamburg",
+        "evidence": "PORT OF LOADING\nHamburg",
         "value": "Hamburg"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "SEAL 4774577",
         "value": "4774577"
       },
@@ -70,33 +70,33 @@
         "value": "Geisel Rust GmbH"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "13.04.2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n13.04.2026",
         "value": "13.04.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "9.816,90 kg",
         "value": "9.816,90 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "813",
+        "confidence": "0.95",
+        "evidence": "813\nCARTONS",
         "value": "813"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN SERENITY / 436N",
         "value": "EVERGREEN SERENITY"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN SERENITY / 436N",
         "value": "436N"
       }
     },
-    "input_tokens": 510,
-    "latency_ms": 0,
-    "output_tokens": 360
+    "input_tokens": 2342,
+    "latency_ms": 4578,
+    "output_tokens": 737
   }
 }

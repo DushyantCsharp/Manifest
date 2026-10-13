@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "4c1276adf6b2d74ab1495c637b51d5fde397f44319d0dcc2fa3e16d8c7d92461",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:00+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Unwrought aluminium ingots, not alloyed\nCountry of origin: AE\n\nChosen so far: 76 Aluminium and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 7601: Aluminium; unwrought\n    contains 760110: Aluminium; unwrought, (not alloyed)\n    contains 760120: Aluminium; unwrought, alloys\n- 7604: Aluminium; bars, rods and profiles\n    contains 760410: Aluminium; (not alloyed), bars, rods and profiles\n    contains 760429: Aluminium; alloys, bars, rods and profiles, other than hollow\n    contains 760421: Aluminium; alloys, hollow profiles\n- 7608: Aluminium; tubes and pipes\n    contains 760810: Aluminium; tubes and pipes, not alloyed\n- 7606: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm\n    contains 760691: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)\n    contains 760611: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)\n    contains 760692: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, (not rectangular or square)\n    contains 760612: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)\n- 7605: Aluminium wire\n    contains 760511: Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm\n    contains 760519: Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "bdefe4849bb6e8e5bd89110bbd5ab1d5fc53dedfe24f9b76210480ea5bb25684",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7601",
+      "cited": [
+        "7601",
+        "760110"
+      ],
+      "confidence": "0.99",
+      "reason": "Unwrought non-alloyed aluminium ingots are covered by heading 7601 (subheading 760110)."
+    },
+    "input_tokens": 1381,
+    "latency_ms": 2619,
+    "output_tokens": 74
+  }
+}

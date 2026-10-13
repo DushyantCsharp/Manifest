@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "fdd3c343cd6b0a45dc57194a897e494fcc3e6cb5bb0bc02215e649e200731ba9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:08+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Portable laptop computer, 15.6in display, 16GB RAM, 512GB SSD, 1.8 kg\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n    contains 841850: Furniture incorporating refrigerating or freezing equipment; for storage and display, n.e.c. in item no. 8418.1, 8418.2, 8418.3 or 8418.4 (chests, cabinets, display counters, show-cases and the like)\n    contains 848630: Machines and apparatus of a kind used solely or principally for the manufacture of flat panel displays\n    contains 847010: Calculating machines; electronic calculators capable of operation without an external source of electric power and pocket-size data recording, reproducing and displaying machines with calculating functions\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 852492: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), with drivers or control circuits\n    contains 852412: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), without drivers or control circuits\n    contains 851713: Telephone sets; smartphones for cellular or other wireless networks\n    contains 854040: Tubes; data/graphic display tubes, monochrome; data/graphic display tubes, colour, with a phosphor dot screen pitch smaller than 0.4mm\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 88: Aircraft, spacecraft, and parts thereof\n    contains 880694: Unmanned aircraft; for other than remote-controlled flight and other than for carriage of passengers with a maximum take-off weight more than 25kg but not more than 150kg\n    contains 880699: Unmanned aircraft; for other than remote-controlled flight and other than for carriage of passengers with a maximum take-off weight more than 150kg\n    contains 880230: Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 2000kg but not exceeding 15,000kg\n    contains 880629: Unmanned aircraft; for remote-controlled flight only, for other than for carriage of passengers, with the maximum take-off weight of more than 150kg\n    contains 880624: Unmanned aircraft; for remote-controlled flight only, for other than for carriage of passengers, with the maximum take-off weight of more than 25kg but not more than 150kg\n    contains 880240: Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg\n- 91: Clocks and watches and parts thereof\n    contains 910811: Watch movements; complete and assembled, electrically operated, with mechanical display only or with a device to which a mechanical display can be incorporated\n    contains 910819: Watch movements; complete and assembled, electrically operated, by means of solar cells, without mechanical display or device including such or opto-electronic display\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 15: Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes\n    contains 150600: Animal fats and oils and their fractions; whether or not refined, but not chemically modified, n.e.c. in chapter 15\n    contains 151800: Animal, vegetable or microbial fats, oils and their fractions; boiled, oxidised, dehydrated or otherwise chemically modified, excluding those of heading no. 1516, inedible mixtures or preparations of fats, oils or their fractions, n.e.c. in chapter 15\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "cc2b0534a2819767b5d012640e6678b5670f271e710742c89a481b152696987f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84",
+        "847130"
+      ],
+      "confidence": "0.97",
+      "reason": "A portable laptop under 10kg with a CPU, keyboard and display is an automatic data processing machine, covered by subheading 8471.30 in Chapter 84."
+    },
+    "input_tokens": 2277,
+    "latency_ms": 3400,
+    "output_tokens": 89
+  }
+}

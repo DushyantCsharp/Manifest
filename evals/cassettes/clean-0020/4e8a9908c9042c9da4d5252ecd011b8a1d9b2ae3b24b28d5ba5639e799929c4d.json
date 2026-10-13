@@ -2,8 +2,8 @@
   "format": 1,
   "key": "4e8a9908c9042c9da4d5252ecd011b8a1d9b2ae3b24b28d5ba5639e799929c4d",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:04+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,7 +25,7 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.92",
         "evidence": "Incoterm 2020 FCA Xiamen",
         "value": "FCA Xiamen"
       },
@@ -43,228 +43,228 @@
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "57,81 19 713,21",
             "value": "19 713,21"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 269 Industrial Road, Qingdao, China",
-            "value": "China"
+            "confidence": "0.96",
+            "evidence": "monocrystalline CN 341",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "Solar PV module 410W monocrystalline",
             "value": "Solar PV module 410W monocrystalline"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "CN 341 pcs",
             "value": "341"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "341 pcs",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "pcs 57,81 19 713,21",
             "value": "57,81"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 708,29 108 368,37",
+            "evidence": "708,29 108 368,37",
             "value": "108 368,37"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 269 Industrial Road, Qingdao, China",
-            "value": "China"
+            "confidence": "0.96",
+            "evidence": "RAM CN 153",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 708,29 108 368,37",
+            "evidence": "Laptop computer 14in, 16GB RAM",
             "value": "Laptop computer 14in, 16GB RAM"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 708,29 108 368,37",
+            "evidence": "CN 153 pcs",
             "value": "153"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "153 pcs",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM CN 153 pcs 708,29 108 368,37",
+            "evidence": "pcs 708,29 108 368,37",
             "value": "708,29"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "3 City bicycle 28in, 7-speed CN 26 pcs 102,06 2 653,56",
+            "evidence": "102,06 2 653,56",
             "value": "2 653,56"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 269 Industrial Road, Qingdao, China",
-            "value": "China"
+            "confidence": "0.96",
+            "evidence": "7-speed CN 26",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "3 City bicycle 28in, 7-speed CN 26 pcs 102,06 2 653,56",
+            "evidence": "City bicycle 28in, 7-speed",
             "value": "City bicycle 28in, 7-speed"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "N° / No. FC-5520/26",
+            "evidence": "CN 26 pcs",
             "value": "26"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "26 pcs",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "3 City bicycle 28in, 7-speed CN 26 pcs 102,06 2 653,56",
+            "evidence": "pcs 102,06 2 653,56",
             "value": "102,06"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 80,51 6 843,35",
+            "evidence": "80,51 6 843,35",
             "value": "6 843,35"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 269 Industrial Road, Qingdao, China",
-            "value": "China"
+            "confidence": "0.96",
+            "evidence": "3-phase CN 85",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 80,51 6 843,35",
+            "evidence": "AC induction motor 0.55kW 3-phase",
             "value": "AC induction motor 0.55kW 3-phase"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 80,51 6 843,35",
+            "evidence": "CN 85 pcs",
             "value": "85"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "85 pcs",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "4 AC induction motor 0.55kW 3-phase CN 85 pcs 80,51 6 843,35",
+            "evidence": "pcs 80,51 6 843,35",
             "value": "80,51"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 29,14 25 206,10",
+            "evidence": "29,14 25 206,10",
             "value": "25 206,10"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 269 Industrial Road, Qingdao, China",
-            "value": "China"
+            "confidence": "0.96",
+            "evidence": "205/55R16 CN 865",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 29,14 25 206,10",
+            "evidence": "Passenger car tyre 205/55R16",
             "value": "Passenger car tyre 205/55R16"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 29,14 25 206,10",
+            "evidence": "CN 865 pcs",
             "value": "865"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline CN 341 pcs 57,81 19 713,21",
+            "evidence": "865 pcs",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "5 Passenger car tyre 205/55R16 CN 865 pcs 29,14 25 206,10",
+            "evidence": "pcs 29,14 25 206,10",
             "value": "29,14"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 4,04 24 078,40",
+            "evidence": "4,04 24 078,40",
             "value": "24 078,40"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 269 Industrial Road, Qingdao, China",
-            "value": "China"
+            "confidence": "0.96",
+            "evidence": "12 micron CN 5",
+            "value": "CN"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "P.U. EUR Montant EUR",
+            "value": "EUR"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 4,04 24 078,40",
+            "evidence": "Aluminium household foil 12 micron",
             "value": "Aluminium household foil 12 micron"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 4,04 24 078,40",
+            "confidence": "0.95",
+            "evidence": "CN 5 960 kg",
             "value": "5 960"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 4,04 24 078,40",
+            "evidence": "5 960 kg",
             "value": "kg"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "6 Aluminium household foil 12 micron CN 5 960 kg 4,04 24 078,40",
+            "evidence": "kg 4,04 24 078,40",
             "value": "4,04"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "T/T 30 days after B/L date",
         "value": "T/T 30 days after B/L date"
       },
@@ -274,13 +274,13 @@
         "value": "Qingdao Hengda Trading Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Total EUR : 186 862,99",
         "value": "186 862,99"
       }
     },
-    "input_tokens": 454,
-    "latency_ms": 0,
-    "output_tokens": 1502
+    "input_tokens": 2382,
+    "latency_ms": 10756,
+    "output_tokens": 2071
   }
 }

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "26d111c7f9189097808db672c11a7a3305345d88b2eaf925d3fa347ebbbe18f0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:33+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Natural honey in jars\nCountry of origin: AR\n\nChosen so far: 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n\nChoose the heading that covers these goods. Options:\n- 0409: Honey; natural\n    contains 040900: Honey; natural\n- 0410: Animal products; insects and other edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 041010: Animal products; insects\n- 0404: Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included\n    contains 040490: Dairy produce; natural milk constituents (excluding whey), whether or not containing added sugar or other sweetening matter, n.e.c. in chapter 04\n    contains 040410: Dairy produce; whey, whether or not concentrated or containing added sugar or other sweetening matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1c5d5dfe718d1feb2d9777169cbb657d4efbe94b9ceff9550a84179582e9ffe8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0409",
+      "cited": [
+        "0409",
+        "040900"
+      ],
+      "confidence": "0.99",
+      "reason": "Natural honey is specifically covered by heading 0409, so the residual heading 0410 and the whey heading 0404 do not apply."
+    },
+    "input_tokens": 1091,
+    "latency_ms": 3005,
+    "output_tokens": 80
+  }
+}

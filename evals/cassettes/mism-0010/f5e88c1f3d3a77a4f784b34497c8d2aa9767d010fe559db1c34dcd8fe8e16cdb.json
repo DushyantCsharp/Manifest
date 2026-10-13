@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f5e88c1f3d3a77a4f784b34497c8d2aa9767d010fe559db1c34dcd8fe8e16cdb",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:16+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Fernandez",
+        "confidence": "0.93",
+        "evidence": "CONSIGNEE\nFernandez",
         "value": "Fernandez"
       },
       "date": {
@@ -25,8 +25,8 @@
         "value": "2026-02-16"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "DDP Paris",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nDDP Paris",
         "value": "DDP Paris"
       },
       "invoice_number": {
@@ -37,129 +37,129 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Giovine, 24, 64011 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.93",
+            "evidence": "whole IT 4 980",
+            "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 498 4 980,00 kg 5 463,06 kg",
+            "confidence": "0.95",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 498 4 980,00 kg 5 463,06 kg",
+            "confidence": "0.93",
+            "evidence": "5 463,06 kg",
             "value": "5 463,06 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 498 4 980,00 kg 5 463,06 kg",
+            "confidence": "0.93",
+            "evidence": "4 980,00 kg",
             "value": "4 980,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 498 4 980,00 kg 5 463,06 kg",
+            "confidence": "0.9",
+            "evidence": "IT 4 980 kg 498",
             "value": "4 980"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 498 4 980,00 kg 5 463,06 kg",
+            "confidence": "0.9",
+            "evidence": "IT 4 980 kg 498",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Giovine, 24, 64011 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.93",
+            "evidence": "sunglasses IT 6 200",
+            "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 62 210,80 kg 246,88 kg",
+            "confidence": "0.95",
+            "evidence": "Polarized sunglasses",
             "value": "Polarized sunglasses"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 62 210,80 kg 246,88 kg",
+            "confidence": "0.93",
+            "evidence": "246,88 kg",
             "value": "246,88 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 62 210,80 kg 246,88 kg",
+            "confidence": "0.93",
+            "evidence": "210,80 kg",
             "value": "210,80 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 62 210,80 kg 246,88 kg",
+            "confidence": "0.92",
+            "evidence": "IT 6 200 pcs 62",
             "value": "6 200"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 62 210,80 kg 246,88 kg",
+            "confidence": "0.93",
+            "evidence": "IT 6 200 pcs 62",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
+            "confidence": "0.85",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle 11 874 pcs 1979 15 424,33 kg 17 978,97 kg",
+            "confidence": "0.93",
+            "evidence": "Red wine, 0.75L bottle",
             "value": "Red wine, 0.75L bottle"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle 11 874 pcs 1979 15 424,33 kg 17 978,97 kg",
+            "confidence": "0.93",
+            "evidence": "17 978,97 kg",
             "value": "17 978,97 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle 11 874 pcs 1979 15 424,33 kg 17 978,97 kg",
+            "confidence": "0.93",
+            "evidence": "15 424,33 kg",
             "value": "15 424,33 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle 11 874 pcs 1979 15 424,33 kg 17 978,97 kg",
+            "confidence": "0.92",
+            "evidence": "11 874 pcs 1979",
             "value": "11 874"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 62 210,80 kg 246,88 kg",
+            "confidence": "0.93",
+            "evidence": "11 874 pcs 1979",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 2539 CARTONS 20 615,13 kg 23 688,91 kg",
+        "confidence": "0.9",
+        "evidence": "Total 2539 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Gasperi-Finetti SPA",
         "value": "Gasperi-Finetti SPA"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 2539 CARTONS 20 615,13 kg 23 688,91 kg",
+        "confidence": "0.95",
+        "evidence": "23 688,91 kg",
         "value": "23 688,91 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 2539 CARTONS 20 615,13 kg 23 688,91 kg",
+        "confidence": "0.95",
+        "evidence": "20 615,13 kg",
         "value": "20 615,13 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 2539 CARTONS 20 615,13 kg 23 688,91 kg",
+        "confidence": "0.95",
+        "evidence": "Total 2539 CARTONS",
         "value": "2539"
       }
     },
-    "input_tokens": 380,
-    "latency_ms": 0,
-    "output_tokens": 855
+    "input_tokens": 2358,
+    "latency_ms": 6618,
+    "output_tokens": 1168
   }
 }

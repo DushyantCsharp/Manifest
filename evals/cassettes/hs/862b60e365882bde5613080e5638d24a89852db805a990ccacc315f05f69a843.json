@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "862b60e365882bde5613080e5638d24a89852db805a990ccacc315f05f69a843",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:28+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Pullover, knitted, 100% cotton\nCountry of origin: KH\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6110: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted\n    contains 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n    contains 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n    contains 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n    contains 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n    contains 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n    contains 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n- 6105: Shirts; men's or boys', knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n- 6109: T-shirts, singlets and other vests; knitted or crocheted\n    contains 610910: T-shirts, singlets and other vests; of cotton, knitted or crocheted\n- 6106: Blouses, shirts and shirt-blouses; women's or girls', knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "38a2c3162326d3baa7bb7f520133d965fccba80c54b6d5d3112f1e775ed90d86",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6110",
+      "cited": [
+        "6110",
+        "611020"
+      ],
+      "confidence": "0.97",
+      "reason": "A knitted cotton pullover is expressly named in heading 6110 (jerseys, pullovers, cardigans), with cotton falling under subheading 611020."
+    },
+    "input_tokens": 1416,
+    "latency_ms": 3142,
+    "output_tokens": 89
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "0568cfeab046aeca8109b048d97d7d509dc2c971ea58b20d8592b7e3fe231578",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:33+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Raw cane sugar in bulk\nCountry of origin: BR\n\nChosen so far: 17 Sugars and sugar confectionery > 1701 Cane or beet sugar and chemically pure sucrose, in solid form\n\nChoose the subheading that covers these goods. Options:\n- 170113: Sugars; cane sugar, raw, in solid form, as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n- 170114: Sugars; cane sugar, raw, in solid form, other than as specified in Subheading Note 2 to this chapter, not containing added flavouring or colouring matter\n- 170112: Sugars; beet sugar, raw, in solid form, not containing added flavouring or colouring matter\n- 170199: Sugars; sucrose, chemically pure, in solid form, not containing added flavouring or colouring matter\n- 170191: Sugars; sucrose, chemically pure, in solid form, containing added flavouring or colouring matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5cfd43a550845912a6b0f0240bc3f011d3efa32a2c886eb73d40eb79dc60b6d9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "170114",
+      "cited": [
+        "170113",
+        "170114"
+      ],
+      "confidence": "0.55",
+      "reason": "Raw cane sugar in solid form falls under 170113 or 170114 depending on Subheading Note 2 (polarisation of 69° to under 93° and no other qualifying characteristics for 170113 versus other), and since no polarisation is given, the default for typical Brazilian raw sugar (VHP, ~99° polarisation) is 170114.5 Note 2 covers only sugar with polarisation under 93°, so higher-polarisation raw sugar is 170114.}}"
+    },
+    "input_tokens": 1084,
+    "latency_ms": 5968,
+    "output_tokens": 195
+  }
+}

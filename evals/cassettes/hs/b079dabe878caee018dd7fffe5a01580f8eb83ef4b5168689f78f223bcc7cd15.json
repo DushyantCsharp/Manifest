@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "b079dabe878caee018dd7fffe5a01580f8eb83ef4b5168689f78f223bcc7cd15",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's blazer, woven wool\nCountry of origin: IT\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted > 6203 Suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear); men's or boys' (not knitted or crocheted)\n\nChoose the subheading that covers these goods. Options:\n- 620331: Jackets and blazers; men's or boys', of wool or fine animal hair (not knitted or crocheted)\n- 620311: Suits; men's or boys', of wool or fine animal hair (not knitted or crocheted)\n- 620339: Jackets and blazers; men's or boys', of textile materials n.e.c. in item no. 6203.3 (not knitted or crocheted)\n- 620333: Jackets and blazers; men's or boys', of synthetic fibres (not knitted or crocheted)\n- 620332: Jackets and blazers; men's or boys', of cotton (not knitted or crocheted)\n- 620341: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of wool or fine animal hair (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "54d059fc26b6bc2f8cd820a530989b3e4d18eb34fac19c7633fb585b51281273",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "620331",
+      "cited": [
+        "620331"
+      ],
+      "confidence": "0.97",
+      "reason": "A men's woven wool blazer is a jacket or blazer of wool, which is exactly the wording of subheading 6203.31."
+    },
+    "input_tokens": 1161,
+    "latency_ms": 3047,
+    "output_tokens": 75
+  }
+}

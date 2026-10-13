@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "180f14131a2b551863f919f613b5383b9bf357d5f4936a30022c92bc5f72b8fc",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:27+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Electric guitar\nCountry of origin: ID\n\nChosen so far: 92 Musical instruments; parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 9209: Musical instrument parts (for example, mechanisms for musical boxes) and accessories (for example, cards, discs and rolls for mechanical instruments); metronomes, tuning forks and pitch pipes\n    contains 920994: Musical instruments; parts and accessories for the musical instruments the sound of which is produced or must be amplified electrically (e.g. organs, guitars and accordions)\n    contains 920930: Musical instrument strings\n- 9207: Musical instruments; the sound of which is produced or must be amplified, electrically (e.g. organs, guitars, accordions)\n    contains 920790: Musical instruments; (other than keyboard), the sound of which is produced or must be amplified electrically\n    contains 920710: Musical instruments; keyboard, (other than accordions), the sound of which is produced or must be amplified electrically\n- 9202: Musical instruments; string, n.e.c. in heading no. 9201, (e.g. guitars, violins, harps)\n    contains 920290: Musical instruments; string, played other than with a bow (e.g. guitars and harps)\n    contains 920210: Musical instruments; string, played with a bow (e.g. violins)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0575f3244981145e2c732730d78fdfbce30a87ad6fd0aeadce4d80410a9032ca",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9207",
+      "cited": [
+        "9207",
+        "920790"
+      ],
+      "confidence": "0.95",
+      "reason": "An electric guitar is a musical instrument whose sound is produced or must be amplified electrically, which heading 9207 names expressly (e.g. guitars), so it takes precedence over the string-instrument heading 9202."
+    },
+    "input_tokens": 1195,
+    "latency_ms": 3190,
+    "output_tokens": 107
+  }
+}

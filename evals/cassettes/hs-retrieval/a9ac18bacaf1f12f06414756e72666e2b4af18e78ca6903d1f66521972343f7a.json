@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "a9ac18bacaf1f12f06414756e72666e2b4af18e78ca6903d1f66521972343f7a",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Laundry detergent powder, retail packs origin TR",
   "limit": 20,
   "candidates": [
     {
-      "code": "340119",
-      "description": "Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",
-      "score": "0.016393",
+      "code": "380862",
+      "description": "Insecticides; containing goods specified in Subheading Note 2 to this Chapter; put up in forms or packings for retail sale or as preparations or articles, in packings of a net weight content exceeding 300g but not exceeding 7.5kg",
+      "score": "0.030478",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 11
       }
     },
     {
-      "code": "340111",
-      "description": "Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)",
-      "score": "0.016129",
+      "code": "380869",
+      "description": "Insecticides; containing goods named in Subheading Note 2 to this Chapter, put up in forms or packings for retail sale or as preparations or articles, in packings of a net weight content exceeding 7.5kg",
+      "score": "0.029828",
       "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "845090",
-      "description": "Washing machines; parts for household or laundry-type",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "370120",
-      "description": "Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "845020",
-      "description": "Washing machines; household or laundry-type, of a dry linen capacity exceeding 10kg",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "040299",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "040291",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "845011",
-      "description": "Washing machines; household or laundry-type, fully-automatic, (of a dry linen capacity not exceeding 10kg)",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "340130",
-      "description": "Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "040229",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "040210",
-      "description": "Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "040221",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "845012",
-      "description": "Washing machines; household or laundry-type, with built-in centrifugal drier, (not fully-automatic), of a dry linen capacity not exceeding 10kg",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "845019",
-      "description": "Washing machines; household or laundry-type, not fully-automatic, without built-in centrifugal drier, of a dry linen capacity not exceeding 10kg",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "340120",
-      "description": "Soap; in forms n.e.c. in item no. 3401.11",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
+        "lexical": 2,
+        "vector": 13
       }
     },
     {
       "code": "340250",
       "description": "Washing and cleaning preparations; powders, flakes and granules, surface-active, whether or not containing soap (excluding those of heading no. 3401), put up for retail sale",
-      "score": "0.013158",
+      "score": "0.028446",
       "ranks": {
-        "lexical": 16
+        "lexical": 18,
+        "vector": 4
       }
     },
     {
-      "code": "330610",
-      "description": "Oral or dental hygiene preparations; dentifrices",
-      "score": "0.012987",
+      "code": "380852",
+      "description": "Insecticides and the like; containing goods specified in Subheading Note 1 to this Chapter; for retail sale or as preparations or articles; DDT (ISO) (clofenotane (INN)), in packings of 300g or less",
+      "score": "0.028139",
       "ranks": {
-        "lexical": 17
+        "lexical": 6,
+        "vector": 17
       }
     },
     {
-      "code": "330690",
-      "description": "Oral or dental hygiene preparations; other than dentifrices",
-      "score": "0.012821",
+      "code": "380894",
+      "description": "Disinfectants; other than containing goods specified in Subheading Note 1 in this Chapter; put up in forms or packings for retail sale or as preparations or articles",
+      "score": "0.027222",
       "ranks": {
-        "lexical": 18
+        "lexical": 12,
+        "vector": 15
       }
     },
     {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.012658",
+      "code": "380861",
+      "description": "Insecticides and the like; containing goods specified in Subheading Note 2 to this Chapter; in packings of a net weight content not exceeding 300g; for retail sale or as preparations or articles",
+      "score": "0.026471",
       "ranks": {
-        "lexical": 19
+        "lexical": 8,
+        "vector": 25
       }
     },
     {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.012500",
+      "code": "340119",
+      "description": "Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use",
+      "score": "0.026102",
       "ranks": {
-        "lexical": 20
+        "lexical": 43,
+        "vector": 1
+      }
+    },
+    {
+      "code": "340130",
+      "description": "Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap",
+      "score": "0.025744",
+      "ranks": {
+        "lexical": 44,
+        "vector": 2
+      }
+    },
+    {
+      "code": "340111",
+      "description": "Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)",
+      "score": "0.025677",
+      "ranks": {
+        "lexical": 42,
+        "vector": 3
+      }
+    },
+    {
+      "code": "630800",
+      "description": "Fabrics, woven and yarn; in sets, whether or not with accessories, for making up into rugs, tapestries, embroidered table cloths or serviettes or similar textile articles, packaged for retail sale",
+      "score": "0.024819",
+      "ranks": {
+        "lexical": 46,
+        "vector": 5
+      }
+    },
+    {
+      "code": "300490",
+      "description": "Medicaments; consisting of mixed or unmixed products n.e.c. in heading no. 3004, for therapeutic or prophylactic uses, packaged for retail sale",
+      "score": "0.022658",
+      "ranks": {
+        "lexical": 40,
+        "vector": 19
+      }
+    },
+    {
+      "code": "300449",
+      "description": "Medicaments; containing alkaloids or their derivatives; other than ephedrine, pseudoephedrine (INN) or norephedrine or their salts; for therapeutic or prophylactic uses, packaged for retail sale",
+      "score": "0.022357",
+      "ranks": {
+        "lexical": 37,
+        "vector": 23
+      }
+    },
+    {
+      "code": "300442",
+      "description": "Medicaments; containing alkaloids or their derivatives, containing pseudoephedrine (INN) or its salts, for therapeutic or prophylactic uses, packaged for retail sale",
+      "score": "0.022021",
+      "ranks": {
+        "lexical": 35,
+        "vector": 27
+      }
+    },
+    {
+      "code": "300441",
+      "description": "Medicaments; containing alkaloids or their derivatives, containing ephedrine or its salts, for therapeutic or prophylactic uses, packaged for retail sale",
+      "score": "0.022002",
+      "ranks": {
+        "lexical": 34,
+        "vector": 28
+      }
+    },
+    {
+      "code": "300439",
+      "description": "Medicaments; containing hormones (but not insulin), adrenal cortex hormones or antibiotics, for therapeutic or prophylactic uses, packaged for retail sale",
+      "score": "0.021279",
+      "ranks": {
+        "lexical": 33,
+        "vector": 35
+      }
+    },
+    {
+      "code": "300443",
+      "description": "Medicaments; containing alkaloids or their derivatives, containing norephedrine or its salts, for therapeutic or prophylactic uses, packaged for retail sale",
+      "score": "0.021169",
+      "ranks": {
+        "lexical": 36,
+        "vector": 33
+      }
+    },
+    {
+      "code": "050590",
+      "description": "Animal products; skins and other parts of birds, feathers and down (not for stuffing), powder and waste of such, not further worked than cleaned, disinfected or treated for preservation",
+      "score": "0.018605",
+      "ranks": {
+        "lexical": 48,
+        "vector": 47
+      }
+    },
+    {
+      "code": "300510",
+      "description": "Dressings, adhesive; and other articles having an adhesive layer, packed for retail sale for medical, surgical, dental or veterinary purposes",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "340700",
+      "description": "Modelling pastes; preparations known as dental wax, put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms, other preparations for use in dentistry",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
       }
     }
   ]

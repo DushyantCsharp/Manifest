@@ -2,8 +2,8 @@
   "format": 1,
   "key": "ad1643532b9e7c925562092d0867716d13733dee64d441788aaa5ef5c214476c",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:18+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,52 +16,52 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "EGLVGB6731838",
+        "evidence": "B/L NO.\nEGLVGB6731838",
         "value": "EGLVGB6731838"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Koninklijke d' Heripon",
         "value": "Koninklijke d' Heripon"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU6304819",
         "value": "EGLU6304819"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.93",
+        "evidence": "1180\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Rotterdam",
+        "evidence": "PORT OF DISCHARGE\nRotterdam",
         "value": "Rotterdam"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Qingdao",
+        "evidence": "PORT OF LOADING\nQingdao",
         "value": "Qingdao"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "1713540",
+        "confidence": "0.95",
+        "evidence": "SEAL\n1713540",
         "value": "1713540"
       },
       "seller_name": {
@@ -70,33 +70,33 @@
         "value": "Ningbo Ruifeng Manufacturing Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "12-JUL-2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n12-JUL-2026",
         "value": "12-JUL-2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "24,752.09 kg",
         "value": "24,752.09 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1180",
+        "confidence": "0.94",
+        "evidence": "1180\nCARTONS",
         "value": "1180"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN PEGASUS / 207E",
         "value": "EVERGREEN PEGASUS"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN PEGASUS / 207E",
         "value": "207E"
       }
     },
-    "input_tokens": 524,
-    "latency_ms": 0,
-    "output_tokens": 376
+    "input_tokens": 2371,
+    "latency_ms": 5191,
+    "output_tokens": 763
   }
 }

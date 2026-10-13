@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b7a16d11aeb4305eedb43f68720d71a24bde644f5d1c09a2bd82466eb8b20d08",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:53+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,8 +25,8 @@
         "value": "Mestdagh CommV"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "HAPAG-LLOYD",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: HAPAG-LLOYD.",
         "value": "HAPAG-LLOYD"
       },
       "container_number": {
@@ -35,7 +35,7 @@
         "value": "HLCU2553019"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
@@ -45,23 +45,23 @@
         "value": "De Wilde, Vanderlinden en Claeys NV"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "1274\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Antwerp",
+        "evidence": "PORT OF DISCHARGE\nAntwerp",
         "value": "Antwerp"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Shenzhen",
+        "evidence": "PORT OF LOADING\nShenzhen",
         "value": "Shenzhen"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "3102939",
+        "confidence": "0.95",
+        "evidence": "SEAL\n3102939",
         "value": "3102939"
       },
       "seller_name": {
@@ -71,32 +71,32 @@
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "2026-04-30",
+        "evidence": "SHIPPED ON BOARD\n2026-04-30",
         "value": "2026-04-30"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "24 631,33 kg",
         "value": "24 631,33 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1274",
+        "confidence": "0.95",
+        "evidence": "1274\nCARTONS",
         "value": "1274"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "HAPAG-LLOYD KENSINGTON / 792E",
         "value": "HAPAG-LLOYD KENSINGTON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "HAPAG-LLOYD KENSINGTON / 792E",
         "value": "792E"
       }
     },
-    "input_tokens": 552,
-    "latency_ms": 0,
-    "output_tokens": 390
+    "input_tokens": 2437,
+    "latency_ms": 5560,
+    "output_tokens": 800
   }
 }

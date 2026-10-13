@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "dc3e7a5e628dcbf34a5f320b0b687e2d28ad589a5bb8f71e2ac8e7c4f150be3a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:34+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LED colour television receiver 55in 4K UHD\nCountry of origin: MX\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8528 Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus\n\nChoose the subheading that covers these goods. Options:\n- 852872: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a colour video display or screen\n- 852873: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a monochrome video display or screen\n- 852871: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; not designed to incorporate a video display or screen\n- 852849: Monitors; cathode-ray tube, n.e.c. in subheading 8528.42, whether or not colour\n- 852859: Monitors other than cathode-ray tube; n.e.c. in subheading 8528.52, whether or not colour\n- 852869: Projectors; n.e.c. in subheading 8528.62, whether or not colour\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "80f848318423343db79be3a7ea5883c94ab89c2e15611dcf97e670fd841f22a5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "852872",
+      "cited": [
+        "852872"
+      ],
+      "confidence": "0.97",
+      "reason": "A colour LED television receiver with its own screen is a reception apparatus for television incorporating a colour video display, which falls under 8528.72."
+    },
+    "input_tokens": 1250,
+    "latency_ms": 2784,
+    "output_tokens": 78
+  }
+}

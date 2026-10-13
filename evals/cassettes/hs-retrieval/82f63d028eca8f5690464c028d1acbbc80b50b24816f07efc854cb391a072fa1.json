@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "82f63d028eca8f5690464c028d1acbbc80b50b24816f07efc854cb391a072fa1",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Unwrought aluminium ingots, not alloyed origin AE",
   "limit": 20,
   "candidates": [
     {
       "code": "760110",
       "description": "Aluminium; unwrought, (not alloyed)",
-      "score": "0.016393",
+      "score": "0.032018",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "750210",
-      "description": "Nickel; unwrought, not alloyed",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "800110",
-      "description": "Tin; unwrought, not alloyed",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "760810",
-      "description": "Aluminium; tubes and pipes, not alloyed",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "760410",
-      "description": "Aluminium; (not alloyed), bars, rods and profiles",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "790111",
-      "description": "Zinc; unwrought, (not alloyed), containing by weight 99.99% or more of zinc",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "790112",
-      "description": "Zinc; unwrought, (not alloyed), containing by weight less than 99.99% of zinc",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "760511",
-      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "760519",
-      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "760691",
-      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "760611",
-      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
+        "lexical": 4,
+        "vector": 1
       }
     },
     {
       "code": "760120",
       "description": "Aluminium; unwrought, alloys",
-      "score": "0.013889",
+      "score": "0.031514",
       "ranks": {
-        "lexical": 12
+        "lexical": 5,
+        "vector": 2
       }
     },
     {
-      "code": "750521",
-      "description": "Nickel; wire, not alloyed",
-      "score": "0.013699",
+      "code": "720690",
+      "description": "Iron or non-alloy steel; primary forms (excluding ingots and iron of heading no. 7203)",
+      "score": "0.029514",
       "ranks": {
-        "lexical": 13
+        "lexical": 12,
+        "vector": 4
       }
     },
     {
-      "code": "750511",
-      "description": "Nickel; bars, rods and profiles, not alloyed",
-      "score": "0.013514",
+      "code": "720610",
+      "description": "Iron or non-alloy steel; ingots (excluding iron of heading no. 7203)",
+      "score": "0.029010",
       "ranks": {
-        "lexical": 14
+        "lexical": 11,
+        "vector": 7
       }
     },
     {
-      "code": "750610",
-      "description": "Nickel; plates, sheets, strip and foil, not alloyed",
-      "score": "0.013333",
+      "code": "760410",
+      "description": "Aluminium; (not alloyed), bars, rods and profiles",
+      "score": "0.028543",
       "ranks": {
-        "lexical": 15
+        "lexical": 16,
+        "vector": 5
       }
     },
     {
-      "code": "750711",
-      "description": "Nickel; tubes and pipes, not alloyed",
-      "score": "0.013158",
+      "code": "760810",
+      "description": "Aluminium; tubes and pipes, not alloyed",
+      "score": "0.027367",
       "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "720450",
-      "description": "Ferrous products; remelting scrap ingots",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "721810",
-      "description": "Steel, stainless; ingots and other primary forms",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
+        "lexical": 27,
+        "vector": 3
       }
     },
     {
       "code": "722410",
       "description": "Steel, alloy; ingots and other primary forms",
-      "score": "0.012500",
+      "score": "0.027271",
       "ranks": {
-        "lexical": 20
+        "lexical": 7,
+        "vector": 21
+      }
+    },
+    {
+      "code": "760691",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)",
+      "score": "0.026916",
+      "ranks": {
+        "lexical": 25,
+        "vector": 6
+      }
+    },
+    {
+      "code": "740322",
+      "description": "Copper; copper-tin base alloys (bronze) unwrought",
+      "score": "0.026014",
+      "ranks": {
+        "lexical": 14,
+        "vector": 20
+      }
+    },
+    {
+      "code": "760429",
+      "description": "Aluminium; alloys, bars, rods and profiles, other than hollow",
+      "score": "0.025808",
+      "ranks": {
+        "lexical": 18,
+        "vector": 17
+      }
+    },
+    {
+      "code": "760611",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)",
+      "score": "0.025562",
+      "ranks": {
+        "lexical": 23,
+        "vector": 14
+      }
+    },
+    {
+      "code": "760421",
+      "description": "Aluminium; alloys, hollow profiles",
+      "score": "0.024892",
+      "ranks": {
+        "lexical": 17,
+        "vector": 24
+      }
+    },
+    {
+      "code": "800110",
+      "description": "Tin; unwrought, not alloyed",
+      "score": "0.024807",
+      "ranks": {
+        "lexical": 39,
+        "vector": 8
+      }
+    },
+    {
+      "code": "790111",
+      "description": "Zinc; unwrought, (not alloyed), containing by weight 99.99% or more of zinc",
+      "score": "0.024501",
+      "ranks": {
+        "lexical": 36,
+        "vector": 11
+      }
+    },
+    {
+      "code": "760511",
+      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",
+      "score": "0.024423",
+      "ranks": {
+        "lexical": 19,
+        "vector": 25
+      }
+    },
+    {
+      "code": "760692",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, (not rectangular or square)",
+      "score": "0.024286",
+      "ranks": {
+        "lexical": 26,
+        "vector": 19
+      }
+    },
+    {
+      "code": "790112",
+      "description": "Zinc; unwrought, (not alloyed), containing by weight less than 99.99% of zinc",
+      "score": "0.024198",
+      "ranks": {
+        "lexical": 37,
+        "vector": 12
+      }
+    },
+    {
+      "code": "760519",
+      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less",
+      "score": "0.023253",
+      "ranks": {
+        "lexical": 20,
+        "vector": 33
+      }
+    },
+    {
+      "code": "760612",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)",
+      "score": "0.022321",
+      "ranks": {
+        "lexical": 24,
+        "vector": 36
+      }
+    },
+    {
+      "code": "800120",
+      "description": "Tin; unwrought, alloys",
+      "score": "0.022048",
+      "ranks": {
+        "lexical": 40,
+        "vector": 23
       }
     }
   ]

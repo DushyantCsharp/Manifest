@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "a925c8cd4de6a6e2eb79e888f4fa841a907bad5d837c951df45b18296f80755f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:41+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Centrifugal water pump 1.1kW, single stage, electric\nCountry of origin: IT\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8413 Pumps; for liquids, whether or not fitted with measuring device, liquid elevators\n\nChoose the subheading that covers these goods. Options:\n- 841370: Pumps; centrifugal, n.e.c. in heading no. 8413, for liquids\n- 841340: Pumps; concrete pumps\n- 841360: Pumps; rotary positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n- 841319: Pumps; for liquids, fitted or designed to be fitted with a measuring device, other than pumps for dispensing fuel or lubricants\n- 841350: Pumps; reciprocating positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n- 841330: Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines\n- 841391: Pumps; parts thereof\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4fe89372883a7e9a730e9a4fba84e01ade610038875997d6bd0f07e7fe187ec0",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "841370",
+      "cited": [
+        "841370"
+      ],
+      "confidence": "0.93",
+      "reason": "A single-stage electric centrifugal water pump is a centrifugal liquid pump not covered by the more specific subheadings (no measuring device, not a concrete pump, not an engine fuel/lubricating/cooling pump), so it falls under 841370."
+    },
+    "input_tokens": 1136,
+    "latency_ms": 3232,
+    "output_tokens": 116
+  }
+}

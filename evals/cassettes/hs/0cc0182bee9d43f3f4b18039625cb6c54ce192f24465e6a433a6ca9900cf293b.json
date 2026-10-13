@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "0cc0182bee9d43f3f4b18039625cb6c54ce192f24465e6a433a6ca9900cf293b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:01+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Spark plugs for petrol engines\nCountry of origin: JP\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 851110: Ignition or starting equipment; spark plugs, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851130: Ignition or starting equipment; distributors and ignition coils of a kind used for spark-ignition or compression-ignition internal combustion engines\n    contains 851120: Ignition or starting equipment; ignition magnetos, magneto-dynamos and magnetic flywheels, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851190: Ignition or starting equipment; parts of the equipment of heading no. 8511, for use in spark-ignition or compression-ignition internal combustion engines\n    contains 851180: Ignition or starting equipment; n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851150: Ignition or starting equipment; generators n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851140: Ignition or starting equipment; starter motors and dual purpose starter-generators, of a kind used for spark or compression-ignition internal combustion engines\n    contains 850220: Electric generating sets; with spark-ignition internal combustion piston engines\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 840910: Engines; parts of aircraft engines (spark-ignition reciprocating or rotary internal combustion piston engines)\n    contains 840991: Engines; parts, suitable for use solely or principally with spark-ignition internal combustion piston engines (for other than aircraft)\n    contains 840999: Engines; parts for internal combustion piston engines (excluding spark-ignition)\n    contains 840710: Engines; for aircraft, spark-ignition reciprocating or rotary internal combustion piston engines\n    contains 840729: Engines; for marine propulsion, (other than outboard motors), spark-ignition reciprocating or rotary internal combustion piston engines\n    contains 840721: Engines; outboard motors for marine propulsion, spark-ignition reciprocating or rotary internal combustion piston engines\n    contains 840890: Engines; compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of a kind used for other than marine propulsion or the vehicles of chapter 87\n    contains 840820: Engines; compression-ignition internal combustion piston engines (diesel or semi-diesel engines), of a kind used for the propulsion of vehicles of chapter 87\n    contains 840810: Engines; for marine propulsion, compression-ignition internal combustion piston engines (diesel or semi-diesel engines)\n    contains 840731: Engines; reciprocating piston engines, of a kind used for the propulsion of vehicles of chapter 87, of a cylinder capacity not exceeding 50cc\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 870360: Vehicles; with both spark-ignition internal combustion piston engine and electric motor for propulsion, capable of being charged by plugging to external source of electric power\n    contains 870340: Vehicles; with both spark-ignition internal combustion piston engine and electric motor for propulsion, incapable of being charged by plugging to external source of electric power\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "966d1151bd55fa023d082288dc3138af405d1df669f38fd174ad954442eb402a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "851110"
+      ],
+      "confidence": "0.97",
+      "reason": "Spark plugs for internal combustion engines are specifically named in heading 8511 (subheading 851110) in Chapter 85."
+    },
+    "input_tokens": 1973,
+    "latency_ms": 2249,
+    "output_tokens": 75
+  }
+}

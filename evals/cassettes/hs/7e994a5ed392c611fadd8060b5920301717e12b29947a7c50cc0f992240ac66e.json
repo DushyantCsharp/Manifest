@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "7e994a5ed392c611fadd8060b5920301717e12b29947a7c50cc0f992240ac66e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:39+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Running shoes, rubber outer soles, textile uppers\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 64: Footwear; gaiters and the like; parts of such articles\n    contains 640411: Sports footwear; tennis shoes, basketball shoes, gym shoes, training shoes and the like, with outer soles of rubber or plastics and uppers of textile materials\n    contains 640419: Footwear; (other than sportswear), with outer soles of rubber or plastics and uppers of textile materials\n    contains 640220: Footwear; with outer soles and uppers of rubber or plastics, upper straps or thongs assembled to the sole by plugs\n    contains 640219: Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles and uppers of rubber or plastics\n    contains 640420: Footwear; outer soles of leather or composition leather, uppers of textile materials\n    contains 640299: Footwear; n.e.c. in heading no. 6402, (other than just covering the ankle), with outer soles and uppers of rubber or plastics\n    contains 640199: Footwear; waterproof, n.e.c. in heading no. 6401, rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)\n    contains 640212: Sports footwear; with outer soles and uppers of rubber or plastics, ski-boots, cross-country ski footwear and snowboard boots\n    contains 640110: Footwear; waterproof with metal toe-cap, rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)\n    contains 640319: Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles of rubber, plastics, leather or composition leather and uppers of leather\n    contains 640192: Footwear; waterproof, covering the ankle (but not the knee), rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)\n    contains 640291: Footwear; n.e.c. in heading no. 6402, covering the ankle, with outer soles and uppers of rubber or plastics\n    contains 640312: Sports footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of leather, ski-boots, snowboard boots and cross-country ski footwear\n    contains 640399: Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles of rubber, plastics or composition leather, uppers of leather\n    contains 640391: Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather\n    contains 640340: Footwear; with metal toe-cap, outer soles of rubber, plastics, leather or composition leather, uppers of leather\n    contains 640359: Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles and uppers of leather\n    contains 640320: Footwear; with outer soles of leather, uppers consisting of leather straps across instep and around the big toe\n    contains 640351: Footwear; n.e.c. in heading no. 6403, with outer soles and uppers of leather, covering the ankle\n- 40: Rubber and articles thereof\n    contains 400932: Rubber; vulcanised (other than hard rubber), tubing, piping and hoses, reinforced or otherwise combined only with textile materials, with fittings\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "91bd178fdc9c7c2c54b4e0ce438f4143340bd78b87388c8d77d156a821be2bbc",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "64",
+      "cited": [
+        "64",
+        "640411"
+      ],
+      "confidence": "0.99",
+      "reason": "Running shoes with rubber outer soles and textile uppers are sports footwear covered by Chapter 64 (subheading 640411), not Chapter 40, which covers rubber and articles thereof."
+    },
+    "input_tokens": 1947,
+    "latency_ms": 3087,
+    "output_tokens": 99
+  }
+}

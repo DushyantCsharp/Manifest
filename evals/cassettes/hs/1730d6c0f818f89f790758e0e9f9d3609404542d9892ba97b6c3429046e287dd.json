@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "1730d6c0f818f89f790758e0e9f9d3609404542d9892ba97b6c3429046e287dd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:54+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Electric bicycle with 250W pedal-assist motor\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 850151: Electric motors; AC motors, multi-phase, of an output not exceeding 750W\n    contains 850152: Electric motors; AC motors, multi-phase, of an output exceeding 750W but not exceeding 75kW\n    contains 850140: Electric motors; AC motors, single-phase\n    contains 850131: Electric motors and generators; DC, of an output not exceeding 750W\n    contains 850153: Electric motors; AC motors, multi-phase, of an output exceeding 75kW\n    contains 850110: Electric motors; of an output not exceeding 37.5W\n    contains 850132: Electric motors and generators; DC, of an output exceeding 750W but not exceeding 75kW\n    contains 851210: Lighting or visual signalling equipment; electrical, of a kind used on bicycles, excluding articles of heading no. 8539\n    contains 850120: Electric motors; universal AC/DC of an output exceeding 37.5W\n    contains 850133: Electric motors and generators; DC, of an output exceeding 75kW but not exceeding 375kW\n    contains 851230: Sound signalling equipment; electrical, used on cycles or motor vehicles (excluding articles of heading no. 8539)\n    contains 851290: Lighting or signalling equipment; electrical, (excluding articles of heading no. 8539), windscreen wipers, defrosters and demisters; parts, of those kinds used for cycles or motor vehicles\n    contains 850134: Electric motors and generators; DC, of an output exceeding 375kW\n    contains 851020: Hair clippers; with a self-contained electric motor\n    contains 851240: Windscreen wipers, defrosters and demisters; electrical, of kinds used for cycles or motor vehicles\n    contains 850940: Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 871160: Motorcycles (including mopeds) and cycles; fitted with auxiliary motor, with electric motor for propulsion, with or without side-cars; side-cars\n    contains 870360: Vehicles; with both spark-ignition internal combustion piston engine and electric motor for propulsion, capable of being charged by plugging to external source of electric power\n    contains 870380: Vehicles; with only electric motor for propulsion\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 846729: Tools; for working in the hand, with self-contained electric motor; other than saws and drills\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e168a373881973777cd043e023f6215a4bcbf6ecd18b868299c3b9340f39994b",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "87",
+      "cited": [
+        "871160"
+      ],
+      "confidence": "0.97",
+      "reason": "An electric bicycle with a pedal-assist motor is a cycle fitted with an auxiliary electric motor, classified in heading 8711 (subheading 871160) in Chapter 87."
+    },
+    "input_tokens": 1739,
+    "latency_ms": 2826,
+    "output_tokens": 95
+  }
+}

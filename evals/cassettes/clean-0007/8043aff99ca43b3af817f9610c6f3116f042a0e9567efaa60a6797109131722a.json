@@ -2,8 +2,8 @@
   "format": 1,
   "key": "8043aff99ca43b3af817f9610c6f3116f042a0e9567efaa60a6797109131722a",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:41+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,8 +25,8 @@
         "value": "Verdonck-Vinck BV"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "HAPAG-LLOYD",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: HAPAG-LLOYD",
         "value": "HAPAG-LLOYD"
       },
       "container_number": {
@@ -35,7 +35,7 @@
         "value": "HLCU8084325"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
@@ -45,23 +45,23 @@
         "value": "Verbeke CommV"
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Antwerp",
+        "evidence": "PORT OF DISCHARGE\nAntwerp",
         "value": "Antwerp"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "La Spezia",
+        "evidence": "PORT OF LOADING\nLa Spezia",
         "value": "La Spezia"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "5438587",
+        "confidence": "0.95",
+        "evidence": "SEAL\n5438587",
         "value": "5438587"
       },
       "seller_name": {
@@ -70,33 +70,33 @@
         "value": "Trapanese-Giolitti s.r.l."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "12.05.2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n12.05.2026",
         "value": "12.05.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "18.840,45 kg",
         "value": "18.840,45 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1045",
+        "confidence": "0.93",
+        "evidence": "1045\nCARTONS",
         "value": "1045"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "HAPAG-LLOYD HARMONY / 180S",
         "value": "HAPAG-LLOYD HARMONY"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "HAPAG-LLOYD HARMONY / 180S",
         "value": "180S"
       }
     },
-    "input_tokens": 540,
-    "latency_ms": 0,
-    "output_tokens": 375
+    "input_tokens": 2415,
+    "latency_ms": 5034,
+    "output_tokens": 765
   }
 }

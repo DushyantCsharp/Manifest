@@ -2,8 +2,8 @@
   "format": 1,
   "key": "5c52e1bd8b030e7600b4bc2cd22be565f004f7fdea5c6be0c447cb815ba36cae",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:49:43+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -18,11 +18,11 @@
       "cited": [
         "660191"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.93",
+      "reason": "A folding umbrella with a telescopic shaft is not a garden umbrella and falls under the subheading for umbrellas having a telescopic shaft."
     },
-    "input_tokens": 383,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 1010,
+    "latency_ms": 3108,
+    "output_tokens": 83
   }
 }

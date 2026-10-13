@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "1172392faeb66807d5d129f46e49757d41b3882a62614cf5cd34b62ecff5ba7f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:31+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cheddar cheese blocks\nCountry of origin: IE\n\nChosen so far: 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included > 0406 Cheese and curd\n\nChoose the subheading that covers these goods. Options:\n- 040620: Dairy produce; cheese of all kinds, grated or powdered\n- 040610: Dairy produce; fresh cheese (including whey cheese), not fermented, and curd\n- 040640: Dairy produce; cheese, blue-veined and other cheese containing veins produced by Penicillium roqueforti (not grated, powdered or processed)\n- 040690: Dairy produce; cheese (not grated, powdered or processed), n.e.c. in heading no. 0406\n- 040630: Dairy produce; cheese, processed (not grated or powdered)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d6837d4841187363d8b60392131162a7e019840bfbbc723a11300f7575258706",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "040690",
+      "cited": [
+        "040690"
+      ],
+      "confidence": "0.93",
+      "reason": "Cheddar cheese in blocks is a natural, matured cheese that is not grated, powdered, processed, fresh or blue-veined, so it falls in the residual subheading for other cheese."
+    },
+    "input_tokens": 1043,
+    "latency_ms": 3494,
+    "output_tokens": 96
+  }
+}

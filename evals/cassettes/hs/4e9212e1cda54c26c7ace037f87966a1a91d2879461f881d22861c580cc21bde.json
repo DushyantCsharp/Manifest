@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "4e9212e1cda54c26c7ace037f87966a1a91d2879461f881d22861c580cc21bde",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:30+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Household aluminium foil 12 micron, rolls\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 76: Aluminium and articles thereof\n    contains 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n    contains 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n    contains 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n    contains 761691: Aluminium; cloth, grill, netting and fencing, of aluminium wire\n    contains 760612: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)\n    contains 761510: Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like\n- 72: Iron and steel\n    contains 721069: Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with aluminium, other than plated or coated with aluminium zinc-alloys\n    contains 721061: Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with aluminium zinc-alloys\n    contains 720918: Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm\n    contains 721912: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 4.75mm or more but not exceeding 10mm\n    contains 721123: Iron or non-alloy steel; flat-rolled, cold-rolled, of a width less than 600mm, containing by weight less than 0.25% of carbon\n    contains 721420: Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling\n    contains 721113: Iron or non-alloy steel; flat-rolled, hot-rolled, rolled on four faces or in a closed box pass, of a width more than 150mm but less than 600mm, 4mm thick or more, not in coils, without patterns in relief\n    contains 721012: Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with tin, thickness of less than 0.5mm\n- 39: Plastics and articles thereof\n    contains 391910: Plastics; plates, sheets, film, foil, tape, strip, other flat shapes thereof, self-adhesive, in rolls of a width not exceeding 20cm\n- 74: Copper and articles thereof\n    contains 741012: Copper; foil, not backed, of a thickness not exceeding 0.15mm, of copper alloys\n    contains 741011: Copper; foil, not backed, of a thickness not exceeding 0.15mm, of refined copper\n    contains 741022: Copper; foil, backed with paper, paperboard, plastics or similar backing material, of a thickness (excluding any backing) not exceeding 0.15mm, of copper alloys\n    contains 741021: Copper; foil, backed with paper, paperboard, plastics or similar backing material, of a thickness (excluding any backing) not exceeding 0.15mm, of refined copper\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1cd0a28efe819f5cbfcb2ff4c1050648754dc1f093ee269377afd1824bd19970",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "76",
+      "cited": [
+        "76",
+        "760711"
+      ],
+      "confidence": "0.97",
+      "reason": "Aluminium foil of 12 micron (0.012 mm) thickness falls in heading 7607 within Chapter 76, which covers aluminium and articles thereof."
+    },
+    "input_tokens": 2080,
+    "latency_ms": 3083,
+    "output_tokens": 90
+  }
+}

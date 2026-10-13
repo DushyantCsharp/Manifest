@@ -2,8 +2,8 @@
   "format": 1,
   "key": "5b7edba32454a025aa817a76f03ef6dfbd8379272f91c3c56e7f6335e92d4c0b",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:19+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,8 +25,8 @@
         "value": "Calhoun and Sons"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MSC",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: MSC",
         "value": "MSC"
       },
       "container_number": {
@@ -35,7 +35,7 @@
         "value": "MEDU7376815"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
@@ -45,22 +45,22 @@
         "value": "Stone, Trevino and Jones"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "881\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Vancouver",
+        "confidence": "0.96",
+        "evidence": "PORT OF DISCHARGE\nVancouver",
         "value": "Vancouver"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Bangkok Siam Import & Export Co., Ltd.",
+        "confidence": "0.96",
+        "evidence": "PORT OF LOADING\nBangkok",
         "value": "Bangkok"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 6471673",
         "value": "6471673"
       },
@@ -70,33 +70,33 @@
         "value": "Bangkok Siam Import & Export Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "06/29/2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n06/29/2026",
         "value": "06/29/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "8,665.55 kg",
         "value": "8,665.55 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "881",
+        "confidence": "0.95",
+        "evidence": "881\nCARTONS",
         "value": "881"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC PEGASUS / 345W",
         "value": "MSC PEGASUS"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC PEGASUS / 345W",
         "value": "345W"
       }
     },
-    "input_tokens": 502,
-    "latency_ms": 0,
-    "output_tokens": 385
+    "input_tokens": 2323,
+    "latency_ms": 4383,
+    "output_tokens": 735
   }
 }

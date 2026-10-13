@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "258e959d44497df7e69e520576cbc6ab41764e03815832aaa1db87fe3a1fe6fa",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:44+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel vacuum flask 500ml\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 96: Miscellaneous manufactured articles\n    contains 961700: Vacuum flasks and other vacuum vessels, complete with cases; parts thereof other than glass inners\n- 73: Iron or steel articles\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n    contains 730411: Iron or steel (excluding cast iron); seamless, line pipe of a kind used for oil or gas pipelines, of stainless steel\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n    contains 731021: Cans; which are to be closed by soldering or crimping, for any material (excluding compressed or liquefied gas), less than 50l capacity, of iron or steel\n    contains 731010: Tanks, casks, drums, cans, boxes and similar containers, for any material (excluding compressed or liquefied gas), 50l or more capacity but not exceeding 300l\n    contains 731412: Iron or steel; woven cloth, endless bands for machinery, of stainless steel\n    contains 731029: Tanks, casks, drums, boxes and similar containers for any material (excluding compressed or liquefied gas) less than 50l capacity, n.e.c. in item no. 7310.2, of iron or steel\n    contains 731414: Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)\n    contains 731419: Iron or steel; woven cloth, other than of stainless steel\n    contains 730900: Reservoirs, tanks, vats and similar containers; for any material (excluding compressed or liquefied gas), of iron or steel, capacity exceeding 300l, whether or not lined or heat insulated\n    contains 730419: Iron or steel (excluding cast iron or stainless steel); seamless, line pipe of a kind used for oil or gas pipelines\n- 76: Aluminium and articles thereof\n    contains 761100: Aluminium; reservoirs, tanks, vats and similar containers, for material (not compressed or liquefied gas), of a capacity over 300l, whether or not lined, not fitted with mechanical/thermal equipment\n- 72: Iron and steel\n    contains 721810: Steel, stainless; ingots and other primary forms\n    contains 721891: Steel, stainless; semi-finished products, of rectangular (other than square) cross-section\n    contains 721899: Steel, stainless; semi-finished products, other than of rectangular cross-section\n- 70: Glass and glassware\n    contains 701010: Glass; ampoules, of a kind used for the conveyance or packing of goods\n    contains 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n    contains 701020: Glass; stoppers, lids and other closures\n- 39: Plastics and articles thereof\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d6009533f7268defbe7b0e0a8a531a0b512b00406481226e7a21b7793f5b8017",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "96",
+      "cited": [
+        "961700"
+      ],
+      "confidence": "0.93",
+      "reason": "Vacuum flasks and other vacuum vessels are specifically named in heading 9617 (Chapter 96), which takes precedence over the general steel articles of Chapter 73."
+    },
+    "input_tokens": 1811,
+    "latency_ms": 2833,
+    "output_tokens": 91
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "d3b350f75d0f40e608415dae1ee250e015f128db6ad0c7e870d5828aced8f3f2",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:47:50+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "851650",
       "cited": [
-        "851650"
+        "851650",
+        "8516"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.98",
+      "reason": "A 20L, 700W countertop microwave oven is a microwave oven of a kind used for domestic purposes, which is expressly covered by 851650, while 851660 excludes microwaves."
     },
-    "input_tokens": 411,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 1006,
+    "latency_ms": 3154,
+    "output_tokens": 98
   }
 }

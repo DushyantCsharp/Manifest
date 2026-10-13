@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "70afd5612c78f95269fd2b53d98cb91dc386689772d38a9b89ef88b58345c08e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:11+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Clear glass beverage bottles 330ml\nCountry of origin: CN\n\nChosen so far: 70 Glass and glassware > 7010 Carboys, bottles, flasks, jars, pots, phials, ampoules, containers of glass of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures of glass\n\nChoose the subheading that covers these goods. Options:\n- 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n- 701010: Glass; ampoules, of a kind used for the conveyance or packing of goods\n- 701020: Glass; stoppers, lids and other closures\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ac4cf0ad9c4c56d3b1802897568706f9067fccd63ac6b2105465b9bd9a29b483",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "701090",
+      "cited": [
+        "701090"
+      ],
+      "confidence": "0.96",
+      "reason": "Glass beverage bottles of 330ml are bottles used for conveyance or packing of goods, not ampoules or closures, so they fall under the residual subheading for bottles and other containers."
+    },
+    "input_tokens": 992,
+    "latency_ms": 2843,
+    "output_tokens": 94
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "de5084a6f44e9e2b12dd1795c888ace76d79d39a844b07214baa7a63c13e4697",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:21+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's padded jacket, woven polyester shell, down filled\nCountry of origin: CN\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6202: Coats; women's or girls' overcoats, carcoats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading no. 6204 (not knitted or crocheted)\n    contains 620230: Coats; women's or girls', overcoats, raincoats, car-coats, capes, cloaks anoraks (including ski-jackets) and similar articles, of cotton, other than those of heading no. 6204 (not knitted or crocheted)\n    contains 620220: Coats; women's or girls', overcoats, raincoats, car-coats, capes, cloaks anoraks (including ski-jackets) and similar articles, of wool or fine animal hair, other than those of heading no. 6204 (not knitted or crocheted)\n    contains 620240: Coats; women's or girls', overcoats, raincoats, car-coats, capes, cloaks anoraks (including ski-jackets) and similar articles, of man-made fibres, other than those of heading no. 6204 (not knitted or crocheted)\n- 6204: Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear); women's or girls' (not knitted or crocheted)\n    contains 620431: Jackets and blazers; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n    contains 620439: Jackets and blazers; women's or girls', of textile materials n.e.c. in item no. 6204.3 (not knitted or crocheted)\n    contains 620433: Jackets and blazers; women's or girls', of synthetic fibres (not knitted or crocheted)\n    contains 620432: Jackets and blazers; women's or girls', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a147e04b81713f8238742c3838bbb5e5df71ad43479f1ed7f8a1aeef4c92b138",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6202",
+      "cited": [
+        "6202",
+        "620240"
+      ],
+      "confidence": "0.8",
+      "reason": "A down-filled padded women's jacket of woven polyester is an anorak/wind-jacket type outerwear article (puffer jacket) falling in 6202 rather than the suit-type jackets and blazers of 6204.}"
+    },
+    "input_tokens": 1432,
+    "latency_ms": 3450,
+    "output_tokens": 110
+  }
+}

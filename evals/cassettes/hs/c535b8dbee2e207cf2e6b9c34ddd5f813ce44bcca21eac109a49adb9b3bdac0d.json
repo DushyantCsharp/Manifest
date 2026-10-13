@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "c535b8dbee2e207cf2e6b9c34ddd5f813ce44bcca21eac109a49adb9b3bdac0d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:21+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lithium-ion battery pack 48V 20Ah for electric bicycles\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8507 Electric accumulators, including separators therefor; whether or not rectangular (including square)\n\nChoose the subheading that covers these goods. Options:\n- 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n- 850780: Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)\n- 850720: Electric accumulators; lead-acid, (other than for starting piston engines), including separators, whether or not rectangular (including square)\n- 850750: Electric accumulators; nickel-metal hydride, including separators, whether or not rectangular (including square)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6738a5f39a7f9a9ff8dafbc23e16b6e0e75226ec0ef6f159a213f5ddc8978920",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "850760",
+      "cited": [
+        "850760"
+      ],
+      "confidence": "0.97",
+      "reason": "A lithium-ion battery pack for electric bicycles is a lithium-ion electric accumulator, which falls under subheading 850760."
+    },
+    "input_tokens": 1086,
+    "latency_ms": 3047,
+    "output_tokens": 78
+  }
+}

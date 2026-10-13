@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "3c291da35b577110cbcb4c99f29ab7a5c2d7bb1fe0bbde4ed57064eda7621a29",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:23+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Ballpoint pens with plastic body\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 96: Miscellaneous manufactured articles\n    contains 960830: Pens; fountain, stylograph and other pens\n    contains 960899: Pens and pencils; duplicating stylos, pen-holders, pencil-holders, and similar holders, parts of the articles of heading 9608, including caps and clips\n    contains 960820: Pens; felt tipped and other porous-tipped pens and markers\n    contains 960810: Pens; ball point\n    contains 960860: Pens; ball-point, refills comprising the ball point and ink-reservoir\n    contains 960891: Pens; nibs and nib points\n    contains 960850: Pen and pencil sets; of articles from two or more of the foregoing sub-headings\n    contains 960840: Pencils; propelling or sliding\n- 39: Plastics and articles thereof\n    contains 391690: Plastics; monofilament, of plastics n.e.c. in heading no. 3916, cross-sectional dimension exceeds 1mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n    contains 392340: Plastics; spools, cops, bobbins and similar supports, for the conveyance or packing of goods\n    contains 392329: Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers\n    contains 392310: Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods\n    contains 391729: Plastics; tubes, pipes and hoses thereof, rigid, of plastics n.e.c. in heading no. 3917\n    contains 392390: Plastics; articles for the conveyance or packing of goods n.e.c. in heading no. 3923\n    contains 392350: Plastics; stoppers, lids, caps and other closures, for the conveyance or packing of goods\n    contains 391710: Plastics; artificial guts (sausage casings) of hardened protein or of cellulosic materials\n    contains 392099: Plastics; plates, sheets, film, foil and strip (not self-adhesive), of plastics n.e.c. in heading no. 3920, non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 44: Wood and articles of wood; wood charcoal\n    contains 441700: Wood; tools, tool bodies, tool handles, broom or brush bodies and handles, boot and shoe lasts and trees, of wood\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "086863cce5d7ae7ab1618c61ae4c8e54072b90bb651ec2878734b3fe62bb04e3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "96",
+      "cited": [
+        "96",
+        "960810"
+      ],
+      "confidence": "0.97",
+      "reason": "Ball point pens are specifically covered by heading 9608 (subheading 960810) in Chapter 96, regardless of plastic body material."
+    },
+    "input_tokens": 1773,
+    "latency_ms": 2959,
+    "output_tokens": 80
+  }
+}

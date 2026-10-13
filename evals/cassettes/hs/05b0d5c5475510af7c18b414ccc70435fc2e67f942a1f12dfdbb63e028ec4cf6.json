@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "05b0d5c5475510af7c18b414ccc70435fc2e67f942a1f12dfdbb63e028ec4cf6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:47+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green tea in 2g tea bags\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 09: Coffee, tea, mate and spices\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n    contains 090230: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg\n    contains 090240: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg\n    contains 090620: Spices; cinnamon and cinnamon-tree flowers, crushed or ground\n    contains 090300: Mate\n    contains 090122: Coffee; roasted, decaffeinated\n- 21: Miscellaneous edible preparations\n    contains 210120: Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate\n    contains 210112: Preparations with a basis of extracts, essences or concentrates or with a basis of coffee\n    contains 210111: Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee\n    contains 210130: Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof\n- 42: Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)\n    contains 420292: Cases and containers; n.e.c. in heading 4202, with outer surface of sheeting of plastics or of textile materials\n    contains 420232: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of sheeting of plastics or of textile materials\n    contains 420222: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 22: Beverages, spirits and vinegar\n    contains 220510: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2f2d5db87b202dc86198f0daed54b83db70a5b88e0dccb3f42f16365bb34aede",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "09",
+      "cited": [
+        "09",
+        "090210"
+      ],
+      "confidence": "0.97",
+      "reason": "Green tea (unfermented) in immediate packings of 3kg or less, such as 2g tea bags, falls under heading 0902 (subheading 090210) in Chapter 9."
+    },
+    "input_tokens": 1868,
+    "latency_ms": 2796,
+    "output_tokens": 94
+  }
+}

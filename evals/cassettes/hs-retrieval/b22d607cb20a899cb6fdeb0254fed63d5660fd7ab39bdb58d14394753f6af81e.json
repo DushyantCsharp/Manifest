@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "b22d607cb20a899cb6fdeb0254fed63d5660fd7ab39bdb58d14394753f6af81e",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Lithium-ion battery pack 48V 20Ah for electric bicycles origin CN",
   "limit": 20,
   "candidates": [
     {
       "code": "850760",
       "description": "Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)",
-      "score": "0.016393",
+      "score": "0.032266",
       "ranks": {
-        "lexical": 1
+        "lexical": 3,
+        "vector": 1
       }
     },
     {
       "code": "850780",
       "description": "Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)",
-      "score": "0.016129",
+      "score": "0.031498",
       "ranks": {
-        "lexical": 2
+        "lexical": 4,
+        "vector": 3
       }
     },
     {
       "code": "850650",
       "description": "Cells and batteries; primary, lithium",
-      "score": "0.015873",
+      "score": "0.030018",
       "ranks": {
-        "lexical": 3
+        "lexical": 12,
+        "vector": 2
       }
     },
     {
       "code": "850680",
       "description": "Cells and batteries; primary, (other than manganese dioxide, mercuric oxide, silver oxide, lithium or air-zinc)",
-      "score": "0.015625",
+      "score": "0.028850",
       "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "854919",
-      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, n.e.c. in item no 8549.1",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "854914",
-      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, unsorted and not containing lead, cadmium or mercury",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "401320",
-      "description": "Rubber; inner tubes, of a kind used on bicycles",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "854912",
-      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, containing lead, cadmium or mercury, other than lead-acid accumulators",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "401150",
-      "description": "Rubber; new pneumatic tyres, of a kind used on bicycles",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "854913",
-      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, sorted by chemical type and not containing lead, cadmium or mercury",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "391400",
-      "description": "Ion-exchangers; based on polymers of heading no. 3901 to 3913, in primary forms",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "871200",
-      "description": "Bicycles and other cycles; including delivery tricycles, not motorised",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "854921",
-      "description": "Electrical and electronic waste and scrap; of a kind used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switches, glass from cathode ray tubes or other activated glass, or electrical",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "854931",
-      "description": "Electrical and electronic waste and scrap; electrical and electronic assemblies and printed circuit boards, other than those used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switch",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "370120",
-      "description": "Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "290433",
-      "description": "Derivatives of hydrocarbons; lithium perfluorooctane sulphonate, whether or not halogenated",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "283691",
-      "description": "Carbonates; lithium carbonate",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
+        "lexical": 13,
+        "vector": 6
       }
     },
     {
       "code": "851210",
       "description": "Lighting or visual signalling equipment; electrical, of a kind used on bicycles, excluding articles of heading no. 8539",
-      "score": "0.012821",
+      "score": "0.025008",
       "ranks": {
-        "lexical": 18
+        "lexical": 14,
+        "vector": 27
       }
     },
     {
-      "code": "282520",
-      "description": "Lithium oxide and hydroxide",
-      "score": "0.012658",
+      "code": "854914",
+      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, unsorted and not containing lead, cadmium or mercury",
+      "score": "0.024394",
       "ranks": {
-        "lexical": 19
+        "lexical": 21,
+        "vector": 23
       }
     },
     {
-      "code": "851390",
-      "description": "Lamps; parts of portable, electric lamps of heading no. 8513, designed to function by their own source of energy",
-      "score": "0.012500",
+      "code": "854919",
+      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, n.e.c. in item no 8549.1",
+      "score": "0.023306",
       "ranks": {
-        "lexical": 20
+        "lexical": 22,
+        "vector": 30
+      }
+    },
+    {
+      "code": "854912",
+      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, containing lead, cadmium or mercury, other than lead-acid accumulators",
+      "score": "0.022462",
+      "ranks": {
+        "lexical": 19,
+        "vector": 42
+      }
+    },
+    {
+      "code": "854913",
+      "description": "Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, sorted by chemical type and not containing lead, cadmium or mercury",
+      "score": "0.022209",
+      "ranks": {
+        "lexical": 20,
+        "vector": 43
+      }
+    },
+    {
+      "code": "851310",
+      "description": "Lamps; portable, electric, designed to function by their own source of energy (excluding lighting equipment of heading no. 8512)",
+      "score": "0.020513",
+      "ranks": {
+        "lexical": 38,
+        "vector": 37
+      }
+    },
+    {
+      "code": "854520",
+      "description": "Carbon brushes; with or without metal, used for electrical purposes",
+      "score": "0.019346",
+      "ranks": {
+        "lexical": 47,
+        "vector": 40
+      }
+    },
+    {
+      "code": "854921",
+      "description": "Electrical and electronic waste and scrap; of a kind used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switches, glass from cathode ray tubes or other activated glass, or electrical",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "854931",
+      "description": "Electrical and electronic waste and scrap; electrical and electronic assemblies and printed circuit boards, other than those used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switch",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "850720",
+      "description": "Electric accumulators; lead-acid, (other than for starting piston engines), including separators, whether or not rectangular (including square)",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "850750",
+      "description": "Electric accumulators; nickel-metal hydride, including separators, whether or not rectangular (including square)",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "853590",
+      "description": "Electrical apparatus; n.e.c. in heading no. 8535, for switching or protecting electrical circuits, for a voltage exceeding 1000 volts",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "853630",
+      "description": "Electrical apparatus; for protecting electrical circuits, n.e.c. in heading no. 8536, for a voltage not exceeding 1000 volts",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "850690",
+      "description": "Cells and batteries; primary, parts thereof",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "853690",
+      "description": "Electrical apparatus; n.e.c. in heading no. 8536, for switching or protecting electrical circuits, for a voltage not exceeding 1000 volts",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "850660",
+      "description": "Cells and batteries; primary, air-zinc",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
       }
     }
   ]

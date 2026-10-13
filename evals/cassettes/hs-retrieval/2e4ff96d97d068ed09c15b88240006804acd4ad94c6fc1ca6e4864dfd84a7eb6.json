@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "2e4ff96d97d068ed09c15b88240006804acd4ad94c6fc1ca6e4864dfd84a7eb6",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Men's leather belt origin IN",
   "limit": 20,
   "candidates": [
     {
       "code": "420330",
       "description": "Clothing accessories; belts and bandoliers, of leather or of composition leather",
-      "score": "0.016393",
+      "score": "0.029907",
       "ranks": {
-        "lexical": 1
+        "lexical": 14,
+        "vector": 1
       }
     },
     {
-      "code": "401039",
-      "description": "Rubber; vulcanised, conveyor or transmission belts or belting, n.e.c. in heading no. 4010",
-      "score": "0.016129",
+      "code": "420500",
+      "description": "Leather articles; n.e.c. in chapter 42, of leather or composition leather",
+      "score": "0.029462",
       "ranks": {
-        "lexical": 2
+        "lexical": 15,
+        "vector": 2
       }
     },
     {
-      "code": "630720",
-      "description": "Life-jackets and life-belts",
-      "score": "0.015873",
+      "code": "411320",
+      "description": "Leather; further prepared after tanning or crusting, including parchment-dressed leather, without hair on, whether or not split, other than leather of heading 41.14, of swine",
+      "score": "0.028405",
       "ranks": {
-        "lexical": 3
+        "lexical": 8,
+        "vector": 13
+      }
+    },
+    {
+      "code": "410711",
+      "description": "Leather; further prepared after tanning or crusting, including parchment-dressed leather, of bovine (including buffalo) or equine animals, without hair on, other than leather of heading 41.14, whole hides and skins, full grain, unsplit",
+      "score": "0.028283",
+      "ranks": {
+        "lexical": 4,
+        "vector": 19
+      }
+    },
+    {
+      "code": "420310",
+      "description": "Apparel; articles of apparel, of leather or of composition leather",
+      "score": "0.027367",
+      "ranks": {
+        "lexical": 27,
+        "vector": 3
+      }
+    },
+    {
+      "code": "410712",
+      "description": "Leather; further prepared after tanning or crusting, including parchment-dressed leather, of bovine (including buffalo) or equine animals, without hair on, other than leather of heading 41.14, whole hides and skins, grain splits",
+      "score": "0.026879",
+      "ranks": {
+        "lexical": 5,
+        "vector": 27
+      }
+    },
+    {
+      "code": "640320",
+      "description": "Footwear; with outer soles of leather, uppers consisting of leather straps across instep and around the big toe",
+      "score": "0.026786",
+      "ranks": {
+        "lexical": 20,
+        "vector": 10
+      }
+    },
+    {
+      "code": "411510",
+      "description": "Leather; composition leather with a basis of leather or leather fibre, in slabs, sheets or strip, whether or not in rolls",
+      "score": "0.026655",
+      "ranks": {
+        "lexical": 2,
+        "vector": 35
+      }
+    },
+    {
+      "code": "420340",
+      "description": "Clothing accessories; of leather or of composition leather, n.e.c. in heading no. 4203",
+      "score": "0.026496",
+      "ranks": {
+        "lexical": 30,
+        "vector": 5
+      }
+    },
+    {
+      "code": "420231",
+      "description": "Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather",
+      "score": "0.026471",
+      "ranks": {
+        "lexical": 25,
+        "vector": 8
+      }
+    },
+    {
+      "code": "420211",
+      "description": "Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of leather or of composition leather",
+      "score": "0.026133",
+      "ranks": {
+        "lexical": 23,
+        "vector": 11
+      }
+    },
+    {
+      "code": "420291",
+      "description": "Cases and containers; n.e.c. in heading 4202, with outer surface of leather or of composition leather",
+      "score": "0.026121",
+      "ranks": {
+        "lexical": 26,
+        "vector": 9
       }
     },
     {
       "code": "401011",
       "description": "Rubber; vulcanised, conveyor belts or belting, reinforced only with metal",
-      "score": "0.015625",
+      "score": "0.025795",
       "ranks": {
-        "lexical": 4
+        "lexical": 32,
+        "vector": 7
       }
     },
     {
-      "code": "401012",
-      "description": "Rubber; vulcanised, conveyor belts or belting, reinforced only with textile materials",
-      "score": "0.015385",
+      "code": "411310",
+      "description": "Leather; further prepared after tanning or crusting, including parchment-dressed leather, without hair on, whether or not split, other than leather of heading 41.14, of goats and kids",
+      "score": "0.025564",
       "ranks": {
-        "lexical": 5
+        "lexical": 7,
+        "vector": 34
       }
     },
     {
-      "code": "870821",
-      "description": "Vehicles; parts of bodies, safety seat belts",
-      "score": "0.015152",
+      "code": "411520",
+      "description": "Leather; parings and other waste, of leather or composition leather; not suitable for the manufacture of leather articles; leather dust, powder and flour",
+      "score": "0.025484",
       "ranks": {
-        "lexical": 6
+        "lexical": 1,
+        "vector": 50
       }
     },
     {
-      "code": "401019",
-      "description": "Rubber; vulcanised, conveyor belts or belting, (reinforced with other than metal only or textile materials only)",
-      "score": "0.014925",
+      "code": "411420",
+      "description": "Leather; patent leather and laminated patent leather; metallised leather",
+      "score": "0.025307",
       "ranks": {
-        "lexical": 7
+        "lexical": 3,
+        "vector": 46
       }
     },
     {
-      "code": "870829",
-      "description": "Vehicles; parts and accessories, of bodies, other than safety seat belts",
-      "score": "0.014706",
+      "code": "420221",
+      "description": "Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of leather or of composition leather",
+      "score": "0.025238",
       "ranks": {
-        "lexical": 8
+        "lexical": 24,
+        "vector": 15
       }
     },
     {
-      "code": "401035",
-      "description": "Rubber; vulcanised, endless synchronous belts, of an outside circumference exceeding 60 cm but not exceeding 150 cm",
-      "score": "0.014493",
+      "code": "411200",
+      "description": "Leather; further prepared after tanning or crusting, including parchment dressed leather, of sheep or lamb, without wool on, whether or not split, other than leather of heading 41.14",
+      "score": "0.024767",
       "ranks": {
-        "lexical": 9
+        "lexical": 6,
+        "vector": 44
       }
     },
     {
-      "code": "401036",
-      "description": "Rubber; vulcanised, endless synchronous belts, of an outside circumference exceeding 150 cm but not exceeding 198 cm",
-      "score": "0.014286",
+      "code": "420329",
+      "description": "Clothing accessories; gloves, mittens and mitts, n.e.c. in heading no. 4203, of leather or composition leather, not specially designed for use in sports",
+      "score": "0.024749",
       "ranks": {
-        "lexical": 10
+        "lexical": 29,
+        "vector": 14
       }
     },
     {
-      "code": "401031",
-      "description": "Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), V-ribbed, of an outside circumference exceeding 60cm but not exceeding 180 cm",
-      "score": "0.014085",
+      "code": "411390",
+      "description": "Leather; further prepared after tanning or crusting, including parchment-dressed leather, of animals (other than sheep and lambs, goats and kids, swine and reptiles), without wool or hair on, whether or not split, other than leather of heading 41.14",
+      "score": "0.024702",
       "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "401033",
-      "description": "Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), V-ribbed, of an outside circumference exceeding 180cm but not exceeding 240 cm",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "591000",
-      "description": "Textiles; transmission or conveyor belts or belting, of textile material, whether or not impregnated, coated, covered or laminated with plastics, or reinforced with metal or other material",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "401032",
-      "description": "Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), other than V-ribbed, of an outside circumference exceeding 60cm but not exceeding 180 cm",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "401034",
-      "description": "Rubber; vulcanised, endless transmission belts of trapezoidal cross-section (V-belts), other than V-ribbed, of an outside circumference exceeding 180cm but not exceeding 240 cm",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "610510",
-      "description": "Shirts; men's or boys', of cotton, knitted or crocheted",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": 10,
+        "vector": 36
       }
     }
   ]

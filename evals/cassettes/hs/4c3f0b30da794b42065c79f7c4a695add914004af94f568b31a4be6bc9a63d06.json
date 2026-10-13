@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "4c3f0b30da794b42065c79f7c4a695add914004af94f568b31a4be6bc9a63d06",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:47+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LDPE granules, film grade, specific gravity below 0.94\nCountry of origin: SA\n\nChosen so far: 39 Plastics and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 3901: Polymers of ethylene, in primary forms\n    contains 390110: Ethylene polymers; in primary forms, polyethylene having a specific gravity of less than 0.94\n    contains 390140: Ethylene polymers; in primary forms, ethylene-alpha-olefin copolymers, having a specific gravity of less than 0.94\n    contains 390120: Ethylene polymers; in primary forms, polyethylene having a specific gravity of 0.94 or more\n- 3920: Plastics; plates, sheets, film, foil and strip (not self-adhesive); non-cellular and not reinforced, laminated, supported or similarly combined with other materials, n.e.c. in chapter 39\n    contains 392010: Plastics; plates, sheets, film, foil and strip (not self-adhesive), of polymers of ethylene, non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392020: Plastics; of polymers of propylene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392049: Plastics; polymers of vinyl chloride, containing by weight, less than 6% of plasticisers; plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n- 3902: Polymers of propylene or of other olefins, in primary forms\n    contains 390290: Propylene, other olefin polymers; n.e.c. in heading no. 3902, in primary forms\n    contains 390210: Propylene, other olefin polymers; polypropylene in primary forms\n    contains 390230: Propylene, other olefin polymers; propylene copolymers in primary forms\n- 3923: Plastic articles for the conveyance or packing of goods; stoppers, lids, caps and other closures of plastics\n    contains 392321: Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f5ffb5ed018d713d1117ef21eb8a18815d3d966be1eabc04fc9c86ca64826ebc",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3901",
+      "cited": [
+        "3901",
+        "390110"
+      ],
+      "confidence": "0.97",
+      "reason": "LDPE granules are polyethylene in primary forms with specific gravity below 0.94, covered by heading 3901 (subheading 390110); 'film grade' only describes the intended use, not the form of the goods."
+    },
+    "input_tokens": 1507,
+    "latency_ms": 3010,
+    "output_tokens": 105
+  }
+}

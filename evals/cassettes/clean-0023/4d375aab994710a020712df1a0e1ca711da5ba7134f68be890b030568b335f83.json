@@ -2,8 +2,8 @@
   "format": 1,
   "key": "4d375aab994710a020712df1a0e1ca711da5ba7134f68be890b030568b335f83",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:04+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,7 +16,7 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "ONEYZN3545323",
+        "evidence": "B/L NO.\nONEYZN3545323",
         "value": "ONEYZN3545323"
       },
       "buyer_name": {
@@ -25,43 +25,43 @@
         "value": "Robbins, Clark and Barnett"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "ONE",
+        "confidence": "0.8",
+        "evidence": "Signed as Carrier: ONE.",
         "value": "ONE"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "ONEU2168221",
         "value": "ONEU2168221"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Sims-French",
         "value": "Sims-French"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "1179\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "New York",
+        "evidence": "PORT OF DISCHARGE\nNew York",
         "value": "New York"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Chattogram",
+        "evidence": "PORT OF LOADING\nChattogram",
         "value": "Chattogram"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "1856877",
+        "confidence": "0.95",
+        "evidence": "SEAL\n1856877",
         "value": "1856877"
       },
       "seller_name": {
@@ -71,32 +71,32 @@
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "04-JUL-2026",
+        "evidence": "SHIPPED ON BOARD\n04-JUL-2026",
         "value": "04-JUL-2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "23,484.41 kg",
         "value": "23,484.41 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1179",
+        "confidence": "0.95",
+        "evidence": "1179\nCARTONS",
         "value": "1179"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE AURORA / 375E",
         "value": "ONE AURORA"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE AURORA / 375E",
         "value": "375E"
       }
     },
-    "input_tokens": 565,
-    "latency_ms": 0,
-    "output_tokens": 376
+    "input_tokens": 2427,
+    "latency_ms": 4790,
+    "output_tokens": 735
   }
 }

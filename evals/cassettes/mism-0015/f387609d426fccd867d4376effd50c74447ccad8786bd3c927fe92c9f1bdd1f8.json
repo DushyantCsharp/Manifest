@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f387609d426fccd867d4376effd50c74447ccad8786bd3c927fe92c9f1bdd1f8",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:45+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,7 +25,7 @@
         "value": "2026-09-19"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EXW Barcelona",
         "value": "EXW Barcelona"
       },
@@ -37,136 +37,136 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.95",
+            "evidence": "IN 432",
             "value": "IN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "evidence": "Stainless steel saucepan 20cm",
             "value": "Stainless steel saucepan 20cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.95",
+            "evidence": "575,91 kg",
             "value": "575,91 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.93",
+            "evidence": "36 523,15 kg",
             "value": "523,15 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.95",
+            "evidence": "IN 432 pcs",
             "value": "432"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.95",
+            "evidence": "432 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "confidence": "0.95",
+            "evidence": "EC 15 540",
             "value": "EC"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "evidence": "Frozen vannamei shrimp, peeled",
             "value": "Frozen vannamei shrimp, peeled"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "confidence": "0.95",
+            "evidence": "17 373,72 kg",
             "value": "17 373,72 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "confidence": "0.93",
+            "evidence": "1554 15 540,00 kg",
             "value": "15 540,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Frozen vannamei shrimp, peeled EC 15 540 kg 1554 15 540,00 kg 17 373,72 kg",
+            "confidence": "0.93",
+            "evidence": "EC 15 540 kg",
             "value": "15 540"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.93",
+            "evidence": "15 540 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "confidence": "0.95",
+            "evidence": "VN 284",
             "value": "VN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "evidence": "Laptop computer 14in, 16GB RAM",
             "value": "Laptop computer 14in, 16GB RAM"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "confidence": "0.95",
+            "evidence": "549,80 kg",
             "value": "549,80 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "confidence": "0.93",
+            "evidence": "57 501,54 kg",
             "value": "501,54 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "confidence": "0.95",
+            "evidence": "VN 284 pcs",
             "value": "284"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.95",
+            "evidence": "284 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Laptop computer 14in, 16GB RAM VN 284 pcs 57 501,54 kg 549,80 kg",
+            "confidence": "0.95",
+            "evidence": "VN 1 790",
             "value": "VN"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "evidence": "Plastic storage box 30L with lid",
             "value": "Plastic storage box 30L with lid"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "confidence": "0.95",
+            "evidence": "2 226,05 kg",
             "value": "2 226,05 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "confidence": "0.95",
+            "evidence": "1 865,18 kg",
             "value": "1 865,18 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Plastic storage box 30L with lid VN 1 790 pcs 179 1 865,18 kg 2 226,05 kg",
+            "confidence": "0.93",
+            "evidence": "VN 1 790 pcs",
             "value": "1 790"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel saucepan 20cm IN 432 pcs 36 523,15 kg 575,91 kg",
+            "confidence": "0.95",
+            "evidence": "1 790 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "confidence": "0.93",
+        "evidence": "Total 1826 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
@@ -175,23 +175,23 @@
         "value": "Luna Losada Valverde S.A."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "confidence": "0.95",
+        "evidence": "20 725,48 kg",
         "value": "20 725,48 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "confidence": "0.95",
+        "evidence": "18 429,87 kg",
         "value": "18 429,87 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1826 CARTONS 18 429,87 kg 20 725,48 kg",
+        "confidence": "0.95",
+        "evidence": "Total 1826 CARTONS",
         "value": "1826"
       }
     },
-    "input_tokens": 412,
-    "latency_ms": 0,
-    "output_tokens": 1142
+    "input_tokens": 2439,
+    "latency_ms": 7639,
+    "output_tokens": 1406
   }
 }

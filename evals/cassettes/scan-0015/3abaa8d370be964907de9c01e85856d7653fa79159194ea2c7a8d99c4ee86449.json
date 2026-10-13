@@ -2,8 +2,8 @@
   "format": 1,
   "key": "3abaa8d370be964907de9c01e85856d7653fa79159194ea2c7a8d99c4ee86449",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:12+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:58+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,124 +15,124 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Ceci, Mantegazza e Donati s:r.l. Segebahn Hein AG & Co. KGaA",
+        "confidence": "0.88",
+        "evidence": "Segebahn Hein AG & Co. KGaA",
         "value": "Segebahn Hein AG & Co. KGaA"
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Devise / Currency USD",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Incoterm 2020 DDP Hamburg",
         "value": "DDP Hamburg"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Date 2026-02-26",
         "value": "2026-02-26"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "Italy Germany N° /.No. FC-3036/26",
+        "confidence": "0.9",
+        "evidence": "N° /.No. FC-3036/26",
         "value": "FC-3036/26"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "Leather handbag with shoulder \"strap IT 1709 pcs 72,66 124 175,94",
+            "confidence": "0.88",
+            "evidence": "72,66 124 175,94",
             "value": "124 175,94"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Italy Germany N° /.No. FC-3036/26",
-            "value": "Italy"
+            "confidence": "0.9",
+            "evidence": "strap IT 1709",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.89",
-            "evidence": "Leather handbag with shoulder \"strap IT 1709 pcs 72,66 124 175,94",
+            "confidence": "0.8",
+            "evidence": "Leather handbag with shoulder \"strap",
             "value": "Leather handbag with shoulder \"strap"
           },
           "quantity": {
-            "confidence": "0.80",
-            "evidence": "Leather handbag with shoulder \"strap IT 1709 pcs 72,66 124 175,94",
+            "confidence": "0.85",
+            "evidence": "IT 1709 pcs 72,66",
             "value": "1709"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "Leather handbag with shoulder \"strap IT 1709 pcs 72,66 124 175,94",
+            "confidence": "0.9",
+            "evidence": "1709 pcs 72,66",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "Leather handbag with shoulder \"strap IT 1709 pcs 72,66 124 175,94",
+            "confidence": "0.88",
+            "evidence": "pcs 72,66 124 175,94",
             "value": "72,66"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pes 10,41 28 107,00",
+            "confidence": "0.9",
+            "evidence": "10,41 28 107,00",
             "value": "28 107,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Italy Germany N° /.No. FC-3036/26",
-            "value": "Italy"
+            "confidence": "0.92",
+            "evidence": "bottle IT 2700",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pes 10,41 28 107,00",
+            "confidence": "0.93",
+            "evidence": "Extra virgin olive oil, 1L bottle",
             "value": "Extra virgin olive oil, 1L bottle"
           },
           "quantity": {
-            "confidence": "0.80",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pes 10,41 28 107,00",
+            "confidence": "0.9",
+            "evidence": "IT 2700 pes 10,41",
             "value": "2700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "Leather handbag with shoulder \"strap IT 1709 pcs 72,66 124 175,94",
-            "value": "pcs"
+            "confidence": "0.8",
+            "evidence": "2700 pes 10,41",
+            "value": "pes"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pes 10,41 28 107,00",
+            "confidence": "0.9",
+            "evidence": "pes 10,41 28 107,00",
             "value": "10,41"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.79",
+        "confidence": "0.8",
         "evidence": "Paiement / UC at sight",
-        "value": "/ UC at sight"
+        "value": "UC at sight"
       },
       "seller_name": {
-        "confidence": "0.87",
-        "evidence": "Ceci, Mantegazza e Donati s:r.l. Segebahn Hein AG & Co. KGaA",
+        "confidence": "0.85",
+        "evidence": "Ceci, Mantegazza e Donati s:r.l.",
         "value": "Ceci, Mantegazza e Donati s:r.l."
       },
       "total_amount": {
-        "confidence": "0.85",
+        "confidence": "0.9",
         "evidence": "Total USD : 152282,94",
         "value": "152282,94"
       }
     },
-    "input_tokens": 396,
-    "latency_ms": 0,
-    "output_tokens": 678
+    "input_tokens": 2239,
+    "latency_ms": 5491,
+    "output_tokens": 946
   }
 }

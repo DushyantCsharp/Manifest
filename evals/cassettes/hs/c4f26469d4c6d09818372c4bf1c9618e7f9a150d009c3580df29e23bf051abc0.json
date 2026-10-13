@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "c4f26469d4c6d09818372c4bf1c9618e7f9a150d009c3580df29e23bf051abc0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:28+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Monocrystalline solar PV module 410W, framed panel\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8541: Semiconductor devices (e.g. diodes, transistors, semiconductor based transducers); including photovoltaic cells assembled or not in modules or panels, light-emitting diodes (LED) assembled with other LEDs or not, mounted piezo-electric crystals\n    contains 854143: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells assembled in modules or made up into panels\n    contains 854142: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells not assembled in modules or made up into panels\n    contains 854149: Electrical apparatus; photosensitive semiconductor devices, diodes other than light emitting diodes and photovoltaic cells whether or not assembled in modules or made up into panels\n    contains 854159: Electrical apparatus; photosensitive semiconductor devices n.e.c. in heading no. 8541\n    contains 854190: Electrical apparatus; parts for diodes, transistors and similar semiconductor devices and photosensitive semiconductor devices\n    contains 854110: Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)\n    contains 854129: Electrical apparatus; transistors, (other than photosensitive), with a dissipation rate of 1W or more\n- 8524: Flat panel display modules, whether or not incorporating touch-sensitive screens\n    contains 852412: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), without drivers or control circuits\n    contains 852411: Flat panel display modules, whether or not incorporating touch-sensitive screens; of liquid crystals, without drivers or control circuits\n    contains 852492: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), with drivers or control circuits\n    contains 852419: Flat panel display modules, whether or not incorporating touch-sensitive screens; of other than liquid crystals or organic light-emitting diodes (OLED), without drivers or control circuits\n    contains 852499: Flat panel display modules, whether or not incorporating touch-sensitive screens; of other than liquid crystals or organic light-emitting diodes (OLED), with drivers or control circuits\n    contains 852491: Flat panel display modules, whether or not incorporating touch-sensitive screens; of liquid crystals, with drivers or control circuits\n- 8540: Thermionic, cold cathode or photo-cathode valves and tubes (e.g. vacuum, vapour, gas filled valves and tubes, mercury arc rectifying valves and tubes, cathode-ray and television camera tubes)\n    contains 854012: Tubes; cathode-ray television picture tubes, including video monitor cathode-ray tubes, monochrome\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0c7da968e0bd2705a6c161d4b10a539058cb831c0adee9d742422d08d0f38ccd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8541",
+      "cited": [
+        "8541",
+        "854143"
+      ],
+      "confidence": "0.97",
+      "reason": "Heading 8541 expressly covers photovoltaic cells assembled in modules or made up into panels, so a framed monocrystalline PV module falls under 854143."
+    },
+    "input_tokens": 1817,
+    "latency_ms": 2956,
+    "output_tokens": 90
+  }
+}

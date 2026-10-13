@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "e0d63606f5ba740b1a30936c0d067c25a64134d3942defdd87a13397a85879ab",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:56+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hot-rolled non-alloy steel coil, 3.5mm thick, 1500mm wide, not pickled\nCountry of origin: IN\n\nChosen so far: 72 Iron and steel > 7208 Iron or non-alloy steel; flat-rolled products of a width of 600mm or more, hot-rolled, not clad, plated or coated\n\nChoose the subheading that covers these goods. Options:\n- 720826: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, pickled, of a thickness of 3mm or more but less than 4.75mm\n- 720827: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, pickled, of a thickness of less than 3mm\n- 720825: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, pickled, of a thickness of 4.75mm or more\n- 720838: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness of 3mm or more but less than 4.75mm\n- 720837: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness of 4.75mm or more but not exceeding 10mm\n- 720839: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness of less than 3mm\n- 720836: Iron or non-alloy steel; in coils, without patterns in relief, flat-rolled, of a width 600mm or more, hot-rolled, of a thickness exceeding 10mm\n- 720853: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness of 3mm or more but less than 4.75mm\n- 720854: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness of less than 3mm\n- 720851: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness exceeding 10mm\n- 720852: Iron or non-alloy steel; (not in coils), flat-rolled, of a width 600mm or more, hot-rolled, without patterns in relief, of a thickness of 4.75mm or more but not exceeding 10mm\n- 720810: Iron or non-alloy steel; in coils, flat-rolled, of a width 600mm or more, hot-rolled, with patterns in relief\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7b532f0f37dfa792e6eb3153b7934532943cf7a7c893a5eb590367611919d515",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "720838",
+      "cited": [
+        "720838",
+        "7208"
+      ],
+      "confidence": "0.93",
+      "reason": "A hot-rolled coil without patterns in relief that is not pickled and is 3.5mm thick falls under 720838 (3mm or more but less than 4.75mm); the pickled options (720826 etc.) are excluded."
+    },
+    "input_tokens": 1784,
+    "latency_ms": 2950,
+    "output_tokens": 110
+  }
+}

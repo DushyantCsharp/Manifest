@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f5885da772b61c5211d5bcceba68ebd7487776c3d1100d66e3d48cc8a6699ef9",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:23+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,26 +16,26 @@
     "data": {
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "Calhoun and Sons",
+        "evidence": "BILL TO / CONSIGNEE\nCalhoun and Sons",
         "value": "Calhoun and Sons"
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Currency: CAD",
         "value": "CAD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Terms of Sale: EXW Samut Prakan (Incoterms 2020)",
         "value": "EXW Samut Prakan"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice Date 06/20/2026",
         "value": "06/20/2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice No. INV-2026-37613",
         "value": "INV-2026-37613"
       },
@@ -43,43 +43,43 @@
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 Thailand 881 pcs 81.60 71,889.60",
+            "evidence": "81.60 71,889.60",
             "value": "71,889.60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Thailand",
+            "confidence": "0.96",
+            "evidence": "Thailand 881 pcs",
             "value": "Thailand"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.7",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "1 Passenger car tyre 205/55R16 Thailand 881 pcs 81.60 71,889.60",
             "value": "Passenger car tyre 205/55R16"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 Thailand 881 pcs 81.60 71,889.60",
+            "evidence": "Thailand 881 pcs 81.60 71,889.60",
             "value": "881"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 Thailand 881 pcs 81.60 71,889.60",
+            "evidence": "881 pcs 81.60",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "1 Passenger car tyre 205/55R16 Thailand 881 pcs 81.60 71,889.60",
+            "evidence": "pcs 81.60 71,889.60",
             "value": "81.60"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Payment Terms T/T 30 days after B/L date",
         "value": "T/T 30 days after B/L date"
       },
@@ -89,13 +89,13 @@
         "value": "Bangkok Siam Import & Export Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "1 Passenger car tyre 205/55R16 Thailand 881 pcs 81.60 71,889.60",
+        "confidence": "0.98",
+        "evidence": "Total CAD 71,889.60",
         "value": "71,889.60"
       }
     },
-    "input_tokens": 444,
-    "latency_ms": 0,
-    "output_tokens": 450
+    "input_tokens": 2283,
+    "latency_ms": 4463,
+    "output_tokens": 736
   }
 }

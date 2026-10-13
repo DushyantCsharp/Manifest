@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "bd08d5f4073e6990a8e13cf5e940ed87d5f03e92d0ade6a0e5541bbf879d63ea",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:43+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Instant noodles, precooked, with seasoning sachet\nCountry of origin: KR\n\nChoose the chapter that covers these goods. Options:\n- 21: Miscellaneous edible preparations\n    contains 210390: Sauces and preparations therefor; mixed condiments and mixed seasonings\n    contains 210310: Sauces; soya\n    contains 210330: Mustard flour and meal and prepared mustard\n    contains 210320: Sauces; tomato ketchup and other tomato sauces\n- 19: Preparations of cereals, flour, starch or milk; pastrycooks' products\n    contains 190220: Food preparations; pasta, stuffed (with meat or other substances), whether or not cooked or otherwise prepared\n    contains 190240: Food preparations; couscous\n    contains 190211: Food preparations; pasta, containing eggs, uncooked, not stuffed or otherwise prepared\n    contains 190230: Food preparations; pasta (excluding stuffed), cooked or otherwise prepared\n    contains 190219: Food preparations; pasta, uncooked (excluding that containing eggs), not stuffed or otherwise prepared\n    contains 190300: Food preparations; tapioca and substitutes thereof, prepared from starch in the form of flakes, grains, pearls, siftings or similar\n    contains 190420: Food preparations; obtained from unroasted cereal flakes or from mixtures of unroasted cereal flakes and roasted cereal flakes or swelled cereals\n    contains 190410: Food preparations; obtained by the swelling or roasting of cereals or cereal products\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 37: Photographic or cinematographic goods\n    contains 370120: Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs\n- 49: Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans\n    contains 490600: Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "441be740745707e93903a053cb94e87d3d96ebda681781eee26292aeb4a7333a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "19",
+      "cited": [
+        "190230"
+      ],
+      "confidence": "0.95",
+      "reason": "Precooked instant noodles are pasta cooked or otherwise prepared, falling in heading 1902 (subheading 190230) in Chapter 19; the seasoning sachet is a minor component of the retail set classified with the noodles."
+    },
+    "input_tokens": 1903,
+    "latency_ms": 2939,
+    "output_tokens": 109
+  }
+}

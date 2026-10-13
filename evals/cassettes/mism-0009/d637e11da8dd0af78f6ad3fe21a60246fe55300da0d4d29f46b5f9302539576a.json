@@ -2,8 +2,8 @@
   "format": 1,
   "key": "d637e11da8dd0af78f6ad3fe21a60246fe55300da0d4d29f46b5f9302539576a",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:13+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,183 +15,183 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Larson-Robertson",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nLarson-Robertson",
         "value": "Larson-Robertson"
       },
       "date": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Date April 29, 2026",
         "value": "April 29, 2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "DAP Los Angeles",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nDAP Los Angeles",
         "value": "DAP Los Angeles"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Invoice Ref. 2026/4803",
         "value": "2026/4803"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Cashew kernels W320 PH 8,901 kg 387 19,623.3 lb 21,355.3 lb",
+            "confidence": "0.95",
+            "evidence": "W320 PH 8,901",
             "value": "PH"
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.93",
             "evidence": "1 Cashew kernels W320 PH 8,901 kg 387 19,623.3 lb 21,355.3 lb",
             "value": "Cashew kernels W320"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Cashew kernels W320 PH 8,901 kg 387 19,623.3 lb 21,355.3 lb",
+            "confidence": "0.95",
+            "evidence": "19,623.3 lb 21,355.3 lb",
             "value": "21,355.3 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Cashew kernels W320 PH 8,901 kg 387 19,623.3 lb 21,355.3 lb",
+            "confidence": "0.95",
+            "evidence": "387 19,623.3 lb 21,355.3 lb",
             "value": "19,623.3 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Cashew kernels W320 PH 8,901 kg 387 19,623.3 lb 21,355.3 lb",
+            "confidence": "0.95",
+            "evidence": "PH 8,901 kg 387",
             "value": "8,901"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Cashew kernels W320 PH 8,901 kg 387 19,623.3 lb 21,355.3 lb",
+            "confidence": "0.95",
+            "evidence": "8,901 kg 387",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb",
+            "confidence": "0.95",
+            "evidence": "long sleeve IN 7,720",
             "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb",
+            "confidence": "0.95",
+            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193",
             "value": "Men's woven cotton shirt, long sleeve"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb",
+            "confidence": "0.95",
+            "evidence": "5,718.6 lb 6,088.2 lb",
             "value": "6,088.2 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb",
+            "confidence": "0.95",
+            "evidence": "193 5,718.6 lb 6,088.2 lb",
             "value": "5,718.6 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb",
+            "confidence": "0.95",
+            "evidence": "IN 7,720 pcs",
             "value": "7,720"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb",
+            "confidence": "0.95",
+            "evidence": "7,720 pcs 193",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283 5,457.9 lb 5,890.7 lb",
+            "confidence": "0.95",
+            "evidence": "upper VN 3,396",
             "value": "VN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283 5,457.9 lb 5,890.7 lb",
+            "confidence": "0.95",
+            "evidence": "3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283",
             "value": "Running shoes, rubber sole, textile upper"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283 5,457.9 lb 5,890.7 lb",
+            "confidence": "0.95",
+            "evidence": "5,457.9 lb 5,890.7 lb",
             "value": "5,890.7 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283 5,457.9 lb 5,890.7 lb",
+            "confidence": "0.95",
+            "evidence": "283 5,457.9 lb 5,890.7 lb",
             "value": "5,457.9 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283 5,457.9 lb 5,890.7 lb",
+            "confidence": "0.95",
+            "evidence": "VN 3,396 pairs",
             "value": "3,396"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 Running shoes, rubber sole, textile upper VN 3,396 pairs 283 5,457.9 lb 5,890.7 lb",
+            "confidence": "0.95",
+            "evidence": "3,396 pairs 283",
             "value": "pairs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve IN 7,720 pcs 193 5,718.6 lb 6,088.2 lb",
+            "confidence": "0.95",
+            "evidence": "24 pieces IN 2,915",
             "value": "IN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Stainless cutlery set, 24 pieces IN 2,915 sets 292 11,940.4 lb 13,054.4 lb",
+            "confidence": "0.95",
+            "evidence": "4 Stainless cutlery set, 24 pieces IN 2,915 sets 292",
             "value": "Stainless cutlery set, 24 pieces"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Stainless cutlery set, 24 pieces IN 2,915 sets 292 11,940.4 lb 13,054.4 lb",
+            "confidence": "0.95",
+            "evidence": "11,940.4 lb 13,054.4 lb",
             "value": "13,054.4 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Stainless cutlery set, 24 pieces IN 2,915 sets 292 11,940.4 lb 13,054.4 lb",
+            "confidence": "0.95",
+            "evidence": "292 11,940.4 lb 13,054.4 lb",
             "value": "11,940.4 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Stainless cutlery set, 24 pieces IN 2,915 sets 292 11,940.4 lb 13,054.4 lb",
+            "confidence": "0.95",
+            "evidence": "IN 2,915 sets",
             "value": "2,915"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4 Stainless cutlery set, 24 pieces IN 2,915 sets 292 11,940.4 lb 13,054.4 lb",
+            "confidence": "0.95",
+            "evidence": "2,915 sets 292",
             "value": "sets"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1155 CARTONS 42,740.3 lb 46,388.6 lb",
+        "confidence": "0.9",
+        "evidence": "Total 1155 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Narváez & Asociados S.A.",
         "value": "Narváez & Asociados S.A."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1155 CARTONS 42,740.3 lb 46,388.6 lb",
+        "confidence": "0.95",
+        "evidence": "46,388.6 lb",
         "value": "46,388.6 lb"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1155 CARTONS 42,740.3 lb 46,388.6 lb",
+        "confidence": "0.95",
+        "evidence": "42,740.3 lb",
         "value": "42,740.3 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1155 CARTONS 42,740.3 lb 46,388.6 lb",
+        "confidence": "0.95",
+        "evidence": "Total 1155 CARTONS",
         "value": "1155"
       }
     },
-    "input_tokens": 420,
-    "latency_ms": 0,
-    "output_tokens": 1181
+    "input_tokens": 2444,
+    "latency_ms": 8336,
+    "output_tokens": 1618
   }
 }

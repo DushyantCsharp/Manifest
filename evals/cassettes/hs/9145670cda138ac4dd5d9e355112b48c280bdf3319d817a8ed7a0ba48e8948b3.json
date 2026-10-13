@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "9145670cda138ac4dd5d9e355112b48c280bdf3319d817a8ed7a0ba48e8948b3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:32+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Skimmed milk powder, fat 1%\nCountry of origin: NZ\n\nChosen so far: 04 Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included > 0402 Milk and cream; concentrated or containing added sugar or other sweetening matter\n\nChoose the subheading that covers these goods. Options:\n- 040210: Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)\n- 040221: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n- 040229: Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n- 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n- 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "407de1b4ea01b15c5c9449a036a3c4d8f15d3ae9f367ac7ca3a11536b951a3ab",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "040210",
+      "cited": [
+        "040210"
+      ],
+      "confidence": "0.97",
+      "reason": "Skimmed milk powder with 1% fat is in powder form with a fat content not exceeding 1.5%, which 040210 covers whether or not sweetened."
+    },
+    "input_tokens": 1190,
+    "latency_ms": 3101,
+    "output_tokens": 86
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "a58b9d8bd7345af598d5a1a1a43c8ace75931563e407695d8be01ad82850cf8c",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:50:24+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "080620",
       "cited": [
-        "080620"
+        "080620",
+        "0806"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.99",
+      "reason": "Sultana raisins are dried grapes, which fall under subheading 080620 rather than fresh grapes (080610)."
     },
-    "input_tokens": 302,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 869,
+    "latency_ms": 2921,
+    "output_tokens": 76
   }
 }

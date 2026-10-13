@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "d216ff33b1e2c282b39ba573d2233ffe392490655310184cc94fffd5b509b6c1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:12+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Wireless Bluetooth earbuds with charging case\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8518: Microphones and their stands; loudspeakers, mounted or not in their enclosures; headphones and earphones, combined or not with a microphone, and sets of a microphone and one or more loudspeakers; audio-frequency and electric sound amplifiers and sets\n    contains 851830: Headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers\n    contains 851829: Loudspeakers; not mounted in their enclosures\n- 8517: Telephone sets, including smartphones and other telephones for cellular/wireless networks; other apparatus for the transmission or reception of voice, images or other data (including wired/wireless networks), excluding items of 8443, 8525, 8527, or 8528\n    contains 851713: Telephone sets; smartphones for cellular or other wireless networks\n    contains 851714: Telephone sets; other than smartphones, for cellular or other wireless networks\n    contains 851711: Line telephone sets with cordless handsets\n    contains 851779: Communication apparatus; parts, other than aerials and aerial reflectors of all kinds\n    contains 851771: Communication apparatus; parts, aerials and aerial reflectors of all kinds, part suitable for use therewith\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0b21da0d14b680edcbca0084c029eac0e1a2dca1de8b133cf095c9572dd1f868",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8518",
+      "cited": [
+        "8518",
+        "851830"
+      ],
+      "confidence": "0.88",
+      "reason": "Wireless Bluetooth earbuds are earphones (usually with a microphone) covered by heading 8518 and subheading 851830, and the charging case is a presented accessory; the 2022 HS places headphones in 8518 rather than 8517 apparatus for transmission or reception of data."
+    },
+    "input_tokens": 1265,
+    "latency_ms": 3106,
+    "output_tokens": 131
+  }
+}

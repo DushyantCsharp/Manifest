@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "3237cf5418b15f0cb0fe9a6b76e5146ef65d47fd1e70596593430a1712568f12",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:28+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Manual toothbrushes, plastic handle\nCountry of origin: CN\n\nChosen so far: 96 Miscellaneous manufactured articles\n\nChoose the heading that covers these goods. Options:\n- 9603: Brooms, brushes (including parts of machines), hand operated floor sweepers, mops and feather dusters; knots and tufts for broom or brush making; paint pads and rollers; squeegees\n    contains 960321: Brushes; toothbrushes\n    contains 960329: Brushes; shaving, hair, nail, eyelash and other toilet brushes for use on the person, including brushes as parts of appliances\n    contains 960310: Brooms and brushes; consisting of twigs or other vegetable materials bound together, with or without handles\n    contains 960390: Brooms, brushes, mops, feather dusters, squeegees, hand operated mechanical floor sweepers; (not motorised), prepared knots and tufts for brooms or brush making n.e.c.\n    contains 960350: Brushes; constituting parts of machines, appliances or vehicles\n    contains 960330: Brushes; artists' brushes, writing brushes and similar brushes for the application of cosmetics\n- 9615: Combs, hair-slides and similar; hairpins, curling pins, curling grips and hair curlers and the like, other than those of heading no. 8516 and parts thereof\n    contains 961511: Combs, hair slides and the like; of hard rubber or plastics\n    contains 961519: Combs, hair slides and the like; of other than hard rubber or plastics\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b0eaaf4d3117d2ab3c3f47f42ee9174759b53f032e542a4b117021a0f03b815b",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9603",
+      "cited": [
+        "9603",
+        "960321"
+      ],
+      "confidence": "0.98",
+      "reason": "Toothbrushes are brushes covered by heading 9603 (subheading 960321), whereas heading 9615 covers combs and hair accessories."
+    },
+    "input_tokens": 1251,
+    "latency_ms": 2713,
+    "output_tokens": 85
+  }
+}

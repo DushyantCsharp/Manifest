@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "6f5cb345099149e51b60420d69e0d4c735f475e93508666b25e648692be0fb2a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:35+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Centrifugal water pump 1.1kW, single stage, electric\nCountry of origin: IT\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841370: Pumps; centrifugal, n.e.c. in heading no. 8413, for liquids\n    contains 841340: Pumps; concrete pumps\n    contains 841360: Pumps; rotary positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n    contains 841319: Pumps; for liquids, fitted or designed to be fitted with a measuring device, other than pumps for dispensing fuel or lubricants\n    contains 841919: Heaters; instantaneous or storage water heaters, non-electric, (other than instantaneous gas or solar water heaters)\n    contains 841350: Pumps; reciprocating positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n    contains 841330: Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines\n    contains 842191: Centrifuges; parts thereof, including parts for centrifugal dryers\n    contains 841420: Pumps; hand or foot-operated air pumps\n    contains 842119: Centrifuges; n.e.c. in heading no. 8421, including centrifugal dryers (but not clothes-dryers)\n    contains 841490: Pumps and compressors; parts, of air or vacuum pumps, air or other gas compressors and fans, ventilating or recycling hoods incorporating a fan\n    contains 841911: Heaters; instantaneous gas water heaters, for domestic or other purposes\n    contains 841011: Turbines; hydraulic turbines and water wheels, of a power not exceeding 1000kW\n    contains 841391: Pumps; parts thereof\n    contains 842121: Machinery; for filtering or purifying water\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854921: Electrical and electronic waste and scrap; of a kind used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switches, glass from cathode ray tubes or other activated glass, or electrical\n    contains 854931: Electrical and electronic waste and scrap; electrical and electronic assemblies and printed circuit boards, other than those used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switch\n    contains 853590: Electrical apparatus; n.e.c. in heading no. 8535, for switching or protecting electrical circuits, for a voltage exceeding 1000 volts\n    contains 853630: Electrical apparatus; for protecting electrical circuits, n.e.c. in heading no. 8536, for a voltage not exceeding 1000 volts\n    contains 853690: Electrical apparatus; n.e.c. in heading no. 8536, for switching or protecting electrical circuits, for a voltage not exceeding 1000 volts\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "38af13bae0e325aa9d53ee877dd64d5bb98c9b853211f9b0a0b9ae30a3b8112d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "841370"
+      ],
+      "confidence": "0.97",
+      "reason": "An electric centrifugal water pump is a pump for liquids covered by heading 8413 (subheading 841370) in Chapter 84, and the electric motor does not move it to Chapter 85."
+    },
+    "input_tokens": 1804,
+    "latency_ms": 2777,
+    "output_tokens": 95
+  }
+}

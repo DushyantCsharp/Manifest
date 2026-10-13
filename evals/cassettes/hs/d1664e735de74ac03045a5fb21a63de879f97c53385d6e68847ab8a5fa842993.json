@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "d1664e735de74ac03045a5fb21a63de879f97c53385d6e68847ab8a5fa842993",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:05+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Spark plugs for petrol engines\nCountry of origin: JP\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8511: Ignition or starting equipment; used for spark-ignition or compression-ignition internal combustion engines; generators and cut outs used in conjunction with such engines\n    contains 851110: Ignition or starting equipment; spark plugs, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851130: Ignition or starting equipment; distributors and ignition coils of a kind used for spark-ignition or compression-ignition internal combustion engines\n    contains 851120: Ignition or starting equipment; ignition magnetos, magneto-dynamos and magnetic flywheels, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851190: Ignition or starting equipment; parts of the equipment of heading no. 8511, for use in spark-ignition or compression-ignition internal combustion engines\n    contains 851180: Ignition or starting equipment; n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851150: Ignition or starting equipment; generators n.e.c. in heading no. 8511, of a kind used for spark or compression-ignition internal combustion engines\n    contains 851140: Ignition or starting equipment; starter motors and dual purpose starter-generators, of a kind used for spark or compression-ignition internal combustion engines\n- 8502: Electric generating sets and rotary converters\n    contains 850220: Electric generating sets; with spark-ignition internal combustion piston engines\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "feb055bd880966dc287e212a7899f029873780b8cc2695d79d5241d78c1fbf61",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8511",
+      "cited": [
+        "8511",
+        "851110"
+      ],
+      "confidence": "0.99",
+      "reason": "Spark plugs for internal combustion engines are specifically covered by heading 8511 (subheading 851110), not generating sets of heading 8502."
+    },
+    "input_tokens": 1344,
+    "latency_ms": 3263,
+    "output_tokens": 84
+  }
+}

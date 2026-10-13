@@ -2,8 +2,8 @@
   "format": 1,
   "key": "8ead8be6e1e4bf0c870fb2694164ab563e0f63faa01544a27e06c46a0ddbf8eb",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:50:21+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "080810",
       "cited": [
-        "080810"
+        "080810",
+        "0808"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.99",
+      "reason": "Gala apples are fresh apples, which fall under subheading 080810 (apples, fresh)."
     },
-    "input_tokens": 312,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 896,
+    "latency_ms": 2669,
+    "output_tokens": 69
   }
 }

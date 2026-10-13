@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "566059dc8cd635614dbe78fb7cd962438d09983ae6bb9766ae28dd44abe6852e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:14+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh avocados\nCountry of origin: MX\n\nChoose the chapter that covers these goods. Options:\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 080440: Fruit, edible; avocados, fresh or dried\n    contains 080410: Fruit, edible; dates, fresh or dried\n    contains 080420: Fruit, edible; figs, fresh or dried\n    contains 080450: Fruit, edible; guavas, mangoes and mangosteens, fresh or dried\n    contains 080430: Fruit, edible; pineapples, fresh or dried\n    contains 080720: Fruit, edible; papaws (papayas), fresh\n    contains 080910: Fruit, edible; apricots, fresh\n    contains 080719: Fruit, edible; melons, other than watermelons, fresh\n    contains 080262: Nuts, edible; macadamia, fresh or dried, shelled\n    contains 080540: Fruit, edible; grapefruit and pomelos, fresh or dried\n    contains 080711: Fruit, edible; watermelons, fresh\n    contains 080261: Nuts, edible; macadamia, fresh or dried, in shell\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040711: Birds' eggs, in shell; fresh, fertilised eggs for incubation, of fowls of the species Gallus domesticus (domestic hens)\n    contains 040719: Birds' eggs, in shell; fresh, fertilised eggs for incubation, other than fowls of the species Gallus domesticus (domestic hens)\n    contains 040721: Birds' eggs, in shell; fresh, not for incubation, of fowls of the species Gallus domesticus (domestic hens)\n    contains 040729: Birds' eggs, in shell; fresh, not for incubation, other than fowls of the species Gallus domesticus (domestic hens)\n    contains 040819: Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter\n    contains 040899: Eggs; birds' eggs (not in shell, excluding yolks only), fresh, cooked by steaming or boiling in water, moulded, frozen, otherwise preserved, whether or not containing added sugar or other sweetening matter\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "08307115ca58dcf06c3ebbcce5250714f967b5934ee79793e5fe9237c488ee11",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "08",
+      "cited": [
+        "08",
+        "080440"
+      ],
+      "confidence": "0.99",
+      "reason": "Fresh avocados are edible fruit covered by subheading 080440 within Chapter 08."
+    },
+    "input_tokens": 1734,
+    "latency_ms": 2731,
+    "output_tokens": 66
+  }
+}

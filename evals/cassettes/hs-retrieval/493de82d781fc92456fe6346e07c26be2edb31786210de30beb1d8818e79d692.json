@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "493de82d781fc92456fe6346e07c26be2edb31786210de30beb1d8818e79d692",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Women's T-shirt, knitted, 95% polyester 5% elastane origin VN",
   "limit": 20,
   "candidates": [
     {
-      "code": "610610",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted",
-      "score": "0.016393",
-      "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "620630",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
       "code": "610620",
       "description": "Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres, knitted or crocheted",
-      "score": "0.015873",
+      "score": "0.032002",
       "ranks": {
-        "lexical": 3
+        "lexical": 2,
+        "vector": 3
       }
     },
     {
-      "code": "620610",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of silk or silk waste (not knitted or crocheted)",
-      "score": "0.015625",
+      "code": "610610",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted",
+      "score": "0.031545",
       "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "620640",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres (not knitted or crocheted)",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "620620",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of wool or fine animal hair (not knitted or crocheted)",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "620690",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of textile materials n.e.c. in heading no. 6206 (not knitted or crocheted)",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
+        "lexical": 1,
+        "vector": 6
       }
     },
     {
       "code": "610690",
       "description": "Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
-      "score": "0.014706",
+      "score": "0.031258",
       "ranks": {
-        "lexical": 8
+        "lexical": 3,
+        "vector": 5
       }
     },
     {
-      "code": "610510",
-      "description": "Shirts; men's or boys', of cotton, knitted or crocheted",
-      "score": "0.014493",
+      "code": "620640",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres (not knitted or crocheted)",
+      "score": "0.030550",
       "ranks": {
-        "lexical": 9
+        "lexical": 7,
+        "vector": 4
       }
     },
     {
-      "code": "610910",
-      "description": "T-shirts, singlets and other vests; of cotton, knitted or crocheted",
-      "score": "0.014286",
+      "code": "620630",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)",
+      "score": "0.029857",
       "ranks": {
-        "lexical": 10
+        "lexical": 6,
+        "vector": 8
       }
     },
     {
-      "code": "620520",
-      "description": "Shirts; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.014085",
+      "code": "620690",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of textile materials n.e.c. in heading no. 6206 (not knitted or crocheted)",
+      "score": "0.029631",
       "ranks": {
-        "lexical": 11
+        "lexical": 8,
+        "vector": 7
+      }
+    },
+    {
+      "code": "620620",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of wool or fine animal hair (not knitted or crocheted)",
+      "score": "0.028718",
+      "ranks": {
+        "lexical": 5,
+        "vector": 15
+      }
+    },
+    {
+      "code": "620610",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of silk or silk waste (not knitted or crocheted)",
+      "score": "0.028283",
+      "ranks": {
+        "lexical": 4,
+        "vector": 19
+      }
+    },
+    {
+      "code": "610423",
+      "description": "Ensembles; women's or girls', of synthetic fibres, knitted or crocheted",
+      "score": "0.025397",
+      "ranks": {
+        "lexical": 30,
+        "vector": 10
+      }
+    },
+    {
+      "code": "610413",
+      "description": "Suits; women's or girls', of synthetic fibres, knitted or crocheted",
+      "score": "0.024652",
+      "ranks": {
+        "lexical": 27,
+        "vector": 16
+      }
+    },
+    {
+      "code": "610433",
+      "description": "Jackets; women's or girls', of synthetic fibres, knitted or crocheted",
+      "score": "0.024152",
+      "ranks": {
+        "lexical": 34,
+        "vector": 14
       }
     },
     {
       "code": "610520",
       "description": "Shirts; men's or boys', of man-made fibres, knitted or crocheted",
-      "score": "0.013889",
+      "score": "0.023584",
       "ranks": {
-        "lexical": 12
+        "lexical": 50,
+        "vector": 9
       }
     },
     {
-      "code": "610990",
-      "description": "T-shirts, singlets and other vests; of textile materials (other than cotton), knitted or crocheted",
-      "score": "0.013699",
+      "code": "610463",
+      "description": "Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres, knitted or crocheted",
+      "score": "0.023430",
       "ranks": {
-        "lexical": 13
+        "lexical": 47,
+        "vector": 11
       }
     },
     {
-      "code": "620530",
-      "description": "Shirts; men's or boys', of man-made fibres (not knitted or crocheted)",
-      "score": "0.013514",
+      "code": "600524",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, printed",
+      "score": "0.023323",
       "ranks": {
-        "lexical": 14
+        "lexical": 12,
+        "vector": 46
       }
     },
     {
-      "code": "620590",
-      "description": "Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)",
-      "score": "0.013333",
+      "code": "600539",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of synthetic fibres, printed",
+      "score": "0.023296",
       "ranks": {
-        "lexical": 15
+        "lexical": 17,
+        "vector": 37
       }
     },
     {
-      "code": "610590",
-      "description": "Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
-      "score": "0.013158",
+      "code": "610422",
+      "description": "Ensembles; women's or girls', of cotton, knitted or crocheted",
+      "score": "0.023141",
       "ranks": {
-        "lexical": 16
+        "lexical": 29,
+        "vector": 24
       }
     },
     {
-      "code": "621112",
-      "description": "Swimwear; women's or girls', (not knitted or crocheted)",
-      "score": "0.012987",
+      "code": "610453",
+      "description": "Skirts and divided skirts; women's or girls', of synthetic fibres, knitted or crocheted",
+      "score": "0.022696",
       "ranks": {
-        "lexical": 17
+        "lexical": 43,
+        "vector": 17
       }
     },
     {
-      "code": "611241",
-      "description": "Swimwear; women's or girls', of synthetic fibres, knitted or crocheted",
-      "score": "0.012821",
+      "code": "610443",
+      "description": "Dresses; women's or girls', of synthetic fibres, knitted or crocheted",
+      "score": "0.022252",
       "ranks": {
-        "lexical": 18
+        "lexical": 38,
+        "vector": 23
       }
     },
     {
-      "code": "621142",
-      "description": "Track suits and other garments n.e.c.; women's or girls', of cotton (not knitted or crocheted)",
-      "score": "0.012658",
+      "code": "610439",
+      "description": "Jackets; women's or girls', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted",
+      "score": "0.022154",
       "ranks": {
-        "lexical": 19
+        "lexical": 35,
+        "vector": 26
       }
     },
     {
-      "code": "611249",
-      "description": "Swimwear; women's or girls', of textile materials (other than synthetic fibres), knitted or crocheted",
-      "score": "0.012500",
+      "code": "610432",
+      "description": "Jackets; women's or girls', of cotton, knitted or crocheted",
+      "score": "0.021742",
       "ranks": {
-        "lexical": 20
+        "lexical": 33,
+        "vector": 31
       }
     }
   ]

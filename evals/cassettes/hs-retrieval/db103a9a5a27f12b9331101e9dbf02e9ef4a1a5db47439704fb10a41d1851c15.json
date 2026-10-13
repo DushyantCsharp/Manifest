@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "db103a9a5a27f12b9331101e9dbf02e9ef4a1a5db47439704fb10a41d1851c15",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Canned skipjack tuna in oil, 185g origin TH",
   "limit": 20,
   "candidates": [
     {
       "code": "030487",
       "description": "Fish fillets; frozen, tunas (of the genus Thunnus), skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)",
-      "score": "0.016393",
+      "score": "0.029287",
       "ranks": {
-        "lexical": 1
+        "lexical": 16,
+        "vector": 2
       }
     },
     {
       "code": "160414",
       "description": "Fish preparations; tunas, skipjack tuna and bonito (Sarda spp.), prepared or preserved, whole or in pieces (but not minced)",
-      "score": "0.016129",
+      "score": "0.028021",
       "ranks": {
-        "lexical": 2
+        "lexical": 26,
+        "vector": 1
       }
     },
     {
-      "code": "030343",
-      "description": "Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
-      "score": "0.015873",
+      "code": "271012",
+      "description": "Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; light oils and preparations",
+      "score": "0.016393",
       "ranks": {
-        "lexical": 3
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "271019",
+      "description": "Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; not light oils and preparations",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
       }
     },
     {
       "code": "030233",
       "description": "Fish; fresh or chilled, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
-      "score": "0.015625",
+      "score": "0.015873",
       "ranks": {
-        "lexical": 4
+        "lexical": null,
+        "vector": 3
       }
     },
     {
-      "code": "010512",
-      "description": "Poultry; live, turkeys, weighing not more than 185g",
-      "score": "0.015385",
+      "code": "271020",
+      "description": "Petroleum oils and oils from bituminous minerals, containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals",
+      "score": "0.015873",
       "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "010513",
-      "description": "Poultry; live, ducks, weighing not more than 185g",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "010514",
-      "description": "Poultry; live, geese, weighing not more than 185g",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "010515",
-      "description": "Poultry; live, guinea fowls, weighing not more than 185g",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "010594",
-      "description": "Poultry; live, fowls of the species Gallus domesticus, weighing more than 185g",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "010599",
-      "description": "Poultry; live, ducks, geese, turkeys and guinea fowls, weighing more than 185g",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "010511",
-      "description": "Poultry; live, fowls of the species Gallus domesticus, weighing not more than 185g",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "040590",
-      "description": "Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "040520",
-      "description": "Dairy produce; dairy spreads",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
+        "lexical": 3,
+        "vector": null
       }
     },
     {
       "code": "030195",
       "description": "Fish; live, southern bluefin tunas (Thunnus maccoyii)",
-      "score": "0.013514",
+      "score": "0.015625",
       "ranks": {
-        "lexical": 14
+        "lexical": null,
+        "vector": 4
       }
     },
     {
-      "code": "040510",
-      "description": "Dairy produce; derived from milk, butter",
-      "score": "0.013333",
+      "code": "151090",
+      "description": "Vegetable oils; oils and their fractions n.e.c. in heading 1510, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",
+      "score": "0.015625",
       "ranks": {
-        "lexical": 15
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "030343",
+      "description": "Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "150300",
+      "description": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil; not emulsified or mixed or otherwise prepared",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
       }
     },
     {
       "code": "030194",
       "description": "Fish; live, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis)",
-      "score": "0.013158",
+      "score": "0.015152",
       "ranks": {
-        "lexical": 16
+        "lexical": null,
+        "vector": 6
       }
     },
     {
-      "code": "030349",
-      "description": "Fish; frozen, tuna, n.e.c. in item no. 0303.4, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
-      "score": "0.012987",
+      "code": "151790",
+      "description": "Edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, n.e.c. in heading 1517, other than edible fats and oils or their fractions of heading 15.16",
+      "score": "0.015152",
       "ranks": {
-        "lexical": 17
+        "lexical": 6,
+        "vector": null
       }
     },
     {
-      "code": "030239",
-      "description": "Fish; fresh or chilled, tuna, n.e.c. in item no. 0302.3, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
-      "score": "0.012821",
+      "code": "030232",
+      "description": "Fish; fresh or chilled, yellowfin tunas (Thunnus albacares), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
+      "score": "0.014925",
       "ranks": {
-        "lexical": 18
+        "lexical": null,
+        "vector": 7
       }
     },
     {
-      "code": "030342",
-      "description": "Fish; frozen, yellowfin tunas (Thunnus albacares), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
-      "score": "0.012658",
+      "code": "270900",
+      "description": "Oils; petroleum oils and oils obtained from bituminous minerals, crude",
+      "score": "0.014925",
       "ranks": {
-        "lexical": 19
+        "lexical": 7,
+        "vector": null
       }
     },
     {
-      "code": "030344",
-      "description": "Fish; frozen, bigeye tunas (Thunnus obesus), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
-      "score": "0.012500",
+      "code": "030235",
+      "description": "Fish; fresh or chilled, Atlantic and Pacific bluefin tunas (Thunnus thynnus, Thunnus orientalis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
+      "score": "0.014706",
       "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "151010",
+      "description": "Vegetable oils; crude olive pomace oil and their fractions, obtained solely from olives, whether or not refined, but not chemically modified",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "030236",
+      "description": "Fish; fresh or chilled, southern bluefin tunas (Thunnus maccoyii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "150920",
+      "description": "Vegetable oils; olive oil and its fractions, extra virgin olive oil, whether or not refined, but not chemically modified",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "030231",
+      "description": "Fish; fresh or chilled, albacore or longfinned tunas (Thunnus alalunga), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0302.91 to 0302.99",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "150930",
+      "description": "Vegetable oils; olive oil and its fractions, virgin olive oil, whether or not refined, but not chemically modified",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
       }
     }
   ]

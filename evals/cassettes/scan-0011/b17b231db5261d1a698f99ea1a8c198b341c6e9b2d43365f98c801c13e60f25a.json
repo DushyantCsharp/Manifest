@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b17b231db5261d1a698f99ea1a8c198b341c6e9b2d43365f98c801c13e60f25a",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:26+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
-        "evidence": "3 MAEUXG8596004 -",
+        "confidence": "0.8",
+        "evidence": "MAEUXG8596004",
         "value": "MAEUXG8596004"
       },
       "buyer_name": {
-        "confidence": "0.86",
-        "evidence": "Massey. Inc",
-        "value": "Massey. Inc"
+        "confidence": "0.85",
+        "evidence": "Williams, Turner and Foster",
+        "value": "Williams, Turner and Foster"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MAERSK",
+        "confidence": "0.85",
+        "evidence": "Signed as Carrier: MAERSK.",
         "value": "MAERSK"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg",
+        "confidence": "0.8",
+        "evidence": "‘MAEU3279004",
         "value": "MAEU3279004"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "FREIGHT - PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": "Williams, Turner and Foster",
-        "value": "Williams, Turner and Foster"
+        "confidence": "0.5",
+        "evidence": "Massey. Inc",
+        "value": "Massey. Inc"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "a SEAL 2723343. | INV-2026-91736 | CARTONS . | Split air conditioner 12000. BTU",
+        "confidence": "0.8",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": ", M9Y 9S7 Vancouver, Canada .",
+        "confidence": "0.8",
+        "evidence": "4 Keelung 7 Vancouver:",
         "value": "Vancouver"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "04/17/2026 an Keelung, ‘04/17/2026",
+        "confidence": "0.8",
+        "evidence": "4 Keelung 7 Vancouver:",
         "value": "Keelung"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "a SEAL 2723343. | INV-2026-91736 | CARTONS . | Split air conditioner 12000. BTU",
+        "confidence": "0.8",
+        "evidence": "SEAL 2723343.",
         "value": "2723343"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Taichung Yungshin Textile Co., Ltd.",
         "value": "Taichung Yungshin Textile Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
+        "confidence": "0.5",
         "evidence": "04/17/2026 an Keelung, ‘04/17/2026",
         "value": "04/17/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg",
+        "confidence": "0.85",
+        "evidence": "17,156.71 kg",
         "value": "17,156.71 kg"
       },
       "total_packages": {
-        "confidence": "0.60",
-        "evidence": "‘MAEU3279004 ‘|MASSEY“/. 4531. || SArD TO CONTAIN: Redwine, 0.75L bottles 17,156.71 kg",
-        "value": "4531."
+        "confidence": "0.6",
+        "evidence": "4531.",
+        "value": "4531"
       },
       "vessel": {
-        "confidence": "0.86",
+        "confidence": "0.6",
         "evidence": "MAERSK ‘TAGE / 684N",
-        "value": "MAERSK ‘TAGE"
+        "value": "MAERSK TAGE"
       },
       "voyage": {
-        "confidence": "0.97",
-        "evidence": "MAERSK ‘TAGE / 684N",
+        "confidence": "0.75",
+        "evidence": "‘TAGE / 684N",
         "value": "684N"
       }
     },
-    "input_tokens": 532,
-    "latency_ms": 0,
-    "output_tokens": 507
+    "input_tokens": 2422,
+    "latency_ms": 4795,
+    "output_tokens": 727
   }
 }

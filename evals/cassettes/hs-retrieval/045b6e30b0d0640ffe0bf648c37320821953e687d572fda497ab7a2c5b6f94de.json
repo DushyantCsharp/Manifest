@@ -1,32 +1,143 @@
 {
   "format": 1,
   "key": "045b6e30b0d0640ffe0bf648c37320821953e687d572fda497ab7a2c5b6f94de",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Hair dryer 2200W with diffuser and concentrator nozzle origin CN",
   "limit": 20,
   "candidates": [
     {
       "code": "851631",
       "description": "Hair-dressing apparatus; electro-thermic hair dryers",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "851632",
       "description": "Hair-dressing apparatus; electro-thermic, other than hair dryers",
-      "score": "0.016129",
+      "score": "0.032258",
       "ranks": {
-        "lexical": 2
+        "lexical": 2,
+        "vector": 2
       }
     },
     {
       "code": "851690",
       "description": "Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516",
+      "score": "0.029469",
+      "ranks": {
+        "lexical": 11,
+        "vector": 5
+      }
+    },
+    {
+      "code": "842119",
+      "description": "Centrifuges; n.e.c. in heading no. 8421, including centrifugal dryers (but not clothes-dryers)",
+      "score": "0.023740",
+      "ranks": {
+        "lexical": 33,
+        "vector": 17
+      }
+    },
+    {
+      "code": "851020",
+      "description": "Hair clippers; with a self-contained electric motor",
+      "score": "0.023222",
+      "ranks": {
+        "lexical": 43,
+        "vector": 14
+      }
+    },
+    {
+      "code": "851030",
+      "description": "Hair-removing appliances; with self-contained electric motor",
+      "score": "0.022949",
+      "ranks": {
+        "lexical": 44,
+        "vector": 15
+      }
+    },
+    {
+      "code": "961511",
+      "description": "Combs, hair slides and the like; of hard rubber or plastics",
+      "score": "0.021339",
+      "ranks": {
+        "lexical": 46,
+        "vector": 24
+      }
+    },
+    {
+      "code": "851090",
+      "description": "Shavers and hair clippers; parts of those with self-contained electric motor",
+      "score": "0.021289",
+      "ranks": {
+        "lexical": 45,
+        "vector": 25
+      }
+    },
+    {
+      "code": "841933",
+      "description": "Dryers; lyophilisation apparatus, freeze drying units and spray dryers, not used for domestic purposes",
+      "score": "0.020726",
+      "ranks": {
+        "lexical": 36,
+        "vector": 37
+      }
+    },
+    {
+      "code": "961590",
+      "description": "Hairpins, curling pins, curling grips, hair curlers and the like (not those of heading no. 8516) and parts thereof",
+      "score": "0.020623",
+      "ranks": {
+        "lexical": 48,
+        "vector": 28
+      }
+    },
+    {
+      "code": "330520",
+      "description": "Hair preparations; for permanent waving or straightening",
+      "score": "0.020526",
+      "ranks": {
+        "lexical": 40,
+        "vector": 35
+      }
+    },
+    {
+      "code": "961519",
+      "description": "Combs, hair slides and the like; of other than hard rubber or plastics",
+      "score": "0.020457",
+      "ranks": {
+        "lexical": 47,
+        "vector": 30
+      }
+    },
+    {
+      "code": "050290",
+      "description": "Animal products; badger hair and other brush making hair and waste of such bristles or hair, n.e.c. in heading no. 0502 (excluding horsehair)",
       "score": "0.015873",
       "ranks": {
-        "lexical": 3
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "851633",
+      "description": "Hand-drying apparatus; electro-thermic",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "510320",
+      "description": "Wool and hair; waste of wool or of fine animal hair, including yarn waste, but excluding garnetted stock and noils of wool or of fine animal hair",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
       }
     },
     {
@@ -34,135 +145,44 @@
       "description": "Smoothing irons; electric",
       "score": "0.015625",
       "ranks": {
-        "lexical": 4
+        "lexical": null,
+        "vector": 4
       }
     },
     {
-      "code": "851633",
-      "description": "Hand-drying apparatus; electro-thermic",
+      "code": "050100",
+      "description": "Animal products; hair, human, unworked, whether or not washed or scoured, and waste of human hair",
       "score": "0.015385",
       "ranks": {
-        "lexical": 5
+        "lexical": 5,
+        "vector": null
       }
     },
     {
-      "code": "851621",
-      "description": "Heating apparatus; electric storage heating radiators",
+      "code": "670300",
+      "description": "Human hair, dressed, thinned, bleached or otherwise worked; wool or other animal hair or other textile materials, prepared for use in making wigs or the like",
       "score": "0.015152",
       "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "851610",
-      "description": "Heaters; electric, instantaneous or storage water and immersion heaters",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "842112",
-      "description": "Centrifuges; clothes-dryers",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "851650",
-      "description": "Ovens; microwave, of a kind used for domestic purposes",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
+        "lexical": 6,
+        "vector": null
       }
     },
     {
       "code": "851679",
       "description": "Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes",
-      "score": "0.014286",
+      "score": "0.015152",
       "ranks": {
-        "lexical": 10
+        "lexical": null,
+        "vector": 6
       }
     },
     {
-      "code": "851680",
-      "description": "Resistors; electric heating, other than those of heading no. 8545",
-      "score": "0.014085",
+      "code": "210111",
+      "description": "Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.014925",
       "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "842191",
-      "description": "Centrifuges; parts thereof, including parts for centrifugal dryers",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "851629",
-      "description": "Heating apparatus; electric soil heating apparatus and space heating apparatus (excluding storage heating radiators)",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "851672",
-      "description": "Electro-thermic appliances; toasters, of a kind used for domestic purposes",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "851671",
-      "description": "Electro-thermic appliances; coffee or tea makers, of a kind used for domestic purposes",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "842119",
-      "description": "Centrifuges; n.e.c. in heading no. 8421, including centrifugal dryers (but not clothes-dryers)",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": 7,
+        "vector": null
       }
     }
   ]

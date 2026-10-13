@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "2e57ad0f500e4b598c3687c7a6b75c0b3c11d699ae9df891a2f0bb7f83d839f0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:20+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's trousers, woven cotton denim\nCountry of origin: BD\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610462: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton, knitted or crocheted\n    contains 610469: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610461: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of wool or fine animal hair, knitted or crocheted\n    contains 610463: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres, knitted or crocheted\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620462: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton (not knitted or crocheted)\n    contains 620469: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of textile materials (other than wool, fine animal hair, cotton or synthetic fibres), (not knitted or crocheted)\n    contains 620461: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n    contains 620463: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres (not knitted or crocheted)\n    contains 620422: Ensembles; women's or girls', of cotton (not knitted or crocheted)\n    contains 620452: Skirts and divided skirts; women's or girls', of cotton (not knitted or crocheted)\n    contains 620342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton (not knitted or crocheted)\n- 52: Cotton\n    contains 520942: Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, weighing more than 200g/m2, denim\n    contains 521142: Fabrics, woven; containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200g/m2, of yarns of different colours, denim\n    contains 520811: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing not more than 100g/m2\n    contains 520812: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520813: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, 3-thread or 4-thread twill, including cross twill, weighing not more than 200g/m2\n    contains 520819: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, of weaves n.e.c. in item no. 5208.1, weighing not more than 200g/m2\n    contains 520821: Fabrics, woven; containing 85% or more by weight of cotton, bleached, plain weave, weighing not more than 100g/m2\n    contains 520822: Fabrics, woven; containing 85% or more by weight of cotton, bleached, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520823: Fabrics, woven; containing 85% or more by weight of cotton, bleached, 3-thread or 4-thread twill, including cross twill, weighing not more than 200g/m2\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ae6dee7820af2801872e4bcda0abbf320333fa50e9ff46b8826a19e1705b7b72",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "62",
+      "cited": [
+        "62",
+        "620462"
+      ],
+      "confidence": "0.97",
+      "reason": "Women's trousers of woven (not knitted) cotton denim are finished garments covered by chapter 62 (subheading 620462), not the knitted chapter 61 or the fabric chapter 52."
+    },
+    "input_tokens": 2005,
+    "latency_ms": 3529,
+    "output_tokens": 99
+  }
+}

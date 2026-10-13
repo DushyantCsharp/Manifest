@@ -2,8 +2,8 @@
   "format": 1,
   "key": "e5a51ed06606fd9657249184379b3cddf78a9f5ffa09a4949cc7eedb5c9327eb",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:55+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,19 +15,19 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Miller-Burke CIP Los Angeles (Incoterms 2020)",
         "value": "Miller-Burke"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "All amounts are in pounds sterling (GBP). Please quote invoice 2026/4866 with your. payment",
+        "confidence": "0.9",
+        "evidence": "All amounts are in pounds sterling (GBP).",
         "value": "GBP"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Miller-Burke CIP Los Angeles (Incoterms 2020)",
-        "value": "CIP Los Angeles"
+        "confidence": "0.85",
+        "evidence": "CIP Los Angeles (Incoterms 2020)",
+        "value": "CIP Los Angeles (Incoterms 2020)"
       },
       "invoice_date": {
         "confidence": "0.97",
@@ -42,86 +42,86 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "0! Ad copy paper 80gsm, ream Brazil 8,710 pes 1.76 15,329.60",
+            "confidence": "0.96",
+            "evidence": "1.76 15,329.60",
             "value": "15,329.60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Favela de da Rosa, 36 | 11956-824 Santos | Brazil",
+            "confidence": "0.95",
+            "evidence": "ream Brazil 8,710",
             "value": "Brazil"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.86",
-            "evidence": "0! Ad copy paper 80gsm, ream Brazil 8,710 pes 1.76 15,329.60",
-            "value": "Ad copy paper 80gsm, ream"
+            "confidence": "0.5",
+            "evidence": "Ad copy paper 80gsm, ream",
+            "value": "A4 copy paper 80gsm, ream"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "0! Ad copy paper 80gsm, ream Brazil 8,710 pes 1.76 15,329.60",
+            "confidence": "0.95",
+            "evidence": "8,710 pes",
             "value": "8,710"
           },
           "unit": {
-            "confidence": "0.60",
-            "evidence": "0! Ad copy paper 80gsm, ream Brazil 8,710 pes 1.76 15,329.60",
+            "confidence": "0.8",
+            "evidence": "8,710 pes",
             "value": "pes"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "0! Ad copy paper 80gsm, ream Brazil 8,710 pes 1.76 15,329.60",
+            "confidence": "0.96",
+            "evidence": "pes 1.76 15,329.60",
             "value": "1.76"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "02 Roasted coffee beans, whole Brazil 1,240 kg 10.13 12,561.20",
+            "confidence": "0.96",
+            "evidence": "10.13 12,561.20",
             "value": "12,561.20"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Favela de da Rosa, 36 | 11956-824 Santos | Brazil",
+            "confidence": "0.95",
+            "evidence": "whole Brazil 1,240",
             "value": "Brazil"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "02 Roasted coffee beans, whole Brazil 1,240 kg 10.13 12,561.20",
+            "confidence": "0.96",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "02 Roasted coffee beans, whole Brazil 1,240 kg 10.13 12,561.20",
+            "confidence": "0.96",
+            "evidence": "1,240 kg",
             "value": "1,240"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "02 Roasted coffee beans, whole Brazil 1,240 kg 10.13 12,561.20",
+            "confidence": "0.96",
+            "evidence": "1,240 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "02 Roasted coffee beans, whole Brazil 1,240 kg 10.13 12,561.20",
+            "confidence": "0.96",
+            "evidence": "kg 10.13 12,561.20",
             "value": "10.13"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Terms:T/T in advance",
         "value": "T/T in advance"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "(P) Pires Viana e Filhos INVOICE",
         "value": "Pires Viana e Filhos"
       },
@@ -131,8 +131,8 @@
         "value": "27,890.80"
       }
     },
-    "input_tokens": 387,
-    "latency_ms": 0,
-    "output_tokens": 674
+    "input_tokens": 2191,
+    "latency_ms": 5847,
+    "output_tokens": 930
   }
 }

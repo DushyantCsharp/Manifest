@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "6d1062e235a46ef678e82ae044e25ce2475eb9c619adc566134c7c40624b8364",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:52+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cordless electric drill 18V with self-contained motor\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8467 Tools; for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor\n\nChoose the subheading that covers these goods. Options:\n- 846721: Tools; for working in the hand, with self-contained electric motor; drills of all kinds\n- 846722: Tools; for working in the hand, with self-contained electric motor; saws\n- 846729: Tools; for working in the hand, with self-contained electric motor; other than saws and drills\n- 846781: Tools; for working in the hand, chain saws with self-contained non-electric motor\n- 846791: Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor\n- 846789: Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6f19db2061f618cbd2c82ed676490d967e03fe922dcf64b6fb68ea05f7bb682d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "846721",
+      "cited": [
+        "846721"
+      ],
+      "confidence": "0.96",
+      "reason": "A cordless 18V drill with a self-contained electric motor is a hand tool with self-contained electric motor, specifically a drill of all kinds, under 8467.21."
+    },
+    "input_tokens": 1105,
+    "latency_ms": 3273,
+    "output_tokens": 88
+  }
+}

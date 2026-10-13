@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "87315b5ddeecad2f3125ce674b800a19a3d09024e58dcb74554f1e429a22c83c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:58+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Unwrought aluminium ingots, not alloyed\nCountry of origin: AE\n\nChoose the chapter that covers these goods. Options:\n- 76: Aluminium and articles thereof\n    contains 760110: Aluminium; unwrought, (not alloyed)\n    contains 760120: Aluminium; unwrought, alloys\n    contains 760410: Aluminium; (not alloyed), bars, rods and profiles\n    contains 760810: Aluminium; tubes and pipes, not alloyed\n    contains 760691: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)\n    contains 760429: Aluminium; alloys, bars, rods and profiles, other than hollow\n    contains 760611: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)\n    contains 760421: Aluminium; alloys, hollow profiles\n    contains 760511: Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm\n    contains 760692: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, (not rectangular or square)\n    contains 760519: Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less\n    contains 760612: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)\n- 72: Iron and steel\n    contains 720690: Iron or non-alloy steel; primary forms (excluding ingots and iron of heading no. 7203)\n    contains 720610: Iron or non-alloy steel; ingots (excluding iron of heading no. 7203)\n    contains 722410: Steel, alloy; ingots and other primary forms\n- 74: Copper and articles thereof\n    contains 740322: Copper; copper-tin base alloys (bronze) unwrought\n- 80: Tin; articles thereof\n    contains 800110: Tin; unwrought, not alloyed\n    contains 800120: Tin; unwrought, alloys\n- 79: Zinc and articles thereof\n    contains 790111: Zinc; unwrought, (not alloyed), containing by weight 99.99% or more of zinc\n    contains 790112: Zinc; unwrought, (not alloyed), containing by weight less than 99.99% of zinc\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a1b1c8ba16593fad48b07e9306cb81bbef5207fac4cf677a7ad6f2414303b046",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "76",
+      "cited": [
+        "76",
+        "760110"
+      ],
+      "confidence": "0.99",
+      "reason": "Unwrought non-alloyed aluminium ingots fall in Chapter 76, subheading 760110 (aluminium, unwrought, not alloyed)."
+    },
+    "input_tokens": 1581,
+    "latency_ms": 2884,
+    "output_tokens": 88
+  }
+}

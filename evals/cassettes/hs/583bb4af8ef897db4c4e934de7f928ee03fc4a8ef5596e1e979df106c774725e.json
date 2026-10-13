@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "583bb4af8ef897db4c4e934de7f928ee03fc4a8ef5596e1e979df106c774725e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:40+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen French fries, prepared potatoes\nCountry of origin: BE\n\nChosen so far: 20 Preparations of vegetables, fruit, nuts or other parts of plants\n\nChoose the heading that covers these goods. Options:\n- 2004: Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006\n    contains 200410: Vegetable preparations; potatoes, prepared or preserved otherwise than by vinegar or acetic acid, frozen\n    contains 200490: Vegetable preparations; vegetables and mixtures of vegetables (excluding potatoes), prepared or preserved otherwise than by vinegar or acetic acid, frozen\n- 2005: Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006\n    contains 200520: Vegetable preparations; potatoes, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200540: Vegetable preparations; peas (pisum sativum), prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200559: Vegetable preparations; beans, (not shelled), prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200510: Vegetable preparations; homogenised vegetables, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200551: Vegetable preparations; beans, shelled, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200560: Vegetable preparations; asparagus, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200570: Vegetable preparations; olives, prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n    contains 200580: Vegetable preparations; sweetcorn (zea mays var. saccharata), prepared or preserved otherwise than by vinegar or acetic acid, not frozen\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7cfb3ecaa4a3c23a94329282ac52264cbf91bd15998d6a38782592180c1a85b5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "2004",
+      "cited": [
+        "2004",
+        "200410"
+      ],
+      "confidence": "0.97",
+      "reason": "Frozen French fries are potatoes prepared otherwise than by vinegar and frozen, which falls under heading 2004 (subheading 200410), not the non-frozen heading 2005."
+    },
+    "input_tokens": 1476,
+    "latency_ms": 3064,
+    "output_tokens": 98
+  }
+}

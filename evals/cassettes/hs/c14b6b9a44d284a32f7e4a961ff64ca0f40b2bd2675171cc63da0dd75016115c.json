@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "c14b6b9a44d284a32f7e4a961ff64ca0f40b2bd2675171cc63da0dd75016115c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:08+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Insulated copper power cable, 3 cores 2.5mm2, 450/750V, without connectors\nCountry of origin: TR\n\nChoose the chapter that covers these goods. Options:\n- 74: Copper and articles thereof\n    contains 741300: Copper; stranded wire, cables, plaited bands and the like, not electrically insulated\n    contains 740829: Copper; wire, of copper alloys (other than copper-zinc base alloys, copper-nickel base alloys or copper-nickel-zinc base alloys)\n    contains 741129: Copper; tubes and pipes, of copper alloys (other than copper-zinc, copper-nickel base alloys (cupro-nickel) or copper-nickel-zinc base alloys (nickel-silver))\n    contains 740819: Copper; wire, of refined copper, of which the maximum cross-sectional dimension is 6mm or less\n    contains 740811: Copper; wire, of refined copper, of which the maximum cross-sectional dimension exceeds 6mm\n    contains 740822: Copper; wire, of copper-nickel base alloys (cupro-nickel) or copper-nickel-zinc base alloys (nickel silver)\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854449: Insulated electric conductors; for a voltage not exceeding 1000 volts, not fitted with connectors\n    contains 854442: Insulated electric conductors; for a voltage not exceeding 1000 volts, fitted with connectors\n    contains 854419: Insulated electric conductors; winding wire, (of other than copper)\n    contains 854411: Insulated electric conductors; winding wire, of copper\n    contains 854420: Insulated electric conductors; co-axial cable and other co-axial electric conductors\n    contains 854470: Insulated electric conductors; optical fibre cables\n    contains 854460: Insulated electric conductors; for a voltage exceeding 1000 volts\n    contains 854430: Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships\n    contains 854790: Insulating fittings; (other than of ceramics or plastics), for electrical machines, appliances and equipment, excluding insulators of heading no. 8546\n    contains 854720: Insulating fittings; of plastics, for electrical machines, of insulating material only (except minor assembly parts), excluding those of heading no. 8546\n    contains 853670: Connectors for optical fibres, optical fibre bundles or cables\n- 76: Aluminium and articles thereof\n    contains 761490: Aluminium; stranded wire, cables, plaited bands and the like, (not electrically insulated), other than steel core\n    contains 761410: Aluminium; stranded wire, cables, plaited bands and the like, (not electrically insulated), with steel core\n- 73: Iron or steel articles\n    contains 731210: Iron or steel; stranded wire, ropes and cables, not electrically insulated\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2678c7379e8397849fa5ce32dd08db1f8264b9df32f19827d3614cc2ec597219",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85",
+        "854449"
+      ],
+      "confidence": "0.97",
+      "reason": "Electrically insulated copper cable for under 1000 V without connectors falls under heading 8544 (subheading 854449) in Chapter 85, since Chapter 74 covers only non-insulated copper wire and cable."
+    },
+    "input_tokens": 1781,
+    "latency_ms": 3016,
+    "output_tokens": 106
+  }
+}

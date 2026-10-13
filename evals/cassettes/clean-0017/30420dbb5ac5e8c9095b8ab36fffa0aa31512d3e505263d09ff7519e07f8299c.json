@@ -2,8 +2,8 @@
   "format": 1,
   "key": "30420dbb5ac5e8c9095b8ab36fffa0aa31512d3e505263d09ff7519e07f8299c",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:35+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,17 +25,17 @@
         "value": "De Neve, Van de Velde en Claes NV"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "COSCO",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: COSCO.",
         "value": "COSCO"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "COSU6179764",
         "value": "COSU6179764"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
@@ -45,22 +45,22 @@
         "value": "Bogaert-De Backer BV"
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Antwerp",
+        "confidence": "0.96",
+        "evidence": "PORT OF DISCHARGE\nAntwerp",
         "value": "Antwerp"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Chattogram Bengal Textile Co., Ltd.",
+        "confidence": "0.96",
+        "evidence": "PORT OF LOADING\nChattogram",
         "value": "Chattogram"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 7904883",
         "value": "7904883"
       },
@@ -70,33 +70,33 @@
         "value": "Chattogram Bengal Textile Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "10.06.2026",
+        "confidence": "0.95",
+        "evidence": "SHIPPED ON BOARD\n10.06.2026",
         "value": "10.06.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "2.769,16 kg",
         "value": "2.769,16 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "187",
+        "confidence": "0.94",
+        "evidence": "187\nCARTONS",
         "value": "187"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO SERENITY / 193S",
         "value": "COSCO SERENITY"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO SERENITY / 193S",
         "value": "193S"
       }
     },
-    "input_tokens": 503,
-    "latency_ms": 0,
-    "output_tokens": 392
+    "input_tokens": 2321,
+    "latency_ms": 4893,
+    "output_tokens": 746
   }
 }

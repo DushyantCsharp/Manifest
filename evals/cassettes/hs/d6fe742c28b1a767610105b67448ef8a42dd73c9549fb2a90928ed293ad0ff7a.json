@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d6fe742c28b1a767610105b67448ef8a42dd73c9549fb2a90928ed293ad0ff7a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:15+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Wireless Bluetooth earbuds with charging case\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8518 Microphones and their stands; loudspeakers, mounted or not in their enclosures; headphones and earphones, combined or not with a microphone, and sets of a microphone and one or more loudspeakers; audio-frequency and electric sound amplifiers and sets\n\nChoose the subheading that covers these goods. Options:\n- 851830: Headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers\n- 851829: Loudspeakers; not mounted in their enclosures\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "22762d98c2569c50db6d6407729be448aa18c13ecfdfac84179e76aa2ea0dce3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "851830",
+      "cited": [
+        "851830"
+      ],
+      "confidence": "0.96",
+      "reason": "Wireless Bluetooth earbuds are earphones, which 851830 covers whether or not combined with a microphone; the charging case is presented with them and does not change the classification."
+    },
+    "input_tokens": 1007,
+    "latency_ms": 3062,
+    "output_tokens": 89
+  }
+}

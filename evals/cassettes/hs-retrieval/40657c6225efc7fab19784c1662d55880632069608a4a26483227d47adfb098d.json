@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "40657c6225efc7fab19784c1662d55880632069608a4a26483227d47adfb098d",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "LDPE granules, film grade, specific gravity below 0.94 origin SA",
   "limit": 20,
   "candidates": [
     {
-      "code": "390120",
-      "description": "Ethylene polymers; in primary forms, polyethylene having a specific gravity of 0.94 or more",
-      "score": "0.016393",
+      "code": "251200",
+      "description": "Siliceous fossil meals (e.g. kieselguhr, tripolite and diatomite) and similar siliceous earths; whether or not calcined, of an apparent specific gravity of 1 or less",
+      "score": "0.031099",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 8
       }
     },
     {
       "code": "390110",
       "description": "Ethylene polymers; in primary forms, polyethylene having a specific gravity of less than 0.94",
-      "score": "0.016129",
+      "score": "0.030886",
       "ranks": {
-        "lexical": 2
+        "lexical": 9,
+        "vector": 1
       }
     },
     {
       "code": "390140",
       "description": "Ethylene polymers; in primary forms, ethylene-alpha-olefin copolymers, having a specific gravity of less than 0.94",
-      "score": "0.015873",
+      "score": "0.030214",
       "ranks": {
-        "lexical": 3
+        "lexical": 11,
+        "vector": 2
       }
     },
     {
-      "code": "251200",
-      "description": "Siliceous fossil meals (e.g. kieselguhr, tripolite and diatomite) and similar siliceous earths; whether or not calcined, of an apparent specific gravity of 1 or less",
-      "score": "0.015625",
+      "code": "390120",
+      "description": "Ethylene polymers; in primary forms, polyethylene having a specific gravity of 0.94 or more",
+      "score": "0.030159",
       "ranks": {
-        "lexical": 4
+        "lexical": 10,
+        "vector": 3
       }
     },
     {
-      "code": "251520",
-      "description": "Ecaussine and other calcareous monumental or building stone; alabaster, having a specific gravity of 2.5 or more",
-      "score": "0.015385",
+      "code": "392010",
+      "description": "Plastics; plates, sheets, film, foil and strip (not self-adhesive), of polymers of ethylene, non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "score": "0.023259",
       "ranks": {
-        "lexical": 5
+        "lexical": 49,
+        "vector": 11
       }
     },
     {
-      "code": "251512",
-      "description": "Marble and travertine; merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape, having a specific gravity of 2.5 or more",
-      "score": "0.015152",
+      "code": "392020",
+      "description": "Plastics; of polymers of propylene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "score": "0.022424",
       "ranks": {
-        "lexical": 6
+        "lexical": 50,
+        "vector": 15
       }
     },
     {
       "code": "251511",
       "description": "Marble and travertine; having a specific gravity of 2.5 or more, crude or roughly trimmed by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "251512",
+      "description": "Marble and travertine; merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape, having a specific gravity of 2.5 or more",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "251520",
+      "description": "Ecaussine and other calcareous monumental or building stone; alabaster, having a specific gravity of 2.5 or more",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "540412",
+      "description": "Monofilament of polypropylene; of 67 decitex or more and of which no cross-sectional dimension exceeds 1mm",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "392049",
+      "description": "Plastics; polymers of vinyl chloride, containing by weight, less than 6% of plasticisers; plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "370120",
+      "description": "Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "390290",
+      "description": "Propylene, other olefin polymers; n.e.c. in heading no. 3902, in primary forms",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "370254",
+      "description": "Photographic film; for colour photography (polychrome), in rolls, sensitised, unexposed, of a width exceeding 16mm but not 35mm and of a length not exceeding 30m, excluding film for slides (other than of paper, paperboard or textiles)",
       "score": "0.014925",
       "ranks": {
-        "lexical": 7
+        "lexical": 7,
+        "vector": null
       }
     },
     {
-      "code": "040299",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
+      "code": "390210",
+      "description": "Propylene, other olefin polymers; polypropylene in primary forms",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "370500",
+      "description": "Photographic plates and film; exposed and developed, other than cinematographic film",
       "score": "0.014706",
       "ranks": {
-        "lexical": 8
+        "lexical": 8,
+        "vector": null
       }
     },
     {
-      "code": "040291",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
+      "code": "390230",
+      "description": "Propylene, other olefin polymers; propylene copolymers in primary forms",
       "score": "0.014493",
       "ranks": {
-        "lexical": 9
+        "lexical": null,
+        "vector": 9
       }
     },
     {
-      "code": "040229",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
+      "code": "540248",
+      "description": "Yarn, synthetic; filament, monofilament (less than 67 decitex), of polypropylene (not high tenacity or textured), single, untwisted or twisted 50 turns or less per metre, not for retail sale, not sewing thread",
       "score": "0.014286",
       "ranks": {
-        "lexical": 10
+        "lexical": null,
+        "vector": 10
       }
     },
     {
-      "code": "040210",
-      "description": "Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "040221",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
+      "code": "392321",
+      "description": "Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods",
       "score": "0.013889",
       "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "470200",
-      "description": "Wood pulp; chemical wood pulp, dissolving grades",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "470411",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of coniferous wood",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "470311",
-      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of coniferous wood",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "470419",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), unbleached, of non-coniferous wood",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "470421",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of coniferous wood",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "470319",
-      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), unbleached, of non-coniferous wood",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "470321",
-      "description": "Wood pulp; chemical wood pulp, soda or sulphate, (other than dissolving grades), semi-bleached or bleached, of coniferous wood",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "470429",
-      "description": "Wood pulp; chemical wood pulp, sulphite, (other than dissolving grades), semi-bleached or bleached, of non-coniferous wood",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 12
       }
     }
   ]

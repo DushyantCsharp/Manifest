@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "2c5a3ae82eceedcfd83a71a4b6183fa148567a446b28efd88090c18d2f42f802",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Combed cotton yarn Ne 30/1, single, not for retail sale origin IN",
   "limit": 20,
   "candidates": [
     {
-      "code": "520544",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale",
-      "score": "0.016393",
+      "code": "520543",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 232.55 to 192.31 decitex (44 to 52 metric number) per single yarn, not for retail sale",
+      "score": "0.031258",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "520644",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, less than 85% by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "520625",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, less than 85% by weight of cotton, measuring less than 125 decitex (exceeding 80 metric number), not for retail sale",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "520521",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "520528",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring less than 83.33 decitex (exceeding 120 metric number), not for retail sale",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "520621",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, less than 85% by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "520645",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, less than 85% by weight of cotton, less than 125 decitex (exceeding 80 metric number) per single yarn, not for retail sale",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
+        "lexical": 3,
+        "vector": 5
       }
     },
     {
       "code": "520541",
       "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 714.29 decitex or more (not exceeding 14 metric number) per single yarn, not for retail sale",
-      "score": "0.014706",
+      "score": "0.030282",
       "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "520624",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, less than 85% by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "520524",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "520546",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 124 to 106.38 decitex (81 to 94 metric number) per single yarn, not for retail sale",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "520623",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, less than 85% by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "520526",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 125 but not less than 106.38 decitex (over 80 but not over 94 metric number), not for retail sale",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "520543",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 232.55 to 192.31 decitex (44 to 52 metric number) per single yarn, not for retail sale",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "520548",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, less than 83.33 decitex (exceeding 120 metric number) per single yarn, not for retail sale",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "520622",
-      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, less than 85% by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "520641",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, less than 85% by weight of cotton, 714.29 decitex or more (not exceeding 14 metric number) per single yarn, not for retail sale",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "520534",
-      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
+        "lexical": 1,
+        "vector": 12
       }
     },
     {
       "code": "520523",
       "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
-      "score": "0.012658",
+      "score": "0.029462",
       "ranks": {
-        "lexical": 19
+        "lexical": 15,
+        "vector": 2
+      }
+    },
+    {
+      "code": "520546",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 124 to 106.38 decitex (81 to 94 metric number) per single yarn, not for retail sale",
+      "score": "0.028898",
+      "ranks": {
+        "lexical": 5,
+        "vector": 14
+      }
+    },
+    {
+      "code": "520527",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 106.38 but not less than 83.33 decitex (over 94 but not over 120 metric number), not for retail sale",
+      "score": "0.028446",
+      "ranks": {
+        "lexical": 18,
+        "vector": 4
+      }
+    },
+    {
+      "code": "520531",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 714.29 decitex or more (not exceeding 14 metric number) per single yarn, not for retail sale",
+      "score": "0.028373",
+      "ranks": {
+        "lexical": 20,
+        "vector": 3
+      }
+    },
+    {
+      "code": "520526",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 125 but not less than 106.38 decitex (over 80 but not over 94 metric number), not for retail sale",
+      "score": "0.028139",
+      "ranks": {
+        "lexical": 17,
+        "vector": 6
+      }
+    },
+    {
+      "code": "520522",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
+      "score": "0.027598",
+      "ranks": {
+        "lexical": 14,
+        "vector": 11
       }
     },
     {
       "code": "520542",
       "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 714.28 to 232.56 decitex (15 to 43 metric number) per single yarn, not for retail sale",
-      "score": "0.012500",
+      "score": "0.027493",
       "ranks": {
-        "lexical": 20
+        "lexical": 2,
+        "vector": 28
+      }
+    },
+    {
+      "code": "520547",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 106.37 to 83.33 decitex (95 to 120 metric number) per single yarn, not for retail sale",
+      "score": "0.027347",
+      "ranks": {
+        "lexical": 6,
+        "vector": 22
+      }
+    },
+    {
+      "code": "520521",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.027032",
+      "ranks": {
+        "lexical": 13,
+        "vector": 15
+      }
+    },
+    {
+      "code": "520513",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.026703",
+      "ranks": {
+        "lexical": 37,
+        "vector": 1
+      }
+    },
+    {
+      "code": "520533",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 232.55 to 192.31 decitex (44 to 52 metric number) per single yarn, not for retail sale",
+      "score": "0.026688",
+      "ranks": {
+        "lexical": 22,
+        "vector": 9
+      }
+    },
+    {
+      "code": "520548",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, less than 83.33 decitex (exceeding 120 metric number) per single yarn, not for retail sale",
+      "score": "0.026161",
+      "ranks": {
+        "lexical": 7,
+        "vector": 29
+      }
+    },
+    {
+      "code": "520643",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, less than 85% by weight of cotton, 232.55 to 192.31 decitex (44 to 52 metric number) per single yarn, not for retail sale",
+      "score": "0.026050",
+      "ranks": {
+        "lexical": 10,
+        "vector": 25
+      }
+    },
+    {
+      "code": "520524",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale",
+      "score": "0.025978",
+      "ranks": {
+        "lexical": 16,
+        "vector": 18
+      }
+    },
+    {
+      "code": "520544",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale",
+      "score": "0.025934",
+      "ranks": {
+        "lexical": 4,
+        "vector": 37
+      }
+    },
+    {
+      "code": "520528",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring less than 83.33 decitex (exceeding 120 metric number), not for retail sale",
+      "score": "0.025816",
+      "ranks": {
+        "lexical": 19,
+        "vector": 16
+      }
+    },
+    {
+      "code": "520623",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, less than 85% by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.025780",
+      "ranks": {
+        "lexical": 27,
+        "vector": 10
+      }
+    },
+    {
+      "code": "520532",
+      "description": "Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 714.28 to 232.56 decitex (15 to 43 metric number) per single yarn, not for retail sale",
+      "score": "0.025333",
+      "ranks": {
+        "lexical": 21,
+        "vector": 17
       }
     }
   ]

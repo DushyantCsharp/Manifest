@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "11fd1581c4fe34a17a8db4991e840f0fd04c646aeeafc2ef5a9edffbb7b5f720",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:21+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Sultana raisins, dried grapes\nCountry of origin: TR\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons\n\nChoose the heading that covers these goods. Options:\n- 0806: Grapes; fresh or dried\n    contains 080620: Fruit, edible; grapes, dried\n    contains 080610: Fruit, edible; grapes, fresh\n- 0813: Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter\n    contains 081320: Fruit, edible; prunes, dried\n    contains 081310: Fruit, edible; apricots, dried\n    contains 081340: Fruit, edible; fruit n.e.c. in heading no. 0812, dried\n    contains 081350: Nuts, edible; mixtures of nuts or dried fruits of chapter 08\n- 0812: Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption\n    contains 081210: Fruit, edible; cherries, provisionally preserved, but unsuitable in that state for immediate consumption\n- 0809: Apricots, cherries, peaches (including nectarines), plums and sloes, fresh\n    contains 080929: Fruit, edible; cherries, other than sour cherries (Prunus cerasus), fresh\n    contains 080921: Fruit, edible; sour cherries (Prunus cerasus), fresh\n    contains 080940: Fruit, edible; plums and sloes, fresh\n- 0805: Citrus fruit; fresh or dried\n    contains 080521: Fruit, edible; mandarins (including tangerines and satsumas), fresh or dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4738b4b6ad23b065748596bd318fa4a91163c6b65bbeea2d940a88dd2b57796d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0806",
+      "cited": [
+        "0806",
+        "080620"
+      ],
+      "confidence": "0.99",
+      "reason": "Sultana raisins are dried grapes, which heading 0806 covers explicitly (subheading 080620), and 0813 excludes fruit of headings 0801 to 0806."
+    },
+    "input_tokens": 1332,
+    "latency_ms": 3067,
+    "output_tokens": 95
+  }
+}

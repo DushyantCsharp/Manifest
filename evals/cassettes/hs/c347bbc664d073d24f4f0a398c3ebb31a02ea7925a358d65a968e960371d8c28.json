@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "c347bbc664d073d24f4f0a398c3ebb31a02ea7925a358d65a968e960371d8c28",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:48+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Wireless optical computer mouse\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 853670: Connectors for optical fibres, optical fibre bundles or cables\n    contains 854470: Insulated electric conductors; optical fibre cables\n    contains 853641: Electrical apparatus; relays, (for a voltage not exceeding 60 volts)\n    contains 853649: Electrical apparatus; relays, for a voltage exceeding 60 volts\n    contains 852692: Radio remote control apparatus\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 900190: Optical elements; lenses n.e.c. in heading no. 9001, prisms, mirrors and other optical elements, unmounted, of any material (excluding elements of glass not optically worked)\n    contains 900130: Lenses, contact; unmounted, of any material, excluding elements of glass not optically worked\n    contains 900110: Optical fibres, optical fibre bundles and cables; excluding those of heading no. 8544\n    contains 901380: Optical devices, appliances and instruments; n.e.c. in heading no. 9013\n    contains 901390: Optical appliances and instruments; parts and accessories for articles of heading no. 9013\n    contains 901310: Optical appliances and instruments; telescopic sights for fitting to arms; periscopes; telescopes designed to form parts of machines, appliances, instruments or apparatus of this chapter\n    contains 900290: Optical elements; n.e.c. in heading no. 9002 (e.g. prisms and mirrors), mounted, being parts or fittings for instruments or apparatus, of any material (excluding elements of glass not optically worked)\n    contains 900120: Optical elements; polarising material, sheets and plates thereof\n    contains 900140: Lenses, spectacle; unmounted, of glass, excluding elements of glass not optically worked\n    contains 900150: Lenses, spectacle; unmounted, of materials other than glass\n    contains 900580: Monoculars; other optical telescopes and astronomical instruments, excluding instruments for radio-astronomy\n    contains 903141: Optical instruments and appliances; for inspecting semiconductor wafers or devices or for inspecting photomasks or reticles used in manufacturing semiconductor devices, n.e.c. in chapter 90\n    contains 901320: Lasers; other than laser diodes\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 847521: Machines; for manufacturing or hot working glass or glassware, for making optical fibres and preforms thereof\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "beed87dea7502caf391be933acdc402ceebe68b20d300c61038a472df1e1080f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84"
+      ],
+      "confidence": "0.9",
+      "reason": "A computer mouse is an input unit of an automatic data processing machine, classified in heading 8471 (subheading 847160) in Chapter 84, not Chapter 85 or 90 despite the optical sensing and wireless features."
+    },
+    "input_tokens": 1847,
+    "latency_ms": 2992,
+    "output_tokens": 105
+  }
+}

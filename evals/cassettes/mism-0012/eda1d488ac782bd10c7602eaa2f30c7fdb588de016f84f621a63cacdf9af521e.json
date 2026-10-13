@@ -2,8 +2,8 @@
   "format": 1,
   "key": "eda1d488ac782bd10c7602eaa2f30c7fdb588de016f84f621a63cacdf9af521e",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:22+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Van Leeuwen Buizen",
+        "confidence": "0.9",
+        "evidence": "Van Leeuwen Buizen\nDuukpad 05",
         "value": "Van Leeuwen Buizen"
       },
       "currency": {
@@ -25,8 +25,8 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Lieferbedingung / Incoterms® 2020 DDP Rotterdam",
+        "confidence": "0.95",
+        "evidence": "Incoterms® 2020 DDP Rotterdam",
         "value": "DDP Rotterdam"
       },
       "invoice_date": {
@@ -42,171 +42,171 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30",
+            "confidence": "0.95",
+            "evidence": "3,53 10.272,30",
             "value": "10.272,30"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Bùi Tập Đoàn · Số 5/88 Ngõ 53 Nguyễn Tất Thành · 43460 Hai Phong · Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "lid VN 2.910",
+            "value": "VN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.6",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30",
             "value": "Plastic storage box 30L with lid"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30",
+            "confidence": "0.95",
+            "evidence": "VN 2.910 pcs 3,53 10.272,30",
             "value": "2.910"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30",
+            "confidence": "0.96",
+            "evidence": "2.910 pcs 3,53",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30",
+            "confidence": "0.95",
+            "evidence": "pcs 3,53 10.272,30",
             "value": "3,53"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 6,05 42.350,00",
+            "confidence": "0.95",
+            "evidence": "6,05 42.350,00",
             "value": "42.350,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Bùi Tập Đoàn · Số 5/88 Ngõ 53 Nguyễn Tất Thành · 43460 Hai Phong · Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "long sleeve VN 7.000",
+            "value": "VN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.6",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 6,05 42.350,00",
             "value": "Men's woven cotton shirt, long sleeve"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 6,05 42.350,00",
+            "confidence": "0.95",
+            "evidence": "VN 7.000 pcs 6,05 42.350,00",
             "value": "7.000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30",
+            "confidence": "0.96",
+            "evidence": "7.000 pcs 6,05",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 6,05 42.350,00",
+            "confidence": "0.95",
+            "evidence": "pcs 6,05 42.350,00",
             "value": "6,05"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 83,83 11.987,69",
+            "confidence": "0.95",
+            "evidence": "83,83 11.987,69",
             "value": "11.987,69"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Bùi Tập Đoàn · Số 5/88 Ngõ 53 Nguyễn Tất Thành · 43460 Hai Phong · Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "monocrystalline VN 143",
+            "value": "VN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.6",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 83,83 11.987,69",
             "value": "Solar PV module 410W monocrystalline"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 83,83 11.987,69",
+            "confidence": "0.95",
+            "evidence": "VN 143 pcs 83,83 11.987,69",
             "value": "143"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 3,53 10.272,30",
+            "confidence": "0.96",
+            "evidence": "143 pcs 83,83",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 83,83 11.987,69",
+            "confidence": "0.95",
+            "evidence": "pcs 83,83 11.987,69",
             "value": "83,83"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 3,03 25.452,00",
+            "confidence": "0.95",
+            "evidence": "3,03 25.452,00",
             "value": "25.452,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Bùi Tập Đoàn · Số 5/88 Ngõ 53 Nguyễn Tất Thành · 43460 Hai Phong · Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "grade 1 VN 8.400",
+            "value": "VN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.6",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 3,03 25.452,00",
             "value": "Green Arabica coffee beans, grade 1"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 3,03 25.452,00",
+            "confidence": "0.95",
+            "evidence": "VN 8.400 kg 3,03 25.452,00",
             "value": "8.400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 3,03 25.452,00",
+            "confidence": "0.96",
+            "evidence": "8.400 kg 3,03",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 3,03 25.452,00",
+            "confidence": "0.95",
+            "evidence": "kg 3,03 25.452,00",
             "value": "3,03"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Zahlungsbedingung / Payment L/C at sight",
         "value": "L/C at sight"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Bùi Tập Đoàn · Số 5/88 Ngõ 53 Nguyễn Tất Thành · 43460 Hai Phong · Vietnam",
+        "confidence": "0.85",
+        "evidence": "Bùi Tập Đoàn · Số 5/88 Ngõ 53 Nguyễn Tất Thành",
         "value": "Bùi Tập Đoàn"
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Gesamtbetrag / Total 90.061,99 EUR",
         "value": "90.061,99"
       }
     },
-    "input_tokens": 462,
-    "latency_ms": 0,
-    "output_tokens": 1243
+    "input_tokens": 2408,
+    "latency_ms": 8738,
+    "output_tokens": 1673
   }
 }

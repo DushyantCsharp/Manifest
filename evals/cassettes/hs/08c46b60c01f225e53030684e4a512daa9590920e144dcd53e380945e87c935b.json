@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "08c46b60c01f225e53030684e4a512daa9590920e144dcd53e380945e87c935b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:17+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Laundry detergent powder, retail packs\nCountry of origin: TR\n\nChoose the chapter that covers these goods. Options:\n- 38: Chemical products n.e.c.\n    contains 380862: Insecticides; containing goods specified in Subheading Note 2 to this Chapter; put up in forms or packings for retail sale or as preparations or articles, in packings of a net weight content exceeding 300g but not exceeding 7.5kg\n    contains 380869: Insecticides; containing goods named in Subheading Note 2 to this Chapter, put up in forms or packings for retail sale or as preparations or articles, in packings of a net weight content exceeding 7.5kg\n    contains 380852: Insecticides and the like; containing goods specified in Subheading Note 1 to this Chapter; for retail sale or as preparations or articles; DDT (ISO) (clofenotane (INN)), in packings of 300g or less\n    contains 380894: Disinfectants; other than containing goods specified in Subheading Note 1 in this Chapter; put up in forms or packings for retail sale or as preparations or articles\n    contains 380861: Insecticides and the like; containing goods specified in Subheading Note 2 to this Chapter; in packings of a net weight content not exceeding 300g; for retail sale or as preparations or articles\n- 34: Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster\n    contains 340250: Washing and cleaning preparations; powders, flakes and granules, surface-active, whether or not containing soap (excluding those of heading no. 3401), put up for retail sale\n    contains 340119: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use\n    contains 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n    contains 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n    contains 340700: Modelling pastes; preparations known as dental wax, put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms, other preparations for use in dentistry\n- 63: Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n    contains 630800: Fabrics, woven and yarn; in sets, whether or not with accessories, for making up into rugs, tapestries, embroidered table cloths or serviettes or similar textile articles, packaged for retail sale\n- 30: Pharmaceutical products\n    contains 300490: Medicaments; consisting of mixed or unmixed products n.e.c. in heading no. 3004, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300449: Medicaments; containing alkaloids or their derivatives; other than ephedrine, pseudoephedrine (INN) or norephedrine or their salts; for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300442: Medicaments; containing alkaloids or their derivatives, containing pseudoephedrine (INN) or its salts, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300441: Medicaments; containing alkaloids or their derivatives, containing ephedrine or its salts, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300439: Medicaments; containing hormones (but not insulin), adrenal cortex hormones or antibiotics, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300443: Medicaments; containing alkaloids or their derivatives, containing norephedrine or its salts, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300510: Dressings, adhesive; and other articles having an adhesive layer, packed for retail sale for medical, surgical, dental or veterinary purposes\n- 05: Animal originated products; not elsewhere specified or included\n    contains 050590: Animal products; skins and other parts of birds, feathers and down (not for stuffing), powder and waste of such, not further worked than cleaned, disinfected or treated for preservation\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "54bfb0a2dd4e4f6e9b9864b2d2d9ab4b95a0e10cc9d95ccf615071923cfaba9d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "34",
+      "cited": [
+        "34",
+        "340250"
+      ],
+      "confidence": "0.97",
+      "reason": "Laundry detergent powder put up for retail sale is a surface-active washing preparation in powder form, covered by heading 3402 (subheading 340250) in Chapter 34."
+    },
+    "input_tokens": 2432,
+    "latency_ms": 3036,
+    "output_tokens": 92
+  }
+}

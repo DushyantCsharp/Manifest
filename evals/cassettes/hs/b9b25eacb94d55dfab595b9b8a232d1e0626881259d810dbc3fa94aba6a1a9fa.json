@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "b9b25eacb94d55dfab595b9b8a232d1e0626881259d810dbc3fa94aba6a1a9fa",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:11+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Paracetamol 500mg tablets in retail packs\nCountry of origin: IN\n\nChosen so far: 30 Pharmaceutical products\n\nChoose the heading that covers these goods. Options:\n- 3003: Medicaments; (not goods of heading no. 3002, 3005 or 3006) of two or more constituents mixed together for therapeutic or prophylactic use not in measured doses or in forms or packings for retail sale\n    contains 300342: Medicaments; containing alkaloids or their derivatives, containing pseudoephedrine (INN) or its salts, for therapeutic or prophylactic uses, (not packaged for retail sale)\n    contains 300349: Medicaments; containing alkaloids or their derivatives; other than ephedrine, pseudoephedrine (INN) or norephedrine or their salts; for therapeutic or prophylactic uses, (not packaged for retail sale)\n    contains 300343: Medicaments; containing alkaloids or their derivatives, containing norephedrine or its salts, for therapeutic or prophylactic uses, (not packaged for retail sale)\n    contains 300341: Medicaments; containing alkaloids or their derivatives, containing ephedrine or its salts, for therapeutic or prophylactic uses, (not packaged for retail sale)\n    contains 300310: Medicaments; containing penicillins, streptomycins or their derivatives, for therapeutic or prophylactic uses, (not in measured doses, not packaged for retail sale)\n    contains 300390: Medicaments; (not containing antibiotics, hormones, alkaloids or their derivatives), for therapeutic or prophylactic uses, (not packaged for retail sale)\n    contains 300339: Medicaments; containing hormones (excluding insulin), (but not containing antibiotics), for therapeutic or prophylactic uses, not packaged for retail sale\n    contains 300360: Medicaments; containing antimalarial active principles described in subheading note 2 to this chapter, for therapeutic or prophylactic uses, (not packaged for retail sale)\n    contains 300331: Medicaments; containing insulin, for therapeutic or prophylactic uses, not packaged for retail sale\n- 3004: Medicaments; (not goods of heading no. 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic use, put up in measured doses (incl. those in the form of transdermal admin. systems) or packed for retail sale\n    contains 300442: Medicaments; containing alkaloids or their derivatives, containing pseudoephedrine (INN) or its salts, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300449: Medicaments; containing alkaloids or their derivatives; other than ephedrine, pseudoephedrine (INN) or norephedrine or their salts; for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300443: Medicaments; containing alkaloids or their derivatives, containing norephedrine or its salts, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300441: Medicaments; containing alkaloids or their derivatives, containing ephedrine or its salts, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300490: Medicaments; consisting of mixed or unmixed products n.e.c. in heading no. 3004, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300439: Medicaments; containing hormones (but not insulin), adrenal cortex hormones or antibiotics, for therapeutic or prophylactic uses, packaged for retail sale\n    contains 300410: Medicaments; containing penicillins, streptomycins or their derivatives, for therapeutic or prophylactic uses, packaged for retail sale\n- 3005: Wadding, gauze, bandages (dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or in forms or packings for retail sale, for medical, surgical or veterinary use\n    contains 300510: Dressings, adhesive; and other articles having an adhesive layer, packed for retail sale for medical, surgical, dental or veterinary purposes\n- 3002: Human blood; animal blood for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions, immunological products, modified or obtained by biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) etc\n    contains 300215: Blood, human or animal, antisera, other blood fractions and immunological products; immunological products, put up in measured doses or in forms or packings for retail sale\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "569be3547fba2766529223998efa8a25c7b9c1fc03ab7871486683fa02f59493",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3004",
+      "cited": [
+        "3004",
+        "300490"
+      ],
+      "confidence": "0.97",
+      "reason": "Paracetamol 500mg tablets are medicaments put up in measured doses and packed for retail sale, so heading 3004 applies rather than 3003, which excludes retail or measured-dose forms."
+    },
+    "input_tokens": 2330,
+    "latency_ms": 2941,
+    "output_tokens": 102
+  }
+}

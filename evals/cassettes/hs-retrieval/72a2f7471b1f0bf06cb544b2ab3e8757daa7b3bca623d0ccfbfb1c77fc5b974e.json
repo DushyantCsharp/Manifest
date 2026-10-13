@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "72a2f7471b1f0bf06cb544b2ab3e8757daa7b3bca623d0ccfbfb1c77fc5b974e",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Solid oak bed frame, queen size origin VN",
   "limit": 20,
   "candidates": [
     {
-      "code": "160552",
-      "description": "Mollusc preparations; scallops, including queen scallops, prepared or preserved",
-      "score": "0.016393",
+      "code": "940141",
+      "description": "Seats; convertible into beds of wood, other than garden seats or camping equipment",
+      "score": "0.030077",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "440391",
-      "description": "Wood; oak, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "040299",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "040291",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "940161",
-      "description": "Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "940171",
-      "description": "Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
+        "lexical": 6,
+        "vector": 7
       }
     },
     {
       "code": "940169",
       "description": "Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
-      "score": "0.014925",
+      "score": "0.029199",
       "ranks": {
-        "lexical": 7
+        "lexical": 9,
+        "vector": 8
       }
     },
     {
-      "code": "940179",
-      "description": "Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
-      "score": "0.014706",
+      "code": "940161",
+      "description": "Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
+      "score": "0.027364",
       "ranks": {
-        "lexical": 8
+        "lexical": 8,
+        "vector": 19
       }
     },
     {
-      "code": "040229",
-      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-      "score": "0.014493",
+      "code": "940149",
+      "description": "Seats; convertible into beds of other than wood, other than garden seats or camping equipment",
+      "score": "0.026974",
       "ranks": {
-        "lexical": 9
+        "lexical": 7,
+        "vector": 23
       }
     },
     {
-      "code": "481810",
-      "description": "Paper articles; toilet paper",
-      "score": "0.014286",
+      "code": "940490",
+      "description": "Bedding and similar furnishing articles; n.e.c. in heading no. 9404 (e.g. quilts, eiderdowns, cushions, pouffes and pillows)",
+      "score": "0.024688",
       "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "040210",
-      "description": "Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "040221",
-      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "440791",
-      "description": "Wood; oak (Quercus spp.), sawn or chipped lengthwise, sliced or peeled, whether or not planed, sanded or finger-jointed, thicker than 6mm",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "481830",
-      "description": "Paper articles; tablecloths and serviettes, of paper, cellulose wadding or fibres",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "481850",
-      "description": "Paper articles; apparel and clothing accessories of paper, cellulose wadding or fibres",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "481820",
-      "description": "Paper articles; handkerchiefs, cleansing or facial tissues and towels",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "481890",
-      "description": "Paper articles; articles of paper, cellulose wadding or fibres, n.e.c. in heading no. 4818",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "441233",
-      "description": "Plywood; with sheets of wood only; not bamboo; each ply 6mm or less, with at least one outer ply of alder, ash, beech, birch, cherry, chestnut, elm, eucalyptus, hickory, horse chestnut, lime, maple, oak, plane, poplar, aspen, robinia, tulipwood or walnut",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "392520",
-      "description": "Plastics; builders' ware, doors, windows and their frames and thresholds for doors",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
+        "lexical": 13,
+        "vector": 31
       }
     },
     {
       "code": "441410",
       "description": "Wooden frames; for paintings, photographs, mirrors or similar objects; of tropical wood",
-      "score": "0.012500",
+      "score": "0.023990",
       "ranks": {
-        "lexical": 20
+        "lexical": 39,
+        "vector": 12
+      }
+    },
+    {
+      "code": "940179",
+      "description": "Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
+      "score": "0.023793",
+      "ranks": {
+        "lexical": 11,
+        "vector": 43
+      }
+    },
+    {
+      "code": "441490",
+      "description": "Wooden frames; for paintings, photographs, mirrors or similar objects; not of tropical wood",
+      "score": "0.023333",
+      "ranks": {
+        "lexical": 40,
+        "vector": 15
+      }
+    },
+    {
+      "code": "940290",
+      "description": "Furniture; for medical, surgical, veterinary use (e.g. operating tables, examination tables, hospital beds with mechanical fittings) and parts thereof",
+      "score": "0.023063",
+      "ranks": {
+        "lexical": 12,
+        "vector": 49
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "940350",
+      "description": "Furniture; wooden, for bedroom use",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "660320",
+      "description": "Umbrella frames; including frames mounted on shafts (sticks)",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "940389",
+      "description": "Furniture; of cane, osier, or similar materials (other than bamboo or rattan)",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "847480",
+      "description": "Machines; for agglomerating, shaping or moulding solid mineral fuels, ceramic paste, unhardened cements, plastering materials in powder or paste form, machines for forming foundry moulds of sand",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "940360",
+      "description": "Furniture; wooden, other than for office, kitchen or bedroom use",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "847490",
+      "description": "Machines, for sorting, screening, separating, washing, crushing etc mineral substances, for agglomerating, shaping or moulding solid fuels, ceramic pastes etc, for forming foundry moulds of sand; parts",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "940159",
+      "description": "Seats; of cane, osier or similar materials, other than bamboo or rattan",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "440391",
+      "description": "Wood; oak, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "940391",
+      "description": "Furniture; parts, of wood",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
       }
     }
   ]

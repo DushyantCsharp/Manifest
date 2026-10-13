@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "c467a57d62d81e392d55c2baf777afcf96dbfd8505011f3828b1906c7ff90f2c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Inflatable PVC beach ball 40cm\nCountry of origin: CN\n\nChosen so far: 95 Toys, games and sports requisites; parts and accessories thereof > 9506 Gymnastics, athletics, other sports (including table tennis) or outdoor games equipment, n.e.c. in this chapter, swimming pools and paddling pools\n\nChoose the subheading that covers these goods. Options:\n- 950662: Balls; inflatable\n- 950669: Balls; (other than inflatable or for lawn-tennis, golf or table-tennis)\n- 950632: Golf balls\n- 950661: Lawn-tennis balls\n- 950639: Golf equipment; other than clubs and balls\n- 950621: Sailboards; for water sport\n- 950629: Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0574481b9cbe4f635cddb1465ea98f50d9cd009816df88d4b0355860d2506291",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "950662",
+      "cited": [
+        "950662"
+      ],
+      "confidence": "0.95",
+      "reason": "An inflatable PVC beach ball is an inflatable ball, which falls under subheading 9506.62 (balls; inflatable)."
+    },
+    "input_tokens": 1056,
+    "latency_ms": 2943,
+    "output_tokens": 78
+  }
+}

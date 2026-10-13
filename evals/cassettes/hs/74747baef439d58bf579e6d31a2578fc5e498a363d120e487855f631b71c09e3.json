@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "74747baef439d58bf579e6d31a2578fc5e498a363d120e487855f631b71c09e3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:54+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Solid oak bed frame, queen size\nCountry of origin: VN\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n\nChoose the heading that covers these goods. Options:\n- 9401: Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof\n    contains 940141: Seats; convertible into beds of wood, other than garden seats or camping equipment\n    contains 940169: Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940149: Seats; convertible into beds of other than wood, other than garden seats or camping equipment\n    contains 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940159: Seats; of cane, osier or similar materials, other than bamboo or rattan\n- 9404: Mattress supports; articles of bedding (e.g. mattresses, quilts, eiderdowns, cushions pouffes and pillows), fitted with springs or stuffed, whether or not covered\n    contains 940490: Bedding and similar furnishing articles; n.e.c. in heading no. 9404 (e.g. quilts, eiderdowns, cushions, pouffes and pillows)\n- 9402: Furniture; medical, surgical, dental or veterinary (e.g. operating tables, hospital beds, dentists' chairs) barbers' chairs; parts\n    contains 940290: Furniture; for medical, surgical, veterinary use (e.g. operating tables, examination tables, hospital beds with mechanical fittings) and parts thereof\n- 9403: Furniture and parts thereof, n.e.c. in chapter 94\n    contains 940350: Furniture; wooden, for bedroom use\n    contains 940389: Furniture; of cane, osier, or similar materials (other than bamboo or rattan)\n    contains 940360: Furniture; wooden, other than for office, kitchen or bedroom use\n    contains 940391: Furniture; parts, of wood\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f26b34cc1e0d9ac52de685e5d2953630abf9e1f615fc827c47b341ae4644b321",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9403",
+      "cited": [
+        "9403",
+        "940350"
+      ],
+      "confidence": "0.93",
+      "reason": "A wooden bed frame is bedroom furniture not covered by seats, mattress supports/bedding or medical furniture, so it falls in the residual furniture heading 9403 (subheading 940350 for wooden bedroom furniture)."
+    },
+    "input_tokens": 1564,
+    "latency_ms": 2975,
+    "output_tokens": 114
+  }
+}

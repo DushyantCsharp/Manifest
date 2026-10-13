@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b360c3323a39b23e93b84e97ceef8b7845778780bf77a4af92e95e15ba94c731",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:25+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,17 +15,17 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Jones, Hutchinson and Marshall",
+        "confidence": "0.9",
+        "evidence": "Jones, Hutchinson and\nMarshall",
         "value": "Jones, Hutchinson and Marshall"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "All amounts are in US dollars (USD). Please quote invoice 2026/1389 with your payment.",
+        "confidence": "0.93",
+        "evidence": "All amounts are in US dollars (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "CPT Manchester (Incoterms 2020)",
         "value": "CPT Manchester"
       },
@@ -42,86 +42,86 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade 1 Brazil 7,020 kg 3.62 25,412.40",
+            "confidence": "0.96",
+            "evidence": "3.62 25,412.40",
             "value": "25,412.40"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade 1 Brazil 7,020 kg 3.62 25,412.40",
+            "confidence": "0.95",
+            "evidence": "grade 1 Brazil 7,020",
             "value": "Brazil"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.85",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "01 Green Arabica coffee beans, grade 1 Brazil 7,020 kg 3.62 25,412.40",
             "value": "Green Arabica coffee beans, grade 1"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade 1 Brazil 7,020 kg 3.62 25,412.40",
+            "confidence": "0.96",
+            "evidence": "Brazil 7,020 kg 3.62 25,412.40",
             "value": "7,020"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade 1 Brazil 7,020 kg 3.62 25,412.40",
+            "confidence": "0.95",
+            "evidence": "7,020 kg 3.62",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade 1 Brazil 7,020 kg 3.62 25,412.40",
+            "confidence": "0.96",
+            "evidence": "kg 3.62 25,412.40",
             "value": "3.62"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "02 A4 copy paper 80gsm, ream Brazil 5,355 pcs 2.42 12,959.10",
+            "confidence": "0.96",
+            "evidence": "2.42 12,959.10",
             "value": "12,959.10"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "01 Green Arabica coffee beans, grade 1 Brazil 7,020 kg 3.62 25,412.40",
+            "confidence": "0.95",
+            "evidence": "ream Brazil 5,355",
             "value": "Brazil"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.85",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "02 A4 copy paper 80gsm, ream Brazil 5,355 pcs 2.42 12,959.10",
             "value": "A4 copy paper 80gsm, ream"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "02 A4 copy paper 80gsm, ream Brazil 5,355 pcs 2.42 12,959.10",
+            "confidence": "0.96",
+            "evidence": "Brazil 5,355 pcs 2.42 12,959.10",
             "value": "5,355"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "02 A4 copy paper 80gsm, ream Brazil 5,355 pcs 2.42 12,959.10",
+            "confidence": "0.95",
+            "evidence": "5,355 pcs 2.42",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "02 A4 copy paper 80gsm, ream Brazil 5,355 pcs 2.42 12,959.10",
+            "confidence": "0.96",
+            "evidence": "pcs 2.42 12,959.10",
             "value": "2.42"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "30% deposit, 70% against copy of B/L",
+        "confidence": "0.93",
+        "evidence": "Terms: 30% deposit, 70% against copy\nof B/L",
         "value": "30% deposit, 70% against copy of B/L"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.6",
         "evidence": "Silva I N VO I C E",
         "value": "Silva"
       },
@@ -131,8 +131,8 @@
         "value": "38,371.50"
       }
     },
-    "input_tokens": 401,
-    "latency_ms": 0,
-    "output_tokens": 691
+    "input_tokens": 2231,
+    "latency_ms": 6005,
+    "output_tokens": 1018
   }
 }

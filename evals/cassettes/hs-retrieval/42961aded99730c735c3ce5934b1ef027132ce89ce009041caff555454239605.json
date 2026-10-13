@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "42961aded99730c735c3ce5934b1ef027132ce89ce009041caff555454239605",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Lager beer made from malt, 330ml cans origin MX",
   "limit": 20,
   "candidates": [
     {
       "code": "220300",
       "description": "Beer; made from malt",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "220291",
-      "description": "Non-alcoholic beverages; non-alcoholic beer",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "220299",
-      "description": "Non-alcoholic beverages; other than non-alcoholic beer, n.e.c. in item no. 2202.10, not including fruit, nut or vegetable juices of heading no. 2009",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "910811",
-      "description": "Watch movements; complete and assembled, electrically operated, with mechanical display only or with a device to which a mechanical display can be incorporated",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "110720",
       "description": "Malt; roasted",
-      "score": "0.015385",
+      "score": "0.027757",
       "ranks": {
-        "lexical": 5
+        "lexical": 26,
+        "vector": 2
       }
     },
     {
       "code": "110710",
       "description": "Malt; not roasted",
-      "score": "0.015152",
+      "score": "0.027390",
       "ranks": {
-        "lexical": 6
+        "lexical": 25,
+        "vector": 4
       }
     },
     {
-      "code": "842230",
-      "description": "Machinery; for filling, closing, sealing, capsuling or labelling bottles, cans, bags or other containers, machinery for aerating beverages",
-      "score": "0.014925",
+      "code": "190110",
+      "description": "Food preparations; of flour, meal, starch, malt extract or milk products, suitable for infants or young children, put up for retail sale",
+      "score": "0.024444",
       "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "731010",
-      "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (excluding compressed or liquefied gas), 50l or more capacity but not exceeding 300l",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "731021",
-      "description": "Cans; which are to be closed by soldering or crimping, for any material (excluding compressed or liquefied gas), less than 50l capacity, of iron or steel",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "761290",
-      "description": "Aluminium; casks, drums, cans, boxes and the like for any material (not compressed or liquefied gas), 300l capacity or less, whether or not lined or heat-insulated, no mechanical or thermal equipment",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "293979",
-      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "846510",
-      "description": "Machine-tools; which can carry out different types of machining operations without tool change between such operations, for working wood, cork, bone, hard rubber, hard plastics or similar",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "110820",
-      "description": "Inulin",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
+        "lexical": 30,
+        "vector": 15
       }
     },
     {
       "code": "190190",
       "description": "Food preparations; of flour, meal, starch, malt extract or milk products, for uses n.e.c. in heading no. 1901",
-      "score": "0.012821",
+      "score": "0.022100",
       "ranks": {
-        "lexical": 18
+        "lexical": 31,
+        "vector": 30
       }
     },
     {
-      "code": "110811",
-      "description": "Starch; wheat",
-      "score": "0.012658",
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016129",
       "ranks": {
-        "lexical": 19
+        "lexical": 2,
+        "vector": null
       }
     },
     {
-      "code": "110813",
-      "description": "Starch; potato",
-      "score": "0.012500",
+      "code": "220291",
+      "description": "Non-alcoholic beverages; non-alcoholic beer",
+      "score": "0.015873",
       "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "460211",
+      "description": "Basketwork, wickerwork and other articles; of bamboo, made directly to shape from plaiting materials or made up from goods of heading no. 4601",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "460212",
+      "description": "Basketwork, wickerwork and other articles; of rattan, made directly to shape from plaiting materials or made up from goods of heading no. 4601",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "460219",
+      "description": "Basketwork, wickerwork and other articles; of vegetable materials (not bamboo or rattan), made directly to shape from plaiting materials or made up from goods of heading no. 4601; articles of loofah",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "731021",
+      "description": "Cans; which are to be closed by soldering or crimping, for any material (excluding compressed or liquefied gas), less than 50l capacity, of iron or steel",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "130213",
+      "description": "Vegetable saps and extracts; of hops",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "460290",
+      "description": "Basketwork, wickerwork and other articles; of non-vegetable materials, made directly to shape from plaiting materials or made up from goods of heading no. 4601",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "230330",
+      "description": "Brewing or distilling dregs and waste; whether or not in the form of pellets",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "560811",
+      "description": "Twine, cordage or rope; fishing nets, made up, of man made textile materials",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "170220",
+      "description": "Sugars; maple sugar, chemically pure, in solid form; maple syrup, not containing added flavouring or colouring matter",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "650200",
+      "description": "Hat-shapes; plaited or made by assembling strips of any material, neither blocked to shape, nor with made brims, nor lined, nor trimmed",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "210330",
+      "description": "Mustard flour and meal and prepared mustard",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "570232",
+      "description": "Carpets and other textile floor coverings; woven, (not tufted or flocked), of man-made textile materials, of pile construction, not made up, n.e.c. in item no. 5702.10 or 5702.20",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "170390",
+      "description": "Sugars; molasses, from sugar beet, resulting from the extraction or refining of sugar",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
       }
     }
   ]

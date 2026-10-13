@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "861cd3cb2c17d00a1419eb00dcfcc817d42a21d4809a3fca4e41d51a63643e4d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:30+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cardigan, knitted, 80% wool 20% nylon\nCountry of origin: IT\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted > 6110 Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted\n\nChoose the subheading that covers these goods. Options:\n- 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n- 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n- 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n- 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n- 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n- 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7b6d04cb1ab4da76e9ef6f9ad49c1d7275094c015f3d49e6670cb9e3d10c394b",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "611011",
+      "cited": [
+        "611011"
+      ],
+      "confidence": "0.9",
+      "reason": "Wool predominates by weight (80%) over nylon, so the cardigan is classified as of wool under 6110 11, and the other subheadings cover cashmere, fine animal hair, cotton, man-made fibres or other materials.}"
+    },
+    "input_tokens": 1221,
+    "latency_ms": 3478,
+    "output_tokens": 110
+  }
+}

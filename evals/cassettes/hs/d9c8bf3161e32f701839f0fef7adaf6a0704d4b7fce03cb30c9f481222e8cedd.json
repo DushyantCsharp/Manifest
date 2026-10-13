@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "d9c8bf3161e32f701839f0fef7adaf6a0704d4b7fce03cb30c9f481222e8cedd",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:37+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Combined refrigerator-freezer 300L with separate external doors\nCountry of origin: TR\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841810: Refrigerators and freezers; combined refrigerator-freezers, fitted with separate external doors, electric or other\n    contains 841891: Refrigerating or freezing equipment; parts, furniture designed to receive refrigerating or freezing equipment\n    contains 841830: Freezers; of the chest type, not exceeding 800l capacity\n    contains 841840: Freezers; of the upright type, not exceeding 900l capacity\n    contains 841821: Refrigerators; for household use, compression-type, electric or other\n    contains 841850: Furniture incorporating refrigerating or freezing equipment; for storage and display, n.e.c. in item no. 8418.1, 8418.2, 8418.3 or 8418.4 (chests, cabinets, display counters, show-cases and the like)\n    contains 841899: Refrigerating or freezing equipment; parts thereof, other than furniture\n    contains 841829: Refrigerators; household, electric or not, other than compression-type\n    contains 841869: Refrigerating or freezing equipment; n.e.c. in heading no. 8418\n- 39: Plastics and articles thereof\n    contains 392520: Plastics; builders' ware, doors, windows and their frames and thresholds for doors\n    contains 392510: Plastics; builders' ware, reservoirs, tanks, vats and similar containers of a capacity exceeding 300 litres\n- 73: Iron or steel articles\n    contains 730830: Iron or steel; structures and parts thereof, doors, windows and their frames and thresholds for doors\n    contains 730900: Reservoirs, tanks, vats and similar containers; for any material (excluding compressed or liquefied gas), of iron or steel, capacity exceeding 300l, whether or not lined or heat insulated\n- 83: Metal; miscellaneous products of base metal\n    contains 830260: Automatic door closures; of base metal\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 852713: Radio broadcast receivers capable of operating without an external power source; apparatus (other than pocket-size radio cassette-players), combined with sound recording or reproducing apparatus\n    contains 852721: Radio-broadcast receivers not capable of operating without an external source of power, of a kind used in motor vehicles; combined with sound recording or reproducing apparatus\n    contains 852729: Radio-broadcast receivers not capable of operating without an external source of power, of a kind used in motor vehicles; not combined with sound recording or reproducing apparatus\n    contains 852792: Radio-broadcast receivers n.e.c. in heading no. 8527; not combined with sound recording or reproducing apparatus but combined with a clock\n    contains 852799: Radio-broadcast receivers n.e.c. in heading no. 8527; not combined with sound recording or reproducing apparatus and not combined with a clock\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5fac5918ec72970410cd5ef669b6e596742d989195d1da0f4ac3afe45c1c3ee3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84",
+        "841810"
+      ],
+      "confidence": "0.98",
+      "reason": "Combined refrigerator-freezers with separate external doors are expressly covered by subheading 841810 in Chapter 84 (heading 8418)."
+    },
+    "input_tokens": 1966,
+    "latency_ms": 2834,
+    "output_tokens": 83
+  }
+}

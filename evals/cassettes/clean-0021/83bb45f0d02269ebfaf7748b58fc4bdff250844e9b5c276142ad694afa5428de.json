@@ -2,8 +2,8 @@
   "format": 1,
   "key": "83bb45f0d02269ebfaf7748b58fc4bdff250844e9b5c276142ad694afa5428de",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:58+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,27 +15,27 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Savage, Huffman and Waters",
         "value": "Savage, Huffman and Waters"
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Currency: USD",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Terms of Sale: FCA Tiruppur (Incoterms 2020)",
         "value": "FCA Tiruppur"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice Date 03/28/2026",
         "value": "03/28/2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice No. INV-2026-47166",
         "value": "INV-2026-47166"
       },
@@ -43,37 +43,37 @@
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "evidence": "20.60 45,320.00",
             "value": "45,320.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "confidence": "0.96",
+            "evidence": "ionic China 2,200",
             "value": "China"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.7",
+            "evidence": "Amount (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
             "value": "Hair dryer 2200W ionic"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "evidence": "China 2,200 pcs 20.60 45,320.00",
             "value": "2,200"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "evidence": "2,200 pcs 20.60",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+            "evidence": "pcs 20.60 45,320.00",
             "value": "20.60"
           }
         }
@@ -84,18 +84,18 @@
         "value": "30% deposit, 70% against copy of B/L"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Chakraborty, Sidhu and Sarma",
         "value": "Chakraborty, Sidhu and Sarma"
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "1 Hair dryer 2200W ionic China 2,200 pcs 20.60 45,320.00",
+        "confidence": "0.98",
+        "evidence": "Total USD 45,320.00",
         "value": "45,320.00"
       }
     },
-    "input_tokens": 445,
-    "latency_ms": 0,
-    "output_tokens": 453
+    "input_tokens": 2277,
+    "latency_ms": 4892,
+    "output_tokens": 725
   }
 }

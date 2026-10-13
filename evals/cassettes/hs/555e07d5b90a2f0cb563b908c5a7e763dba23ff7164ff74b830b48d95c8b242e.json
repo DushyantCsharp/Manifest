@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "555e07d5b90a2f0cb563b908c5a7e763dba23ff7164ff74b830b48d95c8b242e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:10+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel cutlery set, 24 pieces\nCountry of origin: CN\n\nChosen so far: 82 Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal > 8215 Cutlery; spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter knives, sugar tongs and similar kitchen or tableware\n\nChoose the subheading that covers these goods. Options:\n- 821520: Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter knives, sugar tongs and similar), not plated with precious metal\n- 821510: Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar), with at least one article plated with precious metal\n- 821599: Cutlery; other than plated with precious metal\n- 821591: Cutlery; (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar), plated with precious metal, not in sets\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f0fa918a10a9c9cc6f70a478ffff0fe7f709ed633ae273e35dba563a74d10db3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "821520",
+      "cited": [
+        "821520"
+      ],
+      "confidence": "0.9",
+      "reason": "A 24-piece stainless steel cutlery set is a set of assorted articles not plated with precious metal, which falls under 821520."
+    },
+    "input_tokens": 1151,
+    "latency_ms": 2615,
+    "output_tokens": 76
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "b51d67d1f88c7ec116f7cdc65bee22cf42094eaa8821eee46e792f005ac2f728",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:07+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lead-acid starter battery 12V 60Ah\nCountry of origin: KR\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8549: Electrical and electronic waste and scrap\n    contains 854911: Waste and scrap of lead-acid accumulators; spent lead-acid accumulators\n    contains 854912: Waste and scrap; of primary cells, primary batteries and electric accumulators, spent or not, containing lead, cadmium or mercury, other than lead-acid accumulators\n- 8507: Electric accumulators, including separators therefor; whether or not rectangular (including square)\n    contains 850710: Electric accumulators; lead-acid, of a kind used for starting piston engines, including separators, whether or not rectangular (including square)\n    contains 850720: Electric accumulators; lead-acid, (other than for starting piston engines), including separators, whether or not rectangular (including square)\n    contains 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850780: Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850730: Electric accumulators; nickel-cadmium, including separators, whether or not rectangular (including square)\n    contains 850750: Electric accumulators; nickel-metal hydride, including separators, whether or not rectangular (including square)\n- 8506: Cells and batteries; primary\n    contains 850650: Cells and batteries; primary, lithium\n    contains 850640: Cells and batteries; primary, silver oxide\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "62f778b5e7922fd57be9c8e62a65a132344019926355beb165609a31b0deb15f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8507",
+      "cited": [
+        "8507",
+        "850710"
+      ],
+      "confidence": "0.98",
+      "reason": "A lead-acid starter battery is an electric accumulator of a kind used for starting piston engines, which falls under heading 8507 (subheading 850710), not primary cells (8506) or waste and scrap (8549)."
+    },
+    "input_tokens": 1356,
+    "latency_ms": 3118,
+    "output_tokens": 107
+  }
+}

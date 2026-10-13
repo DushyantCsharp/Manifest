@@ -2,8 +2,8 @@
   "format": 1,
   "key": "65b1ea9f269ee081af900a2adef66faa7cb13d4bc6f0e1aa17025a07f7f287e4",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:24+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "White-Bowen",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nWhite-Bowen",
         "value": "White-Bowen"
       },
       "date": {
@@ -25,7 +25,7 @@
         "value": "02/27/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "DDP Vancouver",
         "value": "DDP Vancouver"
       },
@@ -37,129 +37,129 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.95",
+            "evidence": "MY 48 pcs",
             "value": "MY"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.95",
+            "evidence": "Solar PV module 410W monocrystalline",
             "value": "Solar PV module 410W monocrystalline"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.95",
+            "evidence": "1,020.56 kg",
             "value": "1,020.56 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.85",
+            "evidence": "2 987.26 kg",
             "value": "987.26 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.9",
+            "evidence": "MY 48 pcs 2 987.26 kg",
             "value": "48"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.93",
+            "evidence": "48 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm CN 3,648 pcs 304 3,644.35 kg 4,098.98 kg",
+            "confidence": "0.95",
+            "evidence": "CN 3,648 pcs",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm CN 3,648 pcs 304 3,644.35 kg 4,098.98 kg",
+            "confidence": "0.95",
+            "evidence": "Stainless steel saucepan 20cm",
             "value": "Stainless steel saucepan 20cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm CN 3,648 pcs 304 3,644.35 kg 4,098.98 kg",
+            "confidence": "0.95",
+            "evidence": "4,098.98 kg",
             "value": "4,098.98 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm CN 3,648 pcs 304 3,644.35 kg 4,098.98 kg",
+            "confidence": "0.95",
+            "evidence": "3,644.35 kg",
             "value": "3,644.35 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm CN 3,648 pcs 304 3,644.35 kg 4,098.98 kg",
+            "confidence": "0.95",
+            "evidence": "CN 3,648 pcs 304",
             "value": "3,648"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.93",
+            "evidence": "3,648 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 BE 7,950 kg 159 7,950.00 kg 8,501.73 kg",
+            "confidence": "0.95",
+            "evidence": "BE 7,950 kg",
             "value": "BE"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 BE 7,950 kg 159 7,950.00 kg 8,501.73 kg",
+            "confidence": "0.95",
+            "evidence": "Combed cotton yarn Ne 30/1",
             "value": "Combed cotton yarn Ne 30/1"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 BE 7,950 kg 159 7,950.00 kg 8,501.73 kg",
+            "confidence": "0.95",
+            "evidence": "8,501.73 kg",
             "value": "8,501.73 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 BE 7,950 kg 159 7,950.00 kg 8,501.73 kg",
+            "confidence": "0.95",
+            "evidence": "7,950.00 kg",
             "value": "7,950.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 BE 7,950 kg 159 7,950.00 kg 8,501.73 kg",
+            "confidence": "0.95",
+            "evidence": "BE 7,950 kg 159",
             "value": "7,950"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline MY 48 pcs 2 987.26 kg 1,020.56 kg",
+            "confidence": "0.9",
+            "evidence": "7,950 kg 159",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 465 CARTONS 12,581.61 kg 13,621.27 kg",
+        "confidence": "0.9",
+        "evidence": "Total 465 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Tainan Chunghwa Electronics Co., Ltd.",
         "value": "Tainan Chunghwa Electronics Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 465 CARTONS 12,581.61 kg 13,621.27 kg",
+        "confidence": "0.95",
+        "evidence": "13,621.27 kg",
         "value": "13,621.27 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 465 CARTONS 12,581.61 kg 13,621.27 kg",
+        "confidence": "0.95",
+        "evidence": "12,581.61 kg",
         "value": "12,581.61 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 465 CARTONS 12,581.61 kg 13,621.27 kg",
+        "confidence": "0.95",
+        "evidence": "Total 465 CARTONS",
         "value": "465"
       }
     },
-    "input_tokens": 398,
-    "latency_ms": 0,
-    "output_tokens": 932
+    "input_tokens": 2405,
+    "latency_ms": 9748,
+    "output_tokens": 1210
   }
 }

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "479e4321536b05e08075734d33d313ed85970741aa925da920389630de9715fc",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:48+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: USB-C power adapter 65W for laptops\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8532: Electrical capacitors; fixed, variable or adjustable (pre-set)\n    contains 853210: Electrical capacitors; fixed, designed for use in 50/60 Hz circuits and having a reactive power handling capacity of not less than 0.5 kvar (power capacitors)\n- 8504: Electric transformers, static converters (e.g. rectifiers) and inductors\n    contains 850421: Electrical transformers; liquid dielectric, having a power handling capacity not exceeding 650kVA\n    contains 850422: Electrical transformers; liquid dielectric, having a power handling capacity exceeding 650kVA but not exceeding 10,000kVA\n- 8536: Electrical apparatus for switching, protecting electrical circuits, for making connections to or in electrical circuits, for a voltage not exceeding 1000 volts; connectors for optical fibres, optical fibre bundles or cables\n    contains 853649: Electrical apparatus; relays, for a voltage exceeding 60 volts\n    contains 853669: Electrical apparatus; plugs and sockets, for a voltage not exceeding 1000 volts\n    contains 853641: Electrical apparatus; relays, (for a voltage not exceeding 60 volts)\n    contains 853661: Electrical apparatus; lamp-holders, for a voltage not exceeding 1000 volts\n- 8506: Cells and batteries; primary\n    contains 850650: Cells and batteries; primary, lithium\n- 8501: Electric motors and generators (excluding generating sets)\n    contains 850171: Electric generators; photovoltaic DC generators, of an output not exceeding 50W\n    contains 850131: Electric motors and generators; DC, of an output not exceeding 750W\n- 8507: Electric accumulators, including separators therefor; whether or not rectangular (including square)\n    contains 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "61690df0304de1c96511fd625a72d57d0be1ca63ca3f68e2eb73039ab82950c8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8504",
+      "cited": [
+        "8504"
+      ],
+      "confidence": "0.96",
+      "reason": "A USB-C power adapter for laptops is an AC/DC static converter (power supply), which falls under heading 8504 (static converters)."
+    },
+    "input_tokens": 1525,
+    "latency_ms": 2875,
+    "output_tokens": 78
+  }
+}

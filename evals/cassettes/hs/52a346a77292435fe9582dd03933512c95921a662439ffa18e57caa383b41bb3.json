@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "52a346a77292435fe9582dd03933512c95921a662439ffa18e57caa383b41bb3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:05+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel saucepan 20cm with lid\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 73: Iron or steel articles\n    contains 732393: Steel, stainless; table, kitchen and other household articles and parts thereof\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n    contains 732399: Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n    contains 731412: Iron or steel; woven cloth, endless bands for machinery, of stainless steel\n    contains 731414: Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)\n    contains 732392: Cast iron; table, kitchen and other household articles and parts thereof, of cast iron, enamelled\n    contains 731419: Iron or steel; woven cloth, other than of stainless steel\n    contains 731021: Cans; which are to be closed by soldering or crimping, for any material (excluding compressed or liquefied gas), less than 50l capacity, of iron or steel\n    contains 732182: Domestic appliances; non-electric, (other than cookers and plate warmers), for liquid fuel, of iron or steel\n    contains 730411: Iron or steel (excluding cast iron); seamless, line pipe of a kind used for oil or gas pipelines, of stainless steel\n    contains 732112: Cooking appliances and plate warmers; for liquid fuel, of iron or steel\n- 72: Iron and steel\n    contains 722020: Steel, stainless; flat-rolled, width less than 600mm, cold-rolled\n    contains 722090: Steel, stainless; flat-rolled, width less than 600mm, n.e.c. in heading no 7220\n    contains 721810: Steel, stainless; ingots and other primary forms\n    contains 721891: Steel, stainless; semi-finished products, of rectangular (other than square) cross-section\n    contains 721899: Steel, stainless; semi-finished products, other than of rectangular cross-section\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 821520: Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter knives, sugar tongs and similar), not plated with precious metal\n    contains 821599: Cutlery; other than plated with precious metal\n- 76: Aluminium and articles thereof\n    contains 761520: Aluminium; sanitary ware and parts thereof\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2cde343fd5f5733f12e8e38d6bcb51c69519fea9d267b135fbab16ef0895771a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "73",
+      "cited": [
+        "732393"
+      ],
+      "confidence": "0.96",
+      "reason": "A stainless steel saucepan with lid is a kitchen/household article of stainless steel, covered by heading 7323 (subheading 732393) in Chapter 73."
+    },
+    "input_tokens": 1665,
+    "latency_ms": 3181,
+    "output_tokens": 87
+  }
+}

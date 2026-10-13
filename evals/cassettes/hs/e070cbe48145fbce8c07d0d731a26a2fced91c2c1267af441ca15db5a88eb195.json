@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "e070cbe48145fbce8c07d0d731a26a2fced91c2c1267af441ca15db5a88eb195",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:10+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Nitrile examination gloves, powder free, medical\nCountry of origin: MY\n\nChosen so far: 40 Rubber and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 4015: Articles of apparel and clothing accessories (including gloves, mittens and mitts), for all purposes, of vulcanised rubber other than hard rubber\n    contains 401512: Rubber; vulcanised (other than hard rubber), gloves, of a kind used for medical, surgical, dental or veterinary purposes\n    contains 401519: Rubber; vulcanised (other than hard rubber), gloves, mittens and mitts other than surgical gloves\n    contains 401590: Rubber; vulcanised (other than hard rubber), articles of apparel and clothing accessories (other than gloves, mittens and mitts)\n- 4014: Hygienic or pharmaceutical articles (including teats), of vulcanised rubber other than hard rubber, with or without fittings of hard rubber\n    contains 401490: Rubber; vulcanised (other than hard rubber), hygienic or pharmaceutical articles (excluding sheath contraceptives), with or without fittings of hard rubber\n    contains 401410: Rubber; vulcanised (other than hard rubber), sheath contraceptives\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e9267fbdcc9078a44b2a7a7b951d69a6a278f1a812cd8a1de7a59144578abf37",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "4015",
+      "cited": [
+        "4015",
+        "401512"
+      ],
+      "confidence": "0.97",
+      "reason": "Heading 4015 expressly covers gloves of vulcanised rubber, and subheading 401512 specifically covers gloves for medical use, such as nitrile examination gloves, whereas 4014 does not cover gloves."
+    },
+    "input_tokens": 1168,
+    "latency_ms": 2684,
+    "output_tokens": 110
+  }
+}

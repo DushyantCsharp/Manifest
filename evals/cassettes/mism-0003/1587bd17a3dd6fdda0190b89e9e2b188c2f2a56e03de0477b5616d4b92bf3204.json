@@ -2,8 +2,8 @@
   "format": 1,
   "key": "1587bd17a3dd6fdda0190b89e9e2b188c2f2a56e03de0477b5616d4b92bf3204",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:29+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
-        "evidence": "MAEURN8101212",
+        "confidence": "0.96",
+        "evidence": "B/L NO.\nMAEURN8101212",
         "value": "MAEURN8101212"
       },
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "Ward, Taylor and Morton",
+        "evidence": "CONSIGNEE\nWard, Taylor and Morton",
         "value": "Ward, Taylor and Morton"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MAERSK",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: MAERSK",
         "value": "MAERSK"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MAEU6142226",
         "value": "MAEU6142226"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
         "confidence": "0.97",
-        "evidence": "Frazier-Nguyen",
+        "evidence": "NOTIFY PARTY\nFrazier-Nguyen",
         "value": "Frazier-Nguyen"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "1127\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "New York",
+        "evidence": "PORT OF DISCHARGE\nNew York",
         "value": "New York"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Tanjung Perak",
+        "evidence": "PORT OF LOADING\nTanjung Perak",
         "value": "Tanjung Perak"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "2680679",
+        "confidence": "0.94",
+        "evidence": "SEAL\n2680679",
         "value": "2680679"
       },
       "seller_name": {
         "confidence": "0.97",
-        "evidence": "UD Utami Tbk",
+        "evidence": "SHIPPER\nUD Utami Tbk",
         "value": "UD Utami Tbk"
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "28-FEB-2026",
+        "evidence": "SHIPPED ON BOARD\n28-FEB-2026",
         "value": "28-FEB-2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "20,809.16 kg",
         "value": "20,809.16 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1127",
+        "confidence": "0.94",
+        "evidence": "1127\nCARTONS",
         "value": "1127"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "MAERSK VALENCIA / 107N",
         "value": "MAERSK VALENCIA"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "MAERSK VALENCIA / 107N",
         "value": "107N"
       }
     },
-    "input_tokens": 524,
-    "latency_ms": 0,
-    "output_tokens": 370
+    "input_tokens": 2358,
+    "latency_ms": 5026,
+    "output_tokens": 768
   }
 }

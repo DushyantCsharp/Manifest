@@ -2,8 +2,8 @@
   "format": 1,
   "key": "340d55de6ce131449029162ab461dc8ff3d54a333b38c3922d2bacdae00b4162",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:21+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "CMDUFO3249687",
         "value": "CMDUFO3249687"
       },
@@ -25,42 +25,42 @@
         "value": "Flores, Wheeler and Smith"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "CMA CGM",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: CMA CGM.",
         "value": "CMA CGM"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CMDU5092478",
         "value": "CMDU5092478"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Los Angeles",
+        "evidence": "PORT OF DISCHARGE\nLos Angeles",
         "value": "Los Angeles"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Bangkok",
+        "evidence": "PORT OF LOADING\nBangkok",
         "value": "Bangkok"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 9623312",
         "value": "9623312"
       },
@@ -70,33 +70,33 @@
         "value": "Samut Prakan Sukjai Trading Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "09/20/2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n09/20/2026",
         "value": "09/20/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "10,453.85 kg",
         "value": "10,453.85 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "1117",
         "value": "1117"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CMA CALYPSO / 948S",
         "value": "CMA CALYPSO"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CMA CALYPSO / 948S",
         "value": "948S"
       }
     },
-    "input_tokens": 501,
-    "latency_ms": 0,
-    "output_tokens": 373
+    "input_tokens": 2318,
+    "latency_ms": 5353,
+    "output_tokens": 725
   }
 }

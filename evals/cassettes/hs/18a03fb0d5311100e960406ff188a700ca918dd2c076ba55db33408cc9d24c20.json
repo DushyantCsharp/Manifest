@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "18a03fb0d5311100e960406ff188a700ca918dd2c076ba55db33408cc9d24c20",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:45+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green Arabica coffee beans, not roasted, not decaffeinated\nCountry of origin: BR\n\nChoose the chapter that covers these goods. Options:\n- 09: Coffee, tea, mate and spices\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090122: Coffee; roasted, decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n    contains 090510: Spices; vanilla, neither crushed nor ground\n- 18: Cocoa and cocoa preparations\n    contains 180100: Cocoa beans; whole or broken, raw or roasted\n- 21: Miscellaneous edible preparations\n    contains 210111: Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee\n    contains 210130: Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof\n    contains 210112: Preparations with a basis of extracts, essences or concentrates or with a basis of coffee\n    contains 210120: Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate\n- 12: Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder\n    contains 121292: Locust beans (carob); fit for human consumption, fresh, chilled, frozen or dried, whether or not ground\n    contains 120230: Ground-nuts; seed, not roasted or otherwise cooked, whether or not shelled or broken\n    contains 120242: Ground-nuts; other than seed, not roasted or otherwise cooked, shelled, whether or not broken,\n- 07: Vegetables and certain roots and tubers; edible\n    contains 070820: Vegetables, leguminous; beans (vigna spp., phaseolus spp.), shelled or unshelled, fresh or chilled\n    contains 071334: Vegetables, leguminous; bambara beans (Vigna subterranea or Voandzeia subterranea), shelled, whether or not skinned or split, dried\n    contains 071332: Vegetables, leguminous; small red (adzuki) beans (phaseolus or vigna angularis), shelled, whether or not skinned or split, dried\n    contains 071022: Vegetables, leguminous; beans (vigna spp., phaseolus spp.), shelled or unshelled, uncooked or cooked by steaming or boiling in water, frozen\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c49cb7575540475f29187384e8abcea8672bdcd0dc4ef7b1a2394fa36b3d49b9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "09",
+      "cited": [
+        "09",
+        "090111"
+      ],
+      "confidence": "0.99",
+      "reason": "Green, unroasted, non-decaffeinated coffee beans are covered by heading 0901 in Chapter 9 (subheading 090111)."
+    },
+    "input_tokens": 1761,
+    "latency_ms": 3060,
+    "output_tokens": 83
+  }
+}

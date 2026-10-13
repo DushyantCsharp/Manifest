@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "5be8243e7a2bcd86d65430aa200493262147b006f3258c39529ed707b7d10f31",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:41+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Brass padlock with keys\nCountry of origin: CN\n\nChosen so far: 83 Metal; miscellaneous products of base metal > 8301 Padlocks and locks (key, combination, electrically operated) of base metal; clasps and frames with clasps incorporating locks, of base metal, keys for any or the foregoing articles, of base metal\n\nChoose the subheading that covers these goods. Options:\n- 830110: Padlocks; (key, combination or electrically operated), of base metal\n- 830130: Locks; of a kind used for furniture (key, combination or electrically operated), of base metal\n- 830170: Keys; presented separately, of base metal\n- 830120: Locks; of a kind used for motor vehicles (key, combination or electrically operated), of base metal\n- 830140: Locks; (other than those for motor vehicles or furniture), (key, combination or electrically operated), of base metal\n- 830160: Locks; parts of padlocks, locks, clasps and frames with clasps incorporating locks, of base metal\n- 830150: Clasps and frames with clasps; incorporating locks, of base metal\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "521d602e8ffd377ff1b2ac971c80af8174f88650ef461870eeadee4d446d9b71",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "830110",
+      "cited": [
+        "830110",
+        "8301"
+      ],
+      "confidence": "0.97",
+      "reason": "A brass padlock with its keys is a padlock of base metal, and the keys presented with it follow the padlock under subheading 830110 rather than 830170, which covers keys presented separately."
+    },
+    "input_tokens": 1131,
+    "latency_ms": 3775,
+    "output_tokens": 97
+  }
+}

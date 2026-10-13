@@ -2,8 +2,8 @@
   "format": 1,
   "key": "2f5fcc04d5cb659fe83be5f181d8dbf9c5a78bf1d9ce4cd6fd38abd58431083c",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:09+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Couturier",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nCouturier",
         "value": "Couturier"
       },
       "date": {
@@ -25,8 +25,8 @@
         "value": "24.03.2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "FCA Prato",
+        "confidence": "0.95",
+        "evidence": "TERMS OF DELIVERY\nFCA Prato",
         "value": "FCA Prato"
       },
       "invoice_number": {
@@ -37,225 +37,225 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Stretto Bocelli, 49 Appartamento 8, 23819 Milano, Italy",
-            "value": "Italy"
+            "confidence": "0.96",
+            "evidence": "strap IT 1.830",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "evidence": "Leather handbag with shoulder strap",
             "value": "Leather handbag with shoulder strap"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "2.056,67 kg",
             "value": "2.056,67 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "1.740,33 kg",
             "value": "1.740,33 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "IT 1.830 pcs",
             "value": "1.830"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "1.830 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Stretto Bocelli, 49 Appartamento 8, 23819 Milano, Italy",
-            "value": "Italy"
+            "confidence": "0.96",
+            "evidence": "1.1kW IT 289",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 289 3.819,14 kg 4.397,77 kg",
+            "evidence": "Centrifugal water pump 1.1kW",
             "value": "Centrifugal water pump 1.1kW"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 289 3.819,14 kg 4.397,77 kg",
+            "confidence": "0.96",
+            "evidence": "4.397,77 kg",
             "value": "4.397,77 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 289 3.819,14 kg 4.397,77 kg",
+            "confidence": "0.96",
+            "evidence": "3.819,14 kg",
             "value": "3.819,14 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 289 3.819,14 kg 4.397,77 kg",
+            "confidence": "0.96",
+            "evidence": "IT 289 pcs",
             "value": "289"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "289 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Stretto Bocelli, 49 Appartamento 8, 23819 Milano, Italy",
-            "value": "Italy"
+            "confidence": "0.96",
+            "evidence": "sunglasses IT 10.000",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "3 Polarized sunglasses IT 10.000 pcs 100 400,00 kg 483,00 kg",
+            "evidence": "Polarized sunglasses",
             "value": "Polarized sunglasses"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Polarized sunglasses IT 10.000 pcs 100 400,00 kg 483,00 kg",
+            "confidence": "0.96",
+            "evidence": "483,00 kg",
             "value": "483,00 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Polarized sunglasses IT 10.000 pcs 100 400,00 kg 483,00 kg",
+            "confidence": "0.96",
+            "evidence": "400,00 kg",
             "value": "400,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Polarized sunglasses IT 10.000 pcs 100 400,00 kg 483,00 kg",
+            "confidence": "0.96",
+            "evidence": "IT 10.000 pcs",
             "value": "10.000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "10.000 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Stretto Bocelli, 49 Appartamento 8, 23819 Milano, Italy",
-            "value": "Italy"
+            "confidence": "0.96",
+            "evidence": "bottle IT 5.292",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 441 4.868,64 kg 5.156,91 kg",
+            "evidence": "Extra virgin olive oil, 1L bottle",
             "value": "Extra virgin olive oil, 1L bottle"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 441 4.868,64 kg 5.156,91 kg",
+            "confidence": "0.96",
+            "evidence": "5.156,91 kg",
             "value": "5.156,91 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 441 4.868,64 kg 5.156,91 kg",
+            "confidence": "0.96",
+            "evidence": "4.868,64 kg",
             "value": "4.868,64 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 441 4.868,64 kg 5.156,91 kg",
+            "confidence": "0.96",
+            "evidence": "IT 5.292 pcs",
             "value": "5.292"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "5.292 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Stretto Bocelli, 49 Appartamento 8, 23819 Milano, Italy",
-            "value": "Italy"
+            "confidence": "0.96",
+            "evidence": "bottle IT 5.497",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 917 7.096,63 kg 8.728,16 kg",
+            "evidence": "Red wine, 0.75L bottle",
             "value": "Red wine, 0.75L bottle"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 917 7.096,63 kg 8.728,16 kg",
+            "confidence": "0.96",
+            "evidence": "8.728,16 kg",
             "value": "8.728,16 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 917 7.096,63 kg 8.728,16 kg",
+            "confidence": "0.96",
+            "evidence": "7.096,63 kg",
             "value": "7.096,63 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 917 7.096,63 kg 8.728,16 kg",
+            "confidence": "0.96",
+            "evidence": "IT 5.497 pcs",
             "value": "5.497"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.96",
+            "evidence": "5.497 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Stretto Bocelli, 49 Appartamento 8, 23819 Milano, Italy",
-            "value": "Italy"
+            "confidence": "0.96",
+            "evidence": "whole IT 2.620",
+            "value": "IT"
           },
           "description": {
             "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 262 2.620,00 kg 2.821,74 kg",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 262 2.620,00 kg 2.821,74 kg",
+            "confidence": "0.96",
+            "evidence": "2.821,74 kg",
             "value": "2.821,74 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 262 2.620,00 kg 2.821,74 kg",
+            "confidence": "0.96",
+            "evidence": "2.620,00 kg",
             "value": "2.620,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 262 2.620,00 kg 2.821,74 kg",
+            "confidence": "0.95",
+            "evidence": "IT 2.620 kg",
             "value": "2.620"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 183 1.740,33 kg 2.056,67 kg",
+            "confidence": "0.95",
+            "evidence": "2.620 kg 262",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 2192 CARTONS 20.544,74 kg 23.644,25 kg",
+        "confidence": "0.93",
+        "evidence": "Total 2192 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Luria-Tropea SPA",
         "value": "Luria-Tropea SPA"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 2192 CARTONS 20.544,74 kg 23.644,25 kg",
+        "confidence": "0.95",
+        "evidence": "20.544,74 kg 23.644,25 kg",
         "value": "23.644,25 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 2192 CARTONS 20.544,74 kg 23.644,25 kg",
+        "confidence": "0.95",
+        "evidence": "20.544,74 kg 23.644,25 kg",
         "value": "20.544,74 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 2192 CARTONS 20.544,74 kg 23.644,25 kg",
+        "confidence": "0.95",
+        "evidence": "Total 2192 CARTONS",
         "value": "2192"
       }
     },
-    "input_tokens": 443,
-    "latency_ms": 0,
-    "output_tokens": 1571
+    "input_tokens": 2511,
+    "latency_ms": 10273,
+    "output_tokens": 1941
   }
 }

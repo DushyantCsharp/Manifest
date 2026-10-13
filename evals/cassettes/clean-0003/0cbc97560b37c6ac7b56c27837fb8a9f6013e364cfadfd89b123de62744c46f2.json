@@ -2,8 +2,8 @@
   "format": 1,
   "key": "0cbc97560b37c6ac7b56c27837fb8a9f6013e364cfadfd89b123de62744c46f2",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:36+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Bolkesteijn Groep",
         "value": "Bolkesteijn Groep"
       },
@@ -25,7 +25,7 @@
         "value": "21-SEP-2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CIP Utrecht",
         "value": "CIP Utrecht"
       },
@@ -37,129 +37,129 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "confidence": "0.95",
+            "evidence": "CN 17,000 kg",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "confidence": "0.95",
+            "evidence": "Stainless steel sheet 304, cold-rolled 2mm",
             "value": "Stainless steel sheet 304, cold-rolled 2mm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "confidence": "0.95",
+            "evidence": "18,153.79 kg",
             "value": "18,153.79 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "confidence": "0.95",
+            "evidence": "17,000.00 kg",
             "value": "17,000.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "confidence": "0.93",
+            "evidence": "CN 17,000 kg 17",
             "value": "17,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm CN 17,000 kg 17 17,000.00 kg 18,153.79 kg",
+            "confidence": "0.93",
+            "evidence": "CN 17,000 kg 17",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "confidence": "0.95",
+            "evidence": "IT 9,400 pcs",
             "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "confidence": "0.95",
+            "evidence": "Polarized sunglasses",
             "value": "Polarized sunglasses"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "confidence": "0.95",
+            "evidence": "533.06 kg",
             "value": "533.06 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "confidence": "0.95",
+            "evidence": "366.60 kg",
             "value": "366.60 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "confidence": "0.95",
+            "evidence": "IT 9,400 pcs 94",
             "value": "9,400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 9,400 pcs 94 366.60 kg 533.06 kg",
+            "confidence": "0.95",
+            "evidence": "IT 9,400 pcs 94",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 42 Avenue 3, Bangkok, Thailand",
-            "value": "Thailand"
+            "confidence": "0.95",
+            "evidence": "TH 8,826 sets",
+            "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "confidence": "0.95",
+            "evidence": "Nitrile examination gloves, box of 100",
             "value": "Nitrile examination gloves, box of 100"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "confidence": "0.95",
+            "evidence": "4,985.99 kg",
             "value": "4,985.99 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "confidence": "0.95",
+            "evidence": "4,386.52 kg",
             "value": "4,386.52 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "confidence": "0.95",
+            "evidence": "TH 8,826 sets 883",
             "value": "8,826"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 Nitrile examination gloves, box of 100 TH 8,826 sets 883 4,386.52 kg 4,985.99 kg",
+            "confidence": "0.95",
+            "evidence": "TH 8,826 sets 883",
             "value": "sets"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "confidence": "0.9",
+        "evidence": "Total 994 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Bangkok Siam Trading Co., Ltd.",
         "value": "Bangkok Siam Trading Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "confidence": "0.95",
+        "evidence": "23,672.84 kg",
         "value": "23,672.84 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "confidence": "0.95",
+        "evidence": "21,753.12 kg",
         "value": "21,753.12 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 994 CARTONS 21,753.12 kg 23,672.84 kg",
+        "confidence": "0.95",
+        "evidence": "Total 994 CARTONS",
         "value": "994"
       }
     },
-    "input_tokens": 397,
-    "latency_ms": 0,
-    "output_tokens": 943
+    "input_tokens": 2400,
+    "latency_ms": 7506,
+    "output_tokens": 1210
   }
 }

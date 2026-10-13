@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "1c86562cd822447e78f4424db7348564b321ce91046f5cdbea006d73db019ac1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:01+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Grey Portland cement in 50kg bags\nCountry of origin: VN\n\nChosen so far: 25 Salt; sulphur; earths, stone; plastering materials, lime and cement\n\nChoose the heading that covers these goods. Options:\n- 2523: Portland cement, aluminous cement (ciment fondu), slag cement, supersulphate cement and similar hydraulic cements, whether or not coloured or in the form of clinkers\n    contains 252321: Cement; portland, white, whether or not artificially coloured\n    contains 252329: Cement; portland, other than white, whether or not artificially coloured\n    contains 252310: Cement clinkers (whether or not coloured)\n    contains 252390: Cement; hydraulic kinds n.e.c. in heading no. 2523\n    contains 252330: Cement; aluminous (ciment fondu), whether or not coloured or in the form of clinkers\n- 2521: Limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement\n    contains 252100: Limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement\n- 2517: Pebbles, gravel, crushed stone for concrete aggregates for road or railway ballast, shingle or flint; macadam of slag, dross etc tarred granules, chippings, powder of stones of heading no. 2515 and 2516\n    contains 251730: Tarred macadam\n    contains 251710: Pebbles, gravel, broken or crushed stone; of a kind commonly used for concrete aggregates, for road metalling or for railway or other ballast, shingle and flint, whether or not heat-treated\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1c258ce329999a4be6b0619ebeb3af90406ee81907cbbdf59bd6b7a5fb3a6311",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "2523",
+      "cited": [
+        "2523",
+        "252329"
+      ],
+      "confidence": "0.99",
+      "reason": "Grey Portland cement is a hydraulic cement named expressly in heading 2523 (subheading 252329, portland cement other than white)."
+    },
+    "input_tokens": 1300,
+    "latency_ms": 3181,
+    "output_tokens": 82
+  }
+}

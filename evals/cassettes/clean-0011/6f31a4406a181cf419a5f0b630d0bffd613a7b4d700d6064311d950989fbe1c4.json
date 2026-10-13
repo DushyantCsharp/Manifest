@@ -2,8 +2,8 @@
   "format": 1,
   "key": "6f31a4406a181cf419a5f0b630d0bffd613a7b4d700d6064311d950989fbe1c4",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:03+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -20,83 +20,83 @@
         "value": "EGLVKQ5457645"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Griffith-Watson",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nGriffith-Watson",
         "value": "Griffith-Watson"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.92",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EGLU9503218",
         "value": "EGLU9503218"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "610 BAGS SAID TO CONTAIN: Long grain",
+        "confidence": "0.92",
+        "evidence": "610 BAGS",
         "value": "BAGS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Vancouver",
+        "confidence": "0.95",
+        "evidence": "PORT OF DISCHARGE\nVancouver",
         "value": "Vancouver"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Ho Chi Minh City",
+        "confidence": "0.95",
+        "evidence": "PORT OF LOADING\nHo Chi Minh City",
         "value": "Ho Chi Minh City"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "SEAL 3126329",
         "value": "3126329"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Nguyễn Công ty Hợp danh",
         "value": "Nguyễn Công ty Hợp danh"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "02/20/2026",
+        "confidence": "0.95",
+        "evidence": "SHIPPED ON BOARD\n02/20/2026",
         "value": "02/20/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "16,601.15 kg",
         "value": "16,601.15 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "610 BAGS SAID TO CONTAIN: Long grain",
+        "confidence": "0.93",
+        "evidence": "610 BAGS",
         "value": "610"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "EVERGREEN HARMONY / 832E",
         "value": "EVERGREEN HARMONY"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "EVERGREEN HARMONY / 832E",
         "value": "832E"
       }
     },
-    "input_tokens": 501,
-    "latency_ms": 0,
-    "output_tokens": 392
+    "input_tokens": 2336,
+    "latency_ms": 4370,
+    "output_tokens": 733
   }
 }

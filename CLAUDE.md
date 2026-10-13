@@ -161,7 +161,8 @@ make test-contract     schemathesis fuzzes the REST API against contracts/openap
 make test-live         golden packs through a real model (ANTHROPIC_API_KEY; RECORD=1 to keep)
 make coverage          every non-live test (Docker) + coverage gate, HTML in htmlcov/
 make corpus            rewrite the frozen eval corpus (55 packs + page snapshots + splits)
-make cassettes         reseed every eval cassette from ground truth (offline), then refit
+make cassettes         replace every eval cassette with the ground-truth oracle's answers
+                       (offline; discards real recordings: the gate falls to `plumbing`)
 make eval              replay the corpus and HS labels, report to evals/reports/latest, gate on
                        evals/thresholds.yaml and on calibrator drift (part of make check)
 make calibrate         refit the calibrators and commit new versions when they change
@@ -191,10 +192,12 @@ make check             lint + typecheck + test + test-contract + contracts-check
   text as the pipeline read it (`pages.json`), so replays don't depend on PDFium or tesseract
   versions; HS retrieval is recorded per query too (`evals/cassettes/hs-retrieval`). Changing
   the prompt, schema, model or page text changes the hashes: `evals/tests/test_golden.py`
-  fails first; reseed with `make cassettes` or re-record with `make eval-record` and review.
-- **Committed answers are seeded by a ground-truth oracle** until `make eval-record` runs
-  (`recorded_with` says so). The harness then gates on the `plumbing` profile of
-  `evals/thresholds.yaml` (machinery, not a model); real recordings switch it to `model`.
+  fails first; re-record with `make eval-record` (needs keys, costs money) and review the diff.
+- **Committed answers are a real model's** (`recorded_with: anthropic`; HS retrieval `hybrid`),
+  so `make eval` gates on the `model` profile of `evals/thresholds.yaml`: regression floors
+  under the recorded baseline, with unmet product goals kept as `target` (reported, not
+  enforced). Any stand-in answer (the ground-truth oracle, offline BM25) drops the gate to the
+  `plumbing` profile. Machinery tests seed the oracle into a temporary folder instead.
 - **Coverage**: libs/ only, branch coverage, gate 85% (`[tool.coverage]` in `pyproject.toml`).
 
 ## Conventions

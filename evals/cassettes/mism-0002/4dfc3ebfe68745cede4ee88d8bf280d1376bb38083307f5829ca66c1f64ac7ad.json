@@ -2,8 +2,8 @@
   "format": 1,
   "key": "4dfc3ebfe68745cede4ee88d8bf280d1376bb38083307f5829ca66c1f64ac7ad",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:33+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Dehmel",
+        "confidence": "0.85",
+        "evidence": "Dehmel\nZimmerweg 75/88",
         "value": "Dehmel"
       },
       "currency": {
@@ -25,8 +25,8 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Lieferbedingung / Incoterms® 2020 CPT Düsseldorf",
+        "confidence": "0.93",
+        "evidence": "Incoterms® 2020 CPT Düsseldorf",
         "value": "CPT Düsseldorf"
       },
       "invoice_date": {
@@ -42,124 +42,124 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80",
+            "confidence": "0.95",
+            "evidence": "5,02 41.364,80",
             "value": "41.364,80"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Toyota Otomotiv · 1009 Korutürk Ways · 26238 Bursa · Turkey",
-            "value": "Turkey"
+            "confidence": "0.93",
+            "evidence": "70x140 TR 8.240",
+            "value": "TR"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80",
+            "confidence": "0.95",
+            "evidence": "Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80",
             "value": "Terry cotton bath towel 70x140"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80",
+            "confidence": "0.95",
+            "evidence": "TR 8.240 pcs 5,02 41.364,80",
             "value": "8.240"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80",
+            "confidence": "0.95",
+            "evidence": "8.240 pcs 5,02",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80",
+            "confidence": "0.95",
+            "evidence": "pcs 5,02 41.364,80",
             "value": "5,02"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 2,91 21.708,60",
+            "confidence": "0.95",
+            "evidence": "2,91 21.708,60",
             "value": "21.708,60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Toyota Otomotiv · 1009 Korutürk Ways · 26238 Bursa · Turkey",
-            "value": "Turkey"
+            "confidence": "0.93",
+            "evidence": "12 micron TR 7.460",
+            "value": "TR"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 2,91 21.708,60",
+            "confidence": "0.95",
+            "evidence": "Aluminium household foil 12 micron TR 7.460 kg 2,91 21.708,60",
             "value": "Aluminium household foil 12 micron"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 2,91 21.708,60",
+            "confidence": "0.95",
+            "evidence": "TR 7.460 kg 2,91 21.708,60",
             "value": "7.460"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 2,91 21.708,60",
+            "confidence": "0.95",
+            "evidence": "7.460 kg 2,91",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Aluminium household foil 12 micron TR 7.460 kg 2,91 21.708,60",
+            "confidence": "0.95",
+            "evidence": "kg 2,91 21.708,60",
             "value": "2,91"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 6,77 8.327,10",
+            "confidence": "0.95",
+            "evidence": "6,77 8.327,10",
             "value": "8.327,10"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Toyota Otomotiv · 1009 Korutürk Ways · 26238 Bursa · Turkey",
-            "value": "Turkey"
+            "confidence": "0.93",
+            "evidence": "trousers TR 1.230",
+            "value": "TR"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 6,77 8.327,10",
+            "confidence": "0.95",
+            "evidence": "Women's cotton denim trousers TR 1.230 pcs 6,77 8.327,10",
             "value": "Women's cotton denim trousers"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 6,77 8.327,10",
+            "confidence": "0.95",
+            "evidence": "TR 1.230 pcs 6,77 8.327,10",
             "value": "1.230"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Terry cotton bath towel 70x140 TR 8.240 pcs 5,02 41.364,80",
+            "confidence": "0.95",
+            "evidence": "1.230 pcs 6,77",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Women's cotton denim trousers TR 1.230 pcs 6,77 8.327,10",
+            "confidence": "0.95",
+            "evidence": "pcs 6,77 8.327,10",
             "value": "6,77"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "Zahlungsbedingung / Payment T/T in advance",
+        "confidence": "0.95",
+        "evidence": "Payment T/T in advance",
         "value": "T/T in advance"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Toyota Otomotiv · 1009 Korutürk Ways · 26238 Bursa · Turkey",
+        "confidence": "0.85",
+        "evidence": "Toyota Otomotiv · 1009 Korutürk Ways",
         "value": "Toyota Otomotiv"
       },
       "total_amount": {
@@ -168,8 +168,8 @@
         "value": "71.400,50"
       }
     },
-    "input_tokens": 435,
-    "latency_ms": 0,
-    "output_tokens": 918
+    "input_tokens": 2335,
+    "latency_ms": 8292,
+    "output_tokens": 1312
   }
 }

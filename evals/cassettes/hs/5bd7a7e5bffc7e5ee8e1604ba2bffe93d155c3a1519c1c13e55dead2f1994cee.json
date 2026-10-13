@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "5bd7a7e5bffc7e5ee8e1604ba2bffe93d155c3a1519c1c13e55dead2f1994cee",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:50+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Bed sheet, woven cotton, not printed\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 52: Cotton\n    contains 520851: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing not more than 100g/m2\n    contains 520852: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520859: Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5208.5, weighing not more than 200g/m2\n    contains 520812: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520811: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing not more than 100g/m2\n    contains 520951: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 200g/m2\n    contains 521215: Fabrics, woven; of cotton, printed, weighing not more than 200g/m2, n.e.c. in chapter 52\n    contains 520821: Fabrics, woven; containing 85% or more by weight of cotton, bleached, plain weave, weighing not more than 100g/m2\n    contains 520819: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, of weaves n.e.c. in item no. 5208.1, weighing not more than 200g/m2\n    contains 520822: Fabrics, woven; containing 85% or more by weight of cotton, bleached, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520813: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, 3-thread or 4-thread twill, including cross twill, weighing not more than 200g/m2\n    contains 520831: Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing not more than 100g/m2\n    contains 520911: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing more than 200g/m2\n    contains 520832: Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520841: Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, plain weave, weighing not more than 100g/m2\n    contains 520839: Fabrics, woven; containing 85% or more by weight of cotton, dyed, of weaves n.e.c. in item no. 5208.3 weighing not more than 200g/m2\n    contains 520829: Fabrics, woven; containing 85% or more by weight of cotton, bleached, of weaves n.e.c. in item no. 5208.2, weighing not more than 200g/m2\n    contains 520842: Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520921: Fabrics, woven; containing 85% or more by weight of cotton, bleached, plain weave, weighing more than 200g/m2\n- 63: Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n    contains 630231: Bed linen; of cotton (not printed, knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "95653e5099252b239fb132a5a182c4261acd6294c8c46528b4133afcb15a3f07",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "63",
+      "cited": [
+        "63",
+        "630231"
+      ],
+      "confidence": "0.93",
+      "reason": "Bed sheets are made-up textile articles, and subheading 630231 covers cotton bed linen that is not printed, knitted or crocheted; Chapter 52 covers only the fabric, not made-up articles (Section XI Note 7 treats made up articles as Chapter 63 goods)."
+    },
+    "input_tokens": 1984,
+    "latency_ms": 3387,
+    "output_tokens": 131
+  }
+}

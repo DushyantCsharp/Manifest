@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b456876ecd28a7d54666f7fe4db067c900c1c710b87a8d1d144d1789dc6b6a84",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:49:41+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "820411",
       "cited": [
-        "820411"
+        "820411",
+        "8204"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.96",
+      "reason": "A combination spanner set consists of fixed-size, non-adjustable hand-operated spanners (open-end and ring), so it falls under non-adjustable spanners and wrenches rather than adjustable ones or sockets."
     },
-    "input_tokens": 422,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 1026,
+    "latency_ms": 3370,
+    "output_tokens": 108
   }
 }

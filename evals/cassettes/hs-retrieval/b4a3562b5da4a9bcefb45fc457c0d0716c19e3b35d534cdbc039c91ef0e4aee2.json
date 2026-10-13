@@ -1,40 +1,98 @@
 {
   "format": 1,
   "key": "b4a3562b5da4a9bcefb45fc457c0d0716c19e3b35d534cdbc039c91ef0e4aee2",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Pullover, knitted, 100% cotton origin KH",
   "limit": 20,
   "candidates": [
     {
       "code": "611020",
       "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted",
-      "score": "0.016393",
+      "score": "0.031545",
       "ranks": {
-        "lexical": 1
+        "lexical": 6,
+        "vector": 1
+      }
+    },
+    {
+      "code": "600524",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, printed",
+      "score": "0.030331",
+      "ranks": {
+        "lexical": 4,
+        "vector": 8
       }
     },
     {
       "code": "611090",
       "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted",
+      "score": "0.030077",
+      "ranks": {
+        "lexical": 7,
+        "vector": 6
+      }
+    },
+    {
+      "code": "600521",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, unbleached or bleached",
+      "score": "0.029907",
+      "ranks": {
+        "lexical": 1,
+        "vector": 14
+      }
+    },
+    {
+      "code": "600522",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, dyed",
+      "score": "0.028787",
+      "ranks": {
+        "lexical": 2,
+        "vector": 19
+      }
+    },
+    {
+      "code": "600523",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, yarns of different colours",
+      "score": "0.028219",
+      "ranks": {
+        "lexical": 3,
+        "vector": 21
+      }
+    },
+    {
+      "code": "610510",
+      "description": "Shirts; men's or boys', of cotton, knitted or crocheted",
       "score": "0.016129",
       "ranks": {
-        "lexical": 2
+        "lexical": null,
+        "vector": 2
       }
     },
     {
-      "code": "611030",
-      "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted",
+      "code": "610910",
+      "description": "T-shirts, singlets and other vests; of cotton, knitted or crocheted",
       "score": "0.015873",
       "ranks": {
-        "lexical": 3
+        "lexical": null,
+        "vector": 3
       }
     },
     {
-      "code": "611011",
-      "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair",
+      "code": "610610",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted",
       "score": "0.015625",
       "ranks": {
-        "lexical": 4
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "600590",
+      "description": "Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, excluding those made from cotton or synthetic or artificial fibres",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
       }
     },
     {
@@ -42,127 +100,89 @@
       "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats",
       "score": "0.015385",
       "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "611019",
-      "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "611420",
-      "description": "Garments; of cotton, knitted or crocheted, n.e.c. in chapter 61",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "621320",
-      "description": "Handkerchiefs; of cotton (not knitted or crocheted)",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "600121",
-      "description": "Fabrics; looped pile fabrics, of cotton, knitted or crocheted",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "610510",
-      "description": "Shirts; men's or boys', of cotton, knitted or crocheted",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "610910",
-      "description": "T-shirts, singlets and other vests; of cotton, knitted or crocheted",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "611120",
-      "description": "Garments and clothing accessories; babies', of cotton, knitted or crocheted",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "611211",
-      "description": "Track suits; of cotton, knitted or crocheted",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
+        "lexical": null,
+        "vector": 5
       }
     },
     {
       "code": "620520",
       "description": "Shirts; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.013514",
+      "score": "0.014925",
       "ranks": {
-        "lexical": 14
+        "lexical": null,
+        "vector": 7
       }
     },
     {
-      "code": "620920",
-      "description": "Garments and clothing accessories; babies', of cotton (not knitted or crocheted)",
-      "score": "0.013333",
+      "code": "520511",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.014706",
       "ranks": {
-        "lexical": 15
+        "lexical": 8,
+        "vector": null
       }
     },
     {
-      "code": "600191",
-      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of cotton, knitted or crocheted",
-      "score": "0.013158",
+      "code": "520512",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
+      "score": "0.014493",
       "ranks": {
-        "lexical": 16
+        "lexical": 9,
+        "vector": null
       }
     },
     {
-      "code": "610610",
-      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted",
-      "score": "0.012987",
+      "code": "611011",
+      "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair",
+      "score": "0.014493",
       "ranks": {
-        "lexical": 17
+        "lexical": null,
+        "vector": 9
       }
     },
     {
-      "code": "621390",
-      "description": "Handkerchiefs; of textile materials other than cotton (not knitted or crocheted)",
-      "score": "0.012821",
+      "code": "520513",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.014286",
       "ranks": {
-        "lexical": 18
+        "lexical": 10,
+        "vector": null
       }
     },
     {
-      "code": "970210",
-      "description": "Engravings, prints and lithographs; original of an age exceeding 100 years",
-      "score": "0.012658",
+      "code": "611030",
+      "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted",
+      "score": "0.014286",
       "ranks": {
-        "lexical": 19
+        "lexical": null,
+        "vector": 10
       }
     },
     {
-      "code": "600622",
-      "description": "Fabrics; knitted or crocheted fabrics, other than those of headings 60.01 to 60.04, of cotton, dyed",
-      "score": "0.012500",
+      "code": "520514",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale",
+      "score": "0.014085",
       "ranks": {
-        "lexical": 20
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "611019",
+      "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "520515",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring less than 125 decitex (exceeding 80 metric number), not for retail sale",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12,
+        "vector": null
       }
     }
   ]

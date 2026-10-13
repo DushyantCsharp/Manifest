@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "45256616f712dc4253d54b905ce109245e2a8e040dd30c05b550ce68928f5c1f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:03+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Granular urea fertiliser\nCountry of origin: QA\n\nChosen so far: 31 Fertilizers\n\nChoose the heading that covers these goods. Options:\n- 3102: Fertilizers; mineral or chemical, nitrogenous\n    contains 310210: Fertilizers, mineral or chemical; nitrogenous, urea, whether or not in aqueous solution\n    contains 310280: Fertilizers, mineral or chemical; nitrogenous, mixtures of urea and ammonium nitrate in aqueous or ammoniacal solution\n    contains 310221: Fertilizers, mineral or chemical; nitrogenous, ammonium sulphate\n    contains 310229: Fertilizers, mineral or chemical; nitrogenous, other than ammonium sulphate\n- 3105: Fertilizers; mineral or chemical, containing 2 or 3 of the elements nitrogen, phosphorus, potassium; other fertilisers; goods of chapter 31 in tablets or packages of gross weight not exceeding 10kg\n    contains 310530: Fertilizers, mineral or chemical; diammonium hydrogenorthophosphate (diammonium phosphate)\n    contains 310540: Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)\n    contains 310510: Fertilizers, mineral or chemical; in tablets or similar forms or in packages of a gross weight not exceeding 10kg\n    contains 310520: Fertilizers, mineral or chemical; containing the three fertilizing elements nitrogen, phosphorus and potassium\n    contains 310551: Fertilizers, mineral or chemical; containing nitrates and phosphates\n    contains 310559: Fertilizers, mineral or chemical; containing the two fertilizing elements nitrogen and phosphorus, other than nitrates and phosphates\n    contains 310590: Fertilizers, mineral or chemical; n.e.c. in heading no. 3105\n    contains 310560: Fertilizers, mineral or chemical; containing the two fertilizing elements phosphorus and potassium\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1444b6057ac802c36d40235a4249b9960d814683ff13aa4311a664d628ae2f67",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3102",
+      "cited": [
+        "3102",
+        "310210"
+      ],
+      "confidence": "0.95",
+      "reason": "Urea is a nitrogenous mineral or chemical fertilizer named in subheading 310210 under heading 3102; heading 3105 covers only multi-element fertilizers or goods in tablets or packages of 10 kg or less, and the goods are described as granular, not as packaged or tabletted."
+    },
+    "input_tokens": 1489,
+    "latency_ms": 3621,
+    "output_tokens": 135
+  }
+}

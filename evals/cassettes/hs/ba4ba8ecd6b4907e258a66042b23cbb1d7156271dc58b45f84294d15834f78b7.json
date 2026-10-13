@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "ba4ba8ecd6b4907e258a66042b23cbb1d7156271dc58b45f84294d15834f78b7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Household washing machine, fully automatic, front loading, 8kg dry linen capacity\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8450: Household or laundry-type washing machines; including machines which both wash and dry\n    contains 845011: Washing machines; household or laundry-type, fully-automatic, (of a dry linen capacity not exceeding 10kg)\n    contains 845019: Washing machines; household or laundry-type, not fully-automatic, without built-in centrifugal drier, of a dry linen capacity not exceeding 10kg\n    contains 845012: Washing machines; household or laundry-type, with built-in centrifugal drier, (not fully-automatic), of a dry linen capacity not exceeding 10kg\n    contains 845020: Washing machines; household or laundry-type, of a dry linen capacity exceeding 10kg\n    contains 845090: Washing machines; parts for household or laundry-type\n- 8451: Machinery (not of heading no. 8450) for washing, cleaning, wringing, drying, ironing, pressing, bleaching, dyeing, dressing, finishing, coating or impregnating textile yarn, fabrics or made up articles\n    contains 845129: Drying machines; of a dry linen capacity exceeding 10kg\n    contains 845121: Drying machines; of a dry linen capacity not exceeding 10kg\n    contains 845110: Dry-cleaning machines\n    contains 845140: Machines; for washing, bleaching or dyeing\n- 8422: Dish washing machines; machinery for cleaning, drying, filling, closing, sealing, capsuling or labelling bottles, cans, boxes, bags, etc, machinery for aerating beverages\n    contains 842211: Dish washing machines; of the household type\n    contains 842219: Dish washing machines; of other than household type\n- 8452: Sewing machines; other than book-sewing machines of heading no. 8440; furniture, bases and covers specially designed for sewing machines; sewing machine needles\n    contains 845221: Sewing machines; (not household type), automatic units\n    contains 845210: Sewing machines; of the household type\n- 8448: Machinery, auxiliary; for use with machines of heading no. 8444 to 8447 (e.g. dobbies, jacquards, automatic stop motions, shuttle changing mechanisms) parts, accessories for machines of heading no. 8444, 8447\n    contains 844832: Machines; parts and accessories of machines or auxiliary machinery for preparing textile fibres, other than card clothing\n- 8476: Automatic goods-vending machines (e.g. postage stamp, cigarette, food or beverage machines), including money-changing machines\n    contains 847681: Machines; automatic goods-vending machines, (e.g. postage stamp, cigarette, food or money-changing machines, excluding beverage-vending machines), incorporating heating or refrigerating devices\n    contains 847689: Machines; automatic goods-vending machines, (e.g. postage stamp, cigarette, food or money-changing machines, excluding beverage-vending machines), not incorporating heating or refrigerating devices\n- 8443: Printing machinery; used for printing by means of plates, cylinders and other printing components of heading 84.42; other printers, copying machines and facsimile machines, whether or not combined; parts and accessories thereof\n    contains 844331: Printing, copying, and facsimile machines; machines which perform two or more of the functions of printing, copying or facsimile transmission, capable of connecting to an automatic data processing machine or to a network\n    contains 844332: Printing, copying, and facsimile machines; single-function printing, copying or facsimile machines, capable of connecting to an automatic data processing machine or to a network\n    contains 844339: Printing, copying, and facsimile machines; single-function printing, copying or facsimile machines, not capable of connecting to an automatic data processing machine or to a network\n- 8421: Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus for liquids or gases\n    contains 842112: Centrifuges; clothes-dryers\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "91c4e1b78fa9797a261bb386c4a8ea83edb790f2650f0af5e570fbdae6718e4c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8450",
+      "cited": [
+        "8450",
+        "845011"
+      ],
+      "confidence": "0.98",
+      "reason": "A household fully automatic front-loading washing machine of 8kg dry linen capacity is a household or laundry-type washing machine of heading 8450 (subheading 845011)."
+    },
+    "input_tokens": 2197,
+    "latency_ms": 3287,
+    "output_tokens": 93
+  }
+}

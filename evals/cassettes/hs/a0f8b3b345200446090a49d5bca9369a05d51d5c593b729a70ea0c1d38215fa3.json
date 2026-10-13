@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "a0f8b3b345200446090a49d5bca9369a05d51d5c593b729a70ea0c1d38215fa3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Centrifugal water pump 1.1kW, single stage, electric\nCountry of origin: IT\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8413: Pumps; for liquids, whether or not fitted with measuring device, liquid elevators\n    contains 841370: Pumps; centrifugal, n.e.c. in heading no. 8413, for liquids\n    contains 841340: Pumps; concrete pumps\n    contains 841360: Pumps; rotary positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n    contains 841319: Pumps; for liquids, fitted or designed to be fitted with a measuring device, other than pumps for dispensing fuel or lubricants\n    contains 841350: Pumps; reciprocating positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n    contains 841330: Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines\n    contains 841391: Pumps; parts thereof\n- 8419: Machinery, plant (not domestic), or laboratory equipment; electrically heated or not, (excluding items in 85.14) for the treatment of materials by a process involving change of temperature; including instantaneous or non electric storage water heaters\n    contains 841919: Heaters; instantaneous or storage water heaters, non-electric, (other than instantaneous gas or solar water heaters)\n    contains 841911: Heaters; instantaneous gas water heaters, for domestic or other purposes\n- 8421: Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus for liquids or gases\n    contains 842191: Centrifuges; parts thereof, including parts for centrifugal dryers\n    contains 842119: Centrifuges; n.e.c. in heading no. 8421, including centrifugal dryers (but not clothes-dryers)\n    contains 842121: Machinery; for filtering or purifying water\n- 8414: Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan; gas-tight biological safety cabinets whether or not fitted with filters\n    contains 841420: Pumps; hand or foot-operated air pumps\n    contains 841490: Pumps and compressors; parts, of air or vacuum pumps, air or other gas compressors and fans, ventilating or recycling hoods incorporating a fan\n- 8410: Turbines; hydraulic water wheels and regulators therefor\n    contains 841011: Turbines; hydraulic turbines and water wheels, of a power not exceeding 1000kW\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4e9e34a052925b77bf8c673cecb9c54b162e0715de0250ac11b60891ad611033",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8413",
+      "cited": [
+        "8413",
+        "841370"
+      ],
+      "confidence": "0.97",
+      "reason": "A centrifugal pump for liquids (water) falls under heading 8413, specifically the centrifugal pumps subheading 841370."
+    },
+    "input_tokens": 1677,
+    "latency_ms": 2702,
+    "output_tokens": 80
+  }
+}

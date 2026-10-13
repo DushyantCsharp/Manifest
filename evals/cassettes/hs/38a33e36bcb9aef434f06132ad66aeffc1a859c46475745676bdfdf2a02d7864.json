@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "38a33e36bcb9aef434f06132ad66aeffc1a859c46475745676bdfdf2a02d7864",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:53+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Refined copper cathodes\nCountry of origin: CL\n\nChosen so far: 74 Copper and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 7403: Copper; refined and copper alloys, unwrought\n    contains 740311: Copper; refined, unwrought, cathodes and sections of cathodes\n    contains 740313: Copper; refined, unwrought, billets\n    contains 740312: Copper; refined, unwrought, wire-bars\n    contains 740319: Copper; refined, unwrought, n.e.c. in item no. 7403.1\n    contains 740329: Copper; copper alloys n.e.c. in heading no. 7403 (other than master alloys of heading no. 7405)\n- 7402: Copper; unrefined, copper anodes for electrolytic refining\n    contains 740200: Copper; unrefined, copper anodes for electrolytic refining\n- 7407: Copper; bars, rods and profiles\n    contains 740710: Copper; bars, rods and profiles, of refined copper\n    contains 740729: Copper; bars, rods and profiles, of copper alloys (other than copper-zinc base alloys)\n- 7401: Copper mattes; cement copper (precipitated copper)\n    contains 740100: Copper mattes; cement copper (precipitated copper)\n- 7409: Copper plates, sheets and strip; of a thickness exceeding 0.15mm\n    contains 740919: Copper; plates and sheets, of a thickness exceeding 0.15mm, of refined copper, not in coils\n    contains 740911: Copper; strip, of a thickness exceeding 0.15mm, of refined copper, in coils\n    contains 740990: Copper; plates, sheets and strip, of a thickness exceeding 0.15mm, of copper alloys (other than copper-zinc base alloys, copper-tin base alloys, copper-nickel base alloys or copper-nickel-zinc base alloys)\n- 7411: Copper tubes and pipes\n    contains 741110: Copper; tubes and pipes, of refined copper\n    contains 741129: Copper; tubes and pipes, of copper alloys (other than copper-zinc, copper-nickel base alloys (cupro-nickel) or copper-nickel-zinc base alloys (nickel-silver))\n- 7412: Copper; tube or pipe fittings (e.g. couplings, elbows, sleeves)\n    contains 741210: Copper; tube or pipe fittings (e.g. couplings, elbows, sleeves) of refined copper\n- 7408: Copper wire\n    contains 740829: Copper; wire, of copper alloys (other than copper-zinc base alloys, copper-nickel base alloys or copper-nickel-zinc base alloys)\n    contains 740811: Copper; wire, of refined copper, of which the maximum cross-sectional dimension exceeds 6mm\n    contains 740819: Copper; wire, of refined copper, of which the maximum cross-sectional dimension is 6mm or less\n- 7410: Copper foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0.15mm\n    contains 741011: Copper; foil, not backed, of a thickness not exceeding 0.15mm, of refined copper\n    contains 741021: Copper; foil, backed with paper, paperboard, plastics or similar backing material, of a thickness (excluding any backing) not exceeding 0.15mm, of refined copper\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f7af87ec95261194063fdeb993d42e775aa336b22d22faeeb00cfcaec64af53f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7403",
+      "cited": [
+        "7403",
+        "740311"
+      ],
+      "confidence": "0.98",
+      "reason": "Refined copper cathodes are unwrought refined copper, covered by heading 7403 (subheading 740311 for cathodes and sections of cathodes)."
+    },
+    "input_tokens": 1961,
+    "latency_ms": 2860,
+    "output_tokens": 88
+  }
+}

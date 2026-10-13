@@ -2,8 +2,8 @@
   "format": 1,
   "key": "3c69d0c7471a26c512decbfcc363146a14de5b208454999d766daf72141c3aa4",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:37+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.76",
+        "confidence": "0.6",
         "evidence": "COSUII3833836",
         "value": "COSUII3833836"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Weeks-Gonzalez",
         "value": "Weeks-Gonzalez"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "COSCO AURORA / 2685",
+        "confidence": "0.5",
+        "evidence": "COscO",
         "value": "COSCO"
       },
       "container_number": {
-        "confidence": "0.74",
-        "evidence": "C0sU3313057 | weEKs- 1504 SAID TO CONTAIN: Split: air conditioner 12000 | 19,128.49 kg",
+        "confidence": "0.6",
+        "evidence": "C0sU3313057",
         "value": "C0sU3313057"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "SEAL GONZALEZ :/ CARTONS | BTU; Cotton knitted pullover; LED. television . .",
+        "confidence": "0.9",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
+        "confidence": "0.7",
         "evidence": "Karachi Melbourne",
         "value": "Melbourne"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Karachi; 17-guL-2026. - ,",
+        "confidence": "0.8",
+        "evidence": "Karachi; 17-guL-2026.",
         "value": "Karachi"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "8882129 EX202675-4069 S55in 4k; Nitrile ‘examination gloves, box of ‘",
+        "confidence": "0.7",
+        "evidence": "8882129",
         "value": "8882129"
       },
       "seller_name": {
-        "confidence": "0.87",
+        "confidence": "0.7",
         "evidence": "Lahore Crescent Industrial Co., itd.",
         "value": "Lahore Crescent Industrial Co., itd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
+        "confidence": "0.7",
         "evidence": "17-JUL-2026",
         "value": "17-JUL-2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "C0sU3313057 | weEKs- 1504 SAID TO CONTAIN: Split: air conditioner 12000 | 19,128.49 kg",
+        "confidence": "0.85",
+        "evidence": "19,128.49 kg",
         "value": "19,128.49 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "C0sU3313057 | weEKs- 1504 SAID TO CONTAIN: Split: air conditioner 12000 | 19,128.49 kg",
+        "confidence": "0.8",
+        "evidence": "1504 SAID TO CONTAIN",
         "value": "1504"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "COSCO AURORA / 2685",
         "value": "COSCO AURORA"
       },
       "voyage": {
-        "confidence": "0.68",
+        "confidence": "0.9",
         "evidence": "COSCO AURORA / 2685",
         "value": "2685"
       }
     },
-    "input_tokens": 456,
-    "latency_ms": 0,
-    "output_tokens": 468
+    "input_tokens": 2272,
+    "latency_ms": 4164,
+    "output_tokens": 672
   }
 }

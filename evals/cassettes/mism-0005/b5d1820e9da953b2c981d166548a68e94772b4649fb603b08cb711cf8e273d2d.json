@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b5d1820e9da953b2c981d166548a68e94772b4649fb603b08cb711cf8e273d2d",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:34+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,8 +25,8 @@
         "value": "Klapp GmbH & Co. KG"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MSC",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: MSC",
         "value": "MSC"
       },
       "container_number": {
@@ -35,32 +35,32 @@
         "value": "MEDU6272117"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "851\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Hamburg",
+        "evidence": "PORT OF DISCHARGE\nHamburg",
         "value": "Hamburg"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Port Klang",
+        "evidence": "PORT OF LOADING\nPort Klang",
         "value": "Port Klang"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 4453086",
         "value": "4453086"
       },
@@ -70,33 +70,33 @@
         "value": "Penang Gemilang Electronics Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "2026-08-01",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n2026-08-01",
         "value": "2026-08-01"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "17 553,74 kg",
         "value": "17 553,74 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "851",
+        "confidence": "0.95",
+        "evidence": "851\nCARTONS",
         "value": "851"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC AURORA / 520E",
         "value": "MSC AURORA"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC AURORA / 520E",
         "value": "520E"
       }
     },
-    "input_tokens": 501,
-    "latency_ms": 0,
-    "output_tokens": 366
+    "input_tokens": 2324,
+    "latency_ms": 4685,
+    "output_tokens": 714
   }
 }

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "862c2e3725d312eb196e439e7a474fe72a735891def56a312a14333d21630d7b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:44+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Combed cotton yarn Ne 30/1, single, not for retail sale\nCountry of origin: IN\n\nChosen so far: 52 Cotton\n\nChoose the heading that covers these goods. Options:\n- 5205: Cotton yarn (other than sewing thread), containing 85% or more by weight of cotton, not put up for retail sale\n    contains 520543: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 232.55 to 192.31 decitex (44 to 52 metric number) per single yarn, not for retail sale\n    contains 520541: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 714.29 decitex or more (not exceeding 14 metric number) per single yarn, not for retail sale\n    contains 520523: Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale\n    contains 520546: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 124 to 106.38 decitex (81 to 94 metric number) per single yarn, not for retail sale\n    contains 520527: Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 106.38 but not less than 83.33 decitex (over 94 but not over 120 metric number), not for retail sale\n    contains 520531: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 714.29 decitex or more (not exceeding 14 metric number) per single yarn, not for retail sale\n    contains 520526: Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 125 but not less than 106.38 decitex (over 80 but not over 94 metric number), not for retail sale\n    contains 520522: Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale\n    contains 520542: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 714.28 to 232.56 decitex (15 to 43 metric number) per single yarn, not for retail sale\n    contains 520547: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 106.37 to 83.33 decitex (95 to 120 metric number) per single yarn, not for retail sale\n    contains 520521: Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale\n    contains 520513: Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale\n    contains 520533: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 232.55 to 192.31 decitex (44 to 52 metric number) per single yarn, not for retail sale\n    contains 520548: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, less than 83.33 decitex (exceeding 120 metric number) per single yarn, not for retail sale\n    contains 520524: Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale\n    contains 520544: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale\n    contains 520528: Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring less than 83.33 decitex (exceeding 120 metric number), not for retail sale\n    contains 520532: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 714.28 to 232.56 decitex (15 to 43 metric number) per single yarn, not for retail sale\n- 5206: Cotton yarn (other than sewing thread), containing less than 85% by weight of cotton, not put up for retail sale\n    contains 520643: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, less than 85% by weight of cotton, 232.55 to 192.31 decitex (44 to 52 metric number) per single yarn, not for retail sale\n    contains 520623: Cotton yarn; (not sewing thread), single, of combed fibres, less than 85% by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5537aed9af3dcd1f18ac87b30ff5031a6bd83d960243e735aecca8778ce3da67",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "5205",
+      "cited": [
+        "5205",
+        "520522"
+      ],
+      "confidence": "0.93",
+      "reason": "Combed cotton yarn, presumably 100% cotton (85% or more), single, Ne 30 (about 50 metric number... actually ~197 decitex... falls in 5205 single combed), not for retail sale, so heading 5205 applies rather than 5206 (under 85% cotton)."
+    },
+    "input_tokens": 2653,
+    "latency_ms": 3490,
+    "output_tokens": 133
+  }
+}

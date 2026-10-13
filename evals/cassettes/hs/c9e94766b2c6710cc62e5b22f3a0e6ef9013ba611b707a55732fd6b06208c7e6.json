@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "c9e94766b2c6710cc62e5b22f3a0e6ef9013ba611b707a55732fd6b06208c7e6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:54+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel sheet 304, cold-rolled, 2mm thick, 1250mm wide\nCountry of origin: CN\n\nChosen so far: 72 Iron and steel > 7219 Stainless steel; flat-rolled products of width of 600mm or more\n\nChoose the subheading that covers these goods. Options:\n- 721931: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled or cold-reduced, of a thickness of 4.75mm or more\n- 721932: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more but less than 4.75mm\n- 721934: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm\n- 721935: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm\n- 721933: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm\n- 721912: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 4.75mm or more but not exceeding 10mm\n- 721922: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of 4.75mm or more but not exceeding 10mm\n- 721914: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of less than 3mm\n- 721913: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 3mm or more but less than 4.75mm\n- 721924: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of less than 3mm\n- 721911: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness exceeding 10mm\n- 721923: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of 3mm or more but less than 4.75mm\n- 721921: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness exceeding 10mm\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "bdc95fc97c645e6cb9bece37e54053ba4c7784c3ff99aeaa4a93e3dd2eb322bd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "721933",
+      "cited": [
+        "721933"
+      ],
+      "confidence": "0.97",
+      "reason": "Cold-rolled stainless flat product 1250mm wide and 2mm thick falls in the thickness range exceeding 1mm but less than 3mm."
+    },
+    "input_tokens": 1656,
+    "latency_ms": 3118,
+    "output_tokens": 85
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "ca8c7dc650d8a65645c810c7b13f84f8929fdb27c95a8dd2a3c2bf752ab2d8d1",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:53+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,42 +25,42 @@
         "value": "Scott and Sons"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "HAPAG-LLOYD",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: HAPAG-LLOYD",
         "value": "HAPAG-LLOYD"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "HLCU2348441",
         "value": "HLCU2348441"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "SCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb",
+        "confidence": "0.95",
+        "evidence": "545 CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Southampton",
+        "evidence": "PORT OF DISCHARGE\nSouthampton",
         "value": "Southampton"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Qingdao",
+        "evidence": "PORT OF LOADING\nQingdao",
         "value": "Qingdao"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 2551983",
         "value": "2551983"
       },
@@ -70,33 +70,33 @@
         "value": "Guangzhou Tianyi Trading Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "March 17, 2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\nMarch 17, 2026",
         "value": "March 17, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "SCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb",
+        "confidence": "0.96",
+        "evidence": "9,918.3 lb",
         "value": "9,918.3 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "SCOTT / 2026/2135 545 CARTONS SAID TO CONTAIN: Red wine, 0.75L bottle 9,918.3 lb",
+        "confidence": "0.93",
+        "evidence": "545 CARTONS",
         "value": "545"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "HAPAG-LLOYD VALENCIA / 741W",
         "value": "HAPAG-LLOYD VALENCIA"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "HAPAG-LLOYD VALENCIA / 741W",
         "value": "741W"
       }
     },
-    "input_tokens": 491,
-    "latency_ms": 0,
-    "output_tokens": 430
+    "input_tokens": 2311,
+    "latency_ms": 4294,
+    "output_tokens": 751
   }
 }

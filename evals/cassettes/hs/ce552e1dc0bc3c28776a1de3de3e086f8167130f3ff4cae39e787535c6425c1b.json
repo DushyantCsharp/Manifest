@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "ce552e1dc0bc3c28776a1de3de3e086f8167130f3ff4cae39e787535c6425c1b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:44+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LDPE granules, film grade, specific gravity below 0.94\nCountry of origin: SA\n\nChoose the chapter that covers these goods. Options:\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 251200: Siliceous fossil meals (e.g. kieselguhr, tripolite and diatomite) and similar siliceous earths; whether or not calcined, of an apparent specific gravity of 1 or less\n    contains 251511: Marble and travertine; having a specific gravity of 2.5 or more, crude or roughly trimmed by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape\n    contains 251512: Marble and travertine; merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape, having a specific gravity of 2.5 or more\n    contains 251520: Ecaussine and other calcareous monumental or building stone; alabaster, having a specific gravity of 2.5 or more\n- 39: Plastics and articles thereof\n    contains 390110: Ethylene polymers; in primary forms, polyethylene having a specific gravity of less than 0.94\n    contains 390140: Ethylene polymers; in primary forms, ethylene-alpha-olefin copolymers, having a specific gravity of less than 0.94\n    contains 390120: Ethylene polymers; in primary forms, polyethylene having a specific gravity of 0.94 or more\n    contains 392010: Plastics; plates, sheets, film, foil and strip (not self-adhesive), of polymers of ethylene, non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392020: Plastics; of polymers of propylene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392049: Plastics; polymers of vinyl chloride, containing by weight, less than 6% of plasticisers; plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 390290: Propylene, other olefin polymers; n.e.c. in heading no. 3902, in primary forms\n    contains 390210: Propylene, other olefin polymers; polypropylene in primary forms\n    contains 390230: Propylene, other olefin polymers; propylene copolymers in primary forms\n    contains 392321: Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods\n- 54: Man-made filaments; strip and the like of man-made textile materials\n    contains 540412: Monofilament of polypropylene; of 67 decitex or more and of which no cross-sectional dimension exceeds 1mm\n    contains 540248: Yarn, synthetic; filament, monofilament (less than 67 decitex), of polypropylene (not high tenacity or textured), single, untwisted or twisted 50 turns or less per metre, not for retail sale, not sewing thread\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 37: Photographic or cinematographic goods\n    contains 370120: Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs\n    contains 370254: Photographic film; for colour photography (polychrome), in rolls, sensitised, unexposed, of a width exceeding 16mm but not 35mm and of a length not exceeding 30m, excluding film for slides (other than of paper, paperboard or textiles)\n    contains 370500: Photographic plates and film; exposed and developed, other than cinematographic film\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4855cf138dc04a6a05a11ecbfb605cd38f12dcba21828fa1da264966038c65af",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "39",
+      "cited": [
+        "39",
+        "390110"
+      ],
+      "confidence": "0.98",
+      "reason": "Low-density polyethylene granules with a specific gravity below 0.94 are ethylene polymers in primary forms, which fall in Chapter 39 (subheading 390110)."
+    },
+    "input_tokens": 2107,
+    "latency_ms": 2962,
+    "output_tokens": 93
+  }
+}

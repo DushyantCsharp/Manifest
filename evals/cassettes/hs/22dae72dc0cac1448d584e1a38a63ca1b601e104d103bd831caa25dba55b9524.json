@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "22dae72dc0cac1448d584e1a38a63ca1b601e104d103bd831caa25dba55b9524",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:53+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Office swivel chair with gas-lift height adjustment, upholstered, metal base\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 83: Metal; miscellaneous products of base metal\n    contains 830400: Office equipment; filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading no. 9403\n    contains 830210: Hinges; suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like, of base metal\n    contains 830242: Mountings, fittings and similar articles; suitable for furniture of base metal\n    contains 830220: Castors; with mountings, of base metal\n    contains 830241: Mountings, fittings and similar articles; of base metal, suitable for buildings\n    contains 830249: Mountings, fittings and similar articles; suitable for other than buildings or furniture, of base metal\n    contains 830230: Mountings, fittings and similar articles; for motor vehicles, of base metal\n    contains 830260: Automatic door closures; of base metal\n    contains 830250: Hat-racks, hat-pegs, brackets and similar fixtures, of base metal\n    contains 831190: Wires, rods, tubes, plates, electrodes of base metal or metal carbides; of a kind used for soldering, brazing, welding; wires and rods for metal spraying; n.e.c. in item no. 8311\n- 71: Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin\n    contains 711299: Waste and scrap of precious metals; waste and scrap of precious metals including metal clad with precious metals, other than that of gold and platinum and excluding ash which contains precious metal or precious metal compounds\n    contains 711230: Waste and scrap of precious metal or of metal clad with precious metal; ash containing precious metal or precious metal compounds\n    contains 711291: Waste and scrap of precious metals; of gold, including metal clad with gold but excluding sweepings containing other precious metals\n    contains 711292: Waste and scrap of precious metals; of platinum, including metal clad with platinum but excluding sweepings containing other precious metals\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940210: Chairs; dentists', barbers' or similar chairs having rotating as well as both reclining and elevating movements, and parts thereof\n    contains 940310: Furniture; metal, for office use\n    contains 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 840510: Generators; producer gas, water gas, acetylene gas and similar water process gas generators, with or without their purifiers\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2c3f3646ef9ff1f33c11fd6e6a43fcee6a197d1bf2677d71635591ece0fa975f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "94",
+      "cited": [
+        "94",
+        "940139"
+      ],
+      "confidence": "0.97",
+      "reason": "An upholstered office swivel chair with height adjustment is a seat of heading 9401 (swivel seats with variable height adjustment), which falls in Chapter 94."
+    },
+    "input_tokens": 1925,
+    "latency_ms": 2851,
+    "output_tokens": 89
+  }
+}

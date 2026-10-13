@@ -1,7 +1,12 @@
 """The eval corpus and its cassettes stay in step with the extractor, with no infrastructure.
 
 If the extraction prompt, schema or page text changes, request hashes change and these fail
-first (fast, in ``make test``): reseed with ``make cassettes`` or re-record live.
+first (fast, in ``make test``): re-record with ``make eval-record`` (or, offline, reseed the
+oracle's stand-in answers with ``make cassettes``).
+
+The committed cassettes hold a real model's answers; how good they are is the harness's to
+gate (``make eval``). The oracle's answers, seeded into a temporary folder, check the machinery:
+a literal copier of the truth must round-trip through extraction, evidence and merge.
 """
 
 import json
@@ -9,6 +14,8 @@ from pathlib import Path
 
 import pytest
 
+from manifest_domain.extraction import ExtractedValue
+from manifest_domain.merge import Merged
 from manifest_evals import golden
 from manifest_evals.oracle import NAME, OracleProvider
 from manifest_llm.gateway import JsonRequest
@@ -29,15 +36,32 @@ def test_the_corpus_has_labels_and_truth_for_every_document() -> None:
         assert sorted(page.document for page in golden.pages(pack)) == sorted(DOCUMENTS)
 
 
-@pytest.mark.parametrize("pack", TEXT_LAYER)
-def test_text_layer_packs_replay_to_ground_truth_with_provenance(pack: str) -> None:
+def _found(merged: Merged) -> list[ExtractedValue]:
+    return [*merged.fields.values(), *(v for line in merged.lines for v in line.values())]
+
+
+@pytest.mark.parametrize("pack", PACKS)
+def test_the_committed_recordings_replay_with_provenance(pack: str) -> None:
     provider = golden.cassette(pack)
     documents = golden.extract_pack(pack, provider)
     assert provider.counts == {"replayed": 3}
+    assert provider.sources.keys() == {"anthropic"}, "a stand-in answer was committed"
+    for document in documents.values():
+        found = _found(document.merged)
+        assert found
+        for value in found:
+            assert value.page == 1
+            assert value.signals is not None
+
+
+@pytest.mark.parametrize("pack", TEXT_LAYER)
+def test_the_oracle_round_trips_text_layer_packs_with_provenance(pack: str, tmp_path: Path) -> None:
+    golden.seed(pack, root=tmp_path)
+    documents = golden.extract_pack(pack, golden.cassette(pack, root=tmp_path))
     for document, truth in golden.truths(pack).items():
         merged = documents[document].merged
         assert golden.differences(truth, golden.values(merged)) == []
-        found = [*merged.fields.values(), *(v for line in merged.lines for v in line.values())]
+        found = _found(merged)
         assert found
         for value in found:
             assert value.page == 1
@@ -45,10 +69,11 @@ def test_text_layer_packs_replay_to_ground_truth_with_provenance(pack: str) -> N
             assert value.signals.evidence == "verified"
 
 
-def test_scanned_packs_replay_what_ocr_left_readable() -> None:
+def test_on_scans_the_oracle_reads_only_what_ocr_left_readable(tmp_path: Path) -> None:
     right = total = 0
     for pack in SCANNED:
-        readings = golden.read_pack(pack, golden.cassette(pack))
+        golden.seed(pack, root=tmp_path)
+        readings = golden.read_pack(pack, golden.cassette(pack, root=tmp_path))
         for document, truth in golden.truths(pack).items():
             got, expected = golden.accuracy(truth, readings[document])
             right, total = right + got, total + expected

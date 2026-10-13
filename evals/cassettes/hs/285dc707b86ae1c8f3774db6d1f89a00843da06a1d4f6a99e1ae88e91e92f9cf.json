@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "285dc707b86ae1c8f3774db6d1f89a00843da06a1d4f6a99e1ae88e91e92f9cf",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:00+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Rubberwood dining table, 6 seats\nCountry of origin: MY\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n\nChoose the heading that covers these goods. Options:\n- 9401: Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof\n    contains 940153: Seats; of rattan\n    contains 940152: Seats; of bamboo\n    contains 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940169: Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940141: Seats; convertible into beds of wood, other than garden seats or camping equipment\n    contains 940149: Seats; convertible into beds of other than wood, other than garden seats or camping equipment\n- 9402: Furniture; medical, surgical, dental or veterinary (e.g. operating tables, hospital beds, dentists' chairs) barbers' chairs; parts\n    contains 940290: Furniture; for medical, surgical, veterinary use (e.g. operating tables, examination tables, hospital beds with mechanical fittings) and parts thereof\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2334ca08b50705ff1066b5cbd739c6c15dd09eb5005282d0023e3fe50ffccabb",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "none",
+      "cited": [
+        "9401",
+        "9402"
+      ],
+      "confidence": "0.8",
+      "reason": "A wooden dining table is neither a seat (9401) nor medical, surgical, dental or veterinary furniture (9402); it belongs in heading 9403 (other wooden furniture), which is not offered among the options."
+    },
+    "input_tokens": 1228,
+    "latency_ms": 2986,
+    "output_tokens": 105
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "a6b22d06d212954ae64846285e7d8a3e683b68f01d79db8e40ad4a524046e4ef",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:34+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's socks, knitted, 80% cotton\nCountry of origin: TR\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n    contains 610342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton, knitted or crocheted\n    contains 610322: Ensembles; men's or boys', of cotton, knitted or crocheted\n    contains 610590: Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610349: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610329: Ensembles; men's or boys', of textile materials (other than cotton or synthetic fibres), knitted or crocheted\n    contains 610711: Underpants and briefs; men's or boys', of cotton, knitted or crocheted\n    contains 610332: Jackets and blazers; men's or boys', of cotton, knitted or crocheted\n    contains 610721: Nightshirts and pyjamas; men's or boys', of cotton, knitted or crocheted\n    contains 610719: Underpants and briefs; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610729: Nightshirts and pyjamas; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610791: Bathrobes, dressing gowns and similar articles; men's or boys', of cotton, knitted or crocheted\n- 52: Cotton\n    contains 520534: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale\n    contains 520535: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, less than 125 decitex (exceeding 80 metric number), per single yarn, not for retail sale\n    contains 520544: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, 85% or more by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale\n    contains 520634: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, less than 85% by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale\n    contains 520645: Cotton yarn; (not sewing thread), multiple or cabled, of combed fibres, less than 85% by weight of cotton, less than 125 decitex (exceeding 80 metric number) per single yarn, not for retail sale\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620520: Shirts; men's or boys', of cotton (not knitted or crocheted)\n    contains 621132: Track suits and other garments n.e.c.; men's or boys', of cotton (not knitted or crocheted)\n    contains 620342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a5aba2109b8dccd93c54161b17c3dd2a94d09f02609626a81c01b42ac4775347",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "61",
+      "cited": [
+        "61"
+      ],
+      "confidence": "0.97",
+      "reason": "Knitted socks are hosiery classified in heading 6115 within Chapter 61 (knitted or crocheted apparel and accessories), not in cotton yarn/fabric Chapter 52 or non-knitted Chapter 62."
+    },
+    "input_tokens": 1951,
+    "latency_ms": 2147,
+    "output_tokens": 109
+  }
+}

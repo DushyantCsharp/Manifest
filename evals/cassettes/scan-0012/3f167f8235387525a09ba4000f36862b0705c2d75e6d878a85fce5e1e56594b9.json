@@ -2,8 +2,8 @@
   "format": 1,
   "key": "3f167f8235387525a09ba4000f36862b0705c2d75e6d878a85fce5e1e56594b9",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:38+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "MAEUAE9829940",
         "value": "MAEUAE9829940"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Janssens VOF",
         "value": "Janssens VOF"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MAERSK |",
+        "confidence": "0.8",
+        "evidence": "Signed ee Comer MAERSK",
         "value": "MAERSK"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "MAEU9329709 | JANSSENS / 786 SAID TO CONTAIN: Leather handbag with shoulder 25.372,26 kg",
+        "confidence": "0.92",
+        "evidence": "MAEU9329709",
         "value": "MAEU9329709"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "SEAL RE-26-3139 CARTONS | strap; Stainless steel sheet 304, cold-rolled",
+        "confidence": "0.9",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Antwerp",
+        "confidence": "0.96",
+        "evidence": "PORT OF DISCHARGE\nAntwerp",
         "value": "Antwerp"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Chennai",
+        "confidence": "0.96",
+        "evidence": "PORT OF LOADING\nChennai",
         "value": "Chennai"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "7906175 2mm; Smartphone 6.lin, 128GB; Men's woven cotton",
-        "value": "7906175"
+        "confidence": "0.88",
+        "evidence": "SEAL RE-26-3139",
+        "value": "RE-26-3139"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Salvi LLC’",
         "value": "Salvi LLC"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "05.05.2026 Chennai, 05.05.2026 THREE (3)",
+        "confidence": "0.9",
+        "evidence": "SHIPPED ON BOARD PLACE AND DATE OF ISSUE NUMBER OF ORIGINAL B/LS\n05.05.2026",
         "value": "05.05.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "MAEU9329709 | JANSSENS / 786 SAID TO CONTAIN: Leather handbag with shoulder 25.372,26 kg",
+        "confidence": "0.95",
+        "evidence": "25.372,26 kg",
         "value": "25.372,26 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "MAEU9329709 | JANSSENS / 786 SAID TO CONTAIN: Leather handbag with shoulder 25.372,26 kg",
+        "confidence": "0.8",
+        "evidence": "JANSSENS / 786",
         "value": "786"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "MAERSK TRITON / 3225S",
         "value": "MAERSK TRITON"
       },
       "voyage": {
-        "confidence": "0.80",
+        "confidence": "0.92",
         "evidence": "MAERSK TRITON / 3225S",
         "value": "3225S"
       }
     },
-    "input_tokens": 522,
-    "latency_ms": 0,
-    "output_tokens": 448
+    "input_tokens": 2384,
+    "latency_ms": 4887,
+    "output_tokens": 724
   }
 }

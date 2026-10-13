@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "b9819ecdc6628a0f39d822d5c4c8fdf3d05da934b4eb6c578015076ef4f326c2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:39+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Tomato ketchup in bottles\nCountry of origin: US\n\nChosen so far: 21 Miscellaneous edible preparations > 2103 Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard\n\nChoose the subheading that covers these goods. Options:\n- 210320: Sauces; tomato ketchup and other tomato sauces\n- 210390: Sauces and preparations therefor; mixed condiments and mixed seasonings\n- 210330: Mustard flour and meal and prepared mustard\n- 210310: Sauces; soya\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2a6e0f82f282e0bd50a0583b51881e1636baa607303324a0e0a24400158f6e96",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "210320",
+      "cited": [
+        "210320"
+      ],
+      "confidence": "0.98",
+      "reason": "Tomato ketchup is expressly named in subheading 2103.20 (tomato ketchup and other tomato sauces)."
+    },
+    "input_tokens": 950,
+    "latency_ms": 3157,
+    "output_tokens": 75
+  }
+}

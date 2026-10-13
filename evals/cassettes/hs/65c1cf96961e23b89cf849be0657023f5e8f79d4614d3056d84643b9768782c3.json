@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "65c1cf96961e23b89cf849be0657023f5e8f79d4614d3056d84643b9768782c3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:18+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Toilet soap bars\nCountry of origin: ID\n\nChosen so far: 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster\n\nChoose the heading that covers these goods. Options:\n- 3401: Soap; organic surface-active preparations used as soap, skin washing, in bars, cakes, moulded pieces, shapes, liquid or cream, containing soap or not; for retail, paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent\n    contains 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n    contains 340119: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use\n    contains 340120: Soap; in forms n.e.c. in item no. 3401.11\n    contains 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n- 3402: Organic surface-active agents (not soap); surface-active, washing (including auxiliary washing) and cleaning preparations, containing soap or not, excluding those of heading no. 3401\n    contains 340250: Washing and cleaning preparations; powders, flakes and granules, surface-active, whether or not containing soap (excluding those of heading no. 3401), put up for retail sale\n    contains 340241: Organic surface-active agents; cationic (other than soap), whether or not put up for retail sale\n    contains 340242: Organic surface-active agents; non-ionic (other than soap), whether or not put up for retail sale\n    contains 340290: Washing and cleaning preparations; surface-active, whether or not containing soap (excluding those of heading no. 3401), including auxiliary washing preparations, not for retail sale\n    contains 340239: Anionic organic surface-active agents (other than soap); other than linear alkylbenzene sulphonic acids and their salts, whether or not put up for retail sale\n    contains 340231: Anionic organic surface-active agents (other than soap); linear alkylbenzene sulphonic acids and their salts, whether or not put up for retail sale\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ceb019c1c7d03a371d0531061abc6462ee6fdd3c81b0965a7545b2e4b4fc83f5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3401",
+      "cited": [
+        "3401",
+        "340111"
+      ],
+      "confidence": "0.99",
+      "reason": "Toilet soap in bars is soap in bars or cakes for toilet use, covered by heading 3401 (subheading 340111), not by 3402."
+    },
+    "input_tokens": 1596,
+    "latency_ms": 3731,
+    "output_tokens": 85
+  }
+}

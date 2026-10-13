@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "0857baa56a8f7facd78b19f934fb18ba5efc7c919812c8cd45c24e92abce1475",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Bath towel 70x140, terry cotton origin PK",
   "limit": 20,
   "candidates": [
     {
-      "code": "630260",
-      "description": "Kitchen and toilet linen; of terry towelling or similar terry fabrics, of cotton",
-      "score": "0.016393",
+      "code": "580210",
+      "description": "Fabrics; terry towelling and similar woven terry fabrics, of cotton, whether bleached or unbleached, excluding narrow fabrics of heading no. 5806",
+      "score": "0.032522",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 2
       }
     },
     {
-      "code": "630291",
-      "description": "Toilet and kitchen linen; of cotton, excluding terry towelling or similar terry fabrics",
-      "score": "0.016129",
+      "code": "630260",
+      "description": "Kitchen and toilet linen; of terry towelling or similar terry fabrics, of cotton",
+      "score": "0.032266",
       "ranks": {
-        "lexical": 2
+        "lexical": 3,
+        "vector": 1
       }
     },
     {
       "code": "580220",
       "description": "Fabrics; terry towelling and similar woven terry fabrics, of textile materials, excluding cotton, excluding narrow fabrics of heading no. 5806",
-      "score": "0.015873",
+      "score": "0.031054",
       "ranks": {
-        "lexical": 3
+        "lexical": 2,
+        "vector": 7
       }
     },
     {
-      "code": "580210",
-      "description": "Fabrics; terry towelling and similar woven terry fabrics, of cotton, whether bleached or unbleached, excluding narrow fabrics of heading no. 5806",
-      "score": "0.015625",
+      "code": "630291",
+      "description": "Toilet and kitchen linen; of cotton, excluding terry towelling or similar terry fabrics",
+      "score": "0.030777",
       "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "600121",
-      "description": "Fabrics; looped pile fabrics, of cotton, knitted or crocheted",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "600191",
-      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of cotton, knitted or crocheted",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "600129",
-      "description": "Fabrics; looped pile fabrics, of textile materials (other than cotton or man-made fibres), knitted or crocheted",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "600199",
-      "description": "Fabrics; pile fabrics (excluding long pile and loop pile), of textile materials (other than cotton or man-made fibres), knitted or crocheted",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "961900",
-      "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "732429",
-      "description": "Iron (other than cast) or steel; baths",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "732421",
-      "description": "Cast iron, baths, whether or not enamelled",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
+        "lexical": 4,
+        "vector": 6
       }
     },
     {
       "code": "481820",
       "description": "Paper articles; handkerchiefs, cleansing or facial tissues and towels",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "481830",
+      "description": "Paper articles; tablecloths and serviettes, of paper, cellulose wadding or fibres",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "481850",
+      "description": "Paper articles; apparel and clothing accessories of paper, cellulose wadding or fibres",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "520511",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "520512",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "520513",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "481810",
+      "description": "Paper articles; toilet paper",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "520514",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "481890",
+      "description": "Paper articles; articles of paper, cellulose wadding or fibres, n.e.c. in heading no. 4818",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "520515",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring less than 125 decitex (exceeding 80 metric number), not for retail sale",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "520521",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "580230",
+      "description": "Fabrics; tufted textile fabrics, excluding products of heading no. 5703",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "520522",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "621320",
+      "description": "Handkerchiefs; of cotton (not knitted or crocheted)",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "520523",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
       "score": "0.013889",
       "ranks": {
-        "lexical": 12
+        "lexical": 12,
+        "vector": null
       }
     },
     {
-      "code": "392210",
-      "description": "Plastics; baths, shower-baths, sinks and wash-basins",
-      "score": "0.013699",
+      "code": "630221",
+      "description": "Bed linen; of cotton, printed, not knitted or crocheted",
+      "score": "0.013889",
       "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "732490",
-      "description": "Iron or steel; sanitary ware and parts thereof, excluding sinks, wash basins and baths",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "330730",
-      "description": "Perfumery, cosmetic or toilet preparations; perfumed bath salts and other bath preparations",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "580610",
-      "description": "Fabrics; woven pile (including terry towelling and similar terry fabrics) and chenille fabrics (excluding goods of heading 5807)",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "480300",
-      "description": "Tissue, towel, napkin stock or similar; for household or sanitary use, cellulose, wadding webs of cellulose fibres, in rolls exceeding 36cm in width or rectangular sheets with one side more than 36cm in unfolded state",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "691010",
-      "description": "Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of porcelain or china",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "691090",
-      "description": "Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of other than porcelain or china",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "600110",
-      "description": "Fabrics; long pile fabrics, knitted or crocheted",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 12
       }
     }
   ]

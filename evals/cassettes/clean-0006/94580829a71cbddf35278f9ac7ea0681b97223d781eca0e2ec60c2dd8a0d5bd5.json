@@ -2,8 +2,8 @@
   "format": 1,
   "key": "94580829a71cbddf35278f9ac7ea0681b97223d781eca0e2ec60c2dd8a0d5bd5",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:45+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,27 +15,27 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Douglas-Adams",
+        "confidence": "0.96",
+        "evidence": "BILL TO / CONSIGNEE\nDouglas-Adams",
         "value": "Douglas-Adams"
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Currency: USD",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Terms of Sale: CIP Toronto (Incoterms 2020)",
         "value": "CIP Toronto"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice Date 02/13/2026",
         "value": "02/13/2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice No. INV-2026-30691",
         "value": "INV-2026-30691"
       },
@@ -43,37 +43,37 @@
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "evidence": "3.70 28,504.80",
             "value": "28,504.80"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Thailand",
+            "confidence": "0.96",
+            "evidence": "27cm Thailand 7,704",
             "value": "Thailand"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.6",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
             "value": "Porcelain dinner plate 27cm"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "evidence": "Thailand 7,704 pcs 3.70 28,504.80",
             "value": "7,704"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "evidence": "7,704 pcs 3.70",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+            "evidence": "pcs 3.70 28,504.80",
             "value": "3.70"
           }
         }
@@ -89,13 +89,13 @@
         "value": "Bangkok Sukjai Trading Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "1 Porcelain dinner plate 27cm Thailand 7,704 pcs 3.70 28,504.80",
+        "confidence": "0.98",
+        "evidence": "Total USD 28,504.80",
         "value": "28,504.80"
       }
     },
-    "input_tokens": 441,
-    "latency_ms": 0,
-    "output_tokens": 448
+    "input_tokens": 2283,
+    "latency_ms": 4954,
+    "output_tokens": 742
   }
 }

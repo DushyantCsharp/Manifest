@@ -2,8 +2,8 @@
   "format": 1,
   "key": "295e191f9ba60d935746e62d95cbc8d51a4cb83fb0a17325496b69aa7b50e8ed",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:12+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:47:03+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,119 +15,119 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Segebahn Hein AG & Co. KGaA : | | DDP Hamburg",
+        "confidence": "0.92",
+        "evidence": "Segebahn Hein AG & Co. KGaA",
         "value": "Segebahn Hein AG & Co. KGaA"
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "Via Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26",
+        "confidence": "0.95",
+        "evidence": "Date 2026-02-26",
         "value": "2026-02-26"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Segebahn Hein AG & Co. KGaA : | | DDP Hamburg",
+        "confidence": "0.9",
+        "evidence": "DDP Hamburg",
         "value": "DDP Hamburg"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "Ceci, Mantegazza e Donati s.r.1. Invoice Ref. FC-3036/26",
+        "confidence": "0.95",
+        "evidence": "Invoice Ref. FC-3036/26",
         "value": "FC-3036/26"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Via Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "IT 1709",
+            "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "confidence": "0.95",
+            "evidence": "Leather handbag with shoulder strap",
             "value": "Leather handbag with shoulder strap"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "confidence": "0.88",
+            "evidence": "2 164,06 kg",
             "value": "2 164,06 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.86",
-            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "confidence": "0.9",
+            "evidence": "1792,74 kg",
             "value": "1792,74 kg"
           },
           "quantity": {
-            "confidence": "0.80",
-            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "confidence": "0.93",
+            "evidence": "IT 1709 pcs",
             "value": "1709"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "confidence": "0.95",
+            "evidence": "1709 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Via Oreste, 67 Appartamento 9, 20135 Bologna, Italy . Date 2026-02-26",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "IT 2700",
+            "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "confidence": "0.95",
+            "evidence": "Extra virgin olive oil, 1L bottle",
             "value": "Extra virgin olive oil, 1L bottle"
           },
           "gross_weight_kg": {
-            "confidence": "0.86",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "confidence": "0.9",
+            "evidence": "2771,08 kg",
             "value": "2771,08 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "confidence": "0.9",
+            "evidence": "2 484,00 kg",
             "value": "2 484,00 kg"
           },
           "quantity": {
-            "confidence": "0.80",
-            "evidence": "2 Extra virgin olive oil, 1L bottle IT 2700 pcs 225 2 484,00 kg 2771,08 kg",
+            "confidence": "0.93",
+            "evidence": "IT 2700 pcs",
             "value": "2700"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1709 pcs 171 1792,74 kg 2 164,06 kg",
+            "confidence": "0.95",
+            "evidence": "2700 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.87",
-        "evidence": "Ceci, Mantegazza e Donati s.r.1. Invoice Ref. FC-3036/26",
+        "confidence": "0.85",
+        "evidence": "Ceci, Mantegazza e Donati s.r.1.",
         "value": "Ceci, Mantegazza e Donati s.r.1."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.86",
-        "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
+        "confidence": "0.92",
+        "evidence": "4935,14 kg",
         "value": "4935,14 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.86",
-        "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
+        "confidence": "0.92",
+        "evidence": "4276,74 kg",
         "value": "4276,74 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "396 CARTONS 4276,74 kg 4935,14 kg",
+        "confidence": "0.93",
+        "evidence": "396 CARTONS",
         "value": "396"
       }
     },
-    "input_tokens": 385,
-    "latency_ms": 0,
-    "output_tokens": 753
+    "input_tokens": 2367,
+    "latency_ms": 5260,
+    "output_tokens": 945
   }
 }

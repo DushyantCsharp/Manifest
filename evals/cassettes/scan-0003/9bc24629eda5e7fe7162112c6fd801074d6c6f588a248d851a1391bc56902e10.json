@@ -2,8 +2,8 @@
   "format": 1,
   "key": "9bc24629eda5e7fe7162112c6fd801074d6c6f588a248d851a1391bc56902e10",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:00+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,183 +15,183 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "_Peak-IT . et | | DDP Rotterdam",
+        "confidence": "0.8",
+        "evidence": "_Peak-IT",
         "value": "Peak-IT"
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "JI. Rajawali Barat No. 9, 87451 Semarang, Indonesia Date 27-MAY-2026",
+        "confidence": "0.95",
+        "evidence": "Date 27-MAY-2026",
         "value": "27-MAY-2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "_Peak-IT . et | | DDP Rotterdam",
+        "confidence": "0.93",
+        "evidence": "DDP Rotterdam",
         "value": "DDP Rotterdam"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "PD Prastuti Tbk : Invoice Ref.. EX202620-1238",
+        "confidence": "0.93",
+        "evidence": "Invoice Ref.. EX202620-1238",
         "value": "EX202620-1238"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Porcelain dinner plate 27cm CN 2,448 pcs 102 1,530.00 kg 1,737.57 kg",
-            "value": "CN"
+            "confidence": "0.4",
+            "evidence": "",
+            "value": ""
           },
           "description": {
-            "confidence": "0.82",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
-            "value": "Plastic Storage box 30L with ait"
+            "confidence": "0.7",
+            "evidence": "Plastic Storage box 30L with",
+            "value": "Plastic Storage box 30L with"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
+            "confidence": "0.95",
+            "evidence": "8,530.77 kg",
             "value": "8,530.77 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
+            "confidence": "0.95",
+            "evidence": "7,474.06 kg",
             "value": "7,474.06 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
+            "confidence": "0.93",
+            "evidence": "5,830 pcs",
             "value": "5,830"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
+            "confidence": "0.95",
+            "evidence": "5,830 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Porcelain dinner plate 27cm CN 2,448 pcs 102 1,530.00 kg 1,737.57 kg",
+            "confidence": "0.93",
+            "evidence": "27cm CN",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Porcelain dinner plate 27cm CN 2,448 pcs 102 1,530.00 kg 1,737.57 kg",
+            "confidence": "0.95",
+            "evidence": "Porcelain dinner plate 27cm",
             "value": "Porcelain dinner plate 27cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Porcelain dinner plate 27cm CN 2,448 pcs 102 1,530.00 kg 1,737.57 kg",
+            "confidence": "0.95",
+            "evidence": "1,737.57 kg",
             "value": "1,737.57 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Porcelain dinner plate 27cm CN 2,448 pcs 102 1,530.00 kg 1,737.57 kg",
+            "confidence": "0.95",
+            "evidence": "1,530.00 kg",
             "value": "1,530.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Porcelain dinner plate 27cm CN 2,448 pcs 102 1,530.00 kg 1,737.57 kg",
+            "confidence": "0.95",
+            "evidence": "2,448 pcs",
             "value": "2,448"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
+            "confidence": "0.95",
+            "evidence": "2,448 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Roasted coffee beans, whole DE 2,010 kg 201 2,010.00 kg 2,307.48 kg",
+            "confidence": "0.93",
+            "evidence": "whole DE",
             "value": "DE"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Roasted coffee beans, whole DE 2,010 kg 201 2,010.00 kg 2,307.48 kg",
+            "confidence": "0.95",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Roasted coffee beans, whole DE 2,010 kg 201 2,010.00 kg 2,307.48 kg",
+            "confidence": "0.95",
+            "evidence": "2,307.48 kg",
             "value": "2,307.48 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Roasted coffee beans, whole DE 2,010 kg 201 2,010.00 kg 2,307.48 kg",
+            "confidence": "0.95",
+            "evidence": "2,010.00 kg",
             "value": "2,010.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Roasted coffee beans, whole DE 2,010 kg 201 2,010.00 kg 2,307.48 kg",
+            "confidence": "0.93",
+            "evidence": "2,010 kg",
             "value": "2,010"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
+            "confidence": "0.93",
+            "evidence": "2,010 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4 LDPE film-grade granules KR 9,500 kg 380 9,500.00 kg 10,227.70 kg",
+            "confidence": "0.93",
+            "evidence": "granules KR",
             "value": "KR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 LDPE film-grade granules KR 9,500 kg 380 9,500.00 kg 10,227.70 kg",
+            "confidence": "0.95",
+            "evidence": "LDPE film-grade granules",
             "value": "LDPE film-grade granules"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 LDPE film-grade granules KR 9,500 kg 380 9,500.00 kg 10,227.70 kg",
+            "confidence": "0.95",
+            "evidence": "10,227.70 kg",
             "value": "10,227.70 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 LDPE film-grade granules KR 9,500 kg 380 9,500.00 kg 10,227.70 kg",
+            "confidence": "0.95",
+            "evidence": "9,500.00 kg",
             "value": "9,500.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 LDPE film-grade granules KR 9,500 kg 380 9,500.00 kg 10,227.70 kg",
+            "confidence": "0.93",
+            "evidence": "9,500 kg",
             "value": "9,500"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic Storage box 30L with ait o | BaOE 5,830 pcs 583 7,474.06 kg 8,530.77 kg",
+            "confidence": "0.93",
+            "evidence": "9,500 kg",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1266 CARTONS 20,514.06 kg 22,803.52 kg",
+        "confidence": "0.9",
+        "evidence": "Total 1266 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "PD Prastuti Tbk : Invoice Ref.. EX202620-1238",
+        "confidence": "0.9",
+        "evidence": "PD Prastuti Tbk",
         "value": "PD Prastuti Tbk"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1266 CARTONS 20,514.06 kg 22,803.52 kg",
+        "confidence": "0.95",
+        "evidence": "20,514.06 kg 22,803.52 kg",
         "value": "22,803.52 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1266 CARTONS 20,514.06 kg 22,803.52 kg",
+        "confidence": "0.95",
+        "evidence": "20,514.06 kg 22,803.52 kg",
         "value": "20,514.06 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1266 CARTONS 20,514.06 kg 22,803.52 kg",
+        "confidence": "0.93",
+        "evidence": "Total 1266 CARTONS",
         "value": "1266"
       }
     },
-    "input_tokens": 416,
-    "latency_ms": 0,
-    "output_tokens": 1191
+    "input_tokens": 2447,
+    "latency_ms": 7562,
+    "output_tokens": 1389
   }
 }

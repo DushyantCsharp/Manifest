@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "3c6e2c377bb8ae47434177e2ccb367d579c4878a252d85506cb60d582ef85392",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh Cavendish bananas\nCountry of origin: EC\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons\n\nChoose the heading that covers these goods. Options:\n- 0803: Bananas, including plantains; fresh or dried\n    contains 080390: Fruit, edible; bananas, other than plantains, fresh or dried\n    contains 080310: Fruit, edible; plantains, fresh or dried\n- 0810: Fruit, fresh; n.e.c. in chapter 08\n    contains 081050: Fruit, edible; kiwifruit, fresh\n    contains 081030: Fruit, edible; black, white or red currants and gooseberries, fresh\n    contains 081060: Fruit, edible; durians, fresh\n    contains 081010: Fruit, edible; strawberries, fresh\n- 0807: Melons (including watermelons) and papaws (papayas); fresh\n    contains 080720: Fruit, edible; papaws (papayas), fresh\n    contains 080719: Fruit, edible; melons, other than watermelons, fresh\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c87753178dc2841beb1375ab5d9381a837254c6a97e3041a75fc3e03181486d7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0803",
+      "cited": [
+        "0803",
+        "080390"
+      ],
+      "confidence": "0.99",
+      "reason": "Fresh Cavendish bananas are bananas (not plantains) that are fresh, which heading 0803 covers, specifically subheading 080390."
+    },
+    "input_tokens": 1112,
+    "latency_ms": 2704,
+    "output_tokens": 85
+  }
+}

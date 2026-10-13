@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "8991e4f12ccc0e84a733d5d7db33418df59ecdbaea6e6452ca8ca448eeb4fb3e",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Wireless optical computer mouse origin CN",
   "limit": 20,
   "candidates": [
     {
-      "code": "851713",
-      "description": "Telephone sets; smartphones for cellular or other wireless networks",
-      "score": "0.016393",
+      "code": "853670",
+      "description": "Connectors for optical fibres, optical fibre bundles or cables",
+      "score": "0.031514",
       "ranks": {
-        "lexical": 1
+        "lexical": 5,
+        "vector": 2
       }
     },
     {
-      "code": "851714",
-      "description": "Telephone sets; other than smartphones, for cellular or other wireless networks",
-      "score": "0.016129",
+      "code": "900190",
+      "description": "Optical elements; lenses n.e.c. in heading no. 9001, prisms, mirrors and other optical elements, unmounted, of any material (excluding elements of glass not optically worked)",
+      "score": "0.029214",
       "ranks": {
-        "lexical": 2
+        "lexical": 1,
+        "vector": 18
       }
     },
     {
-      "code": "851769",
-      "description": "Communication apparatus (excluding telephone sets or base stations); machines for the transmission or reception of voice, images or other data (including wired/wireless networks), n.e.c. in item no. 8517.6",
-      "score": "0.015873",
+      "code": "900130",
+      "description": "Lenses, contact; unmounted, of any material, excluding elements of glass not optically worked",
+      "score": "0.028624",
       "ranks": {
-        "lexical": 3
+        "lexical": 7,
+        "vector": 13
       }
     },
     {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.015625",
+      "code": "900110",
+      "description": "Optical fibres, optical fibre bundles and cables; excluding those of heading no. 8544",
+      "score": "0.028324",
       "ranks": {
-        "lexical": 4
+        "lexical": 2,
+        "vector": 22
       }
     },
     {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.015385",
+      "code": "901380",
+      "description": "Optical devices, appliances and instruments; n.e.c. in heading no. 9013",
+      "score": "0.027778",
       "ranks": {
-        "lexical": 5
+        "lexical": 24,
+        "vector": 3
       }
     },
     {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.015152",
+      "code": "854470",
+      "description": "Insulated electric conductors; optical fibre cables",
+      "score": "0.027032",
       "ranks": {
-        "lexical": 6
+        "lexical": 34,
+        "vector": 1
       }
     },
     {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.014925",
+      "code": "901390",
+      "description": "Optical appliances and instruments; parts and accessories for articles of heading no. 9013",
+      "score": "0.026471",
       "ranks": {
-        "lexical": 7
+        "lexical": 25,
+        "vector": 8
       }
     },
     {
-      "code": "293979",
-      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
-      "score": "0.014706",
+      "code": "901310",
+      "description": "Optical appliances and instruments; telescopic sights for fitting to arms; periscopes; telescopes designed to form parts of machines, appliances, instruments or apparatus of this chapter",
+      "score": "0.025937",
       "ranks": {
-        "lexical": 8
+        "lexical": 23,
+        "vector": 12
       }
     },
     {
-      "code": "320190",
-      "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)",
-      "score": "0.014493",
+      "code": "900290",
+      "description": "Optical elements; n.e.c. in heading no. 9002 (e.g. prisms and mirrors), mounted, being parts or fittings for instruments or apparatus, of any material (excluding elements of glass not optically worked)",
+      "score": "0.025677",
       "ranks": {
-        "lexical": 9
+        "lexical": 3,
+        "vector": 42
+      }
+    },
+    {
+      "code": "900120",
+      "description": "Optical elements; polarising material, sheets and plates thereof",
+      "score": "0.025568",
+      "ranks": {
+        "lexical": 6,
+        "vector": 36
+      }
+    },
+    {
+      "code": "900140",
+      "description": "Lenses, spectacle; unmounted, of glass, excluding elements of glass not optically worked",
+      "score": "0.024230",
+      "ranks": {
+        "lexical": 8,
+        "vector": 45
+      }
+    },
+    {
+      "code": "900150",
+      "description": "Lenses, spectacle; unmounted, of materials other than glass",
+      "score": "0.024198",
+      "ranks": {
+        "lexical": 12,
+        "vector": 37
+      }
+    },
+    {
+      "code": "900580",
+      "description": "Monoculars; other optical telescopes and astronomical instruments, excluding instruments for radio-astronomy",
+      "score": "0.022679",
+      "ranks": {
+        "lexical": 15,
+        "vector": 47
+      }
+    },
+    {
+      "code": "903141",
+      "description": "Optical instruments and appliances; for inspecting semiconductor wafers or devices or for inspecting photomasks or reticles used in manufacturing semiconductor devices, n.e.c. in chapter 90",
+      "score": "0.021380",
+      "ranks": {
+        "lexical": 44,
+        "vector": 25
+      }
+    },
+    {
+      "code": "847521",
+      "description": "Machines; for manufacturing or hot working glass or glassware, for making optical fibres and preforms thereof",
+      "score": "0.020754",
+      "ranks": {
+        "lexical": 48,
+        "vector": 27
       }
     },
     {
       "code": "320300",
       "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
-      "score": "0.014286",
+      "score": "0.015625",
       "ranks": {
-        "lexical": 10
+        "lexical": 4,
+        "vector": null
       }
     },
     {
-      "code": "350300",
-      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
-      "score": "0.014085",
+      "code": "901320",
+      "description": "Lasers; other than laser diodes",
+      "score": "0.015625",
       "ranks": {
-        "lexical": 11
+        "lexical": null,
+        "vector": 4
       }
     },
     {
-      "code": "851761",
-      "description": "Base stations",
-      "score": "0.013889",
+      "code": "853641",
+      "description": "Electrical apparatus; relays, (for a voltage not exceeding 60 volts)",
+      "score": "0.015385",
       "ranks": {
-        "lexical": 12
+        "lexical": null,
+        "vector": 5
       }
     },
     {
-      "code": "040900",
-      "description": "Honey; natural",
-      "score": "0.013699",
+      "code": "853649",
+      "description": "Electrical apparatus; relays, for a voltage exceeding 60 volts",
+      "score": "0.015152",
       "ranks": {
-        "lexical": 13
+        "lexical": null,
+        "vector": 6
       }
     },
     {
-      "code": "041010",
-      "description": "Animal products; insects",
-      "score": "0.013514",
+      "code": "852692",
+      "description": "Radio remote control apparatus",
+      "score": "0.014925",
       "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "851718",
-      "description": "Telephone sets n.e.c. in item no. 8517.1",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "851711",
-      "description": "Line telephone sets with cordless handsets",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "040520",
-      "description": "Dairy produce; dairy spreads",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "040790",
-      "description": "Birds' eggs, in shell; preserved or cooked",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "040510",
-      "description": "Dairy produce; derived from milk, butter",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "851779",
-      "description": "Communication apparatus; parts, other than aerials and aerial reflectors of all kinds",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 7
       }
     }
   ]

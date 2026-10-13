@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "c941dde1e49192f433466eb94d5005aed4f9b737d12e0393d53fdbd0ac35e672",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:28+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cheddar cheese blocks\nCountry of origin: IE\n\nChoose the chapter that covers these goods. Options:\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040620: Dairy produce; cheese of all kinds, grated or powdered\n    contains 040610: Dairy produce; fresh cheese (including whey cheese), not fermented, and curd\n    contains 040640: Dairy produce; cheese, blue-veined and other cheese containing veins produced by Penicillium roqueforti (not grated, powdered or processed)\n    contains 040690: Dairy produce; cheese (not grated, powdered or processed), n.e.c. in heading no. 0406\n    contains 040630: Dairy produce; cheese, processed (not grated or powdered)\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 251400: Slate; whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape\n    contains 251820: Dolomite, calcined or sintered; including dolomite roughly trimmed, or merely cut by sawing or otherwise into blocks or slabs of rectangular (including square) shape\n    contains 251810: Dolomite, not calcined or sintered; including dolomite roughly trimmed, or merely cut by sawing or otherwise into blocks or slabs of rectangular (including square) shape\n    contains 250620: Quartzite; whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape\n    contains 251690: Monumental or building stone; n.e.c. in heading no. 2516, whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape\n    contains 251612: Granite; merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape\n    contains 251620: Sandstone;. whether or not roughly trimmed, cut, by sawing etc, into blocks or slabs of a rectangular (including square) shape\n    contains 251511: Marble and travertine; having a specific gravity of 2.5 or more, crude or roughly trimmed by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape\n    contains 252610: Steatite; natural, (not crushed or powdered), whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape; talc\n- 70: Glass and glassware\n    contains 701690: Multicellular or foam glass; in blocks, panels, plates, shells or similar forms; paving blocks, slabs, bricks and other articles of pressed or moulded glass\n- 72: Iron and steel\n    contains 720150: Iron; alloy pig iron; spiegeleisen, in pigs, blocks or other primary forms\n    contains 720110: Iron; non-alloy pig iron containing by weight 0.5% or less of phosphorus, in pigs, blocks or other primary forms\n- 44: Wood and articles of wood; wood charcoal\n    contains 441300: Wood; densified wood, in blocks, plates, strips or profile shapes\n- 69: Ceramic products\n    contains 690100: Bricks, blocks, tiles and other ceramic goods of siliceous fossil meals (e.g. kieselguhr, tripolite or diatomite) or of similar siliceous earths\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e7c5a830d19f6743cee442aa040e06b0c1c901709843f2b2a3a48278befb3040",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "04",
+      "cited": [
+        "04",
+        "040690"
+      ],
+      "confidence": "0.99",
+      "reason": "Cheddar cheese is cheese of heading 0406 in Chapter 4 (dairy produce); the other chapters cover unrelated materials."
+    },
+    "input_tokens": 2107,
+    "latency_ms": 3372,
+    "output_tokens": 83
+  }
+}

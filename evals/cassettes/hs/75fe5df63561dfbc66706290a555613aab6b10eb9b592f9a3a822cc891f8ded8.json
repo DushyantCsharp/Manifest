@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "75fe5df63561dfbc66706290a555613aab6b10eb9b592f9a3a822cc891f8ded8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:37+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Household aluminium foil 12 micron, rolls\nCountry of origin: CN\n\nChosen so far: 76 Aluminium and articles thereof > 7607 Aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0.2mm\n\nChoose the subheading that covers these goods. Options:\n- 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n- 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n- 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "51f51bf00bc3f253d01d943bc4aff043c6d346a47c7e829173bf1bd5ee9e1545",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "760719",
+      "cited": [
+        "760719",
+        "760711",
+        "7607"
+      ],
+      "confidence": "0.6",
+      "reason": "Household foil in rolls at 12 micron is unbacked, and since the 7607.11 'rolled' wording means rolled but not further worked, the main question is whether household foil counts as further worked; it is typically treated as 'otherwise worked' (not merely rolled) and goes in 7607.19, though 7607.11 is a plausible alternative.}"
+    },
+    "input_tokens": 1023,
+    "latency_ms": 3929,
+    "output_tokens": 154
+  }
+}

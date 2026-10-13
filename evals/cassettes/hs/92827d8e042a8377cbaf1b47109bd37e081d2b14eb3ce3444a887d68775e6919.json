@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "92827d8e042a8377cbaf1b47109bd37e081d2b14eb3ce3444a887d68775e6919",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:19+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lipstick\nCountry of origin: FR\n\nChosen so far: 33 Essential oils and resinoids; perfumery, cosmetic or toilet preparations > 3304 Cosmetic and toilet preparations; beauty, make-up and skin care preparations (excluding medicaments, including sunscreen or sun tan preparations), manicure or pedicure preparations\n\nChoose the subheading that covers these goods. Options:\n- 330410: Cosmetic and toilet preparations; lip make-up\n- 330491: Cosmetic and toilet preparations; powders, whether or not compressed (excluding lip, eye, manicure or pedicure preparations)\n- 330499: Cosmetic and toilet preparations; n.e.c. in heading no. 3304, for the care of the skin (excluding medicaments, including sunscreen or sun tan preparations)\n- 330420: Cosmetic and toilet preparations; eye make-up\n- 330430: Cosmetic and toilet preparations; manicure or pedicure preparations\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "620cef5a7c3afce8d5e955078b96cebcadbc133de13ba06d593d218beb3473fa",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "330410",
+      "cited": [
+        "330410"
+      ],
+      "confidence": "0.98",
+      "reason": "Lipstick is a lip make-up preparation, covered directly by subheading 3304.10."
+    },
+    "input_tokens": 1093,
+    "latency_ms": 2760,
+    "output_tokens": 64
+  }
+}

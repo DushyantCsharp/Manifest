@@ -2,8 +2,8 @@
   "format": 1,
   "key": "46220c4e4862d3cb18a62d142cb2f06915e35d1d94b97fb266c45842f78dbd9f",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:03+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Savage, Huffman and Waters",
         "value": "Savage, Huffman and Waters"
       },
@@ -25,7 +25,7 @@
         "value": "03/28/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FCA Tiruppur",
         "value": "FCA Tiruppur"
       },
@@ -37,65 +37,65 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "confidence": "0.95",
+            "evidence": "ionic CN 2,200",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "confidence": "0.95",
+            "evidence": "Hair dryer 2200W ionic",
             "value": "Hair dryer 2200W ionic"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "confidence": "0.94",
+            "evidence": "1,749.00 kg 1,856.70 kg",
             "value": "1,856.70 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "confidence": "0.94",
+            "evidence": "110 1,749.00 kg 1,856.70 kg",
             "value": "1,749.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "confidence": "0.95",
+            "evidence": "CN 2,200 pcs",
             "value": "2,200"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+            "confidence": "0.95",
+            "evidence": "2,200 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 110 CARTONS 1,749.00 kg 1,856.70 kg",
+        "confidence": "0.93",
+        "evidence": "Total 110 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Chakraborty, Sidhu and Sarma",
         "value": "Chakraborty, Sidhu and Sarma"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+        "confidence": "0.95",
+        "evidence": "1,749.00 kg 1,856.70 kg",
         "value": "1,856.70 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+        "confidence": "0.95",
+        "evidence": "1,749.00 kg 1,856.70 kg",
         "value": "1,749.00 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1 Hair dryer 2200W ionic CN 2,200 pcs 110 1,749.00 kg 1,856.70 kg",
+        "confidence": "0.95",
+        "evidence": "Total 110 CARTONS",
         "value": "110"
       }
     },
-    "input_tokens": 360,
-    "latency_ms": 0,
-    "output_tokens": 491
+    "input_tokens": 2302,
+    "latency_ms": 5000,
+    "output_tokens": 718
   }
 }

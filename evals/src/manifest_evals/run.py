@@ -51,6 +51,7 @@ from manifest_domain.scoring import SCORE_VERSION, final
 from manifest_evals import golden, metrics, plots
 from manifest_evals import hs as hs_eval
 from manifest_evals.harness import EVALS_ROOT
+from manifest_evals.live import in_parallel
 from manifest_evals.metrics import Scored
 from manifest_evals.oracle import NAME as ORACLE
 from manifest_hs import index as hs_index
@@ -129,13 +130,17 @@ class PackResult:
         where: tuple[str, int | None],
         expected: dict[str, str | None],
         extracted: dict[str, ExtractedValue],
+        implied: dict[str, str] | None = None,
     ) -> None:
+        implied = implied or {}
         names = {k for k, v in expected.items() if v is not None}
         names |= {k for k, v in extracted.items() if v.value is not None}
         prefix, line = where
         for name in sorted(names):
             want, got = expected.get(name), extracted.get(name)
             value = got.value if got is not None else None
+            if want is None and implied.get(name) == value:
+                continue  # a value the document states once for every line (golden.implied)
             right = want is not None and golden.same(kinds.get(name), want, value)
             self.values.append(
                 Value(
@@ -187,8 +192,10 @@ def evaluate_pack(pack: str, split: str, provider: CassetteProvider) -> PackResu
         result.judge(name, kinds, ("", None), truth.fields, dict(scored.fields))
         got = [dict(line) for line in scored.lines]
         alignment = align(truth.lines, [_texts(line) for line in got], line_distance)
+        lines_imply = golden.implied(truths[name])
         for i, j in alignment.pairs:
-            result.judge(name, kinds, ("line_items.", i + 1), truth.lines[i], got[j])
+            where = ("line_items.", i + 1)
+            result.judge(name, kinds, where, truth.lines[i], got[j], lines_imply)
             description = got[j].get("description")
             said = description.value if description is not None else None
             if golden.same("text", truth.lines[i].get("description"), said):
@@ -231,12 +238,10 @@ class Run:
         return [value for result in self.results for value in result.values]
 
 
-def _provider(pack: str, mode: Mode, scratch: Path) -> CassetteProvider:
-    if mode == "replay":
-        return golden.cassette(pack)
-    root = golden.CASSETTES if mode == "record" else scratch
-    golden.record(pack, root=root, provider=AnthropicProvider())
-    return golden.cassette(pack, root=root)
+def record_packs(packs: Sequence[str], root: Path) -> None:
+    """Record every pack's answers from the real model, a few packs at a time (resumable)."""
+    live = AnthropicProvider()
+    in_parallel(packs, lambda pack: golden.record(pack, root=root, provider=live))
 
 
 def live_retriever() -> Retriever:
@@ -368,8 +373,12 @@ def evaluate(packs: Sequence[str] | None = None, mode: Mode = "replay") -> Run:
     sources: Counter[str] = Counter()
     results = []
     with tempfile.TemporaryDirectory() as scratch:
-        for pack in packs or golden.golden_packs():
-            provider = _provider(pack, mode, Path(scratch))
+        root = golden.CASSETTES if mode in ("replay", "record") else Path(scratch)
+        chosen = list(packs or golden.golden_packs())
+        if mode != "replay":
+            record_packs(chosen, root)
+        for pack in chosen:
+            provider = golden.cassette(pack, root=root)
             results.append(evaluate_pack(pack, split_of[pack], provider))
             sources += provider.sources
         hs = None if packs else hs_run(mode, Path(scratch))
@@ -527,18 +536,26 @@ def _reconciliation_details(results: Sequence[PackResult]) -> dict[str, Any]:
 # ---------------------------------------------------------------- gate, report, calibrators
 
 
+def _meets(value: Any, bound: dict[str, Any], limit: Any) -> bool:
+    if value is None:
+        return False
+    if "min" in bound:
+        return Decimal(str(value)) >= Decimal(str(limit))
+    return Decimal(str(value)) <= Decimal(str(limit))
+
+
 def gate(run: Run) -> list[dict[str, Any]]:
+    """Each bound in the run's profile: ``ok`` enforces ``min``/``max``; ``on_target`` reports
+    an optional ``target`` (a product goal the gate doesn't enforce yet)."""
     bounds = yaml.safe_load(THRESHOLDS.read_text())["profiles"][run.profile]
     checks = []
     for name, bound in bounds.items():
         value = run.metrics.get(name)
-        if value is None:
-            ok = False
-        elif "min" in bound:
-            ok = Decimal(str(value)) >= Decimal(str(bound["min"]))
-        else:
-            ok = Decimal(str(value)) <= Decimal(str(bound["max"]))
-        checks.append({"metric": name, "value": value, "bound": bound, "ok": ok})
+        check = {"metric": name, "value": value, "bound": bound}
+        check["ok"] = _meets(value, bound, bound["min"] if "min" in bound else bound["max"])
+        if "target" in bound:
+            check["on_target"] = _meets(value, bound, bound["target"])
+        checks.append(check)
     return checks
 
 
@@ -647,6 +664,8 @@ def _markdown(run: Run, checks: list[dict[str, Any]]) -> str:
         check = gated.get(name)
         bound = "" if check is None else ", ".join(f"{k} {v}" for k, v in check["bound"].items())
         verdict = "" if check is None else ("pass" if check["ok"] else "**FAIL**")
+        if check is not None and check.get("on_target") is False:
+            verdict += ", below target"
         lines.append(f"| {name} | {fmt(value)} | {bound} | {verdict} |")
     lines += [
         "",
@@ -686,8 +705,11 @@ def main(command: str, mode: Mode, packs: Sequence[str], report: Path) -> int:
     write_report(run, checks, report)
     for check in checks:
         status = "pass" if check["ok"] else "FAIL"
-        print(f"{status:4} {check['metric']:<28} {fmt(check['value']):>10}  {check['bound']}")
-    problem = None if packs else drift(run)
+        below = "  below target" if check.get("on_target") is False else ""
+        value = fmt(check["value"])
+        print(f"{status:4} {check['metric']:<28} {value:>10}  {check['bound']}{below}")
+    # Only a replay refits on the committed answers; record and live refit on new ones.
+    problem = None if packs or mode != "replay" else drift(run)
     if problem:
         print(f"FAIL {problem}", file=sys.stderr)
     print(f"profile {run.profile}; report in {report}")

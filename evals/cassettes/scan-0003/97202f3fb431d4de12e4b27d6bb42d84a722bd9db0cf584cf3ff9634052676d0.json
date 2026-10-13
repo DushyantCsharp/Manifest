@@ -2,8 +2,8 @@
   "format": 1,
   "key": "97202f3fb431d4de12e4b27d6bb42d84a722bd9db0cf584cf3ff9634052676d0",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:53+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,198 +15,198 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Peak-IT , ? DDP Rotterdam",
+        "confidence": "0.9",
+        "evidence": "Peak-IT",
         "value": "Peak-IT"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "MARKS & NOS. | DESCRIPTION OF Goops | H.S. ORIGIN QUANTITY | UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.9",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Peak-IT , ? DDP Rotterdam",
+        "confidence": "0.93",
+        "evidence": "DDP Rotterdam",
         "value": "DDP Rotterdam"
       },
       "invoice_date": {
-        "confidence": "0.97",
-        "evidence": "Jl. Rajawali Barat No, 9, 87451 Semarang, Indonesia 27-MAY-2026 :",
+        "confidence": "0.92",
+        "evidence": "27-MAY-2026",
         "value": "27-MAY-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "PD Prastuti Tbk EX202620-1238",
         "value": "EX202620-1238"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.79",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "confidence": "0.75",
+            "evidence": "9;969.30",
             "value": "9;969.30"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "confidence": "0.88",
+            "evidence": "CHINA 5,830 PCS",
             "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.76",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
-            "value": "PLASTIC STORAGE BOX 30L |"
+            "confidence": "0.85",
+            "evidence": "PLASTIC STORAGE BOX 30L",
+            "value": "PLASTIC STORAGE BOX 30L WITH LID"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "confidence": "0.9",
+            "evidence": "5,830 PCS",
             "value": "5,830"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "confidence": "0.9",
+            "evidence": "5,830 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "confidence": "0.8",
+            "evidence": "1.71.",
             "value": "1.71"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
+            "confidence": "0.9",
+            "evidence": "6,217.92",
             "value": "6,217.92"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
+            "confidence": "0.88",
+            "evidence": "| CHINA 2;448 PCS.",
             "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.81",
-            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
-            "value": "PORCELAIN DINNER PLATE"
+            "confidence": "0.85",
+            "evidence": "PORCELAIN DINNER PLATE",
+            "value": "PORCELAIN DINNER PLATE 27CM"
           },
           "quantity": {
-            "confidence": "0.72",
-            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
+            "confidence": "0.75",
+            "evidence": "2;448 PCS.",
             "value": "2;448"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "PEAK-IT / PLASTIC STORAGE BOX 30L | 3924.90 -| CHINA 5,830 PCS 1.71. 9;969.30",
-            "value": "PCS"
+            "confidence": "0.8",
+            "evidence": "2;448 PCS.",
+            "value": "PCS."
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "PORCELAIN DINNER PLATE 6911.10 - | CHINA 2;448 PCS. 2.54 6,217.92",
+            "confidence": "0.9",
+            "evidence": "2.54",
             "value": "2.54"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "confidence": "0.9",
+            "evidence": "30,793.20",
             "value": "30,793.20"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "confidence": "0.88",
+            "evidence": "| GERMANY",
             "value": "GERMANY"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.79",
-            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
-            "value": "ROASTED COFFEE BEANS,"
+            "confidence": "0.88",
+            "evidence": "ROASTED COFFEE BEANS,",
+            "value": "ROASTED COFFEE BEANS, WHOLE"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "confidence": "0.85",
+            "evidence": "-2,010 KG",
             "value": "2,010"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "confidence": "0.9",
+            "evidence": "-2,010 KG",
             "value": "KG"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "confidence": "0.9",
+            "evidence": "15.32",
             "value": "15.32"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "confidence": "0.9",
+            "evidence": "10,165.00",
             "value": "10,165.00"
           },
           "country_of_origin": {
-            "confidence": "0.56",
-            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
-            "value": "SOUTH"
+            "confidence": "0.8",
+            "evidence": "SOUTH 9,500 KG",
+            "value": "SOUTH KOREA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.69",
-            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
-            "value": "LDPE FILM-GRADE"
+            "confidence": "0.88",
+            "evidence": "LDPE FILM-GRADE",
+            "value": "LDPE FILM-GRADE GRANULES"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "confidence": "0.9",
+            "evidence": "9,500 KG",
             "value": "9,500"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "ROASTED COFFEE BEANS, 0901.21 | GERMANY -2,010 KG 15.32 30,793.20",
+            "confidence": "0.9",
+            "evidence": "9,500 KG",
             "value": "KG"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "LDPE FILM-GRADE 3901.10 | SOUTH 9,500 KG 1.07 10,165.00",
+            "confidence": "0.9",
+            "evidence": "1.07",
             "value": "1.07"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.87",
-        "evidence": "Bastiaanbaan 753, 7737CR Utrecht, Netherlands T/T 30.days after B/L date",
+        "confidence": "0.85",
+        "evidence": "T/T 30.days after B/L date",
         "value": "T/T 30.days after B/L date"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "PD Prastuti Tbk EX202620-1238",
+        "confidence": "0.95",
+        "evidence": "PD Prastuti Tbk",
         "value": "PD Prastuti Tbk"
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "TOTAL DDP ROTTERDAM | USD 57,145.42",
         "value": "57,145.42"
       }
     },
-    "input_tokens": 506,
-    "latency_ms": 0,
-    "output_tokens": 1169
+    "input_tokens": 2617,
+    "latency_ms": 7768,
+    "output_tokens": 1433
   }
 }

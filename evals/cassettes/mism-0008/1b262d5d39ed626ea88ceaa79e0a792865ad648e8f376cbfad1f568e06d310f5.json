@@ -2,8 +2,8 @@
   "format": 1,
   "key": "1b262d5d39ed626ea88ceaa79e0a792865ad648e8f376cbfad1f568e06d310f5",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:57+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,124 +15,124 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Cohen-Johnson",
+        "confidence": "0.93",
+        "evidence": "CONSIGNEE\nCohen-Johnson",
         "value": "Cohen-Johnson"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.9",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CIF Sydney",
         "value": "CIF Sydney"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "02-JUL-2026",
         "value": "02-JUL-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EX202621-3018",
         "value": "EX202621-3018"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1604.14 THAILAND 10,848 PCS 1.07 11,607.36",
+            "confidence": "0.93",
+            "evidence": "1.07 11,607.36",
             "value": "11,607.36"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 114 Industrial Road, Chonburi, Thailand",
-            "value": "Thailand"
+            "confidence": "0.93",
+            "evidence": "1604.14 THAILAND",
+            "value": "THAILAND"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "CANNED SKIPJACK TUNA IN OIL, 185G",
+            "confidence": "0.9",
+            "evidence": "CANNED SKIPJACK TUNA\nIN OIL, 185G",
             "value": "CANNED SKIPJACK TUNA IN OIL, 185G"
           },
           "quantity": {
-            "confidence": "0.97",
+            "confidence": "0.93",
             "evidence": "1604.14 THAILAND 10,848 PCS 1.07 11,607.36",
             "value": "10,848"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1604.14 THAILAND 10,848 PCS 1.07 11,607.36",
+            "confidence": "0.93",
+            "evidence": "10,848 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1604.14 THAILAND 10,848 PCS 1.07 11,607.36",
+            "confidence": "0.93",
+            "evidence": "PCS 1.07 11,607.36",
             "value": "1.07"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4011.10 THAILAND 872 PCS 43.47 37,905.84",
+            "confidence": "0.93",
+            "evidence": "43.47 37,905.84",
             "value": "37,905.84"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 114 Industrial Road, Chonburi, Thailand",
-            "value": "Thailand"
+            "confidence": "0.93",
+            "evidence": "4011.10 THAILAND",
+            "value": "THAILAND"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "UNIT PRICE (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "PASSENGER CAR TYRE 205/55R16",
+            "confidence": "0.9",
+            "evidence": "PASSENGER CAR TYRE\n205/55R16",
             "value": "PASSENGER CAR TYRE 205/55R16"
           },
           "quantity": {
-            "confidence": "0.97",
+            "confidence": "0.93",
             "evidence": "4011.10 THAILAND 872 PCS 43.47 37,905.84",
             "value": "872"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1604.14 THAILAND 10,848 PCS 1.07 11,607.36",
+            "confidence": "0.93",
+            "evidence": "872 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4011.10 THAILAND 872 PCS 43.47 37,905.84",
+            "confidence": "0.93",
+            "evidence": "PCS 43.47 37,905.84",
             "value": "43.47"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "30% deposit, 70% against copy of B/L",
         "value": "30% deposit, 70% against copy of B/L"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Chonburi Sukjai Industrial Co., Ltd.",
         "value": "Chonburi Sukjai Industrial Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "TOTAL CIF SYDNEY USD 49,513.20",
         "value": "49,513.20"
       }
     },
-    "input_tokens": 483,
-    "latency_ms": 0,
-    "output_tokens": 602
+    "input_tokens": 2512,
+    "latency_ms": 5754,
+    "output_tokens": 1044
   }
 }

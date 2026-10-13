@@ -2,8 +2,8 @@
   "format": 1,
   "key": "985dfb899f612eb9b9d296eba6f6a7f390f48a8d64dc36ef80fc062798c360e8",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:24+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -25,8 +25,8 @@
         "value": "Gotthard GmbH & Co. OHG"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "COSCO",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: COSCO.",
         "value": "COSCO"
       },
       "container_number": {
@@ -35,32 +35,32 @@
         "value": "COSU4044857"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Zimmerweg 75/88, 37966 Hamburg, Germany",
+        "evidence": "PORT OF DISCHARGE\nHamburg",
         "value": "Hamburg"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Izmir",
+        "evidence": "PORT OF LOADING\nIzmir",
         "value": "Izmir"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 5443485",
         "value": "5443485"
       },
@@ -70,33 +70,33 @@
         "value": "Toyota Otomotiv"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "01.05.2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n01.05.2026",
         "value": "01.05.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "12.951,57 kg",
         "value": "12.951,57 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "617",
+        "confidence": "0.95",
+        "evidence": "617\nCARTONS",
         "value": "617"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO ORION / 829W",
         "value": "COSCO ORION"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "COSCO ORION / 829W",
         "value": "829W"
       }
     },
-    "input_tokens": 501,
-    "latency_ms": 0,
-    "output_tokens": 364
+    "input_tokens": 2319,
+    "latency_ms": 5189,
+    "output_tokens": 692
   }
 }

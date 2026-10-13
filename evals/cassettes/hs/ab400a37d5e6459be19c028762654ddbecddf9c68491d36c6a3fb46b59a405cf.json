@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "ab400a37d5e6459be19c028762654ddbecddf9c68491d36c6a3fb46b59a405cf",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:37+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Folding umbrella with telescopic shaft\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 66: Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof\n    contains 660191: Umbrellas and sun umbrellas; having a telescopic shaft, (excluding garden or similar umbrellas)\n    contains 660110: Umbrellas and sun umbrellas; garden or similar umbrellas\n    contains 660320: Umbrella frames; including frames mounted on shafts (sticks)\n    contains 660199: Umbrellas and sun umbrellas; n.e.c. in heading no. 6601 (including walking stick umbrellas)\n    contains 660200: Walking-sticks, seat-sticks, whips, riding-crops and the like\n    contains 660390: Trimmings, accessories and parts of articles of heading no. 6601 or 6602; n.e.c. in heading no. 6603\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 900590: Binoculars, monoculars, other optical telescopes, astronomical instruments (excluding those of radio-astronomy); parts and accessories (including mountings)\n    contains 900580: Monoculars; other optical telescopes and astronomical instruments, excluding instruments for radio-astronomy\n    contains 900510: Binoculars\n    contains 901310: Optical appliances and instruments; telescopic sights for fitting to arms; periscopes; telescopes designed to form parts of machines, appliances, instruments or apparatus of this chapter\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 848310: Transmission shafts (including cam shafts and crank shafts) and cranks\n    contains 846226: Machine-tools; bending, folding, straightening or flattening machines (including presses), for working metal, numerically controlled bending, folding, straightening or fattening machines (not press brakes, panel benders or roll forming machines)\n    contains 848330: Bearing housings, not incorporating ball or roller bearings and plain shaft bearings\n    contains 848360: Clutches and shaft couplings (including universal joints)\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n- 83: Metal; miscellaneous products of base metal\n    contains 830241: Mountings, fittings and similar articles; of base metal, suitable for buildings\n    contains 830230: Mountings, fittings and similar articles; for motor vehicles, of base metal\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 73: Iron or steel articles\n    contains 732020: Iron or steel; helical springs and leaves for springs\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "048960990bfcd60cd79d43bf5834eb13bda1783118adcc8a273e79308470decc",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "66",
+      "cited": [
+        "66",
+        "660191"
+      ],
+      "confidence": "0.98",
+      "reason": "Folding umbrellas with a telescopic shaft are umbrellas of heading 6601, specifically subheading 660191, within Chapter 66."
+    },
+    "input_tokens": 1905,
+    "latency_ms": 3025,
+    "output_tokens": 83
+  }
+}

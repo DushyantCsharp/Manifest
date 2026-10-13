@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "69f744fedc3c8024238d4b1c1a07eb2cbabd86f1cedbe5ba4885477f14616747",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:40+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Black peppercorns, neither crushed nor ground\nCountry of origin: VN\n\nChosen so far: 09 Coffee, tea, mate and spices > 0904 Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta\n\nChoose the subheading that covers these goods. Options:\n- 090411: Spices; pepper (of the genus piper), neither crushed nor ground\n- 090421: Spices; fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground\n- 090412: Spices; pepper (of the genus piper), crushed or ground\n- 090422: Spices; fruits of the genus Capsicum or Pimenta, crushed or ground\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4bc8c54a30692050778cf596695d77966df8225c821868706de36ddab3cc73fd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "090411",
+      "cited": [
+        "090411"
+      ],
+      "confidence": "0.99",
+      "reason": "Black peppercorns are pepper of the genus Piper, and since they are neither crushed nor ground they fall under subheading 090411."
+    },
+    "input_tokens": 995,
+    "latency_ms": 3028,
+    "output_tokens": 77
+  }
+}

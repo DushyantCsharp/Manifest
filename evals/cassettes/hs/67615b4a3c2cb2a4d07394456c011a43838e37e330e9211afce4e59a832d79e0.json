@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "67615b4a3c2cb2a4d07394456c011a43838e37e330e9211afce4e59a832d79e0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cordless stick vacuum cleaner, 0.6L dust container, 150W motor\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 850811: Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L\n    contains 850860: Vacuum cleaners, other than with a self-contained electric motor\n    contains 850819: Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1\n    contains 850980: Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509\n    contains 850940: Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor\n    contains 850870: Parts of vacuum cleaners\n    contains 851020: Hair clippers; with a self-contained electric motor\n    contains 851010: Shavers; with self-contained electric motor\n- 66: Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof\n    contains 660200: Walking-sticks, seat-sticks, whips, riding-crops and the like\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 846721: Tools; for working in the hand, with self-contained electric motor; drills of all kinds\n    contains 846729: Tools; for working in the hand, with self-contained electric motor; other than saws and drills\n    contains 846781: Tools; for working in the hand, chain saws with self-contained non-electric motor\n    contains 846791: Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor\n    contains 846722: Tools; for working in the hand, with self-contained electric motor; saws\n- 38: Chemical products n.e.c.\n    contains 382731: Mixtures containing halogenated derivatives of methane, ethane or propane; containing hydrochlorofluorocarbons (HCFCs), perfluorocarbons (PFCs) or hydrofluorocarbons (HFCs) or not, but not containing chlorofluorocarbons (CFCs); containing substances of su\n    contains 382740: Mixtures containing halogenated derivatives of methane, ethane or propane; containing hydrochlorofluorocarbons (HCFCs), perfluorocarbons (PFCs) or hydrofluorocarbons (HFCs) or not, but not containing chlorofluorocarbons (CFCs); containing bromomethane (me\n    contains 382751: Mixtures containing halogenated derivatives of methane, ethane or propane; containing trifluoromethan (HFC-23) or perfluorocarbons (PFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); containing trifluoromethane (HFC-2\n    contains 382761: Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); containing 15% or more by mass of 1,1,1-trifluoroethan\n- 96: Miscellaneous manufactured articles\n    contains 960390: Brooms, brushes, mops, feather dusters, squeegees, hand operated mechanical floor sweepers; (not motorised), prepared knots and tufts for brooms or brush making n.e.c.\n    contains 960310: Brooms and brushes; consisting of twigs or other vegetable materials bound together, with or without handles\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4e21771aac493a623d23855c17996eebcae480fa251d70e86bdbdf183aab5828",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "850811"
+      ],
+      "confidence": "0.98",
+      "reason": "A cordless stick vacuum cleaner with a self-contained electric motor of 150 W and a 0.6 L dust container falls in heading 85.08, subheading 8508.11, within Chapter 85."
+    },
+    "input_tokens": 2106,
+    "latency_ms": 3044,
+    "output_tokens": 100
+  }
+}

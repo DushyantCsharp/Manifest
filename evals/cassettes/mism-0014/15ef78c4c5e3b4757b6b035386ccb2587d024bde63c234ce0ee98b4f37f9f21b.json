@@ -2,8 +2,8 @@
   "format": 1,
   "key": "15ef78c4c5e3b4757b6b035386ccb2587d024bde63c234ce0ee98b4f37f9f21b",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:21+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,87 +16,87 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "EGLVNX4732008",
+        "evidence": "B/L NO.\nEGLVNX4732008",
         "value": "EGLVNX4732008"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Rogers-Clark",
+        "confidence": "0.96",
+        "evidence": "CONSIGNEE\nRogers-Clark",
         "value": "Rogers-Clark"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU8477500",
         "value": "EGLU8477500"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": "Kelly Ltd",
+        "confidence": "0.96",
+        "evidence": "NOTIFY PARTY\nKelly Ltd",
         "value": "Kelly Ltd"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.94",
+        "evidence": "2051\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Southampton",
+        "evidence": "PORT OF DISCHARGE\nSouthampton",
         "value": "Southampton"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Ambarli",
+        "evidence": "PORT OF LOADING\nAmbarli",
         "value": "Ambarli"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "3000008",
+        "confidence": "0.95",
+        "evidence": "SEAL\n3000008",
         "value": "3000008"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Sezgin Manço San.",
         "value": "Sezgin Manço San."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "May 11, 2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\nMay 11, 2026",
         "value": "May 11, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "46,921.9 lb",
         "value": "46,921.9 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "2051",
+        "confidence": "0.94",
+        "evidence": "2051\nCARTONS",
         "value": "2051"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.94",
         "evidence": "EVERGREEN SERENITY / 770N",
         "value": "EVERGREEN SERENITY"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.94",
         "evidence": "EVERGREEN SERENITY / 770N",
         "value": "770N"
       }
     },
-    "input_tokens": 539,
-    "latency_ms": 0,
-    "output_tokens": 369
+    "input_tokens": 2397,
+    "latency_ms": 4622,
+    "output_tokens": 756
   }
 }

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "b67ab5182b5bb8a24a02203352bad061aab1704a1ad8c4673781d35116a39aa4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:00+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Polyester staple fibres, not carded\nCountry of origin: CN\n\nChosen so far: 55 Man-made staple fibres\n\nChoose the heading that covers these goods. Options:\n- 5503: Synthetic staple fibres, not carded, combed or otherwise processed for spinning\n    contains 550320: Fibres; synthetic staple fibres, of polyesters, not carded, combed or otherwise processed for spinning\n    contains 550319: Fibres; synthetic staple fibres, of nylon or other polyamides other than aramids, not carded, combed or otherwise processed for spinning\n    contains 550340: Fibres; synthetic staple fibres, of polypropylene, not carded, combed or otherwise processed for spinning\n    contains 550330: Fibres; synthetic staple fibres, acrylic or modacrylic, not carded, combed or otherwise processed for spinning\n    contains 550390: Fibres; synthetic staple fibres, of synthetic materials n.e.c. in heading no. 5503, not carded, combed or otherwise processed for spinning\n    contains 550311: Fibres; synthetic staple fibres, of aramids, not carded, combed or otherwise processed for spinning\n- 5506: Synthetic staple fibres, carded, combed or otherwise processed for spinning\n    contains 550620: Fibres; synthetic staple fibres, of polyesters, carded, combed or otherwise processed for spinning\n    contains 550640: Fibres; synthetic staple fibres, of polypropylene, carded, combed or otherwise processed for spinning\n    contains 550610: Fibres; synthetic staple fibres, of nylon or other polyamides, carded, combed or otherwise processed for spinning\n- 5512: Woven fabrics of synthetic staple fibres, containing 85% or more by weight of synthetic staple fibres\n    contains 551211: Fabrics, woven; of synthetic staple fibres, containing 85% or more by weight of polyester staple fibres, unbleached or bleached\n    contains 551219: Fabrics, woven; of synthetic staple fibres, containing 85% or more by weight of polyester staple fibres, other than unbleached or bleached\n- 5509: Yarn (other than sewing thread) of synthetic staple fibres, not put up for retail sale\n    contains 550951: Yarn; (not sewing thread), of polyester staple fibres, mixed mainly or solely with artificial staple fibres, not put up for retail sale\n    contains 550959: Yarn; (not sewing thread), of polyester staple fibres, mixed mainly or solely with fibres n.e.c. in item no. 5509.5, not put up for retail sale\n- 5504: Artificial staple fibres, not carded, combed or otherwise processed for spinning\n    contains 550490: Fibres; artificial staple fibres, other than of viscose, not carded, combed or otherwise processed for spinning\n    contains 550410: Fibres; artificial staple fibres, of viscose, not carded, combed or otherwise processed for spinning\n- 5513: Woven fabrics of synthetic staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, of a weight not exceeding 170g/m2\n    contains 551311: Fabrics, woven; plain weave, of polyester staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, of a weight not exceeding 170g/m2, unbleached or bleached\n    contains 551341: Fabrics, woven; plain weave, printed, of polyester staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, not exceeding 170g/m2\n    contains 551313: Fabrics, woven; of polyester staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, not exceeding 170g/m2, unbleached or bleached\n- 5515: Woven fabrics of synthetic staple fibres, n.e.c. in chapter 55\n    contains 551511: Fabrics, woven; of polyester staple fibres n.e.c. in chapter 55, mixed mainly or solely with viscose rayon staple fibres\n- 5514: Woven fabrics of synthetic staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, of a weight exceeding 170g/m2\n    contains 551411: Fabrics, woven; plain weave, unbleached or bleached, containing less than 85% by weight of polyester staple fibres, mixed mainly or solely with cotton, exceeding 170g/m2\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3313446a39acce323816b278497b1eb03ba1b5b64ec0d11b4acbdec4ac515506",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "5503",
+      "cited": [
+        "5503",
+        "550320"
+      ],
+      "confidence": "0.97",
+      "reason": "Polyester staple fibres that are not carded or combed are synthetic staple fibres not processed for spinning, which is the scope of heading 5503 (subheading 550320)."
+    },
+    "input_tokens": 2339,
+    "latency_ms": 2923,
+    "output_tokens": 93
+  }
+}

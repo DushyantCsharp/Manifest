@@ -2,8 +2,8 @@
   "format": 1,
   "key": "d54b1104d1f498090ab925d442470abdfd5b400736e7ea1186a87a7d68b6f8e2",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:36+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,119 +15,119 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "_, Massey Inc ; _ | DDP Montréal",
+        "confidence": "0.85",
+        "evidence": "Massey Inc",
         "value": "Massey Inc"
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "No. 250 Industrial Road, Taichung, Taiwan. Date - 04/08/2026",
+        "confidence": "0.95",
+        "evidence": "Date - 04/08/2026",
         "value": "04/08/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "_, Massey Inc ; _ | DDP Montréal",
+        "confidence": "0.9",
+        "evidence": "DDP Montréal",
         "value": "DDP Montréal"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "Taichung Yungshin Textile Co., Ltd. — Invoice Ref. INV-2026-91736",
+        "confidence": "0.95",
+        "evidence": "Invoice Ref. INV-2026-91736",
         "value": "INV-2026-91736"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "confidence": "0.9",
+            "evidence": "IT 8,598 pcs",
             "value": "IT"
           },
           "description": {
-            "confidence": "0.86",
-            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "confidence": "0.85",
+            "evidence": "Red wine, 0.751 bottle",
             "value": "Red wine, 0.751 bottle"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "confidence": "0.92",
+            "evidence": "13,283.04 kg",
             "value": "13,283.04 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "confidence": "0.88",
+            "evidence": "11,014.04 kg.",
             "value": "11,014.04 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "confidence": "0.92",
+            "evidence": "8,598 pcs",
             "value": "8,598"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "confidence": "0.92",
+            "evidence": "8,598 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "confidence": "0.92",
+            "evidence": "CN 98 pcs",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "confidence": "0.93",
+            "evidence": "Split air conditioner 12000 BTU",
             "value": "Split air conditioner 12000 BTU"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "confidence": "0.93",
+            "evidence": "3,873.67 kg",
             "value": "3,873.67 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "confidence": "0.93",
+            "evidence": "3,544.86 kg",
             "value": "3,544.86 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Split air conditioner 12000 BTU CN 98 pcs 98 3,544.86 kg 3,873.67 kg",
+            "confidence": "0.92",
+            "evidence": "98 pcs 98",
             "value": "98"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.751 bottle IT 8,598 pcs ~* 4433°—s«11,014.04 kg. . 13,283.04 kg",
+            "confidence": "0.92",
+            "evidence": "98 pcs 98",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "confidence": "0.9",
+        "evidence": "Total 1531 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Taichung Yungshin Textile Co., Ltd. — Invoice Ref. INV-2026-91736",
+        "confidence": "0.9",
+        "evidence": "Taichung Yungshin Textile Co., Ltd.",
         "value": "Taichung Yungshin Textile Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "confidence": "0.93",
+        "evidence": "17,156.71 kg",
         "value": "17,156.71 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "confidence": "0.93",
+        "evidence": "14,558.90 kg",
         "value": "14,558.90 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1531 CARTONS 14,558.90 kg 17,156.71 kg",
+        "confidence": "0.9",
+        "evidence": "Total 1531 CARTONS",
         "value": "1531"
       }
     },
-    "input_tokens": 384,
-    "latency_ms": 0,
-    "output_tokens": 786
+    "input_tokens": 2373,
+    "latency_ms": 5199,
+    "output_tokens": 922
   }
 }

@@ -61,21 +61,42 @@ It fails when a metric breaks its gate in `thresholds.yaml`, or when a committed
 
 ## Where the answers come from
 
-**The committed cassettes were seeded offline, not recorded from a model.**
+**The committed cassettes hold a real model's answers** (recorded 2026-10-13 with
+`make eval-record`): Sonnet 5.5 reads every page at effort `low` and walks every HS description
+at effort `medium`, over hybrid retrieval (voyage-3.5 embeddings fused with Postgres full-text
+search). Each recording says who answered it (`recorded_with`, `retriever`), and the harness
+gates on the `model` profile of `thresholds.yaml`. Its bounds are regression floors a little
+under that first recording; product goals it missed stay in the file as `target`, which
+reports mark "below target" without failing. The calibrators fitted on it
+(`extraction-v2`, `hs-v2`) say `provenance: model`, so a worker that pins them can
+auto-approve. The answers kept cost about $4 (`usd_per_page`, `hs_usd_per_description`).
 
-- Extraction: a ground-truth oracle answers each page request with the true values *as
+What the first recording found, beyond the numbers in the report:
+
+- the letterhead invoice prints a monogram before the seller's name, and the model copies it
+  (`K Khanna LLC`): most of `commercial_invoice.seller_name`'s misses and the clean packs'
+  false alarms;
+- on scans, reconciliation flags OCR damage as discrepancies (`Ertas` vs `Ertaş`, `BonteBV`):
+  a false-alarm rate of 0.80 on scanned packs.
+
+Re-record after changing the prompt, schema, model or page text (request hashes change and
+`tests/test_golden.py` fails first): set `ANTHROPIC_API_KEY` and `VOYAGE_API_KEY`, run
+`make up && make migrate && make hs-index`, then `make eval-record`, and review the cassette,
+calibrator and report diff. Recording is resumable: an interrupted run keeps every real answer
+it already paid for.
+
+### The oracle (stand-in answers)
+
+`make cassettes` replaces every recording with offline stand-ins, for working without keys:
+
+- extraction: a ground-truth oracle answers each page request with the true values *as
   printed* and an evidence span from the page. On scanned pages it copies what OCR produced
-  (closest match, less confident the further it is from the truth), so scanned accuracy
-  reflects real OCR damage to a literal copier.
-- HS: retrieval is offline BM25 over the nomenclature (`offline-lexical`); the stand-in model
-  picks the labelled code when it was retrieved, and guesses otherwise.
+  (closest match, less confident the further it is from the truth);
+- HS: offline BM25 retrieval (`offline-lexical`), and a stand-in model that picks the
+  labelled code when it was retrieved and guesses otherwise.
 
-So the `plumbing` profile applies: the numbers prove the machinery (normalisation, evidence,
-reconciliation, calibration, routing, the gate) and say nothing about a model. Latency and cost
-are not measured. Calibrators fitted on these answers say `provenance: oracle` and the worker
-never auto-approves on them.
-
-To measure a model: set `ANTHROPIC_API_KEY` (and `VOYAGE_API_KEY` with `make up && make migrate
-&& make hs-index` for vector retrieval), run `make eval-record`, review the cassette and
-calibrator diff, and confirm the `model` gates in `thresholds.yaml`. At Sonnet 5.5 list prices
-(`manifest_llm.pricing`) a full recording costs roughly $10-15.
+Any stand-in answer puts the harness on the `plumbing` profile: the numbers prove the machinery
+(normalisation, evidence, reconciliation, calibration, routing, the gate) and say nothing about
+a model; latency and cost aren't measured. Calibrators fitted on them say `provenance: oracle`,
+and the worker never auto-approves on them. The machinery tests seed the oracle into a
+temporary folder, so they don't depend on what is committed.

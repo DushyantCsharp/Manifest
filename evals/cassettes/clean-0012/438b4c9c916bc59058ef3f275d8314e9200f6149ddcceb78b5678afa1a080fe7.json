@@ -2,8 +2,8 @@
   "format": 1,
   "key": "438b4c9c916bc59058ef3f275d8314e9200f6149ddcceb78b5678afa1a080fe7",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:04+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -20,83 +20,83 @@
         "value": "MAEUKA5841204"
       },
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Junck",
+        "confidence": "0.95",
+        "evidence": "CONSIGNEE\nJunck",
         "value": "Junck"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MAERSK",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: MAERSK",
         "value": "MAERSK"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "MAEU1848035",
         "value": "MAEU1848035"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.94",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "378\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Hamburg",
+        "evidence": "PORT OF DISCHARGE\nHamburg",
         "value": "Hamburg"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "H.No. 111, Oza Path, 529203 Chennai, India",
+        "evidence": "PORT OF LOADING\nChennai",
         "value": "Chennai"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "8618627",
+        "confidence": "0.95",
+        "evidence": "SEAL\n8618627",
         "value": "8618627"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Issac, Jaggi and Chacko",
         "value": "Issac, Jaggi and Chacko"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "15.07.2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n15.07.2026",
         "value": "15.07.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "25.303,71 kg",
         "value": "25.303,71 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "378",
+        "confidence": "0.95",
+        "evidence": "378\nCARTONS",
         "value": "378"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MAERSK ZEPHYR / 265W",
         "value": "MAERSK ZEPHYR"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MAERSK ZEPHYR / 265W",
         "value": "265W"
       }
     },
-    "input_tokens": 515,
-    "latency_ms": 0,
-    "output_tokens": 362
+    "input_tokens": 2358,
+    "latency_ms": 4635,
+    "output_tokens": 707
   }
 }

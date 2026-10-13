@@ -2,8 +2,8 @@
   "format": 1,
   "key": "1ef8f26e77a63998a95825a56981958a73cca500264f06d9061b6bc90f5179bd",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:51:30+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -16,13 +16,14 @@
     "data": {
       "choice": "920790",
       "cited": [
-        "920790"
+        "920790",
+        "9207"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.97",
+      "reason": "An electric guitar is a non-keyboard instrument whose sound is produced or amplified electrically, so it falls under the residual 'other' subheading rather than keyboard instruments."
     },
-    "input_tokens": 368,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 924,
+    "latency_ms": 2876,
+    "output_tokens": 95
   }
 }

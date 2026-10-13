@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "d865405d0fc9d182745e590ce47c124b74a28c5a0f8399dff35f4e8613fc88a0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:51+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: PVC resin, suspension grade, not mixed\nCountry of origin: CN\n\nChosen so far: 39 Plastics and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 3911: Petroleum resins, coumarone-indene resins, polyterpenes, polysulphides, polysulphones and similar products of chemical synthesis n.e.c. in chapter 39, in primary forms\n    contains 391120: Petroleum resins, poly(1,3-phenylene methylphosphonate), in primary forms\n    contains 391110: Petroleum resins, coumarone, indene or coumarone-indene resins and polyterpenes; in primary forms\n- 3909: Amino-resins, phenolic resins and polyurethanes, in primary forms\n    contains 390931: Amino-resins; n.e.c. in heading no. 3909, in primary forms, poly(methylene phenyl isocyanate) (Crude MDI, polymeric MDI)\n    contains 390920: Amino-resins; melamine resins, in primary forms\n    contains 390939: Amino-resins; n.e.c. in heading no. 3909, in primary forms, other than poly(methylene phenyl isocyanate) (Crude MDI, polymeric MDI)\n    contains 390940: Phenolic resins; in primary forms\n    contains 390910: Amino-resins; urea and thiourea resins, in primary forms\n- 3907: Polyacetals, other polyethers and epoxide resins, in primary forms; polycarbonates, alkyd resins, polyallyl esters and other polyesters, in primary forms\n    contains 390730: Epoxide resins; in primary forms\n- 3904: Polymers of vinyl chloride or of other halogenated olefins, in primary forms\n    contains 390410: Vinyl chloride, other halogenated olefin polymers; poly(vinyl chloride), not mixed with any other substances, in primary forms\n    contains 390421: Vinyl chloride, other halogenated olefin polymers; non-plasticised poly(vinyl chloride), in primary forms, mixed with other substances\n    contains 390422: Vinyl chloride, other halogenated olefin polymers; plasticised poly(vinyl chloride), in primary forms, mixed with other substances\n- 3917: Tubes, pipes and hoses and fittings thereof (for example, joints, elbows, flanges), of plastics\n    contains 391723: Plastics; tubes, pipes and hoses thereof, rigid, of polymers of vinyl chloride\n- 3905: Polymers of vinyl acetate or of other vinyl esters, in primary forms; other vinyl polymers in primary forms\n    contains 390512: Poly(vinyl acetate); in aqueous dispersion, in primary forms\n    contains 390521: Vinyl acetate copolymers; in aqueous dispersion, in primary forms\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1a98056e7954935411a8b34b340b485bd536adf0c9d6fd616163afcc58cdf9bd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3904",
+      "cited": [
+        "3904",
+        "390410"
+      ],
+      "confidence": "0.98",
+      "reason": "PVC resin not mixed with other substances in primary form is poly(vinyl chloride) covered by heading 3904, specifically subheading 390410."
+    },
+    "input_tokens": 1726,
+    "latency_ms": 4053,
+    "output_tokens": 85
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "f94af2da65d8b143ef997337665a01239b4b4f7260e8fdc3f3ca0196f3670d58",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:46+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Backpack with outer surface of polyester fabric\nCountry of origin: CN\n\nChosen so far: 42 Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut) > 4202 Trunks; suit, camera, jewellery, cutlery cases; travel, tool, similar bags; wholly or mainly covered by leather, composition leather, plastic sheeting, textile materials, vulcanised fibre, paperboard\n\nChoose the subheading that covers these goods. Options:\n- 420232: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of sheeting of plastics or of textile materials\n- 420222: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials\n- 420212: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of plastics or of textile materials\n- 420292: Cases and containers; n.e.c. in heading 4202, with outer surface of sheeting of plastics or of textile materials\n- 420219: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n- 420229: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n- 420239: Cases and containers; of a kind normally carried in the pocket or in the handbag, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n- 420299: Cases and containers; n.e.c. in heading 4202, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n- 420211: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of leather or of composition leather\n- 420231: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4b6c6e45b5dc63e4c2862a6620ee90c4796ea5ee01ab1e89c5d5a803ec1894e3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "420292",
+      "cited": [
+        "420292",
+        "420212"
+      ],
+      "confidence": "0.8",
+      "reason": "A backpack is not a trunk, suit-case, brief-case or school satchel; in HS 2022 backpacks are 'travel, sports and similar bags' in the n.e.c. subheading, with outer surface of textile materials, so 420292 applies."
+    },
+    "input_tokens": 1585,
+    "latency_ms": 3743,
+    "output_tokens": 119
+  }
+}

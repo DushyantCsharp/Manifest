@@ -2,8 +2,8 @@
   "format": 1,
   "key": "aed2a878b43724c7c67e047e82b861b6683f719f9b0b7c0bc1ff47f6f3654bac",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:51:04+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -18,11 +18,11 @@
       "cited": [
         "760110"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.98",
+      "reason": "The goods are unwrought aluminium ingots that are expressly not alloyed, which matches subheading 760110 (unwrought, not alloyed) rather than the alloy subheading 760120."
     },
-    "input_tokens": 300,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 863,
+    "latency_ms": 3334,
+    "output_tokens": 96
   }
 }

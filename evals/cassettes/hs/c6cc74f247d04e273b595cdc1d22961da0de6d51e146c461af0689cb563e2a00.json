@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "c6cc74f247d04e273b595cdc1d22961da0de6d51e146c461af0689cb563e2a00",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:27+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cardigan, knitted, 80% wool 20% nylon\nCountry of origin: IT\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n    contains 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n    contains 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n    contains 611019: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fine animal hair other than that of kashmir (cashmere) goats\n    contains 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n    contains 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n- 60: Fabrics; knitted or crocheted\n    contains 600542: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of artificial fibres, dyed\n    contains 600538: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of synthetic fibres, yarns of different colours\n    contains 600523: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, yarns of different colours\n    contains 600522: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, dyed\n    contains 600543: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of artificial fibres, of yarns of different colours\n    contains 600524: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, printed\n    contains 600541: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of artificial fibres, bleached or unbleached\n    contains 600544: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of artificial fibres, printed\n- 51: Wool, fine or coarse animal hair; horsehair yarn and woven fabric\n    contains 510620: Yarn; of carded wool, containing less than 85% by weight of wool, not put up for retail sale\n    contains 510610: Yarn; of carded wool, containing 85% or more by weight of wool, not put up for retail sale\n    contains 511120: Fabrics, woven; of carded wool or carded fine animal hair, containing less than 85% by weight of wool or fine animal hair, mixed mainly or solely with man-made filaments\n    contains 511111: Fabrics, woven; of carded wool or of carded fine animal hair, containing 85% or more by weight of wool or of fine animal hair, of a weight not exceeding 300g/m2\n    contains 511130: Fabrics, woven; of carded wool or carded fine animal hair, containing less than 85% by weight of wool or fine animal hair, mixed mainly or solely with man-made staple fibres\n    contains 511119: Fabrics, woven; of carded wool or of carded fine animal hair, containing 85% or more by weight of wool or of fine animal hair, of a weight exceeding 300g/m2\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f4f70d217352dfead4067084c3bb2c83b00a753022405248f86024db4f6b945c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "61",
+      "cited": [
+        "61",
+        "611011"
+      ],
+      "confidence": "0.97",
+      "reason": "A knitted cardigan is a finished knitted garment, covered by chapter 61 (heading 6110, wool cardigans), not fabric or yarn."
+    },
+    "input_tokens": 2067,
+    "latency_ms": 2855,
+    "output_tokens": 85
+  }
+}

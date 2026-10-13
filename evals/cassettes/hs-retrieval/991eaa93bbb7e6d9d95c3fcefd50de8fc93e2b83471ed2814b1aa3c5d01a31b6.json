@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "991eaa93bbb7e6d9d95c3fcefd50de8fc93e2b83471ed2814b1aa3c5d01a31b6",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Deep groove ball bearing 6205-2RS, sealed origin JP",
   "limit": 20,
   "candidates": [
     {
-      "code": "848291",
-      "description": "Bearings; parts, balls, needles and rollers",
-      "score": "0.016393",
+      "code": "848220",
+      "description": "Bearings; tapered roller bearings, including cone and tapered roller assemblies",
+      "score": "0.031778",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "848210",
-      "description": "Ball bearings",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "848299",
-      "description": "Bearings; parts, (other than balls, needles and rollers)",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "848320",
-      "description": "Bearing housings, incorporating ball or roller bearings",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "848280",
-      "description": "Bearings; n.e.c. in heading no. 8482, including combined ball/roller",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "848330",
-      "description": "Bearing housings, not incorporating ball or roller bearings and plain shaft bearings",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
+        "lexical": 5,
+        "vector": 1
       }
     },
     {
       "code": "848230",
       "description": "Bearings; spherical roller bearings",
-      "score": "0.014925",
+      "score": "0.031281",
       "ranks": {
-        "lexical": 7
+        "lexical": 6,
+        "vector": 2
       }
     },
     {
-      "code": "848220",
-      "description": "Bearings; tapered roller bearings, including cone and tapered roller assemblies",
-      "score": "0.014706",
+      "code": "848210",
+      "description": "Ball bearings",
+      "score": "0.031250",
       "ranks": {
-        "lexical": 8
+        "lexical": 4,
+        "vector": 4
       }
     },
     {
-      "code": "848240",
-      "description": "Bearings; needle roller bearings, including cage and needle roller assemblies",
-      "score": "0.014493",
+      "code": "848320",
+      "description": "Bearing housings, incorporating ball or roller bearings",
+      "score": "0.030622",
       "ranks": {
-        "lexical": 9
+        "lexical": 2,
+        "vector": 9
+      }
+    },
+    {
+      "code": "848330",
+      "description": "Bearing housings, not incorporating ball or roller bearings and plain shaft bearings",
+      "score": "0.030282",
+      "ranks": {
+        "lexical": 1,
+        "vector": 12
+      }
+    },
+    {
+      "code": "848299",
+      "description": "Bearings; parts, (other than balls, needles and rollers)",
+      "score": "0.030159",
+      "ranks": {
+        "lexical": 10,
+        "vector": 3
       }
     },
     {
       "code": "848250",
       "description": "Bearings; cylindrical roller bearings, including cage and roller assemblies n.e.c. in heading no. 8482",
-      "score": "0.014286",
+      "score": "0.030090",
       "ranks": {
-        "lexical": 10
+        "lexical": 8,
+        "vector": 5
+      }
+    },
+    {
+      "code": "848291",
+      "description": "Bearings; parts, balls, needles and rollers",
+      "score": "0.029644",
+      "ranks": {
+        "lexical": 9,
+        "vector": 6
+      }
+    },
+    {
+      "code": "848240",
+      "description": "Bearings; needle roller bearings, including cage and needle roller assemblies",
+      "score": "0.029631",
+      "ranks": {
+        "lexical": 7,
+        "vector": 8
+      }
+    },
+    {
+      "code": "848280",
+      "description": "Bearings; n.e.c. in heading no. 8482, including combined ball/roller",
+      "score": "0.028624",
+      "ranks": {
+        "lexical": 13,
+        "vector": 7
+      }
+    },
+    {
+      "code": "848420",
+      "description": "Seals; mechanical",
+      "score": "0.024752",
+      "ranks": {
+        "lexical": 25,
+        "vector": 17
+      }
+    },
+    {
+      "code": "732591",
+      "description": "Iron; grinding balls and similar articles for mills, other than of non-malleable cast iron",
+      "score": "0.023344",
+      "ranks": {
+        "lexical": 48,
+        "vector": 11
+      }
+    },
+    {
+      "code": "732599",
+      "description": "Iron or steel; cast articles, excluding grinding balls and similar articles for mills, other than of non-malleable cast iron",
+      "score": "0.022873",
+      "ranks": {
+        "lexical": 49,
+        "vector": 13
+      }
+    },
+    {
+      "code": "732611",
+      "description": "Iron or steel; grinding balls and similar articles for mills, forged or stamped, but not further worked",
+      "score": "0.022249",
+      "ranks": {
+        "lexical": 50,
+        "vector": 16
       }
     },
     {
       "code": "848310",
       "description": "Transmission shafts (including cam shafts and crank shafts) and cranks",
-      "score": "0.014085",
+      "score": "0.021279",
       "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "848350",
-      "description": "Pulleys and flywheels, including pulley blocks",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "848340",
-      "description": "Gears and gearing; (not toothed wheels, chain sprockets and other transmission elements presented separately); ball or roller screws; gear boxes and other speed changers, including torque converters",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
+        "lexical": 33,
+        "vector": 35
       }
     },
     {
       "code": "848360",
       "description": "Clutches and shaft couplings (including universal joints)",
-      "score": "0.013514",
+      "score": "0.020836",
       "ranks": {
-        "lexical": 14
+        "lexical": 35,
+        "vector": 37
       }
     },
     {
-      "code": "848390",
-      "description": "Transmission components; toothed wheels, chain sprockets and other transmission elements presented separately; parts",
-      "score": "0.013333",
+      "code": "848350",
+      "description": "Pulleys and flywheels, including pulley blocks",
+      "score": "0.019984",
       "ranks": {
-        "lexical": 15
+        "lexical": 34,
+        "vector": 47
       }
     },
     {
-      "code": "620590",
-      "description": "Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)",
-      "score": "0.013158",
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015873",
       "ranks": {
-        "lexical": 16
+        "lexical": 3,
+        "vector": null
       }
     },
     {
-      "code": "721310",
-      "description": "Iron or non-alloy steel; bars and rods, hot-rolled, in irregularly wound coils, containing indentations, ribs, grooves or other deformations produced during the rolling process",
-      "score": "0.012987",
+      "code": "830220",
+      "description": "Castors; with mountings, of base metal",
+      "score": "0.014286",
       "ranks": {
-        "lexical": 17
+        "lexical": null,
+        "vector": 10
       }
     },
     {
-      "code": "721420",
-      "description": "Iron or non-alloy steel; bars and rods, hot-rolled, hot-drawn or hot-extruded, containing indentations, ribs, grooves or other deformations produced during the rolling process or twisted after rolling",
-      "score": "0.012821",
+      "code": "960860",
+      "description": "Pens; ball-point, refills comprising the ball point and ink-reservoir",
+      "score": "0.014085",
       "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "620520",
-      "description": "Shirts; men's or boys', of cotton (not knitted or crocheted)",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "620530",
-      "description": "Shirts; men's or boys', of man-made fibres (not knitted or crocheted)",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": 11,
+        "vector": null
       }
     }
   ]

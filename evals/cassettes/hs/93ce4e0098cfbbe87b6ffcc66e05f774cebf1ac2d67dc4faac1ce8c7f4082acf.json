@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "93ce4e0098cfbbe87b6ffcc66e05f774cebf1ac2d67dc4faac1ce8c7f4082acf",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:00+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Office swivel chair with gas-lift height adjustment, upholstered, metal base\nCountry of origin: CN\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings > 9401 Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof\n\nChoose the subheading that covers these goods. Options:\n- 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture\n- 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture\n- 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "799705ececefab3fae686941534586ac22bb2695090355b26c0cae206d3f6fc9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "940139",
+      "cited": [
+        "940139",
+        "9401"
+      ],
+      "confidence": "0.8",
+      "reason": "A swivel chair with gas-lift height adjustment falls under the 'swivel with variable height adjustment' subheadings, and with a metal base and upholstery it is not of wood, so 940139 applies rather than 940131 or 940171 (which is for other seats with metal frames, upholstered)."
+    },
+    "input_tokens": 1068,
+    "latency_ms": 3681,
+    "output_tokens": 133
+  }
+}

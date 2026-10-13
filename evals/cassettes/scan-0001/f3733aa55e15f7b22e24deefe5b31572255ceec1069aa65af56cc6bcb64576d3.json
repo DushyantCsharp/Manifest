@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f3733aa55e15f7b22e24deefe5b31572255ceec1069aa65af56cc6bcb64576d3",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:34+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "ONEYLA6131517",
         "value": "ONEYLA6131517"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Reed Group",
         "value": "Reed Group"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "ONE MERIDIAN / 443W ..",
+        "confidence": "0.6",
+        "evidence": "Signed as Carrier: ONE",
         "value": "ONE"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg",
+        "confidence": "0.88",
+        "evidence": "ONEU1362844",
         "value": "ONEU1362844"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.88",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.8",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "SEAL . INV-2026-17807 ° | CARTONS | monocrystalline; Frozen vannaméei’ shrimp,’ .",
+        "confidence": "0.85",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "-| Mundra | Vancouver",
+        "confidence": "0.75",
+        "evidence": "Mundra | Vancouver",
         "value": "Vancouver"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Mundra, 05/25/2026 ; THREE (3):",
+        "confidence": "0.8",
+        "evidence": "Mundra, 05/25/2026",
         "value": "Mundra"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "| 3513552 ’ feos ‘peeled; AC induction motor 0:55kW 3-phase; _",
+        "confidence": "0.8",
+        "evidence": "3513552",
         "value": "3513552"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Balay-Dass",
         "value": "Balay-Dass"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "05/25/2026",
+        "confidence": "0.5",
+        "evidence": "Mundra, 05/25/2026",
         "value": "05/25/2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg",
+        "confidence": "0.9",
+        "evidence": "24,212.04 kg",
         "value": "24,212.04 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "‘}ONEU1362844 .| REED / (1601 | SAID TO CONTAIN: Sdlar PV module 410W | 24,212.04 kg",
+        "confidence": "0.6",
+        "evidence": "(1601",
         "value": "1601"
       },
       "vessel": {
-        "confidence": "0.97",
-        "evidence": "ONE MERIDIAN / 443W ..",
+        "confidence": "0.88",
+        "evidence": "ONE MERIDIAN / 443W",
         "value": "ONE MERIDIAN"
       },
       "voyage": {
-        "confidence": "0.97",
-        "evidence": "ONE MERIDIAN / 443W ..",
+        "confidence": "0.88",
+        "evidence": "ONE MERIDIAN / 443W",
         "value": "443W"
       }
     },
-    "input_tokens": 524,
-    "latency_ms": 0,
-    "output_tokens": 463
+    "input_tokens": 2388,
+    "latency_ms": 4607,
+    "output_tokens": 646
   }
 }

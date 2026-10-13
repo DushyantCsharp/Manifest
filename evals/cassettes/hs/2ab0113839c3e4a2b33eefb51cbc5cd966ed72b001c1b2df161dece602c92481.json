@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "2ab0113839c3e4a2b33eefb51cbc5cd966ed72b001c1b2df161dece602c92481",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:22+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Milk chocolate bars 100g, not filled\nCountry of origin: BE\n\nChoose the chapter that covers these goods. Options:\n- 18: Cocoa and cocoa preparations\n    contains 180632: Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, (not filled), weighing 2kg or less\n    contains 180631: Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, filled, weighing 2kg or less\n    contains 180620: Chocolate & other food preparations containing cocoa; in blocks, slabs or bars weighing more than 2kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, content exceeding 2kg\n    contains 180690: Chocolate and other food preparations containing cocoa; n.e.c. in chapter 18\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040110: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, not exceeding 1%\n    contains 040150: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 10%\n    contains 040140: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 6% but not exceeding 10%\n    contains 040390: Dairy produce; buttermilk, curdled milk or cream, kephir, fermented or acidified milk or cream, whether or not concentrated or containing added sweetening, flavouring, fruit, nuts or cocoa (excluding yoghurt)\n    contains 040291: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040120: Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%\n    contains 040221: Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040210: Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)\n    contains 040490: Dairy produce; natural milk constituents (excluding whey), whether or not containing added sugar or other sweetening matter, n.e.c. in chapter 04\n    contains 040229: Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)\n    contains 040299: Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms\n    contains 040510: Dairy produce; derived from milk, butter\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n    contains 040590: Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)\n- 17: Sugars and sugar confectionery\n    contains 170490: Sugar confectionery; (excluding chewing gum, including white chocolate), not containing cocoa\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "cb4422c0116a9b292a2b85f7db1621ce6323708825fa7c6f3003ee597bab224d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "18",
+      "cited": [
+        "18",
+        "180632"
+      ],
+      "confidence": "0.98",
+      "reason": "Milk chocolate bars of 100g, not filled, fall in Chapter 18 (chocolate and other food preparations containing cocoa), specifically subheading 180632 for unfilled blocks, slabs or bars of 2kg or less."
+    },
+    "input_tokens": 2091,
+    "latency_ms": 2782,
+    "output_tokens": 114
+  }
+}

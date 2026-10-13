@@ -85,6 +85,7 @@ class CassetteProvider:
         self._lock = threading.Lock()
         self.counts: Counter[str] = Counter()  # replayed / recorded
         self.sources: Counter[str] = Counter()  # who answered what was replayed (recorded_with)
+        self.used: set[str] = set()  # keys asked for (replayed or recorded) since construction
 
     def path(self, key: str) -> Path:
         return self.directory / f"{key}.json"
@@ -92,6 +93,8 @@ class CassetteProvider:
     def complete_json(self, request: JsonRequest) -> JsonResponse:
         key = request_key(self.name, request)
         path = self.path(key)
+        with self._lock:
+            self.used.add(key)
         if self.mode != "record" and path.exists():
             recording = json.loads(path.read_text(encoding="utf-8"), parse_float=Decimal)
             self._count("replayed", str(recording.get("recorded_with") or self.name))
@@ -112,6 +115,14 @@ class CassetteProvider:
         self._write(key, request, replace(response, latency_ms=latency_ms))
         self._count("recorded")
         return response
+
+    def prune(self) -> int:
+        """Delete recordings nothing asked for since construction (after a full re-record:
+        answers to prompts that no longer exist). Returns how many were deleted."""
+        stale = [p for p in self.directory.glob("*.json") if p.stem not in self.used]
+        for path in stale:
+            path.unlink()
+        return len(stale)
 
     def _count(self, outcome: str, source: str | None = None) -> None:
         with self._lock:

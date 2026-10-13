@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "f6a012468c7c54df1245424aeda3c6973c72e46b4f7967cdca875081c8b46de2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:06+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Granular urea fertiliser\nCountry of origin: QA\n\nChosen so far: 31 Fertilizers > 3102 Fertilizers; mineral or chemical, nitrogenous\n\nChoose the subheading that covers these goods. Options:\n- 310210: Fertilizers, mineral or chemical; nitrogenous, urea, whether or not in aqueous solution\n- 310280: Fertilizers, mineral or chemical; nitrogenous, mixtures of urea and ammonium nitrate in aqueous or ammoniacal solution\n- 310221: Fertilizers, mineral or chemical; nitrogenous, ammonium sulphate\n- 310229: Fertilizers, mineral or chemical; nitrogenous, other than ammonium sulphate\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4ecbe6f7d28383c6f043095e789068be718c647e8d1c2e9dc8d3ae3a32337948",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "310210",
+      "cited": [
+        "310210"
+      ],
+      "confidence": "0.97",
+      "reason": "Granular urea fertiliser is urea, which falls squarely under subheading 3102.10 (urea, whether or not in aqueous solution)."
+    },
+    "input_tokens": 1003,
+    "latency_ms": 2640,
+    "output_tokens": 81
+  }
+}

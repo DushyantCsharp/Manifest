@@ -2,8 +2,8 @@
   "format": 1,
   "key": "5a0c9bd623349d60bfbc7f95943ce716f5f53ae1a7d3c8883968e13242b00729",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:10+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Fernandez",
         "value": "Fernandez"
       },
@@ -25,7 +25,7 @@
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Incoterm 2020 DDP Paris",
         "value": "DDP Paris"
       },
@@ -42,134 +42,134 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 10,13 50 447,40",
+            "confidence": "0.95",
+            "evidence": "10,13 50 447,40",
             "value": "50 447,40"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Giovine, 24, 64011 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.93",
+            "evidence": "whole IT 4 980",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 10,13 50 447,40",
+            "confidence": "0.96",
+            "evidence": "Roasted coffee beans, whole",
             "value": "Roasted coffee beans, whole"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 10,13 50 447,40",
+            "confidence": "0.93",
+            "evidence": "IT 4 980 kg 10,13",
             "value": "4 980"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 10,13 50 447,40",
+            "confidence": "0.95",
+            "evidence": "4 980 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Roasted coffee beans, whole IT 4 980 kg 10,13 50 447,40",
+            "confidence": "0.95",
+            "evidence": "kg 10,13 50 447,40",
             "value": "10,13"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 8,94 55 428,00",
+            "confidence": "0.95",
+            "evidence": "8,94 55 428,00",
             "value": "55 428,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Giovine, 24, 64011 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.93",
+            "evidence": "sunglasses IT 6 200",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 8,94 55 428,00",
+            "confidence": "0.96",
+            "evidence": "Polarized sunglasses",
             "value": "Polarized sunglasses"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 8,94 55 428,00",
+            "confidence": "0.93",
+            "evidence": "IT 6 200 pcs",
             "value": "6 200"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 8,94 55 428,00",
+            "confidence": "0.95",
+            "evidence": "6 200 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 8,94 55 428,00",
+            "confidence": "0.95",
+            "evidence": "pcs 8,94 55 428,00",
             "value": "8,94"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 11 874 pcs 3,29 39 065,46",
+            "confidence": "0.95",
+            "evidence": "3,29 39 065,46",
             "value": "39 065,46"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Strada Giovine, 24, 64011 Prato, Italy",
-            "value": "Italy"
+            "confidence": "0.93",
+            "evidence": "bottle IT 11 874",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 11 874 pcs 3,29 39 065,46",
+            "confidence": "0.96",
+            "evidence": "Red wine, 0.75L bottle",
             "value": "Red wine, 0.75L bottle"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 11 874 pcs 3,29 39 065,46",
+            "confidence": "0.93",
+            "evidence": "IT 11 874 pcs",
             "value": "11 874"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 Polarized sunglasses IT 6 200 pcs 8,94 55 428,00",
+            "confidence": "0.95",
+            "evidence": "11 874 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Red wine, 0.75L bottle IT 11 874 pcs 3,29 39 065,46",
+            "confidence": "0.95",
+            "evidence": "pcs 3,29 39 065,46",
             "value": "3,29"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "L/C at sight",
         "value": "L/C at sight"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Gasperi-Finetti SPA",
         "value": "Gasperi-Finetti SPA"
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Total USD : 144 940,86",
         "value": "144 940,86"
       }
     },
-    "input_tokens": 393,
-    "latency_ms": 0,
-    "output_tokens": 810
+    "input_tokens": 2238,
+    "latency_ms": 6868,
+    "output_tokens": 1140
   }
 }

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "5d37873e109858e9d66e5205d4ff01e195b98741251efd5e64def0e4bf841bb4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Babies' romper suit, knitted, 100% cotton\nCountry of origin: IN\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted > 6111 Garments and clothing accessories, babies'; knitted or crocheted\n\nChoose the subheading that covers these goods. Options:\n- 611120: Garments and clothing accessories; babies', of cotton, knitted or crocheted\n- 611190: Garments and clothing accessories; babies', of textile materials (other than cotton or synthetic fibres), knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4b4be2562b00784aa9b981588f66d6b7b2c5c9a8071dd5289840ab2774400e9a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "611120",
+      "cited": [
+        "611120"
+      ],
+      "confidence": "0.97",
+      "reason": "A knitted babies' romper suit of 100% cotton falls under babies' garments of cotton, knitted or crocheted, in subheading 611120."
+    },
+    "input_tokens": 923,
+    "latency_ms": 3232,
+    "output_tokens": 82
+  }
+}

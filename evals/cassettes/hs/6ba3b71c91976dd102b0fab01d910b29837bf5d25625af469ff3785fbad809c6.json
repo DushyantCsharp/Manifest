@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "6ba3b71c91976dd102b0fab01d910b29837bf5d25625af469ff3785fbad809c6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:56+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Refined copper cathodes\nCountry of origin: CL\n\nChosen so far: 74 Copper and articles thereof > 7403 Copper; refined and copper alloys, unwrought\n\nChoose the subheading that covers these goods. Options:\n- 740311: Copper; refined, unwrought, cathodes and sections of cathodes\n- 740313: Copper; refined, unwrought, billets\n- 740312: Copper; refined, unwrought, wire-bars\n- 740319: Copper; refined, unwrought, n.e.c. in item no. 7403.1\n- 740329: Copper; copper alloys n.e.c. in heading no. 7403 (other than master alloys of heading no. 7405)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "144d205910a2b30500b485e0d2dedef9cd8aa1b0112d79e3eb36b053322b1b06",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "740311",
+      "cited": [
+        "740311",
+        "7403"
+      ],
+      "confidence": "0.98",
+      "reason": "Refined copper cathodes are expressly covered by subheading 7403.11, refined unwrought copper in the form of cathodes and sections of cathodes."
+    },
+    "input_tokens": 985,
+    "latency_ms": 2974,
+    "output_tokens": 87
+  }
+}

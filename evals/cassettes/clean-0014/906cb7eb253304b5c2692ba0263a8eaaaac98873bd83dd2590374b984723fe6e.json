@@ -2,8 +2,8 @@
   "format": 1,
   "key": "906cb7eb253304b5c2692ba0263a8eaaaac98873bd83dd2590374b984723fe6e",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:31+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Jones, Hutchinson and Marshall",
         "value": "Jones, Hutchinson and Marshall"
       },
@@ -25,7 +25,7 @@
         "value": "March 29, 2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CPT Manchester",
         "value": "CPT Manchester"
       },
@@ -37,97 +37,97 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Jardim Albuquerque, 73, 14555-337 Santos, Brazil",
-            "value": "Brazil"
+            "confidence": "0.95",
+            "evidence": "grade 1 BR",
+            "value": "BR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "confidence": "0.95",
+            "evidence": "Green Arabica coffee beans, grade 1",
             "value": "Green Arabica coffee beans, grade 1"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "confidence": "0.95",
+            "evidence": "16,745.5 lb",
             "value": "16,745.5 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "confidence": "0.95",
+            "evidence": "15,476.5 lb",
             "value": "15,476.5 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "confidence": "0.95",
+            "evidence": "BR 7,020 kg",
             "value": "7,020"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Green Arabica coffee beans, grade 1 BR 7,020 kg 117 15,476.5 lb 16,745.5 lb",
+            "confidence": "0.93",
+            "evidence": "BR 7,020 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Jardim Albuquerque, 73, 14555-337 Santos, Brazil",
-            "value": "Brazil"
+            "confidence": "0.95",
+            "evidence": "ream BR 5,355",
+            "value": "BR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "confidence": "0.93",
+            "evidence": "A4 copy paper 80gsm, ream",
             "value": "A4 copy paper 80gsm, ream"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "confidence": "0.95",
+            "evidence": "33,932.3 lb",
             "value": "33,932.3 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "confidence": "0.95",
+            "evidence": "29,585.2 lb",
             "value": "29,585.2 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "confidence": "0.95",
+            "evidence": "BR 5,355 pcs",
             "value": "5,355"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "2 A4 copy paper 80gsm, ream BR 5,355 pcs 1071 29,585.2 lb 33,932.3 lb",
+            "confidence": "0.93",
+            "evidence": "BR 5,355 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "confidence": "0.9",
+        "evidence": "Total 1188 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Silva",
         "value": "Silva"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "confidence": "0.95",
+        "evidence": "50,677.8 lb",
         "value": "50,677.8 lb"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "confidence": "0.95",
+        "evidence": "45,061.7 lb",
         "value": "45,061.7 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 1188 CARTONS 45,061.7 lb 50,677.8 lb",
+        "confidence": "0.96",
+        "evidence": "Total 1188 CARTONS",
         "value": "1188"
       }
     },
-    "input_tokens": 379,
-    "latency_ms": 0,
-    "output_tokens": 696
+    "input_tokens": 2350,
+    "latency_ms": 5438,
+    "output_tokens": 916
   }
 }

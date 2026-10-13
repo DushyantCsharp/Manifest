@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "16f5baf7362363c0fe5befbc669b974364550c84367817dc1500a5a92a83b7ad",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:22+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Toilet soap bars\nCountry of origin: ID\n\nChosen so far: 34 Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster > 3401 Soap; organic surface-active preparations used as soap, skin washing, in bars, cakes, moulded pieces, shapes, liquid or cream, containing soap or not; for retail, paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent\n\nChoose the subheading that covers these goods. Options:\n- 340111: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, for toilet use (including medicated products)\n- 340119: Soap and organic surface-active products; in the form of bars, cakes, moulded shapes, and paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent, not for toilet use\n- 340120: Soap; in forms n.e.c. in item no. 3401.11\n- 340130: Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "dd6a4386503181ebd78298ddbaf714dd8253ddb53668246e319007fbd8630d7e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "340111",
+      "cited": [
+        "340111"
+      ],
+      "confidence": "0.97",
+      "reason": "Toilet soap in bar form is covered by 3401.11, which covers bars, cakes and moulded shapes of soap for toilet use."
+    },
+    "input_tokens": 1210,
+    "latency_ms": 4200,
+    "output_tokens": 79
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "852e7afdf98d713b1f01bf4f932e79ea70277021c63680364f6e5e7eca032573",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:21+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,279 +15,279 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "| Price LLC ; -| EXW Tainan",
+        "confidence": "0.9",
+        "evidence": "Price LLC",
         "value": "Price LLC"
       },
       "date": {
-        "confidence": "0.97",
-        "evidence": "_.No. 71 Industrial Road, Kaohsiung, Taiwan ‘Date 02/12/2026",
+        "confidence": "0.9",
+        "evidence": "Date 02/12/2026",
         "value": "02/12/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "| Price LLC ; -| EXW Tainan",
+        "confidence": "0.88",
+        "evidence": "EXW Tainan",
         "value": "EXW Tainan"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "- Invoice Ref. INV-2026-81295 .",
+        "confidence": "0.93",
+        "evidence": "Invoice Ref. INV-2026-81295",
         "value": "INV-2026-81295"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.85",
+            "evidence": "IT 500 pcs",
             "value": "IT"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.95",
+            "evidence": "Polarized sunglasses",
             "value": "Polarized sunglasses"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.9",
+            "evidence": "30.63 kg",
             "value": "30.63 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.79",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
-            "value": "-25.00kg"
+            "confidence": "0.7",
+            "evidence": "-25.00kg",
+            "value": "25.00kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.9",
+            "evidence": "500 pcs",
             "value": "500"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.9",
+            "evidence": "500 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Milk chocolate bars 100g <>: DE 47,520 pcs : 792 - 5,037.12 kg 5,577.64 kg",
+            "confidence": "0.88",
+            "evidence": "DE 47,520 pcs",
             "value": "DE"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Milk chocolate bars 100g <>: DE 47,520 pcs : 792 - 5,037.12 kg 5,577.64 kg",
+            "confidence": "0.95",
+            "evidence": "Milk chocolate bars 100g",
             "value": "Milk chocolate bars 100g"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Milk chocolate bars 100g <>: DE 47,520 pcs : 792 - 5,037.12 kg 5,577.64 kg",
+            "confidence": "0.92",
+            "evidence": "5,577.64 kg",
             "value": "5,577.64 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Milk chocolate bars 100g <>: DE 47,520 pcs : 792 - 5,037.12 kg 5,577.64 kg",
+            "confidence": "0.92",
+            "evidence": "5,037.12 kg",
             "value": "5,037.12 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Milk chocolate bars 100g <>: DE 47,520 pcs : 792 - 5,037.12 kg 5,577.64 kg",
+            "confidence": "0.93",
+            "evidence": "47,520 pcs",
             "value": "47,520"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.93",
+            "evidence": "47,520 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 LED bulb E27 9W warm white : CN 39,800 pes 199 2,069.60 kg = 2;353:85 kg",
+            "confidence": "0.88",
+            "evidence": "CN 39,800",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 LED bulb E27 9W warm white : CN 39,800 pes 199 2,069.60 kg = 2;353:85 kg",
+            "confidence": "0.95",
+            "evidence": "LED bulb E27 9W warm white",
             "value": "LED bulb E27 9W warm white"
           },
           "gross_weight_kg": {
-            "confidence": "0.74",
-            "evidence": "3 LED bulb E27 9W warm white : CN 39,800 pes 199 2,069.60 kg = 2;353:85 kg",
+            "confidence": "0.6",
+            "evidence": "2;353:85 kg",
             "value": "2;353:85 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 LED bulb E27 9W warm white : CN 39,800 pes 199 2,069.60 kg = 2;353:85 kg",
+            "confidence": "0.92",
+            "evidence": "2,069.60 kg",
             "value": "2,069.60 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 LED bulb E27 9W warm white : CN 39,800 pes 199 2,069.60 kg = 2;353:85 kg",
+            "confidence": "0.9",
+            "evidence": "39,800 pes",
             "value": "39,800"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.8",
+            "evidence": "39,800 pes",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm TH 1,920 pcs | ; 80 1,255.68 kg 1,343.49 kg",
+            "confidence": "0.88",
+            "evidence": "TH 1,920 pcs",
             "value": "TH"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm TH 1,920 pcs | ; 80 1,255.68 kg 1,343.49 kg",
+            "confidence": "0.95",
+            "evidence": "Porcelain dinner plate 27cm",
             "value": "Porcelain dinner plate 27cm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm TH 1,920 pcs | ; 80 1,255.68 kg 1,343.49 kg",
+            "confidence": "0.92",
+            "evidence": "1,343.49 kg",
             "value": "1,343.49 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm TH 1,920 pcs | ; 80 1,255.68 kg 1,343.49 kg",
+            "confidence": "0.92",
+            "evidence": "1,255.68 kg",
             "value": "1,255.68 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Porcelain dinner plate 27cm TH 1,920 pcs | ; 80 1,255.68 kg 1,343.49 kg",
+            "confidence": "0.93",
+            "evidence": "1,920 pcs",
             "value": "1,920"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.93",
+            "evidence": "1,920 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "5 Lithium- -ion battery pack 48V 20Ah : KR 88 pcs , 22 595.06 kg 652.61 kg |",
+            "confidence": "0.88",
+            "evidence": "KR 88 pcs",
             "value": "KR"
           },
           "description": {
-            "confidence": "0.87",
-            "evidence": "5 Lithium- -ion battery pack 48V 20Ah : KR 88 pcs , 22 595.06 kg 652.61 kg |",
+            "confidence": "0.85",
+            "evidence": "Lithium- -ion battery pack 48V 20Ah",
             "value": "Lithium- -ion battery pack 48V 20Ah"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Lithium- -ion battery pack 48V 20Ah : KR 88 pcs , 22 595.06 kg 652.61 kg |",
+            "confidence": "0.92",
+            "evidence": "652.61 kg",
             "value": "652.61 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "5 Lithium- -ion battery pack 48V 20Ah : KR 88 pcs , 22 595.06 kg 652.61 kg |",
+            "confidence": "0.92",
+            "evidence": "595.06 kg",
             "value": "595.06 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Lithium- -ion battery pack 48V 20Ah : KR 88 pcs , 22 595.06 kg 652.61 kg |",
+            "confidence": "0.92",
+            "evidence": "88 pcs",
             "value": "88"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.92",
+            "evidence": "88 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "6 LOPE fi film-grade granules — US 5,175 kg 207 5,175.00 kg 5,447.21 kg",
+            "confidence": "0.88",
+            "evidence": "US 5,175 kg",
             "value": "US"
           },
           "description": {
-            "confidence": "0.81",
-            "evidence": "6 LOPE fi film-grade granules — US 5,175 kg 207 5,175.00 kg 5,447.21 kg",
+            "confidence": "0.7",
+            "evidence": "LOPE fi film-grade granules",
             "value": "LOPE fi film-grade granules"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 LOPE fi film-grade granules — US 5,175 kg 207 5,175.00 kg 5,447.21 kg",
+            "confidence": "0.92",
+            "evidence": "5,447.21 kg",
             "value": "5,447.21 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "6 LOPE fi film-grade granules — US 5,175 kg 207 5,175.00 kg 5,447.21 kg",
+            "confidence": "0.92",
+            "evidence": "5,175.00 kg",
             "value": "5,175.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 LOPE fi film-grade granules — US 5,175 kg 207 5,175.00 kg 5,447.21 kg",
+            "confidence": "0.9",
+            "evidence": "5,175 kg",
             "value": "5,175"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.9",
+            "evidence": "5,175 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "7 Long grain white rice, milled PK 9,125 kg 365 9,125.00 kg 10,077.65 kg",
+            "confidence": "0.88",
+            "evidence": "PK 9,125 kg",
             "value": "PK"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "7 Long grain white rice, milled PK 9,125 kg 365 9,125.00 kg 10,077.65 kg",
+            "confidence": "0.95",
+            "evidence": "Long grain white rice, milled",
             "value": "Long grain white rice, milled"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Long grain white rice, milled PK 9,125 kg 365 9,125.00 kg 10,077.65 kg",
+            "confidence": "0.92",
+            "evidence": "10,077.65 kg",
             "value": "10,077.65 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "7 Long grain white rice, milled PK 9,125 kg 365 9,125.00 kg 10,077.65 kg",
+            "confidence": "0.92",
+            "evidence": "9,125.00 kg",
             "value": "9,125.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7 Long grain white rice, milled PK 9,125 kg 365 9,125.00 kg 10,077.65 kg",
+            "confidence": "0.9",
+            "evidence": "9,125 kg",
             "value": "9,125"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Polarized sunglasses ee IT 500 pcs 5 -25.00kg 30.63 kg",
+            "confidence": "0.9",
+            "evidence": "9,125 kg",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "1670 CARTONS 23,282.46kg 25,483.08 kg",
+        "confidence": "0.9",
+        "evidence": "1670 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Kaohsiung Lienhwa Textile Co., Ltd.",
         "value": "Kaohsiung Lienhwa Textile Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "1670 CARTONS 23,282.46kg 25,483.08 kg",
+        "confidence": "0.9",
+        "evidence": "25,483.08 kg",
         "value": "25,483.08 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.86",
-        "evidence": "1670 CARTONS 23,282.46kg 25,483.08 kg",
+        "confidence": "0.85",
+        "evidence": "23,282.46kg",
         "value": "23,282.46kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1670 CARTONS 23,282.46kg 25,483.08 kg",
+        "confidence": "0.9",
+        "evidence": "1670 CARTONS",
         "value": "1670"
       }
     },
-    "input_tokens": 477,
-    "latency_ms": 0,
-    "output_tokens": 1819
+    "input_tokens": 2609,
+    "latency_ms": 11110,
+    "output_tokens": 2124
   }
 }

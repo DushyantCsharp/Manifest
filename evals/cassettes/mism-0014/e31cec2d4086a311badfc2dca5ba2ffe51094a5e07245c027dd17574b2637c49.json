@@ -2,8 +2,8 @@
   "format": 1,
   "key": "e31cec2d4086a311badfc2dca5ba2ffe51094a5e07245c027dd17574b2637c49",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:40+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Rogers-Clark",
         "value": "Rogers-Clark"
       },
@@ -25,7 +25,7 @@
         "value": "May 4, 2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "CFR Southampton",
         "value": "CFR Southampton"
       },
@@ -37,161 +37,161 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.94",
+            "evidence": "CL 8,982",
             "value": "CL"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.96",
+            "evidence": "Red wine, 0.75L bottle",
             "value": "Red wine, 0.75L bottle"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.96",
+            "evidence": "30,016.2 lb",
             "value": "30,016.2 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.96",
+            "evidence": "25,029.6 lb",
             "value": "25,029.6 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.96",
+            "evidence": "8,982 pcs",
             "value": "8,982"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.95",
+            "evidence": "8,982 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM VN 375 pcs 75 1,487.3 lb 1,835.8 lb",
+            "confidence": "0.94",
+            "evidence": "VN 375",
             "value": "VN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM VN 375 pcs 75 1,487.3 lb 1,835.8 lb",
+            "confidence": "0.96",
+            "evidence": "Laptop computer 14in, 16GB RAM",
             "value": "Laptop computer 14in, 16GB RAM"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM VN 375 pcs 75 1,487.3 lb 1,835.8 lb",
+            "confidence": "0.96",
+            "evidence": "1,835.8 lb",
             "value": "1,835.8 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM VN 375 pcs 75 1,487.3 lb 1,835.8 lb",
+            "confidence": "0.96",
+            "evidence": "1,487.3 lb",
             "value": "1,487.3 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Laptop computer 14in, 16GB RAM VN 375 pcs 75 1,487.3 lb 1,835.8 lb",
+            "confidence": "0.96",
+            "evidence": "375 pcs",
             "value": "375"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.95",
+            "evidence": "375 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Electric kettle 1.7L stainless CN 2,632 pcs 220 6,162.3 lb 6,612.0 lb",
+            "confidence": "0.94",
+            "evidence": "CN 2,632",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Electric kettle 1.7L stainless CN 2,632 pcs 220 6,162.3 lb 6,612.0 lb",
+            "confidence": "0.96",
+            "evidence": "Electric kettle 1.7L stainless",
             "value": "Electric kettle 1.7L stainless"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Electric kettle 1.7L stainless CN 2,632 pcs 220 6,162.3 lb 6,612.0 lb",
+            "confidence": "0.96",
+            "evidence": "6,612.0 lb",
             "value": "6,612.0 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Electric kettle 1.7L stainless CN 2,632 pcs 220 6,162.3 lb 6,612.0 lb",
+            "confidence": "0.96",
+            "evidence": "6,162.3 lb",
             "value": "6,162.3 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Electric kettle 1.7L stainless CN 2,632 pcs 220 6,162.3 lb 6,612.0 lb",
+            "confidence": "0.96",
+            "evidence": "2,632 pcs",
             "value": "2,632"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.95",
+            "evidence": "2,632 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "3 Electric kettle 1.7L stainless CN 2,632 pcs 220 6,162.3 lb 6,612.0 lb",
+            "confidence": "0.94",
+            "evidence": "CN 950",
             "value": "CN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Analog quartz wristwatch, steel case CN 950 pcs 19 169.6 lb 241.5 lb",
+            "confidence": "0.96",
+            "evidence": "Analog quartz wristwatch, steel case",
             "value": "Analog quartz wristwatch, steel case"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Analog quartz wristwatch, steel case CN 950 pcs 19 169.6 lb 241.5 lb",
+            "confidence": "0.96",
+            "evidence": "241.5 lb",
             "value": "241.5 lb"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Analog quartz wristwatch, steel case CN 950 pcs 19 169.6 lb 241.5 lb",
+            "confidence": "0.96",
+            "evidence": "169.6 lb",
             "value": "169.6 lb"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Analog quartz wristwatch, steel case CN 950 pcs 19 169.6 lb 241.5 lb",
+            "confidence": "0.96",
+            "evidence": "950 pcs",
             "value": "950"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Red wine, 0.75L bottle CL 8,982 pcs 1497 25,029.6 lb 30,016.2 lb",
+            "confidence": "0.95",
+            "evidence": "950 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 2051 CARTONS 40,239.5 lb 46,921.9 lb",
+        "confidence": "0.93",
+        "evidence": "Total 2051 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Sezgin Manço San.",
         "value": "Sezgin Manço San."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 2051 CARTONS 40,239.5 lb 46,921.9 lb",
+        "confidence": "0.96",
+        "evidence": "46,921.9 lb",
         "value": "46,921.9 lb"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 2051 CARTONS 40,239.5 lb 46,921.9 lb",
+        "confidence": "0.96",
+        "evidence": "40,239.5 lb",
         "value": "40,239.5 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 2051 CARTONS 40,239.5 lb 46,921.9 lb",
+        "confidence": "0.95",
+        "evidence": "Total 2051 CARTONS",
         "value": "2051"
       }
     },
-    "input_tokens": 409,
-    "latency_ms": 0,
-    "output_tokens": 1129
+    "input_tokens": 2430,
+    "latency_ms": 8520,
+    "output_tokens": 1378
   }
 }

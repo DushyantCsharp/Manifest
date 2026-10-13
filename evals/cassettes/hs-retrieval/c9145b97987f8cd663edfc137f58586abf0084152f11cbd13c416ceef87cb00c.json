@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "c9145b97987f8cd663edfc137f58586abf0084152f11cbd13c416ceef87cb00c",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Cordless stick vacuum cleaner, 0.6L dust container, 150W motor origin CN",
   "limit": 20,
   "candidates": [
     {
       "code": "850811",
       "description": "Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "850860",
       "description": "Vacuum cleaners, other than with a self-contained electric motor",
-      "score": "0.016129",
+      "score": "0.031754",
       "ranks": {
-        "lexical": 2
+        "lexical": 4,
+        "vector": 2
       }
     },
     {
       "code": "850819",
       "description": "Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1",
-      "score": "0.015873",
+      "score": "0.031746",
       "ranks": {
-        "lexical": 3
+        "lexical": 3,
+        "vector": 3
       }
     },
     {
       "code": "850980",
       "description": "Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509",
-      "score": "0.015625",
+      "score": "0.030622",
       "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "850870",
-      "description": "Parts of vacuum cleaners",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "850990",
-      "description": "Electro-mechanical domestic appliances; parts for the appliances of heading no. 8509",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
+        "lexical": 2,
+        "vector": 9
       }
     },
     {
       "code": "850940",
       "description": "Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor",
-      "score": "0.014925",
+      "score": "0.027984",
       "ranks": {
-        "lexical": 7
+        "lexical": 10,
+        "vector": 13
       }
     },
     {
-      "code": "851711",
-      "description": "Line telephone sets with cordless handsets",
-      "score": "0.014706",
+      "code": "850870",
+      "description": "Parts of vacuum cleaners",
+      "score": "0.024884",
       "ranks": {
-        "lexical": 8
+        "lexical": 48,
+        "vector": 4
       }
     },
     {
-      "code": "790310",
-      "description": "Zinc dust",
-      "score": "0.014493",
+      "code": "851020",
+      "description": "Hair clippers; with a self-contained electric motor",
+      "score": "0.024016",
       "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "660199",
-      "description": "Umbrellas and sun umbrellas; n.e.c. in heading no. 6601 (including walking stick umbrellas)",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "660110",
-      "description": "Umbrellas and sun umbrellas; garden or similar umbrellas",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
+        "lexical": 50,
+        "vector": 7
       }
     },
     {
       "code": "660200",
       "description": "Walking-sticks, seat-sticks, whips, riding-crops and the like",
-      "score": "0.013889",
+      "score": "0.023769",
       "ranks": {
-        "lexical": 12
+        "lexical": 19,
+        "vector": 30
       }
     },
     {
-      "code": "710510",
-      "description": "Stones; precious and semi-precious, dust and powder, of diamonds",
-      "score": "0.013699",
+      "code": "851010",
+      "description": "Shavers; with self-contained electric motor",
+      "score": "0.023460",
       "ranks": {
-        "lexical": 13
+        "lexical": 49,
+        "vector": 10
       }
     },
     {
-      "code": "560130",
-      "description": "Wadding; textile flock and dust and mill neps",
-      "score": "0.013514",
+      "code": "846721",
+      "description": "Tools; for working in the hand, with self-contained electric motor; drills of all kinds",
+      "score": "0.022150",
       "ranks": {
-        "lexical": 14
+        "lexical": 42,
+        "vector": 21
       }
     },
     {
-      "code": "710590",
-      "description": "Stones; precious and semi-precious, dust and powder, of natural or synthetic precious or semi-precious stones, excluding diamonds",
-      "score": "0.013333",
+      "code": "846729",
+      "description": "Tools; for working in the hand, with self-contained electric motor; other than saws and drills",
+      "score": "0.021520",
       "ranks": {
-        "lexical": 15
+        "lexical": 44,
+        "vector": 24
       }
     },
     {
-      "code": "660191",
-      "description": "Umbrellas and sun umbrellas; having a telescopic shaft, (excluding garden or similar umbrellas)",
-      "score": "0.013158",
+      "code": "846781",
+      "description": "Tools; for working in the hand, chain saws with self-contained non-electric motor",
+      "score": "0.020393",
       "ranks": {
-        "lexical": 16
+        "lexical": 45,
+        "vector": 32
       }
     },
     {
-      "code": "660320",
-      "description": "Umbrella frames; including frames mounted on shafts (sticks)",
-      "score": "0.012987",
+      "code": "846791",
+      "description": "Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor",
+      "score": "0.019762",
       "ranks": {
-        "lexical": 17
+        "lexical": 47,
+        "vector": 36
       }
     },
     {
-      "code": "820900",
-      "description": "Tools; plates, sticks, tips and the like for tools, unmounted, of sintered metal carbides or cermets",
-      "score": "0.012821",
+      "code": "846722",
+      "description": "Tools; for working in the hand, with self-contained electric motor; saws",
+      "score": "0.019709",
       "ranks": {
-        "lexical": 18
+        "lexical": 43,
+        "vector": 40
       }
     },
     {
-      "code": "841451",
-      "description": "Fans; table, floor, wall, window, ceiling or roof fans, with a self-contained electric motor of an output not exceeding 125W",
-      "score": "0.012658",
+      "code": "382731",
+      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing hydrochlorofluorocarbons (HCFCs), perfluorocarbons (PFCs) or hydrofluorocarbons (HFCs) or not, but not containing chlorofluorocarbons (CFCs); containing substances of su",
+      "score": "0.015385",
       "ranks": {
-        "lexical": 19
+        "lexical": 5,
+        "vector": null
       }
     },
     {
-      "code": "411520",
-      "description": "Leather; parings and other waste, of leather or composition leather; not suitable for the manufacture of leather articles; leather dust, powder and flour",
-      "score": "0.012500",
+      "code": "960390",
+      "description": "Brooms, brushes, mops, feather dusters, squeegees, hand operated mechanical floor sweepers; (not motorised), prepared knots and tufts for brooms or brush making n.e.c.",
+      "score": "0.015385",
       "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "382740",
+      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing hydrochlorofluorocarbons (HCFCs), perfluorocarbons (PFCs) or hydrofluorocarbons (HFCs) or not, but not containing chlorofluorocarbons (CFCs); containing bromomethane (me",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "960310",
+      "description": "Brooms and brushes; consisting of twigs or other vegetable materials bound together, with or without handles",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "382751",
+      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing trifluoromethan (HFC-23) or perfluorocarbons (PFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); containing trifluoromethane (HFC-2",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "382761",
+      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); containing 15% or more by mass of 1,1,1-trifluoroethan",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
       }
     }
   ]

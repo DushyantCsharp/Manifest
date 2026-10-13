@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "d1496c84efe08bd303b015b4e28a7f6979eb7ee09994bc381ff9f81121dfcb2f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:19+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh avocados\nCountry of origin: MX\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons > 0804 Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried\n\nChoose the subheading that covers these goods. Options:\n- 080440: Fruit, edible; avocados, fresh or dried\n- 080410: Fruit, edible; dates, fresh or dried\n- 080420: Fruit, edible; figs, fresh or dried\n- 080450: Fruit, edible; guavas, mangoes and mangosteens, fresh or dried\n- 080430: Fruit, edible; pineapples, fresh or dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "2e986c8efcc5f42c9f3e065b877f76ff6c10a82b3d4e589bd4d6330232ed6477",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "080440",
+      "cited": [
+        "080440"
+      ],
+      "confidence": "0.99",
+      "reason": "Fresh avocados are expressly covered by subheading 080440 (avocados, fresh or dried)."
+    },
+    "input_tokens": 996,
+    "latency_ms": 2878,
+    "output_tokens": 68
+  }
+}

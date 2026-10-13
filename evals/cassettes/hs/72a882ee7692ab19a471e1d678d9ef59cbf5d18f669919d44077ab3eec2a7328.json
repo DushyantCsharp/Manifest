@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "72a882ee7692ab19a471e1d678d9ef59cbf5d18f669919d44077ab3eec2a7328",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:14+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Insulated copper power cable, 3 cores 2.5mm2, 450/750V, without connectors\nCountry of origin: TR\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8544 Insulated wire, cable and other electric conductors, connector fitted or not; optical fibre cables of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors\n\nChoose the subheading that covers these goods. Options:\n- 854449: Insulated electric conductors; for a voltage not exceeding 1000 volts, not fitted with connectors\n- 854442: Insulated electric conductors; for a voltage not exceeding 1000 volts, fitted with connectors\n- 854419: Insulated electric conductors; winding wire, (of other than copper)\n- 854411: Insulated electric conductors; winding wire, of copper\n- 854420: Insulated electric conductors; co-axial cable and other co-axial electric conductors\n- 854470: Insulated electric conductors; optical fibre cables\n- 854460: Insulated electric conductors; for a voltage exceeding 1000 volts\n- 854430: Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3baa4a5992bb01b47038fd847c512ca722ec332dd1809f125e2fd9ad1e9aa6c5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "854449",
+      "cited": [
+        "854449"
+      ],
+      "confidence": "0.93",
+      "reason": "A 450/750V insulated power cable without connectors is an insulated electric conductor for a voltage not exceeding 1000 V and not fitted with connectors, so it falls under 854449."
+    },
+    "input_tokens": 1235,
+    "latency_ms": 3046,
+    "output_tokens": 94
+  }
+}

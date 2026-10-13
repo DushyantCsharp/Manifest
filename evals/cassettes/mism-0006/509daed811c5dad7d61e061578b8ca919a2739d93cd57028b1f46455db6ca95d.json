@@ -2,8 +2,8 @@
   "format": 1,
   "key": "509daed811c5dad7d61e061578b8ca919a2739d93cd57028b1f46455db6ca95d",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:58+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,151 +15,151 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Morgan Group",
         "value": "Morgan Group"
       },
       "date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Date 01/09/2026",
         "value": "01/09/2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EXW Incheon",
         "value": "EXW Incheon"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Invoice Ref. INV-2026-03728",
         "value": "INV-2026-03728"
       },
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 15 Ring Road, Busan, South Korea",
-            "value": "South Korea"
+            "confidence": "0.95",
+            "evidence": "2mm KR 10,000",
+            "value": "KR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm KR 10,000 kg 10 10,000.00 kg 10,409.80 kg",
+            "confidence": "0.95",
+            "evidence": "Stainless steel sheet 304, cold-rolled 2mm",
             "value": "Stainless steel sheet 304, cold-rolled 2mm"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm KR 10,000 kg 10 10,000.00 kg 10,409.80 kg",
+            "confidence": "0.95",
+            "evidence": "10,409.80 kg",
             "value": "10,409.80 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm KR 10,000 kg 10 10,000.00 kg 10,409.80 kg",
+            "confidence": "0.95",
+            "evidence": "10,000.00 kg",
             "value": "10,000.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm KR 10,000 kg 10 10,000.00 kg 10,409.80 kg",
+            "confidence": "0.95",
+            "evidence": "KR 10,000 kg",
             "value": "10,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm KR 10,000 kg 10 10,000.00 kg 10,409.80 kg",
+            "confidence": "0.93",
+            "evidence": "KR 10,000 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 15 Ring Road, Busan, South Korea",
-            "value": "South Korea"
+            "confidence": "0.95",
+            "evidence": "granules KR 5,475",
+            "value": "KR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 LDPE film-grade granules KR 5,475 kg 219 5,475.00 kg 6,009.36 kg",
+            "confidence": "0.95",
+            "evidence": "LDPE film-grade granules",
             "value": "LDPE film-grade granules"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 LDPE film-grade granules KR 5,475 kg 219 5,475.00 kg 6,009.36 kg",
+            "confidence": "0.95",
+            "evidence": "6,009.36 kg",
             "value": "6,009.36 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 LDPE film-grade granules KR 5,475 kg 219 5,475.00 kg 6,009.36 kg",
+            "confidence": "0.95",
+            "evidence": "5,475.00 kg",
             "value": "5,475.00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 LDPE film-grade granules KR 5,475 kg 219 5,475.00 kg 6,009.36 kg",
+            "confidence": "0.95",
+            "evidence": "KR 5,475 kg",
             "value": "5,475"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Stainless steel sheet 304, cold-rolled 2mm KR 10,000 kg 10 10,000.00 kg 10,409.80 kg",
+            "confidence": "0.93",
+            "evidence": "KR 5,475 kg",
             "value": "kg"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "No. 15 Ring Road, Busan, South Korea",
-            "value": "South Korea"
+            "confidence": "0.95",
+            "evidence": "20Ah KR 283",
+            "value": "KR"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Lithium-ion battery pack 48V 20Ah KR 283 pcs 71 1,894.69 kg 2,055.19 kg",
+            "confidence": "0.95",
+            "evidence": "Lithium-ion battery pack 48V 20Ah",
             "value": "Lithium-ion battery pack 48V 20Ah"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Lithium-ion battery pack 48V 20Ah KR 283 pcs 71 1,894.69 kg 2,055.19 kg",
+            "confidence": "0.95",
+            "evidence": "2,055.19 kg",
             "value": "2,055.19 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Lithium-ion battery pack 48V 20Ah KR 283 pcs 71 1,894.69 kg 2,055.19 kg",
+            "confidence": "0.95",
+            "evidence": "1,894.69 kg",
             "value": "1,894.69 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Lithium-ion battery pack 48V 20Ah KR 283 pcs 71 1,894.69 kg 2,055.19 kg",
+            "confidence": "0.95",
+            "evidence": "KR 283 pcs",
             "value": "283"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "3 Lithium-ion battery pack 48V 20Ah KR 283 pcs 71 1,894.69 kg 2,055.19 kg",
+            "confidence": "0.95",
+            "evidence": "KR 283 pcs",
             "value": "pcs"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 300 CARTONS 17,369.69 kg 18,474.35 kg",
+        "confidence": "0.9",
+        "evidence": "Total 300 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Busan Samjin Electronics Co., Ltd.",
         "value": "Busan Samjin Electronics Co., Ltd."
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 300 CARTONS 17,369.69 kg 18,474.35 kg",
+        "confidence": "0.95",
+        "evidence": "18,474.35 kg",
         "value": "18,474.35 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 300 CARTONS 17,369.69 kg 18,474.35 kg",
+        "confidence": "0.95",
+        "evidence": "17,369.69 kg",
         "value": "17,369.69 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 300 CARTONS 17,369.69 kg 18,474.35 kg",
+        "confidence": "0.95",
+        "evidence": "Total 300 CARTONS",
         "value": "300"
       }
     },
-    "input_tokens": 396,
-    "latency_ms": 0,
-    "output_tokens": 934
+    "input_tokens": 2380,
+    "latency_ms": 6298,
+    "output_tokens": 1193
   }
 }

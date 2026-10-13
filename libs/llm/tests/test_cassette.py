@@ -201,3 +201,15 @@ def test_replays_count_who_answered(tmp_path: Path) -> None:
     player = CassetteProvider(tmp_path, name="anthropic")
     player.complete_json(request())
     assert player.sources == {"ground truth": 1}
+
+
+def test_prune_deletes_only_what_nothing_asked_for(tmp_path: Path) -> None:
+    recorder = CassetteProvider(tmp_path, mode="record", inner=Live())
+    recorder.complete_json(request("PAGE 1"))
+    recorder.complete_json(request("PAGE 2"))
+    player = CassetteProvider(tmp_path, name="anthropic")
+    player.complete_json(request("PAGE 1"))
+    assert player.prune() == 1
+    assert [p.stem for p in tmp_path.glob("*.json")] == [
+        request_key("anthropic", request("PAGE 1"))
+    ]

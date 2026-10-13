@@ -2,8 +2,8 @@
   "format": 1,
   "key": "04485105e5d38e7080784ebf2d22f10c264a48adf4c7fcc44d57d7e721793ed3",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:58+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,19 +15,19 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Scott and Sons",
         "value": "Scott and Sons"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "All amounts are in US dollars (USD). Please quote invoice 2026/2135 with your payment.",
+        "confidence": "0.9",
+        "evidence": "All amounts are in US dollars (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "FOB Qingdao (Incoterms 2020)",
-        "value": "FOB Qingdao"
+        "value": "FOB Qingdao (Incoterms 2020)"
       },
       "invoice_date": {
         "confidence": "0.97",
@@ -42,60 +42,60 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "confidence": "0.96",
+            "evidence": "5.90 19,293.00",
             "value": "19,293.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "confidence": "0.95",
+            "evidence": "bottle Spain 3,270",
             "value": "Spain"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "confidence": "0.95",
+            "evidence": "Red wine, 0.75L bottle",
             "value": "Red wine, 0.75L bottle"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "confidence": "0.96",
+            "evidence": "3,270 pcs",
             "value": "3,270"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "confidence": "0.95",
+            "evidence": "3,270 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+            "confidence": "0.96",
+            "evidence": "pcs 5.90 19,293.00",
             "value": "5.90"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Terms: T/T in advance",
         "value": "T/T in advance"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "G Guangzhou Tianyi Trading Co., Ltd. I N VO I C E",
+        "confidence": "0.9",
+        "evidence": "Guangzhou Tianyi Trading Co., Ltd.",
         "value": "Guangzhou Tianyi Trading Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "01 Red wine, 0.75L bottle Spain 3,270 pcs 5.90 19,293.00",
+        "confidence": "0.96",
+        "evidence": "Amount due 19,293.00",
         "value": "19,293.00"
       }
     },
-    "input_tokens": 372,
-    "latency_ms": 0,
-    "output_tokens": 451
+    "input_tokens": 2167,
+    "latency_ms": 4235,
+    "output_tokens": 658
   }
 }

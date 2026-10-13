@@ -2,8 +2,8 @@
   "format": 1,
   "key": "474166ca25248738f57415f3a40906a1f63257a07a8e1db3db00ff9dceff48e3",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:12+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:53+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
-        "evidence": "; COSUQG1244862",
+        "confidence": "0.6",
+        "evidence": "COSUQG1244862",
         "value": "COSUQG1244862"
       },
       "buyer_name": {
-        "confidence": "0.87",
-        "evidence": "Segébahn Hein AG & Co. KGaA : P Kuhl AG & Co. KG i",
+        "confidence": "0.6",
+        "evidence": "Segébahn Hein AG & Co. KGaA",
         "value": "Segébahn Hein AG & Co. KGaA"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "COSCO",
+        "confidence": "0.85",
+        "evidence": "Signed as Carrier: COSCO",
         "value": "COSCO"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "COSU2178883 | SEGEBAHN./ 396 =: | SAID TO CONTAIN; Léather handbag with 4 935,14 kg",
+        "confidence": "0.88",
+        "evidence": "COSU2178883",
         "value": "COSU2178883"
       },
       "freight_terms": {
-        "confidence": "0.97",
-        "evidence": "COSCO KENSINGTON / 107N FREIGHT PREPAID",
+        "confidence": "0.93",
+        "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": "Segébahn Hein AG & Co. KGaA : P Kuhl AG & Co. KG i",
-        "value": "Kuhl AG & Co. KG"
+        "confidence": "0.6",
+        "evidence": "P Kuhl AG & Co. KG",
+        "value": "P Kuhl AG & Co. KG"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "‘SEAL 3378026 CARTONS",
+        "confidence": "0.85",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "La Spezia Hamburg .",
+        "confidence": "0.9",
+        "evidence": "La Spezia Hamburg",
         "value": "Hamburg"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "La Spezia Hamburg .",
+        "confidence": "0.9",
+        "evidence": "La Spezia Hamburg",
         "value": "La Spezia"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "‘SEAL 3378026 CARTONS",
+        "confidence": "0.85",
+        "evidence": "‘SEAL 3378026",
         "value": "3378026"
       },
       "seller_name": {
-        "confidence": "0.86",
-        "evidence": "Ceci, ‘Mantegazza e Donati s.r.1. ;",
+        "confidence": "0.6",
+        "evidence": "Ceci, ‘Mantegazza e Donati s.r.1.",
         "value": "Ceci, ‘Mantegazza e Donati s.r.1."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "2026-02-28",
+        "confidence": "0.93",
+        "evidence": "SHIPPED ON BOARD\n2026-02-28",
         "value": "2026-02-28"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "COSU2178883 | SEGEBAHN./ 396 =: | SAID TO CONTAIN; Léather handbag with 4 935,14 kg",
-        "value": "4 935,14 kg"
+        "confidence": "0.5",
+        "evidence": "4 935,14 kg",
+        "value": "935,14 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "COSU2178883 | SEGEBAHN./ 396 =: | SAID TO CONTAIN; Léather handbag with 4 935,14 kg",
+        "confidence": "0.6",
+        "evidence": "SEGEBAHN./ 396",
         "value": "396"
       },
       "vessel": {
-        "confidence": "0.97",
-        "evidence": "COSCO KENSINGTON / 107N FREIGHT PREPAID",
+        "confidence": "0.92",
+        "evidence": "COSCO KENSINGTON / 107N",
         "value": "COSCO KENSINGTON"
       },
       "voyage": {
-        "confidence": "0.97",
-        "evidence": "COSCO KENSINGTON / 107N FREIGHT PREPAID",
+        "confidence": "0.9",
+        "evidence": "COSCO KENSINGTON / 107N",
         "value": "107N"
       }
     },
-    "input_tokens": 509,
-    "latency_ms": 0,
-    "output_tokens": 490
+    "input_tokens": 2397,
+    "latency_ms": 5074,
+    "output_tokens": 755
   }
 }

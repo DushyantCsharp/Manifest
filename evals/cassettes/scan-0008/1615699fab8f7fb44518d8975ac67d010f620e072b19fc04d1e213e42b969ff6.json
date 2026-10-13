@@ -2,8 +2,8 @@
   "format": 1,
   "key": "1615699fab8f7fb44518d8975ac67d010f620e072b19fc04d1e213e42b969ff6",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:06+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "HLCUVL7972964",
         "value": "HLCUVL7972964"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.4",
         "evidence": "Winter PLC",
         "value": "Winter PLC"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "| HAPAG-LLOYD",
+        "confidence": "0.85",
+        "evidence": "Signed as Carrier HAPAG-LLOYD.",
         "value": "HAPAG-LLOYD"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "HLCU6052036 | WINTER /. . 1386 . |SAID°T0, CONTAIN: ‘Deep groove ball bearing 20,269.03 kg",
+        "confidence": "0.85",
+        "evidence": "HLCU6052036",
         "value": "HLCU6052036"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
-        "evidence": ". reat Soren : Fowler, Gregory and Begum.",
-        "value": "Fowler, Gregory and Begum"
+        "confidence": "0.6",
+        "evidence": "Fowler, Gregory and Begum.",
+        "value": "Fowler, Gregory and Begum."
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "SEAL _-. EX202683-2035 | CARTONS 6205-2RS; City bicycle 28in, 7-speed; ‘ tee :",
+        "confidence": "0.85",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "Shanghai Cape Town",
         "value": "Cape Town"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "| Shanghai, 18-SEP-2026",
+        "confidence": "0.85",
+        "evidence": "Shanghai Cape Town",
         "value": "Shanghai"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "7433542 a Upholstered office chair, steel base; Stainless",
-        "value": "7433542"
+        "confidence": "0.45",
+        "evidence": "EX202683-2035",
+        "value": "EX202683-2035"
       },
       "seller_name": {
-        "confidence": "0.89",
+        "confidence": "0.8",
         "evidence": "Xiamen’ Ruifeng Import & Export Co., Ltd.",
         "value": "Xiamen’ Ruifeng Import & Export Co., Ltd."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "| Shanghai, 18-SEP-2026",
+        "confidence": "0.8",
+        "evidence": "18-SEP-2026",
         "value": "18-SEP-2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "HLCU6052036 | WINTER /. . 1386 . |SAID°T0, CONTAIN: ‘Deep groove ball bearing 20,269.03 kg",
+        "confidence": "0.88",
+        "evidence": "20,269.03 kg",
         "value": "20,269.03 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "HLCU6052036 | WINTER /. . 1386 . |SAID°T0, CONTAIN: ‘Deep groove ball bearing 20,269.03 kg",
+        "confidence": "0.8",
+        "evidence": "1386",
         "value": "1386"
       },
       "vessel": {
-        "confidence": "0.97",
-        "evidence": "| HAPAG-LLOYD TRITON / 590E",
+        "confidence": "0.85",
+        "evidence": "HAPAG-LLOYD TRITON / 590E",
         "value": "HAPAG-LLOYD TRITON"
       },
       "voyage": {
-        "confidence": "0.97",
-        "evidence": "| HAPAG-LLOYD TRITON / 590E",
+        "confidence": "0.85",
+        "evidence": "HAPAG-LLOYD TRITON / 590E",
         "value": "590E"
       }
     },
-    "input_tokens": 586,
-    "latency_ms": 0,
-    "output_tokens": 503
+    "input_tokens": 2538,
+    "latency_ms": 5133,
+    "output_tokens": 749
   }
 }

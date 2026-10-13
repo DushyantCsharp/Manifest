@@ -2,8 +2,8 @@
   "format": 1,
   "key": "efa3bbbe65d401d40e6b59efae6b89cab01c522ec97e1e5ef8414145c66b2c26",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:18+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,309 +15,309 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Williamson PLC",
         "value": "Williamson PLC"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.9",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "CPT Los Angeles",
         "value": "CPT Los Angeles"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "11-JUN-2026",
         "value": "11-JUN-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EX202665-8629",
         "value": "EX202665-8629"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "13.79 41,383.79",
             "value": "41,383.79"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "6204.62 BANGLADESH",
             "value": "BANGLADESH"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "WOMEN'S COTTON DENIM TROUSERS",
+            "confidence": "0.85",
+            "evidence": "WOMEN'S COTTON DENIM\nTROUSERS",
             "value": "WOMEN'S COTTON DENIM TROUSERS"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "3,001 PCS",
             "value": "3,001"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "3,001 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "PCS 13.79",
             "value": "13.79"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "RED WINE, 0.75L BOTTLE 2204.21 FRANCE 3,072 PCS 8.80 27,033.60",
+            "confidence": "0.93",
+            "evidence": "8.80 27,033.60",
             "value": "27,033.60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "RED WINE, 0.75L BOTTLE 2204.21 FRANCE 3,072 PCS 8.80 27,033.60",
+            "confidence": "0.93",
+            "evidence": "2204.21 FRANCE",
             "value": "FRANCE"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "RED WINE, 0.75L BOTTLE 2204.21 FRANCE 3,072 PCS 8.80 27,033.60",
+            "confidence": "0.93",
+            "evidence": "RED WINE, 0.75L BOTTLE",
             "value": "RED WINE, 0.75L BOTTLE"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "RED WINE, 0.75L BOTTLE 2204.21 FRANCE 3,072 PCS 8.80 27,033.60",
+            "confidence": "0.93",
+            "evidence": "3,072 PCS",
             "value": "3,072"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "3,072 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "RED WINE, 0.75L BOTTLE 2204.21 FRANCE 3,072 PCS 8.80 27,033.60",
+            "confidence": "0.93",
+            "evidence": "PCS 8.80",
             "value": "8.80"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4202.21 CHINA 1,930 PCS 22.34 43,116.20",
+            "confidence": "0.93",
+            "evidence": "22.34 43,116.20",
             "value": "43,116.20"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4202.21 CHINA 1,930 PCS 22.34 43,116.20",
+            "confidence": "0.93",
+            "evidence": "4202.21 CHINA",
             "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "LEATHER HANDBAG WITH SHOULDER STRAP",
+            "confidence": "0.85",
+            "evidence": "LEATHER HANDBAG WITH\nSHOULDER STRAP",
             "value": "LEATHER HANDBAG WITH SHOULDER STRAP"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4202.21 CHINA 1,930 PCS 22.34 43,116.20",
+            "confidence": "0.93",
+            "evidence": "1,930 PCS",
             "value": "1,930"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "1,930 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4202.21 CHINA 1,930 PCS 22.34 43,116.20",
+            "confidence": "0.93",
+            "evidence": "PCS 22.34",
             "value": "22.34"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 18,050 PCS 0.5592 10,093.56",
+            "confidence": "0.93",
+            "evidence": "0.5592 10,093.56",
             "value": "10,093.56"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "4202.21 CHINA 1,930 PCS 22.34 43,116.20",
+            "confidence": "0.93",
+            "evidence": "4819.10 CHINA",
             "value": "CHINA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "CORRUGATED SHIPPING CARTON, 3-PLY",
+            "confidence": "0.85",
+            "evidence": "CORRUGATED SHIPPING\nCARTON, 3-PLY",
             "value": "CORRUGATED SHIPPING CARTON, 3-PLY"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 18,050 PCS 0.5592 10,093.56",
+            "confidence": "0.93",
+            "evidence": "18,050 PCS",
             "value": "18,050"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "18,050 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4819.10 CHINA 18,050 PCS 0.5592 10,093.56",
+            "confidence": "0.93",
+            "evidence": "PCS 0.5592",
             "value": "0.5592"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "8215.20 INDIA 2,640 SETS 14.40 38,016.00",
+            "confidence": "0.93",
+            "evidence": "14.40 38,016.00",
             "value": "38,016.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "8215.20 INDIA 2,640 SETS 14.40 38,016.00",
+            "confidence": "0.93",
+            "evidence": "8215.20 INDIA",
             "value": "INDIA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "STAINLESS CUTLERY SET, 24 PIECES",
+            "confidence": "0.85",
+            "evidence": "STAINLESS CUTLERY SET,\n24 PIECES",
             "value": "STAINLESS CUTLERY SET, 24 PIECES"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "8215.20 INDIA 2,640 SETS 14.40 38,016.00",
+            "confidence": "0.93",
+            "evidence": "2,640 SETS",
             "value": "2,640"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "8215.20 INDIA 2,640 SETS 14.40 38,016.00",
+            "confidence": "0.93",
+            "evidence": "2,640 SETS",
             "value": "SETS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "8215.20 INDIA 2,640 SETS 14.40 38,016.00",
+            "confidence": "0.93",
+            "evidence": "SETS 14.40",
             "value": "14.40"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "0306.17 INDIA 2,140 KG 11.38 24,353.20",
+            "confidence": "0.93",
+            "evidence": "11.38 24,353.20",
             "value": "24,353.20"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "8215.20 INDIA 2,640 SETS 14.40 38,016.00",
+            "confidence": "0.93",
+            "evidence": "0306.17 INDIA",
             "value": "INDIA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "FROZEN VANNAMEI SHRIMP, PEELED",
+            "confidence": "0.85",
+            "evidence": "FROZEN VANNAMEI\nSHRIMP, PEELED",
             "value": "FROZEN VANNAMEI SHRIMP, PEELED"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "0306.17 INDIA 2,140 KG 11.38 24,353.20",
+            "confidence": "0.93",
+            "evidence": "2,140 KG",
             "value": "2,140"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "0306.17 INDIA 2,140 KG 11.38 24,353.20",
+            "confidence": "0.93",
+            "evidence": "2,140 KG",
             "value": "KG"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "0306.17 INDIA 2,140 KG 11.38 24,353.20",
+            "confidence": "0.93",
+            "evidence": "KG 11.38",
             "value": "11.38"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 8,600 PCS 2.26 19,436.00",
+            "confidence": "0.93",
+            "evidence": "2.26 19,436.00",
             "value": "19,436.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 8,600 PCS 2.26 19,436.00",
+            "confidence": "0.93",
+            "evidence": "9004.10 ITALY",
             "value": "ITALY"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 8,600 PCS 2.26 19,436.00",
+            "confidence": "0.93",
+            "evidence": "POLARIZED SUNGLASSES",
             "value": "POLARIZED SUNGLASSES"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 8,600 PCS 2.26 19,436.00",
+            "confidence": "0.93",
+            "evidence": "8,600 PCS",
             "value": "8,600"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6204.62 BANGLADESH 3,001 PCS 13.79 41,383.79",
+            "confidence": "0.93",
+            "evidence": "8,600 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "POLARIZED SUNGLASSES 9004.10 ITALY 8,600 PCS 2.26 19,436.00",
+            "confidence": "0.93",
+            "evidence": "PCS 2.26",
             "value": "2.26"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Cash against documents",
         "value": "Cash against documents"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Busan Daesung Import & Export Co., Ltd.",
         "value": "Busan Daesung Import & Export Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "TOTAL CPT LOS ANGELES USD 203,432.35",
         "value": "203,432.35"
       }
     },
-    "input_tokens": 567,
-    "latency_ms": 0,
-    "output_tokens": 1600
+    "input_tokens": 2740,
+    "latency_ms": 10980,
+    "output_tokens": 2315
   }
 }

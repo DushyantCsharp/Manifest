@@ -2,8 +2,8 @@
   "format": 1,
   "key": "83dabc46cad2e86249b8392c3328d43d1e27dd28c5b9dce10a214eb76b5acb78",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:59+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,8 +15,8 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Couturier",
+        "confidence": "0.85",
+        "evidence": "Couturier\n72, chemin Adélaïde Laine",
         "value": "Couturier"
       },
       "currency": {
@@ -25,7 +25,7 @@
         "value": "EUR"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.85",
         "evidence": "FCA Prato",
         "value": "FCA Prato"
       },
@@ -42,235 +42,235 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "78,02 142.776,60",
             "value": "142.776,60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "strap IT 1.830",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
             "value": "Leather handbag with shoulder strap"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "IT 1.830 pcs",
             "value": "1.830"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "1.830 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "pcs 78,02",
             "value": "78,02"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 70,77 20.452,53",
+            "confidence": "0.96",
+            "evidence": "70,77 20.452,53",
             "value": "20.452,53"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "1.1kW IT 289",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 70,77 20.452,53",
             "value": "Centrifugal water pump 1.1kW"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 70,77 20.452,53",
+            "confidence": "0.96",
+            "evidence": "IT 289 pcs",
             "value": "289"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "289 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "2 Centrifugal water pump 1.1kW IT 289 pcs 70,77 20.452,53",
+            "confidence": "0.96",
+            "evidence": "pcs 70,77",
             "value": "70,77"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "3 Polarized sunglasses IT 10.000 pcs 2,36 23.600,00",
+            "confidence": "0.96",
+            "evidence": "2,36 23.600,00",
             "value": "23.600,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "sunglasses IT 10.000",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "3 Polarized sunglasses IT 10.000 pcs 2,36 23.600,00",
             "value": "Polarized sunglasses"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Polarized sunglasses IT 10.000 pcs 2,36 23.600,00",
+            "confidence": "0.96",
+            "evidence": "IT 10.000 pcs",
             "value": "10.000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "10.000 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "3 Polarized sunglasses IT 10.000 pcs 2,36 23.600,00",
+            "confidence": "0.96",
+            "evidence": "pcs 2,36",
             "value": "2,36"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 9,05 47.892,60",
+            "confidence": "0.96",
+            "evidence": "9,05 47.892,60",
             "value": "47.892,60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "bottle IT 5.292",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 9,05 47.892,60",
             "value": "Extra virgin olive oil, 1L bottle"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 9,05 47.892,60",
+            "confidence": "0.96",
+            "evidence": "IT 5.292 pcs",
             "value": "5.292"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "5.292 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "4 Extra virgin olive oil, 1L bottle IT 5.292 pcs 9,05 47.892,60",
+            "confidence": "0.96",
+            "evidence": "pcs 9,05",
             "value": "9,05"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 7,41 40.732,77",
+            "confidence": "0.96",
+            "evidence": "7,41 40.732,77",
             "value": "40.732,77"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "bottle IT 5.497",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 7,41 40.732,77",
             "value": "Red wine, 0.75L bottle"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 7,41 40.732,77",
+            "confidence": "0.96",
+            "evidence": "IT 5.497 pcs",
             "value": "5.497"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Leather handbag with shoulder strap IT 1.830 pcs 78,02 142.776,60",
+            "confidence": "0.96",
+            "evidence": "5.497 pcs",
             "value": "pcs"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "5 Red wine, 0.75L bottle IT 5.497 pcs 7,41 40.732,77",
+            "confidence": "0.96",
+            "evidence": "pcs 7,41",
             "value": "7,41"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 13,45 35.239,00",
+            "confidence": "0.96",
+            "evidence": "13,45 35.239,00",
             "value": "35.239,00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy",
-            "value": "Italy"
+            "confidence": "0.95",
+            "evidence": "whole IT 2.620",
+            "value": "IT"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 13,45 35.239,00",
             "value": "Roasted coffee beans, whole"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 13,45 35.239,00",
+            "confidence": "0.96",
+            "evidence": "IT 2.620 kg",
             "value": "2.620"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 13,45 35.239,00",
+            "confidence": "0.96",
+            "evidence": "2.620 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "6 Roasted coffee beans, whole IT 2.620 kg 13,45 35.239,00",
+            "confidence": "0.96",
+            "evidence": "kg 13,45",
             "value": "13,45"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "T/T 30 days after B/L date",
+        "confidence": "0.8",
+        "evidence": "Payment T/T 30 days after B/L\ndate",
         "value": "T/T 30 days after B/L date"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8 · 23819 Milano · Italy",
+        "confidence": "0.9",
+        "evidence": "Luria-Tropea SPA · Stretto Bocelli, 49 Appartamento 8",
         "value": "Luria-Tropea SPA"
       },
       "total_amount": {
@@ -279,8 +279,8 @@
         "value": "310.693,50"
       }
     },
-    "input_tokens": 488,
-    "latency_ms": 0,
-    "output_tokens": 1590
+    "input_tokens": 2450,
+    "latency_ms": 10903,
+    "output_tokens": 2106
   }
 }

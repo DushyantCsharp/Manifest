@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "17fa678ce9fb3749cd2f8ef59b5730d148d915ab9c5ff34f6773d71f8aece754",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:47+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Black tea in bulk sacks of 50kg\nCountry of origin: KE\n\nChoose the chapter that covers these goods. Options:\n- 09: Coffee, tea, mate and spices\n    contains 090240: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg\n    contains 090230: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090832: Spices; cardamoms, crushed or ground\n    contains 090822: Spices; mace, crushed or ground\n    contains 090300: Mate\n    contains 090821: Spices; mace, neither crushed nor ground\n    contains 090831: Spices; cardamoms, neither crushed nor ground\n    contains 090812: Spices; nutmeg, crushed or ground\n- 63: Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n    contains 630510: Sacks and bags; of a kind used for the packing of goods, of jute or of other textile bast fibres of heading no. 5303\n    contains 630520: Sacks and bags; of a kind used for the packing of goods, of cotton\n    contains 630532: Sacks and bags; of a kind used for the packing of goods, of man-made textile materials, flexible intermediate bulk containers\n    contains 630590: Sacks and bags; of a kind used for the packing of goods, of textile materials (other than jute, cotton or man-made textile materials)\n    contains 630539: Sacks and bags; of a kind used for the packing of goods, of man-made textile materials, not of polyethylene or polypropylene strip or the like, not flexible intermediate bulk containers\n    contains 630533: Sacks and bags; of a kind used for the packing of goods, of man-made textile materials, of polyethylene or polypropylene strip or the like, not flexible intermediate bulk containers\n- 21: Miscellaneous edible preparations\n    contains 210120: Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 38: Chemical products n.e.c.\n    contains 380290: Chemical products; activated natural mineral products, animal black, including spent animal black\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "56a6305016c8d32018a7fa6a87c0479c230a1921ce45681230e38d61fcf90311",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "09",
+      "cited": [
+        "090240"
+      ],
+      "confidence": "0.98",
+      "reason": "Black tea in immediate packings exceeding 3kg (50kg sacks) falls in heading 0902, subheading 090240, within chapter 09."
+    },
+    "input_tokens": 1805,
+    "latency_ms": 2984,
+    "output_tokens": 82
+  }
+}

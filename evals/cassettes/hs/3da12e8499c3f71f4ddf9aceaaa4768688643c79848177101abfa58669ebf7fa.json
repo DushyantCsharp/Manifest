@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "3da12e8499c3f71f4ddf9aceaaa4768688643c79848177101abfa58669ebf7fa",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:51:13+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Nitrile examination gloves, powder free, medical\nCountry of origin: MY\n\nChosen so far: 40 Rubber and articles thereof > 4015 Articles of apparel and clothing accessories (including gloves, mittens and mitts), for all purposes, of vulcanised rubber other than hard rubber\n\nChoose the subheading that covers these goods. Options:\n- 401512: Rubber; vulcanised (other than hard rubber), gloves, of a kind used for medical, surgical, dental or veterinary purposes\n- 401519: Rubber; vulcanised (other than hard rubber), gloves, mittens and mitts other than surgical gloves\n- 401590: Rubber; vulcanised (other than hard rubber), articles of apparel and clothing accessories (other than gloves, mittens and mitts)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1b22a8286096f5fa3d6cd8d08afeec067fcee0a622aa355f2ea7fae71c3ce2f9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "401512",
+      "cited": [
+        "401512"
+      ],
+      "confidence": "0.95",
+      "reason": "Medical examination gloves of nitrile rubber are gloves of a kind used for medical purposes, which subheading 401512 covers directly."
+    },
+    "input_tokens": 1012,
+    "latency_ms": 3129,
+    "output_tokens": 79
+  }
+}

@@ -2,8 +2,8 @@
   "format": 1,
   "key": "59afeebe3a4940ece1b35da8015948ff42215516ac6ddf10a18c384f99a821c6",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:35+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,87 +16,87 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "EGLVLL9935232",
+        "evidence": "B/L NO.\nEGLVLL9935232",
         "value": "EGLVLL9935232"
       },
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "Nguyen-Robinson",
+        "evidence": "CONSIGNEE\nNguyen-Robinson",
         "value": "Nguyen-Robinson"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "EGLU7697599",
         "value": "EGLU7697599"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
         "confidence": "0.97",
-        "evidence": "Hurst PLC",
+        "evidence": "NOTIFY PARTY\nHurst PLC",
         "value": "Hurst PLC"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.96",
+        "evidence": "189\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "119 Donaldson Estate, 1764 Sydney, Australia",
+        "evidence": "PORT OF DISCHARGE\nSydney",
         "value": "Sydney"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Mundra",
+        "evidence": "PORT OF LOADING\nMundra",
         "value": "Mundra"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "8808338",
+        "confidence": "0.95",
+        "evidence": "SEAL\n8808338",
         "value": "8808338"
       },
       "seller_name": {
         "confidence": "0.97",
-        "evidence": "Kaul-Kala",
+        "evidence": "SHIPPER\nKaul-Kala",
         "value": "Kaul-Kala"
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "02-AUG-2026",
+        "evidence": "SHIPPED ON BOARD\n02-AUG-2026",
         "value": "02-AUG-2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "16,093.37 kg",
         "value": "16,093.37 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "189",
+        "confidence": "0.95",
+        "evidence": "189\nCARTONS",
         "value": "189"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN TRITON / 658W",
         "value": "EVERGREEN TRITON"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EVERGREEN TRITON / 658W",
         "value": "658W"
       }
     },
-    "input_tokens": 517,
-    "latency_ms": 0,
-    "output_tokens": 368
+    "input_tokens": 2363,
+    "latency_ms": 4757,
+    "output_tokens": 751
   }
 }

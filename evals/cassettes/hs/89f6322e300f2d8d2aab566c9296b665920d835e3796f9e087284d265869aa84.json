@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "89f6322e300f2d8d2aab566c9296b665920d835e3796f9e087284d265869aa84",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:12+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Smartphone 6.1in, 128GB, dual SIM, unlocked\nCountry of origin: VN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8517: Telephone sets, including smartphones and other telephones for cellular/wireless networks; other apparatus for the transmission or reception of voice, images or other data (including wired/wireless networks), excluding items of 8443, 8525, 8527, or 8528\n    contains 851713: Telephone sets; smartphones for cellular or other wireless networks\n    contains 851714: Telephone sets; other than smartphones, for cellular or other wireless networks\n    contains 851761: Base stations\n    contains 851718: Telephone sets n.e.c. in item no. 8517.1\n    contains 851711: Line telephone sets with cordless handsets\n    contains 851769: Communication apparatus (excluding telephone sets or base stations); machines for the transmission or reception of voice, images or other data (including wired/wireless networks), n.e.c. in item no. 8517.6\n    contains 851771: Communication apparatus; parts, aerials and aerial reflectors of all kinds, part suitable for use therewith\n    contains 851762: Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus\n    contains 851779: Communication apparatus; parts, other than aerials and aerial reflectors of all kinds\n- 8524: Flat panel display modules, whether or not incorporating touch-sensitive screens\n    contains 852412: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), without drivers or control circuits\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "801fc2b231a40782d39c693055d7e384d634a3a97e64071c2b934735adcdb78a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8517",
+      "cited": [
+        "8517",
+        "851713"
+      ],
+      "confidence": "0.98",
+      "reason": "A smartphone for cellular networks is expressly named in heading 8517 (subheading 851713), whereas 8524 covers only flat panel display modules, not complete phones."
+    },
+    "input_tokens": 1380,
+    "latency_ms": 3202,
+    "output_tokens": 92
+  }
+}

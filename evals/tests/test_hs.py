@@ -37,16 +37,20 @@ def test_the_stand_in_picks_the_label_when_offered_and_guesses_when_not() -> Non
 def test_the_committed_recordings_replay() -> None:
     run = hs.evaluate()
     assert len(run.outcomes) == 120
-    assert set(run.retrieval) == {"offline-lexical"}
+    assert set(run.retrieval) == {"hybrid"}
+    assert set(run.sources) == {"anthropic"}, "a stand-in answer was committed"
     summary = hs.summary(run)
-    assert summary["accuracy_6"] == summary["recall_at_20"]  # right whenever it was retrieved
+    assert summary["accuracy_6"] <= summary["recall_at_20"]  # it only chooses retrieved codes
     assert summary["accuracy_2"] >= summary["accuracy_4"] >= summary["accuracy_6"]
     assert {o.split for o in run.outcomes} == {"calibration", "test"}
 
 
-def test_seeding_reproduces_the_committed_recordings(tmp_path: Path) -> None:
+def test_the_stand_ins_are_right_exactly_when_the_label_was_retrieved(tmp_path: Path) -> None:
     hs.seed(tmp_path)
-    for folder in ("hs", "hs-retrieval"):
-        committed = {p.name for p in (hs.CASSETTES / folder).glob("*.json")}
-        seeded = {p.name for p in (tmp_path / folder).glob("*.json")}
-        assert seeded == committed, folder
+    run = hs.evaluate(hs.cassettes(root=tmp_path), hs.retrievals(root=tmp_path))
+    assert set(run.retrieval) == {"offline-lexical"}
+    summary = hs.summary(run)
+    assert summary["accuracy_6"] == summary["recall_at_20"]
+    # Retrieval is keyed by the query alone, so stand-ins cover the recorded descriptions.
+    committed = {p.name for p in (hs.CASSETTES / "hs-retrieval").glob("*.json")}
+    assert {p.name for p in (tmp_path / "hs-retrieval").glob("*.json")} == committed

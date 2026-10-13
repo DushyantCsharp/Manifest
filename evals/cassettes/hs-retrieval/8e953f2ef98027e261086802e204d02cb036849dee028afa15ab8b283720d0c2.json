@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "8e953f2ef98027e261086802e204d02cb036849dee028afa15ab8b283720d0c2",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Stainless steel saucepan 20cm with lid origin IN",
   "limit": 20,
   "candidates": [
     {
-      "code": "722300",
-      "description": "Steel, stainless; wire",
-      "score": "0.016393",
+      "code": "732393",
+      "description": "Steel, stainless; table, kitchen and other household articles and parts thereof",
+      "score": "0.027820",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "720421",
-      "description": "Ferrous waste and scrap; of stainless steel",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
-      }
-    },
-    {
-      "code": "722240",
-      "description": "Steel, stainless; angles, shapes and sections",
-      "score": "0.015873",
-      "ranks": {
-        "lexical": 3
-      }
-    },
-    {
-      "code": "721810",
-      "description": "Steel, stainless; ingots and other primary forms",
-      "score": "0.015625",
-      "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "722230",
-      "description": "Steel, stainless; bars and rods, n.e.c. in heading no. 7222",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
+        "lexical": 22,
+        "vector": 4
       }
     },
     {
       "code": "732410",
       "description": "Steel; sinks and wash basins, of stainless steel",
-      "score": "0.015152",
+      "score": "0.026838",
       "ranks": {
-        "lexical": 6
+        "lexical": 21,
+        "vector": 9
       }
     },
     {
-      "code": "720429",
-      "description": "Ferrous waste and scrap; of alloy steel (excluding stainless)",
-      "score": "0.014925",
+      "code": "732399",
+      "description": "Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323",
+      "score": "0.023676",
       "ranks": {
-        "lexical": 7
-      }
-    },
-    {
-      "code": "730721",
-      "description": "Steel, stainless; tube or pipe fittings, flanges, of stainless steel",
-      "score": "0.014706",
-      "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "722220",
-      "description": "Steel, stainless; bars and rods, cold-formed or cold-finished",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
-      }
-    },
-    {
-      "code": "722100",
-      "description": "Steel, stainless; bars and rods, hot-rolled, in irregularly wound coils",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "730723",
-      "description": "Steel, stainless; tube or pipe fittings, butt welding fittings",
-      "score": "0.014085",
-      "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "721990",
-      "description": "Steel, stainless; flat-rolled, width 600mm or more, n.e.c. in heading no. 7219",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
+        "lexical": 23,
+        "vector": 26
       }
     },
     {
       "code": "722020",
       "description": "Steel, stainless; flat-rolled, width less than 600mm, cold-rolled",
-      "score": "0.013699",
+      "score": "0.022048",
       "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "730729",
-      "description": "Steel, stainless; tube or pipe fittings, n.e.c. in item no. 7307.2",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "730791",
-      "description": "Iron or steel; tube or pipe fittings, flanges, other than stainless steel",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "721899",
-      "description": "Steel, stainless; semi-finished products, other than of rectangular cross-section",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "730722",
-      "description": "Steel, stainless; tube or pipe fittings, threaded elbows, bends and sleeves",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
+        "lexical": 40,
+        "vector": 23
       }
     },
     {
       "code": "722090",
       "description": "Steel, stainless; flat-rolled, width less than 600mm, n.e.c. in heading no 7220",
-      "score": "0.012821",
+      "score": "0.020539",
       "ranks": {
-        "lexical": 18
+        "lexical": 41,
+        "vector": 34
       }
     },
     {
-      "code": "730793",
-      "description": "Iron or steel; tube or pipe fittings, butt welding fittings, other than stainless steel",
-      "score": "0.012658",
+      "code": "730721",
+      "description": "Steel, stainless; tube or pipe fittings, flanges, of stainless steel",
+      "score": "0.016393",
       "ranks": {
-        "lexical": 19
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "821520",
+      "description": "Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter knives, sugar tongs and similar), not plated with precious metal",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "731412",
+      "description": "Iron or steel; woven cloth, endless bands for machinery, of stainless steel",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "761520",
+      "description": "Aluminium; sanitary ware and parts thereof",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "731414",
+      "description": "Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "732392",
+      "description": "Cast iron; table, kitchen and other household articles and parts thereof, of cast iron, enamelled",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
       }
     },
     {
       "code": "731419",
       "description": "Iron or steel; woven cloth, other than of stainless steel",
-      "score": "0.012500",
+      "score": "0.015625",
       "ranks": {
-        "lexical": 20
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "721810",
+      "description": "Steel, stainless; ingots and other primary forms",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "731021",
+      "description": "Cans; which are to be closed by soldering or crimping, for any material (excluding compressed or liquefied gas), less than 50l capacity, of iron or steel",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "721891",
+      "description": "Steel, stainless; semi-finished products, of rectangular (other than square) cross-section",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "821599",
+      "description": "Cutlery; other than plated with precious metal",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "721899",
+      "description": "Steel, stainless; semi-finished products, other than of rectangular cross-section",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "732182",
+      "description": "Domestic appliances; non-electric, (other than cookers and plate warmers), for liquid fuel, of iron or steel",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "730411",
+      "description": "Iron or steel (excluding cast iron); seamless, line pipe of a kind used for oil or gas pipelines, of stainless steel",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "732112",
+      "description": "Cooking appliances and plate warmers; for liquid fuel, of iron or steel",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
       }
     }
   ]

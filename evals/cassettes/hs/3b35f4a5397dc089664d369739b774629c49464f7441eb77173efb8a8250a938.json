@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "3b35f4a5397dc089664d369739b774629c49464f7441eb77173efb8a8250a938",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:45+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cordless electric drill 18V with self-contained motor\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 846721: Tools; for working in the hand, with self-contained electric motor; drills of all kinds\n    contains 846722: Tools; for working in the hand, with self-contained electric motor; saws\n    contains 846729: Tools; for working in the hand, with self-contained electric motor; other than saws and drills\n    contains 846781: Tools; for working in the hand, chain saws with self-contained non-electric motor\n    contains 846791: Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor\n    contains 846789: Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)\n    contains 845921: Machine-tools; for drilling by removing metal, numerically controlled\n    contains 845929: Machine-tools; for drilling by removing metal, other than numerically controlled\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 851020: Hair clippers; with a self-contained electric motor\n    contains 851010: Shavers; with self-contained electric motor\n    contains 851090: Shavers and hair clippers; parts of those with self-contained electric motor\n    contains 851030: Hair-removing appliances; with self-contained electric motor\n    contains 850980: Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509\n    contains 850819: Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1\n    contains 850940: Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor\n    contains 850811: Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L\n    contains 850860: Vacuum cleaners, other than with a self-contained electric motor\n    contains 854921: Electrical and electronic waste and scrap; of a kind used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switches, glass from cathode ray tubes or other activated glass, or electrical\n    contains 854931: Electrical and electronic waste and scrap; electrical and electronic assemblies and printed circuit boards, other than those used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switch\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 901841: Dental instruments and appliances; dental drill engines, whether or not combined on a single base with other dental equipment\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "bfade7a6084c07cdfab976e20ee5a5a1f79d9c10dfa032e20226657ae46fe086",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84",
+        "846721"
+      ],
+      "confidence": "0.97",
+      "reason": "Hand-held drills with a self-contained electric motor are classified in heading 84.67 (subheading 8467.21), which falls in Chapter 84."
+    },
+    "input_tokens": 1797,
+    "latency_ms": 3018,
+    "output_tokens": 84
+  }
+}

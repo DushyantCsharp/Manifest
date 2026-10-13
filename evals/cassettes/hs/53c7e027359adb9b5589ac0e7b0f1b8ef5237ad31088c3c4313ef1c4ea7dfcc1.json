@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "53c7e027359adb9b5589ac0e7b0f1b8ef5237ad31088c3c4313ef1c4ea7dfcc1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:24+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hair dryer 2200W with diffuser and concentrator nozzle\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8516 Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n\nChoose the subheading that covers these goods. Options:\n- 851631: Hair-dressing apparatus; electro-thermic hair dryers\n- 851632: Hair-dressing apparatus; electro-thermic, other than hair dryers\n- 851690: Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516\n- 851633: Hand-drying apparatus; electro-thermic\n- 851640: Smoothing irons; electric\n- 851679: Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b59fec805e261dc40567f319aa702c855505ecfbc952cf2941dbd7ba0a825f78",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "851631",
+      "cited": [
+        "851631"
+      ],
+      "confidence": "0.97",
+      "reason": "A hair dryer with a diffuser and concentrator nozzle is an electro-thermic hair dryer, which 851631 covers directly; the nozzles are accessories that are presented with it and do not change the classification."
+    },
+    "input_tokens": 1171,
+    "latency_ms": 2888,
+    "output_tokens": 102
+  }
+}

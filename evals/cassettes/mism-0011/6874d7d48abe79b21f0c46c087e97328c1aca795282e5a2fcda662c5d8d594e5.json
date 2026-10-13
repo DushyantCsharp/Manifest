@@ -2,8 +2,8 @@
   "format": 1,
   "key": "6874d7d48abe79b21f0c46c087e97328c1aca795282e5a2fcda662c5d8d594e5",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:14+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,27 +15,27 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "White-Bowen",
+        "confidence": "0.96",
+        "evidence": "BILL TO / CONSIGNEE\nWhite-Bowen",
         "value": "White-Bowen"
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Currency: CAD",
         "value": "CAD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "Terms of Sale: DDP Vancouver (Incoterms 2020)",
         "value": "DDP Vancouver"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice Date 02/27/2026",
         "value": "02/27/2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Invoice No. INV-2026-90214",
         "value": "INV-2026-90214"
       },
@@ -43,117 +43,117 @@
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40",
+            "evidence": "146.30 7,022.40",
             "value": "7,022.40"
           },
           "country_of_origin": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40",
+            "evidence": "monocrystalline Malaysia",
             "value": "Malaysia"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "Amount (CAD)",
+            "value": "CAD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40",
+            "confidence": "0.96",
+            "evidence": "Solar PV module 410W monocrystalline",
             "value": "Solar PV module 410W monocrystalline"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40",
+            "evidence": "Malaysia 48 pcs",
             "value": "48"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40",
+            "evidence": "48 pcs",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40",
+            "evidence": "pcs 146.30",
             "value": "146.30"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm China 3,648 pcs 7.90 28,819.20",
+            "evidence": "7.90 28,819.20",
             "value": "28,819.20"
           },
           "country_of_origin": {
             "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm China 3,648 pcs 7.90 28,819.20",
+            "evidence": "20cm China",
             "value": "China"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "Amount (CAD)",
+            "value": "CAD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm China 3,648 pcs 7.90 28,819.20",
+            "confidence": "0.96",
+            "evidence": "Stainless steel saucepan 20cm",
             "value": "Stainless steel saucepan 20cm"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm China 3,648 pcs 7.90 28,819.20",
+            "evidence": "China 3,648 pcs",
             "value": "3,648"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "1 Solar PV module 410W monocrystalline Malaysia 48 pcs 146.30 7,022.40",
+            "evidence": "3,648 pcs",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "2 Stainless steel saucepan 20cm China 3,648 pcs 7.90 28,819.20",
+            "evidence": "pcs 7.90",
             "value": "7.90"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 Vietnam 7,950 kg 4.68 37,206.00",
+            "evidence": "4.68 37,206.00",
             "value": "37,206.00"
           },
           "country_of_origin": {
             "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 Vietnam 7,950 kg 4.68 37,206.00",
+            "evidence": "30/1 Vietnam",
             "value": "Vietnam"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "Amount (CAD)",
+            "value": "CAD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 Vietnam 7,950 kg 4.68 37,206.00",
+            "confidence": "0.96",
+            "evidence": "Combed cotton yarn Ne 30/1",
             "value": "Combed cotton yarn Ne 30/1"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 Vietnam 7,950 kg 4.68 37,206.00",
+            "evidence": "Vietnam 7,950 kg",
             "value": "7,950"
           },
           "unit": {
             "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 Vietnam 7,950 kg 4.68 37,206.00",
+            "evidence": "7,950 kg",
             "value": "kg"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "3 Combed cotton yarn Ne 30/1 Vietnam 7,950 kg 4.68 37,206.00",
+            "evidence": "kg 4.68",
             "value": "4.68"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Payment Terms T/T in advance",
         "value": "T/T in advance"
       },
@@ -163,13 +163,13 @@
         "value": "Tainan Chunghwa Electronics Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Total CAD 73,047.60",
         "value": "73,047.60"
       }
     },
-    "input_tokens": 475,
-    "latency_ms": 0,
-    "output_tokens": 899
+    "input_tokens": 2363,
+    "latency_ms": 6476,
+    "output_tokens": 1236
   }
 }

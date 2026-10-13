@@ -2,8 +2,8 @@
   "format": 1,
   "key": "1955e4b8fa1a8f50cb33ced90e4d4e15fdc7a26b26428b8728200287d3723930",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:28+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,22 +15,22 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Long PLC",
         "value": "Long PLC"
       },
       "currency": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.8",
         "evidence": "DAP Leeds (Incoterms 2020)",
-        "value": "DAP Leeds"
+        "value": "DAP Leeds (Incoterms 2020)"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Date:August 28, 2026",
         "value": "August 28, 2026"
       },
@@ -42,60 +42,60 @@
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
+            "confidence": "0.93",
             "evidence": "2.54 43,180.00",
             "value": "43,180.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
+            "confidence": "0.93",
             "evidence": "Sri Lanka 17,000 kg",
             "value": "Sri Lanka"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "ol Black tea, CTC, bulk",
+            "confidence": "0.95",
+            "evidence": "Black tea, CTC, bulk",
             "value": "Black tea, CTC, bulk"
           },
           "quantity": {
-            "confidence": "0.97",
+            "confidence": "0.95",
             "evidence": "Sri Lanka 17,000 kg",
             "value": "17,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "Sri Lanka 17,000 kg",
+            "confidence": "0.95",
+            "evidence": "17,000 kg",
             "value": "kg"
           },
           "unit_price": {
-            "confidence": "0.97",
+            "confidence": "0.93",
             "evidence": "2.54 43,180.00",
             "value": "2.54"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "30% deposit, 70% against copy of B/L",
-        "value": "30% deposit, 70% against copy of B/L"
+        "confidence": "0.85",
+        "evidence": "Terms: 30% deposit, 70% against copy\nof B/L",
+        "value": "30% deposit, 70% against copy\nof B/L"
       },
       "seller_name": {
-        "confidence": "0.81",
+        "confidence": "0.85",
         "evidence": "Akgay San.",
         "value": "Akgay San."
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "2.54 43,180.00",
+        "confidence": "0.8",
+        "evidence": "Amount due",
         "value": "43,180.00"
       }
     },
-    "input_tokens": 344,
-    "latency_ms": 0,
-    "output_tokens": 352
+    "input_tokens": 2116,
+    "latency_ms": 4480,
+    "output_tokens": 630
   }
 }

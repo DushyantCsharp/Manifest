@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "40799b24c20571d9f0759794f8ccf9c8bbfc643ad59b32fab047e27aff020dbb",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:36+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Tomato ketchup in bottles\nCountry of origin: US\n\nChoose the chapter that covers these goods. Options:\n- 21: Miscellaneous edible preparations\n    contains 210320: Sauces; tomato ketchup and other tomato sauces\n    contains 210390: Sauces and preparations therefor; mixed condiments and mixed seasonings\n    contains 210330: Mustard flour and meal and prepared mustard\n    contains 210310: Sauces; soya\n- 20: Preparations of vegetables, fruit, nuts or other parts of plants\n    contains 200290: Vegetable preparations; tomatoes, (other than whole or in pieces), prepared or preserved otherwise than by vinegar or acetic acid\n    contains 200210: Vegetable preparations; tomatoes, whole or in pieces, prepared or preserved otherwise than by vinegar or acetic acid\n    contains 200950: Juice; tomato, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter\n    contains 200110: Vegetable preparations; cucumbers and gherkins, prepared or preserved by vinegar or acetic acid\n- 07: Vegetables and certain roots and tubers; edible\n    contains 070200: Vegetables; tomatoes, fresh or chilled\n- 70: Glass and glassware\n    contains 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n    contains 701010: Glass; ampoules, of a kind used for the conveyance or packing of goods\n    contains 701020: Glass; stoppers, lids and other closures\n- 39: Plastics and articles thereof\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 321390: Colours; (other than in sets), of a kind used by artists, students or signboard painters\n    contains 321310: Colours; in sets, of a kind used by artists, students or signboard painters\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n- 83: Metal; miscellaneous products of base metal\n    contains 830990: Stoppers; caps and lids, of base metal\n    contains 830910: Stoppers; corks, of base metal\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "43a391d01e1e52f0859cc565b02f21c5da36c540a92a21573f0d12dfcc7920a5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "21",
+      "cited": [
+        "210320"
+      ],
+      "confidence": "0.97",
+      "reason": "Tomato ketchup is a sauce, covered by subheading 2103.20 in Chapter 21, and Chapter 20 excludes sauces and tomato ketchup (heading 2103 applies)."
+    },
+    "input_tokens": 1759,
+    "latency_ms": 3464,
+    "output_tokens": 100
+  }
+}

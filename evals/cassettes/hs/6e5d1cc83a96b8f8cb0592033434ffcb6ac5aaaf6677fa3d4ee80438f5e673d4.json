@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "6e5d1cc83a96b8f8cb0592033434ffcb6ac5aaaf6677fa3d4ee80438f5e673d4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:50:19+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Fresh apples, Gala\nCountry of origin: NZ\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons\n\nChoose the heading that covers these goods. Options:\n- 0808: Apples, pears and quinces; fresh\n    contains 080810: Fruit, edible; apples, fresh\n    contains 080830: Fruit, edible; pears, fresh\n    contains 080840: Fruit, edible; quinces, fresh\n- 0810: Fruit, fresh; n.e.c. in chapter 08\n    contains 081050: Fruit, edible; kiwifruit, fresh\n    contains 081030: Fruit, edible; black, white or red currants and gooseberries, fresh\n    contains 081090: Fruit, edible; fruits n.e.c. in heading no. 0801 to 0810, fresh\n- 0813: Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter\n    contains 081330: Fruit, edible; apples, dried\n- 0807: Melons (including watermelons) and papaws (papayas); fresh\n    contains 080720: Fruit, edible; papaws (papayas), fresh\n    contains 080719: Fruit, edible; melons, other than watermelons, fresh\n- 0809: Apricots, cherries, peaches (including nectarines), plums and sloes, fresh\n    contains 080910: Fruit, edible; apricots, fresh\n- 0805: Citrus fruit; fresh or dried\n    contains 080529: Fruit, edible; tangelos, wilkings and similar citrus hybrid, fresh or dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d837561eb5dff05ae2c592e6ce27318e9641dc08bc771cb90e2c5dd1d706a063",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0808",
+      "cited": [
+        "0808",
+        "080810"
+      ],
+      "confidence": "0.99",
+      "reason": "Fresh Gala apples are apples, fresh, which fall squarely under heading 0808."
+    },
+    "input_tokens": 1323,
+    "latency_ms": 2684,
+    "output_tokens": 67
+  }
+}

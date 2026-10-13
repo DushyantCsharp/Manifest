@@ -2,8 +2,8 @@
   "format": 1,
   "key": "0227f1a562bd239d93da7ea0f27620926dfbf4212efdb2e0084cc7846b989759",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:42:21+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -16,87 +16,87 @@
     "data": {
       "bl_number": {
         "confidence": "0.97",
-        "evidence": "MEDUMA9303387",
+        "evidence": "B/L NO.\nMEDUMA9303387",
         "value": "MEDUMA9303387"
       },
       "buyer_name": {
         "confidence": "0.97",
-        "evidence": "Bailey, Martin and Hardy",
+        "evidence": "CONSIGNEE\nBailey, Martin and Hardy",
         "value": "Bailey, Martin and Hardy"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "MSC",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: MSC",
         "value": "MSC"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "MEDU0757126",
         "value": "MEDU0757126"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
         "confidence": "0.97",
-        "evidence": "Dennis LLC",
+        "evidence": "NOTIFY PARTY\nDennis LLC",
         "value": "Dennis LLC"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "CARTONS",
+        "confidence": "0.95",
+        "evidence": "592\nCARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
         "confidence": "0.97",
-        "evidence": "Southampton",
+        "evidence": "PORT OF DISCHARGE\nSouthampton",
         "value": "Southampton"
       },
       "port_of_loading": {
         "confidence": "0.97",
-        "evidence": "Chennai",
+        "evidence": "PORT OF LOADING\nChennai",
         "value": "Chennai"
       },
       "seal_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "SEAL 5902472",
         "value": "5902472"
       },
       "seller_name": {
         "confidence": "0.97",
-        "evidence": "Khanna LLC",
+        "evidence": "SHIPPER\nKhanna LLC",
         "value": "Khanna LLC"
       },
       "shipped_on_board": {
         "confidence": "0.97",
-        "evidence": "July 17, 2026",
+        "evidence": "SHIPPED ON BOARD\nJuly 17, 2026",
         "value": "July 17, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "19,182.3 lb",
         "value": "19,182.3 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "592",
+        "confidence": "0.95",
+        "evidence": "592\nCARTONS",
         "value": "592"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC ZEPHYR / 708W",
         "value": "MSC ZEPHYR"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "MSC ZEPHYR / 708W",
         "value": "708W"
       }
     },
-    "input_tokens": 519,
-    "latency_ms": 0,
-    "output_tokens": 362
+    "input_tokens": 2354,
+    "latency_ms": 5510,
+    "output_tokens": 746
   }
 }

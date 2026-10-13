@@ -2,8 +2,8 @@
   "format": 1,
   "key": "97d41f60f76c70a7a88c66814013142637ef871baa76d951645d7aebc22064c4",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:43:42+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,161 +15,161 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Nguyen-Robinson",
+        "confidence": "0.93",
+        "evidence": "CONSIGNEE\nNguyen-Robinson",
         "value": "Nguyen-Robinson"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "ORIGIN QUANTITY UNIT PRICE (USD) AMOUNT (USD)",
+        "confidence": "0.93",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "DDP Sydney",
         "value": "DDP Sydney"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "31-JUL-2026",
         "value": "31-JUL-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "EX202629-3132",
         "value": "EX202629-3132"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "confidence": "0.95",
+            "evidence": "2.98 35,760.00",
             "value": "35,760.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "7219.33 INDIA",
+            "value": "INDIA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "AMOUNT (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM",
+            "confidence": "0.9",
+            "evidence": "STAINLESS STEEL SHEET 304,\nCOLD-ROLLED 2MM",
             "value": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "confidence": "0.95",
+            "evidence": "INDIA 12,000 KG",
             "value": "12,000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "confidence": "0.95",
+            "evidence": "12,000 KG",
             "value": "KG"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "7219.33 INDIA 12,000 KG 2.98 35,760.00",
+            "confidence": "0.95",
+            "evidence": "KG 2.98 35,760.00",
             "value": "2.98"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "confidence": "0.95",
+            "evidence": "8.92 18,580.36",
             "value": "18,580.36"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "7323.93 INDIA",
+            "value": "INDIA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "AMOUNT (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "STAINLESS STEEL SAUCEPAN 20CM",
+            "confidence": "0.9",
+            "evidence": "STAINLESS STEEL SAUCEPAN\n20CM",
             "value": "STAINLESS STEEL SAUCEPAN 20CM"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "confidence": "0.95",
+            "evidence": "INDIA 2,083 PCS",
             "value": "2,083"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "confidence": "0.95",
+            "evidence": "2,083 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "confidence": "0.95",
+            "evidence": "PCS 8.92 18,580.36",
             "value": "8.92"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "confidence": "0.95",
+            "evidence": "288.03 34,563.60",
             "value": "34,563.60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "18, Parikh Road, 002880 Tiruppur, India",
-            "value": "India"
+            "confidence": "0.95",
+            "evidence": "8517.13 INDIA",
+            "value": "INDIA"
           },
           "currency": {
-            "confidence": "0.97",
-            "evidence": "",
-            "value": ""
+            "confidence": "0.8",
+            "evidence": "AMOUNT (USD)",
+            "value": "USD"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "confidence": "0.95",
+            "evidence": "SMARTPHONE 6.1IN, 128GB",
             "value": "SMARTPHONE 6.1IN, 128GB"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "confidence": "0.95",
+            "evidence": "INDIA 120 PCS",
             "value": "120"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "7323.93 INDIA 2,083 PCS 8.92 18,580.36",
+            "confidence": "0.95",
+            "evidence": "120 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "SMARTPHONE 6.1IN, 128GB 8517.13 INDIA 120 PCS 288.03 34,563.60",
+            "confidence": "0.95",
+            "evidence": "PCS 288.03 34,563.60",
             "value": "288.03"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Cash against documents",
         "value": "Cash against documents"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Kaul-Kala",
         "value": "Kaul-Kala"
       },
       "total_amount": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "TOTAL DDP SYDNEY USD 88,903.96",
         "value": "88,903.96"
       }
     },
-    "input_tokens": 485,
-    "latency_ms": 0,
-    "output_tokens": 788
+    "input_tokens": 2532,
+    "latency_ms": 6829,
+    "output_tokens": 1267
   }
 }

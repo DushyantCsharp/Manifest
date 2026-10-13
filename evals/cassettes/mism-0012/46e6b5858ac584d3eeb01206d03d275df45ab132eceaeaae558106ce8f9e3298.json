@@ -2,8 +2,8 @@
   "format": 1,
   "key": "46e6b5858ac584d3eeb01206d03d275df45ab132eceaeaae558106ce8f9e3298",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:30+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,7 +15,7 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Van Leeuwen Buizen",
         "value": "Van Leeuwen Buizen"
       },
@@ -25,7 +25,7 @@
         "value": "21.07.2026"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "DDP Rotterdam",
         "value": "DDP Rotterdam"
       },
@@ -37,161 +37,161 @@
       "line_items": [
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Số 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong, Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "VN 2.910 pcs",
+            "value": "VN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.95",
+            "evidence": "Plastic storage box 30L with lid",
             "value": "Plastic storage box 30L with lid"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.95",
+            "evidence": "3.347,00 kg",
             "value": "3.347,00 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.95",
+            "evidence": "2.819,79 kg",
             "value": "2.819,79 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.93",
+            "evidence": "VN 2.910 pcs",
             "value": "2.910"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.95",
+            "evidence": "2.910 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Số 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong, Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "VN 7.000 pcs",
+            "value": "VN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 175 1.946,00 kg 2.282,84 kg",
+            "confidence": "0.95",
+            "evidence": "Men's woven cotton shirt, long sleeve",
             "value": "Men's woven cotton shirt, long sleeve"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 175 1.946,00 kg 2.282,84 kg",
+            "confidence": "0.95",
+            "evidence": "2.282,84 kg",
             "value": "2.282,84 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 175 1.946,00 kg 2.282,84 kg",
+            "confidence": "0.95",
+            "evidence": "1.946,00 kg",
             "value": "1.946,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "2 Men's woven cotton shirt, long sleeve VN 7.000 pcs 175 1.946,00 kg 2.282,84 kg",
+            "confidence": "0.93",
+            "evidence": "VN 7.000 pcs",
             "value": "7.000"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.95",
+            "evidence": "7.000 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Số 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong, Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "VN 143 pcs",
+            "value": "VN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 5 2.954,95 kg 3.079,15 kg",
+            "confidence": "0.95",
+            "evidence": "Solar PV module 410W monocrystalline",
             "value": "Solar PV module 410W monocrystalline"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 5 2.954,95 kg 3.079,15 kg",
+            "confidence": "0.95",
+            "evidence": "3.079,15 kg",
             "value": "3.079,15 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 5 2.954,95 kg 3.079,15 kg",
+            "confidence": "0.95",
+            "evidence": "2.954,95 kg",
             "value": "2.954,95 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "3 Solar PV module 410W monocrystalline VN 143 pcs 5 2.954,95 kg 3.079,15 kg",
+            "confidence": "0.95",
+            "evidence": "VN 143 pcs",
             "value": "143"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.95",
+            "evidence": "143 pcs",
             "value": "pcs"
           }
         },
         {
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "Số 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong, Vietnam",
-            "value": "Vietnam"
+            "confidence": "0.95",
+            "evidence": "VN 8.400 kg",
+            "value": "VN"
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 140 8.400,00 kg 8.782,20 kg",
+            "confidence": "0.95",
+            "evidence": "Green Arabica coffee beans, grade 1",
             "value": "Green Arabica coffee beans, grade 1"
           },
           "gross_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 140 8.400,00 kg 8.782,20 kg",
+            "confidence": "0.95",
+            "evidence": "8.782,20 kg",
             "value": "8.782,20 kg"
           },
           "net_weight_kg": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 140 8.400,00 kg 8.782,20 kg",
+            "confidence": "0.95",
+            "evidence": "8.400,00 kg",
             "value": "8.400,00 kg"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "4 Green Arabica coffee beans, grade 1 VN 8.400 kg 140 8.400,00 kg 8.782,20 kg",
+            "confidence": "0.93",
+            "evidence": "VN 8.400 kg",
             "value": "8.400"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "1 Plastic storage box 30L with lid VN 2.910 pcs 291 2.819,79 kg 3.347,00 kg",
+            "confidence": "0.93",
+            "evidence": "8.400 kg 140",
             "value": "kg"
           }
         }
       ],
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "Total 611 CARTONS 16.120,74 kg 17.491,19 kg",
+        "confidence": "0.9",
+        "evidence": "Total 611 CARTONS",
         "value": "CARTONS"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Bùi Tập Đoàn",
         "value": "Bùi Tập Đoàn"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 611 CARTONS 16.120,74 kg 17.491,19 kg",
+        "confidence": "0.95",
+        "evidence": "17.491,19 kg",
         "value": "17.491,19 kg"
       },
       "total_net_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "Total 611 CARTONS 16.120,74 kg 17.491,19 kg",
+        "confidence": "0.95",
+        "evidence": "16.120,74 kg",
         "value": "16.120,74 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "Total 611 CARTONS 16.120,74 kg 17.491,19 kg",
+        "confidence": "0.95",
+        "evidence": "Total 611 CARTONS",
         "value": "611"
       }
     },
-    "input_tokens": 415,
-    "latency_ms": 0,
-    "output_tokens": 1205
+    "input_tokens": 2457,
+    "latency_ms": 7717,
+    "output_tokens": 1439
   }
 }

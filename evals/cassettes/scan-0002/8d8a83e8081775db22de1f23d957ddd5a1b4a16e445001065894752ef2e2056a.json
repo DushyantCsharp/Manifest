@@ -2,8 +2,8 @@
   "format": 1,
   "key": "8d8a83e8081775db22de1f23d957ddd5a1b4a16e445001065894752ef2e2056a",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:45:40+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,88 +15,88 @@
   "response": {
     "data": {
       "bl_number": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "EGLVFY6488353",
         "value": "EGLVFY6488353"
       },
       "buyer_name": {
-        "confidence": "0.85",
+        "confidence": "0.4",
         "evidence": "Hebert Baron 3.A. Barbier",
-        "value": "Hebert Baron 3.A."
+        "value": "Hebert Baron"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN",
+        "confidence": "0.9",
+        "evidence": "Signed as Carrier: EVERGREEN",
         "value": "EVERGREEN"
       },
       "container_number": {
-        "confidence": "0.97",
-        "evidence": "EGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg",
+        "confidence": "0.9",
+        "evidence": "EGLU0805958",
         "value": "EGLU0805958"
       },
       "freight_terms": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN CALYPSO / 368E FREIGHT COLLECT",
+        "confidence": "0.93",
+        "evidence": "FREIGHT COLLECT",
         "value": "COLLECT"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.35",
         "evidence": "Hebert Baron 3.A. Barbier",
-        "value": "Barbier"
+        "value": "3.A. Barbier"
       },
       "package_type": {
-        "confidence": "0.97",
-        "evidence": "SEAL | RE-26-1583 CARTONS box. of 100; Aluminium household foil 12 micron;",
+        "confidence": "0.85",
+        "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Izmir Marseille",
         "value": "Marseille"
       },
       "port_of_loading": {
-        "confidence": "0.97",
+        "confidence": "0.93",
         "evidence": "Izmir Marseille",
         "value": "Izmir"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "1764144 AC induction motor 0.55kW 3-phase",
-        "value": "1764144"
+        "confidence": "0.6",
+        "evidence": "SEAL | RE-26-1583",
+        "value": "RE-26-1583"
       },
       "seller_name": {
-        "confidence": "0.72",
-        "evidence": "Sener Sti. : :",
+        "confidence": "0.5",
+        "evidence": "Sener Sti.",
         "value": "Sener Sti."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "14.07.2026 :",
+        "confidence": "0.85",
+        "evidence": "14.07.2026",
         "value": "14.07.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
-        "evidence": "EGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg",
+        "confidence": "0.92",
+        "evidence": "11.438,46 kg",
         "value": "11.438,46 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "EGLU0805958 HEBERT / 1225 - SAID TO CONTAIN: Nitrile examination gloves, . 11.438,46 kg",
+        "confidence": "0.8",
+        "evidence": "HEBERT / 1225",
         "value": "1225"
       },
       "vessel": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN CALYPSO / 368E FREIGHT COLLECT",
+        "confidence": "0.92",
+        "evidence": "EVERGREEN CALYPSO / 368E",
         "value": "EVERGREEN CALYPSO"
       },
       "voyage": {
-        "confidence": "0.97",
-        "evidence": "EVERGREEN CALYPSO / 368E FREIGHT COLLECT",
+        "confidence": "0.92",
+        "evidence": "EVERGREEN CALYPSO / 368E",
         "value": "368E"
       }
     },
-    "input_tokens": 514,
-    "latency_ms": 0,
-    "output_tokens": 471
+    "input_tokens": 2347,
+    "latency_ms": 4874,
+    "output_tokens": 706
   }
 }

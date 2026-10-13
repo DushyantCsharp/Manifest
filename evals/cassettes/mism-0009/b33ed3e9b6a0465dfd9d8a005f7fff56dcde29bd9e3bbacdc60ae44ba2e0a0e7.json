@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b33ed3e9b6a0465dfd9d8a005f7fff56dcde29bd9e3bbacdc60ae44ba2e0a0e7",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:56+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -20,48 +20,48 @@
         "value": "ONEYLB5183699"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Larson-Robertson",
         "value": "Larson-Robertson"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "ONE",
+        "confidence": "0.8",
+        "evidence": "Signed as Carrier: ONE.",
         "value": "ONE"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "ONEU4434064",
         "value": "ONEU4434064"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Los Angeles",
+        "confidence": "0.96",
+        "evidence": "PORT OF DISCHARGE\nLos Angeles",
         "value": "Los Angeles"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "C. de Héctor Coll 90, 16963 Guayaquil, Ecuador",
+        "confidence": "0.96",
+        "evidence": "PORT OF LOADING\nGuayaquil",
         "value": "Guayaquil"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "3761647",
+        "confidence": "0.94",
+        "evidence": "SEAL\n3761647",
         "value": "3761647"
       },
       "seller_name": {
@@ -70,33 +70,33 @@
         "value": "Narváez & Asociados S.A."
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "May 2, 2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\nMay 2, 2026",
         "value": "May 2, 2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "46,388.6 lb",
         "value": "46,388.6 lb"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "1155",
+        "confidence": "0.93",
+        "evidence": "1155\nCARTONS",
         "value": "1155"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE VALENCIA / 507W",
         "value": "ONE VALENCIA"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "ONE VALENCIA / 507W",
         "value": "507W"
       }
     },
-    "input_tokens": 522,
-    "latency_ms": 0,
-    "output_tokens": 373
+    "input_tokens": 2354,
+    "latency_ms": 4522,
+    "output_tokens": 703
   }
 }

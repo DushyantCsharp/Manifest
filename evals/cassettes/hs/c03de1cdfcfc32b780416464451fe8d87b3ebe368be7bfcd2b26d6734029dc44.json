@@ -2,8 +2,8 @@
   "format": 1,
   "key": "c03de1cdfcfc32b780416464451fe8d87b3ebe368be7bfcd2b26d6734029dc44",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T06:36:47+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:48:45+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "medium",
     "max_tokens": 8000,
@@ -18,11 +18,11 @@
       "cited": [
         "640411"
       ],
-      "confidence": "0.85",
-      "reason": "label"
+      "confidence": "0.95",
+      "reason": "Running shoes are sports footwear with rubber outer soles and textile uppers, which matches subheading 640411 (training shoes and the like) rather than the non-sports residual 640419."
     },
-    "input_tokens": 405,
-    "latency_ms": 0,
-    "output_tokens": 20
+    "input_tokens": 995,
+    "latency_ms": 3186,
+    "output_tokens": 93
   }
 }

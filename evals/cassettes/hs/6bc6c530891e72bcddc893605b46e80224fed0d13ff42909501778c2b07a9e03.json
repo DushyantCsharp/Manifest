@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "6bc6c530891e72bcddc893605b46e80224fed0d13ff42909501778c2b07a9e03",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:35+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Brass padlock with keys\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 83: Metal; miscellaneous products of base metal\n    contains 830110: Padlocks; (key, combination or electrically operated), of base metal\n    contains 830130: Locks; of a kind used for furniture (key, combination or electrically operated), of base metal\n    contains 830170: Keys; presented separately, of base metal\n    contains 830120: Locks; of a kind used for motor vehicles (key, combination or electrically operated), of base metal\n    contains 830140: Locks; (other than those for motor vehicles or furniture), (key, combination or electrically operated), of base metal\n    contains 830160: Locks; parts of padlocks, locks, clasps and frames with clasps incorporating locks, of base metal\n    contains 830150: Clasps and frames with clasps; incorporating locks, of base metal\n    contains 830300: Safes; armoured or reinforced, strong-boxes, doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal\n    contains 830260: Automatic door closures; of base metal\n    contains 830210: Hinges; suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like, of base metal\n    contains 830621: Statuettes and other ornaments; of base metal plated with precious metal\n    contains 830241: Mountings, fittings and similar articles; of base metal, suitable for buildings\n- 74: Copper and articles thereof\n    contains 741121: Copper; tubes and pipes, of copper-zinc base alloys (brass)\n    contains 740721: Copper; bars, rods and profiles, of copper-zinc base alloys (brass)\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5d78840a32b9cc89bf7d7506ecc2a0da0527d7e1afd81357f74a831bb08ea6fa",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "83",
+      "cited": [
+        "830110"
+      ],
+      "confidence": "0.97",
+      "reason": "Padlocks of base metal (brass), key-operated, are specifically covered by heading 8301 (subheading 830110) in Chapter 83, not by the general copper articles in Chapter 74."
+    },
+    "input_tokens": 1783,
+    "latency_ms": 2945,
+    "output_tokens": 96
+  }
+}

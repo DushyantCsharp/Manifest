@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b9ca6b74ef803250ce889b5b295375b7bd9f976445ba7677d04b2aefd1129b54",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:45:13+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -20,83 +20,83 @@
         "value": "HLCUVG7865925"
       },
       "buyer_name": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Van Leeuwen Buizen",
         "value": "Van Leeuwen Buizen"
       },
       "carrier": {
-        "confidence": "0.97",
-        "evidence": "HAPAG-LLOYD",
+        "confidence": "0.93",
+        "evidence": "Signed as Carrier: HAPAG-LLOYD",
         "value": "HAPAG-LLOYD"
       },
       "container_number": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "HLCU3473350",
         "value": "HLCU3473350"
       },
       "freight_terms": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "FREIGHT PREPAID",
         "value": "PREPAID"
       },
       "notify_party_name": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "",
         "value": ""
       },
       "package_type": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "CARTONS",
         "value": "CARTONS"
       },
       "port_of_discharge": {
-        "confidence": "0.97",
-        "evidence": "Rotterdam",
+        "confidence": "0.96",
+        "evidence": "PORT OF DISCHARGE\nRotterdam",
         "value": "Rotterdam"
       },
       "port_of_loading": {
-        "confidence": "0.97",
-        "evidence": "Số 5/88 Ngõ 53 Nguyễn Tất Thành, 43460 Hai Phong,",
+        "confidence": "0.96",
+        "evidence": "PORT OF LOADING\nHai Phong",
         "value": "Hai Phong"
       },
       "seal_number": {
-        "confidence": "0.97",
-        "evidence": "4920681",
+        "confidence": "0.94",
+        "evidence": "SEAL\n4920681",
         "value": "4920681"
       },
       "seller_name": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "Bùi Tập Đoàn",
         "value": "Bùi Tập Đoàn"
       },
       "shipped_on_board": {
-        "confidence": "0.97",
-        "evidence": "31.07.2026",
+        "confidence": "0.96",
+        "evidence": "SHIPPED ON BOARD\n31.07.2026",
         "value": "31.07.2026"
       },
       "total_gross_weight_kg": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "17.491,19 kg",
         "value": "17.491,19 kg"
       },
       "total_packages": {
-        "confidence": "0.97",
-        "evidence": "614",
+        "confidence": "0.94",
+        "evidence": "614\nCARTONS",
         "value": "614"
       },
       "vessel": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "HAPAG-LLOYD ZEPHYR / 468S",
         "value": "HAPAG-LLOYD ZEPHYR"
       },
       "voyage": {
-        "confidence": "0.97",
+        "confidence": "0.95",
         "evidence": "HAPAG-LLOYD ZEPHYR / 468S",
         "value": "468S"
       }
     },
-    "input_tokens": 523,
-    "latency_ms": 0,
-    "output_tokens": 389
+    "input_tokens": 2392,
+    "latency_ms": 4474,
+    "output_tokens": 744
   }
 }

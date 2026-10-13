@@ -27,6 +27,7 @@ from manifest_domain.lifecycle import DocumentKind
 from manifest_domain.merge import Merged, merge
 from manifest_domain.schemas import v3
 from manifest_evals.harness import EVALS_ROOT
+from manifest_evals.live import RetryingProvider, forget_stand_ins
 from manifest_evals.oracle import OracleProvider
 from manifest_evals.synth.corpus import PREFIXES
 from manifest_evals.synth.layouts import BY_NAME, Layout
@@ -214,17 +215,28 @@ def same(kind: str | None, want: str | None, got: str | None) -> bool:
         return False
 
 
+def implied(truth: dict[str, Any]) -> dict[str, str]:
+    """Line values a document states once for every line: an invoice's lines are in its
+    currency even where a line doesn't print one (a column header may). Reading such a value
+    onto a line isn't an error; leaving it off isn't either."""
+    currency = truth["fields"].get("currency")
+    return {"currency": currency} if currency else {}
+
+
 def _compare(
     where: str,
     known: dict[str, str],
     want: dict[str, str | None],
     got: dict[str, str | None],
+    implied_values: dict[str, str] | None = None,
 ) -> list[str]:
     keys = sorted({k for k, v in want.items() if v is not None} | {k for k, v in got.items() if v})
+    implicit = implied_values or {}
     return [
         f"{where}.{key}: expected {want.get(key)!r}, got {got.get(key)!r}"
         for key in keys
         if not same(known.get(key), want.get(key), got.get(key))
+        and not (want.get(key) is None and got.get(key) == implicit.get(key))
     ]
 
 
@@ -238,8 +250,10 @@ def differences(truth: dict[str, Any], reading: Reading) -> list[str]:
     problems += [
         f"{document}: extracted line {j + 1} is not in truth" for j in alignment.right_only
     ]
+    lines_imply = implied(truth)
     for i, j in alignment.pairs:
-        problems += _compare(f"{document}.line{i + 1}", known, want.lines[i], reading.lines[j])
+        where = f"{document}.line{i + 1}"
+        problems += _compare(where, known, want.lines[i], reading.lines[j], lines_imply)
     return problems
 
 
@@ -261,10 +275,21 @@ def seed(pack_id: str, root: Path = CASSETTES) -> None:
 
 
 def record(pack_id: str, root: Path = CASSETTES, provider: Provider | None = None) -> None:
-    """Record the pack's cassette from a real model (Anthropic unless ``provider`` is given)."""
-    shutil.rmtree(root / pack_id, ignore_errors=True)
+    """Record the pack's cassette from a real model (Anthropic unless ``provider`` is given).
+
+    Resumable: keeps real recordings already made, replaces the stand-in's, prunes the rest.
+    """
     live = provider or AnthropicProvider()
-    read_pack(pack_id, cassette(pack_id, mode="record", inner=live, root=root))
+    forget_stand_ins(root / pack_id)
+    recorder = CassetteProvider(
+        root / pack_id,
+        mode="new",
+        inner=RetryingProvider(live),
+        name=PROVIDER,
+        recorded_with=live.name,
+    )
+    read_pack(pack_id, recorder)
+    recorder.prune()
 
 
 def main(argv: list[str] | None = None) -> int:

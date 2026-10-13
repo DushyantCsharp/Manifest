@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "4d70930e90800e5ce66b9abb09cd474cae729c97bf1ff63b2137bce993f9ecce",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:37+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's socks, knitted, 80% cotton\nCountry of origin: TR\n\nChosen so far: 61 Apparel and clothing accessories; knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6105: Shirts; men's or boys', knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n    contains 610590: Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n- 6103: Suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches, shorts (not swimwear); men's or boys', knitted or crocheted\n    contains 610342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton, knitted or crocheted\n    contains 610322: Ensembles; men's or boys', of cotton, knitted or crocheted\n    contains 610349: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted\n    contains 610329: Ensembles; men's or boys', of textile materials (other than cotton or synthetic fibres), knitted or crocheted\n    contains 610332: Jackets and blazers; men's or boys', of cotton, knitted or crocheted\n- 6107: Underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles; men's or boys', knitted or crocheted\n    contains 610711: Underpants and briefs; men's or boys', of cotton, knitted or crocheted\n    contains 610721: Nightshirts and pyjamas; men's or boys', of cotton, knitted or crocheted\n    contains 610719: Underpants and briefs; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610729: Nightshirts and pyjamas; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610791: Bathrobes, dressing gowns and similar articles; men's or boys', of cotton, knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5bccc203f975464daf821fda252787a0c7e91cce2875b2c59879d9eb0feddc99",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "none",
+      "cited": [
+        "6105",
+        "6103",
+        "6107"
+      ],
+      "confidence": "0.93",
+      "reason": "Knitted men's socks belong in heading 6115 (hosiery, including socks), which is not among the options; shirts, suits/trousers and underwear/pyjamas headings do not cover them."
+    },
+    "input_tokens": 1508,
+    "latency_ms": 3222,
+    "output_tokens": 101
+  }
+}

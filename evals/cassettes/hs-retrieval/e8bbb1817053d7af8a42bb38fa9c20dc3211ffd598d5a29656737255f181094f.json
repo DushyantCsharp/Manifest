@@ -1,56 +1,152 @@
 {
   "format": 1,
   "key": "e8bbb1817053d7af8a42bb38fa9c20dc3211ffd598d5a29656737255f181094f",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Sultana raisins, dried grapes origin TR",
   "limit": 20,
   "candidates": [
     {
       "code": "080620",
       "description": "Fruit, edible; grapes, dried",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
+        "lexical": 1,
+        "vector": 1
+      }
+    },
+    {
+      "code": "081320",
+      "description": "Fruit, edible; prunes, dried",
+      "score": "0.030415",
+      "ranks": {
+        "lexical": 10,
+        "vector": 2
       }
     },
     {
       "code": "080610",
       "description": "Fruit, edible; grapes, fresh",
-      "score": "0.016129",
+      "score": "0.030090",
       "ranks": {
-        "lexical": 2
+        "lexical": 8,
+        "vector": 5
+      }
+    },
+    {
+      "code": "081310",
+      "description": "Fruit, edible; apricots, dried",
+      "score": "0.028778",
+      "ranks": {
+        "lexical": 9,
+        "vector": 10
       }
     },
     {
       "code": "220430",
       "description": "Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2",
+      "score": "0.027027",
+      "ranks": {
+        "lexical": 14,
+        "vector": 14
+      }
+    },
+    {
+      "code": "081340",
+      "description": "Fruit, edible; fruit n.e.c. in heading no. 0812, dried",
+      "score": "0.025253",
+      "ranks": {
+        "lexical": 12,
+        "vector": 28
+      }
+    },
+    {
+      "code": "081350",
+      "description": "Nuts, edible; mixtures of nuts or dried fruits of chapter 08",
+      "score": "0.024935",
+      "ranks": {
+        "lexical": 13,
+        "vector": 29
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "200860",
+      "description": "Fruit; cherries, prepared or preserved in ways n.e.c. in heading no. 2007, whether or not containing added sugar, other sweetening matter or spirit",
       "score": "0.015873",
       "ranks": {
-        "lexical": 3
+        "lexical": null,
+        "vector": 3
       }
     },
     {
-      "code": "040811",
-      "description": "Eggs; birds' eggs, yolks, dried, whether or not containing added sugar or other sweetening matter",
+      "code": "843790",
+      "description": "Machines; parts of those for cleaning, sorting or grading seed, grain or dried leguminous vegetables or for milling or working cereals or dried leguminous vegetables (not farm-type machinery)",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "081210",
+      "description": "Fruit, edible; cherries, provisionally preserved, but unsuitable in that state for immediate consumption",
       "score": "0.015625",
       "ranks": {
-        "lexical": 4
+        "lexical": null,
+        "vector": 4
       }
     },
     {
-      "code": "040891",
-      "description": "Eggs; birds' eggs (not in shell, excluding yolks only), dried, whether or not containing added sugar or other sweetening matter",
+      "code": "410120",
+      "description": "Raw hides and skins; whole, unsplit, of bovine or equine animals, of a weight per skin not exceeding 8kg when simply dried, 10kg when dry-salted or 16kg when fresh, wet-salted or otherwise preserved",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "845121",
+      "description": "Drying machines; of a dry linen capacity not exceeding 10kg",
       "score": "0.015385",
       "ranks": {
-        "lexical": 5
+        "lexical": 5,
+        "vector": null
       }
     },
     {
-      "code": "220410",
-      "description": "Wine; sparkling",
+      "code": "080929",
+      "description": "Fruit, edible; cherries, other than sour cherries (Prunus cerasus), fresh",
       "score": "0.015152",
       "ranks": {
-        "lexical": 6
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "845129",
+      "description": "Drying machines; of a dry linen capacity exceeding 10kg",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "200600",
+      "description": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
       }
     },
     {
@@ -58,111 +154,35 @@
       "description": "Spirits obtained by distilling grape wine or grape marc",
       "score": "0.014925",
       "ranks": {
-        "lexical": 7
+        "lexical": 7,
+        "vector": null
       }
     },
     {
-      "code": "220421",
-      "description": "Wine; still, in containers holding 2 litres or less",
+      "code": "080921",
+      "description": "Fruit, edible; sour cherries (Prunus cerasus), fresh",
       "score": "0.014706",
       "ranks": {
-        "lexical": 8
+        "lexical": null,
+        "vector": 8
       }
     },
     {
-      "code": "220510",
-      "description": "Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less",
+      "code": "080940",
+      "description": "Fruit, edible; plums and sloes, fresh",
       "score": "0.014493",
       "ranks": {
-        "lexical": 9
+        "lexical": null,
+        "vector": 9
       }
     },
     {
-      "code": "220429",
-      "description": "Wine; still, in containers holding more than 10 litres",
-      "score": "0.014286",
-      "ranks": {
-        "lexical": 10
-      }
-    },
-    {
-      "code": "220590",
-      "description": "Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding more than 2 litres",
+      "code": "080521",
+      "description": "Fruit, edible; mandarins (including tangerines and satsumas), fresh or dried",
       "score": "0.014085",
       "ranks": {
-        "lexical": 11
-      }
-    },
-    {
-      "code": "220422",
-      "description": "Wine; still, in containers holding more than 2 litres but not more than 10 litres",
-      "score": "0.013889",
-      "ranks": {
-        "lexical": 12
-      }
-    },
-    {
-      "code": "041090",
-      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
-      "score": "0.013699",
-      "ranks": {
-        "lexical": 13
-      }
-    },
-    {
-      "code": "293972",
-      "description": "Alkaloids; of vegetal origin, cocaine, ecgonine; salts, esters and other derivatives thereof",
-      "score": "0.013514",
-      "ranks": {
-        "lexical": 14
-      }
-    },
-    {
-      "code": "320110",
-      "description": "Tanning extracts of vegetable origin; quebracho extract",
-      "score": "0.013333",
-      "ranks": {
-        "lexical": 15
-      }
-    },
-    {
-      "code": "320120",
-      "description": "Tanning extracts of vegetable origin; wattle extract",
-      "score": "0.013158",
-      "ranks": {
-        "lexical": 16
-      }
-    },
-    {
-      "code": "293979",
-      "description": "Alkaloids; of vegetal origin, other than cocaine, ecgonine; salts, esters and other derivatives; n.e.c. in heading no. 2939",
-      "score": "0.012987",
-      "ranks": {
-        "lexical": 17
-      }
-    },
-    {
-      "code": "040819",
-      "description": "Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",
-      "score": "0.012821",
-      "ranks": {
-        "lexical": 18
-      }
-    },
-    {
-      "code": "200961",
-      "description": "Juice; grape, of a Brix value not exceeding 30, unfermented, (not containing added spirit), whether or not containing added sugar or other sweetening matter",
-      "score": "0.012658",
-      "ranks": {
-        "lexical": 19
-      }
-    },
-    {
-      "code": "200969",
-      "description": "Juice; grape, of a Brix value exceeding 30, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",
-      "score": "0.012500",
-      "ranks": {
-        "lexical": 20
+        "lexical": null,
+        "vector": 11
       }
     }
   ]

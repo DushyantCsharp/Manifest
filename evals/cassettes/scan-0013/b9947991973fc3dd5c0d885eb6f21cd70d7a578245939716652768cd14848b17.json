@@ -2,8 +2,8 @@
   "format": 1,
   "key": "b9947991973fc3dd5c0d885eb6f21cd70d7a578245939716652768cd14848b17",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:11+00:00",
-  "recorded_with": "ground-truth oracle (OCR)",
+  "recorded_at": "2026-10-13T07:46:49+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,272 +15,309 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Weeks-Gonzalez FOB Karachi",
+        "confidence": "0.95",
+        "evidence": "Weeks-Gonzalez",
         "value": "Weeks-Gonzalez"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "MARKS & NOS. DESCRIPTION OF GOoDs - H.S. ORIGIN QUANTITY UNIT PRICE (USD) ‘AMOUNT (USD)",
+        "confidence": "0.93",
+        "evidence": "UNIT PRICE (USD)",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
-        "evidence": "Weeks-Gonzalez FOB Karachi",
+        "confidence": "0.95",
+        "evidence": "FOB Karachi",
         "value": "FOB Karachi"
       },
       "invoice_date": {
-        "confidence": "0.97",
-        "evidence": "No. 353 Ring Road, Lahore, Pakistan 14-JUL-2026",
+        "confidence": "0.95",
+        "evidence": "14-JUL-2026",
         "value": "14-JUL-2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
-        "evidence": "Lahore Crescent Industrial Co., Ltd. - EX202675-4069",
+        "confidence": "0.93",
+        "evidence": "EX202675-4069",
         "value": "EX202675-4069"
       },
       "line_items": [
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "25,591.26",
             "value": "25,591.26"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.93",
+            "evidence": "THAILAND 158 PCS",
             "value": "THAILAND"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.72",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
-            "value": "SPLIT AIR CONDITIONER 8415.10"
+            "confidence": "0.85",
+            "evidence": "SPLIT AIR CONDITIONER 8415.10",
+            "value": "SPLIT AIR CONDITIONER 12000 BTU"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "158 PCS",
             "value": "158"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "158 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "161.97",
             "value": "161.97"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "COTTON KNITTED 6110.20 BANGLADESH 1,121 PCS 11.12 12,465.52",
+            "confidence": "0.95",
+            "evidence": "12,465.52",
             "value": "12,465.52"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "COTTON KNITTED 6110.20 BANGLADESH 1,121 PCS 11.12 12,465.52",
+            "confidence": "0.93",
+            "evidence": "BANGLADESH 1,121",
             "value": "BANGLADESH"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.68",
-            "evidence": "COTTON KNITTED 6110.20 BANGLADESH 1,121 PCS 11.12 12,465.52",
-            "value": "COTTON KNITTED"
+            "confidence": "0.88",
+            "evidence": "COTTON KNITTED 6110.20",
+            "value": "COTTON KNITTED PULLOVER"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "COTTON KNITTED 6110.20 BANGLADESH 1,121 PCS 11.12 12,465.52",
+            "confidence": "0.95",
+            "evidence": "1,121 PCS",
             "value": "1,121"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "1,121 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "COTTON KNITTED 6110.20 BANGLADESH 1,121 PCS 11.12 12,465.52",
+            "confidence": "0.95",
+            "evidence": "11.12",
             "value": "11.12"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K | 8528.72 MEXICO 236 PCS 396.67 93,614.12",
+            "confidence": "0.95",
+            "evidence": "93,614.12",
             "value": "93,614.12"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K | 8528.72 MEXICO 236 PCS 396.67 93,614.12",
+            "confidence": "0.93",
+            "evidence": "MEXICO 236",
             "value": "MEXICO"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K | 8528.72 MEXICO 236 PCS 396.67 93,614.12",
+            "confidence": "0.92",
+            "evidence": "LED TELEVISION 55IN 4K",
             "value": "LED TELEVISION 55IN 4K"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K | 8528.72 MEXICO 236 PCS 396.67 93,614.12",
+            "confidence": "0.95",
+            "evidence": "236 PCS",
             "value": "236"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "236 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "LED TELEVISION 55IN 4K | 8528.72 MEXICO 236 PCS 396.67 93,614.12",
+            "confidence": "0.95",
+            "evidence": "396.67",
             "value": "396.67"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "ELECTRIC KETTLE 1.7L 8516.79 | CHINA 1,008 PCS 10.46 10,543.68",
-            "value": "10,543.68"
+            "confidence": "0.95",
+            "evidence": "37,370.00",
+            "value": "37,370.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "ELECTRIC KETTLE 1.7L 8516.79 | CHINA 1,008 PCS 10.46 10,543.68",
-            "value": "CHINA"
+            "confidence": "0.9",
+            "evidence": "THAILAND 9,250",
+            "value": "THAILAND"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.72",
-            "evidence": "ELECTRIC KETTLE 1.7L 8516.79 | CHINA 1,008 PCS 10.46 10,543.68",
-            "value": "ELECTRIC KETTLE 1.7L"
+            "confidence": "0.88",
+            "evidence": "NITRILE EXAMINATION 4015.12",
+            "value": "NITRILE EXAMINATION GLOVES, BOX OF 100"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "ELECTRIC KETTLE 1.7L 8516.79 | CHINA 1,008 PCS 10.46 10,543.68",
+            "confidence": "0.95",
+            "evidence": "9,250 SETS",
+            "value": "9,250"
+          },
+          "unit": {
+            "confidence": "0.95",
+            "evidence": "9,250 SETS",
+            "value": "SETS"
+          },
+          "unit_price": {
+            "confidence": "0.95",
+            "evidence": "4.04",
+            "value": "4.04"
+          }
+        },
+        {
+          "amount": {
+            "confidence": "0.95",
+            "evidence": "10,543.68",
+            "value": "10,543.68"
+          },
+          "country_of_origin": {
+            "confidence": "0.93",
+            "evidence": "CHINA 1,008",
+            "value": "CHINA"
+          },
+          "currency": {
+            "confidence": "0.8",
+            "evidence": "",
+            "value": ""
+          },
+          "description": {
+            "confidence": "0.88",
+            "evidence": "ELECTRIC KETTLE 1.7L 8516.79",
+            "value": "ELECTRIC KETTLE 1.7L STAINLESS"
+          },
+          "quantity": {
+            "confidence": "0.95",
+            "evidence": "1,008 PCS",
             "value": "1,008"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "1,008 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "ELECTRIC KETTLE 1.7L 8516.79 | CHINA 1,008 PCS 10.46 10,543.68",
+            "confidence": "0.95",
+            "evidence": "10.46",
             "value": "10.46"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "ANALOG QUARTZ 9102.11 | JAPAN 818 PCS 9.98 8,163.64",
+            "confidence": "0.95",
+            "evidence": "8,163.64",
             "value": "8,163.64"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "ANALOG QUARTZ 9102.11 | JAPAN 818 PCS 9.98 8,163.64",
+            "confidence": "0.93",
+            "evidence": "JAPAN 818",
             "value": "JAPAN"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.62",
-            "evidence": "8,163.64 WRISTWATCH, STEEL CASE",
-            "value": "8,163.64 WRISTWATCH, STEEL CASE"
+            "confidence": "0.88",
+            "evidence": "ANALOG QUARTZ 9102.11",
+            "value": "ANALOG QUARTZ WRISTWATCH, STEEL CASE"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "ANALOG QUARTZ 9102.11 | JAPAN 818 PCS 9.98 8,163.64",
+            "confidence": "0.95",
+            "evidence": "818 PCS",
             "value": "818"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "818 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "ANALOG QUARTZ 9102.11 | JAPAN 818 PCS 9.98 8,163.64",
+            "confidence": "0.95",
+            "evidence": "9.98",
             "value": "9.98"
           }
         },
         {
           "amount": {
-            "confidence": "0.97",
-            "evidence": "LITHIUM-ION BATTERY 8507.60. | SOUTH 148 PCS 280.45 41,506.60",
+            "confidence": "0.95",
+            "evidence": "41,506.60",
             "value": "41,506.60"
           },
           "country_of_origin": {
-            "confidence": "0.60",
-            "evidence": "PACK 48V 20AH KOREA",
-            "value": "20AH KOREA"
+            "confidence": "0.8",
+            "evidence": "SOUTH 148 PCS 280.45",
+            "value": "SOUTH KOREA"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.8",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.63",
-            "evidence": "LITHIUM-ION BATTERY 8507.60. | SOUTH 148 PCS 280.45 41,506.60",
-            "value": "LITHIUM-ION BATTERY 8507.60. |"
+            "confidence": "0.88",
+            "evidence": "LITHIUM-ION BATTERY 8507.60.",
+            "value": "LITHIUM-ION BATTERY PACK 48V 20AH"
           },
           "quantity": {
-            "confidence": "0.97",
-            "evidence": "LITHIUM-ION BATTERY 8507.60. | SOUTH 148 PCS 280.45 41,506.60",
+            "confidence": "0.95",
+            "evidence": "148 PCS",
             "value": "148"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "WEEKS-GONZALEZ / -| SPLIT AIR CONDITIONER 8415.10 THAILAND 158 PCS 161.97 25,591.26",
+            "confidence": "0.95",
+            "evidence": "148 PCS",
             "value": "PCS"
           },
           "unit_price": {
-            "confidence": "0.97",
-            "evidence": "LITHIUM-ION BATTERY 8507.60. | SOUTH 148 PCS 280.45 41,506.60",
+            "confidence": "0.95",
+            "evidence": "280.45",
             "value": "280.45"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
-        "evidence": "29/5 Robert Grove, 3849 Brisbane, Australia T/T 30 days after B/L date",
+        "confidence": "0.95",
+        "evidence": "T/T 30 days after B/L date",
         "value": "T/T 30 days after B/L date"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Lahore Crescent Industrial Co., Ltd. - EX202675-4069",
+        "confidence": "0.95",
+        "evidence": "Lahore Crescent Industrial Co., Ltd.",
         "value": "Lahore Crescent Industrial Co., Ltd."
       },
       "total_amount": {
-        "confidence": "0.97",
-        "evidence": "TOTAL FOB KARACHI | USD 229,254.82",
+        "confidence": "0.95",
+        "evidence": "USD 229,254.82",
         "value": "229,254.82"
       }
     },
-    "input_tokens": 534,
-    "latency_ms": 0,
-    "output_tokens": 1631
+    "input_tokens": 2680,
+    "latency_ms": 11759,
+    "output_tokens": 2221
   }
 }

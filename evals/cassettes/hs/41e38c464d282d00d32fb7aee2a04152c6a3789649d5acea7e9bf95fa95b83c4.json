@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "key": "41e38c464d282d00d32fb7aee2a04152c6a3789649d5acea7e9bf95fa95b83c4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:58+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Solid oak bed frame, queen size\nCountry of origin: VN\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings > 9403 Furniture and parts thereof, n.e.c. in chapter 94\n\nChoose the subheading that covers these goods. Options:\n- 940350: Furniture; wooden, for bedroom use\n- 940389: Furniture; of cane, osier, or similar materials (other than bamboo or rattan)\n- 940360: Furniture; wooden, other than for office, kitchen or bedroom use\n- 940391: Furniture; parts, of wood\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "cd86524b1301e3b00c45933a8ac81e6f6c8014b84f4d2fb4a731c408725bde06",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "940350",
+      "cited": [
+        "940350"
+      ],
+      "confidence": "0.95",
+      "reason": "A solid oak bed frame is wooden furniture for bedroom use, so it falls under 940350 rather than the other wooden furniture or parts subheadings."
+    },
+    "input_tokens": 1011,
+    "latency_ms": 3750,
+    "output_tokens": 85
+  }
+}

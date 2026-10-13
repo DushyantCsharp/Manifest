@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "b0b70b73d0a9a5024f494fadd58d959707b9509e06c26c08714e8aeb70d8a56d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:11+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Desktop computer system unit with processor, memory and storage, no monitor\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8471: Automatic data processing machines and units thereof, magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n    contains 847150: Units of automatic data processing machines; processing units other than those of item no. 8471.41 or 8471.49, whether or not containing in the same housing one or two of the following types of unit: storage units, input units or output units\n    contains 847170: Units of automatic data processing machines; storage units\n    contains 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n    contains 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n    contains 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n    contains 847180: Units of automatic data processing machines; n.e.c. in item no. 8471.50, 8471.60 or 8471.70\n    contains 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n    contains 847190: Magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n- 8457: Machining centres, unit construction machines (single station) and multi-station transfer machines for working metal\n    contains 845720: Machines; unit construction machines (single station), for working metal\n- 8419: Machinery, plant (not domestic), or laboratory equipment; electrically heated or not, (excluding items in 85.14) for the treatment of materials by a process involving change of temperature; including instantaneous or non electric storage water heaters\n    contains 841950: Heat exchange units; not used for domestic purposes\n- 8418: Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air conditioning machines of heading no. 8415\n    contains 841850: Furniture incorporating refrigerating or freezing equipment; for storage and display, n.e.c. in item no. 8418.1, 8418.2, 8418.3 or 8418.4 (chests, cabinets, display counters, show-cases and the like)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e7ea91ee60d7d62ced39ef365a0aa708bd74e90f542c7d78c45bcd8b448575f7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8471",
+      "cited": [
+        "8471",
+        "847150"
+      ],
+      "confidence": "0.98",
+      "reason": "A desktop computer system unit with processor, memory and storage is a unit of an automatic data processing machine, covered by heading 8471 (subheading 8471.50)."
+    },
+    "input_tokens": 1627,
+    "latency_ms": 2760,
+    "output_tokens": 90
+  }
+}

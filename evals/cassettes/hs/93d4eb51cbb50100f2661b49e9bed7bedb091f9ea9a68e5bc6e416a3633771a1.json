@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "93d4eb51cbb50100f2661b49e9bed7bedb091f9ea9a68e5bc6e416a3633771a1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:47:45+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: USB-C power adapter 65W for laptops\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 853210: Electrical capacitors; fixed, designed for use in 50/60 Hz circuits and having a reactive power handling capacity of not less than 0.5 kvar (power capacitors)\n    contains 850421: Electrical transformers; liquid dielectric, having a power handling capacity not exceeding 650kVA\n    contains 853649: Electrical apparatus; relays, for a voltage exceeding 60 volts\n    contains 850422: Electrical transformers; liquid dielectric, having a power handling capacity exceeding 650kVA but not exceeding 10,000kVA\n    contains 853669: Electrical apparatus; plugs and sockets, for a voltage not exceeding 1000 volts\n    contains 850650: Cells and batteries; primary, lithium\n    contains 853641: Electrical apparatus; relays, (for a voltage not exceeding 60 volts)\n    contains 853661: Electrical apparatus; lamp-holders, for a voltage not exceeding 1000 volts\n    contains 850171: Electric generators; photovoltaic DC generators, of an output not exceeding 50W\n    contains 850131: Electric motors and generators; DC, of an output not exceeding 750W\n    contains 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841221: Engines; hydraulic power engines and motors, linear acting (cylinders)\n    contains 841229: Engines; hydraulic power engines and motors, other than linear acting (cylinders)\n    contains 841231: Engines; pneumatic power engines and motors, linear acting (cylinders)\n    contains 841239: Engines; pneumatic power engines and motors, other than linear acting (cylinders)\n    contains 841280: Engines; pneumatic power engines and motors, n.e.c. in heading no. 8412\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8d5ca5aa160d46a23c0770aefa84143605229d99562b8b7db2b787cabc8aacae",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85",
+        "850440"
+      ],
+      "confidence": "0.96",
+      "reason": "A USB-C power adapter is an AC/DC static converter (power supply), which falls in heading 8504 within Chapter 85 (electrical machinery and equipment)."
+    },
+    "input_tokens": 1768,
+    "latency_ms": 2281,
+    "output_tokens": 90
+  }
+}

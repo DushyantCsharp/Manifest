@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "7b4cdabd6edc04816340a202149c60dbc15e9a9df6b08a090a8c115050ffae6d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:25+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's blouse, woven, 100% silk\nCountry of origin: CN\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6206: Blouses, shirts and shirt-blouses; women's or girls' (not knitted or crocheted)\n    contains 620610: Blouses, shirts and shirt-blouses; women's or girls', of silk or silk waste (not knitted or crocheted)\n    contains 620620: Blouses, shirts and shirt-blouses; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n    contains 620630: Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)\n    contains 620690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials n.e.c. in heading no. 6206 (not knitted or crocheted)\n    contains 620640: Blouses, shirts and shirt-blouses; women's or girls', of man-made fibres (not knitted or crocheted)\n- 6214: Shawls, scarves, mufflers, mantillas, veils and the like (not knitted or crocheted)\n    contains 621410: Shawls, scarves, mufflers, mantillas, veils and the like; of silk or silk waste (not knitted or crocheted)\n- 6215: Ties, bow ties and cravats (not knitted or crocheted)\n    contains 621510: Ties, bow ties and cravats; of silk or silk waste (not knitted or crocheted)\n- 6208: Singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles; women's or girls' (not knitted or crocheted)\n    contains 620891: Singlets and other vests, briefs, panties, negligees, bathrobes, dressing gowns and similar articles; women's or girls', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "dc2efed88a59724aae6ebf89c72116b5fc4fd8a91b678bd8b5dae5c864107f7e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6206",
+      "cited": [
+        "6206",
+        "620610"
+      ],
+      "confidence": "0.98",
+      "reason": "A woven women's silk blouse is covered by heading 6206 (blouses, shirts and shirt-blouses; women's or girls'), with silk goods falling under subheading 620610."
+    },
+    "input_tokens": 1431,
+    "latency_ms": 4219,
+    "output_tokens": 96
+  }
+}

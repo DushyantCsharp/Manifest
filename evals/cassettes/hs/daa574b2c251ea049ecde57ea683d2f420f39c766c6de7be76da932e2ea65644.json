@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "daa574b2c251ea049ecde57ea683d2f420f39c766c6de7be76da932e2ea65644",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:48:00+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Mirrorless digital camera body, interchangeable lens\nCountry of origin: JP\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8525 Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders\n\nChoose the subheading that covers these goods. Options:\n- 852581: Television cameras, digital cameras and video camera recorders; high-speed goods as specified in subheading note 1 to this chapter\n- 852582: Television cameras, digital cameras and video camera recorders; radiation-hardened or radiation-tolerant goods as specified in subheading note 2 to this chapter\n- 852583: Television cameras, digital cameras and video camera recorders; night vision goods as specified in subheading note 3 to this chapter\n- 852589: Television cameras; n.e.c. in item no 8525.8\n- 852550: Transmission apparatus for radio-broadcasting or television, whether or not incorporating sound recording or reproducing apparatus, not incorporating reception apparatus\n- 852560: Transmission apparatus for radio-broadcasting or television, whether or not incorporating sound recording or reproducing apparatus, incorporating reception apparatus\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "525859c480634d2357961ec5b7571c660dc1d487d74dfb7c9a55373745e8ea08",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "852589",
+      "cited": [
+        "852589",
+        "852581",
+        "852582",
+        "852583"
+      ],
+      "confidence": "0.8",
+      "reason": "A standard mirrorless digital camera is not a high-speed, radiation-hardened or night-vision special type under subheadings 8525.81-83, so it falls in the residual subheading 8525.89 for other cameras (the 'n.e.c.' text covers digital cameras and video camera recorders as well as television cameras)."
+    },
+    "input_tokens": 1237,
+    "latency_ms": 3389,
+    "output_tokens": 147
+  }
+}

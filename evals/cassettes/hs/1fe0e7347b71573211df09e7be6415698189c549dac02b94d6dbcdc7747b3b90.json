@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "key": "1fe0e7347b71573211df09e7be6415698189c549dac02b94d6dbcdc7747b3b90",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T07:49:09+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Plush teddy bear 30cm\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 97: Works of art; collectors' pieces and antiques\n    contains 970390: Sculptures and statuary; original, in any material, of an age not exceeding 100 years\n    contains 970310: Sculptures and statuary; original, in any material, of an age exceeding 100 years\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 611130: Garments and clothing accessories; babies', of synthetic fibres, knitted or crocheted\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 848330: Bearing housings, not incorporating ball or roller bearings and plain shaft bearings\n    contains 848320: Bearing housings, incorporating ball or roller bearings\n    contains 848220: Bearings; tapered roller bearings, including cone and tapered roller assemblies\n    contains 848230: Bearings; spherical roller bearings\n    contains 848240: Bearings; needle roller bearings, including cage and needle roller assemblies\n    contains 848250: Bearings; cylindrical roller bearings, including cage and roller assemblies n.e.c. in heading no. 8482\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620930: Garments and clothing accessories; babies', of synthetic fibres (not knitted or crocheted)\n- 43: Furskins and artificial fur; manufactures thereof\n    contains 430310: Furskin articles; apparel and clothing accessories\n    contains 430390: Furskin articles; other than apparel and clothing accessories\n    contains 430130: Furskins; raw, of Astrakhan, Broadtail, Caracul, Persian and similar lamb, Indian, Chinese, Mongolian or Tibetan lamb, whole, with or without head, tail or paws\n- 60: Fabrics; knitted or crocheted\n    contains 600310: Fabrics; knitted or crocheted fabrics, other than those of heading 60.01 and 60.02, of a width not exceeding 30 cm, of wool or fine animal hair\n    contains 600340: Fabrics; knitted or crocheted fabrics, other than those of heading 60.01 and 60.02, of a width not exceeding 30 cm, of artificial fibres\n    contains 600320: Fabrics; knitted or crocheted fabrics, other than those of heading 60.01 and 60.02, of a width not exceeding 30 cm, of cotton\n- 95: Toys, games and sports requisites; parts and accessories thereof\n    contains 950300: Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 250590: Sands; natural, (other than silica and quartz sands), whether or not coloured, (other than metal-bearing sands of chapter 26)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b8a0555d484d017f23bb94cb68a2d7355bbdc67cd39ab645a6b6240caa5b0ec8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "95",
+      "cited": [
+        "95",
+        "950300"
+      ],
+      "confidence": "0.97",
+      "reason": "A plush teddy bear is a stuffed toy, which falls under heading 9503 (other toys) in Chapter 95."
+    },
+    "input_tokens": 2043,
+    "latency_ms": 3145,
+    "output_tokens": 75
+  }
+}

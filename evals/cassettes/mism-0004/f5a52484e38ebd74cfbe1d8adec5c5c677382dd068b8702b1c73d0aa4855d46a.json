@@ -2,8 +2,8 @@
   "format": 1,
   "key": "f5a52484e38ebd74cfbe1d8adec5c5c677382dd068b8702b1c73d0aa4855d46a",
   "provider": "anthropic",
-  "recorded_at": "2026-10-13T05:45:10+00:00",
-  "recorded_with": "ground-truth oracle",
+  "recorded_at": "2026-10-13T07:44:43+00:00",
+  "recorded_with": "anthropic",
   "request": {
     "effort": "low",
     "max_tokens": 16000,
@@ -15,27 +15,27 @@
   "response": {
     "data": {
       "buyer_name": {
-        "confidence": "0.97",
-        "evidence": "Brown-Rose",
+        "confidence": "0.96",
+        "evidence": "SOLD TO\nBrown-Rose",
         "value": "Brown-Rose"
       },
       "currency": {
-        "confidence": "0.97",
-        "evidence": "All amounts are in US dollars (USD). Please quote invoice 2026/8750 with your payment.",
+        "confidence": "0.9",
+        "evidence": "All amounts are in US dollars (USD).",
         "value": "USD"
       },
       "incoterm": {
-        "confidence": "0.97",
+        "confidence": "0.9",
         "evidence": "FOB Guayaquil (Incoterms 2020)",
         "value": "FOB Guayaquil"
       },
       "invoice_date": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Date: September 21, 2026",
         "value": "September 21, 2026"
       },
       "invoice_number": {
-        "confidence": "0.97",
+        "confidence": "0.98",
         "evidence": "Number: 2026/8750",
         "value": "2026/8750"
       },
@@ -43,197 +43,197 @@
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "evidence": "57.90 6,948.00",
             "value": "6,948.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "confidence": "0.96",
+            "evidence": "1.1kW Italy 120",
             "value": "Italy"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
             "value": "Centrifugal water pump 1.1kW"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "evidence": "Italy 120 pcs 57.90 6,948.00",
             "value": "120"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "confidence": "0.96",
+            "evidence": "120 pcs 57.90",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "evidence": "pcs 57.90 6,948.00",
             "value": "57.90"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "02 Split air conditioner 12000 BTU China 102 pcs 357.18 36,432.36",
+            "evidence": "357.18 36,432.36",
             "value": "36,432.36"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "02 Split air conditioner 12000 BTU China 102 pcs 357.18 36,432.36",
+            "confidence": "0.96",
+            "evidence": "BTU China 102",
             "value": "China"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "02 Split air conditioner 12000 BTU China 102 pcs 357.18 36,432.36",
             "value": "Split air conditioner 12000 BTU"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "02 Split air conditioner 12000 BTU China 102 pcs 357.18 36,432.36",
+            "evidence": "China 102 pcs 357.18",
             "value": "102"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "confidence": "0.96",
+            "evidence": "102 pcs 357.18",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "02 Split air conditioner 12000 BTU China 102 pcs 357.18 36,432.36",
+            "evidence": "pcs 357.18 36,432.36",
             "value": "357.18"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "03 Terry cotton bath towel 70x140 Turkey 800 pcs 2.82 2,256.00",
+            "evidence": "2.82 2,256.00",
             "value": "2,256.00"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "03 Terry cotton bath towel 70x140 Turkey 800 pcs 2.82 2,256.00",
+            "confidence": "0.96",
+            "evidence": "70x140 Turkey 800",
             "value": "Turkey"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "03 Terry cotton bath towel 70x140 Turkey 800 pcs 2.82 2,256.00",
             "value": "Terry cotton bath towel 70x140"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "03 Terry cotton bath towel 70x140 Turkey 800 pcs 2.82 2,256.00",
+            "evidence": "Turkey 800 pcs 2.82",
             "value": "800"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "confidence": "0.96",
+            "evidence": "800 pcs 2.82",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "03 Terry cotton bath towel 70x140 Turkey 800 pcs 2.82 2,256.00",
+            "evidence": "pcs 2.82 2,256.00",
             "value": "2.82"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "04 Green Arabica coffee beans, grade 1 Ethiopia 8,940 kg 5.34 47,739.60",
+            "evidence": "5.34 47,739.60",
             "value": "47,739.60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "04 Green Arabica coffee beans, grade 1 Ethiopia 8,940 kg 5.34 47,739.60",
+            "confidence": "0.96",
+            "evidence": "grade 1 Ethiopia 8,940",
             "value": "Ethiopia"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "04 Green Arabica coffee beans, grade 1 Ethiopia 8,940 kg 5.34 47,739.60",
             "value": "Green Arabica coffee beans, grade 1"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "04 Green Arabica coffee beans, grade 1 Ethiopia 8,940 kg 5.34 47,739.60",
+            "evidence": "Ethiopia 8,940 kg 5.34",
             "value": "8,940"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "04 Green Arabica coffee beans, grade 1 Ethiopia 8,940 kg 5.34 47,739.60",
+            "confidence": "0.96",
+            "evidence": "8,940 kg 5.34",
             "value": "kg"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "04 Green Arabica coffee beans, grade 1 Ethiopia 8,940 kg 5.34 47,739.60",
+            "evidence": "kg 5.34 47,739.60",
             "value": "5.34"
           }
         },
         {
           "amount": {
             "confidence": "0.97",
-            "evidence": "05 Inflatable beach ball 40cm China 15,800 pcs 0.2920 4,613.60",
+            "evidence": "0.2920 4,613.60",
             "value": "4,613.60"
           },
           "country_of_origin": {
-            "confidence": "0.97",
-            "evidence": "02 Split air conditioner 12000 BTU China 102 pcs 357.18 36,432.36",
+            "confidence": "0.96",
+            "evidence": "40cm China 15,800",
             "value": "China"
           },
           "currency": {
-            "confidence": "0.97",
+            "confidence": "0.9",
             "evidence": "",
             "value": ""
           },
           "description": {
-            "confidence": "0.97",
+            "confidence": "0.96",
             "evidence": "05 Inflatable beach ball 40cm China 15,800 pcs 0.2920 4,613.60",
             "value": "Inflatable beach ball 40cm"
           },
           "quantity": {
             "confidence": "0.97",
-            "evidence": "05 Inflatable beach ball 40cm China 15,800 pcs 0.2920 4,613.60",
+            "evidence": "China 15,800 pcs 0.2920",
             "value": "15,800"
           },
           "unit": {
-            "confidence": "0.97",
-            "evidence": "01 Centrifugal water pump 1.1kW Italy 120 pcs 57.90 6,948.00",
+            "confidence": "0.96",
+            "evidence": "15,800 pcs 0.2920",
             "value": "pcs"
           },
           "unit_price": {
             "confidence": "0.97",
-            "evidence": "05 Inflatable beach ball 40cm China 15,800 pcs 0.2920 4,613.60",
+            "evidence": "pcs 0.2920 4,613.60",
             "value": "0.2920"
           }
         }
       ],
       "payment_terms": {
-        "confidence": "0.97",
+        "confidence": "0.96",
         "evidence": "Terms: L/C at sight",
         "value": "L/C at sight"
       },
       "seller_name": {
-        "confidence": "0.97",
-        "evidence": "Fátima Quintanilla Ferreras S.L. I N VO I C E",
+        "confidence": "0.95",
+        "evidence": "Fátima Quintanilla Ferreras S.L.",
         "value": "Fátima Quintanilla Ferreras S.L."
       },
       "total_amount": {
@@ -242,8 +242,8 @@
         "value": "97,989.56"
       }
     },
-    "input_tokens": 440,
-    "latency_ms": 0,
-    "output_tokens": 1361
+    "input_tokens": 2315,
+    "latency_ms": 10089,
+    "output_tokens": 1885
   }
 }

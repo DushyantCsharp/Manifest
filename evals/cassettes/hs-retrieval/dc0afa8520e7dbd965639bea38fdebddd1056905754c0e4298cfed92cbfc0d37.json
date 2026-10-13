@@ -1,168 +1,188 @@
 {
   "format": 1,
   "key": "dc0afa8520e7dbd965639bea38fdebddd1056905754c0e4298cfed92cbfc0d37",
-  "retriever": "offline-lexical",
+  "retriever": "hybrid",
   "query": "Cordless electric drill 18V with self-contained motor origin CN",
   "limit": 20,
   "candidates": [
     {
       "code": "846721",
       "description": "Tools; for working in the hand, with self-contained electric motor; drills of all kinds",
-      "score": "0.016393",
+      "score": "0.032787",
       "ranks": {
-        "lexical": 1
-      }
-    },
-    {
-      "code": "846729",
-      "description": "Tools; for working in the hand, with self-contained electric motor; other than saws and drills",
-      "score": "0.016129",
-      "ranks": {
-        "lexical": 2
+        "lexical": 1,
+        "vector": 1
       }
     },
     {
       "code": "846722",
       "description": "Tools; for working in the hand, with self-contained electric motor; saws",
-      "score": "0.015873",
+      "score": "0.032002",
       "ranks": {
-        "lexical": 3
+        "lexical": 3,
+        "vector": 2
       }
     },
     {
-      "code": "850860",
-      "description": "Vacuum cleaners, other than with a self-contained electric motor",
-      "score": "0.015625",
+      "code": "846729",
+      "description": "Tools; for working in the hand, with self-contained electric motor; other than saws and drills",
+      "score": "0.032002",
       "ranks": {
-        "lexical": 4
-      }
-    },
-    {
-      "code": "851010",
-      "description": "Shavers; with self-contained electric motor",
-      "score": "0.015385",
-      "ranks": {
-        "lexical": 5
-      }
-    },
-    {
-      "code": "851020",
-      "description": "Hair clippers; with a self-contained electric motor",
-      "score": "0.015152",
-      "ranks": {
-        "lexical": 6
-      }
-    },
-    {
-      "code": "851030",
-      "description": "Hair-removing appliances; with self-contained electric motor",
-      "score": "0.014925",
-      "ranks": {
-        "lexical": 7
+        "lexical": 2,
+        "vector": 3
       }
     },
     {
       "code": "846781",
       "description": "Tools; for working in the hand, chain saws with self-contained non-electric motor",
-      "score": "0.014706",
+      "score": "0.031250",
       "ranks": {
-        "lexical": 8
-      }
-    },
-    {
-      "code": "850819",
-      "description": "Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1",
-      "score": "0.014493",
-      "ranks": {
-        "lexical": 9
+        "lexical": 4,
+        "vector": 4
       }
     },
     {
       "code": "846791",
       "description": "Tools; for working in the hand, parts of chain saws, with self-contained non-electric motor",
-      "score": "0.014286",
+      "score": "0.030536",
       "ranks": {
-        "lexical": 10
+        "lexical": 6,
+        "vector": 5
       }
     },
     {
-      "code": "851090",
-      "description": "Shavers and hair clippers; parts of those with self-contained electric motor",
-      "score": "0.014085",
+      "code": "851020",
+      "description": "Hair clippers; with a self-contained electric motor",
+      "score": "0.029437",
       "ranks": {
-        "lexical": 11
+        "lexical": 10,
+        "vector": 6
+      }
+    },
+    {
+      "code": "851010",
+      "description": "Shavers; with self-contained electric motor",
+      "score": "0.029199",
+      "ranks": {
+        "lexical": 9,
+        "vector": 8
       }
     },
     {
       "code": "846789",
       "description": "Tools; for working in the hand, (other than chain saws), hydraulic or with self-contained non-electric motor, (not pneumatic)",
-      "score": "0.013889",
+      "score": "0.028718",
       "ranks": {
-        "lexical": 12
+        "lexical": 5,
+        "vector": 15
+      }
+    },
+    {
+      "code": "851090",
+      "description": "Shavers and hair clippers; parts of those with self-contained electric motor",
+      "score": "0.028382",
+      "ranks": {
+        "lexical": 12,
+        "vector": 9
+      }
+    },
+    {
+      "code": "851030",
+      "description": "Hair-removing appliances; with self-contained electric motor",
+      "score": "0.027973",
+      "ranks": {
+        "lexical": 11,
+        "vector": 12
       }
     },
     {
       "code": "850980",
       "description": "Electro-mechanical domestic appliances; with self-contained electric motor, other than vacuum cleaners of heading 85.08, n.e.c. in heading no. 8509",
-      "score": "0.013699",
+      "score": "0.027864",
       "ranks": {
-        "lexical": 13
+        "lexical": 8,
+        "vector": 16
       }
     },
     {
-      "code": "850811",
-      "description": "Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L",
-      "score": "0.013514",
+      "code": "850819",
+      "description": "Vacuum cleaners, with self-contained electric motor, n.e.c. in item no. 8508.1",
+      "score": "0.027120",
       "ranks": {
-        "lexical": 14
+        "lexical": 22,
+        "vector": 7
       }
     },
     {
       "code": "850940",
       "description": "Electro-mechanical domestic appliances; food grinders and mixers, fruit or vegetable juice extractors, with self-contained electric motor",
-      "score": "0.013333",
+      "score": "0.026553",
       "ranks": {
-        "lexical": 15
+        "lexical": 7,
+        "vector": 26
       }
     },
     {
-      "code": "841451",
-      "description": "Fans; table, floor, wall, window, ceiling or roof fans, with a self-contained electric motor of an output not exceeding 125W",
-      "score": "0.013158",
+      "code": "850811",
+      "description": "Vacuum cleaners, with self-contained electric motor, of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20L",
+      "score": "0.026430",
       "ranks": {
-        "lexical": 16
+        "lexical": 21,
+        "vector": 11
       }
     },
     {
-      "code": "846792",
-      "description": "Tools; for working in the hand, parts of pneumatic tools",
-      "score": "0.012987",
+      "code": "850860",
+      "description": "Vacuum cleaners, other than with a self-contained electric motor",
+      "score": "0.023542",
       "ranks": {
-        "lexical": 17
+        "lexical": 23,
+        "vector": 27
       }
     },
     {
-      "code": "846719",
-      "description": "Tools; for working in the hand, pneumatic, other than rotary type",
-      "score": "0.012821",
+      "code": "845921",
+      "description": "Machine-tools; for drilling by removing metal, numerically controlled",
+      "score": "0.014286",
       "ranks": {
-        "lexical": 18
+        "lexical": null,
+        "vector": 10
       }
     },
     {
-      "code": "846799",
-      "description": "Tools; for working in the hand, parts thereof for other than chain saws and pneumatic tools",
-      "score": "0.012658",
+      "code": "845929",
+      "description": "Machine-tools; for drilling by removing metal, other than numerically controlled",
+      "score": "0.013699",
       "ranks": {
-        "lexical": 19
+        "lexical": null,
+        "vector": 13
       }
     },
     {
-      "code": "846711",
-      "description": "Tools; for working in the hand, pneumatic, rotary type (including combined rotary-percussion)",
-      "score": "0.012500",
+      "code": "854921",
+      "description": "Electrical and electronic waste and scrap; of a kind used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switches, glass from cathode ray tubes or other activated glass, or electrical",
+      "score": "0.013699",
       "ranks": {
-        "lexical": 20
+        "lexical": 13,
+        "vector": null
+      }
+    },
+    {
+      "code": "854931",
+      "description": "Electrical and electronic waste and scrap; electrical and electronic assemblies and printed circuit boards, other than those used principally for the recovery of precious metal, containing primary cells and batteries, electric accumulators, mercury-switch",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14,
+        "vector": null
+      }
+    },
+    {
+      "code": "901841",
+      "description": "Dental instruments and appliances; dental drill engines, whether or not combined on a single base with other dental equipment",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": null,
+        "vector": 14
       }
     }
   ]
