@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "86a395644f5cdb64db068639db8ea542d9169f7c475f3ab5b4c504adfa77fc6b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:32+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Electric kettle 1.7L stainless\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8516 Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n\nChoose the subheading that covers these goods. Options:\n- 851671: Electro-thermic appliances; coffee or tea makers, of a kind used for domestic purposes\n- 851660: Ovens, cookers, cooking plates, boiling rings, grillers and roasters; of a kind used for domestic purposes (excluding microwaves)\n- 851672: Electro-thermic appliances; toasters, of a kind used for domestic purposes\n- 851610: Heaters; electric, instantaneous or storage water and immersion heaters\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5efba58b96e123a20392f18f684a0de05f3da998a3f60d991a4111d74a57e028",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "none",
+      "cited": [
+        "8516"
+      ],
+      "confidence": "0.8",
+      "reason": "An electric kettle is a domestic electro-thermic appliance that belongs in 8516.79 (other), which is not among the options; it is not a coffee or tea maker, cooker, toaster, or water heater of 8516.10."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1089,
+    "latency_ms": 5048,
+    "output_tokens": 353,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

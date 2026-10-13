@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "3379899980e9c7900905bed2fdb5154b8d12b7b75723f0a941c347e5b02a7965",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:43+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: BLACK TEA, CTC, BULK\nCountry of origin: KE\n\nChosen so far: 09 Coffee, tea, mate and spices\n\nChoose the heading that covers these goods. Options:\n- 0902: Tea\n    contains 090240: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg\n    contains 090230: Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n- 0908: Nutmeg, mace and cardamoms\n    contains 090832: Spices; cardamoms, crushed or ground\n    contains 090831: Spices; cardamoms, neither crushed nor ground\n    contains 090821: Spices; mace, neither crushed nor ground\n- 0906: Cinnamon and cinnamon-tree flowers\n    contains 090620: Spices; cinnamon and cinnamon-tree flowers, crushed or ground\n- 0901: Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion\n    contains 090111: Coffee; not roasted or decaffeinated\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a7a0af26bc5513685dab56d92976822ad4f12c88073a9ba11ba278dd3a60dcea",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0902",
+      "cited": [
+        "0902",
+        "090240"
+      ],
+      "confidence": "0.99",
+      "reason": "Black CTC tea is tea of heading 0902, and the bulk presentation points to the over-3kg black tea subheading 090240."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1218,
+    "latency_ms": 2756,
+    "output_tokens": 80,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

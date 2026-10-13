@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "8efbb214b341228ae523023f8c4f40f4ca2ce7ed3bd5e353ab066689de09db1b",
+  "retriever": "hybrid",
+  "query": "Men's crew-neck T-shirt, 100% cotton jersey origin IN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "610510",
+      "description": "Shirts; men's or boys', of cotton, knitted or crocheted",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 1,
+        "vector": 2
+      }
+    },
+    {
+      "code": "620520",
+      "description": "Shirts; men's or boys', of cotton (not knitted or crocheted)",
+      "score": "0.031778",
+      "ranks": {
+        "lexical": 5,
+        "vector": 1
+      }
+    },
+    {
+      "code": "610590",
+      "description": "Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
+      "score": "0.031514",
+      "ranks": {
+        "lexical": 2,
+        "vector": 5
+      }
+    },
+    {
+      "code": "610610",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "610910",
+      "description": "T-shirts, singlets and other vests; of cotton, knitted or crocheted",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "610690",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "620590",
+      "description": "Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "620530",
+      "description": "Shirts; men's or boys', of man-made fibres (not knitted or crocheted)",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "620630",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "520511",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "610520",
+      "description": "Shirts; men's or boys', of man-made fibres, knitted or crocheted",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "520512",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "610990",
+      "description": "T-shirts, singlets and other vests; of textile materials (other than cotton), knitted or crocheted",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "520513",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "610342",
+      "description": "Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton, knitted or crocheted",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "520514",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "610322",
+      "description": "Ensembles; men's or boys', of cotton, knitted or crocheted",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "520515",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring less than 125 decitex (exceeding 80 metric number), not for retail sale",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "620322",
+      "description": "Ensembles; men's or boys', of cotton (not knitted or crocheted)",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "520521",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12,
+        "vector": null
+      }
+    }
+  ]
+}

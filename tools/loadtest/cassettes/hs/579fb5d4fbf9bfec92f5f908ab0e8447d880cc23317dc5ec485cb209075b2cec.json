@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "579fb5d4fbf9bfec92f5f908ab0e8447d880cc23317dc5ec485cb209075b2cec",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:09+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Roasted coffee beans, whole\nCountry of origin: IT\n\nChosen so far: 09 Coffee, tea, mate and spices\n\nChoose the heading that covers these goods. Options:\n- 0901: Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n    contains 090122: Coffee; roasted, decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n- 0907: Cloves (whole fruit, cloves and stems)\n    contains 090710: Spices; cloves (whole fruit, cloves and stems), neither crushed nor ground\n    contains 090720: Spices; cloves (whole fruit, cloves and stems), crushed or ground\n- 0904: Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta\n    contains 090411: Spices; pepper (of the genus piper), neither crushed nor ground\n    contains 090421: Spices; fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground\n- 0908: Nutmeg, mace and cardamoms\n    contains 090831: Spices; cardamoms, neither crushed nor ground\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8ce663ed35765807d2dffe97772f97159d6f9a2c583356931786933b64373cb0",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0901",
+      "cited": [
+        "0901",
+        "090121"
+      ],
+      "confidence": "0.99",
+      "reason": "Roasted whole coffee beans are coffee, roasted, which heading 0901 covers expressly (subheading 090121 if not decaffeinated)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1257,
+    "latency_ms": 3002,
+    "output_tokens": 87,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

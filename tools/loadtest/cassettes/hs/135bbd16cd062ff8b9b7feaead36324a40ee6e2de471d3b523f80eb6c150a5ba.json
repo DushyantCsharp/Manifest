@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "135bbd16cd062ff8b9b7feaead36324a40ee6e2de471d3b523f80eb6c150a5ba",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:05+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LDPE film-grade granules\nCountry of origin: KR\n\nChosen so far: 39 Plastics and articles thereof > 3901 Polymers of ethylene, in primary forms\n\nChoose the subheading that covers these goods. Options:\n- 390110: Ethylene polymers; in primary forms, polyethylene having a specific gravity of less than 0.94\n- 390140: Ethylene polymers; in primary forms, ethylene-alpha-olefin copolymers, having a specific gravity of less than 0.94\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0e43b986eb438e6ff49e425666b15b488e5657bf2ef90f24927d63f621bac2d7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "390110",
+      "cited": [
+        "390110"
+      ],
+      "confidence": "0.85",
+      "reason": "LDPE film-grade granules are low-density polyethylene (specific gravity below 0.94) in primary form, which falls under 390110 rather than the ethylene-alpha-olefin copolymers of 390140 (such as LLDPE)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 907,
+    "latency_ms": 3181,
+    "output_tokens": 113,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

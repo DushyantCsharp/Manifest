@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "0eafb68cd833a90b7060f74eaa5f3940268fc7a20e5893344e8cc7ff9ebc78cb",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:06+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: STAINLESS CUTLERY SET, 24 PIECES\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 821520: Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter knives, sugar tongs and similar), not plated with precious metal\n    contains 821510: Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar), with at least one article plated with precious metal\n    contains 821591: Cutlery; (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar), plated with precious metal, not in sets\n    contains 821490: Cutlery; hair clippers and mincing knives\n    contains 821599: Cutlery; other than plated with precious metal\n    contains 821410: Cutlery; paper knives, letter openers, erasing knives, pencil sharpeners and blades therefore\n    contains 821420: Manicure or pedicure sets and instruments; (including nail files)\n    contains 820600: Tools, hand; two or more of heading no. 8202 to 8205, put up in sets for retail sale\n    contains 820830: Tools; knives and cutting blades, for kitchen appliances or for machines used by the food industry\n    contains 820810: Tools; knives and cutting blades, for machines or for mechanical appliances, for metal working\n    contains 821110: Knives; with cutting blades, serrated or not (including pruning knives), sets of assorted articles, excluding knives and blades of heading no. 8208\n    contains 820890: Tools; knives and cutting blades, for machines or mechanical appliances, n.e.c. in heading no. 8208\n    contains 820900: Tools; plates, sticks, tips and the like for tools, unmounted, of sintered metal carbides or cermets\n    contains 821191: Knives; table knives, having fixed cutting blades, serrated or not, excluding knives and blades of heading no. 8208\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 73: Iron or steel articles\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854430: Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships\n- 58: Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery\n    contains 580810: Braids; in the piece\n    contains 580890: Ornamental trimmings; tassels, pompons and similar articles; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3403d41395950b69d8d30e32f5dcb683dbb0254b7d4a579c87a38ea8e2afa8f9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "82",
+      "cited": [
+        "82",
+        "821520"
+      ],
+      "confidence": "0.97",
+      "reason": "A stainless steel cutlery set of assorted articles (spoons, forks, knives) falls in Chapter 82 under heading 8215 (sets of assorted articles, not plated with precious metal)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1949,
+    "latency_ms": 3222,
+    "output_tokens": 100,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

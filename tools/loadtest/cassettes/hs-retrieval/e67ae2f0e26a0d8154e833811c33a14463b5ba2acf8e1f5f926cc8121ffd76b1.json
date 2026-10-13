@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "e67ae2f0e26a0d8154e833811c33a14463b5ba2acf8e1f5f926cc8121ffd76b1",
+  "retriever": "hybrid",
+  "query": "PASSENGER CAR TYRE 205/55R16 origin TH",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "401110",
+      "description": "Rubber; new pneumatic tyres, of a kind used on motor cars (including station wagons and racing cars)",
+      "score": "0.030798",
+      "ranks": {
+        "lexical": 3,
+        "vector": 7
+      }
+    },
+    {
+      "code": "401211",
+      "description": "Retreaded tyres; of a kind used on motor cars (including station wagons and racing cars)",
+      "score": "0.029907",
+      "ranks": {
+        "lexical": 1,
+        "vector": 14
+      }
+    },
+    {
+      "code": "401219",
+      "description": "Retreaded tyres; other than of a kind used on motor cars (including station wagons and racing cars), buses and lorries and aircraft",
+      "score": "0.028950",
+      "ranks": {
+        "lexical": 2,
+        "vector": 18
+      }
+    },
+    {
+      "code": "401220",
+      "description": "Rubber; used pneumatic tyres",
+      "score": "0.027984",
+      "ranks": {
+        "lexical": 13,
+        "vector": 10
+      }
+    },
+    {
+      "code": "401150",
+      "description": "Rubber; new pneumatic tyres, of a kind used on bicycles",
+      "score": "0.027638",
+      "ranks": {
+        "lexical": 25,
+        "vector": 3
+      }
+    },
+    {
+      "code": "401120",
+      "description": "Rubber; new pneumatic tyres, of a kind used on buses or lorries",
+      "score": "0.027580",
+      "ranks": {
+        "lexical": 22,
+        "vector": 5
+      }
+    },
+    {
+      "code": "401190",
+      "description": "Rubber; new pneumatic tyres, of a kind used on light commercial vehicles",
+      "score": "0.026989",
+      "ranks": {
+        "lexical": 28,
+        "vector": 4
+      }
+    },
+    {
+      "code": "401212",
+      "description": "Retreaded tyres; of a kind used on motor buses or lorries",
+      "score": "0.026743",
+      "ranks": {
+        "lexical": 11,
+        "vector": 19
+      }
+    },
+    {
+      "code": "401170",
+      "description": "Rubber; new pneumatic tyres, of a kind used on agricultural or forestry vehicles and machines",
+      "score": "0.026334",
+      "ranks": {
+        "lexical": 26,
+        "vector": 8
+      }
+    },
+    {
+      "code": "401213",
+      "description": "Retreaded tyres; of a kind used on aircraft",
+      "score": "0.026235",
+      "ranks": {
+        "lexical": 12,
+        "vector": 21
+      }
+    },
+    {
+      "code": "401290",
+      "description": "Rubber; tyres n.e.c. in heading no. 4012",
+      "score": "0.026014",
+      "ranks": {
+        "lexical": 14,
+        "vector": 20
+      }
+    },
+    {
+      "code": "401130",
+      "description": "Rubber; new pneumatic tyres, of a kind used on aircraft",
+      "score": "0.025747",
+      "ranks": {
+        "lexical": 23,
+        "vector": 13
+      }
+    },
+    {
+      "code": "401180",
+      "description": "Rubber; new pneumatic tyres, of a kind used on construction, mining or industrial handling vehicles and machines",
+      "score": "0.025579",
+      "ranks": {
+        "lexical": 27,
+        "vector": 11
+      }
+    },
+    {
+      "code": "401140",
+      "description": "Rubber; new pneumatic tyres, of a kind used on motorcycles",
+      "score": "0.025238",
+      "ranks": {
+        "lexical": 24,
+        "vector": 15
+      }
+    },
+    {
+      "code": "400610",
+      "description": "Rubber; unvulcanised, camel-back strips for retreading rubber tyres",
+      "score": "0.022332",
+      "ranks": {
+        "lexical": 49,
+        "vector": 16
+      }
+    },
+    {
+      "code": "400690",
+      "description": "Rubber; unvulcanised, other than camel back strips for retreading rubber tyres",
+      "score": "0.020719",
+      "ranks": {
+        "lexical": 50,
+        "vector": 26
+      }
+    },
+    {
+      "code": "401310",
+      "description": "Rubber; inner tubes, of a kind used on motorcars (including station wagons and racing cars), buses and lorries",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "401390",
+      "description": "Rubber; inner tubes, n.e.c. in heading no. 4013",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "871110",
+      "description": "Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, with internal combustion piston engine of a cylinder capacity not exceeding 50cc, with or without side-cars; side-cars",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    }
+  ]
+}

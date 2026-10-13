@@ -9,7 +9,8 @@ from sqlalchemy.orm import Session, sessionmaker
 from manifest_db.models import EMBEDDING_DIMENSIONS
 from manifest_db.session import sync_session_factory
 from manifest_domain.calibration import Calibrator, load
-from manifest_hs.retrieval import PostgresRetriever
+from manifest_hs.recorded import RecordedRetriever
+from manifest_hs.retrieval import PostgresRetriever, Retriever
 from manifest_hs.walk import HsWalker
 from manifest_llm.anthropic_provider import AnthropicProvider
 from manifest_llm.cassette import CassetteProvider
@@ -129,7 +130,11 @@ def build_hs_classifier(
             return result.vectors[0]
 
     model = config.embedding_model if embedder else None
-    retriever = PostgresRetriever(sessions, embed, model)
+    retriever: Retriever = PostgresRetriever(sessions, embed, model)
+    if config.hs_retrievals is not None:
+        retriever = RecordedRetriever(
+            config.hs_retrievals, mode=config.hs_retrieval_mode, inner=retriever
+        )
     walker = HsWalker(
         gateway,
         provider.name,

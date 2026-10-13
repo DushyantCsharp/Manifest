@@ -127,9 +127,12 @@ keeps confidence measurable by `evals/`.
   with `make dlq`.
 - Prefork needs `fork`: on macOS billiard spawns its children, which can't run tasks, so run
   the worker in its container there (`make app`) or with `--pool threads`.
-- `MANIFEST_HS_ENABLED=false` skips the HS walk (lines route to review as HS_UNCERTAIN);
-  `MANIFEST_LLM_REPLAY_LATENCY=true` makes cassette replays take their recorded time. Both
-  exist for load tests.
+- For load tests: `MANIFEST_LLM_REPLAY_LATENCY=true` makes cassette replays take their
+  recorded time, `MANIFEST_HS_RETRIEVALS` replays HS retrieval from recordings (so walk
+  prompts, and their recorded answers, match), and `MANIFEST_HS_ENABLED=false` skips the walk
+  (lines route to review as HS_UNCERTAIN).
+- `hs_classify` walks a shipment's lines one after another in one task: about 10 s per line
+  with a live model, so a 3-line pack spends ~30 s there (see the load-test reports).
 
 ### Telemetry (`libs/telemetry`)
 - One `configure(service)` per process, before anything creates an engine or client: the API
@@ -237,6 +240,12 @@ make lint / fmt        ruff + import contracts
 make infra-check       promtool: check and unit-test the alert rules (Docker)
 make loadtest         Locust against the app images, replaying recorded model answers at
                        their recorded latency; report vs tools/loadtest/targets.yaml
+make loadtest-record-hs  record the load test's HS walks and retrievals (live models, ~$1.50;
+                       again whenever the walk's prompt, model or the HS index changes)
+make demo              re-record docs/demo.gif (vhs): a burst shed by admission, a storage
+                       outage retried through, on the real containers with replayed answers
+make readme            regenerate README.md's targets, cost and 10x tables from the latest
+                       eval report and load-test reports (`--check` fails when stale)
 make typecheck         mypy --strict on libs/
 make contracts         export contracts/ from the app + regenerate all typed clients
 make contracts-check   fail if contracts/ or clients drifted (CI); `uv run python
@@ -244,6 +253,13 @@ make contracts-check   fail if contracts/ or clients drifted (CI); `uv run pytho
 make check             lint + typecheck + test + test-contract + contracts-check + eval — run before
                        calling work done (and test-integration when you touched db/worker/llm)
 ```
+
+## README
+- `README.md`'s tables between `<!-- generated:NAME -->` markers are build outputs of
+  `scripts/readme.py`: never hand-edit them. They carry the commit and date of the reports they
+  came from (eval `report.json` and load-test reports stamp `commit`, `dirty`, `generated_at`),
+  so regenerate after `make eval` and `make loadtest` on a committed tree.
+- Architecture decisions live in `docs/adr/`; add an ADR when a decision of that weight changes.
 
 ## Testing
 - **Markers** (`--strict-markers`; the default run excludes the last three): unmarked = unit,

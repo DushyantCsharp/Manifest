@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "584e6e590151c056884f1821b7a447537ec15133d9a2f65b89ee29985fcaa558",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:44+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Laptop computer 14in, 16GB RAM\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8471: Automatic data processing machines and units thereof, magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n    contains 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n    contains 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n    contains 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n    contains 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n- 8470: Calculating machines and pocket-size data recording, reproducing and displaying machines with calculating functions; accounting machines, postage-franking machines, ticket-issuing machines and similar, incorporating a calculating device; cash registers\n    contains 847090: Machines incorporating a calculating device; n.e.c. in heading no. 8470\n    contains 847010: Calculating machines; electronic calculators capable of operation without an external source of electric power and pocket-size data recording, reproducing and displaying machines with calculating functions\n- 8486: Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor boules or wafers, semiconductor devices, electronic integrated circuits or flat panel displays; machines & apparatus specified in note 11 (C) to this Chapter\n    contains 848610: Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor boules or wafers\n    contains 848620: Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor devices or of electronic integrated circuits\n    contains 848630: Machines and apparatus of a kind used solely or principally for the manufacture of flat panel displays\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "100be391fc6652baa2eea123b55aa8d29459ca2b04997a0f92083374f54c5d91",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8471",
+      "cited": [
+        "8471",
+        "847130"
+      ],
+      "confidence": "0.98",
+      "reason": "A laptop is a portable automatic data processing machine with CPU, keyboard and display, which falls under heading 8471 (subheading 8471.30), not calculating machines or semiconductor manufacturing machinery."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1498,
+    "latency_ms": 3592,
+    "output_tokens": 106,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

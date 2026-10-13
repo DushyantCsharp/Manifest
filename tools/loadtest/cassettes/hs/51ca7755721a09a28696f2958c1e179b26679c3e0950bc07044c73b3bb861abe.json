@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "51ca7755721a09a28696f2958c1e179b26679c3e0950bc07044c73b3bb861abe",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:51+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: RUNNING SHOES, RUBBER SOLE, TEXTILE UPPER\nCountry of origin: ID\n\nChosen so far: 64 Footwear; gaiters and the like; parts of such articles > 6404 Footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials\n\nChoose the subheading that covers these goods. Options:\n- 640411: Sports footwear; tennis shoes, basketball shoes, gym shoes, training shoes and the like, with outer soles of rubber or plastics and uppers of textile materials\n- 640419: Footwear; (other than sportswear), with outer soles of rubber or plastics and uppers of textile materials\n- 640420: Footwear; outer soles of leather or composition leather, uppers of textile materials\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f59164a0faa5924c29bde8bf04df0cfcc4b830241ae576e45bb01748899f4c18",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "640411",
+      "cited": [
+        "640411"
+      ],
+      "confidence": "0.93",
+      "reason": "Running shoes are sports footwear with rubber outer soles and textile uppers, which matches 640411 (sports footwear, tennis, gym and training shoes and the like)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1006,
+    "latency_ms": 12571,
+    "output_tokens": 90,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

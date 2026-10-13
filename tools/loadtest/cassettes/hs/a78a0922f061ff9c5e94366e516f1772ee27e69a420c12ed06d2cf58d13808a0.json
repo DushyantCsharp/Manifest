@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "a78a0922f061ff9c5e94366e516f1772ee27e69a420c12ed06d2cf58d13808a0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:28+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Terry cotton bath towel 70x140\nCountry of origin: TR\n\nChosen so far: 63 Textiles, made up articles; sets; worn clothing and worn textile articles; rags\n\nChoose the heading that covers these goods. Options:\n- 6302: Bed linen, table linen, toilet linen and kitchen linen\n    contains 630260: Kitchen and toilet linen; of terry towelling or similar terry fabrics, of cotton\n    contains 630291: Toilet and kitchen linen; of cotton, excluding terry towelling or similar terry fabrics\n    contains 630251: Table linen; of cotton, not knitted or crocheted\n- 6301: Blankets and travelling rugs\n    contains 630130: Blankets (other than electric blankets) and travelling rugs; of cotton\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "aa2ef7e9dc5d462b9faa8c2edf40a8afd85312e8b800d84d96c0c670d7f42ba7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6302",
+      "cited": [
+        "6302",
+        "630260"
+      ],
+      "confidence": "0.98",
+      "reason": "A terry cotton bath towel is toilet linen of terry towelling, covered by heading 6302 (subheading 630260), not blankets of heading 6301."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1003,
+    "latency_ms": 3615,
+    "output_tokens": 88,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

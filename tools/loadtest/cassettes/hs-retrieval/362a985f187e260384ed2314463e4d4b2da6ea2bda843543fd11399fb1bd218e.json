@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "362a985f187e260384ed2314463e4d4b2da6ea2bda843543fd11399fb1bd218e",
+  "retriever": "hybrid",
+  "query": "RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "640220",
+      "description": "Footwear; with outer soles and uppers of rubber or plastics, upper straps or thongs assembled to the sole by plugs",
+      "score": "0.032787",
+      "ranks": {
+        "lexical": 1,
+        "vector": 1
+      }
+    },
+    {
+      "code": "640192",
+      "description": "Footwear; waterproof, covering the ankle (but not the knee), rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)",
+      "score": "0.031754",
+      "ranks": {
+        "lexical": 4,
+        "vector": 2
+      }
+    },
+    {
+      "code": "640110",
+      "description": "Footwear; waterproof with metal toe-cap, rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)",
+      "score": "0.031498",
+      "ranks": {
+        "lexical": 3,
+        "vector": 4
+      }
+    },
+    {
+      "code": "640199",
+      "description": "Footwear; waterproof, n.e.c. in heading no. 6401, rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)",
+      "score": "0.031258",
+      "ranks": {
+        "lexical": 5,
+        "vector": 3
+      }
+    },
+    {
+      "code": "640291",
+      "description": "Footwear; n.e.c. in heading no. 6402, covering the ankle, with outer soles and uppers of rubber or plastics",
+      "score": "0.025801",
+      "ranks": {
+        "lexical": 36,
+        "vector": 5
+      }
+    },
+    {
+      "code": "640299",
+      "description": "Footwear; n.e.c. in heading no. 6402, (other than just covering the ankle), with outer soles and uppers of rubber or plastics",
+      "score": "0.025461",
+      "ranks": {
+        "lexical": 37,
+        "vector": 6
+      }
+    },
+    {
+      "code": "640219",
+      "description": "Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles and uppers of rubber or plastics",
+      "score": "0.025232",
+      "ranks": {
+        "lexical": 35,
+        "vector": 8
+      }
+    },
+    {
+      "code": "401490",
+      "description": "Rubber; vulcanised (other than hard rubber), hygienic or pharmaceutical articles (excluding sheath contraceptives), with or without fittings of hard rubber",
+      "score": "0.025152",
+      "ranks": {
+        "lexical": 6,
+        "vector": 40
+      }
+    },
+    {
+      "code": "640391",
+      "description": "Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather",
+      "score": "0.024394",
+      "ranks": {
+        "lexical": 41,
+        "vector": 9
+      }
+    },
+    {
+      "code": "640419",
+      "description": "Footwear; (other than sportswear), with outer soles of rubber or plastics and uppers of textile materials",
+      "score": "0.023901",
+      "ranks": {
+        "lexical": 44,
+        "vector": 10
+      }
+    },
+    {
+      "code": "640399",
+      "description": "Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles of rubber, plastics or composition leather, uppers of leather",
+      "score": "0.023888",
+      "ranks": {
+        "lexical": 42,
+        "vector": 11
+      }
+    },
+    {
+      "code": "640340",
+      "description": "Footwear; with metal toe-cap, outer soles of rubber, plastics, leather or composition leather, uppers of leather",
+      "score": "0.023699",
+      "ranks": {
+        "lexical": 40,
+        "vector": 13
+      }
+    },
+    {
+      "code": "401590",
+      "description": "Rubber; vulcanised (other than hard rubber), articles of apparel and clothing accessories (other than gloves, mittens and mitts)",
+      "score": "0.023690",
+      "ranks": {
+        "lexical": 32,
+        "vector": 18
+      }
+    },
+    {
+      "code": "640212",
+      "description": "Sports footwear; with outer soles and uppers of rubber or plastics, ski-boots, cross-country ski footwear and snowboard boots",
+      "score": "0.023625",
+      "ranks": {
+        "lexical": 34,
+        "vector": 17
+      }
+    },
+    {
+      "code": "640319",
+      "description": "Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles of rubber, plastics, leather or composition leather and uppers of leather",
+      "score": "0.023615",
+      "ranks": {
+        "lexical": 39,
+        "vector": 14
+      }
+    },
+    {
+      "code": "400922",
+      "description": "Rubber; vulcanised (other than hard rubber), tubing, piping and hoses, reinforced or otherwise combined only with metal, with fittings",
+      "score": "0.023393",
+      "ranks": {
+        "lexical": 25,
+        "vector": 26
+      }
+    },
+    {
+      "code": "401691",
+      "description": "Rubber; vulcanised (other than hard rubber), floor coverings and mats, of non-cellular rubber",
+      "score": "0.023323",
+      "ranks": {
+        "lexical": 12,
+        "vector": 46
+      }
+    },
+    {
+      "code": "400921",
+      "description": "Rubber; vulcanised (other than hard rubber), tubing, piping and hoses, reinforced or otherwise combined only with metal, without fittings",
+      "score": "0.023268",
+      "ranks": {
+        "lexical": 24,
+        "vector": 28
+      }
+    },
+    {
+      "code": "400912",
+      "description": "Rubber; vulcanised (other than hard rubber), tubing, piping and hoses, not reinforced or otherwise combined with other materials, with fittings",
+      "score": "0.022918",
+      "ranks": {
+        "lexical": 23,
+        "vector": 32
+      }
+    },
+    {
+      "code": "401519",
+      "description": "Rubber; vulcanised (other than hard rubber), gloves, mittens and mitts other than surgical gloves",
+      "score": "0.022894",
+      "ranks": {
+        "lexical": 31,
+        "vector": 24
+      }
+    }
+  ]
+}

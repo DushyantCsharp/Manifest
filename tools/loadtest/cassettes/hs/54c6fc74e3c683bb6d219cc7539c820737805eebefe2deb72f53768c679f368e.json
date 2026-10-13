@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "54c6fc74e3c683bb6d219cc7539c820737805eebefe2deb72f53768c679f368e",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:40+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: RED WINE, 0.75L BOTTLE\nCountry of origin: FR\n\nChoose the chapter that covers these goods. Options:\n- 22: Beverages, spirits and vinegar\n    contains 220421: Wine; still, in containers holding 2 litres or less\n    contains 220422: Wine; still, in containers holding more than 2 litres but not more than 10 litres\n    contains 220410: Wine; sparkling\n    contains 220429: Wine; still, in containers holding more than 10 litres\n    contains 220510: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less\n    contains 220590: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding more than 2 litres\n    contains 220820: Spirits obtained by distilling grape wine or grape marc\n    contains 220430: Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2\n- 23: Food industries, residues and wastes thereof; prepared animal fodder\n    contains 230700: Wine lees; argol\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 843590: Presses, crushers and similar machinery; parts, used in the manufacture of wine, cider, fruit juices or similar beverages\n    contains 843510: Presses, crushers and similar machinery; used in the manufacture of wine, cider, fruit juices or similar beverages\n- 70: Glass and glassware\n    contains 701090: Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods\n    contains 701010: Glass; ampoules, of a kind used for the conveyance or packing of goods\n    contains 701020: Glass; stoppers, lids and other closures\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 081030: Fruit, edible; black, white or red currants and gooseberries, fresh\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 44: Wood and articles of wood; wood charcoal\n    contains 440341: Wood, tropical; as specified in Subheading Note 2 to this Chapter, dark red meranti, light red meranti and meranti bakau, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated\n    contains 440349: Wood, tropical; other than dark red meranti, light red meranti meranti bakau and teak, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated\n    contains 440725: Wood, tropical; dark red meranti, light red meranti and meranti bakau, sawn or chipped lengthwise, sliced or peeled, whether or not planed, sanded or finger-jointed, thicker than 6mm\n    contains 440831: Wood, tropical; as specified in Subheading Note 2 to this Chapter, dark red meranti, light red meranti, meranti bakau, sheets for veneer, plywood or other wood, sawn lengthwise, sliced or peeled, planed or not, sanded or end-jointed, not thicker than 6mm\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "9244783dff5527a1f3007897a59d5b9c3982136461b1b439412a22e6336813b8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "22",
+      "cited": [
+        "220421"
+      ],
+      "confidence": "0.98",
+      "reason": "Still red wine of fresh grapes in a 0.75 L container falls in heading 2204 (subheading 220421), within Chapter 22."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1971,
+    "latency_ms": 4021,
+    "output_tokens": 79,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

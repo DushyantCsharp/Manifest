@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "e0219c2cea2f4323a06670311065dc2aaebd5fac237b3bb5229e7b26bba90a92",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:56+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Corrugated shipping carton, 3-ply\nCountry of origin: CN\n\nChosen so far: 48 Paper and paperboard; articles of paper pulp, of paper or paperboard > 4819 Cartons, boxes, cases, bags and the like, of paper, paperboard, cellulose wadding or fibres; box files, letter trays and the like, of paper or paperboard, of a kind used in offices, shops or the like\n\nChoose the subheading that covers these goods. Options:\n- 481910: Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard\n- 481920: Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard\n- 481930: Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more\n- 481940: Paper and paperboard; sacks and bags, including cones, of paper, paperboard, cellulose wadding or fibres, having a base width less than 40cm\n- 481960: Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0a40c0067cf4418aa8027ee0483696348eb7a9b8eab32fafa8bb6706445b18fc",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "481910",
+      "cited": [
+        "481910",
+        "4819"
+      ],
+      "confidence": "0.97",
+      "reason": "A corrugated shipping carton is a carton of corrugated paperboard, which falls directly under subheading 481910."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1176,
+    "latency_ms": 2552,
+    "output_tokens": 74,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

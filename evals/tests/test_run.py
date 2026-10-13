@@ -1,6 +1,7 @@
 """The eval harness end to end on the committed corpus (replayed, so no infrastructure)."""
 
 import dataclasses
+import json
 from collections import Counter
 from decimal import Decimal
 from pathlib import Path
@@ -96,6 +97,12 @@ def test_the_report(evaluated: harness.Run, tmp_path: Path) -> None:
     assert "ground-truth oracle" not in markdown
     assert "| reconciliation_recall |" in markdown
     assert '"profile": "model"' in (directory / "report.json").read_text()
+    stamp = json.loads((directory / "report.json").read_text())
+    assert len(stamp["commit"]) == 40  # the code it measured, and when
+    assert isinstance(stamp["dirty"], bool)
+    assert stamp["generated_at"].endswith("+00:00")
+    assert evaluated.metrics["input_tokens_per_page"] > evaluated.metrics["output_tokens_per_page"]
+    assert evaluated.metrics["hs_input_tokens_per_description"] > 0
 
 
 def test_a_plumbing_report_says_where_its_answers_came_from(

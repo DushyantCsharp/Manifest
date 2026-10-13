@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "2a49fe51cdafa4e71079ee5a9227c66e0cec4912254d697613a9fa8543427ac7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:46+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's woven cotton shirt, long sleeve\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n    contains 610590: Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n    contains 610690: Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted\n    contains 610520: Shirts; men's or boys', of man-made fibres, knitted or crocheted\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 620520: Shirts; men's or boys', of cotton (not knitted or crocheted)\n    contains 620630: Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)\n    contains 620590: Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)\n    contains 620530: Shirts; men's or boys', of man-made fibres (not knitted or crocheted)\n- 52: Cotton\n    contains 520852: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 100g/m2 but not more than 200g/m2\n    contains 520951: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 200g/m2\n    contains 520859: Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5208.5, weighing not more than 200g/m2\n    contains 520851: Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing not more than 100g/m2\n    contains 520942: Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, weighing more than 200g/m2, denim\n    contains 520931: Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing more than 200g/m2\n    contains 520959: Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5209.5, weighing more than 200g/m2\n    contains 520939: Fabrics, woven; containing 85% or more by weight of cotton, dyed, of weaves n.e.c. in item no. 5209.3, weighing more than 200g/m2\n    contains 520952: Fabrics, woven; containing 85% or more by weight of cotton, printed, 3-thread or 4-thread twill, including cross twill, weighing more than 200g/m2\n    contains 520941: Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, plain weave, weighing more than 200g/m2\n    contains 520811: Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing not more than 100g/m2\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ae6dee7820af2801872e4bcda0abbf320333fa50e9ff46b8826a19e1705b7b72",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "62",
+      "cited": [
+        "62",
+        "620520"
+      ],
+      "confidence": "0.97",
+      "reason": "A woven (not knitted) men's cotton shirt is made-up apparel falling in Chapter 62, subheading 620520, rather than knitted apparel (61) or fabric (52)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1875,
+    "latency_ms": 1867,
+    "output_tokens": 96,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

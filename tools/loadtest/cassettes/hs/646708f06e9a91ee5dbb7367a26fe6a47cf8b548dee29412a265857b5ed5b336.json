@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "646708f06e9a91ee5dbb7367a26fe6a47cf8b548dee29412a265857b5ed5b336",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:34+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM\nCountry of origin: CN\n\nChosen so far: 72 Iron and steel > 7219 Stainless steel; flat-rolled products of width of 600mm or more\n\nChoose the subheading that covers these goods. Options:\n- 721932: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more but less than 4.75mm\n- 721931: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled or cold-reduced, of a thickness of 4.75mm or more\n- 721934: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm\n- 721935: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm\n- 721933: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm\n- 721914: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of less than 3mm\n- 721922: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of 4.75mm or more but not exceeding 10mm\n- 721912: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 4.75mm or more but not exceeding 10mm\n- 721924: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of less than 3mm\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "23d0511ecda26b60f280f30da8602d02e6e0970ac785f05fb94127b1dc8b437a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "721933",
+      "cited": [
+        "721933",
+        "7219"
+      ],
+      "confidence": "0.93",
+      "reason": "Cold-rolled stainless flat-rolled steel 2mm thick falls in the 'exceeding 1mm but less than 3mm' cold-rolled subheading (width of 600mm or more assumed from heading 7219 selection)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1397,
+    "latency_ms": 3023,
+    "output_tokens": 115,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

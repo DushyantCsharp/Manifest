@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "3415fd3ba71dc8b3d6e29ebce8ec188cf2515360088b4949a6e2975957be1941",
+  "retriever": "hybrid",
+  "query": "Aluminium household foil 12 micron origin TR",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "760711",
+      "description": "Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm",
+      "score": "0.032787",
+      "ranks": {
+        "lexical": 1,
+        "vector": 1
+      }
+    },
+    {
+      "code": "760719",
+      "description": "Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 2,
+        "vector": 3
+      }
+    },
+    {
+      "code": "760720",
+      "description": "Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm",
+      "score": "0.031498",
+      "ranks": {
+        "lexical": 3,
+        "vector": 4
+      }
+    },
+    {
+      "code": "761510",
+      "description": "Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like",
+      "score": "0.029324",
+      "ranks": {
+        "lexical": 4,
+        "vector": 13
+      }
+    },
+    {
+      "code": "761691",
+      "description": "Aluminium; cloth, grill, netting and fencing, of aluminium wire",
+      "score": "0.028665",
+      "ranks": {
+        "lexical": 6,
+        "vector": 14
+      }
+    },
+    {
+      "code": "761520",
+      "description": "Aluminium; sanitary ware and parts thereof",
+      "score": "0.027693",
+      "ranks": {
+        "lexical": 8,
+        "vector": 17
+      }
+    },
+    {
+      "code": "760320",
+      "description": "Aluminium; powders of lamellar structure, flakes",
+      "score": "0.026876",
+      "ranks": {
+        "lexical": 17,
+        "vector": 12
+      }
+    },
+    {
+      "code": "760310",
+      "description": "Aluminium; powders of non-lamellar structure",
+      "score": "0.026491",
+      "ranks": {
+        "lexical": 16,
+        "vector": 15
+      }
+    },
+    {
+      "code": "760612",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)",
+      "score": "0.026334",
+      "ranks": {
+        "lexical": 26,
+        "vector": 8
+      }
+    },
+    {
+      "code": "760611",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)",
+      "score": "0.026050",
+      "ranks": {
+        "lexical": 25,
+        "vector": 10
+      }
+    },
+    {
+      "code": "760691",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)",
+      "score": "0.025987",
+      "ranks": {
+        "lexical": 27,
+        "vector": 9
+      }
+    },
+    {
+      "code": "760511",
+      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",
+      "score": "0.025504",
+      "ranks": {
+        "lexical": 21,
+        "vector": 16
+      }
+    },
+    {
+      "code": "760692",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, (not rectangular or square)",
+      "score": "0.025448",
+      "ranks": {
+        "lexical": 28,
+        "vector": 11
+      }
+    },
+    {
+      "code": "760110",
+      "description": "Aluminium; unwrought, (not alloyed)",
+      "score": "0.025193",
+      "ranks": {
+        "lexical": 13,
+        "vector": 27
+      }
+    },
+    {
+      "code": "760519",
+      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less",
+      "score": "0.025016",
+      "ranks": {
+        "lexical": 22,
+        "vector": 18
+      }
+    },
+    {
+      "code": "760120",
+      "description": "Aluminium; unwrought, alloys",
+      "score": "0.024749",
+      "ranks": {
+        "lexical": 14,
+        "vector": 29
+      }
+    },
+    {
+      "code": "760529",
+      "description": "Aluminium; alloys, wire, maximum cross-sectional dimension is 7mm or less",
+      "score": "0.024250",
+      "ranks": {
+        "lexical": 24,
+        "vector": 21
+      }
+    },
+    {
+      "code": "721069",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with aluminium, other than plated or coated with aluminium zinc-alloys",
+      "score": "0.024185",
+      "ranks": {
+        "lexical": 7,
+        "vector": 48
+      }
+    },
+    {
+      "code": "760421",
+      "description": "Aluminium; alloys, hollow profiles",
+      "score": "0.024022",
+      "ranks": {
+        "lexical": 19,
+        "vector": 28
+      }
+    },
+    {
+      "code": "760521",
+      "description": "Aluminium; alloys, wire, maximum cross-sectional dimension exceeding 7mm",
+      "score": "0.023953",
+      "ranks": {
+        "lexical": 23,
+        "vector": 24
+      }
+    }
+  ]
+}

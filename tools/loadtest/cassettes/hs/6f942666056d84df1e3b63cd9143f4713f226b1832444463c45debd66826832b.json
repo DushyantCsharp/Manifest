@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "6f942666056d84df1e3b63cd9143f4713f226b1832444463c45debd66826832b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:43+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Laptop computer 14in, 16GB RAM\nCountry of origin: VN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8471: Automatic data processing machines and units thereof, magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n    contains 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n    contains 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n    contains 847170: Units of automatic data processing machines; storage units\n    contains 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n    contains 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n- 8472: Office machines; not elsewhere classified\n    contains 847290: Office machines; not elsewhere classified\n- 8470: Calculating machines and pocket-size data recording, reproducing and displaying machines with calculating functions; accounting machines, postage-franking machines, ticket-issuing machines and similar, incorporating a calculating device; cash registers\n    contains 847090: Machines incorporating a calculating device; n.e.c. in heading no. 8470\n    contains 847010: Calculating machines; electronic calculators capable of operation without an external source of electric power and pocket-size data recording, reproducing and displaying machines with calculating functions\n    contains 847021: Calculating machines; electronic, incorporating a printing device, needing an external source of power\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a9389cc1b07ee3c79fca1627a6dc19e4dd02cf405b711d8ee514a6d2dd5a5ad2",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8471",
+      "cited": [
+        "8471",
+        "847130"
+      ],
+      "confidence": "0.98",
+      "reason": "A laptop is a portable automatic data processing machine with CPU, keyboard and display, covered by heading 8471 (subheading 8471.30)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1371,
+    "latency_ms": 3342,
+    "output_tokens": 85,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "c7b0a82ff0f39ccee23a76906f0adb5a8eb0912fc1f59a87b67529d7a9396252",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:22+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Plastic storage box 30L with lid\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 39: Plastics and articles thereof\n    contains 392310: Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods\n    contains 392350: Plastics; stoppers, lids, caps and other closures, for the conveyance or packing of goods\n    contains 392329: Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n    contains 392390: Plastics; articles for the conveyance or packing of goods n.e.c. in heading no. 3923\n    contains 392340: Plastics; spools, cops, bobbins and similar supports, for the conveyance or packing of goods\n    contains 392510: Plastics; builders' ware, reservoirs, tanks, vats and similar containers of a capacity exceeding 300 litres\n    contains 391690: Plastics; monofilament, of plastics n.e.c. in heading no. 3916, cross-sectional dimension exceeds 1mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked\n    contains 392321: Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods\n    contains 391729: Plastics; tubes, pipes and hoses thereof, rigid, of plastics n.e.c. in heading no. 3917\n    contains 392099: Plastics; plates, sheets, film, foil and strip (not self-adhesive), of plastics n.e.c. in heading no. 3920, non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392119: Plastics; plates, sheets, film, foil and strip, of plastics n.e.c. in heading no. 3921, cellular\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481960: Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres\n    contains 481920: Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard\n    contains 481910: Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard\n    contains 481930: Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more\n- 83: Metal; miscellaneous products of base metal\n    contains 830300: Safes; armoured or reinforced, strong-boxes, doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 73: Iron or steel articles\n    contains 731010: Tanks, casks, drums, cans, boxes and similar containers, for any material (excluding compressed or liquefied gas), 50l or more capacity but not exceeding 300l\n- 76: Aluminium and articles thereof\n    contains 761100: Aluminium; reservoirs, tanks, vats and similar containers, for material (not compressed or liquefied gas), of a capacity over 300l, whether or not lined, not fitted with mechanical/thermal equipment\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ea2e82e69038af5332a3511584709818eb84d157326bf90e82161a410f442e37",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "39",
+      "cited": [
+        "39",
+        "392310"
+      ],
+      "confidence": "0.96",
+      "reason": "A plastic storage box with lid is an article for the conveyance or packing of goods, covered by heading 3923 in Chapter 39."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2053,
+    "latency_ms": 2742,
+    "output_tokens": 78,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

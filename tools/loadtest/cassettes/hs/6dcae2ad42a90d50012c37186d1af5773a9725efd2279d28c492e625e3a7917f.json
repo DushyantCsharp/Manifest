@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "6dcae2ad42a90d50012c37186d1af5773a9725efd2279d28c492e625e3a7917f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:06+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Roasted coffee beans, whole\nCountry of origin: IT\n\nChoose the chapter that covers these goods. Options:\n- 21: Miscellaneous edible preparations\n    contains 210130: Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof\n    contains 210111: Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee\n    contains 210112: Preparations with a basis of extracts, essences or concentrates or with a basis of coffee\n    contains 210120: Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate\n- 09: Coffee, tea, mate and spices\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n    contains 090122: Coffee; roasted, decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n    contains 090710: Spices; cloves (whole fruit, cloves and stems), neither crushed nor ground\n    contains 090720: Spices; cloves (whole fruit, cloves and stems), crushed or ground\n    contains 090411: Spices; pepper (of the genus piper), neither crushed nor ground\n    contains 090831: Spices; cardamoms, neither crushed nor ground\n    contains 090421: Spices; fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground\n- 18: Cocoa and cocoa preparations\n    contains 180100: Cocoa beans; whole or broken, raw or roasted\n- 12: Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder\n    contains 121292: Locust beans (carob); fit for human consumption, fresh, chilled, frozen or dried, whether or not ground\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 07: Vegetables and certain roots and tubers; edible\n    contains 071333: Vegetables, leguminous; kidney beans, including white pea beans (phaseolus vulgaris), shelled, whether or not skinned or split, dried\n    contains 071350: Vegetables, leguminous; broad beans (vicia faba var. major) and horse beans (vicia faba var. equina, vicia faba var. minor), shelled, whether or not skinned or split, dried\n- 13: Lac; gums, resins and other vegetable saps and extracts\n    contains 130232: Mucilages and thickeners; whether or not modified, derived from locust beans, locust bean seeds or guar seeds\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c11671741e918e0ef73c9016ade558af72310e5fd8ed31c1c29fff7843269cbd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "09",
+      "cited": [
+        "09",
+        "090121"
+      ],
+      "confidence": "0.98",
+      "reason": "Heading 0901 covers coffee, whether or not roasted, and subheading 090121 specifically covers roasted, non-decaffeinated coffee, which includes whole roasted beans."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1841,
+    "latency_ms": 2671,
+    "output_tokens": 96,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

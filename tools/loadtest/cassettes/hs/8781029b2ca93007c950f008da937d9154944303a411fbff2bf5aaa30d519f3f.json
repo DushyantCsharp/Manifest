@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "8781029b2ca93007c950f008da937d9154944303a411fbff2bf5aaa30d519f3f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:05+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: HAIR DRYER 2200W IONIC\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8516 Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n\nChoose the subheading that covers these goods. Options:\n- 851631: Hair-dressing apparatus; electro-thermic hair dryers\n- 851632: Hair-dressing apparatus; electro-thermic, other than hair dryers\n- 851690: Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516\n- 851640: Smoothing irons; electric\n- 851633: Hand-drying apparatus; electro-thermic\n- 851672: Electro-thermic appliances; toasters, of a kind used for domestic purposes\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4c662dda0962ab5b0b94f5b525762ea78f614428c8fb6ff3eaa227ebfc6534e4",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "851631",
+      "cited": [
+        "851631"
+      ],
+      "confidence": "0.97",
+      "reason": "A 2200W ionic hair dryer is an electro-thermic hair dryer, which falls under subheading 8516.31."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1156,
+    "latency_ms": 2506,
+    "output_tokens": 74,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

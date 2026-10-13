@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "42970834eadcae7b2971e70c9d92a4433aa932e4cbc77604231cdd988dcfd857",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:27+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel saucepan 20cm\nCountry of origin: CN\n\nChosen so far: 73 Iron or steel articles\n\nChoose the heading that covers these goods. Options:\n- 7323: Table, kitchen, other household articles and parts, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel\n    contains 732393: Steel, stainless; table, kitchen and other household articles and parts thereof\n    contains 732399: Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323\n- 7324: Sanitary ware and parts thereof, of iron or steel\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n- 7307: Tube or pipe fittings (e.g. couplings, elbows, sleeves), of iron or steel\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n- 7314: Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel\n    contains 731412: Iron or steel; woven cloth, endless bands for machinery, of stainless steel\n    contains 731414: Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)\n    contains 731419: Iron or steel; woven cloth, other than of stainless steel\n- 7321: Stoves, ranges, grates, cookers (those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances and parts, of iron or steel\n    contains 732190: Domestic appliances; non-electric, parts thereof, of iron or steel\n    contains 732112: Cooking appliances and plate warmers; for liquid fuel, of iron or steel\n    contains 732119: Cooking appliances and plate warmers; for solid fuel and fuels other than gas or liquid, of iron or steel\n    contains 732182: Domestic appliances; non-electric, (other than cookers and plate warmers), for liquid fuel, of iron or steel\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "823eb413c66b313799c0b331adfe607d3eb83c08be58682792873e503dc2145d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7323",
+      "cited": [
+        "7323",
+        "732393"
+      ],
+      "confidence": "0.97",
+      "reason": "A stainless steel saucepan is a kitchen/household article of steel, covered by heading 7323 (subheading 732393 for stainless steel)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1491,
+    "latency_ms": 5305,
+    "output_tokens": 85,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

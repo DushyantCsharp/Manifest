@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "d268119bdb21336d95a4ab8de573c9302a33f4e3ac167c496659aded1cb2d7e1",
+  "retriever": "hybrid",
+  "query": "Deep groove ball bearing 6205-2RS origin DE",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "848220",
+      "description": "Bearings; tapered roller bearings, including cone and tapered roller assemblies",
+      "score": "0.031778",
+      "ranks": {
+        "lexical": 5,
+        "vector": 1
+      }
+    },
+    {
+      "code": "848230",
+      "description": "Bearings; spherical roller bearings",
+      "score": "0.030777",
+      "ranks": {
+        "lexical": 6,
+        "vector": 4
+      }
+    },
+    {
+      "code": "848320",
+      "description": "Bearing housings, incorporating ball or roller bearings",
+      "score": "0.030622",
+      "ranks": {
+        "lexical": 2,
+        "vector": 9
+      }
+    },
+    {
+      "code": "848250",
+      "description": "Bearings; cylindrical roller bearings, including cage and roller assemblies n.e.c. in heading no. 8482",
+      "score": "0.030579",
+      "ranks": {
+        "lexical": 8,
+        "vector": 3
+      }
+    },
+    {
+      "code": "848210",
+      "description": "Ball bearings",
+      "score": "0.030550",
+      "ranks": {
+        "lexical": 4,
+        "vector": 7
+      }
+    },
+    {
+      "code": "848299",
+      "description": "Bearings; parts, (other than balls, needles and rollers)",
+      "score": "0.030415",
+      "ranks": {
+        "lexical": 10,
+        "vector": 2
+      }
+    },
+    {
+      "code": "848330",
+      "description": "Bearing housings, not incorporating ball or roller bearings and plain shaft bearings",
+      "score": "0.030092",
+      "ranks": {
+        "lexical": 1,
+        "vector": 13
+      }
+    },
+    {
+      "code": "848291",
+      "description": "Bearings; parts, balls, needles and rollers",
+      "score": "0.029644",
+      "ranks": {
+        "lexical": 9,
+        "vector": 6
+      }
+    },
+    {
+      "code": "848240",
+      "description": "Bearings; needle roller bearings, including cage and needle roller assemblies",
+      "score": "0.029631",
+      "ranks": {
+        "lexical": 7,
+        "vector": 8
+      }
+    },
+    {
+      "code": "848280",
+      "description": "Bearings; n.e.c. in heading no. 8482, including combined ball/roller",
+      "score": "0.029083",
+      "ranks": {
+        "lexical": 13,
+        "vector": 5
+      }
+    },
+    {
+      "code": "732591",
+      "description": "Iron; grinding balls and similar articles for mills, other than of non-malleable cast iron",
+      "score": "0.024490",
+      "ranks": {
+        "lexical": 38,
+        "vector": 10
+      }
+    },
+    {
+      "code": "732611",
+      "description": "Iron or steel; grinding balls and similar articles for mills, forged or stamped, but not further worked",
+      "score": "0.023889",
+      "ranks": {
+        "lexical": 40,
+        "vector": 12
+      }
+    },
+    {
+      "code": "732599",
+      "description": "Iron or steel; cast articles, excluding grinding balls and similar articles for mills, other than of non-malleable cast iron",
+      "score": "0.023434",
+      "ranks": {
+        "lexical": 39,
+        "vector": 15
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "830220",
+      "description": "Castors; with mountings, of base metal",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "960860",
+      "description": "Pens; ball-point, refills comprising the ball point and ink-reservoir",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "848340",
+      "description": "Gears and gearing; (not toothed wheels, chain sprockets and other transmission elements presented separately); ball or roller screws; gear boxes and other speed changers, including torque converters",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": 14,
+        "vector": null
+      }
+    },
+    {
+      "code": "830230",
+      "description": "Mountings, fittings and similar articles; for motor vehicles, of base metal",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": null,
+        "vector": 14
+      }
+    },
+    {
+      "code": "250590",
+      "description": "Sands; natural, (other than silica and quartz sands), whether or not coloured, (other than metal-bearing sands of chapter 26)",
+      "score": "0.013333",
+      "ranks": {
+        "lexical": 15,
+        "vector": null
+      }
+    }
+  ]
+}

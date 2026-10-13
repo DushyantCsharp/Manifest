@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "2500cee1a2ab00a446ca8fbde1f2e662ed45319f588c89609605dd6a7d409c72",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:18+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hair dryer 2200W ionic\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8516 Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n\nChoose the subheading that covers these goods. Options:\n- 851631: Hair-dressing apparatus; electro-thermic hair dryers\n- 851632: Hair-dressing apparatus; electro-thermic, other than hair dryers\n- 851690: Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516\n- 851640: Smoothing irons; electric\n- 851633: Hand-drying apparatus; electro-thermic\n- 851679: Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e755e6a8aa6cfcde3d0b22c4fe680a002f55713a4f067624f9eed47020a34e27",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "851631",
+      "cited": [
+        "851631"
+      ],
+      "confidence": "0.97",
+      "reason": "A 2200W ionic hair dryer is an electro-thermic hair dryer, which falls squarely under subheading 8516.31."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1160,
+    "latency_ms": 2243,
+    "output_tokens": 77,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

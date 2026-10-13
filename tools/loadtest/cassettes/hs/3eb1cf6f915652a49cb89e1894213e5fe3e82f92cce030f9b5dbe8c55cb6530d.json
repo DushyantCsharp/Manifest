@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "3eb1cf6f915652a49cb89e1894213e5fe3e82f92cce030f9b5dbe8c55cb6530d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:06+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LONG GRAIN WHITE RICE, MILLED\nCountry of origin: PK\n\nChosen so far: 10 Cereals > 1006 Rice\n\nChoose the subheading that covers these goods. Options:\n- 100630: Cereals; rice, semi-milled or wholly milled, whether or not polished or glazed\n- 100620: Cereals; husked (brown) rice\n- 100610: Cereals; rice in the husk (paddy or rough)\n- 100640: Cereals; rice, broken\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d7014cea50e1b16a4f73781d99f1a4d3a68100701d886b23137e38407bde6b30",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "100630",
+      "cited": [
+        "100630"
+      ],
+      "confidence": "0.93",
+      "reason": "Long grain white rice that is milled is semi-milled or wholly milled rice, which falls under 100630, not husked, paddy or broken rice."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 915,
+    "latency_ms": 2268,
+    "output_tokens": 81,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

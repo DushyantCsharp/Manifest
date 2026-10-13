@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "8bf7ba40b0e6c5b94dd641ee4ac25510da0508805a1156b9b1eca27d263832b9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:39+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Red wine, 0.75L bottle\nCountry of origin: IT\n\nChosen so far: 22 Beverages, spirits and vinegar\n\nChoose the heading that covers these goods. Options:\n- 2204: Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009\n    contains 220421: Wine; still, in containers holding 2 litres or less\n    contains 220422: Wine; still, in containers holding more than 2 litres but not more than 10 litres\n    contains 220410: Wine; sparkling\n    contains 220429: Wine; still, in containers holding more than 10 litres\n    contains 220430: Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2\n- 2205: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances\n    contains 220510: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less\n    contains 220590: Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding more than 2 litres\n- 2208: Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages\n    contains 220820: Spirits obtained by distilling grape wine or grape marc\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0f91ebd3afde8adf003406af77082e204d7dc509dc9ac1f4b4b2cc5566eeaa69",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "2204",
+      "cited": [
+        "2204",
+        "220421"
+      ],
+      "confidence": "0.97",
+      "reason": "Plain red wine of fresh grapes in a 0.75 L bottle is still wine of heading 2204 (subheading 220421), not flavoured vermouth (2205) or spirits (2208)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1219,
+    "latency_ms": 3123,
+    "output_tokens": 102,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

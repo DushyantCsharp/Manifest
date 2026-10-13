@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "d3c6d6a82f435a5f2135ac70d88e37e3b5aef1f8f71a200b2caf5de4c7d45026",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:13+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Red wine, 0.75L bottle\nCountry of origin: ES\n\nChosen so far: 22 Beverages, spirits and vinegar > 2204 Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009\n\nChoose the subheading that covers these goods. Options:\n- 220421: Wine; still, in containers holding 2 litres or less\n- 220422: Wine; still, in containers holding more than 2 litres but not more than 10 litres\n- 220429: Wine; still, in containers holding more than 10 litres\n- 220410: Wine; sparkling\n- 220430: Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "cb625c8bf60dfdd8e8872b7533dbd0ab898de724b9b2d537571e5d3f8fd8d233",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "220421",
+      "cited": [
+        "220421"
+      ],
+      "confidence": "0.97",
+      "reason": "Red wine in a 0.75 L bottle is still wine in a container of 2 litres or less, which is what 220421 covers."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 992,
+    "latency_ms": 2520,
+    "output_tokens": 75,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

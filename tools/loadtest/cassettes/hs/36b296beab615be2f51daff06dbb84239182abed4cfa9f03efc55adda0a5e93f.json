@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "36b296beab615be2f51daff06dbb84239182abed4cfa9f03efc55adda0a5e93f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:24+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lithium-ion battery pack 48V 20Ah\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8506: Cells and batteries; primary\n    contains 850650: Cells and batteries; primary, lithium\n    contains 850680: Cells and batteries; primary, (other than manganese dioxide, mercuric oxide, silver oxide, lithium or air-zinc)\n    contains 850690: Cells and batteries; primary, parts thereof\n    contains 850660: Cells and batteries; primary, air-zinc\n    contains 850630: Cells and batteries; primary, mercuric oxide\n    contains 850610: Cells and batteries; primary, manganese dioxide\n    contains 850640: Cells and batteries; primary, silver oxide\n- 8507: Electric accumulators, including separators therefor; whether or not rectangular (including square)\n    contains 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850780: Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)\n    contains 850720: Electric accumulators; lead-acid, (other than for starting piston engines), including separators, whether or not rectangular (including square)\n    contains 850750: Electric accumulators; nickel-metal hydride, including separators, whether or not rectangular (including square)\n    contains 850710: Electric accumulators; lead-acid, of a kind used for starting piston engines, including separators, whether or not rectangular (including square)\n    contains 850730: Electric accumulators; nickel-cadmium, including separators, whether or not rectangular (including square)\n- 8545: Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon; with or without metal, of a kind used for electrical purposes\n    contains 854590: Carbon; lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "813800c77b11ae83ed6d2d68911d3bff7ac8c96d1a98884f05f056553e172270",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8507",
+      "cited": [
+        "8507",
+        "850760"
+      ],
+      "confidence": "0.98",
+      "reason": "A rechargeable lithium-ion battery pack is an electric accumulator, covered by heading 8507 (subheading 850760), not a primary cell under 8506."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1512,
+    "latency_ms": 4804,
+    "output_tokens": 90,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

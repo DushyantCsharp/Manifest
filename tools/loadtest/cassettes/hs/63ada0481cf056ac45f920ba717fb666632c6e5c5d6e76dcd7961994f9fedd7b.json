@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "63ada0481cf056ac45f920ba717fb666632c6e5c5d6e76dcd7961994f9fedd7b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:30+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: CASHEW KERNELS W320\nCountry of origin: VN\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons\n\nChoose the heading that covers these goods. Options:\n- 0801: Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled\n    contains 080132: Nuts, edible; cashew nuts, fresh or dried, shelled\n    contains 080131: Nuts, edible; cashew nuts, fresh or dried, in shell\n- 0802: Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled\n    contains 080232: Nuts, edible; walnuts, fresh or dried, shelled\n    contains 080231: Nuts, edible; walnuts, fresh or dried, in shell\n    contains 080242: Nuts, edible; chestnuts (Castanea spp.), fresh or dried, shelled\n    contains 080241: Nuts, edible; chestnuts (Castanea spp.), fresh or dried, in shell\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d5d407c835d553777dfaaaabaa5fd70b232ee8c50ae00bf0f52df2e4baf87c9f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0801",
+      "cited": [
+        "0801",
+        "080132"
+      ],
+      "confidence": "0.99",
+      "reason": "Cashew kernels (shelled cashew nuts, size grade W320) are covered by heading 0801, which includes cashew nuts, fresh or dried, shelled (080132), while 0802 expressly excludes cashew nuts."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1119,
+    "latency_ms": 2272,
+    "output_tokens": 113,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "e142d20a9bff184a7edd7f1115439302053759dfb4a4535551b55274423aa66b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:57+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Passenger car tyre 205/55R16\nCountry of origin: DE\n\nChoose the chapter that covers these goods. Options:\n- 40: Rubber and articles thereof\n    contains 401110: Rubber; new pneumatic tyres, of a kind used on motor cars (including station wagons and racing cars)\n    contains 401211: Retreaded tyres; of a kind used on motor cars (including station wagons and racing cars)\n    contains 401219: Retreaded tyres; other than of a kind used on motor cars (including station wagons and racing cars), buses and lorries and aircraft\n    contains 401120: Rubber; new pneumatic tyres, of a kind used on buses or lorries\n    contains 401212: Retreaded tyres; of a kind used on motor buses or lorries\n    contains 401150: Rubber; new pneumatic tyres, of a kind used on bicycles\n    contains 401220: Rubber; used pneumatic tyres\n    contains 401170: Rubber; new pneumatic tyres, of a kind used on agricultural or forestry vehicles and machines\n    contains 401190: Rubber; new pneumatic tyres, of a kind used on light commercial vehicles\n    contains 401130: Rubber; new pneumatic tyres, of a kind used on aircraft\n    contains 401213: Retreaded tyres; of a kind used on aircraft\n    contains 401140: Rubber; new pneumatic tyres, of a kind used on motorcycles\n    contains 401290: Rubber; tyres n.e.c. in heading no. 4012\n    contains 401180: Rubber; new pneumatic tyres, of a kind used on construction, mining or industrial handling vehicles and machines\n    contains 400610: Rubber; unvulcanised, camel-back strips for retreading rubber tyres\n    contains 401310: Rubber; inner tubes, of a kind used on motorcars (including station wagons and racing cars), buses and lorries\n- 86: Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds\n    contains 860500: Railway or tramway coaches; passenger coaches, luggage vans, post office coaches and other special purpose railway or tramway coaches, not self-propelled (excluding those of heading no. 8604)\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 87: Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n    contains 871110: Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, with internal combustion piston engine of a cylinder capacity not exceeding 50cc, with or without side-cars; side-cars\n    contains 871120: Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 50cc but not exceeding 250cc, with or without side-cars; side-cars\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a85b362a4eb9e3e02828022f4e8267643a7a718e7f3a504fa4896e11506adf16",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "40",
+      "cited": [
+        "401110"
+      ],
+      "confidence": "0.97",
+      "reason": "A new pneumatic passenger car tyre is rubber tyre goods covered by heading 4011 (subheading 401110) in Chapter 40, not a vehicle or part under Chapter 87."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1878,
+    "latency_ms": 2919,
+    "output_tokens": 97,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

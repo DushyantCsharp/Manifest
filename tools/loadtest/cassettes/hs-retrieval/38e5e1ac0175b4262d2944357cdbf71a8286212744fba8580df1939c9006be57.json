@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "38e5e1ac0175b4262d2944357cdbf71a8286212744fba8580df1939c9006be57",
+  "retriever": "hybrid",
+  "query": "Black tea, CTC, bulk origin IN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "090240",
+      "description": "Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg",
+      "score": "0.032266",
+      "ranks": {
+        "lexical": 3,
+        "vector": 1
+      }
+    },
+    {
+      "code": "090230",
+      "description": "Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg",
+      "score": "0.032258",
+      "ranks": {
+        "lexical": 2,
+        "vector": 2
+      }
+    },
+    {
+      "code": "090220",
+      "description": "Tea, green; (not fermented), in immediate packings of a content exceeding 3kg",
+      "score": "0.030579",
+      "ranks": {
+        "lexical": 8,
+        "vector": 3
+      }
+    },
+    {
+      "code": "090210",
+      "description": "Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg",
+      "score": "0.030077",
+      "ranks": {
+        "lexical": 7,
+        "vector": 6
+      }
+    },
+    {
+      "code": "321511",
+      "description": "Ink; for printing, black, whether or not concentrated or solid",
+      "score": "0.023669",
+      "ranks": {
+        "lexical": 24,
+        "vector": 25
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "091030",
+      "description": "Spices; turmeric (curcuma)",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "210120",
+      "description": "Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "090831",
+      "description": "Spices; cardamoms, neither crushed nor ground",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "380290",
+      "description": "Chemical products; activated natural mineral products, animal black, including spent animal black",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "090832",
+      "description": "Spices; cardamoms, crushed or ground",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "520523",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "090931",
+      "description": "Spices; cumin seeds, neither crushed nor ground",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "280300",
+      "description": "Carbon; carbon blacks and other forms of carbon n.e.c.",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "090620",
+      "description": "Spices; cinnamon and cinnamon-tree flowers, crushed or ground",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "090611",
+      "description": "Spices; cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "090932",
+      "description": "Spices; cumin seeds, crushed or ground",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": null,
+        "vector": 12
+      }
+    }
+  ]
+}

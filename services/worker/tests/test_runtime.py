@@ -70,3 +70,31 @@ def test_a_pinned_calibrator_must_exist_and_be_well_named(tmp_path: Path) -> Non
     with pytest.raises(FileNotFoundError):
         load_calibrator("extraction-v999")
     assert load_calibrator(None) is None
+
+
+def test_hs_can_be_turned_off_or_replay_its_retrieval(tmp_path: Path) -> None:
+    from sqlalchemy.orm import sessionmaker
+
+    from manifest_hs.recorded import RecordedRetriever
+    from manifest_hs.retrieval import PostgresRetriever
+    from manifest_worker.runtime import build_hs_classifier
+
+    replaying = config(llm_cassettes=tmp_path)
+    assert (
+        build_hs_classifier(config(llm_cassettes=tmp_path, hs_enabled=False), sessionmaker())
+        is None
+    )
+    live = build_hs_classifier(replaying, sessionmaker())
+    assert isinstance(live._walker._retriever, PostgresRetriever)  # type: ignore[union-attr]
+    recorded = build_hs_classifier(
+        config(llm_cassettes=tmp_path, hs_retrievals=tmp_path / "retrievals"), sessionmaker()
+    )
+    retriever = recorded._walker._retriever  # type: ignore[union-attr]
+    assert isinstance(retriever, RecordedRetriever)
+    assert retriever.mode == "replay"
+
+
+def test_replays_can_take_their_recorded_time(tmp_path: Path) -> None:
+    provider = build_provider(config(llm_cassettes=tmp_path, llm_replay_latency=True))
+    assert isinstance(provider, CassetteProvider)
+    assert provider.replay_latency

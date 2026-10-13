@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "769c7df828aa274772e996e2a3cea0cec9741f24e168452638fd6a2ee079b06f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:20+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Long grain white rice, milled\nCountry of origin: VN\n\nChosen so far: 10 Cereals\n\nChoose the heading that covers these goods. Options:\n- 1006: Rice\n    contains 100630: Cereals; rice, semi-milled or wholly milled, whether or not polished or glazed\n    contains 100620: Cereals; husked (brown) rice\n    contains 100610: Cereals; rice in the husk (paddy or rough)\n    contains 100640: Cereals; rice, broken\n- 1007: Grain sorghum\n    contains 100790: Cereals; grain sorghum, other than seed\n- 1001: Wheat and meslin\n    contains 100199: Cereals; wheat and meslin, other than durum wheat, other than seed\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f2bdfe188621d7a7a79de4eaca902dc89f4154b076ad32ec58ac33eac4d4ae08",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "1006",
+      "cited": [
+        "1006",
+        "100630"
+      ],
+      "confidence": "0.99",
+      "reason": "Milled long grain white rice is rice, falling under heading 1006 (subheading 100630 for semi-milled or wholly milled rice)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 991,
+    "latency_ms": 2952,
+    "output_tokens": 83,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

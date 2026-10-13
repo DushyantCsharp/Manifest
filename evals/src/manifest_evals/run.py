@@ -27,11 +27,13 @@ refit; ``calibrate`` writes a new version.
 import json
 import os
 import shutil
+import subprocess
 import sys
 import tempfile
 from collections import Counter, defaultdict
 from collections.abc import Iterable, Sequence
 from dataclasses import dataclass, field
+from datetime import UTC, datetime
 from decimal import Decimal
 from pathlib import Path
 from typing import Any, Literal
@@ -440,6 +442,9 @@ def measure(run: Run) -> None:
     m["p95_latency_ms"] = metrics.percentile([p.latency_ms for p in pages], 95)
     tokens = sum(p.tokens_in + p.tokens_out for p in pages)
     m["tokens_per_page"] = Decimal(tokens) / len(pages) if pages else None
+    if pages:
+        m["input_tokens_per_page"] = Decimal(sum(p.tokens_in for p in pages)) / len(pages)
+        m["output_tokens_per_page"] = Decimal(sum(p.tokens_out for p in pages)) / len(pages)
     costs = [cost(p.model, p.tokens_in, p.tokens_out) for p in pages]
     known = [c for c in costs if c is not None]
     priced = bool(pages) and len(known) == len(costs)
@@ -476,7 +481,36 @@ def _hs_metrics(hs: hs_eval.HsRun, calibrator: Calibrator) -> dict[str, Any]:
     known = [c for c in costs if c is not None]
     priced = bool(costs) and len(known) == len(costs)
     m["hs_usd_per_description"] = sum(known, Decimal(0)) / len(known) if priced else None
+    if outcomes:
+        walks = [o.walk for o in outcomes]
+        m["hs_input_tokens_per_description"] = Decimal(sum(w.input_tokens for w in walks)) / len(
+            walks
+        )
+        m["hs_output_tokens_per_description"] = Decimal(sum(w.output_tokens for w in walks)) / len(
+            walks
+        )
     return m
+
+
+def provenance() -> dict[str, Any]:
+    """Which code a report measured: the commit (``dirty`` when the tree had changes) and when."""
+    commit, dirty = os.environ.get("GITHUB_SHA", ""), False
+    git = shutil.which("git")
+    if git is not None:
+        try:
+            repo = EVALS_ROOT.parent
+            run_git = {"capture_output": True, "text": True, "check": True, "cwd": repo}
+            commit = subprocess.run([git, "rev-parse", "HEAD"], **run_git).stdout.strip()  # noqa: S603
+            # Load-test reports written since don't make the code under test dirty.
+            changes = [git, "status", "--porcelain", "--", ".", ":!tools/loadtest/reports"]
+            dirty = bool(subprocess.run(changes, **run_git).stdout.strip())  # noqa: S603
+        except (OSError, subprocess.CalledProcessError):
+            pass
+    return {
+        "commit": commit or None,
+        "dirty": dirty,
+        "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
+    }
 
 
 def hs_bins(run: Run) -> tuple[list[metrics.Bin], list[metrics.Bin]]:
@@ -633,6 +667,7 @@ def write_report(run: Run, checks: list[dict[str, Any]], directory: Path = REPOR
         title="Auto-approve: precision vs coverage (test split)",
     )
     report = {
+        **provenance(),
         "profile": run.profile,
         "sources": dict(run.sources),
         "calibrators": {name: c.model_dump(mode="json") for name, c in run.fitted.items()},

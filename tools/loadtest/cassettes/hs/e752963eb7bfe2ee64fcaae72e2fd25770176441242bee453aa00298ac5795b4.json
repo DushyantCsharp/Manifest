@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "e752963eb7bfe2ee64fcaae72e2fd25770176441242bee453aa00298ac5795b4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:49+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green Arabica coffee beans, grade 1\nCountry of origin: ET\n\nChosen so far: 09 Coffee, tea, mate and spices > 0901 Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion\n\nChoose the subheading that covers these goods. Options:\n- 090111: Coffee; not roasted or decaffeinated\n- 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n- 090121: Coffee; roasted, not decaffeinated\n- 090112: Coffee; decaffeinated, not roasted\n- 090122: Coffee; roasted, decaffeinated\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "355139108551d8a6101c37f8f21930bf324f6ee219bedbaaaec28c6ef29a932e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "090111",
+      "cited": [
+        "090111"
+      ],
+      "confidence": "0.96",
+      "reason": "Green Arabica coffee beans are unroasted and not stated to be decaffeinated, so they fall under 090111 (coffee, not roasted or decaffeinated)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 991,
+    "latency_ms": 2281,
+    "output_tokens": 90,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

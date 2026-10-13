@@ -5,6 +5,11 @@ Finalizing completes the upload, then moves the document from ``awaiting_upload`
 only then publishes ``classify``, so the worker never sees a document the database hasn't
 queued. If publishing fails the document goes back to ``awaiting_upload``; the upload is
 already complete, so the client's retry skips straight to queuing.
+
+Admission is checked in that same transaction, under an advisory lock: a burst of finalizes
+is admitted one at a time against a count that includes the documents just queued, so the
+high-water mark holds however many arrive at once (the router's earlier check alone would let
+a simultaneous burst through, each request seeing the same count).
 """
 
 from collections.abc import Sequence
@@ -12,11 +17,11 @@ from datetime import UTC, datetime, timedelta
 from typing import Protocol
 from uuid import UUID, uuid4
 
-from sqlalchemy import func, select, update
+from sqlalchemy import func, select, text, update
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
 from manifest_api.adapters.uploads import S3Uploads
-from manifest_api.errors import ConflictError, NotFoundError
+from manifest_api.errors import ConflictError, NotFoundError, OverloadedError
 from manifest_api.pagination import ShipmentCursor
 from manifest_api.rest.schemas import (
     Document,
@@ -88,11 +93,16 @@ def _document(
 
 class PostgresShipments:
     def __init__(
-        self, sessions: async_sessionmaker[AsyncSession], uploads: S3Uploads, pipeline: Pipeline
+        self,
+        sessions: async_sessionmaker[AsyncSession],
+        uploads: S3Uploads,
+        pipeline: Pipeline,
+        admission: "PendingPages | None" = None,
     ) -> None:
         self._sessions = sessions
         self._uploads = uploads
         self._pipeline = pipeline
+        self._admission = admission
 
     async def create_shipment(self, request: ShipmentCreate) -> Shipment:
         async with self._sessions.begin() as session:
@@ -201,6 +211,8 @@ class PostgresShipments:
             raise ConflictError("the uploaded file doesn't match the registered sha256")
 
         async with self._sessions.begin() as session:
+            if self._admission is not None:
+                await self._admission.admit(session)
             queued = await session.execute(
                 update(models.Document)
                 .where(
@@ -250,22 +262,34 @@ class PendingPages:
         self._sessions = sessions
         self._high_water, self._retry_after = high_water, retry_after
 
-    async def pending(self) -> int:
-        async with self._sessions() as session:
-            pages = await session.scalar(
-                select(func.count())
-                .select_from(models.Page)
-                .where(models.Page.status.in_((PageStatus.PENDING, PageStatus.PROCESSING)))
+    LOCK = 0x4D414E49  # pg_advisory_xact_lock key for admission ("MANI")
+
+    async def pending(self, session: AsyncSession | None = None) -> int:
+        if session is None:
+            async with self._sessions() as own:
+                return await self.pending(own)
+        pages = await session.scalar(
+            select(func.count())
+            .select_from(models.Page)
+            .where(models.Page.status.in_((PageStatus.PENDING, PageStatus.PROCESSING)))
+        )
+        unsplit = await session.scalar(
+            select(func.count())
+            .select_from(models.Document)
+            .where(
+                models.Document.status.in_((DocumentStatus.QUEUED, DocumentStatus.PROCESSING)),
+                models.Document.page_count.is_(None),
             )
-            unsplit = await session.scalar(
-                select(func.count())
-                .select_from(models.Document)
-                .where(
-                    models.Document.status.in_((DocumentStatus.QUEUED, DocumentStatus.PROCESSING)),
-                    models.Document.page_count.is_(None),
-                )
-            )
+        )
         return int(pages or 0) + int(unsplit or 0)
 
     async def retry_after(self) -> int | None:
+        """The early check before any work: answers for this moment, not atomically."""
         return self._retry_after if await self.pending() >= self._high_water else None
+
+    async def admit(self, session: AsyncSession) -> None:
+        """Inside the transaction that queues a document: one admission at a time (the lock is
+        held until it commits), so each one counts the documents queued before it."""
+        await session.execute(text("SELECT pg_advisory_xact_lock(:key)"), {"key": self.LOCK})
+        if await self.pending(session) >= self._high_water:
+            raise OverloadedError(self._retry_after)

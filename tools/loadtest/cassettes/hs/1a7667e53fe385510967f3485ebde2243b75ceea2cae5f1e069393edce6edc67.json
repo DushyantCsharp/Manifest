@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "1a7667e53fe385510967f3485ebde2243b75ceea2cae5f1e069393edce6edc67",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:25+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Deep groove ball bearing 6205-2RS\nCountry of origin: DE\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8482 Ball or roller bearings\n\nChoose the subheading that covers these goods. Options:\n- 848220: Bearings; tapered roller bearings, including cone and tapered roller assemblies\n- 848230: Bearings; spherical roller bearings\n- 848250: Bearings; cylindrical roller bearings, including cage and roller assemblies n.e.c. in heading no. 8482\n- 848210: Ball bearings\n- 848299: Bearings; parts, (other than balls, needles and rollers)\n- 848291: Bearings; parts, balls, needles and rollers\n- 848240: Bearings; needle roller bearings, including cage and needle roller assemblies\n- 848280: Bearings; n.e.c. in heading no. 8482, including combined ball/roller\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "fca3cad7621dc2cfa3328926d06b8d4625ce787ee4a631139b55b072337a00ec",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "848210",
+      "cited": [
+        "848210"
+      ],
+      "confidence": "0.98",
+      "reason": "A 6205-2RS deep groove ball bearing with rubber seals is a complete ball bearing, which falls under subheading 8482.10."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1097,
+    "latency_ms": 9658,
+    "output_tokens": 80,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

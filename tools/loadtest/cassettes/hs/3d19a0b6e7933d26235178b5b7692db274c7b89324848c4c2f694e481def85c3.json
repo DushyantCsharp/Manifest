@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "key": "3d19a0b6e7933d26235178b5b7692db274c7b89324848c4c2f694e481def85c3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:53+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Analog quartz wristwatch, steel case\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 91: Clocks and watches and parts thereof\n    contains 911220: Clock cases and similar cases for other goods of chapter 91; other than watch cases\n    contains 911290: Clock cases and similar cases for other goods of chapter 91; other than watch cases, parts thereof\n    contains 910129: Wrist-watches; (not electrically operated), (not automatic winding), whether or not incorporating a stop-watch facility, case of precious metal or of metal clad with precious metal\n    contains 910199: Pocket-watches and other watches, including stop-watches; (excluding wrist-watches), with case of precious metal or of metal clad with precious metal, not electrically operated\n    contains 910121: Wrist-watches; (not electrically operated), automatic winding, whether or not incorporating a stop-watch facility, case of precious metal or of metal clad with precious metal\n    contains 910111: Wrist-watches; electrically operated, with or without a stop-watch, with case of precious metal or of metal clad with precious metal, with mechanical display only\n    contains 910191: Pocket-watches and other watches, including stop-watches; (excluding wrist-watches), with case of precious metal or of metal clad with precious metal, electrically operated\n    contains 910119: Wrist-watches; electrically operated, with or without a stop-watch, with case of precious metal or metal clad with precious metal, without mechanical display\n    contains 911120: Watch cases; of base metal, whether or not gold-plated or silver-plated\n    contains 910229: Wrist-watches; whether or not incorporating a stop-watch facility, with other than automatic winding\n    contains 910221: Wrist-watches; whether or not incorporating a stop-watch facility, with automatic winding\n    contains 910211: Wrist-watches; electrically operated, with or without a stop-watch, (other than those of heading no. 9101) with mechanical display only\n- 42: Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)\n    contains 420211: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of leather or of composition leather\n    contains 420212: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of plastics or of textile materials\n    contains 420219: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n- 73: Iron or steel articles\n    contains 730429: Iron or steel (excluding cast iron or stainless steel); seamless, casing and tubing, of a kind used in drilling for oil or gas\n    contains 730629: Iron or steel (excluding cast iron); casing and tubing of a kind used in drilling for oil and gas (other than stainless steel or seamless), n.e.c. in chapter 73\n    contains 732399: Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323\n- 72: Iron and steel\n    contains 722810: Steel, alloy; bars and rods, of high speed steel\n    contains 722820: Steel, alloy; bars and rods, of silico-manganese steel\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "af07bd62baed71d790181320233785bb59cc9a68bf997c3a94e736ab77f12f1e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "91",
+      "cited": [
+        "91",
+        "910211",
+        "910229"
+      ],
+      "confidence": "0.99",
+      "reason": "A quartz wristwatch is a wrist-watch of heading 9102, which falls in Chapter 91 (clocks and watches); the steel case does not move it to Chapter 73."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1953,
+    "latency_ms": 3563,
+    "output_tokens": 97,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

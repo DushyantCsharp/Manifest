@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "87a61f31725ccaea72aa6bb761517a3bc5c0b7ac9469ca15119b2d2eb0fe9509",
+  "retriever": "hybrid",
+  "query": "Laptop computer 14in, 16GB RAM origin VN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "847130",
+      "description": "Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "847290",
+      "description": "Office machines; not elsewhere classified",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "847090",
+      "description": "Machines incorporating a calculating device; n.e.c. in heading no. 8470",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "847160",
+      "description": "Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "320190",
+      "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "847170",
+      "description": "Units of automatic data processing machines; storage units",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "350300",
+      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "847141",
+      "description": "Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "381600",
+      "description": "Refractory cements, mortars, concretes and similar compositions, including dolomite ramming mix, other than products of heading 38.01",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "847149",
+      "description": "Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "490600",
+      "description": "Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "847010",
+      "description": "Calculating machines; electronic calculators capable of operation without an external source of electric power and pocket-size data recording, reproducing and displaying machines with calculating functions",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "854232",
+      "description": "Electronic integrated circuits; memories",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "970210",
+      "description": "Engravings, prints and lithographs; original of an age exceeding 100 years",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "847021",
+      "description": "Calculating machines; electronic, incorporating a printing device, needing an external source of power",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "970290",
+      "description": "Engravings, prints and lithographs; original of an age not exceeding 100 years",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "9b4e95807d5fab4efbd3e2260e2649dc326a765904936f80d065edb5b504e8a1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:06+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Inflatable beach ball 40cm\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 95: Toys, games and sports requisites; parts and accessories thereof\n    contains 950662: Balls; inflatable\n    contains 950669: Balls; (other than inflatable or for lawn-tennis, golf or table-tennis)\n    contains 950661: Lawn-tennis balls\n    contains 950632: Golf balls\n    contains 950639: Golf equipment; other than clubs and balls\n    contains 950629: Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards\n    contains 950640: Table-tennis articles and equipment\n- 89: Ships, boats and floating structures\n    contains 890312: Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), not designed to be used with a motor and unladen (net) weight not exceeding 100kg\n    contains 890319: Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), unladen (net) weight exceeding 100kg\n    contains 890311: Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), fitted or designed to be fitted with a motor, unladen (net) weight (excluding the motor) not exceeding 100kg\n    contains 890710: Rafts; inflatable\n    contains 890393: Vessels; (other than sailboats and motorboats), for pleasure or sports, other than inflatable, of a length not exceeding 7.5m\n    contains 890399: Vessels; (other than sailboats and motorboats), for pleasure or sports, other than inflatable, of a length exceeding 7.5m\n- 40: Rubber and articles thereof\n    contains 401695: Rubber; vulcanised (other than hard rubber), inflatable articles (other than boat or dock fenders), of non-cellular rubber\n    contains 401694: Rubber; vulcanised (other than hard rubber), boat or dock fenders, whether or not inflatable, of non-cellular rubber\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n- 96: Miscellaneous manufactured articles\n    contains 960860: Pens; ball-point, refills comprising the ball point and ink-reservoir\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "081ff5781be6b2e7b5edcf9d76a97c4d5ce7a7a8ff7d2d2acdaf890f9cbf586d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "95",
+      "cited": [
+        "95",
+        "950662"
+      ],
+      "confidence": "0.95",
+      "reason": "Inflatable balls are specifically covered by heading 9506 (subheading 950662) in Chapter 95, and Chapter 40 note excludes articles of Chapter 95 such as sports balls."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1789,
+    "latency_ms": 2552,
+    "output_tokens": 100,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

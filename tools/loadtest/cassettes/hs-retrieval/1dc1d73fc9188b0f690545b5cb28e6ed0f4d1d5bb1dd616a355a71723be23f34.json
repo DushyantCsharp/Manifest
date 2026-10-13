@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "1dc1d73fc9188b0f690545b5cb28e6ed0f4d1d5bb1dd616a355a71723be23f34",
+  "retriever": "hybrid",
+  "query": "Upholstered office chair, steel base origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "830400",
+      "description": "Office equipment; filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading no. 9403",
+      "score": "0.031545",
+      "ranks": {
+        "lexical": 1,
+        "vector": 6
+      }
+    },
+    {
+      "code": "940210",
+      "description": "Chairs; dentists', barbers' or similar chairs having rotating as well as both reclining and elevating movements, and parts thereof",
+      "score": "0.028405",
+      "ranks": {
+        "lexical": 13,
+        "vector": 8
+      }
+    },
+    {
+      "code": "732399",
+      "description": "Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323",
+      "score": "0.027971",
+      "ranks": {
+        "lexical": 4,
+        "vector": 21
+      }
+    },
+    {
+      "code": "830590",
+      "description": "Stationery; letter clips, letter corners, paper clips, indexing tags and similar office articles, including parts, of base metal",
+      "score": "0.026389",
+      "ranks": {
+        "lexical": 12,
+        "vector": 20
+      }
+    },
+    {
+      "code": "830520",
+      "description": "Stationery; staples in strips, (e.g. for offices, upholstery, packaging), of base metal",
+      "score": "0.024954",
+      "ranks": {
+        "lexical": 11,
+        "vector": 32
+      }
+    },
+    {
+      "code": "730650",
+      "description": "Steel, alloy; tubes, pipes and hollow profiles (other than stainless steel or seamless), welded, of circular cross-section, n.e.c. in chapter 73",
+      "score": "0.020008",
+      "ranks": {
+        "lexical": 42,
+        "vector": 38
+      }
+    },
+    {
+      "code": "940310",
+      "description": "Furniture; metal, for office use",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "940330",
+      "description": "Furniture; wooden, for office use",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "740990",
+      "description": "Copper; plates, sheets and strip, of a thickness exceeding 0.15mm, of copper alloys (other than copper-zinc base alloys, copper-tin base alloys, copper-nickel base alloys or copper-nickel-zinc base alloys)",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "940171",
+      "description": "Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "940139",
+      "description": "Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "722810",
+      "description": "Steel, alloy; bars and rods, of high speed steel",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "940161",
+      "description": "Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "722820",
+      "description": "Steel, alloy; bars and rods, of silico-manganese steel",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "731412",
+      "description": "Iron or steel; woven cloth, endless bands for machinery, of stainless steel",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "940131",
+      "description": "Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "731414",
+      "description": "Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "731419",
+      "description": "Iron or steel; woven cloth, other than of stainless steel",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "940179",
+      "description": "Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    }
+  ]
+}

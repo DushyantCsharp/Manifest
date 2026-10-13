@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "b298e239b8621f445002e176768319d29e79d9732f50e5f4545cbd982dd4896a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:09+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: City bicycle 28in, 7-speed\nCountry of origin: KH\n\nChosen so far: 87 Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof\n\nChoose the heading that covers these goods. Options:\n- 8712: Bicycles and other cycles; including delivery tricycles, not motorised\n    contains 871200: Bicycles and other cycles; including delivery tricycles, not motorised\n- 8714: Vehicles; parts and accessories of heading no. 8711 to 8713\n    contains 871496: Cycles; parts, pedals and crank-gear, and parts thereof\n    contains 871493: Cycles; parts thereof, hubs (other than coaster braking hubs and hub brakes) and free-wheel sprocket-wheels\n    contains 871491: Cycles; frames and forks, and parts thereof\n    contains 871495: Cycles; parts thereof, saddles\n    contains 871492: Cycles; parts thereof, wheel rims and spokes\n    contains 871494: Cycles; parts thereof, brakes, including coaster braking hubs and hub-brakes, and parts thereof\n    contains 871499: Cycles; parts thereof, n.e.c. in item no. 8714.9\n- 8711: Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, with or without side-cars; side-cars\n    contains 871130: Motorcycles (including mopeds) and cycles; fitted with an auxiliary motor, internal combustion piston engine, of cylinder capacity exceeding 250cc but not exceeding 500cc, with or without side-cars; side-cars\n    contains 871150: Motorcycles (including mopeds) and cycles; fitted with auxiliary motor, with internal combustion piston engine of a cylinder capacity exceeding 800cc, with or without side-cars; side-cars\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7ce3bc649a1dcba8d8ee5e45e3647556669b7580e557c4fa5685b5db7b96e57f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8712",
+      "cited": [
+        "8712",
+        "871200"
+      ],
+      "confidence": "0.97",
+      "reason": "A 28-inch 7-speed city bicycle is a complete non-motorised bicycle, which falls under heading 8712 rather than parts (8714) or motorised cycles (8711)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1373,
+    "latency_ms": 3319,
+    "output_tokens": 98,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

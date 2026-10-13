@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "d0c964de82b166bff3493ec9f78e1f0d41e4ece3f8e105f32b03e02240c97534",
+  "retriever": "hybrid",
+  "query": "STAINLESS STEEL SHEET 304, COLD-ROLLED 2MM origin IN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "721932",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more but less than 4.75mm",
+      "score": "0.031514",
+      "ranks": {
+        "lexical": 5,
+        "vector": 2
+      }
+    },
+    {
+      "code": "722020",
+      "description": "Steel, stainless; flat-rolled, width less than 600mm, cold-rolled",
+      "score": "0.030886",
+      "ranks": {
+        "lexical": 9,
+        "vector": 1
+      }
+    },
+    {
+      "code": "721934",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm",
+      "score": "0.030798",
+      "ranks": {
+        "lexical": 7,
+        "vector": 3
+      }
+    },
+    {
+      "code": "721931",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled or cold-reduced, of a thickness of 4.75mm or more",
+      "score": "0.030622",
+      "ranks": {
+        "lexical": 2,
+        "vector": 9
+      }
+    },
+    {
+      "code": "721935",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm",
+      "score": "0.028992",
+      "ranks": {
+        "lexical": 8,
+        "vector": 10
+      }
+    },
+    {
+      "code": "721933",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm",
+      "score": "0.028850",
+      "ranks": {
+        "lexical": 6,
+        "vector": 13
+      }
+    },
+    {
+      "code": "721914",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of less than 3mm",
+      "score": "0.027013",
+      "ranks": {
+        "lexical": 26,
+        "vector": 5
+      }
+    },
+    {
+      "code": "720925",
+      "description": "Iron or non-alloy steel; (not in coils), flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more",
+      "score": "0.026671",
+      "ranks": {
+        "lexical": 14,
+        "vector": 16
+      }
+    },
+    {
+      "code": "721912",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 4.75mm or more but not exceeding 10mm",
+      "score": "0.026611",
+      "ranks": {
+        "lexical": 24,
+        "vector": 8
+      }
+    },
+    {
+      "code": "721922",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of 4.75mm or more but not exceeding 10mm",
+      "score": "0.026515",
+      "ranks": {
+        "lexical": 28,
+        "vector": 6
+      }
+    },
+    {
+      "code": "722012",
+      "description": "Steel, stainless; flat-rolled, width less than 600mm, hot-rolled, of a thickness of less than 4.75mm",
+      "score": "0.026495",
+      "ranks": {
+        "lexical": 32,
+        "vector": 4
+      }
+    },
+    {
+      "code": "730441",
+      "description": "Steel, stainless; cold-drawn or cold-rolled (cold-reduced), tubes and pipes of circular cross-section",
+      "score": "0.026077",
+      "ranks": {
+        "lexical": 3,
+        "vector": 38
+      }
+    },
+    {
+      "code": "720915",
+      "description": "Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more",
+      "score": "0.026050",
+      "ranks": {
+        "lexical": 10,
+        "vector": 25
+      }
+    },
+    {
+      "code": "721924",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of less than 3mm",
+      "score": "0.026036",
+      "ranks": {
+        "lexical": 30,
+        "vector": 7
+      }
+    },
+    {
+      "code": "722692",
+      "description": "Steel, alloy; flat-rolled, width less than 600mm, (excluding silicon-electrical or high speed steel), cold-rolled",
+      "score": "0.025992",
+      "ranks": {
+        "lexical": 19,
+        "vector": 15
+      }
+    },
+    {
+      "code": "720928",
+      "description": "Iron or non-alloy steel; (not in coils), flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm",
+      "score": "0.025974",
+      "ranks": {
+        "lexical": 17,
+        "vector": 17
+      }
+    },
+    {
+      "code": "720918",
+      "description": "Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm",
+      "score": "0.025747",
+      "ranks": {
+        "lexical": 13,
+        "vector": 23
+      }
+    },
+    {
+      "code": "721913",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 3mm or more but less than 4.75mm",
+      "score": "0.025278",
+      "ranks": {
+        "lexical": 25,
+        "vector": 14
+      }
+    },
+    {
+      "code": "721923",
+      "description": "Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of 3mm or more but less than 4.75mm",
+      "score": "0.025125",
+      "ranks": {
+        "lexical": 29,
+        "vector": 12
+      }
+    },
+    {
+      "code": "722011",
+      "description": "Steel, stainless; flat-rolled, width less than 600mm, hot-rolled, of a thickness of 4.75mm or more",
+      "score": "0.025074",
+      "ranks": {
+        "lexical": 31,
+        "vector": 11
+      }
+    }
+  ]
+}

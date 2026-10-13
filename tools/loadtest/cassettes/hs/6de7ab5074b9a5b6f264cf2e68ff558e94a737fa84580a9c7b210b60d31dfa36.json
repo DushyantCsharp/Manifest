@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "6de7ab5074b9a5b6f264cf2e68ff558e94a737fa84580a9c7b210b60d31dfa36",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:31+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Split air conditioner 12000 BTU\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841510: Air conditioning machines; comprising a motor-driven fan and elements for changing the temperature and humidity, of a kind designed to be fixed to a window, wall, ceiling or floor, self-contained or split-system\n    contains 841490: Pumps and compressors; parts, of air or vacuum pumps, air or other gas compressors and fans, ventilating or recycling hoods incorporating a fan\n    contains 841440: Compressors; air compressors mounted on a wheeled chassis for towing\n    contains 841480: Pumps and compressors; for air, vacuum or gas, n.e.c. in heading no. 8414\n    contains 841581: Air conditioning machines; containing a motor driven fan, other than window or wall types, incorporating a refrigerating unit and a valve for reversal of the cooling/heat cycle (reversible heat pumps)\n    contains 847960: Machinery and mechanical appliances; evaporative air coolers\n    contains 841582: Air conditioning machines; containing a motor driven fan, other than window or wall types, incorporating a refrigerating unit\n    contains 841861: Heat pumps; other than air conditioning machines of heading no. 8415\n    contains 841590: Air conditioning machines; with motor driven fan and elements for temperature control, parts thereof\n    contains 841420: Pumps; hand or foot-operated air pumps\n    contains 841583: Air conditioning machines; containing a motor driven fan, other than window or wall types, not incorporating a refrigerating unit\n    contains 841810: Refrigerators and freezers; combined refrigerator-freezers, fitted with separate external doors, electric or other\n    contains 841830: Freezers; of the chest type, not exceeding 800l capacity\n    contains 841869: Refrigerating or freezing equipment; n.e.c. in heading no. 8418\n- 73: Iron or steel articles\n    contains 732290: Air heaters and hot air distributors, (not electrically heated), incorporating a motor-driven fan or blower and parts thereof, of iron or steel\n- 28: Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes\n    contains 285390: Phosphides, chemically defined or not, not ferrophosphorus; other inorganic compounds n.e.c. (including distilled, conductivity water and water of like purity); liquid air, rare gases removed or not; compressed air; amalgams, not precious metal amalgams\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 41: Raw hides and skins (other than furskins) and leather\n    contains 410719: Leather; further prepared after tanning or crusting, including parchment-dressed, of bovine (including buffalo) or equine animals, without hair on, split or not, other than leather of heading 41.14, (other than grain splits and full grains, unsplit)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 07: Vegetables and certain roots and tubers; edible\n    contains 071310: Vegetables, leguminous; peas (pisum sativum), shelled, whether or not skinned or split, dried\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3aa93318ad3a45e3fbc478882fd25af34cd694e598888eac89c00ab78a81455a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "841510",
+        "841582"
+      ],
+      "confidence": "0.98",
+      "reason": "A split-system air conditioner is an air conditioning machine with a motor-driven fan, covered by heading 8415 in Chapter 84."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2061,
+    "latency_ms": 3262,
+    "output_tokens": 81,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

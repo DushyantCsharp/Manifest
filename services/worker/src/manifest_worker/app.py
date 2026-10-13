@@ -46,6 +46,10 @@ class WorkerSettings(BaseSettings):
     llm_replay_latency: bool = False
     # Off: lines get no HS suggestion and route to review (HS_UNCERTAIN), without a model call.
     hs_enabled: bool = True
+    # Replay HS retrieval from this folder (load tests): no database search or embedding call,
+    # so the walk's prompts, and so its recorded answers, match. ``new`` records what's missing.
+    hs_retrievals: Path | None = None
+    hs_retrieval_mode: Literal["replay", "record", "new"] = "replay"
     # The monitor (python -m manifest_worker.monitor): queue depths come from the management
     # API, with the broker URL's credentials and vhost; the auto-approve ratio covers shipments
     # routed in the trailing window.

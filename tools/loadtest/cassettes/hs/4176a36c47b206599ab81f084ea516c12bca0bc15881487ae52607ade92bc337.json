@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "4176a36c47b206599ab81f084ea516c12bca0bc15881487ae52607ade92bc337",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:54+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's woven cotton shirt, long sleeve\nCountry of origin: IN\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted > 6205 Shirts; men's or boys' (not knitted or crocheted)\n\nChoose the subheading that covers these goods. Options:\n- 620520: Shirts; men's or boys', of cotton (not knitted or crocheted)\n- 620590: Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)\n- 620530: Shirts; men's or boys', of man-made fibres (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "0932ebcc3c578144e1647f0501f5d075ee56ac725a79e3f7406d3407b07a273a",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "620520",
+      "cited": [
+        "620520",
+        "6205"
+      ],
+      "confidence": "0.98",
+      "reason": "A men's woven cotton shirt is a men's shirt of cotton, not knitted or crocheted, which is exactly the scope of subheading 620520."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 961,
+    "latency_ms": 4779,
+    "output_tokens": 86,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

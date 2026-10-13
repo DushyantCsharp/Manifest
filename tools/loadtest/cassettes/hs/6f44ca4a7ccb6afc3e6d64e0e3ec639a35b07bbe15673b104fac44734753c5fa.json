@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "6f44ca4a7ccb6afc3e6d64e0e3ec639a35b07bbe15673b104fac44734753c5fa",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:39+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LED TELEVISION 55IN 4K\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8528 Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus\n\nChoose the subheading that covers these goods. Options:\n- 852872: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a colour video display or screen\n- 852871: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; not designed to incorporate a video display or screen\n- 852873: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a monochrome video display or screen\n- 852849: Monitors; cathode-ray tube, n.e.c. in subheading 8528.42, whether or not colour\n- 852859: Monitors other than cathode-ray tube; n.e.c. in subheading 8528.52, whether or not colour\n- 852869: Projectors; n.e.c. in subheading 8528.62, whether or not colour\n- 852842: Monitors; cathode-ray tube, capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3b70d2c95511622c1f6470d84fbd1829d9b7990e77b35dd7eaba2bdc336276fd",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "852872",
+      "cited": [
+        "852872",
+        "8528"
+      ],
+      "confidence": "0.96",
+      "reason": "A 55-inch 4K LED television is a television reception apparatus incorporating a colour video display, which falls under subheading 8528.72."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1305,
+    "latency_ms": 3308,
+    "output_tokens": 81,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

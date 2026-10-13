@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "720b109396a910ebd588fc6750e8b9cdc183408d5bf6c3e3a5cee6ab7a55f8ee",
+  "retriever": "hybrid",
+  "query": "Extra virgin olive oil, 1L bottle origin IT",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "150920",
+      "description": "Vegetable oils; olive oil and its fractions, extra virgin olive oil, whether or not refined, but not chemically modified",
+      "score": "0.032266",
+      "ranks": {
+        "lexical": 3,
+        "vector": 1
+      }
+    },
+    {
+      "code": "150930",
+      "description": "Vegetable oils; olive oil and its fractions, virgin olive oil, whether or not refined, but not chemically modified",
+      "score": "0.031281",
+      "ranks": {
+        "lexical": 6,
+        "vector": 2
+      }
+    },
+    {
+      "code": "151090",
+      "description": "Vegetable oils; oils and their fractions n.e.c. in heading 1510, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",
+      "score": "0.030777",
+      "ranks": {
+        "lexical": 4,
+        "vector": 6
+      }
+    },
+    {
+      "code": "151010",
+      "description": "Vegetable oils; crude olive pomace oil and their fractions, obtained solely from olives, whether or not refined, but not chemically modified",
+      "score": "0.030579",
+      "ranks": {
+        "lexical": 8,
+        "vector": 3
+      }
+    },
+    {
+      "code": "150940",
+      "description": "Vegetable oils; olive oil and its fractions, virgin olive oils n.e.c. in heading 1509, whether or not refined, but not chemically modified",
+      "score": "0.030550",
+      "ranks": {
+        "lexical": 7,
+        "vector": 4
+      }
+    },
+    {
+      "code": "150990",
+      "description": "Vegetable oils; olive oil and its fractions, other than virgin, whether or not refined, but not chemically modified",
+      "score": "0.029877",
+      "ranks": {
+        "lexical": 9,
+        "vector": 5
+      }
+    },
+    {
+      "code": "151511",
+      "description": "Vegetable oils; linseed oil and its fractions, crude, not chemically modified",
+      "score": "0.027072",
+      "ranks": {
+        "lexical": 17,
+        "vector": 11
+      }
+    },
+    {
+      "code": "151519",
+      "description": "Vegetable oils; linseed oil and its fractions, other than crude, whether or not refined, but not chemically modified",
+      "score": "0.025479",
+      "ranks": {
+        "lexical": 18,
+        "vector": 19
+      }
+    },
+    {
+      "code": "151560",
+      "description": "Vegetable oils; microbial fats and oils and their fractions, whether or not refined, but not chemically modified",
+      "score": "0.024869",
+      "ranks": {
+        "lexical": 23,
+        "vector": 18
+      }
+    },
+    {
+      "code": "150300",
+      "description": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil; not emulsified or mixed or otherwise prepared",
+      "score": "0.023632",
+      "ranks": {
+        "lexical": 10,
+        "vector": 47
+      }
+    },
+    {
+      "code": "151521",
+      "description": "Vegetable oils; maize (corn) oil and its fractions, crude, not chemically modified",
+      "score": "0.023528",
+      "ranks": {
+        "lexical": 19,
+        "vector": 32
+      }
+    },
+    {
+      "code": "151550",
+      "description": "Vegetable oils; sesame oil and its fractions, whether or not refined, but not chemically modified",
+      "score": "0.022948",
+      "ranks": {
+        "lexical": 22,
+        "vector": 33
+      }
+    },
+    {
+      "code": "330190",
+      "description": "Oils, essential; concentrates in fats, fixed oils, waxes and the like, terpenic by-products, aqueous distillates and solutions, extracted oleoresins, n.e.c. in heading no. 3301",
+      "score": "0.022021",
+      "ranks": {
+        "lexical": 27,
+        "vector": 35
+      }
+    },
+    {
+      "code": "151529",
+      "description": "Vegetable oils; maize (corn) oil and its fractions, other than crude, whether or not refined, but not chemically modified",
+      "score": "0.021934",
+      "ranks": {
+        "lexical": 20,
+        "vector": 46
+      }
+    },
+    {
+      "code": "151530",
+      "description": "Vegetable oils; castor oil and its fractions, whether or not refined, but not chemically modified",
+      "score": "0.021869",
+      "ranks": {
+        "lexical": 21,
+        "vector": 45
+      }
+    },
+    {
+      "code": "151590",
+      "description": "Fixed vegetable fats and oils and their fractions n.e.c. in heading 1515; other than linseed, maize (corn), castor, sesame, microbial oils, whether or not refined, but not chemically modified",
+      "score": "0.021806",
+      "ranks": {
+        "lexical": 24,
+        "vector": 41
+      }
+    },
+    {
+      "code": "150410",
+      "description": "Oils of fish; fish-liver oils and their fractions, whether or not refined, but not chemically modified",
+      "score": "0.021541",
+      "ranks": {
+        "lexical": 47,
+        "vector": 22
+      }
+    },
+    {
+      "code": "271012",
+      "description": "Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; light oils and preparations",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "271019",
+      "description": "Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; not light oils and preparations",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "271020",
+      "description": "Petroleum oils and oils from bituminous minerals, containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    }
+  ]
+}

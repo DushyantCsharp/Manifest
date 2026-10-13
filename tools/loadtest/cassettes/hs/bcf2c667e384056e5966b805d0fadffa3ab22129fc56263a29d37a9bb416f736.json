@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "bcf2c667e384056e5966b805d0fadffa3ab22129fc56263a29d37a9bb416f736",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hair dryer 2200W ionic\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8516: Electric water, space, soil heaters; electro-thermic hair-dressing apparatus; hand dryers, irons; electro-thermic appliances for domestic purposes; electro heating resistors, not of heading no. 8545\n    contains 851631: Hair-dressing apparatus; electro-thermic hair dryers\n    contains 851632: Hair-dressing apparatus; electro-thermic, other than hair dryers\n    contains 851690: Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516\n    contains 851640: Smoothing irons; electric\n    contains 851633: Hand-drying apparatus; electro-thermic\n    contains 851679: Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes\n- 8510: Shavers, hair clippers and hair removing appliances, with self-contained electric motor\n    contains 851020: Hair clippers; with a self-contained electric motor\n    contains 851030: Hair-removing appliances; with self-contained electric motor\n    contains 851090: Shavers and hair clippers; parts of those with self-contained electric motor\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "619cb59a299cdf05c6e9cb13963b45d4481920846a1ade41bc7327396ce314a9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8516",
+      "cited": [
+        "8516",
+        "851631"
+      ],
+      "confidence": "0.98",
+      "reason": "An electric hair dryer is an electro-thermic hair-dressing apparatus, covered by heading 8516 (subheading 851631), not by 8510, which covers shavers, clippers and hair-removing appliances."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1266,
+    "latency_ms": 2247,
+    "output_tokens": 107,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

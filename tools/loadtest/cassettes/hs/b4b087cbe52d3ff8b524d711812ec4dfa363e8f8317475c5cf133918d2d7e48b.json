@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "b4b087cbe52d3ff8b524d711812ec4dfa363e8f8317475c5cf133918d2d7e48b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:44+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green Arabica coffee beans, grade 1\nCountry of origin: BR\n\nChoose the chapter that covers these goods. Options:\n- 09: Coffee, tea, mate and spices\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n    contains 090122: Coffee; roasted, decaffeinated\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n    contains 090300: Mate\n- 21: Miscellaneous edible preparations\n    contains 210111: Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee\n    contains 210112: Preparations with a basis of extracts, essences or concentrates or with a basis of coffee\n    contains 210130: Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof\n- 18: Cocoa and cocoa preparations\n    contains 180100: Cocoa beans; whole or broken, raw or roasted\n- 12: Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder\n    contains 120110: Soya beans; seed, whether or not broken\n    contains 121292: Locust beans (carob); fit for human consumption, fresh, chilled, frozen or dried, whether or not ground\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 07: Vegetables and certain roots and tubers; edible\n    contains 071333: Vegetables, leguminous; kidney beans, including white pea beans (phaseolus vulgaris), shelled, whether or not skinned or split, dried\n    contains 071350: Vegetables, leguminous; broad beans (vicia faba var. major) and horse beans (vicia faba var. equina, vicia faba var. minor), shelled, whether or not skinned or split, dried\n- 13: Lac; gums, resins and other vegetable saps and extracts\n    contains 130232: Mucilages and thickeners; whether or not modified, derived from locust beans, locust bean seeds or guar seeds\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "adc2253ffe5a71eed95ee0672b76cc7619a9ab9006740b4138c3917a206c0015",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "09",
+      "cited": [
+        "09",
+        "090111"
+      ],
+      "confidence": "0.99",
+      "reason": "Green (unroasted, not decaffeinated) coffee beans fall under Chapter 09, heading 0901 (subheading 090111)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1833,
+    "latency_ms": 4035,
+    "output_tokens": 81,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "26f11bedca635969038b7a19e3e516e7675c57b249f63fac11d0391b254b6539",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:19+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Aluminium household foil 12 micron\nCountry of origin: CN\n\nChosen so far: 76 Aluminium and articles thereof > 7607 Aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0.2mm\n\nChoose the subheading that covers these goods. Options:\n- 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n- 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n- 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "51f51bf00bc3f253d01d943bc4aff043c6d346a47c7e829173bf1bd5ee9e1545",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "760711",
+      "cited": [
+        "760711"
+      ],
+      "confidence": "0.6",
+      "reason": "Plain household aluminium foil of 12 micron is unbacked and rolled but not further worked, which matches 760711; the description does not mention a backing or any further working, though 760719 would apply if the foil were further worked (e.g. embossed or cut to shape).}"
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1019,
+    "latency_ms": 2278,
+    "output_tokens": 119,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

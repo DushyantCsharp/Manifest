@@ -1,10 +1,14 @@
 {
   "run": "20261013T103021Z",
+  "commit": null,
+  "dirty": null,
+  "generated_at": null,
   "args": {
     "users": "2,4,8,16,32",
     "step": 120,
     "concurrency": 8,
-    "keep_running": false
+    "keep_running": false,
+    "hs": "on"
   },
   "window": [
     1791887465.714619,
@@ -116,9 +120,19 @@
     "pages_extracted": 693.0,
     "pages_failed": 0.0,
     "cost_usd": 11.233728,
+    "cost_by_stage": {
+      "page_extract": 11.233728
+    },
+    "routed": {
+      "needs_review": 231.0
+    },
     "tokens": {
       "input": 1649929.0,
       "output": 793387.0
+    },
+    "tokens_by_stage": {
+      "page_extract/input": 1649929.0,
+      "page_extract/output": 793387.0
     },
     "admission": {
       "admitted": 693.0
@@ -142,7 +156,8 @@
   },
   "database": {
     "pages_extracted": 693,
-    "shipments_needs_review": 231
+    "shipments_needs_review": 231,
+    "hs_suggestions": 0
   },
   "steps": [
     {

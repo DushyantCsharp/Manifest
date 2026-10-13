@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "27248faa5858fc50d65fa9c1a16666128d90dee1d0884d0b267f89364fbc1f0f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:49+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green Arabica coffee beans, grade 1\nCountry of origin: VN\n\nChosen so far: 09 Coffee, tea, mate and spices\n\nChoose the heading that covers these goods. Options:\n- 0901: Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n    contains 090122: Coffee; roasted, decaffeinated\n- 0902: Tea\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n- 0907: Cloves (whole fruit, cloves and stems)\n    contains 090710: Spices; cloves (whole fruit, cloves and stems), neither crushed nor ground\n- 0905: Vanilla\n    contains 090510: Spices; vanilla, neither crushed nor ground\n    contains 090520: Spices; vanilla, crushed or ground\n- 0910: Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices\n    contains 091011: Spices; ginger, neither crushed nor ground\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1fc9dc7653fadda211a118e670b977faceeb9af2fc2c1c6efa047e03441a29a5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0901",
+      "cited": [
+        "0901",
+        "090111"
+      ],
+      "confidence": "0.99",
+      "reason": "Green (unroasted) Arabica coffee beans are coffee, not roasted or decaffeinated, which falls under heading 0901 (subheading 090111)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1273,
+    "latency_ms": 3022,
+    "output_tokens": 90,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

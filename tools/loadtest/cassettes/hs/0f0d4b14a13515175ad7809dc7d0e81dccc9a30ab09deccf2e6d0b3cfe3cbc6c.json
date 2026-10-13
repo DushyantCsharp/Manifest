@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "0f0d4b14a13515175ad7809dc7d0e81dccc9a30ab09deccf2e6d0b3cfe3cbc6c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's cotton denim trousers\nCountry of origin: PK\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted > 6204 Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear); women's or girls' (not knitted or crocheted)\n\nChoose the subheading that covers these goods. Options:\n- 620462: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton (not knitted or crocheted)\n- 620469: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of textile materials (other than wool, fine animal hair, cotton or synthetic fibres), (not knitted or crocheted)\n- 620463: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres (not knitted or crocheted)\n- 620461: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n- 620452: Skirts and divided skirts; women's or girls', of cotton (not knitted or crocheted)\n- 620422: Ensembles; women's or girls', of cotton (not knitted or crocheted)\n- 620412: Suits; women's or girls', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "b02e046cef59ef9c2f6a24347fba254f7c0b45cae96f86f266b56fe2e0ddcb30",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "620462",
+      "cited": [
+        "620462",
+        "6204"
+      ],
+      "confidence": "0.97",
+      "reason": "Women's cotton denim trousers are trousers of cotton, not knitted or crocheted, which is the text of 620462."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1248,
+    "latency_ms": 2799,
+    "output_tokens": 76,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

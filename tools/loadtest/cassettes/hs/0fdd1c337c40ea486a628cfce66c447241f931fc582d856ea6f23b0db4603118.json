@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "0fdd1c337c40ea486a628cfce66c447241f931fc582d856ea6f23b0db4603118",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:40+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Laptop computer 14in, 16GB RAM\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n    contains 847290: Office machines; not elsewhere classified\n    contains 847090: Machines incorporating a calculating device; n.e.c. in heading no. 8470\n    contains 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n    contains 847170: Units of automatic data processing machines; storage units\n    contains 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n    contains 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n    contains 847010: Calculating machines; electronic calculators capable of operation without an external source of electric power and pocket-size data recording, reproducing and displaying machines with calculating functions\n    contains 847021: Calculating machines; electronic, incorporating a printing device, needing an external source of power\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 38: Chemical products n.e.c.\n    contains 381600: Refractory cements, mortars, concretes and similar compositions, including dolomite ramming mix, other than products of heading 38.01\n- 49: Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans\n    contains 490600: Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854232: Electronic integrated circuits; memories\n- 97: Works of art; collectors' pieces and antiques\n    contains 970210: Engravings, prints and lithographs; original of an age exceeding 100 years\n    contains 970290: Engravings, prints and lithographs; original of an age not exceeding 100 years\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6419761385aa0a20047954d29914baeaf61fb2a89498f8454d2092eae5d8ae4d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "84",
+        "847130"
+      ],
+      "confidence": "0.97",
+      "reason": "A laptop is a portable automatic data processing machine with CPU, keyboard and display, which falls under heading 8471 (subheading 847130) in Chapter 84."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2004,
+    "latency_ms": 2179,
+    "output_tokens": 89,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

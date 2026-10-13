@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "80c3426eab891568c95787f40fec5f72b90629702ad85c5c7c09cc9da4cc7509",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Split air conditioner 12000 BTU\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8415 Air conditioning machines; comprising a motor driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated\n\nChoose the subheading that covers these goods. Options:\n- 841510: Air conditioning machines; comprising a motor-driven fan and elements for changing the temperature and humidity, of a kind designed to be fixed to a window, wall, ceiling or floor, self-contained or split-system\n- 841581: Air conditioning machines; containing a motor driven fan, other than window or wall types, incorporating a refrigerating unit and a valve for reversal of the cooling/heat cycle (reversible heat pumps)\n- 841582: Air conditioning machines; containing a motor driven fan, other than window or wall types, incorporating a refrigerating unit\n- 841590: Air conditioning machines; with motor driven fan and elements for temperature control, parts thereof\n- 841583: Air conditioning machines; containing a motor driven fan, other than window or wall types, not incorporating a refrigerating unit\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "10da0da13ea063a28965026e77743c1eaeb03197345452bfacf515af5285643f",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "841510",
+      "cited": [
+        "841510"
+      ],
+      "confidence": "0.9",
+      "reason": "Subheading 8415.10 expressly covers air conditioning machines designed to be fixed to a window, wall, ceiling or floor, including split-system types, so a split air conditioner falls here."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1171,
+    "latency_ms": 2754,
+    "output_tokens": 96,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

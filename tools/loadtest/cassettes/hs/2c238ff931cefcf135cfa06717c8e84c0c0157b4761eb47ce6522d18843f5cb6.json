@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "2c238ff931cefcf135cfa06717c8e84c0c0157b4761eb47ce6522d18843f5cb6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:47+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Green Arabica coffee beans, grade 1\nCountry of origin: BR\n\nChosen so far: 09 Coffee, tea, mate and spices\n\nChoose the heading that covers these goods. Options:\n- 0901: Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion\n    contains 090111: Coffee; not roasted or decaffeinated\n    contains 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n    contains 090121: Coffee; roasted, not decaffeinated\n    contains 090112: Coffee; decaffeinated, not roasted\n    contains 090122: Coffee; roasted, decaffeinated\n- 0902: Tea\n    contains 090210: Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg\n    contains 090220: Tea, green; (not fermented), in immediate packings of a content exceeding 3kg\n- 0903: Mate\n    contains 090300: Mate\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8e48cfd863c13d042537cefaac8d90642f85f04166265e968df8ac8fc69c3cd2",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0901",
+      "cited": [
+        "0901",
+        "090111"
+      ],
+      "confidence": "0.99",
+      "reason": "Green (unroasted) Arabica coffee beans are coffee, not roasted or decaffeinated, which falls under heading 0901."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1093,
+    "latency_ms": 2545,
+    "output_tokens": 81,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

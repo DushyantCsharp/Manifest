@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "a147b9d1031bfcc08019dbeafc76379bc706b683ba7d2c3cbddfe5cec6d719f0",
+  "retriever": "hybrid",
+  "query": "Plastic storage box 30L with lid origin VN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "392310",
+      "description": "Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 2,
+        "vector": 1
+      }
+    },
+    {
+      "code": "392350",
+      "description": "Plastics; stoppers, lids, caps and other closures, for the conveyance or packing of goods",
+      "score": "0.031010",
+      "ranks": {
+        "lexical": 4,
+        "vector": 5
+      }
+    },
+    {
+      "code": "392329",
+      "description": "Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers",
+      "score": "0.030579",
+      "ranks": {
+        "lexical": 3,
+        "vector": 8
+      }
+    },
+    {
+      "code": "392330",
+      "description": "Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods",
+      "score": "0.029958",
+      "ranks": {
+        "lexical": 11,
+        "vector": 3
+      }
+    },
+    {
+      "code": "392390",
+      "description": "Plastics; articles for the conveyance or packing of goods n.e.c. in heading no. 3923",
+      "score": "0.029324",
+      "ranks": {
+        "lexical": 13,
+        "vector": 4
+      }
+    },
+    {
+      "code": "481960",
+      "description": "Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres",
+      "score": "0.029052",
+      "ranks": {
+        "lexical": 1,
+        "vector": 19
+      }
+    },
+    {
+      "code": "392340",
+      "description": "Plastics; spools, cops, bobbins and similar supports, for the conveyance or packing of goods",
+      "score": "0.028382",
+      "ranks": {
+        "lexical": 12,
+        "vector": 9
+      }
+    },
+    {
+      "code": "830300",
+      "description": "Safes; armoured or reinforced, strong-boxes, doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal",
+      "score": "0.024675",
+      "ranks": {
+        "lexical": 6,
+        "vector": 45
+      }
+    },
+    {
+      "code": "481920",
+      "description": "Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard",
+      "score": "0.022447",
+      "ranks": {
+        "lexical": 21,
+        "vector": 39
+      }
+    },
+    {
+      "code": "481910",
+      "description": "Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard",
+      "score": "0.021846",
+      "ranks": {
+        "lexical": 20,
+        "vector": 47
+      }
+    },
+    {
+      "code": "392510",
+      "description": "Plastics; builders' ware, reservoirs, tanks, vats and similar containers of a capacity exceeding 300 litres",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "481930",
+      "description": "Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "391690",
+      "description": "Plastics; monofilament, of plastics n.e.c. in heading no. 3916, cross-sectional dimension exceeds 1mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "392321",
+      "description": "Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "391729",
+      "description": "Plastics; tubes, pipes and hoses thereof, rigid, of plastics n.e.c. in heading no. 3917",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "392099",
+      "description": "Plastics; plates, sheets, film, foil and strip (not self-adhesive), of plastics n.e.c. in heading no. 3920, non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "392119",
+      "description": "Plastics; plates, sheets, film, foil and strip, of plastics n.e.c. in heading no. 3921, cellular",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "731010",
+      "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (excluding compressed or liquefied gas), 50l or more capacity but not exceeding 300l",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "761100",
+      "description": "Aluminium; reservoirs, tanks, vats and similar containers, for material (not compressed or liquefied gas), of a capacity over 300l, whether or not lined, not fitted with mechanical/thermal equipment",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    }
+  ]
+}

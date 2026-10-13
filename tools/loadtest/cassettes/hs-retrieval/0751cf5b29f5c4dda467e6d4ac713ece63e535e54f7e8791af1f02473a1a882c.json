@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "0751cf5b29f5c4dda467e6d4ac713ece63e535e54f7e8791af1f02473a1a882c",
+  "retriever": "hybrid",
+  "query": "Aluminium household foil 12 micron origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "760711",
+      "description": "Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 1,
+        "vector": 2
+      }
+    },
+    {
+      "code": "760719",
+      "description": "Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 2,
+        "vector": 3
+      }
+    },
+    {
+      "code": "760720",
+      "description": "Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm",
+      "score": "0.031258",
+      "ranks": {
+        "lexical": 3,
+        "vector": 5
+      }
+    },
+    {
+      "code": "761691",
+      "description": "Aluminium; cloth, grill, netting and fencing, of aluminium wire",
+      "score": "0.029040",
+      "ranks": {
+        "lexical": 6,
+        "vector": 12
+      }
+    },
+    {
+      "code": "761510",
+      "description": "Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like",
+      "score": "0.027530",
+      "ranks": {
+        "lexical": 4,
+        "vector": 24
+      }
+    },
+    {
+      "code": "760320",
+      "description": "Aluminium; powders of lamellar structure, flakes",
+      "score": "0.027480",
+      "ranks": {
+        "lexical": 17,
+        "vector": 9
+      }
+    },
+    {
+      "code": "760310",
+      "description": "Aluminium; powders of non-lamellar structure",
+      "score": "0.026857",
+      "ranks": {
+        "lexical": 16,
+        "vector": 13
+      }
+    },
+    {
+      "code": "760612",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)",
+      "score": "0.026334",
+      "ranks": {
+        "lexical": 26,
+        "vector": 8
+      }
+    },
+    {
+      "code": "761520",
+      "description": "Aluminium; sanitary ware and parts thereof",
+      "score": "0.026334",
+      "ranks": {
+        "lexical": 8,
+        "vector": 26
+      }
+    },
+    {
+      "code": "760611",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)",
+      "score": "0.026050",
+      "ranks": {
+        "lexical": 25,
+        "vector": 10
+      }
+    },
+    {
+      "code": "760511",
+      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm",
+      "score": "0.025679",
+      "ranks": {
+        "lexical": 21,
+        "vector": 15
+      }
+    },
+    {
+      "code": "760691",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)",
+      "score": "0.025579",
+      "ranks": {
+        "lexical": 27,
+        "vector": 11
+      }
+    },
+    {
+      "code": "760519",
+      "description": "Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less",
+      "score": "0.025353",
+      "ranks": {
+        "lexical": 22,
+        "vector": 16
+      }
+    },
+    {
+      "code": "760529",
+      "description": "Aluminium; alloys, wire, maximum cross-sectional dimension is 7mm or less",
+      "score": "0.024892",
+      "ranks": {
+        "lexical": 24,
+        "vector": 17
+      }
+    },
+    {
+      "code": "760692",
+      "description": "Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, (not rectangular or square)",
+      "score": "0.024877",
+      "ranks": {
+        "lexical": 28,
+        "vector": 14
+      }
+    },
+    {
+      "code": "760521",
+      "description": "Aluminium; alloys, wire, maximum cross-sectional dimension exceeding 7mm",
+      "score": "0.024243",
+      "ranks": {
+        "lexical": 23,
+        "vector": 22
+      }
+    },
+    {
+      "code": "760110",
+      "description": "Aluminium; unwrought, (not alloyed)",
+      "score": "0.023800",
+      "ranks": {
+        "lexical": 13,
+        "vector": 39
+      }
+    },
+    {
+      "code": "760120",
+      "description": "Aluminium; unwrought, alloys",
+      "score": "0.023718",
+      "ranks": {
+        "lexical": 14,
+        "vector": 38
+      }
+    },
+    {
+      "code": "761210",
+      "description": "Aluminium; collapsible tubular containers, for any material, (not compressed or liquefied gas), 300l capacity or less, whether or not lined, not fitted with mechanical/thermal equipment",
+      "score": "0.022872",
+      "ranks": {
+        "lexical": 35,
+        "vector": 21
+      }
+    },
+    {
+      "code": "760810",
+      "description": "Aluminium; tubes and pipes, not alloyed",
+      "score": "0.022730",
+      "ranks": {
+        "lexical": 29,
+        "vector": 27
+      }
+    }
+  ]
+}

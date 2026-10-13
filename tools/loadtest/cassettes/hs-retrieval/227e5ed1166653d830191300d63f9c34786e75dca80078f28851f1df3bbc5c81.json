@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "227e5ed1166653d830191300d63f9c34786e75dca80078f28851f1df3bbc5c81",
+  "retriever": "hybrid",
+  "query": "Milk chocolate bars 100g origin CH",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "180632",
+      "description": "Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, (not filled), weighing 2kg or less",
+      "score": "0.031778",
+      "ranks": {
+        "lexical": 5,
+        "vector": 1
+      }
+    },
+    {
+      "code": "180631",
+      "description": "Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, filled, weighing 2kg or less",
+      "score": "0.031754",
+      "ranks": {
+        "lexical": 4,
+        "vector": 2
+      }
+    },
+    {
+      "code": "180620",
+      "description": "Chocolate & other food preparations containing cocoa; in blocks, slabs or bars weighing more than 2kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, content exceeding 2kg",
+      "score": "0.031746",
+      "ranks": {
+        "lexical": 3,
+        "vector": 3
+      }
+    },
+    {
+      "code": "040110",
+      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, not exceeding 1%",
+      "score": "0.028191",
+      "ranks": {
+        "lexical": 13,
+        "vector": 9
+      }
+    },
+    {
+      "code": "040150",
+      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 10%",
+      "score": "0.028083",
+      "ranks": {
+        "lexical": 16,
+        "vector": 7
+      }
+    },
+    {
+      "code": "040390",
+      "description": "Dairy produce; buttermilk, curdled milk or cream, kephir, fermented or acidified milk or cream, whether or not concentrated or containing added sweetening, flavouring, fruit, nuts or cocoa (excluding yoghurt)",
+      "score": "0.027263",
+      "ranks": {
+        "lexical": 1,
+        "vector": 32
+      }
+    },
+    {
+      "code": "040210",
+      "description": "Dairy produce; milk and cream, concentrated or containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content not exceeding 1.5% (by weight)",
+      "score": "0.027072",
+      "ranks": {
+        "lexical": 17,
+        "vector": 11
+      }
+    },
+    {
+      "code": "040140",
+      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 6% but not exceeding 10%",
+      "score": "0.027032",
+      "ranks": {
+        "lexical": 15,
+        "vector": 13
+      }
+    },
+    {
+      "code": "170490",
+      "description": "Sugar confectionery; (excluding chewing gum, including white chocolate), not containing cocoa",
+      "score": "0.027013",
+      "ranks": {
+        "lexical": 26,
+        "vector": 5
+      }
+    },
+    {
+      "code": "180690",
+      "description": "Chocolate and other food preparations containing cocoa; n.e.c. in chapter 18",
+      "score": "0.026646",
+      "ranks": {
+        "lexical": 27,
+        "vector": 6
+      }
+    },
+    {
+      "code": "040120",
+      "description": "Dairy produce; milk and cream, not concentrated, not containing added sugar or other sweetening matter, of a fat content, by weight, exceeding 1% but not exceeding 6%",
+      "score": "0.025562",
+      "ranks": {
+        "lexical": 14,
+        "vector": 23
+      }
+    },
+    {
+      "code": "040221",
+      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
+      "score": "0.025166",
+      "ranks": {
+        "lexical": 18,
+        "vector": 21
+      }
+    },
+    {
+      "code": "040490",
+      "description": "Dairy produce; natural milk constituents (excluding whey), whether or not containing added sugar or other sweetening matter, n.e.c. in chapter 04",
+      "score": "0.024100",
+      "ranks": {
+        "lexical": 22,
+        "vector": 24
+      }
+    },
+    {
+      "code": "040229",
+      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, in powder, granules or other solid forms, of a fat content exceeding 1.5% (by weight)",
+      "score": "0.024022",
+      "ranks": {
+        "lexical": 19,
+        "vector": 28
+      }
+    },
+    {
+      "code": "040291",
+      "description": "Dairy produce; milk and cream, concentrated, not containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
+      "score": "0.023736",
+      "ranks": {
+        "lexical": 20,
+        "vector": 29
+      }
+    },
+    {
+      "code": "040510",
+      "description": "Dairy produce; derived from milk, butter",
+      "score": "0.023676",
+      "ranks": {
+        "lexical": 23,
+        "vector": 26
+      }
+    },
+    {
+      "code": "040299",
+      "description": "Dairy produce; milk and cream, containing added sugar or other sweetening matter, other than in powder, granules or other solid forms",
+      "score": "0.022872",
+      "ranks": {
+        "lexical": 21,
+        "vector": 35
+      }
+    },
+    {
+      "code": "040590",
+      "description": "Dairy produce; fats and oils derived from milk (other than butter or dairy spreads)",
+      "score": "0.022109",
+      "ranks": {
+        "lexical": 24,
+        "vector": 38
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "180610",
+      "description": "Cocoa; powder, containing added sugar or other sweetening matter",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    }
+  ]
+}

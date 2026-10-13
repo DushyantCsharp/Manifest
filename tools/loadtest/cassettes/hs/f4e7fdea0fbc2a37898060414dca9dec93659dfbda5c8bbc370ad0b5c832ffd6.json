@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "f4e7fdea0fbc2a37898060414dca9dec93659dfbda5c8bbc370ad0b5c832ffd6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:41+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's cotton denim trousers\nCountry of origin: TR\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted > 6204 Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear); women's or girls' (not knitted or crocheted)\n\nChoose the subheading that covers these goods. Options:\n- 620462: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton (not knitted or crocheted)\n- 620469: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of textile materials (other than wool, fine animal hair, cotton or synthetic fibres), (not knitted or crocheted)\n- 620461: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n- 620463: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres (not knitted or crocheted)\n- 620452: Skirts and divided skirts; women's or girls', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e5ce3bc8730bdb49adee9e4bd4d05dc1c24272e3df3ca1057c979687529b38a8",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "620462",
+      "cited": [
+        "620462"
+      ],
+      "confidence": "0.97",
+      "reason": "Women's trousers of cotton denim (woven, not knitted) fall under the subheading for women's or girls' trousers of cotton."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1172,
+    "latency_ms": 3447,
+    "output_tokens": 77,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

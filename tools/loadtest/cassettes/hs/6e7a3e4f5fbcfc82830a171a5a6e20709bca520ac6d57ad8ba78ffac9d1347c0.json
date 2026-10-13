@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "6e7a3e4f5fbcfc82830a171a5a6e20709bca520ac6d57ad8ba78ffac9d1347c0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:58+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Smartphone 6.1in, 128GB\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 851713: Telephone sets; smartphones for cellular or other wireless networks\n    contains 851714: Telephone sets; other than smartphones, for cellular or other wireless networks\n    contains 851761: Base stations\n    contains 851718: Telephone sets n.e.c. in item no. 8517.1\n    contains 851769: Communication apparatus (excluding telephone sets or base stations); machines for the transmission or reception of voice, images or other data (including wired/wireless networks), n.e.c. in item no. 8517.6\n    contains 851711: Line telephone sets with cordless handsets\n    contains 851771: Communication apparatus; parts, aerials and aerial reflectors of all kinds, part suitable for use therewith\n    contains 851762: Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus\n    contains 851779: Communication apparatus; parts, other than aerials and aerial reflectors of all kinds\n    contains 852412: Flat panel display modules, whether or not incorporating touch-sensitive screens; of organic light-emitting diodes (OLED), without drivers or control circuits\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 49: Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans\n    contains 490600: Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies\n- 97: Works of art; collectors' pieces and antiques\n    contains 970210: Engravings, prints and lithographs; original of an age exceeding 100 years\n    contains 970290: Engravings, prints and lithographs; original of an age not exceeding 100 years\n- 72: Iron and steel\n    contains 722511: Steel, alloy; flat-rolled, width 600mm or more, of silicon-electrical steel, grain-oriented\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8a214964eabaaf13c498969c5f8ac480091bf65e337e8c0d0633c9ff7a600afb",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85",
+        "851713"
+      ],
+      "confidence": "0.98",
+      "reason": "Smartphones for cellular networks are classified in heading 8517 (subheading 851713) within Chapter 85."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1963,
+    "latency_ms": 2786,
+    "output_tokens": 72,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "da4b0756a59857112d3265092abdb4aff8b10bb46d0156bf88d25455ef66a818",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:32+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Passenger car tyre 205/55R16\nCountry of origin: TH\n\nChosen so far: 40 Rubber and articles thereof > 4011 New pneumatic tyres, of rubber\n\nChoose the subheading that covers these goods. Options:\n- 401110: Rubber; new pneumatic tyres, of a kind used on motor cars (including station wagons and racing cars)\n- 401150: Rubber; new pneumatic tyres, of a kind used on bicycles\n- 401120: Rubber; new pneumatic tyres, of a kind used on buses or lorries\n- 401130: Rubber; new pneumatic tyres, of a kind used on aircraft\n- 401170: Rubber; new pneumatic tyres, of a kind used on agricultural or forestry vehicles and machines\n- 401190: Rubber; new pneumatic tyres, of a kind used on light commercial vehicles\n- 401140: Rubber; new pneumatic tyres, of a kind used on motorcycles\n- 401180: Rubber; new pneumatic tyres, of a kind used on construction, mining or industrial handling vehicles and machines\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c557cbd57274c5480bd19e352a44601348f516575bd5f695a926e19198f2d29e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "401110",
+      "cited": [
+        "401110"
+      ],
+      "confidence": "0.96",
+      "reason": "A 205/55R16 passenger car tyre is a new pneumatic tyre of a kind used on motor cars, which is the scope of subheading 401110."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1146,
+    "latency_ms": 2696,
+    "output_tokens": 84,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

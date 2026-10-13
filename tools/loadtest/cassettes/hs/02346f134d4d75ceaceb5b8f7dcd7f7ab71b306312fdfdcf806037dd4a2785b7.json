@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "02346f134d4d75ceaceb5b8f7dcd7f7ab71b306312fdfdcf806037dd4a2785b7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:07+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Extra virgin olive oil, 1L bottle\nCountry of origin: IT\n\nChosen so far: 15 Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes > 1509 Olive oil and its fractions; whether or not refined, but not chemically modified\n\nChoose the subheading that covers these goods. Options:\n- 150920: Vegetable oils; olive oil and its fractions, extra virgin olive oil, whether or not refined, but not chemically modified\n- 150930: Vegetable oils; olive oil and its fractions, virgin olive oil, whether or not refined, but not chemically modified\n- 150940: Vegetable oils; olive oil and its fractions, virgin olive oils n.e.c. in heading 1509, whether or not refined, but not chemically modified\n- 150990: Vegetable oils; olive oil and its fractions, other than virgin, whether or not refined, but not chemically modified\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "12524d301996dc8d40c66baf00a55daadc1f667c19d1c192b4f748f930fa46e6",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "150920",
+      "cited": [
+        "150920"
+      ],
+      "confidence": "0.97",
+      "reason": "Extra virgin olive oil is expressly named in subheading 150920, which therefore covers the goods."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1073,
+    "latency_ms": 2274,
+    "output_tokens": 67,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

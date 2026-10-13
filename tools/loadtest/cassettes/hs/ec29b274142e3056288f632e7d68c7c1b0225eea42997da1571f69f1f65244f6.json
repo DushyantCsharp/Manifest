@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "ec29b274142e3056288f632e7d68c7c1b0225eea42997da1571f69f1f65244f6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:37+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Women's cotton denim trousers\nCountry of origin: TR\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6204: Suits, ensembles, jackets, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear); women's or girls' (not knitted or crocheted)\n    contains 620462: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of cotton (not knitted or crocheted)\n    contains 620469: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of textile materials (other than wool, fine animal hair, cotton or synthetic fibres), (not knitted or crocheted)\n    contains 620461: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of wool or fine animal hair (not knitted or crocheted)\n    contains 620463: Trousers, bib and brace overalls, breeches and shorts; women's or girls', of synthetic fibres (not knitted or crocheted)\n    contains 620452: Skirts and divided skirts; women's or girls', of cotton (not knitted or crocheted)\n- 6203: Suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear); men's or boys' (not knitted or crocheted)\n    contains 620342: Trousers, bib and brace overalls, breeches and shorts; men's or boys', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a0f5fdbc51e7403cbc583e5ec9e28a65af21873e6be610ccb66db0d594409f7e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6204",
+      "cited": [
+        "6204",
+        "620462"
+      ],
+      "confidence": "0.97",
+      "reason": "Women's cotton denim trousers (woven, not knitted) fall under heading 6204, which covers women's or girls' trousers, with subheading 620462 for cotton."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1283,
+    "latency_ms": 2210,
+    "output_tokens": 92,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

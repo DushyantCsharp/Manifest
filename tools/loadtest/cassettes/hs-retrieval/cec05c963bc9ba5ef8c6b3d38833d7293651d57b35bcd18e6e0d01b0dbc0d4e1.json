@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "cec05c963bc9ba5ef8c6b3d38833d7293651d57b35bcd18e6e0d01b0dbc0d4e1",
+  "retriever": "hybrid",
+  "query": "BLACK TEA, CTC, BULK origin KE",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "090240",
+      "description": "Tea, black; (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg",
+      "score": "0.032266",
+      "ranks": {
+        "lexical": 3,
+        "vector": 1
+      }
+    },
+    {
+      "code": "090230",
+      "description": "Tea, black; (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg",
+      "score": "0.032258",
+      "ranks": {
+        "lexical": 2,
+        "vector": 2
+      }
+    },
+    {
+      "code": "090220",
+      "description": "Tea, green; (not fermented), in immediate packings of a content exceeding 3kg",
+      "score": "0.030579",
+      "ranks": {
+        "lexical": 8,
+        "vector": 3
+      }
+    },
+    {
+      "code": "090210",
+      "description": "Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg",
+      "score": "0.030550",
+      "ranks": {
+        "lexical": 7,
+        "vector": 4
+      }
+    },
+    {
+      "code": "210120",
+      "description": "Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate",
+      "score": "0.027820",
+      "ranks": {
+        "lexical": 4,
+        "vector": 22
+      }
+    },
+    {
+      "code": "180620",
+      "description": "Chocolate & other food preparations containing cocoa; in blocks, slabs or bars weighing more than 2kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, content exceeding 2kg",
+      "score": "0.023335",
+      "ranks": {
+        "lexical": 21,
+        "vector": 31
+      }
+    },
+    {
+      "code": "210112",
+      "description": "Preparations with a basis of extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.021169",
+      "ranks": {
+        "lexical": 36,
+        "vector": 33
+      }
+    },
+    {
+      "code": "210111",
+      "description": "Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.020836",
+      "ranks": {
+        "lexical": 35,
+        "vector": 37
+      }
+    },
+    {
+      "code": "210130",
+      "description": "Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof",
+      "score": "0.020210",
+      "ranks": {
+        "lexical": 37,
+        "vector": 41
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "090832",
+      "description": "Spices; cardamoms, crushed or ground",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "380290",
+      "description": "Chemical products; activated natural mineral products, animal black, including spent animal black",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "090620",
+      "description": "Spices; cinnamon and cinnamon-tree flowers, crushed or ground",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "090831",
+      "description": "Spices; cardamoms, neither crushed nor ground",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "440342",
+      "description": "Wood, tropical; teak, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "090821",
+      "description": "Spices; mace, neither crushed nor ground",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "280300",
+      "description": "Carbon; carbon blacks and other forms of carbon n.e.c.",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "090111",
+      "description": "Coffee; not roasted or decaffeinated",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "103094b9252bed6488b2f2a541f17e86f334ffb21f86b8bf56b979f933921fb0",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:46+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cotton knitted pullover\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 611020: Jerseys, pullovers, cardigans, waistcoats and similar articles; of cotton, knitted or crocheted\n    contains 611090: Jerseys, pullovers, cardigans, waistcoats and similar articles; of textile materials (other than wool or fine animal hair, cotton or man-made fibres), knitted or crocheted\n    contains 610910: T-shirts, singlets and other vests; of cotton, knitted or crocheted\n    contains 611030: Jerseys, pullovers, cardigans, waistcoats and similar articles; of man-made fibres, knitted or crocheted\n    contains 610510: Shirts; men's or boys', of cotton, knitted or crocheted\n    contains 610610: Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted\n    contains 611011: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of wool or fine animal hair\n    contains 611012: Jerseys, pullovers, cardigans, waistcoats and similar articles; knitted or crocheted, of fibres from kashmir (cashmere) goats\n    contains 610322: Ensembles; men's or boys', of cotton, knitted or crocheted\n- 60: Fabrics; knitted or crocheted\n    contains 600521: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, unbleached or bleached\n    contains 600524: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, printed\n    contains 600522: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, dyed\n    contains 600523: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, of cotton, yarns of different colours\n    contains 600590: Fabrics; warp knit (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04, excluding those made from cotton or synthetic or artificial fibres\n- 52: Cotton\n    contains 520531: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 714.29 decitex or more (not exceeding 14 metric number) per single yarn, not for retail sale\n    contains 520535: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, less than 125 decitex (exceeding 80 metric number), per single yarn, not for retail sale\n    contains 520534: Cotton yarn; (not sewing thread), multiple or cabled, of uncombed fibres, 85% or more by weight of cotton, 192.30 to 125 decitex (53 to 80 metric number) per single yarn, not for retail sale\n    contains 520511: Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale\n    contains 520512: Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale\n    contains 520513: Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d57bc2bcbe8bb77acfe1b2ff49e5279a196a028f8055424ddc88b4361df260d1",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "61",
+      "cited": [
+        "611020"
+      ],
+      "confidence": "0.98",
+      "reason": "A cotton knitted pullover is a finished knitted garment, covered by subheading 611020 in Chapter 61 (jerseys, pullovers of cotton, knitted)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2099,
+    "latency_ms": 3327,
+    "output_tokens": 91,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "c179556f82ac824fb73f4cf4672bafb035919615bee559cb549cbd4be1d6c97f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:02+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Centrifugal water pump 1.1kW\nCountry of origin: IT\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8413 Pumps; for liquids, whether or not fitted with measuring device, liquid elevators\n\nChoose the subheading that covers these goods. Options:\n- 841370: Pumps; centrifugal, n.e.c. in heading no. 8413, for liquids\n- 841340: Pumps; concrete pumps\n- 841360: Pumps; rotary positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n- 841350: Pumps; reciprocating positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n- 841319: Pumps; for liquids, fitted or designed to be fitted with a measuring device, other than pumps for dispensing fuel or lubricants\n- 841330: Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e95ec3e054f664fa62b8d8fe2e7e805cd52bd2451c7402fae1768e98ca4a5c98",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "841370",
+      "cited": [
+        "841370"
+      ],
+      "confidence": "0.93",
+      "reason": "A general-purpose centrifugal water pump with no measuring device or engine-specific use falls under the residual centrifugal pumps subheading for liquids."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1107,
+    "latency_ms": 3333,
+    "output_tokens": 84,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

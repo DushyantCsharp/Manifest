@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "6d78dd1b046ea27607ea94a188baf4f1ae74e6a8eb0e66575b325d07773728ec",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Polarized sunglasses\nCountry of origin: IT\n\nChosen so far: 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n\nChoose the heading that covers these goods. Options:\n- 9004: Spectacles, goggles and the like; corrective, protective or other\n    contains 900490: Spectacles, goggles and the like; (other than sunglasses) corrective, protective or other\n    contains 900410: Sunglasses; corrective, protective or other\n- 9001: Optical fibres and optical fibre bundles; optical fibre cables not of heading no. 8544; sheets, plates of polarising material; lenses, prisms, mirrors, of any material; unmounted; not non optical glass\n    contains 900120: Optical elements; polarising material, sheets and plates thereof\n    contains 900140: Lenses, spectacle; unmounted, of glass, excluding elements of glass not optically worked\n    contains 900150: Lenses, spectacle; unmounted, of materials other than glass\n    contains 900130: Lenses, contact; unmounted, of any material, excluding elements of glass not optically worked\n    contains 900190: Optical elements; lenses n.e.c. in heading no. 9001, prisms, mirrors and other optical elements, unmounted, of any material (excluding elements of glass not optically worked)\n- 9003: Frames and mountings; for spectacles, goggles or the like, and parts\n    contains 900311: Frames and mountings; for spectacles, goggles or the like, of plastics\n    contains 900319: Frames and mountings; for spectacles, goggles or the like, of materials other than plastics\n    contains 900390: Frames and mountings; parts for spectacles, goggles or the like\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "27766ea3f176755501163f04f33c5f0835d673a53af45fdfb55834ed3ecbd1e3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9004",
+      "cited": [
+        "9004",
+        "900410"
+      ],
+      "confidence": "0.97",
+      "reason": "Complete polarized sunglasses are spectacles of heading 9004 (subheading 900410 for sunglasses), not unmounted polarizing material (9001) or frames/parts only (9003)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1334,
+    "latency_ms": 3875,
+    "output_tokens": 101,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "0713e20f709fbfd93eaec49ff624a2c5a37b88c22ff31f63d585f9fd4ca35a10",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:13+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Hair dryer 2200W ionic\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 851631: Hair-dressing apparatus; electro-thermic hair dryers\n    contains 851632: Hair-dressing apparatus; electro-thermic, other than hair dryers\n    contains 851690: Electro-thermic appliances; parts, of heating resistors, of water, space and soil heaters, hair-dressing apparatus, hand dryers, smoothing irons and other domestic appliances of heading no. 8516\n    contains 851020: Hair clippers; with a self-contained electric motor\n    contains 851030: Hair-removing appliances; with self-contained electric motor\n    contains 851090: Shavers and hair clippers; parts of those with self-contained electric motor\n    contains 851640: Smoothing irons; electric\n    contains 851633: Hand-drying apparatus; electro-thermic\n    contains 851679: Electro-thermic appliances; n.e.c. in heading no. 8516, used for domestic purposes\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841933: Dryers; lyophilisation apparatus, freeze drying units and spray dryers, not used for domestic purposes\n    contains 842119: Centrifuges; n.e.c. in heading no. 8421, including centrifugal dryers (but not clothes-dryers)\n- 33: Essential oils and resinoids; perfumery, cosmetic or toilet preparations\n    contains 330520: Hair preparations; for permanent waving or straightening\n- 96: Miscellaneous manufactured articles\n    contains 961511: Combs, hair slides and the like; of hard rubber or plastics\n    contains 961590: Hairpins, curling pins, curling grips, hair curlers and the like (not those of heading no. 8516) and parts thereof\n    contains 961519: Combs, hair slides and the like; of other than hard rubber or plastics\n- 05: Animal originated products; not elsewhere specified or included\n    contains 050290: Animal products; badger hair and other brush making hair and waste of such bristles or hair, n.e.c. in heading no. 0502 (excluding horsehair)\n    contains 050100: Animal products; hair, human, unworked, whether or not washed or scoured, and waste of human hair\n- 51: Wool, fine or coarse animal hair; horsehair yarn and woven fabric\n    contains 510320: Wool and hair; waste of wool or of fine animal hair, including yarn waste, but excluding garnetted stock and noils of wool or of fine animal hair\n- 67: Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair\n    contains 670300: Human hair, dressed, thinned, bleached or otherwise worked; wool or other animal hair or other textile materials, prepared for use in making wigs or the like\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "839f1cb363b5c0659e52e58a028110b9863d58b0fc03e2bdb7c78f2ecfc8c1c6",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "851631"
+      ],
+      "confidence": "0.98",
+      "reason": "An electric hair dryer is covered by heading 8516 (electro-thermic hair dryers, subheading 851631) in Chapter 85."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1939,
+    "latency_ms": 2868,
+    "output_tokens": 79,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

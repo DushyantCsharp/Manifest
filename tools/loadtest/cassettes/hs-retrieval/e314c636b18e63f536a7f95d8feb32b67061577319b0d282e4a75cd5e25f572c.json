@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "e314c636b18e63f536a7f95d8feb32b67061577319b0d282e4a75cd5e25f572c",
+  "retriever": "hybrid",
+  "query": "LED bulb E27 9W warm white origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "853952",
+      "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps",
+      "score": "0.029324",
+      "ranks": {
+        "lexical": 4,
+        "vector": 13
+      }
+    },
+    {
+      "code": "853951",
+      "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) modules",
+      "score": "0.028531",
+      "ranks": {
+        "lexical": 3,
+        "vector": 19
+      }
+    },
+    {
+      "code": "940529",
+      "description": "Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for other than use solely with light-emitting diode (LED) light sources",
+      "score": "0.026598",
+      "ranks": {
+        "lexical": 38,
+        "vector": 1
+      }
+    },
+    {
+      "code": "940521",
+      "description": "Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for use solely with light-emitting diode (LED) light sources",
+      "score": "0.026182",
+      "ranks": {
+        "lexical": 37,
+        "vector": 3
+      }
+    },
+    {
+      "code": "940511",
+      "description": "Luminaires and light fittings; chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use solely with light-emitting diode (LED) light sources",
+      "score": "0.026151",
+      "ranks": {
+        "lexical": 35,
+        "vector": 4
+      }
+    },
+    {
+      "code": "854141",
+      "description": "Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)",
+      "score": "0.025356",
+      "ranks": {
+        "lexical": 6,
+        "vector": 38
+      }
+    },
+    {
+      "code": "940519",
+      "description": "Chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use other than with light-emitting diode (LED) light sources",
+      "score": "0.025342",
+      "ranks": {
+        "lexical": 36,
+        "vector": 7
+      }
+    },
+    {
+      "code": "940542",
+      "description": "Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources",
+      "score": "0.025189",
+      "ranks": {
+        "lexical": 42,
+        "vector": 5
+      }
+    },
+    {
+      "code": "940541",
+      "description": "Luminaires and light fittings; electric, photovoltaic, designed for use solely with light-emitting diode (LED) light sources",
+      "score": "0.025053",
+      "ranks": {
+        "lexical": 41,
+        "vector": 6
+      }
+    },
+    {
+      "code": "701110",
+      "description": "Glass envelopes (including bulbs and tubes); open, and glass parts thereof, without fittings, for electric lighting",
+      "score": "0.024786",
+      "ranks": {
+        "lexical": 16,
+        "vector": 26
+      }
+    },
+    {
+      "code": "854110",
+      "description": "Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)",
+      "score": "0.024644",
+      "ranks": {
+        "lexical": 5,
+        "vector": 48
+      }
+    },
+    {
+      "code": "701190",
+      "description": "Glass envelopes (including bulbs and tubes); open, and glass parts thereof, without fittings, other than for electric lighting and cathode-ray tubes",
+      "score": "0.024184",
+      "ranks": {
+        "lexical": 18,
+        "vector": 28
+      }
+    },
+    {
+      "code": "940561",
+      "description": "Luminaires; illuminated signs, illuminated name-plates and the like, designed for use solely with light-emitting diode (LED) light sources",
+      "score": "0.024108",
+      "ranks": {
+        "lexical": 44,
+        "vector": 9
+      }
+    },
+    {
+      "code": "701120",
+      "description": "Glass envelopes (including bulbs and tubes); open, and glass parts thereof, without fittings, for cathode-ray tubes",
+      "score": "0.023857",
+      "ranks": {
+        "lexical": 17,
+        "vector": 32
+      }
+    },
+    {
+      "code": "940569",
+      "description": "Luminaires; illuminated signs, illuminated name-plates and the like, designed for other than use solely with light-emitting diode (LED) light sources",
+      "score": "0.023810",
+      "ranks": {
+        "lexical": 45,
+        "vector": 10
+      }
+    },
+    {
+      "code": "940549",
+      "description": "Luminaires and light fittings; electric, designed for other than use solely with light-emitting diode (LED) light sources",
+      "score": "0.023793",
+      "ranks": {
+        "lexical": 43,
+        "vector": 11
+      }
+    },
+    {
+      "code": "940531",
+      "description": "Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for use solely with light-emitting diode (LED) light sources",
+      "score": "0.023259",
+      "ranks": {
+        "lexical": 39,
+        "vector": 16
+      }
+    },
+    {
+      "code": "940539",
+      "description": "Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for other than use solely with light-emitting diode (LED) light sources",
+      "score": "0.021905",
+      "ranks": {
+        "lexical": 40,
+        "vector": 24
+      }
+    },
+    {
+      "code": "847590",
+      "description": "Machines; parts, of those for assembling electric or electronic lamps, tubes, valves or flash-bulbs, in glass envelopes and manufacturing or hot working glass or glassware",
+      "score": "0.021864",
+      "ranks": {
+        "lexical": 33,
+        "vector": 30
+      }
+    },
+    {
+      "code": "853120",
+      "description": "Signalling apparatus; electric, sound or visual, indicator panels incorporating liquid crystal devices (LCD) or light-emitting diodes (LED), excluding those of heading no. 8512 or 8530",
+      "score": "0.020739",
+      "ranks": {
+        "lexical": 34,
+        "vector": 39
+      }
+    }
+  ]
+}

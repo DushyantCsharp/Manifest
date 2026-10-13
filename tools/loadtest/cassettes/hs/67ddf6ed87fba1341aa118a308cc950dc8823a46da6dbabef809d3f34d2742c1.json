@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "67ddf6ed87fba1341aa118a308cc950dc8823a46da6dbabef809d3f34d2742c1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Aluminium household foil 12 micron\nCountry of origin: CN\n\nChosen so far: 76 Aluminium and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 7607: Aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0.2mm\n    contains 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n    contains 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n    contains 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n- 7616: Aluminium; articles n.e.c. in chapter 76\n    contains 761691: Aluminium; cloth, grill, netting and fencing, of aluminium wire\n- 7615: Aluminium; table, kitchen or other household articles and parts thereof, pot scourers and scouring or polishing pads, gloves and the like, sanitary ware and parts thereof\n    contains 761510: Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like\n    contains 761520: Aluminium; sanitary ware and parts thereof\n- 7603: Aluminium; powders and flakes\n    contains 760320: Aluminium; powders of lamellar structure, flakes\n    contains 760310: Aluminium; powders of non-lamellar structure\n- 7606: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm\n    contains 760612: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)\n    contains 760611: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)\n    contains 760691: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)\n    contains 760692: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, (not rectangular or square)\n- 7605: Aluminium wire\n    contains 760511: Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm\n    contains 760519: Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less\n    contains 760529: Aluminium; alloys, wire, maximum cross-sectional dimension is 7mm or less\n    contains 760521: Aluminium; alloys, wire, maximum cross-sectional dimension exceeding 7mm\n- 7601: Aluminium; unwrought\n    contains 760110: Aluminium; unwrought, (not alloyed)\n    contains 760120: Aluminium; unwrought, alloys\n- 7612: Aluminium casks, drums, cans, boxes etc (including rigid, collapsible tubular containers), for materials other than compressed, liquefied gas, 300l capacity or less, lined, heat-insulated or not\n    contains 761210: Aluminium; collapsible tubular containers, for any material, (not compressed or liquefied gas), 300l capacity or less, whether or not lined, not fitted with mechanical/thermal equipment\n- 7608: Aluminium; tubes and pipes\n    contains 760810: Aluminium; tubes and pipes, not alloyed\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4605ba98f36e83e25dd4ff5b1f2280e188082daed920f2b7d87eba120e9db6da",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7607",
+      "cited": [
+        "7607",
+        "760711"
+      ],
+      "confidence": "0.9",
+      "reason": "Aluminium foil of 12 micron (0.012 mm) thickness is within the 0.2 mm limit of heading 7607, which is more specific than the household articles heading 7615, and household foil is plain rolled foil."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2020,
+    "latency_ms": 2850,
+    "output_tokens": 109,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

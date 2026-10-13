@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "b570597c3cdc417fc2349d4ab6f7be7958676d94a4ac3efb263d3112f0cd643d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:59+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Porcelain dinner plate 27cm\nCountry of origin: PT\n\nChosen so far: 69 Ceramic products\n\nChoose the heading that covers these goods. Options:\n- 6911: Tableware, kitchenware, other household articles and toilet articles; of porcelain or china\n    contains 691110: Tableware and kitchenware; of porcelain or china\n    contains 691190: Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china\n- 6913: Statuettes and other ornamental ceramic articles\n    contains 691310: Ceramic statuettes and other ornamental ceramic articles, of porcelain or china\n- 6914: Ceramic articles; n.e.c. in chapter 69\n    contains 691410: Ceramic articles n.e.c. in chapter 69; of porcelain or china\n- 6910: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures\n    contains 691010: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of porcelain or china\n- 6912: Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china\n    contains 691200: Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "73674ba167c296fb2c2f9817e24fd76ac2d9e9597134c8f5c771eceaca3644b0",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6911",
+      "cited": [
+        "6911",
+        "691110"
+      ],
+      "confidence": "0.98",
+      "reason": "A porcelain dinner plate is tableware of porcelain or china, which heading 6911 covers (subheading 691110), while 6912 is limited to ceramics other than porcelain."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1255,
+    "latency_ms": 4114,
+    "output_tokens": 96,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

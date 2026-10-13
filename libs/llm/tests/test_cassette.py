@@ -213,3 +213,36 @@ def test_prune_deletes_only_what_nothing_asked_for(tmp_path: Path) -> None:
     assert [p.stem for p in tmp_path.glob("*.json")] == [
         request_key("anthropic", request("PAGE 1"))
     ]
+
+
+def test_a_load_test_replay_takes_the_recorded_time_and_keeps_the_finish_reason(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    class Finished(Live):
+        def complete_json(self, request: JsonRequest) -> JsonResponse:
+            return JsonResponse(
+                {"total": 1},
+                40,
+                8,
+                latency_ms=1_500,
+                finish_reason="end_turn",
+                response_model="m-1",
+            )
+
+    CassetteProvider(tmp_path, mode="record", inner=Finished()).complete_json(request())
+    slept: list[float] = []
+    monkeypatch.setattr("manifest_llm.cassette.time.sleep", slept.append)
+    replayed = CassetteProvider(tmp_path, name="anthropic", replay_latency=True).complete_json(
+        request()
+    )
+    assert slept == [1.5]
+    assert (replayed.finish_reason, replayed.response_model) == ("end_turn", "m-1")
+    # Without the option a replay is instant; recordings from before the field end their turn.
+    path = next(tmp_path.glob("*.json"))
+    old = json.loads(path.read_text())
+    del old["response"]["finish_reason"]
+    path.write_text(json.dumps(old))
+    assert CassetteProvider(tmp_path, name="anthropic").complete_json(request()).finish_reason == (
+        "end_turn"
+    )
+    assert slept == [1.5]

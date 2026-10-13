@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "5d7fedd24b8384eb57aebb58ad54486cb1bbfcef657b96122a26a7b7abd809f9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:09+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Inflatable beach ball 40cm\nCountry of origin: CN\n\nChosen so far: 95 Toys, games and sports requisites; parts and accessories thereof > 9506 Gymnastics, athletics, other sports (including table tennis) or outdoor games equipment, n.e.c. in this chapter, swimming pools and paddling pools\n\nChoose the subheading that covers these goods. Options:\n- 950662: Balls; inflatable\n- 950669: Balls; (other than inflatable or for lawn-tennis, golf or table-tennis)\n- 950661: Lawn-tennis balls\n- 950632: Golf balls\n- 950639: Golf equipment; other than clubs and balls\n- 950629: Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards\n- 950640: Table-tennis articles and equipment\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "687b1233d7a5657876a9e0608ba7792a724a451e0a006f889c03dbc813e553ff",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "950662",
+      "cited": [
+        "950662"
+      ],
+      "confidence": "0.93",
+      "reason": "An inflatable beach ball is a ball that is inflatable, which 9506.62 covers directly; the other options are for non-inflatable balls, tennis, golf, table-tennis or water-sport equipment."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1055,
+    "latency_ms": 3243,
+    "output_tokens": 101,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

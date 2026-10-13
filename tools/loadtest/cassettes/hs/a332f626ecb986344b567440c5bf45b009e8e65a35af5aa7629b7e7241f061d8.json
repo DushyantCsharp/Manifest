@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "key": "a332f626ecb986344b567440c5bf45b009e8e65a35af5aa7629b7e7241f061d8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:25+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Upholstered office chair, steel base\nCountry of origin: CN\n\nChosen so far: 94 Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n\nChoose the heading that covers these goods. Options:\n- 9402: Furniture; medical, surgical, dental or veterinary (e.g. operating tables, hospital beds, dentists' chairs) barbers' chairs; parts\n    contains 940210: Chairs; dentists', barbers' or similar chairs having rotating as well as both reclining and elevating movements, and parts thereof\n- 9403: Furniture and parts thereof, n.e.c. in chapter 94\n    contains 940310: Furniture; metal, for office use\n    contains 940330: Furniture; wooden, for office use\n- 9401: Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof\n    contains 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "9b0acdc51bc6dbc9d96127d6b7d327a63eba21b20feb9d71d21a4a1faadadfe0",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9401",
+      "cited": [
+        "9401",
+        "940171",
+        "940139"
+      ],
+      "confidence": "0.95",
+      "reason": "An upholstered office chair is a seat covered by heading 9401, which excludes medical and barber chairs of 9402, and 9403 covers only furniture other than seats."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1335,
+    "latency_ms": 2074,
+    "output_tokens": 94,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

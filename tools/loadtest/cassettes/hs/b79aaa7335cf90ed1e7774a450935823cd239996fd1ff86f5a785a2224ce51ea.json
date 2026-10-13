@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "b79aaa7335cf90ed1e7774a450935823cd239996fd1ff86f5a785a2224ce51ea",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:00+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: CORRUGATED SHIPPING CARTON, 3-PLY\nCountry of origin: CN\n\nChosen so far: 48 Paper and paperboard; articles of paper pulp, of paper or paperboard\n\nChoose the heading that covers these goods. Options:\n- 4819: Cartons, boxes, cases, bags and the like, of paper, paperboard, cellulose wadding or fibres; box files, letter trays and the like, of paper or paperboard, of a kind used in offices, shops or the like\n    contains 481920: Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard\n    contains 481910: Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard\n    contains 481930: Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more\n    contains 481940: Paper and paperboard; sacks and bags, including cones, of paper, paperboard, cellulose wadding or fibres, having a base width less than 40cm\n    contains 481960: Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres\n- 4808: Paper and paperboard, corrugated (with or without glued flat surface sheets), creped, crinkled, embossed or perforated, in rolls or sheets other than paper of the kind described in heading 4803\n    contains 480810: Paper and paperboard; corrugated, whether or not perforated, in rolls or sheets, other than paper of heading 4803\n    contains 480890: Paper and paperboard; other than corrugated (with or without glued flat surface sheets) or kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803\n    contains 480840: Paper and paperboard; kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803\n- 4810: Paper and paperboard, coated one or both sides with kaolin (china clay) or inorganic substances, with binder or not, no other coating, surface coloured or not, surface decorated or printed, in rolls or rectangular (including square) sheets, of any size\n    contains 481092: Paper and paperboard; multi-ply, coated with kaolin or other inorganic substances only, for non-graphic purposes, n.e.c. in heading no. 4810, in rolls or sheets\n- 4823: Paper, paperboard, cellulose wadding and webs of cellulose fibres; cut to size or shape, articles of paper pulp, paper and paper-board, cellulose wadding or webs of cellulose fibres, n.e.c. in chapter 48\n    contains 482390: Paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres; articles n.e.c. in heading no. 4823\n    contains 482361: Paper and paperboard; trays, dishes, plates, cups and the like, of bamboo paper or paperboard\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4ab34ac420659ace71a32fb99a1da3eb822ae2ea592561ab544f3970dc0b806d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "4819",
+      "cited": [
+        "4819",
+        "481910"
+      ],
+      "confidence": "0.96",
+      "reason": "A corrugated shipping carton is a finished carton or box of corrugated paperboard, which falls under heading 4819 (subheading 481910), not the rolls or sheets of heading 4808."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1808,
+    "latency_ms": 2984,
+    "output_tokens": 99,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

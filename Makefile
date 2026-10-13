@@ -146,6 +146,18 @@ infra-check: ## promtool: check and unit-test the alert rules in infra/prometheu
 loadtest: ## Locust against the app images, replaying recorded model answers; report vs tools/loadtest/targets.yaml
 	uv run python scripts/loadtest.py $(ARGS)
 
+.PHONY: loadtest-record-hs
+loadtest-record-hs: ## Record the load test's HS walks and retrievals (live models: ANTHROPIC_API_KEY, VOYAGE_API_KEY; ~$1.50)
+	uv run python scripts/loadtest.py --record-hs
+
+.PHONY: demo
+demo: ## Re-record docs/demo.gif: a burst shed by admission, a storage outage retried through (vhs, Docker)
+	vhs docs/demo.tape
+
+.PHONY: readme
+readme: ## Regenerate README.md's targets, cost and 10x tables from the latest eval and load-test reports
+	uv run python scripts/readme.py
+
 .PHONY: lint
 lint: ## Ruff lint + format check + import contracts
 	uv run ruff check .

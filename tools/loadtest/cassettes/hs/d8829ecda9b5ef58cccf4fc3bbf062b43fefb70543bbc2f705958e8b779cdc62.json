@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "d8829ecda9b5ef58cccf4fc3bbf062b43fefb70543bbc2f705958e8b779cdc62",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:42+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: POLARIZED SUNGLASSES\nCountry of origin: IT\n\nChosen so far: 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories > 9004 Spectacles, goggles and the like; corrective, protective or other\n\nChoose the subheading that covers these goods. Options:\n- 900410: Sunglasses; corrective, protective or other\n- 900490: Spectacles, goggles and the like; (other than sunglasses) corrective, protective or other\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "1fb93920fceedf97f9700e4dd475c7c69326c27069a743130ce80ada3425e88c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "900410",
+      "cited": [
+        "900410"
+      ],
+      "confidence": "0.97",
+      "reason": "Polarized sunglasses are sunglasses, which subheading 900410 covers specifically, while 900490 excludes sunglasses."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 914,
+    "latency_ms": 1994,
+    "output_tokens": 79,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

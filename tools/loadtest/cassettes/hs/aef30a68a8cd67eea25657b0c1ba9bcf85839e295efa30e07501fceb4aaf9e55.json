@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "aef30a68a8cd67eea25657b0c1ba9bcf85839e295efa30e07501fceb4aaf9e55",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:13+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Aluminium household foil 12 micron\nCountry of origin: TR\n\nChoose the chapter that covers these goods. Options:\n- 76: Aluminium and articles thereof\n    contains 760711: Aluminium; foil, (not backed), rolled (but not further worked), of a thickness not exceeding 0.2mm\n    contains 760719: Aluminium; foil, (not backed), of a thickness not exceeding 0.2mm, not rolled\n    contains 760720: Aluminium; foil, backed with paper, paperboard, plastics or similar backing materials, of a thickness (excluding any backing) not exceeding 0.2mm\n    contains 761510: Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like\n    contains 761691: Aluminium; cloth, grill, netting and fencing, of aluminium wire\n    contains 761520: Aluminium; sanitary ware and parts thereof\n    contains 760320: Aluminium; powders of lamellar structure, flakes\n    contains 760310: Aluminium; powders of non-lamellar structure\n    contains 760612: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, rectangular (including square)\n    contains 760611: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, (not alloyed), rectangular (including square)\n    contains 760691: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, not alloyed, (not rectangular or square)\n    contains 760511: Aluminium; (not alloyed), wire, maximum cross-sectional dimension exceeds 7mm\n    contains 760692: Aluminium; plates, sheets and strip, thickness exceeding 0.2mm, alloys, (not rectangular or square)\n    contains 760110: Aluminium; unwrought, (not alloyed)\n    contains 760519: Aluminium; (not alloyed), wire, maximum cross-sectional dimension is 7mm or less\n    contains 760120: Aluminium; unwrought, alloys\n    contains 760529: Aluminium; alloys, wire, maximum cross-sectional dimension is 7mm or less\n    contains 760421: Aluminium; alloys, hollow profiles\n    contains 760521: Aluminium; alloys, wire, maximum cross-sectional dimension exceeding 7mm\n- 72: Iron and steel\n    contains 721069: Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with aluminium, other than plated or coated with aluminium zinc-alloys\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "768dce0d3b296f6aa2671c74d0129c0d759d789f4a3028ce8a048f28dbe61fc2",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "76",
+      "cited": [
+        "76",
+        "760711"
+      ],
+      "confidence": "0.98",
+      "reason": "Aluminium household foil of 12 micron (0.012 mm) is aluminium foil not exceeding 0.2 mm thick, covered by heading 7607 in Chapter 76."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1635,
+    "latency_ms": 3082,
+    "output_tokens": 96,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

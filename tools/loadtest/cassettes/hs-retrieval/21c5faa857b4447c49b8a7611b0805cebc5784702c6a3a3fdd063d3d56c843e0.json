@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "21c5faa857b4447c49b8a7611b0805cebc5784702c6a3a3fdd063d3d56c843e0",
+  "retriever": "hybrid",
+  "query": "Inflatable beach ball 40cm origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "950662",
+      "description": "Balls; inflatable",
+      "score": "0.031545",
+      "ranks": {
+        "lexical": 6,
+        "vector": 1
+      }
+    },
+    {
+      "code": "950669",
+      "description": "Balls; (other than inflatable or for lawn-tennis, golf or table-tennis)",
+      "score": "0.031054",
+      "ranks": {
+        "lexical": 7,
+        "vector": 2
+      }
+    },
+    {
+      "code": "890312",
+      "description": "Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), not designed to be used with a motor and unladen (net) weight not exceeding 100kg",
+      "score": "0.030550",
+      "ranks": {
+        "lexical": 4,
+        "vector": 7
+      }
+    },
+    {
+      "code": "890319",
+      "description": "Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), unladen (net) weight exceeding 100kg",
+      "score": "0.030090",
+      "ranks": {
+        "lexical": 5,
+        "vector": 8
+      }
+    },
+    {
+      "code": "890311",
+      "description": "Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), fitted or designed to be fitted with a motor, unladen (net) weight (excluding the motor) not exceeding 100kg",
+      "score": "0.029762",
+      "ranks": {
+        "lexical": 3,
+        "vector": 12
+      }
+    },
+    {
+      "code": "401695",
+      "description": "Rubber; vulcanised (other than hard rubber), inflatable articles (other than boat or dock fenders), of non-cellular rubber",
+      "score": "0.027109",
+      "ranks": {
+        "lexical": 29,
+        "vector": 3
+      }
+    },
+    {
+      "code": "401694",
+      "description": "Rubber; vulcanised (other than hard rubber), boat or dock fenders, whether or not inflatable, of non-cellular rubber",
+      "score": "0.026515",
+      "ranks": {
+        "lexical": 28,
+        "vector": 6
+      }
+    },
+    {
+      "code": "950661",
+      "description": "Lawn-tennis balls",
+      "score": "0.024971",
+      "ranks": {
+        "lexical": 47,
+        "vector": 4
+      }
+    },
+    {
+      "code": "950632",
+      "description": "Golf balls",
+      "score": "0.024908",
+      "ranks": {
+        "lexical": 45,
+        "vector": 5
+      }
+    },
+    {
+      "code": "950639",
+      "description": "Golf equipment; other than clubs and balls",
+      "score": "0.022947",
+      "ranks": {
+        "lexical": 46,
+        "vector": 14
+      }
+    },
+    {
+      "code": "890710",
+      "description": "Rafts; inflatable",
+      "score": "0.022436",
+      "ranks": {
+        "lexical": 44,
+        "vector": 18
+      }
+    },
+    {
+      "code": "890393",
+      "description": "Vessels; (other than sailboats and motorboats), for pleasure or sports, other than inflatable, of a length not exceeding 7.5m",
+      "score": "0.020330",
+      "ranks": {
+        "lexical": 42,
+        "vector": 35
+      }
+    },
+    {
+      "code": "890399",
+      "description": "Vessels; (other than sailboats and motorboats), for pleasure or sports, other than inflatable, of a length exceeding 7.5m",
+      "score": "0.019810",
+      "ranks": {
+        "lexical": 43,
+        "vector": 39
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "960860",
+      "description": "Pens; ball-point, refills comprising the ball point and ink-reservoir",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "950629",
+      "description": "Water sport equipment; water-skis, surf-boards and other water-sport equipment, excluding sailboards",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "950640",
+      "description": "Table-tennis articles and equipment",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    }
+  ]
+}

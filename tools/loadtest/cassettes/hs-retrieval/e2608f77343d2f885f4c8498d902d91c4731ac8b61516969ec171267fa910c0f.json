@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "e2608f77343d2f885f4c8498d902d91c4731ac8b61516969ec171267fa910c0f",
+  "retriever": "hybrid",
+  "query": "PORCELAIN DINNER PLATE 27CM origin PT",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "691110",
+      "description": "Tableware and kitchenware; of porcelain or china",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "831000",
+      "description": "Sign plates, name-plates, address-plates and similar plates, numbers, letters and other symbols; of base metal, excluding those of heading no. 9405",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "691190",
+      "description": "Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "691200",
+      "description": "Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "730240",
+      "description": "Iron or steel, railway or tramway track construction material; fish-plates and sole plates",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "691310",
+      "description": "Ceramic statuettes and other ornamental ceramic articles, of porcelain or china",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "721020",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with lead, including terne-plate",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "691410",
+      "description": "Ceramic articles n.e.c. in chapter 69; of porcelain or china",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "721069",
+      "description": "Iron or non-alloy steel; flat-rolled, width 600mm or more, plated or coated with aluminium, other than plated or coated with aluminium zinc-alloys",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "691010",
+      "description": "Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of porcelain or china",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "911120",
+      "description": "Watch cases; of base metal, whether or not gold-plated or silver-plated",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "400211",
+      "description": "Rubber; synthetic, styrene-butadiene rubber (SBR) and carboxylated styrene-butadiene rubber (XSBR) latex, in primary forms or in plates, sheets or strip",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "701310",
+      "description": "Glassware; of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than of heading no. 7010 or 7018), of glass-ceramics",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "400219",
+      "description": "Rubber; synthetic, styrene-butadiene rubber (SBR) and carboxylated styrene-butadiene rubber (XSBR), (other than latex), in primary forms or in plates, sheets or strip",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "690911",
+      "description": "Ceramic wares; for laboratory, chemical or other technical uses, of porcelain or china",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "400220",
+      "description": "Rubber; synthetic, butadiene rubber (BR), in primary forms or in plates, sheets or strip",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "691390",
+      "description": "Ceramic statuettes and other ornamental ceramic articles; other than of porcelain or china",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "400231",
+      "description": "Rubber; synthetic, isobutene-isoprene (butyl) rubber (IIR), in primary forms or in plates, sheets or strip",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "482369",
+      "description": "Paper and paperboard; trays, dishes, plates, cups and the like, of paper or paperboard other than of bamboo",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    }
+  ]
+}

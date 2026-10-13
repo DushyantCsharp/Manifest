@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "86ecd85a487aa1fc8b9a37b766bc92f2187c361d1c2a1308c22b77ef472b3d30",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:53+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: A4 copy paper 80gsm, ream\nCountry of origin: BR\n\nChosen so far: 48 Paper and paperboard; articles of paper pulp, of paper or paperboard\n\nChoose the heading that covers these goods. Options:\n- 4809: Carbon paper, self copy paper, and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets\n    contains 480990: Paper; carbon paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets\n    contains 480920: Paper; self-copy paper, whether or not printed, in rolls or sheets\n- 4816: Carbon paper, self-copy paper and other copying or transfer papers, (other than those of heading no. 4809), duplicator stencils and offset plates, of paper whether or not put up in boxes\n    contains 481620: Paper; self-copy paper (other than those of heading no. 4809), whether or not put up in boxes\n    contains 481690: Paper; carbon paper and other copying or transfer papers (other than those of heading no. 4809), n.e.c. in item no. 4816.20\n- 4802: Uncoated paper and paperboard, used for writing, printing or other graphics, non perforated punch-cards and punch tape paper, in rolls or rectangular sheets, of any size, other than paper of heading 4801 or 4803; hand-made paper and paperboard\n    contains 480220: Uncoated paper and paperboard (not 4801 or 4803); of a kind used as a base for photo-sensitive, heat-sensitive or electro-sensitive paper or paperboard, in rolls or sheets\n    contains 480254: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing less than 40g/m2, in rolls or sheets\n    contains 480258: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing more than 150g/m2\n    contains 480255: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing 40g/m2 to 150g/m2, in rolls\n    contains 480257: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weight 40-150g/m2, n.e.c. in item no. 4802.55 or 4802.56\n    contains 480256: Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weight 40-150g/m2, in sheets 435mm or less by 297mm or less (unfolded)\n    contains 480240: Uncoated paper and paperboard (not 4801 or 4803); wallpaper base, in rolls or sheets\n    contains 480210: Hand-made paper or paperboard\n    contains 480261: Uncoated paper and paperboard (not 4801 or 4803); over 10% by weight of mechanical or chemi-mechanical processed fibre, in rolls\n- 4823: Paper, paperboard, cellulose wadding and webs of cellulose fibres; cut to size or shape, articles of paper pulp, paper and paper-board, cellulose wadding or webs of cellulose fibres, n.e.c. in chapter 48\n    contains 482320: Paper and paperboard; filter paper and paperboard\n    contains 482361: Paper and paperboard; trays, dishes, plates, cups and the like, of bamboo paper or paperboard\n    contains 482390: Paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres; articles n.e.c. in heading no. 4823\n    contains 482370: Paper pulp; moulded or pressed articles or paper pulp\n- 4818: Toilet paper, width 36cm or less or cut to size/shape; handkerchiefs, tissues, towels, serviettes, bed sheets and similar household or hospital articles, apparel and clothing accessories of paper pulp, paper, cellulose wadding or webs of cellulose fibres\n    contains 481890: Paper articles; articles of paper, cellulose wadding or fibres, n.e.c. in heading no. 4818\n    contains 481850: Paper articles; apparel and clothing accessories of paper, cellulose wadding or fibres\n- 4805: Uncoated paper and paperboard n.e.c., in rolls or sheets\n    contains 480540: Paper and paperboard; filter paper and paperboard, uncoated, in rolls or sheets\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8b52ba62f209b3f1321167b246f8dcf86ee899f17198e2dba262b64369b4c3b5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "4802",
+      "cited": [
+        "4802",
+        "480256"
+      ],
+      "confidence": "0.95",
+      "reason": "A4 plain copy paper of 80 g/m2 is uncoated paper for writing/printing in rectangular sheets, falling under heading 4802 (subheading 4802.56), not carbon or self-copy paper of 4809/4816."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2448,
+    "latency_ms": 2954,
+    "output_tokens": 115,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

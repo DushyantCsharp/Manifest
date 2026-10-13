@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "c0493a29765e159c7537a121338201eb750105ee85bf40a8577583d64de6d732",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:31+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Polarized sunglasses\nCountry of origin: CN\n\nChosen so far: 90 Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n\nChoose the heading that covers these goods. Options:\n- 9004: Spectacles, goggles and the like; corrective, protective or other\n    contains 900410: Sunglasses; corrective, protective or other\n    contains 900490: Spectacles, goggles and the like; (other than sunglasses) corrective, protective or other\n- 9003: Frames and mountings; for spectacles, goggles or the like, and parts\n    contains 900311: Frames and mountings; for spectacles, goggles or the like, of plastics\n    contains 900319: Frames and mountings; for spectacles, goggles or the like, of materials other than plastics\n    contains 900390: Frames and mountings; parts for spectacles, goggles or the like\n- 9001: Optical fibres and optical fibre bundles; optical fibre cables not of heading no. 8544; sheets, plates of polarising material; lenses, prisms, mirrors, of any material; unmounted; not non optical glass\n    contains 900120: Optical elements; polarising material, sheets and plates thereof\n    contains 900140: Lenses, spectacle; unmounted, of glass, excluding elements of glass not optically worked\n    contains 900150: Lenses, spectacle; unmounted, of materials other than glass\n    contains 900130: Lenses, contact; unmounted, of any material, excluding elements of glass not optically worked\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ff48cfcccbb423d59f5290e2eb5642c1c01483d609450ba593852265aa845907",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9004",
+      "cited": [
+        "9004",
+        "900410"
+      ],
+      "confidence": "0.97",
+      "reason": "Complete polarized sunglasses (mounted lenses in frames) are spectacles of heading 9004, specifically sunglasses under 900410, rather than frames (9003) or unmounted lenses/polarizing sheets (9001)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1264,
+    "latency_ms": 2426,
+    "output_tokens": 114,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

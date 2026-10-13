@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "cc50f83bc959df8a9d3391149e29e491a4101634842ecd361451f41fd90e286b",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:46+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: NITRILE EXAMINATION GLOVES, BOX OF 100\nCountry of origin: TH\n\nChoose the chapter that covers these goods. Options:\n- 40: Rubber and articles thereof\n    contains 401519: Rubber; vulcanised (other than hard rubber), gloves, mittens and mitts other than surgical gloves\n    contains 401512: Rubber; vulcanised (other than hard rubber), gloves, of a kind used for medical, surgical, dental or veterinary purposes\n    contains 401590: Rubber; vulcanised (other than hard rubber), articles of apparel and clothing accessories (other than gloves, mittens and mitts)\n- 61: Apparel and clothing accessories; knitted or crocheted\n    contains 611610: Gloves, mittens and mitts; knitted or crocheted, impregnated, coated, covered or laminated with plastics or rubber\n    contains 611693: Gloves, mittens and mitts; of synthetic fibres, knitted or crocheted, (other than impregnated, coated, covered or laminated with plastics or rubber)\n    contains 611692: Gloves, mittens and mitts; of cotton, knitted or crocheted, (other than impregnated, coated, covered or laminated with plastics or rubber)\n    contains 611691: Gloves, mittens and mitts; of wool or fine animal hair, knitted or crocheted, (other than impregnated, coated, covered or laminated with plastics or rubber)\n    contains 611699: Gloves, mittens and mitts; of textile materials (other than wool or fine animal hair, cotton or synthetic fibres), knitted or crocheted, (other than impregnated, coated, covered or laminated with plastics or rubber)\n- 62: Apparel and clothing accessories; not knitted or crocheted\n    contains 621600: Gloves, mittens and mitts (not knitted or crocheted)\n- 30: Pharmaceutical products\n    contains 300650: Pharmaceutical goods; first aid boxes and kits\n    contains 300670: Pharmaceutical goods; Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments\n    contains 300630: Pharmaceutical goods; opacifying preparations for x-ray examinations, diagnostic reagents designed to be administered to the patient\n- 74: Copper and articles thereof\n    contains 741810: Copper; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like\n- 39: Plastics and articles thereof\n    contains 392620: Plastics; articles of apparel and clothing accessories (including gloves, mittens and mitts)\n- 76: Aluminium and articles thereof\n    contains 761510: Aluminium; table, kitchen or other household articles and parts thereof; pot scourers and scouring or polishing pads, gloves and the like\n- 73: Iron or steel articles\n    contains 732310: Iron or steel; wool, pot scourers and scouring or polishing pads, gloves and the like\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 48: Paper and paperboard; articles of paper pulp, of paper or paperboard\n    contains 481960: Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres\n- 83: Metal; miscellaneous products of base metal\n    contains 830300: Safes; armoured or reinforced, strong-boxes, doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal\n- 97: Works of art; collectors' pieces and antiques\n    contains 970210: Engravings, prints and lithographs; original of an age exceeding 100 years\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "93ca95fdad95877ce96d02022cb316d050616777533cc828b87cb4a77a587568",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "40",
+      "cited": [
+        "40",
+        "401512"
+      ],
+      "confidence": "0.96",
+      "reason": "Nitrile (synthetic rubber) examination gloves are vulcanised rubber gloves for medical use, covered by heading 4015 (subheading 401512) in Chapter 40."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2210,
+    "latency_ms": 2736,
+    "output_tokens": 96,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

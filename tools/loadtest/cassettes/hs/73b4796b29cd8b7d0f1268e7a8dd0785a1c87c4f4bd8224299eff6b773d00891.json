@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "73b4796b29cd8b7d0f1268e7a8dd0785a1c87c4f4bd8224299eff6b773d00891",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:57+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LEATHER HANDBAG WITH SHOULDER STRAP\nCountry of origin: IN\n\nChosen so far: 42 Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut) > 4202 Trunks; suit, camera, jewellery, cutlery cases; travel, tool, similar bags; wholly or mainly covered by leather, composition leather, plastic sheeting, textile materials, vulcanised fibre, paperboard\n\nChoose the subheading that covers these goods. Options:\n- 420221: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of leather or of composition leather\n- 420229: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n- 420222: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials\n- 420231: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather\n- 420291: Cases and containers; n.e.c. in heading 4202, with outer surface of leather or of composition leather\n- 420211: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of leather or of composition leather\n- 420232: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of sheeting of plastics or of textile materials\n- 420239: Cases and containers; of a kind normally carried in the pocket or in the handbag, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "42474cfda8a263d9933adfb8b90b7e670da4c10b8e71ad10ad5a26e429946163",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "420221",
+      "cited": [
+        "420221"
+      ],
+      "confidence": "0.97",
+      "reason": "A leather handbag with shoulder strap falls under handbags with outer surface of leather or composition leather."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1411,
+    "latency_ms": 7581,
+    "output_tokens": 67,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

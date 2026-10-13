@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "a7053f35c72f44fc6d055c7206fa43a56e46fb65716cc0f3db67f80f13037a0d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:28+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: CASHEW KERNELS W320\nCountry of origin: VN\n\nChoose the chapter that covers these goods. Options:\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 080132: Nuts, edible; cashew nuts, fresh or dried, shelled\n    contains 080131: Nuts, edible; cashew nuts, fresh or dried, in shell\n    contains 080232: Nuts, edible; walnuts, fresh or dried, shelled\n    contains 080231: Nuts, edible; walnuts, fresh or dried, in shell\n    contains 080242: Nuts, edible; chestnuts (Castanea spp.), fresh or dried, shelled\n    contains 080241: Nuts, edible; chestnuts (Castanea spp.), fresh or dried, in shell\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 15: Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes\n    contains 151321: Vegetable oils; palm kernel or babassu oil and their fractions, crude, not chemically modified\n    contains 151329: Vegetable oils; palm kernel or babassu oil and their fractions, other than crude, whether or not refined, but not chemically modified\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 02: Meat and edible meat offal\n    contains 020329: Meat; of swine, n.e.c. in item no. 0203.2, frozen\n- 03: Fish and crustaceans, molluscs and other aquatic invertebrates\n    contains 030329: Fish; frozen, Nile perch (Lates niloticus) and snakeheads (Channa spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 848620: Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor devices or of electronic integrated circuits\n    contains 848610: Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor boules or wafers\n    contains 848690: Machines and apparatus of heading 8486; parts and accessories\n    contains 848640: Machines and apparatus of a kind used solely or principally for the manufacture or repair of masks and reticles, assembling semiconductor devices or electronic integrated circuits, or for lifting, handling, loading or unloading items of heading 8486\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "64d0ac98fc66526b35ce863a91c7b3f151c768e9d4abd4d7df3b9870e8d99bba",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "08",
+      "cited": [
+        "08",
+        "080132"
+      ],
+      "confidence": "0.98",
+      "reason": "Cashew kernels (W320 is a size grade) are shelled cashew nuts, edible, covered by chapter 08 (subheading 0801.32)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2025,
+    "latency_ms": 4222,
+    "output_tokens": 86,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

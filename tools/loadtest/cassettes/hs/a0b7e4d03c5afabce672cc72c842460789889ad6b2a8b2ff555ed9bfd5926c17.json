@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "a0b7e4d03c5afabce672cc72c842460789889ad6b2a8b2ff555ed9bfd5926c17",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:59+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LDPE film-grade granules\nCountry of origin: KR\n\nChoose the chapter that covers these goods. Options:\n- 39: Plastics and articles thereof\n    contains 392030: Plastics; of polymers of styrene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392010: Plastics; plates, sheets, film, foil and strip (not self-adhesive), of polymers of ethylene, non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 392020: Plastics; of polymers of propylene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n    contains 390230: Propylene, other olefin polymers; propylene copolymers in primary forms\n    contains 390290: Propylene, other olefin polymers; n.e.c. in heading no. 3902, in primary forms\n    contains 390210: Propylene, other olefin polymers; polypropylene in primary forms\n    contains 392111: Plastics; plates, sheets, film, foil and strip, of polymers of styrene, cellular\n    contains 390110: Ethylene polymers; in primary forms, polyethylene having a specific gravity of less than 0.94\n    contains 390140: Ethylene polymers; in primary forms, ethylene-alpha-olefin copolymers, having a specific gravity of less than 0.94\n    contains 391110: Petroleum resins, coumarone, indene or coumarone-indene resins and polyterpenes; in primary forms\n    contains 390319: Styrene polymers; (other than expansible polystyrene), in primary forms\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 37: Photographic or cinematographic goods\n    contains 370120: Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs\n    contains 370254: Photographic film; for colour photography (polychrome), in rolls, sensitised, unexposed, of a width exceeding 16mm but not 35mm and of a length not exceeding 30m, excluding film for slides (other than of paper, paperboard or textiles)\n    contains 370500: Photographic plates and film; exposed and developed, other than cinematographic film\n    contains 370110: Photographic plates and film; for x-ray, in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles\n    contains 370130: Photographic plates and film; in the flat, sensitised, unexposed, with any side exceeding 225mm, of any materials other than paper, paperboard or textiles\n    contains 370191: Photographic plates and film; for colour photography (polychrome), in the flat, sensitised, unexposed, with no side exceeding 255mm, of any material other than paper, paperboard or textiles\n- 81: Metals; n.e.c., cermets and articles thereof\n    contains 810430: Magnesium; raspings, turnings and granules, graded according to size, powders\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 901010: Photographic laboratory apparatus and equipment; for automatically developing photographic (including cinematographic) film or paper in rolls or for automatically exposing developed film to rolls of paper\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "688747b0c78ff47eb9378baf2f2ed7c4cacbabdaf312c39ed97a70e738ec42e9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "39",
+      "cited": [
+        "39",
+        "390110"
+      ],
+      "confidence": "0.97",
+      "reason": "LDPE (low-density polyethylene) granules are an ethylene polymer in primary forms, which falls in Chapter 39 (heading 3901)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2015,
+    "latency_ms": 2702,
+    "output_tokens": 85,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

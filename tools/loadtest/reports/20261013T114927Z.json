@@ -1,0 +1,360 @@
+{
+  "run": "20261013T114927Z",
+  "commit": null,
+  "dirty": null,
+  "generated_at": null,
+  "args": {
+    "users": "2,4,8,16,32",
+    "step": 120,
+    "concurrency": 8,
+    "keep_running": false,
+    "hs": "on"
+  },
+  "window": [
+    1791892197.49867,
+    1791892798.7914171,
+    1791893019.941607
+  ],
+  "checks": [
+    {
+      "metric": "api_p95_ms",
+      "value": 170.0,
+      "bound": {
+        "max": 250
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "pack_p50_seconds",
+      "value": 42.2465,
+      "bound": {
+        "max": 30
+      },
+      "ok": false,
+      "where": "at 8 users"
+    },
+    {
+      "metric": "pack_p95_seconds",
+      "value": 90.113,
+      "bound": {
+        "max": 60
+      },
+      "ok": false,
+      "where": "at 8 users"
+    },
+    {
+      "metric": "page_p95_seconds",
+      "value": 13.452364516530427,
+      "bound": {
+        "max": 30
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "throughput_pages_per_minute",
+      "value": 33.0,
+      "bound": {
+        "min": 30
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "api_error_rate",
+      "value": 0.0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "failed_pages",
+      "value": 0.0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "unrouted_packs",
+      "value": 0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "dlq_growth",
+      "value": 0.0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "cost_per_page_usd",
+      "value": 0.016226531986531987,
+      "bound": {
+        "max": 0.03
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "cost_per_pack_usd",
+      "value": 0.08806741414141414,
+      "bound": {
+        "max": 0.1
+      },
+      "ok": true,
+      "where": ""
+    }
+  ],
+  "totals": {
+    "pages_extracted": 297.0,
+    "pages_failed": 0.0,
+    "cost_usd": 8.718674,
+    "cost_by_stage": {
+      "hs_classify": 3.899394,
+      "page_extract": 4.81928
+    },
+    "routed": {
+      "auto_approved": 9.0,
+      "needs_review": 90.0
+    },
+    "tokens": {
+      "input": 2200242.0,
+      "output": 431819.0
+    },
+    "tokens_by_stage": {
+      "hs_classify/input": 1492917.0,
+      "hs_classify/output": 91356.0,
+      "page_extract/input": 707325.0,
+      "page_extract/output": 340463.0
+    },
+    "admission": {
+      "admitted": 1263.0
+    },
+    "page_p50": 6.6676535946635624,
+    "page_p95": 13.452364516530427,
+    "model_p95": 9.581871521355309,
+    "http_status": {
+      "200": 7220.0,
+      "201": 396.0,
+      "202": 297.0
+    },
+    "dlq_start": 0.0,
+    "dlq_end": 0.0,
+    "max_queue": {
+      "classify": 46.0,
+      "hs_classify": 3.0,
+      "page_extract": 38.0,
+      "reconcile": 28.0
+    }
+  },
+  "database": {
+    "pages_extracted": 297,
+    "shipments_auto_approved": 9,
+    "shipments_needs_review": 90,
+    "hs_suggestions": 338
+  },
+  "steps": [
+    {
+      "users": 2,
+      "start": 1791892197.49867,
+      "end": 1791892317.49867,
+      "pages": 21.0,
+      "packs": [
+        16.625,
+        38.144,
+        32.793,
+        32.737,
+        16.393
+      ],
+      "unrouted": 0,
+      "page_p95": 13.284169183956049,
+      "max_queue": {
+        "classify": 0.0,
+        "hs_classify": 0.0,
+        "page_extract": 0.0,
+        "reconcile": 0.0
+      }
+    },
+    {
+      "users": 4,
+      "start": 1791892317.49867,
+      "end": 1791892437.49867,
+      "pages": 33.0,
+      "packs": [
+        75.639,
+        15.535,
+        19.59,
+        50.05,
+        17.319,
+        22.477,
+        38.72,
+        72.298,
+        41.822,
+        104.666,
+        15.304
+      ],
+      "unrouted": 0,
+      "page_p95": 14.65,
+      "max_queue": {
+        "classify": 0.0,
+        "hs_classify": 0.0,
+        "page_extract": 0.0,
+        "reconcile": 0.0
+      }
+    },
+    {
+      "users": 8,
+      "start": 1791892437.49867,
+      "end": 1791892557.49867,
+      "pages": 63.0,
+      "packs": [
+        70.52,
+        28.585,
+        21.562,
+        23.474,
+        37.672,
+        29.557,
+        30.701,
+        50.332,
+        41.753,
+        66.631,
+        53.102,
+        42.881,
+        21.709,
+        90.113,
+        42.74,
+        66.485
+      ],
+      "unrouted": 0,
+      "page_p95": 13.218749999999998,
+      "max_queue": {
+        "classify": 3.0,
+        "hs_classify": 0.0,
+        "page_extract": 0.0,
+        "reconcile": 0.0
+      }
+    },
+    {
+      "users": 16,
+      "start": 1791892557.49867,
+      "end": 1791892677.49867,
+      "pages": 66.0,
+      "packs": [
+        56.201,
+        45.689,
+        75.528,
+        40.567,
+        43.954,
+        51.815,
+        45.85,
+        36.074,
+        71.723,
+        54.464,
+        55.873,
+        58.462,
+        69.695,
+        64.596,
+        68.619,
+        83.482,
+        95.712,
+        84.666,
+        102.941
+      ],
+      "unrouted": 0,
+      "page_p95": 13.805555555555554,
+      "max_queue": {
+        "classify": 16.0,
+        "hs_classify": 0.0,
+        "page_extract": 18.0,
+        "reconcile": 8.0
+      }
+    },
+    {
+      "users": 32,
+      "start": 1791892677.49867,
+      "end": 1791892797.49867,
+      "pages": 66.0,
+      "packs": [
+        128.351,
+        91.025,
+        109.722,
+        134.962,
+        97.208,
+        105.629,
+        158.69,
+        131.837,
+        98.972,
+        104.165,
+        126.055,
+        87.868,
+        103.404,
+        141.973,
+        99.571,
+        111.737
+      ],
+      "unrouted": 0,
+      "page_p95": 11.312499999999996,
+      "max_queue": {
+        "classify": 46.0,
+        "hs_classify": 0.0,
+        "page_extract": 38.0,
+        "reconcile": 22.0
+      }
+    }
+  ],
+  "api": {
+    "GET GET /v1/shipments/{id}": {
+      "requests": 7219,
+      "failures": 0,
+      "p50_ms": 14.0,
+      "p95_ms": 43.0,
+      "p99_ms": 150.0
+    },
+    "POST POST /v1/shipments": {
+      "requests": 99,
+      "failures": 0,
+      "p50_ms": 27.0,
+      "p95_ms": 110.0,
+      "p99_ms": 500.0
+    },
+    "POST POST /v1/shipments/{id}/documents": {
+      "requests": 297,
+      "failures": 0,
+      "p50_ms": 16.0,
+      "p95_ms": 150.0,
+      "p99_ms": 220.0
+    },
+    "POST POST /v1/shipments/{id}/documents/{id}:finalize": {
+      "requests": 297,
+      "failures": 0,
+      "p50_ms": 21.0,
+      "p95_ms": 170.0,
+      "p99_ms": 250.0
+    },
+    "PUT PUT part (S3)": {
+      "requests": 297,
+      "failures": 0,
+      "p50_ms": 6.0,
+      "p95_ms": 14.0,
+      "p99_ms": 19.0
+    },
+    "PIPELINE pack: first finalize -> routed": {
+      "requests": 67,
+      "failures": 0,
+      "p50_ms": 56000.0,
+      "p95_ms": 132000.0,
+      "p99_ms": 159000.0
+    }
+  }
+}

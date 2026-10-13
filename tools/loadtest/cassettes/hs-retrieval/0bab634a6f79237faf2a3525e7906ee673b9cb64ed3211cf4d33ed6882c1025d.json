@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "0bab634a6f79237faf2a3525e7906ee673b9cb64ed3211cf4d33ed6882c1025d",
+  "retriever": "hybrid",
+  "query": "AC induction motor 0.55kW 3-phase origin IT",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "850151",
+      "description": "Electric motors; AC motors, multi-phase, of an output not exceeding 750W",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 2,
+        "vector": 1
+      }
+    },
+    {
+      "code": "850140",
+      "description": "Electric motors; AC motors, single-phase",
+      "score": "0.032018",
+      "ranks": {
+        "lexical": 1,
+        "vector": 4
+      }
+    },
+    {
+      "code": "850152",
+      "description": "Electric motors; AC motors, multi-phase, of an output exceeding 750W but not exceeding 75kW",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 3,
+        "vector": 2
+      }
+    },
+    {
+      "code": "850153",
+      "description": "Electric motors; AC motors, multi-phase, of an output exceeding 75kW",
+      "score": "0.031498",
+      "ranks": {
+        "lexical": 4,
+        "vector": 3
+      }
+    },
+    {
+      "code": "850110",
+      "description": "Electric motors; of an output not exceeding 37.5W",
+      "score": "0.025000",
+      "ranks": {
+        "lexical": 44,
+        "vector": 5
+      }
+    },
+    {
+      "code": "850120",
+      "description": "Electric motors; universal AC/DC of an output exceeding 37.5W",
+      "score": "0.024675",
+      "ranks": {
+        "lexical": 45,
+        "vector": 6
+      }
+    },
+    {
+      "code": "850131",
+      "description": "Electric motors and generators; DC, of an output not exceeding 750W",
+      "score": "0.024359",
+      "ranks": {
+        "lexical": 46,
+        "vector": 7
+      }
+    },
+    {
+      "code": "850161",
+      "description": "Generators; AC generators, (alternators), other than photovoltaic generators, of an output not exceeding 75kVA",
+      "score": "0.023797",
+      "ranks": {
+        "lexical": 50,
+        "vector": 8
+      }
+    },
+    {
+      "code": "850133",
+      "description": "Electric motors and generators; DC, of an output exceeding 75kW but not exceeding 375kW",
+      "score": "0.023545",
+      "ranks": {
+        "lexical": 48,
+        "vector": 10
+      }
+    },
+    {
+      "code": "850132",
+      "description": "Electric motors and generators; DC, of an output exceeding 750W but not exceeding 75kW",
+      "score": "0.023235",
+      "ranks": {
+        "lexical": 47,
+        "vector": 12
+      }
+    },
+    {
+      "code": "850134",
+      "description": "Electric motors and generators; DC, of an output exceeding 375kW",
+      "score": "0.022873",
+      "ranks": {
+        "lexical": 49,
+        "vector": 13
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "841520",
+      "description": "Air conditioning machines; comprising a motor driven fan and elements for changing the temperature and humidity, of a kind used for persons, in motor vehicles",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "871160",
+      "description": "Motorcycles (including mopeds) and cycles; fitted with auxiliary motor, with electric motor for propulsion, with or without side-cars; side-cars",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "870441",
+      "description": "Vehicles; with both compression-ignition internal combustion piston engine (diesel/semi-diesel) and electric motor as motor for propulsion, unassembled as in section 14, (gvw not exceeding 5000kg), for the transport of goods, vans",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "850162",
+      "description": "Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 75kVA but not exceeding 375kVA",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "890311",
+      "description": "Yachts and other vessels; for pleasure or sports, inflatable (including rigid hull inflatable), fitted or designed to be fitted with a motor, unladen (net) weight (excluding the motor) not exceeding 100kg",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "851420",
+      "description": "Furnaces and ovens; electric, for industrial or laboratory use, functioning by induction or dielectric loss",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "850163",
+      "description": "Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 375kVA but not exceeding 750kVA",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "851431",
+      "description": "Furnaces and ovens; electric, for industrial or laboratory use, other than those functioning by induction, dielectric loss or resistance heated, electron beam furnaces",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    }
+  ]
+}

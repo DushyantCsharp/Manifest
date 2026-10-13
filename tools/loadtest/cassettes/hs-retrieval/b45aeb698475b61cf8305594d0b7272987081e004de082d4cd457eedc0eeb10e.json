@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "b45aeb698475b61cf8305594d0b7272987081e004de082d4cd457eedc0eeb10e",
+  "retriever": "hybrid",
+  "query": "LONG GRAIN WHITE RICE, MILLED origin PK",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "100630",
+      "description": "Cereals; rice, semi-milled or wholly milled, whether or not polished or glazed",
+      "score": "0.032787",
+      "ranks": {
+        "lexical": 1,
+        "vector": 1
+      }
+    },
+    {
+      "code": "110429",
+      "description": "Cereal grains; worked, other than rolled or flaked (e.g. Hulled, pearled, sliced or kibbled) of cereals, excluding oats and maize, and rice of heading no.1006",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 2,
+        "vector": 3
+      }
+    },
+    {
+      "code": "190430",
+      "description": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (e.g. corn flakes); cereals, not maize (corn), in grain form or in the form of flakes or other worked grains, from bulgur wheat",
+      "score": "0.030118",
+      "ranks": {
+        "lexical": 4,
+        "vector": 9
+      }
+    },
+    {
+      "code": "110419",
+      "description": "Cereal grains; rolled or flaked, other than oats",
+      "score": "0.029437",
+      "ranks": {
+        "lexical": 10,
+        "vector": 6
+      }
+    },
+    {
+      "code": "110422",
+      "description": "Cereal grains; worked (e.g. hulled, pearled, sliced or kibbled) of oats",
+      "score": "0.028790",
+      "ranks": {
+        "lexical": 11,
+        "vector": 8
+      }
+    },
+    {
+      "code": "110412",
+      "description": "Cereal grains; rolled or flaked, of oats",
+      "score": "0.028577",
+      "ranks": {
+        "lexical": 9,
+        "vector": 11
+      }
+    },
+    {
+      "code": "110423",
+      "description": "Cereal grains; worked (e.g. hulled, pearled, sliced or kibbled) of maize (corn)",
+      "score": "0.028175",
+      "ranks": {
+        "lexical": 12,
+        "vector": 10
+      }
+    },
+    {
+      "code": "100620",
+      "description": "Cereals; husked (brown) rice",
+      "score": "0.028034",
+      "ranks": {
+        "lexical": 24,
+        "vector": 2
+      }
+    },
+    {
+      "code": "100610",
+      "description": "Cereals; rice in the husk (paddy or rough)",
+      "score": "0.027433",
+      "ranks": {
+        "lexical": 23,
+        "vector": 5
+      }
+    },
+    {
+      "code": "100640",
+      "description": "Cereals; rice, broken",
+      "score": "0.027390",
+      "ranks": {
+        "lexical": 25,
+        "vector": 4
+      }
+    },
+    {
+      "code": "190490",
+      "description": "Food preparations; cereal or cereal products (excluding maize), in grain form, pre-cooked or otherwise prepared",
+      "score": "0.026547",
+      "ranks": {
+        "lexical": 19,
+        "vector": 12
+      }
+    },
+    {
+      "code": "190300",
+      "description": "Food preparations; tapioca and substitutes thereof, prepared from starch in the form of flakes, grains, pearls, siftings or similar",
+      "score": "0.024223",
+      "ranks": {
+        "lexical": 29,
+        "vector": 17
+      }
+    },
+    {
+      "code": "440726",
+      "description": "Wood, tropical; white lauan, white meranti, white seraya, yellow meranti and alan, sawn or chipped lengthwise, sliced or peeled, whether or not planed, sanded or finger-jointed, thicker than 6mm",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "843790",
+      "description": "Machines; parts of those for cleaning, sorting or grading seed, grain or dried leguminous vegetables or for milling or working cereals or dried leguminous vegetables (not farm-type machinery)",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "110430",
+      "description": "Cereal; germ of cereals, whole, rolled, flaked or ground",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "845510",
+      "description": "Metal-rolling mills; tube mills",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "845521",
+      "description": "Metal-rolling mills; hot or combination hot and cold rolling mills",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "190410",
+      "description": "Food preparations; obtained by the swelling or roasting of cereals or cereal products",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": null,
+        "vector": 13
+      }
+    },
+    {
+      "code": "410411",
+      "description": "Tanned or crust hides and skins; without hair on, bovine or equine, in the wet state (including wet-blue), full grains, unsplit; grain splits",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13,
+        "vector": null
+      }
+    }
+  ]
+}

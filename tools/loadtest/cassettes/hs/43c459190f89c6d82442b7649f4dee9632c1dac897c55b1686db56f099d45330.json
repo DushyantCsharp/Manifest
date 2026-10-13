@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "43c459190f89c6d82442b7649f4dee9632c1dac897c55b1686db56f099d45330",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:41+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel saucepan 20cm\nCountry of origin: IN\n\nChosen so far: 73 Iron or steel articles > 7323 Table, kitchen, other household articles and parts, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel\n\nChoose the subheading that covers these goods. Options:\n- 732393: Steel, stainless; table, kitchen and other household articles and parts thereof\n- 732399: Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323\n- 732392: Cast iron; table, kitchen and other household articles and parts thereof, of cast iron, enamelled\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "97b8919ca93b801f57788bed596b9e6ab43052b361e369161950968b79bff3f3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "732393",
+      "cited": [
+        "732393"
+      ],
+      "confidence": "0.97",
+      "reason": "A stainless steel saucepan is a kitchen household article of stainless steel, which falls under subheading 7323.93."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 990,
+    "latency_ms": 2795,
+    "output_tokens": 72,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

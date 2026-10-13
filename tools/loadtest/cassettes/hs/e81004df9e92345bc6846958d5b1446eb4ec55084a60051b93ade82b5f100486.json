@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "e81004df9e92345bc6846958d5b1446eb4ec55084a60051b93ade82b5f100486",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:49+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Men's woven cotton shirt, long sleeve\nCountry of origin: IN\n\nChosen so far: 62 Apparel and clothing accessories; not knitted or crocheted\n\nChoose the heading that covers these goods. Options:\n- 6205: Shirts; men's or boys' (not knitted or crocheted)\n    contains 620520: Shirts; men's or boys', of cotton (not knitted or crocheted)\n    contains 620590: Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)\n    contains 620530: Shirts; men's or boys', of man-made fibres (not knitted or crocheted)\n- 6206: Blouses, shirts and shirt-blouses; women's or girls' (not knitted or crocheted)\n    contains 620630: Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4b87a3786dd811e4f290dca646664138d644403802a22cf9be0b61fe8c52590e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6205",
+      "cited": [
+        "6205",
+        "620520"
+      ],
+      "confidence": "0.98",
+      "reason": "Men's woven cotton shirts fall under heading 6205 (men's or boys' shirts, not knitted), specifically subheading 620520 for cotton, rather than the women's heading 6206."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1047,
+    "latency_ms": 2745,
+    "output_tokens": 101,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

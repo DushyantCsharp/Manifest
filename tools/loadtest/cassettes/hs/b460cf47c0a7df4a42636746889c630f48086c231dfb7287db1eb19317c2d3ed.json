@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "b460cf47c0a7df4a42636746889c630f48086c231dfb7287db1eb19317c2d3ed",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:35+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel sheet 304, cold-rolled 2mm\nCountry of origin: IN\n\nChosen so far: 72 Iron and steel\n\nChoose the heading that covers these goods. Options:\n- 7219: Stainless steel; flat-rolled products of width of 600mm or more\n    contains 721932: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more but less than 4.75mm\n    contains 721934: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm\n    contains 721931: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled or cold-reduced, of a thickness of 4.75mm or more\n    contains 721935: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm\n    contains 721933: Steel, stainless; flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm\n    contains 721922: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of 4.75mm or more but not exceeding 10mm\n    contains 721914: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of less than 3mm\n    contains 721924: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of less than 3mm\n    contains 721912: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 4.75mm or more but not exceeding 10mm\n- 7220: Stainless steel; flat-rolled products of width less than 600mm\n    contains 722020: Steel, stainless; flat-rolled, width less than 600mm, cold-rolled\n    contains 722012: Steel, stainless; flat-rolled, width less than 600mm, hot-rolled, of a thickness of less than 4.75mm\n    contains 722011: Steel, stainless; flat-rolled, width less than 600mm, hot-rolled, of a thickness of 4.75mm or more\n- 7209: Iron or non-alloy steel; flat-rolled products, width 600mm or more, cold-rolled (cold-reduced), not clad, plated or coated\n    contains 720925: Iron or non-alloy steel; (not in coils), flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more\n    contains 720928: Iron or non-alloy steel; (not in coils), flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm\n    contains 720915: Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of 3mm or more\n    contains 720918: Iron or non-alloy steel; in coils, flat-rolled, width 600mm or more, cold-rolled, of a thickness of less than 0.5mm\n    contains 720927: Iron or non-alloy steel; (not in coils), flat-rolled, width 600mm or more, cold-rolled, of a thickness of 0.5mm or more but not exceeding 1mm\n    contains 720926: Iron or non-alloy steel; (not in coils), flat-rolled, width 600mm or more, cold-rolled, of a thickness exceeding 1mm but less than 3mm\n- 7226: Alloy steel flat-rolled products, of a width of less than 600mm\n    contains 722692: Steel, alloy; flat-rolled, width less than 600mm, (excluding silicon-electrical or high speed steel), cold-rolled\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3b5c93c3f5da8bf9d360ab3d0820c23549a51b11fef88cf8098e0510feca420b",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7219",
+      "cited": [
+        "7219",
+        "721933"
+      ],
+      "confidence": "0.8",
+      "reason": "Stainless steel cold-rolled sheet is flat-rolled stainless; width isn't stated, but sheet is typically 600mm or wider, so 7219 (subheading 721933 for 2mm thickness) fits better than 7220 for narrow strip."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2068,
+    "latency_ms": 3684,
+    "output_tokens": 123,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

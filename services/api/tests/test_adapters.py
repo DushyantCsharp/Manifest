@@ -219,3 +219,40 @@ async def test_idempotency_keys_in_redis(store: RedisIdempotencyStore) -> None:
     assert await store.claim("released", "fp") is None
     await store.release("released")
     assert await store.claim("released", "fp") is None  # free again
+
+
+async def test_a_simultaneous_burst_is_admitted_up_to_the_high_water_mark(
+    database: str, settings: ApiSettings
+) -> None:
+    """Every finalize of a burst sees the same count before any commits; admission inside the
+    queuing transaction, under a lock, still lets only high_water of them in."""
+    import asyncio
+
+    from manifest_api.errors import OverloadedError
+
+    sessions = async_session_factory(database)
+    pipeline = Pipeline()
+    admission = PendingPages(sessions, high_water=2, retry_after=7)
+    shipments = PostgresShipments(sessions, S3Uploads(settings), pipeline, admission)
+    try:
+        shipment = await shipments.create_shipment(ShipmentCreate())
+        data = b"%PDF-1.4"
+        bodies = []
+        for _ in range(6):
+            registered = await shipments.register_document(shipment.id, pdf(len(data)))
+            bodies.append((registered.document.id, await upload(registered, data)))
+        results = await asyncio.gather(
+            *(shipments.finalize_document(shipment.id, d, body) for d, body in bodies),
+            return_exceptions=True,
+        )
+        refused = [r for r in results if isinstance(r, OverloadedError)]
+        assert len(pipeline.queued) == 2
+        assert len(refused) == 4
+        assert {r.retry_after_seconds for r in refused} == {7}
+        # Refused documents can try again: still awaiting upload, nothing queued for them.
+        detail = await shipments.get_shipment(shipment.id)
+        assert detail is not None
+        statuses = sorted(str(d.status) for d in detail.documents)
+        assert statuses == ["awaiting_upload"] * 4 + ["queued"] * 2
+    finally:
+        await sessions.kw["bind"].dispose()

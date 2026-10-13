@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "9c83612c2d72735aa7f688c3b707c5e9746bd5c7f291783fc005d7ecfeb4eef8",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:20+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: AC induction motor 0.55kW 3-phase\nCountry of origin: IT\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8501 Electric motors and generators (excluding generating sets)\n\nChoose the subheading that covers these goods. Options:\n- 850151: Electric motors; AC motors, multi-phase, of an output not exceeding 750W\n- 850140: Electric motors; AC motors, single-phase\n- 850152: Electric motors; AC motors, multi-phase, of an output exceeding 750W but not exceeding 75kW\n- 850153: Electric motors; AC motors, multi-phase, of an output exceeding 75kW\n- 850110: Electric motors; of an output not exceeding 37.5W\n- 850120: Electric motors; universal AC/DC of an output exceeding 37.5W\n- 850131: Electric motors and generators; DC, of an output not exceeding 750W\n- 850161: Generators; AC generators, (alternators), other than photovoltaic generators, of an output not exceeding 75kVA\n- 850133: Electric motors and generators; DC, of an output exceeding 75kW but not exceeding 375kW\n- 850132: Electric motors and generators; DC, of an output exceeding 750W but not exceeding 75kW\n- 850134: Electric motors and generators; DC, of an output exceeding 375kW\n- 850162: Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 75kVA but not exceeding 375kVA\n- 850163: Electric generators; AC generators, (alternators), other than photovoltaic generators, of an output exceeding 375kVA but not exceeding 750kVA\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "34daad7a816d6d31271328b1cefa8c27902ad413a60ddd541a6753e53c352fab",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "850151",
+      "cited": [
+        "850151"
+      ],
+      "confidence": "0.97",
+      "reason": "A 3-phase AC induction motor rated 0.55 kW (550 W) is a multi-phase AC motor with output not exceeding 750 W."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1412,
+    "latency_ms": 2453,
+    "output_tokens": 83,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

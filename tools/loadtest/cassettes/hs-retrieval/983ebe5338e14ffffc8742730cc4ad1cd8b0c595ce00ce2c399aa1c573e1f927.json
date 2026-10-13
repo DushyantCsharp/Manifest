@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "983ebe5338e14ffffc8742730cc4ad1cd8b0c595ce00ce2c399aa1c573e1f927",
+  "retriever": "hybrid",
+  "query": "Terry cotton bath towel 70x140 origin TR",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "580210",
+      "description": "Fabrics; terry towelling and similar woven terry fabrics, of cotton, whether bleached or unbleached, excluding narrow fabrics of heading no. 5806",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 1,
+        "vector": 2
+      }
+    },
+    {
+      "code": "630260",
+      "description": "Kitchen and toilet linen; of terry towelling or similar terry fabrics, of cotton",
+      "score": "0.032266",
+      "ranks": {
+        "lexical": 3,
+        "vector": 1
+      }
+    },
+    {
+      "code": "580220",
+      "description": "Fabrics; terry towelling and similar woven terry fabrics, of textile materials, excluding cotton, excluding narrow fabrics of heading no. 5806",
+      "score": "0.031754",
+      "ranks": {
+        "lexical": 2,
+        "vector": 4
+      }
+    },
+    {
+      "code": "630291",
+      "description": "Toilet and kitchen linen; of cotton, excluding terry towelling or similar terry fabrics",
+      "score": "0.031498",
+      "ranks": {
+        "lexical": 4,
+        "vector": 3
+      }
+    },
+    {
+      "code": "481830",
+      "description": "Paper articles; tablecloths and serviettes, of paper, cellulose wadding or fibres",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "520511",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "481820",
+      "description": "Paper articles; handkerchiefs, cleansing or facial tissues and towels",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "520512",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "520513",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "580230",
+      "description": "Fabrics; tufted textile fabrics, excluding products of heading no. 5703",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "481810",
+      "description": "Paper articles; toilet paper",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "520514",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, less than 192.31 but not less than 125 decitex (exceeding 52 but not exceeding 80 metric number), not for retail sale",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "481850",
+      "description": "Paper articles; apparel and clothing accessories of paper, cellulose wadding or fibres",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "520515",
+      "description": "Cotton yarn; (not sewing thread), single, of uncombed fibres, 85% or more by weight of cotton, measuring less than 125 decitex (exceeding 80 metric number), not for retail sale",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "520521",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, measuring 714.29 decitex or more, (not exceeding 14 metric number), not for retail sale",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "630251",
+      "description": "Table linen; of cotton, not knitted or crocheted",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "481890",
+      "description": "Paper articles; articles of paper, cellulose wadding or fibres, n.e.c. in heading no. 4818",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "520522",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 714.29 but not less than 232.56 decitex (exceeding 14 but not exceeding 43 metric number), not for retail sale",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "520523",
+      "description": "Cotton yarn; (not sewing thread), single, of combed fibres, 85% or more by weight of cotton, less than 232.56 but not less than 192.31 decitex (exceeding 43 but not exceeding 52 metric number), not for retail sale",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12,
+        "vector": null
+      }
+    },
+    {
+      "code": "630130",
+      "description": "Blankets (other than electric blankets) and travelling rugs; of cotton",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": null,
+        "vector": 12
+      }
+    }
+  ]
+}

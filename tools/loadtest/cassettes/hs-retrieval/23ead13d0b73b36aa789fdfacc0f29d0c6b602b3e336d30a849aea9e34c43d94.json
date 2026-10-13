@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "23ead13d0b73b36aa789fdfacc0f29d0c6b602b3e336d30a849aea9e34c43d94",
+  "retriever": "hybrid",
+  "query": "Men's woven cotton shirt, long sleeve origin IN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "610510",
+      "description": "Shirts; men's or boys', of cotton, knitted or crocheted",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 1,
+        "vector": 2
+      }
+    },
+    {
+      "code": "610590",
+      "description": "Shirts; men's or boys', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 2,
+        "vector": 3
+      }
+    },
+    {
+      "code": "620520",
+      "description": "Shirts; men's or boys', of cotton (not knitted or crocheted)",
+      "score": "0.031778",
+      "ranks": {
+        "lexical": 5,
+        "vector": 1
+      }
+    },
+    {
+      "code": "610610",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton, knitted or crocheted",
+      "score": "0.029031",
+      "ranks": {
+        "lexical": 3,
+        "vector": 16
+      }
+    },
+    {
+      "code": "620630",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of cotton (not knitted or crocheted)",
+      "score": "0.028485",
+      "ranks": {
+        "lexical": 6,
+        "vector": 15
+      }
+    },
+    {
+      "code": "610690",
+      "description": "Blouses, shirts and shirt-blouses; women's or girls', of textile materials (other than cotton or man-made fibres), knitted or crocheted",
+      "score": "0.025526",
+      "ranks": {
+        "lexical": 4,
+        "vector": 41
+      }
+    },
+    {
+      "code": "520852",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 100g/m2 but not more than 200g/m2",
+      "score": "0.023141",
+      "ranks": {
+        "lexical": 24,
+        "vector": 29
+      }
+    },
+    {
+      "code": "520951",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing more than 200g/m2",
+      "score": "0.022447",
+      "ranks": {
+        "lexical": 39,
+        "vector": 21
+      }
+    },
+    {
+      "code": "520859",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5208.5, weighing not more than 200g/m2",
+      "score": "0.021969",
+      "ranks": {
+        "lexical": 25,
+        "vector": 38
+      }
+    },
+    {
+      "code": "520851",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, plain weave, weighing not more than 100g/m2",
+      "score": "0.021757",
+      "ranks": {
+        "lexical": 23,
+        "vector": 43
+      }
+    },
+    {
+      "code": "520942",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, weighing more than 200g/m2, denim",
+      "score": "0.021169",
+      "ranks": {
+        "lexical": 36,
+        "vector": 33
+      }
+    },
+    {
+      "code": "520931",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, dyed, plain weave, weighing more than 200g/m2",
+      "score": "0.020971",
+      "ranks": {
+        "lexical": 32,
+        "vector": 39
+      }
+    },
+    {
+      "code": "520959",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, of weaves n.e.c. in item no. 5209.5, weighing more than 200g/m2",
+      "score": "0.020771",
+      "ranks": {
+        "lexical": 41,
+        "vector": 32
+      }
+    },
+    {
+      "code": "520939",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, dyed, of weaves n.e.c. in item no. 5209.3, weighing more than 200g/m2",
+      "score": "0.019984",
+      "ranks": {
+        "lexical": 34,
+        "vector": 47
+      }
+    },
+    {
+      "code": "520952",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, printed, 3-thread or 4-thread twill, including cross twill, weighing more than 200g/m2",
+      "score": "0.019804",
+      "ranks": {
+        "lexical": 40,
+        "vector": 42
+      }
+    },
+    {
+      "code": "520941",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, of yarns of different colours, plain weave, weighing more than 200g/m2",
+      "score": "0.019786",
+      "ranks": {
+        "lexical": 35,
+        "vector": 48
+      }
+    },
+    {
+      "code": "620590",
+      "description": "Shirts; men's or boys', of textile materials n.e.c. in heading no. 6205 (not knitted or crocheted)",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "620530",
+      "description": "Shirts; men's or boys', of man-made fibres (not knitted or crocheted)",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "610520",
+      "description": "Shirts; men's or boys', of man-made fibres, knitted or crocheted",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "520811",
+      "description": "Fabrics, woven; containing 85% or more by weight of cotton, unbleached, plain weave, weighing not more than 100g/m2",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    }
+  ]
+}

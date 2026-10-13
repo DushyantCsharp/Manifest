@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "437fbd5707ffd9e8ffce8f6e8f057d2525a875627759f4268ec6b224c0b02b57",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:23+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: LED television 55in 4K\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n\nChoose the heading that covers these goods. Options:\n- 8539: Lamps; electric filament or discharge lamps, including sealed beam lamp units and ultra-violet or infra-red lamps, arc lamps, light-emitting diode (LED) light sources\n    contains 853952: Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps\n    contains 853951: Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) modules\n- 8528: Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus\n    contains 852872: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a colour video display or screen\n    contains 852849: Monitors; cathode-ray tube, n.e.c. in subheading 8528.42, whether or not colour\n    contains 852873: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a monochrome video display or screen\n    contains 852871: Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; not designed to incorporate a video display or screen\n    contains 852859: Monitors other than cathode-ray tube; n.e.c. in subheading 8528.52, whether or not colour\n    contains 852869: Projectors; n.e.c. in subheading 8528.62, whether or not colour\n- 8525: Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders\n    contains 852581: Television cameras, digital cameras and video camera recorders; high-speed goods as specified in subheading note 1 to this chapter\n    contains 852583: Television cameras, digital cameras and video camera recorders; night vision goods as specified in subheading note 3 to this chapter\n    contains 852589: Television cameras; n.e.c. in item no 8525.8\n- 8540: Thermionic, cold cathode or photo-cathode valves and tubes (e.g. vacuum, vapour, gas filled valves and tubes, mercury arc rectifying valves and tubes, cathode-ray and television camera tubes)\n    contains 854011: Tubes; cathode-ray television picture tubes, including video monitor cathode-ray tubes, colour\n    contains 854012: Tubes; cathode-ray television picture tubes, including video monitor cathode-ray tubes, monochrome\n    contains 854020: Tubes; television camera tubes, image converters and intensifiers, other photo-cathode tubes\n- 8541: Semiconductor devices (e.g. diodes, transistors, semiconductor based transducers); including photovoltaic cells assembled or not in modules or panels, light-emitting diodes (LED) assembled with other LEDs or not, mounted piezo-electric crystals\n    contains 854141: Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)\n    contains 854110: Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)\n    contains 854159: Electrical apparatus; photosensitive semiconductor devices n.e.c. in heading no. 8541\n- 8531: Signalling apparatus; electric sound or visual (e.g. bells, sirens, indicator panels, burglar or fire alarms), excluding those of heading no. 8512 or 8530\n    contains 853120: Signalling apparatus; electric, sound or visual, indicator panels incorporating liquid crystal devices (LCD) or light-emitting diodes (LED), excluding those of heading no. 8512 or 8530\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7f49c4c962dba02d68416d898c14a796d91832003ae47c5e1ba7e98a5523ddd3",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8528",
+      "cited": [
+        "8528",
+        "852872"
+      ],
+      "confidence": "0.97",
+      "reason": "An LED television is reception apparatus for television with a colour video display, which heading 8528 covers (subheading 8528.72)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2180,
+    "latency_ms": 3297,
+    "output_tokens": 77,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

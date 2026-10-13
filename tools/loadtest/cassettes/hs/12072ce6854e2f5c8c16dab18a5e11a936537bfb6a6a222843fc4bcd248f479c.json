@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "12072ce6854e2f5c8c16dab18a5e11a936537bfb6a6a222843fc4bcd248f479c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:54+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Leather handbag with shoulder strap\nCountry of origin: IT\n\nChoose the chapter that covers these goods. Options:\n- 42: Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)\n    contains 420221: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of leather or of composition leather\n    contains 420229: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n    contains 420222: Cases and containers; handbags (whether or not with shoulder strap and including those without handle), with outer surface of sheeting of plastics or of textile materials\n    contains 420231: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of leather or of composition leather\n    contains 420500: Leather articles; n.e.c. in chapter 42, of leather or composition leather\n    contains 420291: Cases and containers; n.e.c. in heading 4202, with outer surface of leather or of composition leather\n    contains 420211: Cases and containers; trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers, with outer surface of leather or of composition leather\n    contains 420239: Cases and containers; of a kind normally carried in the pocket or in the handbag, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper\n    contains 420232: Cases and containers; of a kind normally carried in the pocket or in the handbag, with outer surface of sheeting of plastics or of textile materials\n    contains 420310: Apparel; articles of apparel, of leather or of composition leather\n    contains 420330: Clothing accessories; belts and bandoliers, of leather or of composition leather\n- 41: Raw hides and skins (other than furskins) and leather\n    contains 411420: Leather; patent leather and laminated patent leather; metallised leather\n    contains 411510: Leather; composition leather with a basis of leather or leather fibre, in slabs, sheets or strip, whether or not in rolls\n    contains 411310: Leather; further prepared after tanning or crusting, including parchment-dressed leather, without hair on, whether or not split, other than leather of heading 41.14, of goats and kids\n    contains 411520: Leather; parings and other waste, of leather or composition leather; not suitable for the manufacture of leather articles; leather dust, powder and flour\n    contains 410711: Leather; further prepared after tanning or crusting, including parchment-dressed leather, of bovine (including buffalo) or equine animals, without hair on, other than leather of heading 41.14, whole hides and skins, full grain, unsplit\n    contains 411200: Leather; further prepared after tanning or crusting, including parchment dressed leather, of sheep or lamb, without wool on, whether or not split, other than leather of heading 41.14\n    contains 410712: Leather; further prepared after tanning or crusting, including parchment-dressed leather, of bovine (including buffalo) or equine animals, without hair on, other than leather of heading 41.14, whole hides and skins, grain splits\n    contains 411390: Leather; further prepared after tanning or crusting, including parchment-dressed leather, of animals (other than sheep and lambs, goats and kids, swine and reptiles), without wool or hair on, whether or not split, other than leather of heading 41.14\n- 64: Footwear; gaiters and the like; parts of such articles\n    contains 640320: Footwear; with outer soles of leather, uppers consisting of leather straps across instep and around the big toe\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "6f27e4bbccf0ec9edb6491d91efdbeda900e3ad57a82ad404c923c5a92ab4b05",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "42",
+      "cited": [
+        "42",
+        "420221"
+      ],
+      "confidence": "0.99",
+      "reason": "A leather handbag with shoulder strap is expressly covered by heading 4202 (subheading 420221) in Chapter 42."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2003,
+    "latency_ms": 2060,
+    "output_tokens": 77,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

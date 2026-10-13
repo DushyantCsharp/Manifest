@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "1ddeee559c79113c11d623fef923db9fe9ae71ce3168d801eeceedeff7e753b3",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:43+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Frozen vannamei shrimp, peeled\nCountry of origin: EC\n\nChoose the chapter that covers these goods. Options:\n- 03: Fish and crustaceans, molluscs and other aquatic invertebrates\n    contains 030616: Crustaceans; frozen, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030617: Crustaceans; frozen, shrimps and prawns, excluding cold-water varieties, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030635: Crustaceans; live, fresh or chilled, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not\n    contains 030619: Crustaceans; frozen, n.e.c. in item no. 0306.1, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030636: Crustaceans; live, fresh or chilled, shrimps and prawns excluding cold-water varieties, in shell or not\n    contains 030614: Crustaceans; frozen, crabs, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030615: Crustaceans; frozen, Norway lobsters (Nephrops norvegicus), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030695: Crustaceans; shrimps and prawns, smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking\n    contains 030611: Crustaceans; frozen, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030612: Crustaceans; frozen, lobsters (Homarus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030326: Fish; frozen, eels (Anguilla spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030392: Fish; frozen, shark fins\n    contains 030343: Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030722: Molluscs; scallops and other molluscs of the family Pectinidae, whether in shell or not, frozen\n    contains 030389: Fish; frozen, n.e.c. in heading 0303, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n    contains 030346: Fish; frozen, southern bluefin tunas (Thunnus maccoyii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99\n- 08: Fruit and nuts, edible; peel of citrus fruit or melons\n    contains 081190: Fruit, edible; fruit and nuts n.e.c. in heading no. 0811, uncooked or cooked, frozen whether or not containing added sugar or other sweetening matter\n    contains 081400: Peel; of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water and other preservative solutions\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 040819: Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a1ba38450e7fb3880484c3e4e2759aff43d76b58d2e7def3124253d85b04572d",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "03",
+      "cited": [
+        "03",
+        "030617"
+      ],
+      "confidence": "0.98",
+      "reason": "Frozen peeled vannamei shrimp are crustaceans, which fall in Chapter 03 (heading 0306, subheading 030617 for frozen warm-water shrimps and prawns)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 2311,
+    "latency_ms": 2185,
+    "output_tokens": 100,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "84133b022ee1c0af78a750ca64b60b219177f2fac45cc42d9179b84614028922",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:47+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Laptop computer 14in, 16GB RAM\nCountry of origin: CN\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof > 8471 Automatic data processing machines and units thereof, magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included\n\nChoose the subheading that covers these goods. Options:\n- 847130: Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display\n- 847141: Automatic data processing machines; comprising in the same housing at least a central processing unit and an input and output unit, whether or not combined, n.e.c. in item no. 8471.30\n- 847149: Automatic data processing machines; presented in the form of systems, n.e.c. in item no. 8471.30 or 8471.41\n- 847160: Units of automatic data processing machines; input or output units, whether or not containing storage units in the same housing\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "e66085e2cf40980ba1eeee07bd0372e80bb18654e0d021244fe31fa4bac95e13",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "847130",
+      "cited": [
+        "847130"
+      ],
+      "confidence": "0.97",
+      "reason": "A 14-inch laptop is a portable automatic data processing machine weighing under 10 kg with a CPU, keyboard and display, which is exactly what 8471.30 describes."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1096,
+    "latency_ms": 2916,
+    "output_tokens": 92,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

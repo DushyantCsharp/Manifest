@@ -25,14 +25,15 @@ def build(
     sessions = async_session_factory(database_url)
     redis = Redis.from_url(settings.redis_url)
     pipeline = CeleryPipeline(settings.broker_url)
+    admission = PendingPages(
+        sessions,
+        high_water=settings.pending_pages_high_water,
+        retry_after=settings.admission_retry_after_seconds,
+    )
     ports = dataclasses.replace(
         Ports.unwired(),
-        shipments=PostgresShipments(sessions, S3Uploads(settings), pipeline),
-        admission=PendingPages(
-            sessions,
-            high_water=settings.pending_pages_high_water,
-            retry_after=settings.admission_retry_after_seconds,
-        ),
+        shipments=PostgresShipments(sessions, S3Uploads(settings), pipeline, admission),
+        admission=admission,
         idempotency=RedisIdempotencyStore(redis, ttl=settings.idempotency_ttl_seconds),
     )
 

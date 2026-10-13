@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "e0b6401713b1af4f7869ab8d9ae81dab526b515b68aee43bc45083de000ecca4",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:11+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Passenger car tyre 205/55R16\nCountry of origin: CN\n\nChosen so far: 40 Rubber and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 4011: New pneumatic tyres, of rubber\n    contains 401110: Rubber; new pneumatic tyres, of a kind used on motor cars (including station wagons and racing cars)\n    contains 401150: Rubber; new pneumatic tyres, of a kind used on bicycles\n    contains 401120: Rubber; new pneumatic tyres, of a kind used on buses or lorries\n    contains 401190: Rubber; new pneumatic tyres, of a kind used on light commercial vehicles\n    contains 401170: Rubber; new pneumatic tyres, of a kind used on agricultural or forestry vehicles and machines\n    contains 401130: Rubber; new pneumatic tyres, of a kind used on aircraft\n    contains 401180: Rubber; new pneumatic tyres, of a kind used on construction, mining or industrial handling vehicles and machines\n    contains 401140: Rubber; new pneumatic tyres, of a kind used on motorcycles\n- 4012: Retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps, of rubber\n    contains 401211: Retreaded tyres; of a kind used on motor cars (including station wagons and racing cars)\n    contains 401219: Retreaded tyres; other than of a kind used on motor cars (including station wagons and racing cars), buses and lorries and aircraft\n    contains 401220: Rubber; used pneumatic tyres\n    contains 401212: Retreaded tyres; of a kind used on motor buses or lorries\n    contains 401213: Retreaded tyres; of a kind used on aircraft\n    contains 401290: Rubber; tyres n.e.c. in heading no. 4012\n- 4006: Unvulcanised rubber in other forms (e.g. rods, tubes and profile shapes) and articles (e.g. discs and rings)\n    contains 400610: Rubber; unvulcanised, camel-back strips for retreading rubber tyres\n    contains 400690: Rubber; unvulcanised, other than camel back strips for retreading rubber tyres\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4a530c870f22e3d2f76c0cddf067339cda7d95acb6b2b54006a506f5148ef7e7",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "4011",
+      "cited": [
+        "4011",
+        "401110"
+      ],
+      "confidence": "0.97",
+      "reason": "A passenger car tyre 205/55R16 is presumed new (no mention of used or retreaded) and pneumatic, so it falls under heading 4011, new pneumatic tyres of rubber, subheading 401110 for motor cars."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1511,
+    "latency_ms": 3757,
+    "output_tokens": 115,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

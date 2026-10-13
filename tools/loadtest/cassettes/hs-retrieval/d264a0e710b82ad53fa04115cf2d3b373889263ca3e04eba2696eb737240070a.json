@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "d264a0e710b82ad53fa04115cf2d3b373889263ca3e04eba2696eb737240070a",
+  "retriever": "hybrid",
+  "query": "CORRUGATED SHIPPING CARTON, 3-PLY origin VN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "481910",
+      "description": "Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 2,
+        "vector": 1
+      }
+    },
+    {
+      "code": "481920",
+      "description": "Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 3,
+        "vector": 2
+      }
+    },
+    {
+      "code": "480810",
+      "description": "Paper and paperboard; corrugated, whether or not perforated, in rolls or sheets, other than paper of heading 4803",
+      "score": "0.028718",
+      "ranks": {
+        "lexical": 15,
+        "vector": 5
+      }
+    },
+    {
+      "code": "441231",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of tropical wood",
+      "score": "0.028125",
+      "ranks": {
+        "lexical": 4,
+        "vector": 20
+      }
+    },
+    {
+      "code": "441233",
+      "description": "Plywood; with sheets of wood only; not bamboo; each ply 6mm or less, with at least one outer ply of alder, ash, beech, birch, cherry, chestnut, elm, eucalyptus, hickory, horse chestnut, lime, maple, oak, plane, poplar, aspen, robinia, tulipwood or walnut",
+      "score": "0.026748",
+      "ranks": {
+        "lexical": 5,
+        "vector": 28
+      }
+    },
+    {
+      "code": "480890",
+      "description": "Paper and paperboard; other than corrugated (with or without glued flat surface sheets) or kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803",
+      "score": "0.026491",
+      "ranks": {
+        "lexical": 16,
+        "vector": 15
+      }
+    },
+    {
+      "code": "441239",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with both outer plies of coniferous wood",
+      "score": "0.026420",
+      "ranks": {
+        "lexical": 7,
+        "vector": 27
+      }
+    },
+    {
+      "code": "441234",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of non-coniferous wood not listed in subheading 4412.33",
+      "score": "0.026141",
+      "ranks": {
+        "lexical": 6,
+        "vector": 31
+      }
+    },
+    {
+      "code": "481930",
+      "description": "Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more",
+      "score": "0.025047",
+      "ranks": {
+        "lexical": 49,
+        "vector": 3
+      }
+    },
+    {
+      "code": "480840",
+      "description": "Paper and paperboard; kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803",
+      "score": "0.024884",
+      "ranks": {
+        "lexical": 48,
+        "vector": 4
+      }
+    },
+    {
+      "code": "481940",
+      "description": "Paper and paperboard; sacks and bags, including cones, of paper, paperboard, cellulose wadding or fibres, having a base width less than 40cm",
+      "score": "0.022790",
+      "ranks": {
+        "lexical": 50,
+        "vector": 13
+      }
+    },
+    {
+      "code": "441241",
+      "description": "Plywood, veneered panels and similar laminated wood; laminated veneered lumber (LVL); with at least one outer ply of tropical wood",
+      "score": "0.022634",
+      "ranks": {
+        "lexical": 25,
+        "vector": 32
+      }
+    },
+    {
+      "code": "470710",
+      "description": "Paper or paperboard; waste and scrap, of unbleached kraft paper or paperboard or corrugated paper or paperboard",
+      "score": "0.022381",
+      "ranks": {
+        "lexical": 33,
+        "vector": 26
+      }
+    },
+    {
+      "code": "844130",
+      "description": "Machines; for making cartons, boxes, cases, tubes, drums or similar containers (other than by moulding), of paper pulp, paper or paperboard",
+      "score": "0.021905",
+      "ranks": {
+        "lexical": 40,
+        "vector": 24
+      }
+    },
+    {
+      "code": "441291",
+      "description": "Plywood; n.e.c. in heading 4412, with at least one outer ply of tropical wood",
+      "score": "0.021749",
+      "ranks": {
+        "lexical": 30,
+        "vector": 34
+      }
+    },
+    {
+      "code": "441299",
+      "description": "Plywood; n.e.c. in heading 4412, with both outer plies of coniferous wood",
+      "score": "0.021179",
+      "ranks": {
+        "lexical": 32,
+        "vector": 37
+      }
+    },
+    {
+      "code": "441259",
+      "description": "Blockboard, laminboard and battenboard; with both outer plies of coniferous wood",
+      "score": "0.020945",
+      "ranks": {
+        "lexical": 29,
+        "vector": 43
+      }
+    },
+    {
+      "code": "441292",
+      "description": "Plywood; n.e.c. in heading 4412, with at least one outer ply of non-coniferous wood",
+      "score": "0.020890",
+      "ranks": {
+        "lexical": 31,
+        "vector": 41
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "481960",
+      "description": "Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    }
+  ]
+}

@@ -1,25 +1,33 @@
 # Load-test overrides for the app profile (scripts/loadtest.py applies them):
 #   docker compose -f infra/compose.yaml -f infra/compose.loadtest.yaml --profile app up -d
 #
-# The worker replays the eval corpus' real model recordings instead of calling a model, each
-# taking as long as the recorded call did, so latency and token counts (hence cost) are the
-# model's while nothing is called or paid for. HS classification is off: the corpus holds no
-# recorded walks for these line items, and a replay can only answer what was recorded. Rate
-# limits are an account's real ones (the defaults are deliberately small), so the bucket
-# admits what the provider would.
+# A load test replays real model recordings instead of calling a model, each taking as long
+# as the recorded call did, so latency and token counts (hence cost) are the model's while
+# nothing is called or paid for: the eval corpus' extraction recordings, and HS walks plus HS
+# retrievals recorded once for the corpus' lines (tools/loadtest/cassettes). Calibrators are
+# pinned as in production, so routing (and the auto-approve ratio) is real. Rate limits are an
+# account's real ones (the defaults are deliberately small).
+#
+# The recording run (scripts/loadtest.py --record-hs) sets LOADTEST_CASSETTE_MODE=new, mounts
+# the folders writable and passes the model keys; a load test passes none and calls nothing.
 services:
   worker:
     environment:
       MANIFEST_LLM_CASSETTES: /cassettes
-      MANIFEST_LLM_CASSETTE_MODE: replay
-      MANIFEST_LLM_REPLAY_LATENCY: "true"
-      MANIFEST_HS_ENABLED: "false"
+      MANIFEST_LLM_CASSETTE_MODE: ${LOADTEST_CASSETTE_MODE:-replay}
+      MANIFEST_LLM_REPLAY_LATENCY: ${LOADTEST_REPLAY_LATENCY:-true}
+      MANIFEST_HS_ENABLED: ${LOADTEST_HS:-true}
+      MANIFEST_HS_RETRIEVALS: /retrievals
+      MANIFEST_HS_RETRIEVAL_MODE: ${LOADTEST_CASSETTE_MODE:-replay}
+      MANIFEST_EXTRACTION_CALIBRATOR: extraction-v2
+      MANIFEST_HS_CALIBRATOR: hs-v2
       MANIFEST_LLM_REQUESTS_PER_MINUTE: ${LOADTEST_RPM:-1000}
       MANIFEST_LLM_TOKENS_PER_MINUTE: ${LOADTEST_TPM:-2000000}
-      ANTHROPIC_API_KEY: ""
-      VOYAGE_API_KEY: ""
+      ANTHROPIC_API_KEY: ${LOADTEST_ANTHROPIC_API_KEY:-}
+      VOYAGE_API_KEY: ${LOADTEST_VOYAGE_API_KEY:-}
     volumes:
-      - ${LOADTEST_CASSETTES:?run scripts/loadtest.py, which prepares them}:/cassettes:ro
+      - ${LOADTEST_CASSETTES:?run scripts/loadtest.py, which prepares them}:/cassettes:${LOADTEST_MOUNT:-ro}
+      - ${LOADTEST_RETRIEVALS:?run scripts/loadtest.py, which prepares them}:/retrievals:${LOADTEST_MOUNT:-ro}
   api:
     environment:
       ANTHROPIC_API_KEY: ""

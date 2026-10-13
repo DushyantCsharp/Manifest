@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "cba0922fc62eb7af2c64bece5b2f30c7e7c20ef08fe988386f9b3d8cc44e6e66",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:15+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Lithium-ion battery pack 48V 20Ah\nCountry of origin: KR\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8507 Electric accumulators, including separators therefor; whether or not rectangular (including square)\n\nChoose the subheading that covers these goods. Options:\n- 850760: Electric accumulators; lithium-ion, including separators, whether or not rectangular (including square)\n- 850780: Electric accumulators; other than lead-acid, nickel-cadmium, nickel-metal hydride and lithium-ion, including separators, whether or not rectangular (including square)\n- 850720: Electric accumulators; lead-acid, (other than for starting piston engines), including separators, whether or not rectangular (including square)\n- 850750: Electric accumulators; nickel-metal hydride, including separators, whether or not rectangular (including square)\n- 850730: Electric accumulators; nickel-cadmium, including separators, whether or not rectangular (including square)\n- 850710: Electric accumulators; lead-acid, of a kind used for starting piston engines, including separators, whether or not rectangular (including square)\n- 850790: Electric accumulators; parts n.e.c. in heading no. 8507\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "7d4043d5cf1c7e9d016d9465bb9dc4642e5d1e7fd78c59e5873c81a065645959",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "850760",
+      "cited": [
+        "850760"
+      ],
+      "confidence": "0.97",
+      "reason": "A lithium-ion battery pack is a complete lithium-ion electric accumulator, so it falls under subheading 8507.60 rather than the parts subheading."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1215,
+    "latency_ms": 3513,
+    "output_tokens": 86,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

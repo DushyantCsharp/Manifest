@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "26d214e37afa8dd19b3c72cbb9f583471dc74a50448bf93af056a2a8cec04587",
+  "retriever": "hybrid",
+  "query": "Corrugated shipping carton, 3-ply origin CN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "481910",
+      "description": "Paper and paperboard; cartons, boxes and cases, of corrugated paper or paperboard",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 2,
+        "vector": 1
+      }
+    },
+    {
+      "code": "481920",
+      "description": "Paper and paperboard; folding cartons, boxes and cases, of non-corrugated paper or paperboard",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 3,
+        "vector": 2
+      }
+    },
+    {
+      "code": "480810",
+      "description": "Paper and paperboard; corrugated, whether or not perforated, in rolls or sheets, other than paper of heading 4803",
+      "score": "0.028485",
+      "ranks": {
+        "lexical": 15,
+        "vector": 6
+      }
+    },
+    {
+      "code": "480890",
+      "description": "Paper and paperboard; other than corrugated (with or without glued flat surface sheets) or kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803",
+      "score": "0.027444",
+      "ranks": {
+        "lexical": 16,
+        "vector": 10
+      }
+    },
+    {
+      "code": "481930",
+      "description": "Paper and paperboard; sacks and bags of paper, paperboard, cellulose wadding or fibres, having a base of a width of 40cm or more",
+      "score": "0.025047",
+      "ranks": {
+        "lexical": 49,
+        "vector": 3
+      }
+    },
+    {
+      "code": "480840",
+      "description": "Paper and paperboard; kraft paper, creped or crinkled, whether or not embossed or perforated, in rolls or sheets, other than paper of heading 4803",
+      "score": "0.024644",
+      "ranks": {
+        "lexical": 48,
+        "vector": 5
+      }
+    },
+    {
+      "code": "844130",
+      "description": "Machines; for making cartons, boxes, cases, tubes, drums or similar containers (other than by moulding), of paper pulp, paper or paperboard",
+      "score": "0.023514",
+      "ranks": {
+        "lexical": 40,
+        "vector": 14
+      }
+    },
+    {
+      "code": "481940",
+      "description": "Paper and paperboard; sacks and bags, including cones, of paper, paperboard, cellulose wadding or fibres, having a base width less than 40cm",
+      "score": "0.022790",
+      "ranks": {
+        "lexical": 50,
+        "vector": 13
+      }
+    },
+    {
+      "code": "481092",
+      "description": "Paper and paperboard; multi-ply, coated with kaolin or other inorganic substances only, for non-graphic purposes, n.e.c. in heading no. 4810, in rolls or sheets",
+      "score": "0.022133",
+      "ranks": {
+        "lexical": 34,
+        "vector": 27
+      }
+    },
+    {
+      "code": "470710",
+      "description": "Paper or paperboard; waste and scrap, of unbleached kraft paper or paperboard or corrugated paper or paperboard",
+      "score": "0.020368",
+      "ranks": {
+        "lexical": 33,
+        "vector": 44
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "441231",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of tropical wood",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "481960",
+      "description": "Paper and paperboard; box files, letter trays, storage boxes and similar articles, used in offices, shops or the like of paper, paperboard, cellulose wadding or webs of cellulose fibres",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "441233",
+      "description": "Plywood; with sheets of wood only; not bamboo; each ply 6mm or less, with at least one outer ply of alder, ash, beech, birch, cherry, chestnut, elm, eucalyptus, hickory, horse chestnut, lime, maple, oak, plane, poplar, aspen, robinia, tulipwood or walnut",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "441234",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with at least one outer ply of non-coniferous wood not listed in subheading 4412.33",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "441239",
+      "description": "Plywood; consisting only of sheets of wood (not bamboo), each ply 6mm or thinner, with both outer plies of coniferous wood",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "480519",
+      "description": "Paper and paperboard; uncoated, fluting paper other than semi-chemical or straw, rolls or sheets",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "480511",
+      "description": "Paper and paperboard; uncoated, semi-chemical fluting paper, rolls or sheets",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "890110",
+      "description": "Cruise ships, excursion boats and similar vessels, principally designed for the transport of persons, ferry boats of all kinds",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    }
+  ]
+}

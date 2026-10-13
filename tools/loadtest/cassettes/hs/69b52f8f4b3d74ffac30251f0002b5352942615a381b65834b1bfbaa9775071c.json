@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "69b52f8f4b3d74ffac30251f0002b5352942615a381b65834b1bfbaa9775071c",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:16+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Milk chocolate bars 100g\nCountry of origin: CH\n\nChosen so far: 18 Cocoa and cocoa preparations > 1806 Chocolate and other food preparations containing cocoa\n\nChoose the subheading that covers these goods. Options:\n- 180632: Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, (not filled), weighing 2kg or less\n- 180631: Chocolate and other food preparations containing cocoa; in blocks, slabs or bars, filled, weighing 2kg or less\n- 180620: Chocolate & other food preparations containing cocoa; in blocks, slabs or bars weighing more than 2kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, content exceeding 2kg\n- 180690: Chocolate and other food preparations containing cocoa; n.e.c. in chapter 18\n- 180610: Cocoa; powder, containing added sugar or other sweetening matter\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "3369b24f127d6a7d54dc4289d507c9c006759dda20ac06d84ab3e11040a6df29",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "180632",
+      "cited": [
+        "180632"
+      ],
+      "confidence": "0.93",
+      "reason": "Milk chocolate bars of 100g are chocolate in bars weighing 2kg or less, and are presumed not filled (solid), so 180632 applies.}"
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1086,
+    "latency_ms": 3906,
+    "output_tokens": 87,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "225a6eaa9d2dae6b2feee19a2b10b71300943c1bed43dc626b7162301e1cbfb7",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:55+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Analog quartz wristwatch, steel case\nCountry of origin: CN\n\nChosen so far: 91 Clocks and watches and parts thereof\n\nChoose the heading that covers these goods. Options:\n- 9112: Clock cases and cases of a similar type for other goods of this chapter and parts thereof\n    contains 911220: Clock cases and similar cases for other goods of chapter 91; other than watch cases\n    contains 911290: Clock cases and similar cases for other goods of chapter 91; other than watch cases, parts thereof\n- 9101: Wrist-watches, pocket-watches, stop-watches and other watches; with case of precious metal or of metal clad with precious metal\n    contains 910129: Wrist-watches; (not electrically operated), (not automatic winding), whether or not incorporating a stop-watch facility, case of precious metal or of metal clad with precious metal\n    contains 910199: Pocket-watches and other watches, including stop-watches; (excluding wrist-watches), with case of precious metal or of metal clad with precious metal, not electrically operated\n    contains 910121: Wrist-watches; (not electrically operated), automatic winding, whether or not incorporating a stop-watch facility, case of precious metal or of metal clad with precious metal\n    contains 910111: Wrist-watches; electrically operated, with or without a stop-watch, with case of precious metal or of metal clad with precious metal, with mechanical display only\n    contains 910191: Pocket-watches and other watches, including stop-watches; (excluding wrist-watches), with case of precious metal or of metal clad with precious metal, electrically operated\n    contains 910119: Wrist-watches; electrically operated, with or without a stop-watch, with case of precious metal or metal clad with precious metal, without mechanical display\n- 9111: Watch cases and parts thereof\n    contains 911120: Watch cases; of base metal, whether or not gold-plated or silver-plated\n- 9102: Wrist-watches, pocket-watches, stop-watches and other watches, other than those of heading no. 9101\n    contains 910229: Wrist-watches; whether or not incorporating a stop-watch facility, with other than automatic winding\n    contains 910221: Wrist-watches; whether or not incorporating a stop-watch facility, with automatic winding\n    contains 910211: Wrist-watches; electrically operated, with or without a stop-watch, (other than those of heading no. 9101) with mechanical display only\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "c5263b4e1dead4e323fb45f62ace016571567bc28fcc420a4901a6f377f8cac5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "9102",
+      "cited": [
+        "9102",
+        "910211"
+      ],
+      "confidence": "0.96",
+      "reason": "A complete analog quartz wristwatch with a steel (base metal) case is a wrist-watch not of heading 9101 (which requires a precious-metal case), so it falls in 9102, subheading 910211 (electrically operated, mechanical display only)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1567,
+    "latency_ms": 2353,
+    "output_tokens": 119,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "84bc38c6dcafcd9f57b51b45a6f1be35665eb03b268443d8c193c22ed1e758c9",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:41+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: STAINLESS STEEL SAUCEPAN 20CM\nCountry of origin: IN\n\nChoose the chapter that covers these goods. Options:\n- 73: Iron or steel articles\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n    contains 732393: Steel, stainless; table, kitchen and other household articles and parts thereof\n    contains 730411: Iron or steel (excluding cast iron); seamless, line pipe of a kind used for oil or gas pipelines, of stainless steel\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n    contains 731412: Iron or steel; woven cloth, endless bands for machinery, of stainless steel\n    contains 731414: Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)\n    contains 731419: Iron or steel; woven cloth, other than of stainless steel\n- 72: Iron and steel\n    contains 721891: Steel, stainless; semi-finished products, of rectangular (other than square) cross-section\n    contains 722020: Steel, stainless; flat-rolled, width less than 600mm, cold-rolled\n    contains 721922: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, (not in coils), of a thickness of 4.75mm or more but not exceeding 10mm\n    contains 722090: Steel, stainless; flat-rolled, width less than 600mm, n.e.c. in heading no 7220\n    contains 721912: Steel, stainless; flat-rolled, width 600mm or more, hot-rolled, in coils, of a thickness of 4.75mm or more but not exceeding 10mm\n    contains 722012: Steel, stainless; flat-rolled, width less than 600mm, hot-rolled, of a thickness of less than 4.75mm\n    contains 722240: Steel, stainless; angles, shapes and sections\n    contains 722220: Steel, stainless; bars and rods, cold-formed or cold-finished\n    contains 721810: Steel, stainless; ingots and other primary forms\n- 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal\n    contains 821520: Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter knives, sugar tongs and similar), not plated with precious metal\n    contains 821599: Cutlery; other than plated with precious metal\n    contains 821000: Tools; hand-operated mechanical appliances, weighing 10kg or less, used in the preparation, conditioning or serving of food or drink\n    contains 820830: Tools; knives and cutting blades, for kitchen appliances or for machines used by the food industry\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "879cb3ca6178dd469ff767c349c901a832142237cad3898a0e214d2dfe359b97",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "73",
+      "cited": [
+        "73",
+        "732393"
+      ],
+      "confidence": "0.97",
+      "reason": "A stainless steel saucepan is a kitchen/household article of stainless steel, falling in heading 7323 within Chapter 73."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1687,
+    "latency_ms": 2039,
+    "output_tokens": 78,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

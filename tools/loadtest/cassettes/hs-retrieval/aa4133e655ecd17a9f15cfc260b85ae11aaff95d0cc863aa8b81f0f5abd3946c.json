@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "aa4133e655ecd17a9f15cfc260b85ae11aaff95d0cc863aa8b81f0f5abd3946c",
+  "retriever": "hybrid",
+  "query": "Green Arabica coffee beans, grade 1 origin BR",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "090111",
+      "description": "Coffee; not roasted or decaffeinated",
+      "score": "0.032018",
+      "ranks": {
+        "lexical": 4,
+        "vector": 1
+      }
+    },
+    {
+      "code": "090190",
+      "description": "Coffee; husks and skins, coffee substitutes containing coffee in any proportion",
+      "score": "0.031319",
+      "ranks": {
+        "lexical": 1,
+        "vector": 7
+      }
+    },
+    {
+      "code": "090121",
+      "description": "Coffee; roasted, not decaffeinated",
+      "score": "0.031281",
+      "ranks": {
+        "lexical": 6,
+        "vector": 2
+      }
+    },
+    {
+      "code": "090112",
+      "description": "Coffee; decaffeinated, not roasted",
+      "score": "0.031010",
+      "ranks": {
+        "lexical": 5,
+        "vector": 4
+      }
+    },
+    {
+      "code": "210111",
+      "description": "Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.030622",
+      "ranks": {
+        "lexical": 2,
+        "vector": 9
+      }
+    },
+    {
+      "code": "090122",
+      "description": "Coffee; roasted, decaffeinated",
+      "score": "0.030310",
+      "ranks": {
+        "lexical": 7,
+        "vector": 5
+      }
+    },
+    {
+      "code": "210112",
+      "description": "Preparations with a basis of extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.028790",
+      "ranks": {
+        "lexical": 8,
+        "vector": 11
+      }
+    },
+    {
+      "code": "180100",
+      "description": "Cocoa beans; whole or broken, raw or roasted",
+      "score": "0.028531",
+      "ranks": {
+        "lexical": 19,
+        "vector": 3
+      }
+    },
+    {
+      "code": "210130",
+      "description": "Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof",
+      "score": "0.028382",
+      "ranks": {
+        "lexical": 9,
+        "vector": 12
+      }
+    },
+    {
+      "code": "090210",
+      "description": "Tea, green; (not fermented), in immediate packings of a content not exceeding 3kg",
+      "score": "0.024326",
+      "ranks": {
+        "lexical": 49,
+        "vector": 6
+      }
+    },
+    {
+      "code": "120110",
+      "description": "Soya beans; seed, whether or not broken",
+      "score": "0.024040",
+      "ranks": {
+        "lexical": 14,
+        "vector": 35
+      }
+    },
+    {
+      "code": "090220",
+      "description": "Tea, green; (not fermented), in immediate packings of a content exceeding 3kg",
+      "score": "0.023797",
+      "ranks": {
+        "lexical": 50,
+        "vector": 8
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.023457",
+      "ranks": {
+        "lexical": 21,
+        "vector": 30
+      }
+    },
+    {
+      "code": "121292",
+      "description": "Locust beans (carob); fit for human consumption, fresh, chilled, frozen or dried, whether or not ground",
+      "score": "0.023059",
+      "ranks": {
+        "lexical": 16,
+        "vector": 41
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "071333",
+      "description": "Vegetables, leguminous; kidney beans, including white pea beans (phaseolus vulgaris), shelled, whether or not skinned or split, dried",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "090300",
+      "description": "Mate",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "071350",
+      "description": "Vegetables, leguminous; broad beans (vicia faba var. major) and horse beans (vicia faba var. equina, vicia faba var. minor), shelled, whether or not skinned or split, dried",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "130232",
+      "description": "Mucilages and thickeners; whether or not modified, derived from locust beans, locust bean seeds or guar seeds",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13,
+        "vector": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "aed1a4f7eb3e9e2782af47f9f7e2d01520dd73eab5e5557b92f5c59445202f4f",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:59+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Centrifugal water pump 1.1kW\nCountry of origin: IT\n\nChosen so far: 84 Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n\nChoose the heading that covers these goods. Options:\n- 8413: Pumps; for liquids, whether or not fitted with measuring device, liquid elevators\n    contains 841370: Pumps; centrifugal, n.e.c. in heading no. 8413, for liquids\n    contains 841340: Pumps; concrete pumps\n    contains 841360: Pumps; rotary positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n    contains 841350: Pumps; reciprocating positive displacement pumps, n.e.c. in heading no. 8413, for liquids\n    contains 841319: Pumps; for liquids, fitted or designed to be fitted with a measuring device, other than pumps for dispensing fuel or lubricants\n    contains 841330: Pumps; fuel, lubricating or cooling medium pumps for internal combustion piston engines\n- 8414: Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan; gas-tight biological safety cabinets whether or not fitted with filters\n    contains 841420: Pumps; hand or foot-operated air pumps\n    contains 841490: Pumps and compressors; parts, of air or vacuum pumps, air or other gas compressors and fans, ventilating or recycling hoods incorporating a fan\n- 8421: Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus for liquids or gases\n    contains 842121: Machinery; for filtering or purifying water\n    contains 842191: Centrifuges; parts thereof, including parts for centrifugal dryers\n    contains 842119: Centrifuges; n.e.c. in heading no. 8421, including centrifugal dryers (but not clothes-dryers)\n    contains 842122: Machinery; for filtering or purifying beverages other than water\n    contains 842111: Centrifuges; cream separators\n    contains 842112: Centrifuges; clothes-dryers\n- 8410: Turbines; hydraulic water wheels and regulators therefor\n    contains 841011: Turbines; hydraulic turbines and water wheels, of a power not exceeding 1000kW\n- 8405: Generators for producer or water gas with or without their purifiers acetylene gas generators and similar water process gas generators, with or without their purifiers\n    contains 840510: Generators; producer gas, water gas, acetylene gas and similar water process gas generators, with or without their purifiers\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f4e07f0503f432e2ceadc0d7e866bca2711b5d87604bf1d1c3b90151ee900505",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "8413",
+      "cited": [
+        "8413",
+        "841370"
+      ],
+      "confidence": "0.97",
+      "reason": "A centrifugal water pump is a pump for liquids, covered by heading 8413 (subheading 841370 for centrifugal pumps not elsewhere specified)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1650,
+    "latency_ms": 2978,
+    "output_tokens": 91,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

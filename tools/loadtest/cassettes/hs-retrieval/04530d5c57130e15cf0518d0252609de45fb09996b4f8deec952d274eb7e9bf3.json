@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "04530d5c57130e15cf0518d0252609de45fb09996b4f8deec952d274eb7e9bf3",
+  "retriever": "hybrid",
+  "query": "CASHEW KERNELS W320 origin VN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "080132",
+      "description": "Nuts, edible; cashew nuts, fresh or dried, shelled",
+      "score": "0.032018",
+      "ranks": {
+        "lexical": 4,
+        "vector": 1
+      }
+    },
+    {
+      "code": "080131",
+      "description": "Nuts, edible; cashew nuts, fresh or dried, in shell",
+      "score": "0.030579",
+      "ranks": {
+        "lexical": 3,
+        "vector": 8
+      }
+    },
+    {
+      "code": "080232",
+      "description": "Nuts, edible; walnuts, fresh or dried, shelled",
+      "score": "0.027118",
+      "ranks": {
+        "lexical": 31,
+        "vector": 2
+      }
+    },
+    {
+      "code": "320120",
+      "description": "Tanning extracts of vegetable origin; wattle extract",
+      "score": "0.026070",
+      "ranks": {
+        "lexical": 8,
+        "vector": 28
+      }
+    },
+    {
+      "code": "151321",
+      "description": "Vegetable oils; palm kernel or babassu oil and their fractions, crude, not chemically modified",
+      "score": "0.025486",
+      "ranks": {
+        "lexical": 5,
+        "vector": 39
+      }
+    },
+    {
+      "code": "151329",
+      "description": "Vegetable oils; palm kernel or babassu oil and their fractions, other than crude, whether or not refined, but not chemically modified",
+      "score": "0.024767",
+      "ranks": {
+        "lexical": 6,
+        "vector": 44
+      }
+    },
+    {
+      "code": "080231",
+      "description": "Nuts, edible; walnuts, fresh or dried, in shell",
+      "score": "0.023457",
+      "ranks": {
+        "lexical": 30,
+        "vector": 21
+      }
+    },
+    {
+      "code": "080242",
+      "description": "Nuts, edible; chestnuts (Castanea spp.), fresh or dried, shelled",
+      "score": "0.022948",
+      "ranks": {
+        "lexical": 33,
+        "vector": 22
+      }
+    },
+    {
+      "code": "080241",
+      "description": "Nuts, edible; chestnuts (Castanea spp.), fresh or dried, in shell",
+      "score": "0.021859",
+      "ranks": {
+        "lexical": 32,
+        "vector": 31
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "041090",
+      "description": "Animal products; edible products of animal origin, not elsewhere specified or included, other than insects",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "020329",
+      "description": "Meat; of swine, n.e.c. in item no. 0203.2, frozen",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "030329",
+      "description": "Fish; frozen, Nile perch (Lates niloticus) and snakeheads (Channa spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "848620",
+      "description": "Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor devices or of electronic integrated circuits",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "848610",
+      "description": "Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor boules or wafers",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "320110",
+      "description": "Tanning extracts of vegetable origin; quebracho extract",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "848690",
+      "description": "Machines and apparatus of heading 8486; parts and accessories",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "320190",
+      "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "848640",
+      "description": "Machines and apparatus of a kind used solely or principally for the manufacture or repair of masks and reticles, assembling semiconductor devices or electronic integrated circuits, or for lifting, handling, loading or unloading items of heading 8486",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "350300",
+      "description": "Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    }
+  ]
+}

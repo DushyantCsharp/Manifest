@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "7002d82f2d75b9b567074ddd434b0ac6780f0ffc8e72c640135f3e7294f18312",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: POLARIZED SUNGLASSES\nCountry of origin: IT\n\nChoose the chapter that covers these goods. Options:\n- 90: Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories\n    contains 900410: Sunglasses; corrective, protective or other\n    contains 900490: Spectacles, goggles and the like; (other than sunglasses) corrective, protective or other\n    contains 900120: Optical elements; polarising material, sheets and plates thereof\n    contains 900140: Lenses, spectacle; unmounted, of glass, excluding elements of glass not optically worked\n    contains 900311: Frames and mountings; for spectacles, goggles or the like, of plastics\n    contains 900150: Lenses, spectacle; unmounted, of materials other than glass\n    contains 900319: Frames and mountings; for spectacles, goggles or the like, of materials other than plastics\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n- 49: Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans\n    contains 490600: Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies\n- 70: Glass and glassware\n    contains 700711: Glass; safety glass, toughened (tempered), of size and shape suitable for incorporation in vehicles, aircraft, spacecraft or vessels\n    contains 701590: Glasses; clock or watch and similar, glasses for non-corrective spectacles, curved, bent, hollowed etc, (not optically worked), hollow glass spheres and segments, for the manufacture of such glasses\n    contains 701510: Glasses for corrective spectacles; curved, bent, hollowed or the like, not optically worked\n- 97: Works of art; collectors' pieces and antiques\n    contains 970210: Engravings, prints and lithographs; original of an age exceeding 100 years\n    contains 970290: Engravings, prints and lithographs; original of an age not exceeding 100 years\n    contains 970310: Sculptures and statuary; original, in any material, of an age exceeding 100 years\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "4516e39d12379011fddfe67dc648b7a6f23ef8aa11045ecc0e4986a3615b213e",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "90",
+      "cited": [
+        "900410"
+      ],
+      "confidence": "0.97",
+      "reason": "Polarized sunglasses are classified in heading 9004 (sunglasses) within Chapter 90, specifically subheading 900410."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1937,
+    "latency_ms": 2744,
+    "output_tokens": 77,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

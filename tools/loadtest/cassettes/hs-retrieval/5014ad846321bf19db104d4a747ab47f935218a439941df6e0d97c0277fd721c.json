@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "5014ad846321bf19db104d4a747ab47f935218a439941df6e0d97c0277fd721c",
+  "retriever": "hybrid",
+  "query": "A4 copy paper 80gsm, ream origin BR",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "480990",
+      "description": "Paper; carbon paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 1,
+        "vector": 2
+      }
+    },
+    {
+      "code": "480920",
+      "description": "Paper; self-copy paper, whether or not printed, in rolls or sheets",
+      "score": "0.032266",
+      "ranks": {
+        "lexical": 3,
+        "vector": 1
+      }
+    },
+    {
+      "code": "481620",
+      "description": "Paper; self-copy paper (other than those of heading no. 4809), whether or not put up in boxes",
+      "score": "0.031498",
+      "ranks": {
+        "lexical": 4,
+        "vector": 3
+      }
+    },
+    {
+      "code": "481690",
+      "description": "Paper; carbon paper and other copying or transfer papers (other than those of heading no. 4809), n.e.c. in item no. 4816.20",
+      "score": "0.031281",
+      "ranks": {
+        "lexical": 2,
+        "vector": 6
+      }
+    },
+    {
+      "code": "480220",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); of a kind used as a base for photo-sensitive, heat-sensitive or electro-sensitive paper or paperboard, in rolls or sheets",
+      "score": "0.029211",
+      "ranks": {
+        "lexical": 7,
+        "vector": 10
+      }
+    },
+    {
+      "code": "482320",
+      "description": "Paper and paperboard; filter paper and paperboard",
+      "score": "0.027206",
+      "ranks": {
+        "lexical": 8,
+        "vector": 20
+      }
+    },
+    {
+      "code": "480254",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing less than 40g/m2, in rolls or sheets",
+      "score": "0.026378",
+      "ranks": {
+        "lexical": 33,
+        "vector": 4
+      }
+    },
+    {
+      "code": "480258",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing more than 150g/m2",
+      "score": "0.025694",
+      "ranks": {
+        "lexical": 37,
+        "vector": 5
+      }
+    },
+    {
+      "code": "480255",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weighing 40g/m2 to 150g/m2, in rolls",
+      "score": "0.025564",
+      "ranks": {
+        "lexical": 34,
+        "vector": 7
+      }
+    },
+    {
+      "code": "480257",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weight 40-150g/m2, n.e.c. in item no. 4802.55 or 4802.56",
+      "score": "0.025123",
+      "ranks": {
+        "lexical": 36,
+        "vector": 8
+      }
+    },
+    {
+      "code": "480256",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); printing, writing or graphic, 10% or less by weight of mechanical or chemi-mechanical processed fibre, weight 40-150g/m2, in sheets 435mm or less by 297mm or less (unfolded)",
+      "score": "0.025019",
+      "ranks": {
+        "lexical": 35,
+        "vector": 9
+      }
+    },
+    {
+      "code": "480240",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); wallpaper base, in rolls or sheets",
+      "score": "0.024568",
+      "ranks": {
+        "lexical": 32,
+        "vector": 13
+      }
+    },
+    {
+      "code": "482361",
+      "description": "Paper and paperboard; trays, dishes, plates, cups and the like, of bamboo paper or paperboard",
+      "score": "0.024201",
+      "ranks": {
+        "lexical": 9,
+        "vector": 43
+      }
+    },
+    {
+      "code": "482390",
+      "description": "Paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres; articles n.e.c. in heading no. 4823",
+      "score": "0.024093",
+      "ranks": {
+        "lexical": 12,
+        "vector": 38
+      }
+    },
+    {
+      "code": "480210",
+      "description": "Hand-made paper or paperboard",
+      "score": "0.023976",
+      "ranks": {
+        "lexical": 31,
+        "vector": 17
+      }
+    },
+    {
+      "code": "480261",
+      "description": "Uncoated paper and paperboard (not 4801 or 4803); over 10% by weight of mechanical or chemi-mechanical processed fibre, in rolls",
+      "score": "0.023718",
+      "ranks": {
+        "lexical": 38,
+        "vector": 14
+      }
+    },
+    {
+      "code": "482370",
+      "description": "Paper pulp; moulded or pressed articles or paper pulp",
+      "score": "0.023608",
+      "ranks": {
+        "lexical": 11,
+        "vector": 45
+      }
+    },
+    {
+      "code": "481890",
+      "description": "Paper articles; articles of paper, cellulose wadding or fibres, n.e.c. in heading no. 4818",
+      "score": "0.023253",
+      "ranks": {
+        "lexical": 20,
+        "vector": 33
+      }
+    },
+    {
+      "code": "480540",
+      "description": "Paper and paperboard; filter paper and paperboard, uncoated, in rolls or sheets",
+      "score": "0.023148",
+      "ranks": {
+        "lexical": 48,
+        "vector": 12
+      }
+    },
+    {
+      "code": "481850",
+      "description": "Paper articles; apparel and clothing accessories of paper, cellulose wadding or fibres",
+      "score": "0.022274",
+      "ranks": {
+        "lexical": 19,
+        "vector": 44
+      }
+    }
+  ]
+}

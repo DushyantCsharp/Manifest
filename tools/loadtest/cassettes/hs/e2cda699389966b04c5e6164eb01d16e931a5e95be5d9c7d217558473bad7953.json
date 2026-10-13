@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "e2cda699389966b04c5e6164eb01d16e931a5e95be5d9c7d217558473bad7953",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:38+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Stainless steel saucepan 20cm\nCountry of origin: IN\n\nChosen so far: 73 Iron or steel articles\n\nChoose the heading that covers these goods. Options:\n- 7323: Table, kitchen, other household articles and parts, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel\n    contains 732393: Steel, stainless; table, kitchen and other household articles and parts thereof\n    contains 732399: Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323\n    contains 732392: Cast iron; table, kitchen and other household articles and parts thereof, of cast iron, enamelled\n- 7324: Sanitary ware and parts thereof, of iron or steel\n    contains 732410: Steel; sinks and wash basins, of stainless steel\n- 7307: Tube or pipe fittings (e.g. couplings, elbows, sleeves), of iron or steel\n    contains 730721: Steel, stainless; tube or pipe fittings, flanges, of stainless steel\n- 7314: Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel\n    contains 731412: Iron or steel; woven cloth, endless bands for machinery, of stainless steel\n    contains 731414: Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "83cb214f551f38f6ec9485548d5ac87f0d497b01fddd61d6328fad1be9882b8c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "7323",
+      "cited": [
+        "7323",
+        "732393"
+      ],
+      "confidence": "0.98",
+      "reason": "A stainless steel saucepan is a kitchen/household article of steel, covered by heading 7323 (subheading 732393 for stainless steel)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1254,
+    "latency_ms": 2949,
+    "output_tokens": 85,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

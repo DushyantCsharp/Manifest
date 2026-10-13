@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "e42b7af3acc85922f0f0a8ac1ab4977eb5bbbbe97e6e70edda98bfb2cf61a4ba",
+  "retriever": "hybrid",
+  "query": "Red wine, 0.75L bottle origin IT",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "220421",
+      "description": "Wine; still, in containers holding 2 litres or less",
+      "score": "0.031319",
+      "ranks": {
+        "lexical": 7,
+        "vector": 1
+      }
+    },
+    {
+      "code": "220422",
+      "description": "Wine; still, in containers holding more than 2 litres but not more than 10 litres",
+      "score": "0.030835",
+      "ranks": {
+        "lexical": 8,
+        "vector": 2
+      }
+    },
+    {
+      "code": "220410",
+      "description": "Wine; sparkling",
+      "score": "0.030536",
+      "ranks": {
+        "lexical": 6,
+        "vector": 5
+      }
+    },
+    {
+      "code": "220429",
+      "description": "Wine; still, in containers holding more than 10 litres",
+      "score": "0.030366",
+      "ranks": {
+        "lexical": 9,
+        "vector": 3
+      }
+    },
+    {
+      "code": "220510",
+      "description": "Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding 2 litres or less",
+      "score": "0.029710",
+      "ranks": {
+        "lexical": 11,
+        "vector": 4
+      }
+    },
+    {
+      "code": "220590",
+      "description": "Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, in containers holding more than 2 litres",
+      "score": "0.029040",
+      "ranks": {
+        "lexical": 12,
+        "vector": 6
+      }
+    },
+    {
+      "code": "230700",
+      "description": "Wine lees; argol",
+      "score": "0.028191",
+      "ranks": {
+        "lexical": 13,
+        "vector": 9
+      }
+    },
+    {
+      "code": "843510",
+      "description": "Presses, crushers and similar machinery; used in the manufacture of wine, cider, fruit juices or similar beverages",
+      "score": "0.026481",
+      "ranks": {
+        "lexical": 22,
+        "vector": 10
+      }
+    },
+    {
+      "code": "843590",
+      "description": "Presses, crushers and similar machinery; parts, used in the manufacture of wine, cider, fruit juices or similar beverages",
+      "score": "0.025937",
+      "ranks": {
+        "lexical": 23,
+        "vector": 12
+      }
+    },
+    {
+      "code": "220820",
+      "description": "Spirits obtained by distilling grape wine or grape marc",
+      "score": "0.025123",
+      "ranks": {
+        "lexical": 36,
+        "vector": 8
+      }
+    },
+    {
+      "code": "220430",
+      "description": "Grape must; n.e.c. in heading no. 2009, n.e.c. in item no. 2204.2",
+      "score": "0.024826",
+      "ranks": {
+        "lexical": 41,
+        "vector": 7
+      }
+    },
+    {
+      "code": "701090",
+      "description": "Glass; carboys, bottles, flasks, jars, pots, phials and other containers of glass, (not ampoules), used for the conveyance or packing of goods",
+      "score": "0.023528",
+      "ranks": {
+        "lexical": 19,
+        "vector": 32
+      }
+    },
+    {
+      "code": "701010",
+      "description": "Glass; ampoules, of a kind used for the conveyance or packing of goods",
+      "score": "0.020974",
+      "ranks": {
+        "lexical": 47,
+        "vector": 26
+      }
+    },
+    {
+      "code": "081030",
+      "description": "Fruit, edible; black, white or red currants and gooseberries, fresh",
+      "score": "0.019813",
+      "ranks": {
+        "lexical": 34,
+        "vector": 49
+      }
+    },
+    {
+      "code": "701020",
+      "description": "Glass; stoppers, lids and other closures",
+      "score": "0.018519",
+      "ranks": {
+        "lexical": 48,
+        "vector": 48
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "440341",
+      "description": "Wood, tropical; as specified in Subheading Note 2 to this Chapter, dark red meranti, light red meranti and meranti bakau, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "440349",
+      "description": "Wood, tropical; other than dark red meranti, light red meranti meranti bakau and teak, in the rough, whether or not stripped of bark or sapwood, or roughly squared, untreated",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "440725",
+      "description": "Wood, tropical; dark red meranti, light red meranti and meranti bakau, sawn or chipped lengthwise, sliced or peeled, whether or not planed, sanded or finger-jointed, thicker than 6mm",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "440831",
+      "description": "Wood, tropical; as specified in Subheading Note 2 to this Chapter, dark red meranti, light red meranti, meranti bakau, sheets for veneer, plywood or other wood, sawn lengthwise, sliced or peeled, planed or not, sanded or end-jointed, not thicker than 6mm",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    }
+  ]
+}

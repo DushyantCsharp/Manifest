@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "5d15f1059f342f723689548742435a780af0fbd5f242416f6f4bc110a5a9ffb6",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:23+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: RUBBER FLIP-FLOPS, THONG PLUGGED INTO THE SOLE\nCountry of origin: CN\n\nChosen so far: 64 Footwear; gaiters and the like; parts of such articles\n\nChoose the heading that covers these goods. Options:\n- 6402: Footwear; with outer soles and uppers of rubber or plastics (excluding waterproof footwear)\n    contains 640220: Footwear; with outer soles and uppers of rubber or plastics, upper straps or thongs assembled to the sole by plugs\n    contains 640291: Footwear; n.e.c. in heading no. 6402, covering the ankle, with outer soles and uppers of rubber or plastics\n    contains 640299: Footwear; n.e.c. in heading no. 6402, (other than just covering the ankle), with outer soles and uppers of rubber or plastics\n    contains 640219: Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles and uppers of rubber or plastics\n    contains 640212: Sports footwear; with outer soles and uppers of rubber or plastics, ski-boots, cross-country ski footwear and snowboard boots\n- 6401: Footwear; waterproof, with outer soles and uppers of rubber or plastics, (uppers not fixed to the sole nor assembled by stitch, rivet, nail, screw, plug or similar)\n    contains 640192: Footwear; waterproof, covering the ankle (but not the knee), rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)\n    contains 640110: Footwear; waterproof with metal toe-cap, rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)\n    contains 640199: Footwear; waterproof, n.e.c. in heading no. 6401, rubber or plastic outer soles and uppers (not assembled by stitch, rivet, nail, screw, plug or similar)\n- 6403: Footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of leather\n    contains 640391: Footwear; n.e.c. in heading no. 6403, covering the ankle, outer soles of rubber, plastics or composition leather, uppers of leather\n    contains 640399: Footwear; n.e.c. in heading no. 6403, (not covering the ankle), outer soles of rubber, plastics or composition leather, uppers of leather\n    contains 640340: Footwear; with metal toe-cap, outer soles of rubber, plastics, leather or composition leather, uppers of leather\n    contains 640319: Sports footwear; (other than ski-boots, snowboard boots or cross-country ski footwear), with outer soles of rubber, plastics, leather or composition leather and uppers of leather\n- 6404: Footwear; with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials\n    contains 640419: Footwear; (other than sportswear), with outer soles of rubber or plastics and uppers of textile materials\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ea0a72be8ee8a8415539bd882d58ccb36104f0adc3a15729bcf73cb0553775c4",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6402",
+      "cited": [
+        "6402",
+        "640220"
+      ],
+      "confidence": "0.95",
+      "reason": "Rubber flip-flops with thongs plugged into the sole have rubber outer soles and uppers and are assembled by plugs, so they fall in 6402 (subheading 640220) rather than waterproof 6401, which excludes plug-assembled footwear."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1796,
+    "latency_ms": 2349,
+    "output_tokens": 121,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

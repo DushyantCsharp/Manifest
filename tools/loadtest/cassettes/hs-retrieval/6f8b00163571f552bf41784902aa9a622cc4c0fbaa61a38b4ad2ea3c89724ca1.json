@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "6f8b00163571f552bf41784902aa9a622cc4c0fbaa61a38b4ad2ea3c89724ca1",
+  "retriever": "hybrid",
+  "query": "LDPE film-grade granules origin KR",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "392030",
+      "description": "Plastics; of polymers of styrene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "score": "0.023901",
+      "ranks": {
+        "lexical": 44,
+        "vector": 10
+      }
+    },
+    {
+      "code": "392010",
+      "description": "Plastics; plates, sheets, film, foil and strip (not self-adhesive), of polymers of ethylene, non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "score": "0.023888",
+      "ranks": {
+        "lexical": 42,
+        "vector": 11
+      }
+    },
+    {
+      "code": "392020",
+      "description": "Plastics; of polymers of propylene, plates, sheets, film, foil and strip (not self-adhesive), non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "score": "0.022696",
+      "ranks": {
+        "lexical": 43,
+        "vector": 17
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "390230",
+      "description": "Propylene, other olefin polymers; propylene copolymers in primary forms",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": null,
+        "vector": 1
+      }
+    },
+    {
+      "code": "370120",
+      "description": "Photographic plates and film; instant print film, in the flat, sensitised, unexposed, whether or not in packs",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": 2,
+        "vector": null
+      }
+    },
+    {
+      "code": "390290",
+      "description": "Propylene, other olefin polymers; n.e.c. in heading no. 3902, in primary forms",
+      "score": "0.016129",
+      "ranks": {
+        "lexical": null,
+        "vector": 2
+      }
+    },
+    {
+      "code": "370254",
+      "description": "Photographic film; for colour photography (polychrome), in rolls, sensitised, unexposed, of a width exceeding 16mm but not 35mm and of a length not exceeding 30m, excluding film for slides (other than of paper, paperboard or textiles)",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": 3,
+        "vector": null
+      }
+    },
+    {
+      "code": "390210",
+      "description": "Propylene, other olefin polymers; polypropylene in primary forms",
+      "score": "0.015873",
+      "ranks": {
+        "lexical": null,
+        "vector": 3
+      }
+    },
+    {
+      "code": "370500",
+      "description": "Photographic plates and film; exposed and developed, other than cinematographic film",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "392111",
+      "description": "Plastics; plates, sheets, film, foil and strip, of polymers of styrene, cellular",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "390110",
+      "description": "Ethylene polymers; in primary forms, polyethylene having a specific gravity of less than 0.94",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "810430",
+      "description": "Magnesium; raspings, turnings and granules, graded according to size, powders",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "390140",
+      "description": "Ethylene polymers; in primary forms, ethylene-alpha-olefin copolymers, having a specific gravity of less than 0.94",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "901010",
+      "description": "Photographic laboratory apparatus and equipment; for automatically developing photographic (including cinematographic) film or paper in rolls or for automatically exposing developed film to rolls of paper",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": 6,
+        "vector": null
+      }
+    },
+    {
+      "code": "370110",
+      "description": "Photographic plates and film; for x-ray, in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": 7,
+        "vector": null
+      }
+    },
+    {
+      "code": "391110",
+      "description": "Petroleum resins, coumarone, indene or coumarone-indene resins and polyterpenes; in primary forms",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "370130",
+      "description": "Photographic plates and film; in the flat, sensitised, unexposed, with any side exceeding 225mm, of any materials other than paper, paperboard or textiles",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": 8,
+        "vector": null
+      }
+    },
+    {
+      "code": "390319",
+      "description": "Styrene polymers; (other than expansible polystyrene), in primary forms",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "370191",
+      "description": "Photographic plates and film; for colour photography (polychrome), in the flat, sensitised, unexposed, with no side exceeding 255mm, of any material other than paper, paperboard or textiles",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    }
+  ]
+}

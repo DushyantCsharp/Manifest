@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "1eb7df170f39cc9fded833df24e53cd6528163cea083bfb596bf7979d19f2e32",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:26+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: FROZEN VANNAMEI SHRIMP, PEELED\nCountry of origin: IN\n\nChosen so far: 03 Fish and crustaceans, molluscs and other aquatic invertebrates > 0306 Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine\n\nChoose the subheading that covers these goods. Options:\n- 030616: Crustaceans; frozen, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n- 030617: Crustaceans; frozen, shrimps and prawns, excluding cold-water varieties, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n- 030614: Crustaceans; frozen, crabs, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n- 030635: Crustaceans; live, fresh or chilled, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not\n- 030619: Crustaceans; frozen, n.e.c. in item no. 0306.1, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n- 030615: Crustaceans; frozen, Norway lobsters (Nephrops norvegicus), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n- 030611: Crustaceans; frozen, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n- 030612: Crustaceans; frozen, lobsters (Homarus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n- 030636: Crustaceans; live, fresh or chilled, shrimps and prawns excluding cold-water varieties, in shell or not\n- 030695: Crustaceans; shrimps and prawns, smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking\n- 030633: Crustaceans; live, fresh or chilled, crabs, whether in shell or not\n- 030639: Crustaceans; live, fresh or chilled, n.e.c. in item no. 0306.3, in shell or not\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "98c9112c779e65205e8fa587cd3d6541f70a4868ed9431ce705cb53a297b28af",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "030617",
+      "cited": [
+        "030617"
+      ],
+      "confidence": "0.93",
+      "reason": "Vannamei (Litopenaeus vannamei) is a warm-water shrimp, not Pandalus or Crangon, and the goods are frozen, so the frozen non-cold-water shrimps and prawns subheading applies, with or without shell."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1748,
+    "latency_ms": 5122,
+    "output_tokens": 115,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

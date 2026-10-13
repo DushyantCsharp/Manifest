@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "9cff0ace2409129283c6e055c63f39d1a4448e528177d7dff8c0e42a9f674ac2",
+  "retriever": "hybrid",
+  "query": "LED TELEVISION 55IN 4K origin MX",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "852872",
+      "description": "Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a colour video display or screen",
+      "score": "0.030478",
+      "ranks": {
+        "lexical": 11,
+        "vector": 1
+      }
+    },
+    {
+      "code": "853952",
+      "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps",
+      "score": "0.029762",
+      "ranks": {
+        "lexical": 3,
+        "vector": 12
+      }
+    },
+    {
+      "code": "853951",
+      "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) modules",
+      "score": "0.029287",
+      "ranks": {
+        "lexical": 2,
+        "vector": 16
+      }
+    },
+    {
+      "code": "852873",
+      "description": "Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; incorporating a monochrome video display or screen",
+      "score": "0.028595",
+      "ranks": {
+        "lexical": 12,
+        "vector": 8
+      }
+    },
+    {
+      "code": "852871",
+      "description": "Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; not designed to incorporate a video display or screen",
+      "score": "0.027984",
+      "ranks": {
+        "lexical": 10,
+        "vector": 13
+      }
+    },
+    {
+      "code": "852849",
+      "description": "Monitors; cathode-ray tube, n.e.c. in subheading 8528.42, whether or not colour",
+      "score": "0.026999",
+      "ranks": {
+        "lexical": 32,
+        "vector": 2
+      }
+    },
+    {
+      "code": "852859",
+      "description": "Monitors other than cathode-ray tube; n.e.c. in subheading 8528.52, whether or not colour",
+      "score": "0.026511",
+      "ranks": {
+        "lexical": 34,
+        "vector": 3
+      }
+    },
+    {
+      "code": "854141",
+      "description": "Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)",
+      "score": "0.026501",
+      "ranks": {
+        "lexical": 14,
+        "vector": 17
+      }
+    },
+    {
+      "code": "854011",
+      "description": "Tubes; cathode-ray television picture tubes, including video monitor cathode-ray tubes, colour",
+      "score": "0.026491",
+      "ranks": {
+        "lexical": 16,
+        "vector": 15
+      }
+    },
+    {
+      "code": "852581",
+      "description": "Television cameras, digital cameras and video camera recorders; high-speed goods as specified in subheading note 1 to this chapter",
+      "score": "0.025790",
+      "ranks": {
+        "lexical": 6,
+        "vector": 34
+      }
+    },
+    {
+      "code": "852869",
+      "description": "Projectors; n.e.c. in subheading 8528.62, whether or not colour",
+      "score": "0.024909",
+      "ranks": {
+        "lexical": 36,
+        "vector": 9
+      }
+    },
+    {
+      "code": "853120",
+      "description": "Signalling apparatus; electric, sound or visual, indicator panels incorporating liquid crystal devices (LCD) or light-emitting diodes (LED), excluding those of heading no. 8512 or 8530",
+      "score": "0.024877",
+      "ranks": {
+        "lexical": 28,
+        "vector": 14
+      }
+    },
+    {
+      "code": "854012",
+      "description": "Tubes; cathode-ray television picture tubes, including video monitor cathode-ray tubes, monochrome",
+      "score": "0.024351",
+      "ranks": {
+        "lexical": 17,
+        "vector": 28
+      }
+    },
+    {
+      "code": "852842",
+      "description": "Monitors; cathode-ray tube, capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71",
+      "score": "0.023810",
+      "ranks": {
+        "lexical": 31,
+        "vector": 18
+      }
+    },
+    {
+      "code": "852852",
+      "description": "Monitors; other than cathode-ray tube; capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71",
+      "score": "0.023098",
+      "ranks": {
+        "lexical": 33,
+        "vector": 21
+      }
+    },
+    {
+      "code": "940511",
+      "description": "Luminaires and light fittings; chandeliers and electric ceiling or wall light fittings; (excluding those used for lighting public open spaces or thoroughfares), for use solely with light-emitting diode (LED) light sources",
+      "score": "0.020457",
+      "ranks": {
+        "lexical": 47,
+        "vector": 30
+      }
+    },
+    {
+      "code": "852862",
+      "description": "Projectors; capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71",
+      "score": "0.020427",
+      "ranks": {
+        "lexical": 35,
+        "vector": 41
+      }
+    },
+    {
+      "code": "854159",
+      "description": "Electrical apparatus; photosensitive semiconductor devices n.e.c. in heading no. 8541",
+      "score": "0.020032",
+      "ranks": {
+        "lexical": 44,
+        "vector": 36
+      }
+    },
+    {
+      "code": "854151",
+      "description": "Electrical apparatus; photosensitive semiconductor devices, semiconductor-based transducers",
+      "score": "0.019810",
+      "ranks": {
+        "lexical": 43,
+        "vector": 39
+      }
+    },
+    {
+      "code": "940521",
+      "description": "Luminaires and light fittings; electric, table, desk, bedside or floor-standing, for use solely with light-emitting diode (LED) light sources",
+      "score": "0.019174",
+      "ranks": {
+        "lexical": 49,
+        "vector": 40
+      }
+    }
+  ]
+}

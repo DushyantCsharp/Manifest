@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "305d4473728e302aa35effdfdff45aa0951264457a21a4769680e51e20399982",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:20+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: FROZEN VANNAMEI SHRIMP, PEELED\nCountry of origin: IN\n\nChosen so far: 03 Fish and crustaceans, molluscs and other aquatic invertebrates\n\nChoose the heading that covers these goods. Options:\n- 0306: Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine\n    contains 030616: Crustaceans; frozen, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030617: Crustaceans; frozen, shrimps and prawns, excluding cold-water varieties, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030614: Crustaceans; frozen, crabs, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030635: Crustaceans; live, fresh or chilled, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not\n    contains 030619: Crustaceans; frozen, n.e.c. in item no. 0306.1, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030615: Crustaceans; frozen, Norway lobsters (Nephrops norvegicus), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030611: Crustaceans; frozen, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030612: Crustaceans; frozen, lobsters (Homarus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water\n    contains 030636: Crustaceans; live, fresh or chilled, shrimps and prawns excluding cold-water varieties, in shell or not\n    contains 030695: Crustaceans; shrimps and prawns, smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking\n    contains 030633: Crustaceans; live, fresh or chilled, crabs, whether in shell or not\n    contains 030639: Crustaceans; live, fresh or chilled, n.e.c. in item no. 0306.3, in shell or not\n- 0307: Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process\n    contains 030722: Molluscs; scallops and other molluscs of the family Pectinidae, whether in shell or not, frozen\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "d1251f84c217ea656924537fd2caccf1aaf1c3a3ded8d183d9d43eda3bd15162",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "0306",
+      "cited": [
+        "0306",
+        "030617"
+      ],
+      "confidence": "0.99",
+      "reason": "Frozen peeled vannamei shrimp are crustaceans, covered by heading 0306 (subheading 030617 for non-cold-water shrimps and prawns), not molluscs."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1831,
+    "latency_ms": 4264,
+    "output_tokens": 98,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

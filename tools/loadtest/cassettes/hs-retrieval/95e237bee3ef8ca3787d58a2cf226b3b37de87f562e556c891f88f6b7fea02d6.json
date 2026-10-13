@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "95e237bee3ef8ca3787d58a2cf226b3b37de87f562e556c891f88f6b7fea02d6",
+  "retriever": "hybrid",
+  "query": "Roasted coffee beans, whole origin IT",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "210130",
+      "description": "Chicory, roasted and other roasted coffee substitutes; extracts, essences and concentrates thereof",
+      "score": "0.032018",
+      "ranks": {
+        "lexical": 1,
+        "vector": 4
+      }
+    },
+    {
+      "code": "090111",
+      "description": "Coffee; not roasted or decaffeinated",
+      "score": "0.031514",
+      "ranks": {
+        "lexical": 5,
+        "vector": 2
+      }
+    },
+    {
+      "code": "090121",
+      "description": "Coffee; roasted, not decaffeinated",
+      "score": "0.031319",
+      "ranks": {
+        "lexical": 7,
+        "vector": 1
+      }
+    },
+    {
+      "code": "090190",
+      "description": "Coffee; husks and skins, coffee substitutes containing coffee in any proportion",
+      "score": "0.031054",
+      "ranks": {
+        "lexical": 2,
+        "vector": 7
+      }
+    },
+    {
+      "code": "210111",
+      "description": "Extracts, essences and concentrates; of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.030777",
+      "ranks": {
+        "lexical": 4,
+        "vector": 6
+      }
+    },
+    {
+      "code": "090122",
+      "description": "Coffee; roasted, decaffeinated",
+      "score": "0.030579",
+      "ranks": {
+        "lexical": 8,
+        "vector": 3
+      }
+    },
+    {
+      "code": "090112",
+      "description": "Coffee; decaffeinated, not roasted",
+      "score": "0.030536",
+      "ranks": {
+        "lexical": 6,
+        "vector": 5
+      }
+    },
+    {
+      "code": "180100",
+      "description": "Cocoa beans; whole or broken, raw or roasted",
+      "score": "0.030366",
+      "ranks": {
+        "lexical": 3,
+        "vector": 9
+      }
+    },
+    {
+      "code": "210112",
+      "description": "Preparations with a basis of extracts, essences or concentrates or with a basis of coffee",
+      "score": "0.029199",
+      "ranks": {
+        "lexical": 9,
+        "vector": 8
+      }
+    },
+    {
+      "code": "210120",
+      "description": "Extracts, essences and concentrates; of tea or mate, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or mate",
+      "score": "0.027799",
+      "ranks": {
+        "lexical": 14,
+        "vector": 10
+      }
+    },
+    {
+      "code": "090710",
+      "description": "Spices; cloves (whole fruit, cloves and stems), neither crushed nor ground",
+      "score": "0.026686",
+      "ranks": {
+        "lexical": 17,
+        "vector": 13
+      }
+    },
+    {
+      "code": "090720",
+      "description": "Spices; cloves (whole fruit, cloves and stems), crushed or ground",
+      "score": "0.024725",
+      "ranks": {
+        "lexical": 18,
+        "vector": 24
+      }
+    },
+    {
+      "code": "121292",
+      "description": "Locust beans (carob); fit for human consumption, fresh, chilled, frozen or dried, whether or not ground",
+      "score": "0.022403",
+      "ranks": {
+        "lexical": 34,
+        "vector": 25
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "071333",
+      "description": "Vegetables, leguminous; kidney beans, including white pea beans (phaseolus vulgaris), shelled, whether or not skinned or split, dried",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "090411",
+      "description": "Spices; pepper (of the genus piper), neither crushed nor ground",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "071350",
+      "description": "Vegetables, leguminous; broad beans (vicia faba var. major) and horse beans (vicia faba var. equina, vicia faba var. minor), shelled, whether or not skinned or split, dried",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": 12,
+        "vector": null
+      }
+    },
+    {
+      "code": "090831",
+      "description": "Spices; cardamoms, neither crushed nor ground",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": null,
+        "vector": 12
+      }
+    },
+    {
+      "code": "130232",
+      "description": "Mucilages and thickeners; whether or not modified, derived from locust beans, locust bean seeds or guar seeds",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13,
+        "vector": null
+      }
+    },
+    {
+      "code": "090421",
+      "description": "Spices; fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": null,
+        "vector": 14
+      }
+    }
+  ]
+}

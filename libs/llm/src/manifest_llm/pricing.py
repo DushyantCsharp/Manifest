@@ -7,9 +7,11 @@ table and the date when prices change; an unknown model has no price rather than
 """
 
 from dataclasses import dataclass
+from datetime import date
 from decimal import Decimal
 
 MILLION = Decimal(1_000_000)
+CHECKED = date(2026, 10, 13)  # when the table below was last checked against the price sheets
 
 
 @dataclass(frozen=True)

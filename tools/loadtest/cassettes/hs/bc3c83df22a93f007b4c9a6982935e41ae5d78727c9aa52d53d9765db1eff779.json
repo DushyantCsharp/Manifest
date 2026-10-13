@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "bc3c83df22a93f007b4c9a6982935e41ae5d78727c9aa52d53d9765db1eff779",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:11+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Roasted coffee beans, whole\nCountry of origin: IT\n\nChosen so far: 09 Coffee, tea, mate and spices > 0901 Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion\n\nChoose the subheading that covers these goods. Options:\n- 090111: Coffee; not roasted or decaffeinated\n- 090121: Coffee; roasted, not decaffeinated\n- 090190: Coffee; husks and skins, coffee substitutes containing coffee in any proportion\n- 090122: Coffee; roasted, decaffeinated\n- 090112: Coffee; decaffeinated, not roasted\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "ac7323e24edcac5f1bc4a26da85a7a1b1e434687b29f4bfb29cb7ac5005d9f00",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "090121",
+      "cited": [
+        "090121"
+      ],
+      "confidence": "0.93",
+      "reason": "Roasted whole coffee beans with no mention of decaffeination fall under roasted, not decaffeinated coffee (090121)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 987,
+    "latency_ms": 1895,
+    "output_tokens": 77,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

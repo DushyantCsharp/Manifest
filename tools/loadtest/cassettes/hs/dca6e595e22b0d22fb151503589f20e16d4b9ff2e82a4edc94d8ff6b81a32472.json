@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "dca6e595e22b0d22fb151503589f20e16d4b9ff2e82a4edc94d8ff6b81a32472",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:25+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Plastic storage box 30L with lid\nCountry of origin: VN\n\nChosen so far: 39 Plastics and articles thereof\n\nChoose the heading that covers these goods. Options:\n- 3923: Plastic articles for the conveyance or packing of goods; stoppers, lids, caps and other closures of plastics\n    contains 392310: Plastics; boxes, cases, crates and similar articles for the conveyance or packing of goods\n    contains 392350: Plastics; stoppers, lids, caps and other closures, for the conveyance or packing of goods\n    contains 392329: Plastics; sacks and bags (including cones), for the conveyance or packing of goods, of plastics other than ethylene polymers\n    contains 392330: Plastics; carboys, bottles, flasks and similar articles, for the conveyance or packing of goods\n    contains 392390: Plastics; articles for the conveyance or packing of goods n.e.c. in heading no. 3923\n    contains 392340: Plastics; spools, cops, bobbins and similar supports, for the conveyance or packing of goods\n    contains 392321: Ethylene polymers; sacks and bags (including cones), for the conveyance or packing of goods\n- 3925: Plastics; builders' wares n.e.c. or included\n    contains 392510: Plastics; builders' ware, reservoirs, tanks, vats and similar containers of a capacity exceeding 300 litres\n- 3916: Monofilament of which any cross-sectional dimension exceeds 1mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked, of plastics\n    contains 391690: Plastics; monofilament, of plastics n.e.c. in heading no. 3916, cross-sectional dimension exceeds 1mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked\n- 3917: Tubes, pipes and hoses and fittings thereof (for example, joints, elbows, flanges), of plastics\n    contains 391729: Plastics; tubes, pipes and hoses thereof, rigid, of plastics n.e.c. in heading no. 3917\n- 3920: Plastics; plates, sheets, film, foil and strip (not self-adhesive); non-cellular and not reinforced, laminated, supported or similarly combined with other materials, n.e.c. in chapter 39\n    contains 392099: Plastics; plates, sheets, film, foil and strip (not self-adhesive), of plastics n.e.c. in heading no. 3920, non-cellular and not reinforced, laminated, supported or similarly combined with other materials\n- 3921: Plastic plates, sheets, film, foil and strip n.e.c. in chapter 39\n    contains 392119: Plastics; plates, sheets, film, foil and strip, of plastics n.e.c. in heading no. 3921, cellular\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "8eba1d4b6ad303e728d66fa9c7c900cfc05d0deef4afbca76d739454837cb371",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "3923",
+      "cited": [
+        "3923",
+        "392310"
+      ],
+      "confidence": "0.93",
+      "reason": "A plastic storage box with lid is a box/case article for conveyance or packing of goods, covered by heading 3923 (subheading 392310), rather than builders' ware (3925), which would require a fixed-installation use or a capacity over 300 L."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1721,
+    "latency_ms": 3653,
+    "output_tokens": 116,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

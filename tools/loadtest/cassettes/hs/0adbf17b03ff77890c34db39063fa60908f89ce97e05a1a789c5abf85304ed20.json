@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "0adbf17b03ff77890c34db39063fa60908f89ce97e05a1a789c5abf85304ed20",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:00+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Solar PV module 410W monocrystalline\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles\n    contains 854143: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells assembled in modules or made up into panels\n    contains 854142: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells not assembled in modules or made up into panels\n    contains 854149: Electrical apparatus; photosensitive semiconductor devices, diodes other than light emitting diodes and photovoltaic cells whether or not assembled in modules or made up into panels\n    contains 854129: Electrical apparatus; transistors, (other than photosensitive), with a dissipation rate of 1W or more\n    contains 854110: Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)\n    contains 854159: Electrical apparatus; photosensitive semiconductor devices n.e.c. in heading no. 8541\n    contains 854190: Electrical apparatus; parts for diodes, transistors and similar semiconductor devices and photosensitive semiconductor devices\n    contains 854151: Electrical apparatus; photosensitive semiconductor devices, semiconductor-based transducers\n    contains 854121: Electrical apparatus; transistors, (other than photosensitive), with a dissipation rate of less than 1W\n    contains 854160: Crystals; mounted piezo-electric\n    contains 854130: Electrical apparatus; thyristors, diacs and triacs, other than photosensitive devices\n    contains 854141: Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 841912: Heaters; solar water heaters, non-electric\n    contains 840681: Turbines; steam and other vapour turbines, (for other than marine propulsion), of an output exceeding 40MW\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n    contains 320110: Tanning extracts of vegetable origin; quebracho extract\n    contains 320120: Tanning extracts of vegetable origin; wattle extract\n    contains 320190: Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives, (excluding quebracho or wattle extract)\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 35: Albuminoidal substances; modified starches; glues; enzymes\n    contains 350300: Gelatin (including gelatin in rectangular sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading no. 3501\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "fa0ef0b5fb790f000da99040ea2645b218e1cba5d1497111262fcfc2c4deacd5",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "85",
+      "cited": [
+        "85",
+        "854143"
+      ],
+      "confidence": "0.98",
+      "reason": "A monocrystalline PV module is a photosensitive semiconductor device of heading 8541 (subheading 854143, photovoltaic cells assembled in modules), which falls in Chapter 85."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1920,
+    "latency_ms": 3271,
+    "output_tokens": 99,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

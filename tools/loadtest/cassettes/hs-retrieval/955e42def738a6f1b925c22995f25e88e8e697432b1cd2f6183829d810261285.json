@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "955e42def738a6f1b925c22995f25e88e8e697432b1cd2f6183829d810261285",
+  "retriever": "hybrid",
+  "query": "STAINLESS CUTLERY SET, 24 PIECES origin IN",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "821520",
+      "description": "Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter knives, sugar tongs and similar), not plated with precious metal",
+      "score": "0.032266",
+      "ranks": {
+        "lexical": 3,
+        "vector": 1
+      }
+    },
+    {
+      "code": "821510",
+      "description": "Cutlery; sets of assorted articles (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar), with at least one article plated with precious metal",
+      "score": "0.032258",
+      "ranks": {
+        "lexical": 2,
+        "vector": 2
+      }
+    },
+    {
+      "code": "821591",
+      "description": "Cutlery; (e.g. spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar), plated with precious metal, not in sets",
+      "score": "0.031250",
+      "ranks": {
+        "lexical": 4,
+        "vector": 4
+      }
+    },
+    {
+      "code": "821490",
+      "description": "Cutlery; hair clippers and mincing knives",
+      "score": "0.028219",
+      "ranks": {
+        "lexical": 8,
+        "vector": 14
+      }
+    },
+    {
+      "code": "821599",
+      "description": "Cutlery; other than plated with precious metal",
+      "score": "0.028219",
+      "ranks": {
+        "lexical": 21,
+        "vector": 3
+      }
+    },
+    {
+      "code": "821410",
+      "description": "Cutlery; paper knives, letter openers, erasing knives, pencil sharpeners and blades therefore",
+      "score": "0.028139",
+      "ranks": {
+        "lexical": 6,
+        "vector": 17
+      }
+    },
+    {
+      "code": "821420",
+      "description": "Manicure or pedicure sets and instruments; (including nail files)",
+      "score": "0.026690",
+      "ranks": {
+        "lexical": 7,
+        "vector": 25
+      }
+    },
+    {
+      "code": "820600",
+      "description": "Tools, hand; two or more of heading no. 8202 to 8205, put up in sets for retail sale",
+      "score": "0.025833",
+      "ranks": {
+        "lexical": 20,
+        "vector": 15
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "730721",
+      "description": "Steel, stainless; tube or pipe fittings, flanges, of stainless steel",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": 5,
+        "vector": null
+      }
+    },
+    {
+      "code": "820830",
+      "description": "Tools; knives and cutting blades, for kitchen appliances or for machines used by the food industry",
+      "score": "0.015385",
+      "ranks": {
+        "lexical": null,
+        "vector": 5
+      }
+    },
+    {
+      "code": "820810",
+      "description": "Tools; knives and cutting blades, for machines or for mechanical appliances, for metal working",
+      "score": "0.015152",
+      "ranks": {
+        "lexical": null,
+        "vector": 6
+      }
+    },
+    {
+      "code": "821110",
+      "description": "Knives; with cutting blades, serrated or not (including pruning knives), sets of assorted articles, excluding knives and blades of heading no. 8208",
+      "score": "0.014925",
+      "ranks": {
+        "lexical": null,
+        "vector": 7
+      }
+    },
+    {
+      "code": "820890",
+      "description": "Tools; knives and cutting blades, for machines or mechanical appliances, n.e.c. in heading no. 8208",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "820900",
+      "description": "Tools; plates, sticks, tips and the like for tools, unmounted, of sintered metal carbides or cermets",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": null,
+        "vector": 9
+      }
+    },
+    {
+      "code": "854430",
+      "description": "Insulated electric conductors; ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships",
+      "score": "0.014493",
+      "ranks": {
+        "lexical": 9,
+        "vector": null
+      }
+    },
+    {
+      "code": "580810",
+      "description": "Braids; in the piece",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": 10,
+        "vector": null
+      }
+    },
+    {
+      "code": "821191",
+      "description": "Knives; table knives, having fixed cutting blades, serrated or not, excluding knives and blades of heading no. 8208",
+      "score": "0.014286",
+      "ranks": {
+        "lexical": null,
+        "vector": 10
+      }
+    },
+    {
+      "code": "580890",
+      "description": "Ornamental trimmings; tassels, pompons and similar articles; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": 11,
+        "vector": null
+      }
+    },
+    {
+      "code": "732410",
+      "description": "Steel; sinks and wash basins, of stainless steel",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    }
+  ]
+}

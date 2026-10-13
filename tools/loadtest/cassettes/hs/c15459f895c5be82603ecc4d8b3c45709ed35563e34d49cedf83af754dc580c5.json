@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "c15459f895c5be82603ecc4d8b3c45709ed35563e34d49cedf83af754dc580c5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:47:17+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Cashew kernels W320\nCountry of origin: CI\n\nChosen so far: 08 Fruit and nuts, edible; peel of citrus fruit or melons > 0801 Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled\n\nChoose the subheading that covers these goods. Options:\n- 080132: Nuts, edible; cashew nuts, fresh or dried, shelled\n- 080131: Nuts, edible; cashew nuts, fresh or dried, in shell\n- 080112: Nuts, edible; coconuts, in the inner shell (endocarp)\n- 080122: Nuts, edible; brazil nuts, fresh or dried, shelled\n- 080119: Nuts, edible; coconuts, fresh or dried, other than desiccated or in the inner shell (endocarp)\n- 080121: Nuts, edible; brazil nuts, fresh or dried, in shell\n- 080111: Nuts, edible; coconuts, desiccated\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "f578fd03090db3259ba75f1831f32c15154b389aa107333e9e9608af196442fe",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "080132",
+      "cited": [
+        "080132"
+      ],
+      "confidence": "0.98",
+      "reason": "Cashew kernels are shelled cashew nuts, which fall under subheading 080132 (cashew nuts, fresh or dried, shelled).\"W320\" is a trade grade for kernels, so it does not change the classification.\"}"
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1112,
+    "latency_ms": 3782,
+    "output_tokens": 112,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

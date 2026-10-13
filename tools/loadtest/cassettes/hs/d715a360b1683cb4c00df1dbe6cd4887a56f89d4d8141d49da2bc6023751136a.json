@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "key": "d715a360b1683cb4c00df1dbe6cd4887a56f89d4d8141d49da2bc6023751136a",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:44:23+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Upholstered office chair, steel base\nCountry of origin: CN\n\nChoose the chapter that covers these goods. Options:\n- 83: Metal; miscellaneous products of base metal\n    contains 830400: Office equipment; filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading no. 9403\n    contains 830590: Stationery; letter clips, letter corners, paper clips, indexing tags and similar office articles, including parts, of base metal\n    contains 830520: Stationery; staples in strips, (e.g. for offices, upholstery, packaging), of base metal\n- 94: Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings\n    contains 940210: Chairs; dentists', barbers' or similar chairs having rotating as well as both reclining and elevating movements, and parts thereof\n    contains 940310: Furniture; metal, for office use\n    contains 940330: Furniture; wooden, for office use\n    contains 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n    contains 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture\n    contains 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)\n- 73: Iron or steel articles\n    contains 732399: Iron or steel; table, kitchen and other household articles and parts thereof, of iron or steel n.e.c. in heading no. 7323\n    contains 730650: Steel, alloy; tubes, pipes and hollow profiles (other than stainless steel or seamless), welded, of circular cross-section, n.e.c. in chapter 73\n    contains 731412: Iron or steel; woven cloth, endless bands for machinery, of stainless steel\n    contains 731414: Iron or steel; woven cloth, of stainless steel, (other than endless bands for machinery)\n    contains 731419: Iron or steel; woven cloth, other than of stainless steel\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 74: Copper and articles thereof\n    contains 740990: Copper; plates, sheets and strip, of a thickness exceeding 0.15mm, of copper alloys (other than copper-zinc base alloys, copper-tin base alloys, copper-nickel base alloys or copper-nickel-zinc base alloys)\n- 72: Iron and steel\n    contains 722810: Steel, alloy; bars and rods, of high speed steel\n    contains 722820: Steel, alloy; bars and rods, of silico-manganese steel\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "5d7f16ce4e46db74b8199c757c0cc358d0e726cd30e8726a923b6d92b3c58421",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "94",
+      "cited": [
+        "94",
+        "940171",
+        "940139"
+      ],
+      "confidence": "0.97",
+      "reason": "An upholstered office chair with a steel frame is a seat covered by heading 9401 in Chapter 94, not a base-metal article of Chapter 73 or 83."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1951,
+    "latency_ms": 3461,
+    "output_tokens": 92,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "b3879c128ec82d32d9767f8d003a36c1e1cac3956b6b48c7c2f4491abe0d8dd5",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:13+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Deep groove ball bearing 6205-2RS\nCountry of origin: DE\n\nChoose the chapter that covers these goods. Options:\n- 84: Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof\n    contains 848220: Bearings; tapered roller bearings, including cone and tapered roller assemblies\n    contains 848230: Bearings; spherical roller bearings\n    contains 848320: Bearing housings, incorporating ball or roller bearings\n    contains 848250: Bearings; cylindrical roller bearings, including cage and roller assemblies n.e.c. in heading no. 8482\n    contains 848210: Ball bearings\n    contains 848299: Bearings; parts, (other than balls, needles and rollers)\n    contains 848330: Bearing housings, not incorporating ball or roller bearings and plain shaft bearings\n    contains 848291: Bearings; parts, balls, needles and rollers\n    contains 848240: Bearings; needle roller bearings, including cage and needle roller assemblies\n    contains 848280: Bearings; n.e.c. in heading no. 8482, including combined ball/roller\n    contains 848340: Gears and gearing; (not toothed wheels, chain sprockets and other transmission elements presented separately); ball or roller screws; gear boxes and other speed changers, including torque converters\n- 73: Iron or steel articles\n    contains 732591: Iron; grinding balls and similar articles for mills, other than of non-malleable cast iron\n    contains 732611: Iron or steel; grinding balls and similar articles for mills, forged or stamped, but not further worked\n    contains 732599: Iron or steel; cast articles, excluding grinding balls and similar articles for mills, other than of non-malleable cast iron\n- 32: Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks\n    contains 320300: Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin\n- 83: Metal; miscellaneous products of base metal\n    contains 830220: Castors; with mountings, of base metal\n    contains 830230: Mountings, fittings and similar articles; for motor vehicles, of base metal\n- 96: Miscellaneous manufactured articles\n    contains 960860: Pens; ball-point, refills comprising the ball point and ink-reservoir\n- 04: Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included\n    contains 041090: Animal products; edible products of animal origin, not elsewhere specified or included, other than insects\n- 25: Salt; sulphur; earths, stone; plastering materials, lime and cement\n    contains 250590: Sands; natural, (other than silica and quartz sands), whether or not coloured, (other than metal-bearing sands of chapter 26)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "37e7bbec32a6c2d2dfefd95836a24b8f1edb856ca47f9f75dc5467948b7840b9",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "84",
+      "cited": [
+        "848210"
+      ],
+      "confidence": "0.98",
+      "reason": "A deep groove ball bearing is a ball bearing, which falls under heading 8482 (subheading 848210) in Chapter 84."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1773,
+    "latency_ms": 3295,
+    "output_tokens": 77,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

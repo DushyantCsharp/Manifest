@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "610b6ce6e87192a1bce143017ae455e717de578041cc9a33aa3756541aa26efb",
+  "retriever": "hybrid",
+  "query": "Cashew kernels W320 origin CI",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "080132",
+      "description": "Nuts, edible; cashew nuts, fresh or dried, shelled",
+      "score": "0.032018",
+      "ranks": {
+        "lexical": 4,
+        "vector": 1
+      }
+    },
+    {
+      "code": "080131",
+      "description": "Nuts, edible; cashew nuts, fresh or dried, in shell",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 3,
+        "vector": 2
+      }
+    },
+    {
+      "code": "080112",
+      "description": "Nuts, edible; coconuts, in the inner shell (endocarp)",
+      "score": "0.027820",
+      "ranks": {
+        "lexical": 22,
+        "vector": 4
+      }
+    },
+    {
+      "code": "080122",
+      "description": "Nuts, edible; brazil nuts, fresh or dried, shelled",
+      "score": "0.027638",
+      "ranks": {
+        "lexical": 25,
+        "vector": 3
+      }
+    },
+    {
+      "code": "080119",
+      "description": "Nuts, edible; coconuts, fresh or dried, other than desiccated or in the inner shell (endocarp)",
+      "score": "0.027433",
+      "ranks": {
+        "lexical": 23,
+        "vector": 5
+      }
+    },
+    {
+      "code": "080121",
+      "description": "Nuts, edible; brazil nuts, fresh or dried, in shell",
+      "score": "0.027056",
+      "ranks": {
+        "lexical": 24,
+        "vector": 6
+      }
+    },
+    {
+      "code": "080111",
+      "description": "Nuts, edible; coconuts, desiccated",
+      "score": "0.027052",
+      "ranks": {
+        "lexical": 21,
+        "vector": 8
+      }
+    },
+    {
+      "code": "080232",
+      "description": "Nuts, edible; walnuts, fresh or dried, shelled",
+      "score": "0.025914",
+      "ranks": {
+        "lexical": 31,
+        "vector": 7
+      }
+    },
+    {
+      "code": "120710",
+      "description": "Oil seeds; palm nuts and kernels, whether or not broken",
+      "score": "0.024923",
+      "ranks": {
+        "lexical": 16,
+        "vector": 25
+      }
+    },
+    {
+      "code": "080242",
+      "description": "Nuts, edible; chestnuts (Castanea spp.), fresh or dried, shelled",
+      "score": "0.024837",
+      "ranks": {
+        "lexical": 33,
+        "vector": 11
+      }
+    },
+    {
+      "code": "080270",
+      "description": "Nuts, edible; kola nuts (Cola spp.), fresh or dried, whether or not shelled or peeled",
+      "score": "0.024697",
+      "ranks": {
+        "lexical": 38,
+        "vector": 9
+      }
+    },
+    {
+      "code": "080262",
+      "description": "Nuts, edible; macadamia, fresh or dried, shelled",
+      "score": "0.024595",
+      "ranks": {
+        "lexical": 37,
+        "vector": 10
+      }
+    },
+    {
+      "code": "080231",
+      "description": "Nuts, edible; walnuts, fresh or dried, in shell",
+      "score": "0.024444",
+      "ranks": {
+        "lexical": 30,
+        "vector": 15
+      }
+    },
+    {
+      "code": "080241",
+      "description": "Nuts, edible; chestnuts (Castanea spp.), fresh or dried, in shell",
+      "score": "0.024383",
+      "ranks": {
+        "lexical": 32,
+        "vector": 14
+      }
+    },
+    {
+      "code": "080261",
+      "description": "Nuts, edible; macadamia, fresh or dried, in shell",
+      "score": "0.024115",
+      "ranks": {
+        "lexical": 36,
+        "vector": 13
+      }
+    },
+    {
+      "code": "080299",
+      "description": "Nuts, edible; n.e.c. in heading 0801 and 0802, fresh or dried, whether or not shelled or peeled",
+      "score": "0.023693",
+      "ranks": {
+        "lexical": 42,
+        "vector": 12
+      }
+    },
+    {
+      "code": "080252",
+      "description": "Nuts, edible; pistachios, fresh or dried, shelled",
+      "score": "0.023684",
+      "ranks": {
+        "lexical": 35,
+        "vector": 16
+      }
+    },
+    {
+      "code": "080251",
+      "description": "Nuts, edible; pistachios, fresh or dried, in shell",
+      "score": "0.023625",
+      "ranks": {
+        "lexical": 34,
+        "vector": 17
+      }
+    },
+    {
+      "code": "080222",
+      "description": "Nuts, edible; hazelnuts or filberts (corylus spp.), fresh or dried, shelled",
+      "score": "0.023582",
+      "ranks": {
+        "lexical": 29,
+        "vector": 21
+      }
+    },
+    {
+      "code": "080221",
+      "description": "Nuts, edible; hazelnuts or filberts (corylus spp.), fresh or dried, in shell",
+      "score": "0.022600",
+      "ranks": {
+        "lexical": 28,
+        "vector": 29
+      }
+    }
+  ]
+}

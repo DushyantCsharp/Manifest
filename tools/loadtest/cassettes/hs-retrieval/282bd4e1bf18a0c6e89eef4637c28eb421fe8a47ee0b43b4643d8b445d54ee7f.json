@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "key": "282bd4e1bf18a0c6e89eef4637c28eb421fe8a47ee0b43b4643d8b445d54ee7f",
+  "retriever": "hybrid",
+  "query": "Frozen vannamei shrimp, peeled origin EC",
+  "limit": 20,
+  "candidates": [
+    {
+      "code": "030616",
+      "description": "Crustaceans; frozen, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",
+      "score": "0.032522",
+      "ranks": {
+        "lexical": 2,
+        "vector": 1
+      }
+    },
+    {
+      "code": "030617",
+      "description": "Crustaceans; frozen, shrimps and prawns, excluding cold-water varieties, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",
+      "score": "0.032002",
+      "ranks": {
+        "lexical": 3,
+        "vector": 2
+      }
+    },
+    {
+      "code": "030635",
+      "description": "Crustaceans; live, fresh or chilled, cold-water shrimps and prawns (Pandalus spp., Crangon crangon), in shell or not",
+      "score": "0.030159",
+      "ranks": {
+        "lexical": 10,
+        "vector": 3
+      }
+    },
+    {
+      "code": "030619",
+      "description": "Crustaceans; frozen, n.e.c. in item no. 0306.1, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",
+      "score": "0.029644",
+      "ranks": {
+        "lexical": 9,
+        "vector": 6
+      }
+    },
+    {
+      "code": "030636",
+      "description": "Crustaceans; live, fresh or chilled, shrimps and prawns excluding cold-water varieties, in shell or not",
+      "score": "0.029469",
+      "ranks": {
+        "lexical": 11,
+        "vector": 5
+      }
+    },
+    {
+      "code": "030614",
+      "description": "Crustaceans; frozen, crabs, in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",
+      "score": "0.029418",
+      "ranks": {
+        "lexical": 7,
+        "vector": 9
+      }
+    },
+    {
+      "code": "030615",
+      "description": "Crustaceans; frozen, Norway lobsters (Nephrops norvegicus), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",
+      "score": "0.028992",
+      "ranks": {
+        "lexical": 8,
+        "vector": 10
+      }
+    },
+    {
+      "code": "030695",
+      "description": "Crustaceans; shrimps and prawns, smoked, cooked or not, whether in shell or not, whether or not cooked before or during smoking",
+      "score": "0.028814",
+      "ranks": {
+        "lexical": 12,
+        "vector": 7
+      }
+    },
+    {
+      "code": "030611",
+      "description": "Crustaceans; frozen, rock lobsters and other sea crawfish (Palinurus spp., Panulirus spp., Jasus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",
+      "score": "0.026254",
+      "ranks": {
+        "lexical": 5,
+        "vector": 32
+      }
+    },
+    {
+      "code": "030612",
+      "description": "Crustaceans; frozen, lobsters (Homarus spp.), in shell or not, smoked, cooked or not before or during smoking; in shell, cooked by steaming or by boiling in water",
+      "score": "0.025461",
+      "ranks": {
+        "lexical": 6,
+        "vector": 37
+      }
+    },
+    {
+      "code": "081190",
+      "description": "Fruit, edible; fruit and nuts n.e.c. in heading no. 0811, uncooked or cooked, frozen whether or not containing added sugar or other sweetening matter",
+      "score": "0.022948",
+      "ranks": {
+        "lexical": 22,
+        "vector": 33
+      }
+    },
+    {
+      "code": "081400",
+      "description": "Peel; of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water and other preservative solutions",
+      "score": "0.016393",
+      "ranks": {
+        "lexical": 1,
+        "vector": null
+      }
+    },
+    {
+      "code": "030326",
+      "description": "Fish; frozen, eels (Anguilla spp.), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": null,
+        "vector": 4
+      }
+    },
+    {
+      "code": "320300",
+      "description": "Colouring matter of vegetable or animal origin, including dyeing extracts not animal black, whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin",
+      "score": "0.015625",
+      "ranks": {
+        "lexical": 4,
+        "vector": null
+      }
+    },
+    {
+      "code": "030392",
+      "description": "Fish; frozen, shark fins",
+      "score": "0.014706",
+      "ranks": {
+        "lexical": null,
+        "vector": 8
+      }
+    },
+    {
+      "code": "030343",
+      "description": "Fish; frozen, skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.014085",
+      "ranks": {
+        "lexical": null,
+        "vector": 11
+      }
+    },
+    {
+      "code": "030722",
+      "description": "Molluscs; scallops and other molluscs of the family Pectinidae, whether in shell or not, frozen",
+      "score": "0.013889",
+      "ranks": {
+        "lexical": null,
+        "vector": 12
+      }
+    },
+    {
+      "code": "030389",
+      "description": "Fish; frozen, n.e.c. in heading 0303, excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": null,
+        "vector": 13
+      }
+    },
+    {
+      "code": "040819",
+      "description": "Eggs; birds' eggs, yolks, fresh, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",
+      "score": "0.013699",
+      "ranks": {
+        "lexical": 13,
+        "vector": null
+      }
+    },
+    {
+      "code": "030346",
+      "description": "Fish; frozen, southern bluefin tunas (Thunnus maccoyii), excluding fillets, fish meat of 0304, and edible fish offal of subheadings 0303.91 to 0303.99",
+      "score": "0.013514",
+      "ranks": {
+        "lexical": null,
+        "vector": 14
+      }
+    }
+  ]
+}

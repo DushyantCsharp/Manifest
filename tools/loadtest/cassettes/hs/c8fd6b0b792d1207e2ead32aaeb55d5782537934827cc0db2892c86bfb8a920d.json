@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "c8fd6b0b792d1207e2ead32aaeb55d5782537934827cc0db2892c86bfb8a920d",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:45:04+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: Solar PV module 410W monocrystalline\nCountry of origin: CN\n\nChosen so far: 85 Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles > 8541 Semiconductor devices (e.g. diodes, transistors, semiconductor based transducers); including photovoltaic cells assembled or not in modules or panels, light-emitting diodes (LED) assembled with other LEDs or not, mounted piezo-electric crystals\n\nChoose the subheading that covers these goods. Options:\n- 854143: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells assembled in modules or made up into panels\n- 854142: Electrical apparatus; photosensitive semiconductor devices, photovoltaic cells not assembled in modules or made up into panels\n- 854149: Electrical apparatus; photosensitive semiconductor devices, diodes other than light emitting diodes and photovoltaic cells whether or not assembled in modules or made up into panels\n- 854129: Electrical apparatus; transistors, (other than photosensitive), with a dissipation rate of 1W or more\n- 854110: Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)\n- 854159: Electrical apparatus; photosensitive semiconductor devices n.e.c. in heading no. 8541\n- 854190: Electrical apparatus; parts for diodes, transistors and similar semiconductor devices and photosensitive semiconductor devices\n- 854151: Electrical apparatus; photosensitive semiconductor devices, semiconductor-based transducers\n- 854121: Electrical apparatus; transistors, (other than photosensitive), with a dissipation rate of less than 1W\n- 854160: Crystals; mounted piezo-electric\n- 854130: Electrical apparatus; thyristors, diacs and triacs, other than photosensitive devices\n- 854141: Electrical apparatus; photosensitive semiconductor devices, light emitting diodes (LED)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "a4fb16f903537432d92b6c5b067efe6a24da74003adc681d805f4679d0ec3721",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "854143",
+      "cited": [
+        "854143",
+        "8541"
+      ],
+      "confidence": "0.97",
+      "reason": "A 410W monocrystalline solar PV module is a photovoltaic cell assembled in a module or made up into a panel, which is the scope of subheading 854143."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1504,
+    "latency_ms": 3228,
+    "output_tokens": 89,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

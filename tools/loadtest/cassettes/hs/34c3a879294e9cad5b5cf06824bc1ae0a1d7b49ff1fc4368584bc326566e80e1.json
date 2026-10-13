@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "key": "34c3a879294e9cad5b5cf06824bc1ae0a1d7b49ff1fc4368584bc326566e80e1",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:46:22+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: PORCELAIN DINNER PLATE 27CM\nCountry of origin: PT\n\nChosen so far: 69 Ceramic products\n\nChoose the heading that covers these goods. Options:\n- 6911: Tableware, kitchenware, other household articles and toilet articles; of porcelain or china\n    contains 691110: Tableware and kitchenware; of porcelain or china\n    contains 691190: Household and toilet articles; n.e.c. in heading no. 6911, of porcelain or china\n- 6912: Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china\n    contains 691200: Ceramic tableware, kitchenware, other household articles and toilet articles; other than of porcelain or china\n- 6913: Statuettes and other ornamental ceramic articles\n    contains 691310: Ceramic statuettes and other ornamental ceramic articles, of porcelain or china\n    contains 691390: Ceramic statuettes and other ornamental ceramic articles; other than of porcelain or china\n- 6914: Ceramic articles; n.e.c. in chapter 69\n    contains 691410: Ceramic articles n.e.c. in chapter 69; of porcelain or china\n- 6910: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures\n    contains 691010: Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures; of porcelain or china\n- 6909: Ceramic ware for laboratory, chemical, other technical uses; ceramic troughs, tubs, similar receptacles used in agriculture; ceramic pots, jars and similar used in the conveyance or packing of goods\n    contains 690911: Ceramic wares; for laboratory, chemical or other technical uses, of porcelain or china\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "04347ec92f3772490ac7fd72e78eb51c1e72e92cab73a19f06f4c61085fd12be",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "6911",
+      "cited": [
+        "6911",
+        "691110"
+      ],
+      "confidence": "0.98",
+      "reason": "A porcelain dinner plate is tableware of porcelain or china, which falls under heading 6911 (subheading 691110)."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1423,
+    "latency_ms": 4460,
+    "output_tokens": 78,
+    "response_model": "claude-sonnet-5-5"
+  }
+}

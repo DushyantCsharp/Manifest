@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "key": "06b27381fa4837e96d41a601a6f6ea67eb43342b248b6cdd03f0a9b63116dab2",
+  "provider": "anthropic",
+  "recorded_at": "2026-10-13T11:43:48+00:00",
+  "recorded_with": "anthropic",
+  "request": {
+    "effort": "medium",
+    "max_tokens": 8000,
+    "model": "claude-sonnet-5-5",
+    "prompt": "Goods: NITRILE EXAMINATION GLOVES, BOX OF 100\nCountry of origin: TH\n\nChosen so far: 40 Rubber and articles thereof > 4015 Articles of apparel and clothing accessories (including gloves, mittens and mitts), for all purposes, of vulcanised rubber other than hard rubber\n\nChoose the subheading that covers these goods. Options:\n- 401519: Rubber; vulcanised (other than hard rubber), gloves, mittens and mitts other than surgical gloves\n- 401512: Rubber; vulcanised (other than hard rubber), gloves, of a kind used for medical, surgical, dental or veterinary purposes\n- 401590: Rubber; vulcanised (other than hard rubber), articles of apparel and clothing accessories (other than gloves, mittens and mitts)\n\nAnswer \"none\" if no option can cover these goods.",
+    "schema_sha256": "73602b5898b6afa54143958dc3e31fffc32b253dc8f26be9c7de30714a52a91c",
+    "system_sha256": "b94306e6f585d050b03affd95ed9d0a5c412adbb889112fb79580aea8a87fa5d"
+  },
+  "response": {
+    "data": {
+      "choice": "401512",
+      "cited": [
+        "401512"
+      ],
+      "confidence": "0.93",
+      "reason": "Nitrile examination gloves are vulcanised rubber gloves of a kind used for medical purposes, which fall under subheading 4015.12 rather than the other gloves in 4015.19."
+    },
+    "finish_reason": "end_turn",
+    "input_tokens": 1020,
+    "latency_ms": 2471,
+    "output_tokens": 96,
+    "response_model": "claude-sonnet-5-5"
+  }
+}
