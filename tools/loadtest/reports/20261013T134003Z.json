@@ -1,0 +1,359 @@
+{
+  "run": "20261013T134003Z",
+  "commit": "719cde0fa23662e094d94146b9c492b872568e83",
+  "dirty": false,
+  "generated_at": "2026-10-13T13:40:03+00:00",
+  "args": {
+    "users": "2,4,8,16,32",
+    "step": 120,
+    "concurrency": 8,
+    "keep_running": false,
+    "hs": "on"
+  },
+  "window": [
+    1791898831.363575,
+    1791899432.058968,
+    1791899653.1983669
+  ],
+  "checks": [
+    {
+      "metric": "api_p95_ms",
+      "value": 130.0,
+      "bound": {
+        "max": 250
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "pack_p50_seconds",
+      "value": 44.4255,
+      "bound": {
+        "max": 30
+      },
+      "ok": false,
+      "where": "at 8 users"
+    },
+    {
+      "metric": "pack_p95_seconds",
+      "value": 93.9,
+      "bound": {
+        "max": 60
+      },
+      "ok": false,
+      "where": "at 8 users"
+    },
+    {
+      "metric": "page_p95_seconds",
+      "value": 13.472835588684516,
+      "bound": {
+        "max": 30
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "throughput_pages_per_minute",
+      "value": 35.0,
+      "bound": {
+        "min": 30
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "api_error_rate",
+      "value": 0.0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "failed_pages",
+      "value": 0.0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "unrouted_packs",
+      "value": 0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "dlq_growth",
+      "value": 0.0,
+      "bound": {
+        "max": 0
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "cost_per_page_usd",
+      "value": 0.016275183673469387,
+      "bound": {
+        "max": 0.03
+      },
+      "ok": true,
+      "where": ""
+    },
+    {
+      "metric": "cost_per_pack_usd",
+      "value": 0.08847412244897958,
+      "bound": {
+        "max": 0.1
+      },
+      "ok": true,
+      "where": ""
+    }
+  ],
+  "totals": {
+    "pages_extracted": 294.0,
+    "pages_failed": 0.0,
+    "cost_usd": 8.670463999999999,
+    "cost_by_stage": {
+      "page_extract": 4.784904,
+      "hs_classify": 3.88556
+    },
+    "routed": {
+      "auto_approved": 9.0,
+      "needs_review": 89.0
+    },
+    "tokens": {
+      "input": 2188367.0,
+      "output": 429373.0
+    },
+    "tokens_by_stage": {
+      "page_extract/input": 700557.0,
+      "page_extract/output": 338379.0,
+      "hs_classify/input": 1487810.0,
+      "hs_classify/output": 90994.0
+    },
+    "admission": {
+      "admitted": 1258.0
+    },
+    "page_p50": 6.688552294506382,
+    "page_p95": 13.472835588684516,
+    "model_p95": 9.583043929322992,
+    "http_status": {
+      "200": 7165.0,
+      "201": 392.0,
+      "202": 294.0
+    },
+    "dlq_start": 0,
+    "dlq_end": 0.0,
+    "max_queue": {
+      "classify": 43.0,
+      "hs_classify": 3.0,
+      "page_extract": 43.0,
+      "reconcile": 28.0
+    }
+  },
+  "database": {
+    "pages_extracted": 294,
+    "shipments_auto_approved": 9,
+    "shipments_needs_review": 89,
+    "hs_suggestions": 337
+  },
+  "steps": [
+    {
+      "users": 2,
+      "start": 1791898831.363575,
+      "end": 1791898951.363575,
+      "pages": 18.0,
+      "packs": [
+        16.5,
+        37.871,
+        32.652,
+        32.613,
+        16.343
+      ],
+      "unrouted": 0,
+      "page_p95": 13.594902712428913,
+      "max_queue": {
+        "classify": 0.0,
+        "hs_classify": 0.0,
+        "page_extract": 0.0,
+        "reconcile": 0.0
+      }
+    },
+    {
+      "users": 4,
+      "start": 1791898951.363575,
+      "end": 1791899071.363575,
+      "pages": 30.0,
+      "packs": [
+        74.4,
+        15.347,
+        18.392,
+        49.923,
+        17.33,
+        38.689,
+        22.465,
+        72.422,
+        41.952,
+        15.345,
+        103.915
+      ],
+      "unrouted": 0,
+      "page_p95": 14.691634448125779,
+      "max_queue": {
+        "classify": 0.0,
+        "hs_classify": 0.0,
+        "page_extract": 0.0,
+        "reconcile": 0.0
+      }
+    },
+    {
+      "users": 8,
+      "start": 1791899071.363575,
+      "end": 1791899191.363575,
+      "pages": 57.0,
+      "packs": [
+        70.328,
+        28.564,
+        21.424,
+        25.679,
+        40.063,
+        27.513,
+        27.58,
+        52.302,
+        60.254,
+        42.975,
+        46.951,
+        25.522,
+        49.82,
+        93.9,
+        45.876,
+        62.353,
+        46.995,
+        40.867
+      ],
+      "unrouted": 0,
+      "page_p95": 13.07142857142857,
+      "max_queue": {
+        "classify": 0.0,
+        "hs_classify": 0.0,
+        "page_extract": 0.0,
+        "reconcile": 0.0
+      }
+    },
+    {
+      "users": 16,
+      "start": 1791899191.363575,
+      "end": 1791899311.363575,
+      "pages": 70.0,
+      "packs": [
+        67.303,
+        43.871,
+        47.943,
+        50.981,
+        49.344,
+        45.773,
+        70.872,
+        59.848,
+        62.722,
+        64.944,
+        71.91,
+        80.1,
+        88.257,
+        91.7,
+        98.509,
+        103.968,
+        101.15
+      ],
+      "unrouted": 0,
+      "page_p95": 13.718749999999995,
+      "max_queue": {
+        "classify": 9.0,
+        "hs_classify": 0.0,
+        "page_extract": 11.0,
+        "reconcile": 6.0
+      }
+    },
+    {
+      "users": 32,
+      "start": 1791899311.363575,
+      "end": 1791899431.363575,
+      "pages": 69.0,
+      "packs": [
+        92.236,
+        87.31,
+        104.506,
+        87.191,
+        93.891,
+        133.62,
+        90.952,
+        129.762,
+        171.033,
+        101.915,
+        132.148,
+        98.167,
+        113.912,
+        96.898,
+        110.79
+      ],
+      "unrouted": 0,
+      "page_p95": 12.45833333333333,
+      "max_queue": {
+        "classify": 43.0,
+        "hs_classify": 0.0,
+        "page_extract": 43.0,
+        "reconcile": 18.0
+      }
+    }
+  ],
+  "api": {
+    "GET GET /v1/shipments/{id}": {
+      "requests": 7154,
+      "failures": 0,
+      "p50_ms": 14.0,
+      "p95_ms": 53.0,
+      "p99_ms": 160.0
+    },
+    "POST POST /v1/shipments": {
+      "requests": 98,
+      "failures": 0,
+      "p50_ms": 25.0,
+      "p95_ms": 57.0,
+      "p99_ms": 120.0
+    },
+    "POST POST /v1/shipments/{id}/documents": {
+      "requests": 294,
+      "failures": 0,
+      "p50_ms": 16.0,
+      "p95_ms": 71.0,
+      "p99_ms": 200.0
+    },
+    "POST POST /v1/shipments/{id}/documents/{id}:finalize": {
+      "requests": 294,
+      "failures": 0,
+      "p50_ms": 23.0,
+      "p95_ms": 130.0,
+      "p99_ms": 220.0
+    },
+    "PUT PUT part (S3)": {
+      "requests": 294,
+      "failures": 0,
+      "p50_ms": 6.0,
+      "p95_ms": 12.0,
+      "p99_ms": 17.0
+    },
+    "PIPELINE pack: first finalize -> routed": {
+      "requests": 66,
+      "failures": 0,
+      "p50_ms": 60000.0,
+      "p95_ms": 130000.0,
+      "p99_ms": 171000.0
+    }
+  }
+}

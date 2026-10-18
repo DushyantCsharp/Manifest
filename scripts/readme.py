@@ -316,9 +316,11 @@ def main() -> int:
     reports = load_tests()
     if not reports:
         raise SystemExit("no load-test report: run `make loadtest` first")
+    # The headline tables describe the whole pipeline, so prefer the newest run with HS on.
+    headline = next((r for r in reports if with_hs(r)), reports[0])
     blocks = {
-        "targets": targets_block(evals, reports[0]),
-        "cost": cost_block(evals, reports[0]),
+        "targets": targets_block(evals, headline),
+        "cost": cost_block(evals, headline),
         "tenx": tenx_block(reports),
     }
     current = README.read_text()
